@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="380e234e-cf02-482b-91be-20cf84f69547"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InformacionPago"
+	namespace="Sura.Emision">
+	</codegen>
+	<variables>
+		<var
+		id="1d80cbc4-b04d-4dff-b6da-89cf069416fd"
+		name="NroTC">
+			5895623732428037
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="89569a68-91cc-44e0-82c7-1e001591245c"
+		sx="95"
+		sy="460"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="52cf72cb-5474-43f3-b8e7-6bcae0d5c961"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="3"
+				prefcap="spantag"
+				rect="42,453,106,14"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-tree-node-text&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Informaci&#243;n del Pago
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-tree-node-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'westPanel-innerCt']/div[3]/div[3]/div[1]/?/?/div/table[9]//span[@innertext='Informaci&#243;n del Pago']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9fdcd6dd-8855-45cd-b81d-5afa93d49764"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c3c45081-ed60-4212-b589-ef8c3b4d6464"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/BillingInfo']/table/tbody/tr[5]/td/?/?/table/tbody/tr[8]//table/?/?/tr/td[2]/div/div[3]/div[1]/div/table[1]/?/?/tr/td[1]/?/?/div
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="f7800a29-20e4-4d19-9bea-19c7b72f60c2">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c3c45081-ed60-4212-b589-ef8c3b4d6464"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="339,490,15,15"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-grid3-radio-col-on x-grid3-cc-radiocolumn-2253
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-grid3-cc-radiocolumn-2253 x-grid3-radio-col-on
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='preproducciongestion.segurossura.com.ar']//div[#'SubmissionWizard/BillingInfo']/table/tbody/tr[5]/td/?/?/table/tbody/tr[8]//table/?/?/tr/td[2]/div/div[3]/div[1]/div/table[1]/?/?/tr/td[1]/?/?/div
+				</path>
+			</info>
+			<helperscreenshot
+			guid="738ea4d8-11a4-4445-b34a-cf73bf236e67">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAuAFoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoajME
+ZYkg8nJG44/LpUvlr/tf99Gjy1/2v++jQAlFL5a/7X/fRo8tf9r/AL6NACUVUvL63s5RHIspJXd8
+p/8Ar+1V/wC2bP8AuXH5/wD16lySJc4rqadFZn9s2f8AcuPz/wDr1oxBJYkkXcA6hhlj3pqSewKS
+ew6il8tf9r/vo0eWv+1/30aZQlFL5a/7X/fRo8tf9r/vo0AOooooAKKKKAMu6O3xBbn/AKZ//FVa
+nuYLeRUlyzNznGcVVul3a/bj/pmf/ZqtyRpIymWLLL04J/lUx6kR6kOrnGnTLnggEf8AfQqzZf8A
+Hjb/APXNf5VV1UH+zZmYY+6AP+BCrVl/x42//XNf5UfaD7ZNRRRVFhRRRQAmT6UZPpRRQAZPpRk+
+lFFAFO806K8lEkjOCF2/KR/h71B/Ydt/fl/76H+FadNUswBGAD61LimS4RfQzv7Dtv78v/fQ/wAK
+0Yk8qJI15CKFGT6UqtnI7g4paailsCilsGT6UZPpRRTKDJ9KMn0oooA//9k=
+			</helperscreenshot>
+			<matchname>
+				Enabled
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ad7a382e-81dc-443b-a44a-b3373e351a87"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5d98e0b6-7f8d-40fe-8eb4-f0c06455fced"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/BillingInfo']/table/tbody/tr[5]/td/?/?/table/tbody/tr[8]//table/?/?/tr/td[2]/div/div[3]/div[1]/div/table[2]/?/?/tr/td[2]/?/?/div
+				</path>
+			</info>
+		</mouseitem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="61b29650-f32a-4a8d-a19e-3845bedab5ef"
+		varname="NroTC">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5d98e0b6-7f8d-40fe-8eb4-f0c06455fced"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/BillingInfo']/table/tbody/tr[5]/td/?/?/table/tbody/tr[8]//table/?/?/tr/td[2]/div/div[3]/div[1]/div/table[2]/?/?/tr/td[2]/?/?/div
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="d0ecbe85-5393-4ce7-98c1-88eca0752e82">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="NroTC">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InformacionPago.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

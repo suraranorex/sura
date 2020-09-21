@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="522c1674-af8e-481b-94f3-1af91492e908"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="MenuSuperior_SolicitudPoliza"
+	namespace="Sura.Menu">
+	</codegen>
+	<variables>
+		<var
+		id="96c83125-ae54-4949-bedd-c74964a99cc1"
+		name="NumSolicitudPoliza">
+			0010490216
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="CenterRight"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a1ba32e9-495b-4690-8077-f6306531ffe3"
+		sx="398"
+		sy="81"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="226d1622-cef6-425c-8220-d3fe923dbe31"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="378,76,34,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-gw-top-menu-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						TabBar:PolicyTab-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#243;liza
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-gw-top-menu-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'TabBar:PolicyTab']//span[@innertext='&#243;liza']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="8e8d453f-4adf-425d-9c9c-d728aba57e2d">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAsAFcDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDF2N6U
+bG9K6b+wLX/nrP8AmP8ACj+wLX/nrP8AmP8ACgDmdjelGxvSr99apbXjwozFVxgnGegNQeX7mm9N
+2OEZTvyq9ivsb0o2N6VY8v3NHl+5pc0e5p7Cr/Kyvsb0o2N6VY8v3NHl+5o5o9w9hV/lZX2N6UbG
+9Kn2D1NGweprT2cjm9rEg2N6UVp6ZZR3lw0cjOAELfKR6j296Khqzsy4tSV0dODkAjv60tFFSM5r
+V/8AkJy/8B/kKqAZcD1NW9X/AOQnL/wH+QqquA4JBIB7HBrXmUZJvsEac6lGSgrvm/Rl2SyjRicM
+gRjuEjfeUd+BmontSNoRC7yMQio3GNoYdaa04EjSRBlds7i7Bgc+2BU+mzSS6rbB2yNzHGAP4CP6
+U/aLoyfq1RayjoV47R5BHtZfnQPjDEge+BUToY5GRuqkg1fS2uBbxtDOvMUJ2vEpBLHA5x2wKoyh
+xPIJSDIHYMR0JB5qak7wdy8LSftotIkt7Oe5RmhQMF6/MBj86gIwSPSnJI8YYIxXcMHHcUyunU4d
+DT0H/j9f/rmf5iijQf8Aj9f/AK5n+YormqfEdNL4Sx9u1L/nz/8AITUfbtS/58//ACE1bVFQaHL3
+MN3cztM9tKGbGcRnHTFRfYrn/n3m/wC+DXW0VXMyeSPY5L7Fc/8APvN/3wa0tIsovMhkKyQ3MA/e
+Rvn58gjcM1t1naz/AKPbm+i+WeHADf3gSAQfUc0OTYKKWxo4HpXKzW001xPJHDI6tK+GVSQfmNaO
+qancQWCvFtVnA5x0+latvClvAkMf3UGB7+596SbWw2k9zlvsVz/z7zf98Gj7Fc/8+83/AHwa62in
+zy7k8kexzNol7ZymSO1kJK7fmjP+e1FdNRSbvuUklsf/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="965b302e-2e8f-4b9e-9f87-5296a1d0e944">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="NumSolicitudPoliza">
+				</binding>
+			</bindings>
+			<info
+			id="1343ffed-1a04-43be-a32c-e090ebe83ae8"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[@class~'x-menu']//span[@innertext='Solicitud de P&#243;liza N.&#186;']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="767c887e-7061-4e8c-9b15-53b87760c95d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1343ffed-1a04-43be-a32c-e090ebe83ae8"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[@class~'x-menu']//span[@innertext='Solicitud de P&#243;liza N.&#186;']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="23af5e5c-45fa-4b19-b8bf-d490742049d0"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8f98f8d9-d905-4173-abe7-5da5fba31e5a"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="264,143,170,17"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Informaci&#243;n de p&#243;liza
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div/table//span[@innertext='Informaci&#243;n de p&#243;liza']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		MenuSuperior_SolicitudPoliza.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

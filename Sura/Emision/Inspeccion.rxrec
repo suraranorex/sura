@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bb19016f-7bdd-4742-a52d-89a9c1f77670"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Inspeccion"
+	namespace="Sura.Emision">
+	</codegen>
+	<variables>
+		<var
+		id="7cf10a12-102c-4243-812a-fcb48872b1be"
+		name="TIPO_INSPECCION">
+			Posterior
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="15;4"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="887fffbb-89cc-4be7-8969-28313ca4da78"
+		sx="483"
+		sy="234"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6add5bb7-43d2-4a5d-9c8e-60ed5cba51c5"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="468,230,102,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:Job_Wizard_InspectionScreen:cordinateInspection-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Coordinar inspecci&#243;n
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'SubmissionWizard:Job_Wizard_InspectionScreen:cordinateInspection']//span[@innertext='Coordinar inspecci&#243;n']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="461dd749-fc30-4a86-a1be-4ff0e83bd6de">
+				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
+UqOSnv5MNixW9vPHCkjETNKyxg5UOOcH2pzXNuJzF5Sw4Q8SRcq3bPB7VpafZbtORJw6PsljK+gZ
+v/rCm6rZmYIkZG+a43fN0GIyP/ZarmMXBN7lSS5tSgP7t3VMD93xnbx29aSKWyO1pCgJUb18sYzj
+n+H+WKP7Cuv+ekP5n/Cj+wrr/npD+Z/wo532K9jD+dfcyvJLCbiEAJ5S7d2E/PPGTUpntt+0LFs8
+vvH/ABZ9cZ6U/wDsK6/56Q/mf8KP7Cuv+ekP5n/CjnfYXsIfzr7mKGt2jkkRoRjbnMWQvJ6fL/Sk
+M1jt+VE25OQRz16jj+oo/sK6/wCekP5n/Cj+wrr/AJ6Q/mf8KOd9h+xh/OvuYxpIdsm2S3DE/KfJ
+4C+n3etO86z3DHlhc/ODHksNo6ccc/Sl/sK6/wCekP5n/Cj+wrr/AJ6Q/mf8KOd9vyD2MP519zIZ
+prdonRAg+RduEwc9+cVN4f8A+P5/+uZ/mKP7Cuv+ekP5n/Crul6bNZ3DSSuhBTaApPqP8KmTcrKx
+pTjCnzPmvdW2Zp0UUUGYUUUUAFFFFABRRRQAUUUUAFFFFABUV1brcwFCdrdUfujdiKlooAoxajHH
++5vnWC4QfNuOFb/aU9xSJP8Abr2FoAxt4cuZCvyu2CoA/M8+1X6KACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigD/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="6000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="25;5"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c838dc5a-64b4-4a72-8b22-64fe3583e9d8"
+		sx="67"
+		sy="323"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="786b78c3-23cd-48a7-80e9-5f606ebecd54"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'westPanel-innerCt']//span[@innertext='Veh&#237;culos']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="401b2c38-2c9d-481c-91b8-9fad684fcc09"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9e5660a1-d808-428c-a99e-cbc3af1b83ce"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Veh&#237;culos']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="87d910a9-28fe-42e4-8de3-b6297baefb1f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="ab67229d-ad02-4770-a377-82ae1859b12e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="823f747f-2388-4e5f-8df6-61c366be89c8"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Tipo']/../..//div[@innertext~'Inspecci&#243;n' and @innertext~$TIPO_INSPECCION]
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="14;10"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0d8d7d9b-95a6-4f2e-a03c-09009c868d92"
+		sx="343"
+		sy="494"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fc1d9f91-c731-4ff3-b59b-43f27b5aec98"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="329,484,183,20"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-display-field x-form-display-field-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CA7InspectionDetailDV:InspectionType-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Inspecci&#243;n Posterior
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-display-field x-form-display-field-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[6]//table/tbody/tr[3]/td/div/div[2]/?/?/table/tbody//table/tbody/tr[2]//table/tbody/tr[2]//table/?/?/tr/td[1]/?/?/table/tbody/tr[3]/td/div/div[1]/div[@innertext='Inspecci&#243;n Posterior']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="24f6fb66-4fa0-4493-a190-7512035ecd07">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABfAWgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACqxhL3T
+NsUYKkOfvfQVZooAqK9wRJncGA6behz24/qaexlUlS8m0N94KCen09asUUAU185IV2qc7Bk7eepz
+2p4M7IPnYfITkL1PbqKs0UAVXaYByC+cg428AcZxxU8BYxAucn3GP6Cn0UAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+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
+/qn/AN00VUSJH//Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="9;8"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e45981eb-5ab7-4f8e-a67f-d940605c246f"
+		sx="214"
+		sy="492"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="823f747f-2388-4e5f-8df6-61c366be89c8"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="205,484,120,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-item-label-inner x-form-item-label-inner-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Tipo
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-item-label-inner x-form-item-label-inner-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[6]//table/tbody/tr[3]/td/div/div[2]/?/?/table/tbody//table/tbody/tr[2]//table/tbody/tr[2]//table/?/?/tr/td[1]/?/?/table/tbody/tr[3]/td/?/?/label/span[@innertext='Tipo']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="1628357e-317e-4bb1-91b9-ce1c28e97090">
+				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
+KKAP/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Inspeccion.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

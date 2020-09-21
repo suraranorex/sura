@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b4ea2874-0be6-4be0-b1e7-a4f7d629c87d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Endoso_Adicional"
+	namespace="Sura.Endosos">
+	</codegen>
+	<variables>
+		<var
+		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
+		name="Ambiente">
+			preproducciongestion.segurossura.com.ar
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="57;6"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="18832335-8dab-40e1-84d9-a4bc01136155"
+		sx="354"
+		sy="333"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="db47b9b3-ec90-454d-afdf-b889c62e93f5"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="297,327,105,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-tab-inner x-tab-inner-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:AdditionalCovCardTab-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Coberturas Adicionales
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-tab-inner x-tab-inner-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[5]//table/tbody/tr[3]/td/div/div[1]/div[1]/div[2]/div/a[3]//span[@innertext='Coberturas Adicionales']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="6efa2469-18fb-4870-92f8-bd420ba7e5af">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="6;6"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="4c2ba760-ba49-40f7-8dce-1d965d8af5ff"
+		sx="180"
+		sy="355"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9253771f-cce5-46a5-901c-d7c5aacd0b7d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="222,382,15,15"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-checkbox x-form-checkbox-default x-form-cb x-form-cb-default &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:AddCovs:CA7SpecialAdditionalCoveragesDV:1:CA7CoverageInputSet:CovPatternInputGroup:_checkbox
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-cb x-form-cb-default x-form-checkbox x-form-checkbox-default x-form-field
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="hidefocus"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody//div/table/tbody/tr[1]/td/?/?/legend/div[1]/div/?/?/input[@type='button']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="28;5"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="561a50e4-83b3-4f1f-abab-d94227533977"
+		sx="539"
+		sy="213"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="72e2b2c4-b651-49e3-a0fc-ba553b78746d"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="511,208,50,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:JobWizardToolbarButtonSet:QuoteOrReview-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Re-Cotiar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//table//span[@innertext~'Re-Cotiar']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="7a23c7ee-3b85-4a56-bbaa-f18ee4f1fa7c">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAvAJADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKpf
+2hZf892/8eo/tCy/57t/49T5X2J549y7RVL+0LL/AJ7t/wCPUqXtnI6oszFmOAPmo5X2Dnj3LlFN
+8serf99Gobme3tdvnyMm7OOWOfypbFpOTsixRVD+0rD/AJ7t/wCP0f2lYf8APdv/AB+lzLuX7Gp/
+K/uL9FUP7SsP+e7f+P0f2lYf892/8fo5l3D2NT+V/cX6Kof2lYf892/8fo/tKw/57t/4/RzLuHsa
+n8r+4v0VVt7q1uXKQyszAZx8w4/GrHlj1b/vo007kSi4uzQ6im+WPVv++jR5Y9W/76NAh1FN8ser
+f99Gjyx6t/30aAOcW1ZioDqSwyAAx49eBThZsNyuw3gHaoPJ5x6VEs8idGHTbyoPGc0pupiDl+vf
+aM9c9frXVqecnHqO+yNyfMj2rnLc4GMcdPem2n/H5D/10X+dI9xK4ILDBBBwoHX/APVS2n/H5B/1
+0X+dGttR6XVjpj1H1rH8Q9bb/gX9K2SM49qxvEPW3/4F/SuKfwnr4f8AiK3n+RStLaOaMs4PDAcM
+BgYJJ6c9OlI1jKIw6ruBwQADnn8KhSd4wAjYwwbp3FElw0igOVOO+0Z/OovEyUK9tn+JMYE3JCqs
+ZXAOcgAZ9sVGsURbHmqTuCjCtgnrjOMZoFzIAo3D5cbTtGR+PWrVukl1aKqMiO14cEoMDEXoKqPK
+2Jxqpa3X3kJszkYZeWKgYJPH4c02a0aFSXZBg4xzk8A+nvUjS3iQLJIqN8iuXULhVfIAII55z3qv
+LcPL99s856Y7Af0FJpLcEqsvhu/vL2g/8f7/APXM/wAxW/WBoP8Ax/v/ANcz/MVv1UNjavdNX3sg
+oooqzAKKKKAIvstt/wA+8X/fAo+y23/PvF/3wKlop3YuVdiL7Lbf8+8X/fApVtoFYMsMYI6EKKko
+ouwsgpkkMUuPNjR8dNyg4p9FIpNrYh+x2v8Az7Q/98Cj7Ha/8+0P/fAqailZD55dzO1G3iihR44U
+RA481kiUlUweeQe+KmsLXyUfeY3zJvRkUAfdAzjsevT1q3VCOO4sG8qGFri26oA4DR+3J5HpTsJy
+b3ZJfRRi3UBFAMkSYx1AcYH05NS/Y7X/AJ9of++BVfZc3k8ZniEEETb9hbLOw6dOAM89e1XqLApN
+bMjjghibdHFGhxjKqBUlFFANt7hRRRQIKKKKAP/Z
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="11797559-e995-4a2a-9075-273eaf7a8d22"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="780dee08-36d7-4a4f-9c5c-e242404e5882"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext~'Cotizaci&#243;n']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Endoso_Adicional.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

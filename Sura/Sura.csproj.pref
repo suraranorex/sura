@@ -1,0 +1,23 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="PC.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="PC.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Sura.Emision.EmisionPoliza.AprobacionBloqueo()" />
+      <Element value="Sura.Emision.EmisionPoliza.AprobacionBloqueo()" />
+      <Element value="Sura.Emision.EmisionPoliza.Mouse_Click_bttn_Aceptar(RepoItemInfo spantagInfo)" />
+      <Element value="Sura.Emision.Coberturas_HogarNoEnlatado.SeleccionaCoberturaHogar()" />
+      <Element value="Sura.Emision.EmisionPoliza.guardarNumPoliza()" />
+      <Element value="Sura.Emision.EmitirHogarNoEnlatado.guardarNumPoliza()" />
+    </Array>
+  </Properties>
+</Properties>

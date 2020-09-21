@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="085b53f1-04fc-476c-90be-36dae7a01cb1"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="MenuLateral_CuentaPC_ContinuaTrans"
+	namespace="Sura.Menu">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				================== Continuar Transaccion
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="92607960-6779-4db0-9d89-063e4695952e"
+		sx="118"
+		sy="265"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="27e8bab5-2ff8-4733-9f87-6d45a8911f5d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="2"
+				prefcap="spantag"
+				rect="0,71,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext='Transacciones de p&#243;liza']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="552356a8-8a9e-4559-97b9-81b85b597771"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f335b516-1672-43f5-ade8-2fbec205a0a3"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'AccountFile_WorkOrders-tbody']//span[@innertext&gt;'Transacciones de p&#243;liza']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				================== Carga Documentos
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0d59fbcc-deeb-4dd9-b310-84849ba74425"
+		sx="207"
+		sy="188"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="404fc9f4-0e87-42e4-92e3-e7935ac2333c"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="20,175,197,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-wrap x-btn-wrap-action-small x-btn-arrow x-btn-arrow-right
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						AccountFile:AccountFileMenuActions-btnWrap
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-arrow x-btn-arrow-right x-btn-wrap x-btn-wrap-action-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'AccountFile:AccountFileMenuActions']/span
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a93c561a-ff32-43b8-a9cb-d1037b1a061c">
+				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
+X8qQ7Fuiqn2p/Rfyo+1P6L+VAH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="82d0cf03-12d5-4b3c-a19c-fde40cdba3bd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ed2974b6-5665-43a4-ac01-4c6099576f82"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[12]/div/div[2]/div/div[2]//span[@innertext='Documentos nuevos']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="7caffb32-2dd6-40ae-8cb2-e146362a9a66"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c2bffed7-5c75-4efa-bd6c-9dae3b06b8c8"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//a[@class='x-menu-item-link']//span[@innertext='Cargar documentos']
+				</path>
+			</info>
+		</mouseitem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				================== Validacion de Ingreso
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="8d32d167-acb8-4833-acf7-9c30d451d90e"
+		waitaction="Exists"
+		waittimeout="15000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9d7f702f-ba52-4a2a-82fe-8d478c24c96d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'southPanel']//div[@id~'tabbar-[0-9]+-innerCt']//span[@innertext&gt;'Cargar documentos']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		MenuLateral_CuentaPC_ContinuaTrans.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

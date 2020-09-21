@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1d79dcb5-1549-48cb-818a-a84eff74d814"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Emitir_Endoso_ABM_Accesorio_2"
+	namespace="Sura.Endosos">
+	</codegen>
+	<variables>
+		<var
+		id="052ee429-fd11-4492-90f3-d368b4895c03"
+		name="NumSolicitudEndoso">
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="16;5"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a239e649-8b98-4463-a347-3b865c0b8755"
+		sx="242"
+		sy="146"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0333a54c-f45b-4a32-98c4-0af6e105d57b"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="362,183,70,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						PolicyChangeWizard:PolicyChangeWizard_QuoteScreen:JobWizardToolbarButtonSet:BindPolicyChange-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Emitir Endoso
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext~'Emitir Endoso' or @innertext~'Emtir Endoso']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="11;4"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f4abee12-3db5-46d5-8e8f-fd9e8b0172e6"
+		sx="660"
+		sy="415"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a82638ae-274b-4817-9cad-a1d43bce9e34"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="649,411,26,8"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						button-1005-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Aceptar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//span[@innertext~'Aceptar']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="12b8acd6-8550-4515-ad26-4baf2b773f27">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABLAFQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCKitr+
+yLf+/L+Y/wAKP7It/wC/L+Y/wrr9rE4Pq8zFora/si3/AL8v5j/Cj+yLf+/L+Y/wo9rEPq8zFora
+/si3/vy/mP8ACj+yLf8Avy/mP8KPaxD6vMxaK2v7It/78v5j/Cj+yLf+/L+Y/wAKPaxD6vMxaK2v
+7It/78v5j/Cj+yLf+/L+Y/wo9rEPq8zFora/si3/AL8v5j/Cij2sQ+rzJwJx034GOMj8u/8AOnfv
+9i9dwbnpyKf5g9DR5g9DXLY7rorM9wGVdx3EZ/h61MfOJJ+ZR2AxnrT/ADB6Gq8upWsMhjkkKsOo
+2mk9Nyopydoq4+QzhVxnOAOMdfenKZjLkgqnpxUH9r2X/PU/98mj+17L/nqf++TS5l3L9lU/lf3E
+gFxvz8wBxnp/nH60o+0DruOB/s8/4VF/a9l/z1P/AHyamgu4bhC8TFlBxnGOaE09hShOKvJNC/vt
+qdc5Oen4U0rcYHzE9M9OKl8weho8wehqrGd0Rjzx6/jiipPMHoaKLBdEdFVvt9t/z0/8dNH2+2/5
+6f8AjprTlfYy549yzXLsSJBtAyVHGM9hW/8Ab7b/AJ6f+OmseW2Qv8lxGVwACVYdvpUyi9NDajOP
+vLmSuv1Q6a2eNGfcjKoySEB6A5/lSR20rFw6iNkOCrRjOcZHT2qCa2CwufPjOFJwN3PH0rRvdPN1
+qEjLM0ZecR/dBGBEGz+lHqrfIlqS2nf0bKlzC9sAXZCSeAEFWNF/15/3W/mtUltZBs82SJS8ayDr
+0bPt7Vf0/wAm1YtJOpOCAFVu+O+PalZtppF8yjTkpTTbt1/zKcSeZKqZxuOM1YFmzKXGUUf3xzR9
+ntv+fv8A8hmj7Pbf8/f/AJDNdDueal3/ADEazZTySf8AdUmil+z23/P3/wCQzRRqOy/pmz9ltf7k
+f5Cj7La/3I/yFWaK5rs7uVdit9ltf7kf5Cj7La/3I/yFWaKLsOVdjFnsIXu5YnJjEw/curZX7uCp
+HTPU/wD6q2qiubeO6i8uQHrlWHBU9iD61XX+00jKkWsjDgOWZc+5AH9aG7jSsBihl1KYSKh2wxgZ
+7cvUn2W1/uR/kKWztjbiRpJPNmkbc77cZ9B9B/jVii7CyK32W1/uR/kKPstr/cj/ACFWaKLsXKux
+W+y2v9yP8hRVmii7DlXYKKKKRQUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="77c1b605-e3a9-47fe-834a-63a8ab637387"
+		waitaction="Exists"
+		waittimeout="45000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2ab69754-172b-4e70-bf62-a3568b31316a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'JobComplete-tbody']//span[@innertext&gt;'Solicitud de Endoso Emiti']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="dc32ebb5-b18a-4b38-9a2a-c00f4af81514">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		captureregex="[0-9]{10}"
+		enabled="True"
+		optional="False"
+		searchpropertyid="95d5a5bb-e1b9-43da-aafa-1ced9b99dc42"
+		varname="NumSolicitudEndoso">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="822355d7-9fd4-4672-b203-89c62180d8da"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="labeltag"
+				rect="175,203,370,14"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-component g-msg-info x-component-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						JobComplete:JobCompleteScreen:Message
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Se contrat&#243; Solicitud de Endoso (n.&#176; 0060482063), con el N.&#186; de endoso 1.
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-msg-info x-component x-component-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'JobComplete-tbody']//label[@innertext&gt;'Se contrat&#243; Solicitud de Endoso']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				El n&#250;mero de endoso emitido es:
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="0c9e45d6-53da-4a17-955c-f7d8a653f561">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="NumSolicitudEndoso">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Emitir_Endoso_ABM_Accesorio_2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

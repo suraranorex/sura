@@ -1,0 +1,2536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a93951bd-80cf-41c1-8e67-9011eade6d41"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Vivienda_Enlatada"
+	namespace="Sura.Emision">
+	</codegen>
+	<variables>
+		<var
+		id="f73ee919-8612-456f-a313-284304a22795"
+		name="Provincia">
+			Buenos Aires
+		</var>
+		<var
+		id="5e5f6e2e-6dee-40de-a61d-9a6a1dc05a9e"
+		name="Localidad">
+			Lomas de zamora
+		</var>
+		<var
+		id="9d790da2-40b6-4878-94d5-10f04b10a8d1"
+		name="Calle">
+			Pavon
+		</var>
+		<var
+		id="ccb50087-6750-400c-9ba2-15079cb88a7c"
+		name="TipoVivienda">
+			Permanente
+		</var>
+		<var
+		id="836c1c3e-d03c-4189-b740-e4b62f5a283f"
+		name="Producto">
+			L.F. Casa/Dpto PB 1&#176; Piso
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="CenterLeft"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c5918fa3-f024-4af8-aae8-a6b7427d821c"
+		sx="284"
+		sy="351"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="108e6dab-5011-4d7a-9665-11abdfdc821f"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, tdtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="tdtag"
+				rect="175,351,1184,20"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-table-layout-cell&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ext-element-895
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-table-layout-cell
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						td
+					</attribute>
+					<attribute
+					name="colspan"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="rowspan"
+					type="System.String">
+						1
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-cellid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/HomeownersDwelling']/table/tbody/tr[5]/td/div/div[2]/div/table//div/table//div/table/tbody/tr[4]/td
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b66c8f7c-7c18-457c-b891-b94c1f47c8d2">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="b9c3d10b-faa0-474d-bd08-4c4bfc341adb"
+		sx="557"
+		sy="382"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ddbec7fd-67cc-4727-b76f-a212f91d8896"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="546,372,80,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-menu-item-text x-menu-item-text-default x-menu-item-indent-no-separator
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:HODwellingHOEScreen:HODwellingSingleHOEPanelSet:HomeownersListDetailPanel:HODwellingDetailsHOEDV:HODwellingLocationHOEInputSet:HODwellingLocationInput:NewGarageLocation-textEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Ubicaci&#243;n nueva
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-menu-item-indent-no-separator x-menu-item-text x-menu-item-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[15]/div/div[2]//span[@innertext='Ubicaci&#243;n nueva']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ff0b7057-52c8-49ec-a73f-9d0fbf4757ee">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="5fbd8c3d-7756-4bfe-a35d-789a3c2d4fd8"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e17f5264-cce4-4b2a-b51b-8eef590f916f"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="175,149,212,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						HODwellingLocationPopup:LocationScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Informaci&#243;n de ubicaci&#243;n
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[1]/td/div/div/div/div/?/?/span[@innertext='Informaci&#243;n de ubicaci&#243;n']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				---------------------------
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="afb51cbb-635e-43ae-8344-2afc52665fa4"
+		sx="382"
+		sy="266"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4c279d23-4280-4889-a913-6930d4b84062"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="299,257,166,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						HODwellingLocationPopup:LocationScreen:LocationDetailPanelSet:LocationDetailCV:LocationDetailDV:LocationDetailInputSet:TargetedAddressInputSet:globalAddressContainer:GlobalAddressInputSet:State-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						NEUQUEN
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						HODwellingLocationPopup:LocationScreen:LocationDetailPanelSet:LocationDetailCV:LocationDetailDV:LocationDetailInputSet:TargetedAddressInputSet:globalAddressContainer:GlobalAddressInputSet:State
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						NEUQUEN
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'Provincia']/../..//input
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="2e837bed-2607-417c-b91e-db60d2610686">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Provincia">
+				</binding>
+			</bindings>
+			<info
+			id="4c279d23-4280-4889-a913-6930d4b84062"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="299,257,166,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						HODwellingLocationPopup:LocationScreen:LocationDetailPanelSet:LocationDetailCV:LocationDetailDV:LocationDetailInputSet:TargetedAddressInputSet:globalAddressContainer:GlobalAddressInputSet:State-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						CAPITAL
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						HODwellingLocationPopup:LocationScreen:LocationDetailPanelSet:LocationDetailCV:LocationDetailDV:LocationDetailInputSet:TargetedAddressInputSet:globalAddressContainer:GlobalAddressInputSet:State
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						CAPITAL
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'Provincia']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="cb8c21ae-d01d-4700-a9fb-ea87fc62dbf4">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4c279d23-4280-4889-a913-6930d4b84062"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="0,71,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'Provincia']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="b77c54c2-66c3-4810-afb8-6fb80b3c8e17"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2135d57b-d51f-4aca-b8c5-31bf1d4e87da"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'Provincia']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="1500ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="aa09e6d0-d129-4176-a9f8-b5623b19e19c"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8b15fc92-8151-4f6b-ba93-3e6de0175e71"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'Localidad']/../..//input
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="5223e369-1865-47ce-94dc-711080616078">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Localidad">
+				</binding>
+			</bindings>
+			<info
+			id="8b15fc92-8151-4f6b-ba93-3e6de0175e71"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="0,71,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'Localidad']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="2c5389af-bbd6-4cf0-b270-819d7d7f865e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8b15fc92-8151-4f6b-ba93-3e6de0175e71"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="0,71,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'Localidad']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<explicitdelayitem
+		duration="1500ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d3fa2509-d116-46a4-99f0-a59cebf0d69a"
+		sx="281"
+		sy="157"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e17f5264-cce4-4b2a-b51b-8eef590f916f"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="175,149,212,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						HODwellingLocationPopup:LocationScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Informaci&#243;n de ubicaci&#243;n
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext='Informaci&#243;n de ubicaci&#243;n']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="31dc39f7-f102-4b44-8082-5faa286aea2c"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d6f7afdc-cf23-4a4e-be6a-1e54aab980dc"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'Localidad']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="103da66c-11c2-4401-9cd4-4671ce87dffb">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Calle">
+				</binding>
+			</bindings>
+			<info
+			id="21a4d9e4-f5cd-4541-a906-539d44031927"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="0,71,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'Calle']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d3fa2509-d116-46a4-99f0-a59cebf0d69a"
+		sx="281"
+		sy="157"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e17f5264-cce4-4b2a-b51b-8eef590f916f"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="175,149,212,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						HODwellingLocationPopup:LocationScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Informaci&#243;n de ubicaci&#243;n
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext='Informaci&#243;n de ubicaci&#243;n']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f66eaf96-7344-4420-be7b-e7e72c37e814"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fe79e52b-e6c4-4411-87b8-664d052ca503"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'Calle']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="cf7e28ca-7e76-400a-a89f-5c78f9f947b1"
+		sx="343"
+		sy="350"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="600e56e8-9092-41e4-8780-efca9c3c6aad"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="302,344,83,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						HODwellingLocationPopup:LocationScreen:LocationDetailPanelSet:LocationDetailCV:LocationDetailDV:LocationDetailInputSet:TargetedAddressInputSet:globalAddressContainer:GlobalAddressInputSet:VerifyItem-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Validar Direcci&#243;n
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext='Validar Direcci&#243;n']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="6000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="ca8e7f45-cfb7-415c-aa6f-511293649e92">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="40d4a05e-0124-4f50-aca0-8aeca096602f"
+		sx="682"
+		sy="-7862"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c656d1ed-1efa-4ba5-aae0-960145a28611"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="176,183,42,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						HODwellingLocationPopup:LocationScreen:Update-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Aceptar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext='Aceptar']
+				</path>
+			</info>
+		</mouseitem>
+		<separatoritem
+		enabled="False"
+		optional="False">
+			<comment>
+				---------------------------
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<keysequenceitem
+		KeySequence="Permanente"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="696008e8-9378-4310-b164-20c7fb96a10c">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="TipoVivienda">
+				</binding>
+			</bindings>
+			<info
+			id="78889bf6-ae71-4443-9006-95997ec691af"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="379,540,123,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:HODwellingHOEScreen:HODwellingSingleHOEPanelSet:HomeownersListDetailPanel:HODwellingDetailsHOEDV:Sura_HOE_Residence-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:HODwellingHOEScreen:HODwellingSingleHOEPanelSet:HomeownersListDetailPanel:HODwellingDetailsHOEDV:Sura_HOE_Residence
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Tipo de Vivienda']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="051efb98-ccc1-4903-930f-d47ea567f4cf"
+		sx="211"
+		sy="157"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="24441392-ff09-4706-8bcd-957ca3bf3e71"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="175,149,72,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:HODwellingHOEScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Vivienda
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/HomeownersDwelling']//span[@innertext='Vivienda']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="74a3b418-c99b-4a69-b0de-db509b9329fd"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="becb9df7-6868-4ea8-a63b-0edc0e90f30e"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Tipo de Vivienda']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9c85b783-4766-42f1-9c20-c964d0a89837"
+		sx="440"
+		sy="543"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3ea8bc95-baf3-4a74-bf16-aac01e277b05"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="379,534,123,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default  x-form-invalid-field x-form-invalid-field-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:HODwellingHOEScreen:HODwellingSingleHOEPanelSet:HomeownersListDetailPanel:HODwellingDetailsHOEDV:Sura_HOE_Package-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-invalid-field x-form-invalid-field-default x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:HODwellingHOEScreen:HODwellingSingleHOEPanelSet:HomeownersListDetailPanel:HODwellingDetailsHOEDV:Sura_HOE_Package
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Producto']/../..//input
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="d93f509e-a3da-4049-ac82-4170fe9abc64">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Producto">
+				</binding>
+			</bindings>
+			<info
+			id="3ea8bc95-baf3-4a74-bf16-aac01e277b05"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="0,71,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Producto']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="051efb98-ccc1-4903-930f-d47ea567f4cf"
+		sx="211"
+		sy="157"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="24441392-ff09-4706-8bcd-957ca3bf3e71"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="175,149,72,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:HODwellingHOEScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Vivienda
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/HomeownersDwelling']//span[@innertext='Vivienda']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="870b65cd-1abe-4029-8623-57618c117f42"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="03613e16-ad17-4809-bde9-f8d811e5fdfe"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Producto']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="13afb4c6-6e50-449d-b953-d62182c3fb07">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				---------------------------
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="05d37a92-bb6a-45a6-a349-b03302a752e8"
+		sx="317"
+		sy="253"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="97474c20-e3a6-4320-843d-c02ad0f4324a"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="285,246,64,14"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:Next-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Siguiente &gt;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//span[#'SubmissionWizard:Next-btnInnerEl']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="30;5"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="438bec0d-ba24-4c3f-9e34-099833282763"
+		sx="262"
+		sy="188"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="97474c20-e3a6-4320-843d-c02ad0f4324a"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="232,183,57,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:Next-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Siguiente &gt;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[#'SubmissionWizard:Next-btnInnerEl']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b545a394-4bd1-4327-ab69-0f42cbb50f47">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="3c2bae99-f2b7-413a-b246-09d873dee0b4"
+		waitaction="Exists"
+		waittimeout="20000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4ebdfa4e-2f97-4c83-95fa-833ccfe1cb73"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="175,149,93,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:HOCoveragesHOEScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Coberturas
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext='Coberturas']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Vivienda_Enlatada.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,1438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="164dfc0b-43a0-4883-8ccb-ee5d690ad794"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Pago"
+	namespace="Sura.BC">
+	</codegen>
+	<variables>
+		<var
+		id="44c8ebca-9808-49b2-9468-ef21e7ac19e2"
+		name="NumPoliza">
+			04440023926
+		</var>
+		<var
+		id="84541f12-a9bb-4669-970f-b2100a9ceab4"
+		name="Monto">
+		</var>
+		<var
+		id="a5ce3ddc-a5bb-45fb-98ff-92fc97d89973"
+		name="NumAutorizacion">
+			21
+		</var>
+		<var
+		id="310a755b-f25f-40f8-a4d3-741e10611731"
+		name="TipoTarjeta">
+			American Express
+		</var>
+	</variables>
+	<recorditems>
+		<keyitem
+		action="Press"
+		data="A, Control"
+		duration="20ms"
+		enabled="True"
+		numLock="False"
+		optional="False"
+		presstime="20ms"
+		scancode="0"
+		searchpropertyid="ecb90c66-a705-4e8f-9538-c076024906d9"
+		setModifiers="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="94cc1261-bdfc-4564-9b36-c7be4c7f61ec"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N&#250;mero de P&#243;liza']/../..//input
+				</path>
+			</info>
+		</keyitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="8a331285-8735-4642-9409-1e61e184e380">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="NumPoliza">
+				</binding>
+			</bindings>
+			<info
+			id="94cc1261-bdfc-4564-9b36-c7be4c7f61ec"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="299,322,123,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewDirectBillPayment:EditDBPaymentScreen:PaymentDetailsDV:policyNumbers-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						04440023877
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewDirectBillPayment:EditDBPaymentScreen:PaymentDetailsDV:policyNumbers
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						04440023877
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N&#250;mero de P&#243;liza']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d3f90cf7-940d-4cc2-93d9-c45f8d4ccfcf"
+		sx="260"
+		sy="153"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="58facfb7-85ab-49e5-9175-24a5c8094583"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="175,149,297,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewDirectBillPayment:EditDBPaymentScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Pagos mediante facturaci&#243;n directa
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table/tbody/tr[1]/td/div/div/div/div/?/?/span[@innertext&gt;'Pagos mediante facturaci&#243;n']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="5590094e-78ce-4fb4-b795-354643ebf6ce">
+				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
+ooooAKKKKAP/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="0e87b9d8-92e4-41b0-bf93-bc18583984f5"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b6b05a51-eb44-431b-b9ec-49827be517f4"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N&#250;mero de P&#243;liza']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		captureregex="[0-9.,]+"
+		enabled="True"
+		optional="True"
+		searchpropertyid="b8deb2f5-a982-4cd3-8edb-df6e1460c9ad"
+		varname="Monto">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="efc51669-a4ea-4aef-b994-dc621e129b47"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="749,583,50,14"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						gw-currency-positive
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						undefined
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						$ 1.856,25
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						gw-currency-positive
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//table[@class~'summary']//a[@innertext~'[0-9]']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="El monto a pagar es:"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="126abf1b-b96b-4cb4-b89b-f0c6f61aea16">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="$Monto"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="dbeecb80-41d2-44e9-907c-d42a8147928d">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="Monto">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<keysequenceitem
+		KeySequence="{LControlKey down}{Akey}{LControlKey up}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="1cd910b9-5ba9-4633-8453-76b008d5499d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="873c018b-04b1-400c-b589-74b7de7684b7"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext='Monto']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="14e546e7-08a4-4927-91f7-87fb209fde28">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Monto">
+				</binding>
+			</bindings>
+			<info
+			id="873c018b-04b1-400c-b589-74b7de7684b7"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="304,343,140,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewDirectBillPayment:EditDBPaymentScreen:PaymentDetailsDV:Amount-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewDirectBillPayment:EditDBPaymentScreen:PaymentDetailsDV:Amount
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext='Monto']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="40a48503-6a6e-4a39-962f-0aa7f114ad02"
+		sx="356"
+		sy="157"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="58facfb7-85ab-49e5-9175-24a5c8094583"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="175,149,297,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewDirectBillPayment:EditDBPaymentScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Pagos mediante facturaci&#243;n directa
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table/tbody/tr[1]/td/div/div/div/div/?/?/span[@innertext&gt;'Pagos mediante facturaci&#243;n']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3465da3d-532c-4aef-92ee-69231943da61">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="a41d581a-6de9-4989-a7bb-dde5ce5ffffb"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8e5a1e85-5408-45f0-9fdb-07a1ad48e484"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext='Monto']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="f0ebd96a-40ed-4473-8528-935c2585e2f6">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="NumAutorizacion">
+				</binding>
+			</bindings>
+			<info
+			id="550583db-8e6d-4c91-8282-ef88ef53e2d9"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="701,247,140,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewDirectBillPayment:EditDBPaymentScreen:PaymentDetailsDV:PaymentReceiptInputSet:RefNumber-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						NewDirectBillPayment:EditDBPaymentScreen:PaymentDetailsDV:PaymentReceiptInputSet:RefNumber
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N.&#186; Autorizaci&#243;n']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="2daef767-2f41-4017-8a3a-7fb4a1b58187"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="abac2a90-8395-4b4b-b34e-981ec06317c9"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N.&#186; Autorizaci&#243;n']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<keyitem
+		action="Press"
+		data="A, Control"
+		duration="20ms"
+		enabled="True"
+		numLock="False"
+		optional="False"
+		presstime="20ms"
+		scancode="0"
+		searchpropertyid="fbc47459-bf03-4734-a343-45233680dc78"
+		setModifiers="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f471acae-0f08-4428-9f22-7a6989bacc4a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'Tipo de tarjeta']/../..//input
+				</path>
+			</info>
+		</keyitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="57fa28dd-cf3a-46a4-9181-ce2afb7b2e0f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="TipoTarjeta">
+				</binding>
+			</bindings>
+			<info
+			id="f471acae-0f08-4428-9f22-7a6989bacc4a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'Tipo de tarjeta']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="40a48503-6a6e-4a39-962f-0aa7f114ad02"
+		sx="356"
+		sy="157"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="58facfb7-85ab-49e5-9175-24a5c8094583"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="175,149,297,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewDirectBillPayment:EditDBPaymentScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Pagos mediante facturaci&#243;n directa
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table/tbody/tr[1]/td/div/div/div/div/?/?/span[@innertext&gt;'Pagos mediante facturaci&#243;n']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3465da3d-532c-4aef-92ee-69231943da61">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="9928f4b0-2575-4094-83cd-1cf8cfc125ae"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="eca55051-077c-4ba8-86d2-fe3f09445e37"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'Tipo de tarjeta']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="3e403ed4-95e7-42c8-a565-487d223b12ef">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="14730cd1-78da-4f1a-ab55-95aad233dd56"
+		sx="191"
+		sy="190"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7fed52b1-4ec0-4ee1-afd5-82e76fa75a82"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="176,183,44,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewDirectBillPayment:EditDBPaymentScreen:Update-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Ejectar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table/tbody/tr[2]/td/div/div/div/a[1]//span[@innertext='Ejectar']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="923fe58a-7e7f-4d49-8ca0-687f79c1ff96">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="79414597-d566-4138-bd18-1664a2b564bc"
+		waitaction="Exists"
+		waittimeout="60000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b72fa9c1-a52e-4939-bf1c-1bdef13e721b"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext~'Resumen']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="6000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Pago.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

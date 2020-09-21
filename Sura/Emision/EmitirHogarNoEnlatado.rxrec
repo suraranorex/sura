@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9a36562a-b40b-4cf6-a5a3-1548074730eb"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="EmitirHogarNoEnlatado"
+	namespace="Sura.Emision">
+	</codegen>
+	<variables>
+		<var
+		id="5513f846-703f-44c5-a236-ba9e9cf494d9"
+		name="NumPolizaEmitida">
+		</var>
+		<var
+		id="98b9f09d-3ac5-4cc8-8510-ab74c716971e"
+		name="ValidateNroCuenta">
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5bc63a0c-9f1d-4c2f-9453-f7c98e15073d"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="94f81f43-bad9-43ce-8008-652e98b9929e"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[4]//tr/td/div/table//span[@innertext~'Emitir P&#243;liza']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="573302c0-c541-4994-8cee-32631828becd"
+		sx="637"
+		sy="454"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2a147b12-a305-47c2-98f3-4eecd8a0a87b"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="615,446,53,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						button-1005-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Aceptar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//span[@innertext~'Aceptar']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="1cde49ae-ff06-44be-ab67-e57f979bf15c">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA4AK4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKi3
+t60b29adhXJaKi3t60b29aLBcloqLe3rRvb1osFyWiot7etG9vWiwXJaKi3t60b29aLBcloqLe3r
+Rvb1osFyWiot7etG9vWiwXJaKi3t60b29aLBcloqLe3rRvb1osFyWiot7etG9vWiwXJaKi3t60b2
+9aLBcbRRRVEhRRRQAUUUUAZWrsUcsApICAblBxndnr9BWSzF2LHGT6AAfpWrrPU/8A/9nrJokrpL
+zKoycXNrov1QqqznCqWIGeBmkq9ZOltCZ5CwLsFXC5yBye49hT5LRY0YxQeeS555+VcAjofenyRJ
+WJqtbr7l/kZ1FXmhiVlAhVojIkYkDncSVDHjpjnFT/Z4km+e2EYWdVTcThxn3P40uSA/rFbuvuX+
+RlUVqwWau376327nIwqt8n1OeP1qnOscdtDtiG903FyTnqfwp8kBPEVl1X3L/IrqxRgwxkeoBH61
+o6XIXnUkKCHA+VQvG1vT6Cs2tDSP9cP+ug/9BelFWT9R15OUoN9V+rLWsk4hGeOf6Vl1p6z/AMsf
++Bf0rMraGxxVfjZIkMsgJjjdwOu1SaZVt45ZbaDyFZlUYIXnDZ7082qLaMxT5ggYOAcZJ9c8/lTu
+Lkb2KFFaDwwNLKnliNY3UbgxzgnBzmnRW0T3LJPF5CAHbyRu5HcmlzIORmpRUH223/56f+Omj7bb
+/wDPT/x01lyvsdnMu5PRUH223/56f+Omj7bb/wDPT/x00cr7BzLuT0VB9tt/+en/AI6aPttv/wA9
+P/HTRyvsHMu5R1dS7lQVBIQjcwGcbs9fqKyWUoxU4yPQgj9K6T7bb/8APT/x00fbbf8A56f+OmiU
+ZNKxVKcINuWt1bc5qiul+22//PT/AMdNVb+aCaNCpSQxuH8t1OH4Ix+tK1T+kO+H/l/H/gFfTbcX
+NokbBtv2sklSQR+7657c4qvcac8Nv55kkyI43cSDOWYkHn2re01bcW3mWhJilO4AnOOAMfhik1SR
+Y7VS5wDLH/6GD/SpTYNR7aHL0V0v223/AOen/jpo+22//PT/AMdNVap/SC+H/l/H/gHNqpdgoxk+
+pAH61o6WhSdQSpJcH5WDcbW9PqK0/ttv/wA9P/HTR9tt/wDnp/46acYySdxVZwm046WViprIOITj
+jn+lZdb/ANtt/wDnp/46aPttv/z0/wDHTVptK1jnlBSd7mBRW/8Abbf/AJ6f+Omj7bb/APPT/wAd
+NVzPsR7JfzGBRW/9tt/+en/jpo+22/8Az0/8dNHM+weyX8xH/Zi/3mo/sxf7zUUVjzy7nVyR7B/Z
+i/3mo/sxf7zUUUc8u4ckewf2Yv8Aeaj+zF/vNRRRzy7hyR7B/Zi/3mo/sxf7zUUUc8u4ckewf2Yv
+95qP7MX+81FFHPLuHJHsJFYz20ha0uNityyOu5SfXqMGiTT5biRZLq4aQrnaqjao/Dnmiipu73Kt
+pYX+zF/vNTf7OXeRubgA0UVXPLuTyR7CnTVA+81L/Zi/3mooo55dw5I9g/sxf7zUf2Yv95qKKOeX
+cOSPYP7MX+81H9mL/eaiijnl3Dkj2D+zF/vNR/Zi/wB5qKKOeXcOSPY//9k=
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="7e23bb0e-e1f0-4f99-92b7-958f3aca7a3d"
+		waitaction="Exists"
+		waittimeout="20000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9f4686af-35f2-4080-beb1-bce00008c586"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//table/tbody//span[@visible='True' and @innertext~'Solicitud de P&#243;liza Contratada']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="91ac7e39-09fb-4799-9307-3977f8277029">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				La poliza emitida es:
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="91ac7e39-09fb-4799-9307-3977f8277029">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		captureregex="[0-9]+"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b8ccb0f0-5657-40e8-a4ee-3f0069e1fddd"
+		varname="NumPolizaEmitida">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e81387f0-e0d3-4442-b002-fb5970a5ca18"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'JobComplete-tbody']/tr[5]//table/tbody/tr[2]/td/div/div[1]/div[@innertext&gt;'Ver su p&#243;liza (N.&#176; 124200']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="186c0b13-5c98-43ad-9f8a-fadd06819991"
+		varname="ValidateNroCuenta">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ec6c4b52-9c67-457f-95a8-3a380118422e"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'infoBar-targetEl']//span[@innertext~'cuenta']/..//span[@innertext~'[0-9]+']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="El número de poliza emitida es:"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="d96bb192-99bd-493d-b154-08040b00d8e2">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="d2a95ba6-6b2a-43a9-a0fe-4498dbdf8277">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="NumPolizaEmitida">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="Para la cuenta:"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="d96bb192-99bd-493d-b154-08040b00d8e2">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="d2a95ba6-6b2a-43a9-a0fe-4498dbdf8277">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="ValidateNroCuenta">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<userrecorditem
+		classname="EmitirHogarNoEnlatado"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="guardarNumPoliza"
+		namespace="Sura.Emision"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="6a2333b6-959f-4bf7-aa3b-8db01d8d73d9">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		EmitirHogarNoEnlatado.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

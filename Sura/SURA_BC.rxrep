@@ -1,0 +1,20 @@
+﻿<repository
+id="7209bdc2-6fba-4609-8e95-b4626342ed6b"
+name="SURA_BC">
+	<codegen
+	classname="SURA_BC"
+	namespace="Sura">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="62376b15-ea9e-42e0-851c-65f876b505a9"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

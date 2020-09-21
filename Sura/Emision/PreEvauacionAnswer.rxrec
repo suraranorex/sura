@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="071dc85d-3814-495b-9f8f-11116b647853"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="PreEvauacionAnswer"
+	namespace="Sura.Emision">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="dd636ed5-8f4c-474a-aa43-18fd314b7ec8">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0cad6344-5521-4f8b-9248-0d3943918461"
+		sx="194"
+		sy="180"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c2c9d450-e87b-409a-813a-03a295d377a6"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span/span/span[@innertext~'Siguiente &gt;']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="26;4"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0cad6344-5521-4f8b-9248-0d3943918461"
+		sx="194"
+		sy="180"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="97474c20-e3a6-4320-843d-c02ad0f4324a"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="168,176,54,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:Next-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Siguiente &gt;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[#'SubmissionWizard:Next-btnInnerEl']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="cd8fb7dc-8eba-4bc5-bc1a-9a4d3f765377">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAvAJYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoqpTW
+Uk0u8yovPO1eoz35q5lv7jfp/jRlv7jfp/jTTsJxUtwfoP8AeH86fUZ3NgbCOQcnFSUhlcdKsCq4
+6UtxLBbIHmdlUnAOWPP4UDSbdkT0VQ/tKw/57t/4/R/aVh/z3b/x+lzLuX7Gp/K/uL9FUP7SsP8A
+nu3/AI/R/aVh/wA92/8AH6OZdw9jU/lf3F+iqH9pWH/Pdv8Ax+j+0rD/AJ7t/wCP0cy7h7Gp/K/u
+L9FUP7SsP+e7f+P1ahaKeISRMzI3Q5IoTT2FKnOKvJWJaKgnmgt9vnSMu7pyxqH7fZf892/8eqrN
+mTlFbsu0VS+32X/Pdv8Ax6j7fZf892/8eo5X2Dnj3LtFUvt9l/z3b/x6ijlfYOePcu0VXiuHd03B
+QsmduOoxVikUFFFFAFcdKqeIP+PFP+ug/katjpVTxB/x4p/10H8jUz+Fm+H/AIsTHtYo5d4fJfja
+oYLu/E1L/Z8jDcuEGMkMScfkOKqxStEcptz6lQcfnVlL4+XtmjEpznnHP6Vq3Do0cqp1+ql+Ii2L
+73DFTt4OGx2z6VEttKXIYeWoDHc3Q7Tg9Pel+2T4xvH/AHyOeMenpVoI82mxMJGVlhuHJAB3fOOO
+aLx6WDlqr4rr1uRDT3PAkQtuxgA9MA56e9RNaus/ksyhiMjOef0qe5W8s2cmdJI1lEeSgyTsB/LH
+FVPNfeWB2kjB2Db/ACp3j1sLkrP4U394kkbROUcYYdRXSaRxpcP1P/oRrma6bSBnS4fx/wDQjWcm
+nLQ6IRqKi+dPfr6Mra9/yw/4F/Ss+OOMQGWTcRu2gKcVoa7/AMsP+Bf0rMjmeMEKRg84IBH610Q+
+E82rb2juWJLFg5COp6lQc5OKRbNizoGUuuM4J4/Smm7kKBc85O5uMnP8qWS7YtmLKE9Sdpz+QFP3
+ifcAWbkZEke3AIbnB6+3tRUZuZT/ABDHHAAA/wA80U9RXidAlsUYHzDhc7Bjpn+dP2S4/wBbzjH3
+R19akorlPRCiiigCuOlTSRxyrtkRXGc4YZqEdKn7UAnYi+x2v/PtD/3wKPsdr/z7Q/8AfArNtdRk
+Idy7ThF+dSAu1t2ABx6VYfVVjvFtpUCuSARuJxn04wfzpWRXPLuR6lYwBopWgAgUMJfL+UrnGG46
+gYP51ds4Bb2yxhg4BYhsAZySe3HeqVxrNqAqgCWORedwIyM4xjHP44qKC5ntQ8cQjaCMEhZGOY8H
+GMgHI9KYnJvdl69RHmtEdVYNMSQRnPyNUv2O1/59of8AvgVlQ3Ms1zHeyurhQ6rGq/KuBnIJ5yeO
+eKvyX4jV2KABY1kyWOOe3AosCk1syb7Ha/8APtD/AN8CpURY1CooVR0AGBVK31BrnyxDECWBLZfA
+ABxxxz+lRteO0RAV22lnYh9p2q2Ow/w+tFgcm92aVFU1vi0wURfu/MEe7dzkjI4xSXd1KsjRwrgI
+ybnJ9T0xigRdoqja6pHc3jW6rgjPc54Pfj+pqL+0gNVaEyfKMr5e3uBnOfzFAGnRVCXUjDbJPJBx
+IfkCvk4xnnjiigD/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="b4f1c2dc-c228-4fea-af2d-8fe7c3b42b5c"
+		waitaction="Exists"
+		waittimeout="20000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4f00e7b3-cde0-48e2-a451-3c47893771e4"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Informaci&#243;n de p&#243;liza']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		PreEvauacionAnswer.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

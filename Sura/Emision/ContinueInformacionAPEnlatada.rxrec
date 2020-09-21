@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ada19c96-b73f-47d3-9f20-ff2290b49ca7"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ContinueInformacionAPEnlatada"
+	namespace="Sura.Emision">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="bb888249-23ca-4639-b1b1-ecffe9108e38">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webdocument"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="3"
+				prefcap="webdocument"
+				rect="0,71,1366,608"
+				role="container"
+				snapElem=""
+				uidroot="True"
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						[Modo DEV - 9.0.3.185] Guidewire PolicyCenter (Lmattioli)
+					</attribute>
+					<attribute
+					name="browsername"
+					type="System.String">
+						Chrome
+					</attribute>
+					<attribute
+					name="browserversion"
+					type="System.String">
+						79.0.3945.130
+					</attribute>
+					<attribute
+					name="domain"
+					type="System.String">
+						ssurgwsoadev4.opc.oracleoutsourcing.com
+					</attribute>
+					<attribute
+					name="fullscreen"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="page"
+					type="System.String">
+						PolicyCenter.do
+					</attribute>
+					<attribute
+					name="pageurl"
+					type="System.String">
+						https://ssurgwsoadev4.opc.oracleoutsourcing.com/pc/PolicyCenter.do
+					</attribute>
+					<attribute
+					name="path"
+					type="System.String">
+						/pc/PolicyCenter.do
+					</attribute>
+					<attribute
+					name="state"
+					type="System.String">
+						complete
+					</attribute>
+					<dynamicaction
+					description="Enables the Chrome accessible renderer mode."
+					displayName="EnableAccessibleRenderer">
+					</dynamicaction>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="48;4"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="89bc6761-66f4-404f-8b8e-d3593588cdf5"
+		sx="254"
+		sy="187"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="97474c20-e3a6-4320-843d-c02ad0f4324a"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="206,183,57,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:Next-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Siguiente &gt;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[#'SubmissionWizard:Next-btnInnerEl']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="eb1e1138-3012-40eb-b330-a9ca3b597753">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ee45aba5-9a8a-49f5-9bbe-934f8ab9e729"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="97474c20-e3a6-4320-843d-c02ad0f4324a"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[#'SubmissionWizard:Next-btnInnerEl']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="951e5c72-e47d-4890-a95f-5a5689e13955"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="52c2b4db-2737-4b04-af69-4e66b9cb06bf"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Personas']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ContinueInformacionAPEnlatada.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="dd98a121-f3e8-46a3-95d9-ae9c6faa3e06"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Coberturas_Enlatado"
+	namespace="Sura.Emision">
+	</codegen>
+	<variables>
+		<var
+		id="d2cf53b0-d0d6-45ee-9341-300fc0c26aa7"
+		name="SumaAsegurada">
+			300000
+		</var>
+	</variables>
+	<recorditems>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="2544cb9d-58b1-40d1-9951-3a33c6eaa594">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="SumaAsegurada">
+				</binding>
+			</bindings>
+			<info
+			id="5db75510-65cb-4f9b-b95a-d890e46eba3d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="393,336,96,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:HOCoveragesHOEScreen:HomeownersListDetailPanel:HOMainCoveragesHOEPanelSet:coveragePatterIterId1:0:HOCoverageInputSet:PostOnChangeCovPatternInputGroup:0:CovTermInputSet:DirectTermInputPostOnChangeMoney-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:HOCoveragesHOEScreen:HomeownersListDetailPanel:HOMainCoveragesHOEPanelSet:coveragePatterIterId1:0:HOCoverageInputSet:PostOnChangeCovPatternInputGroup:0:CovTermInputSet:DirectTermInputPostOnChangeMoney
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'Suma Asegurada']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2f3bb3ab-9e42-46e7-89e4-3bf7629b0b74"
+		sx="70"
+		sy="352"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="05f75464-e9b2-421f-934d-55f45f1d5116"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="3"
+				prefcap="spantag"
+				rect="42,345,57,14"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-tree-node-text&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Coberturas
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-tree-node-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext='Coberturas']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="a38f63d5-572b-4526-9676-ff2a210e22a6"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6137743f-18a0-4fc6-9e38-d950fa1745f2"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext='Suma Asegurada']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="1d89b347-fee4-4b3b-989f-1ed048e70bd9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="14;6"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0ffcf51c-ef73-4e7c-a972-f2019a2d7a83"
+		sx="553"
+		sy="189"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="25f606e9-51bf-41f1-8530-363d7cfd5a2d"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="539,183,39,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:HOCoveragesHOEScreen:JobWizardToolbarButtonSet:QuoteOrReview-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Cotiar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Cotiar']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="35f00ef9-fd0e-43b9-ab06-1cf4f60319f6">
+				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
+6NAH/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="d5fb04fc-7257-4d19-8389-4d26d6fec837"
+		waitaction="Exists"
+		waittimeout="20000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f1cd1ecf-90f3-4350-b920-eade924349f2"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="0,71,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/ViewQuote']//span[@innertext~'Cotizaci&#243;n']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Coberturas_Enlatado.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

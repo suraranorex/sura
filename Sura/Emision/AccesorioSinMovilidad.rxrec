@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8e6da539-4eba-414a-85a9-839f1b12315f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AccesorioSinMovilidad"
+	namespace="Sura.Emision">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0e98f48f-35cc-4edf-99f1-592ab4e331cd"
+		sx="510"
+		sy="330"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="232c6ca6-9186-455e-afb5-bcb0c7704cf0"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="484,322,48,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-tab-inner x-tab-inner-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CoveragesAccesoriesCardTab-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Accesorios
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-tab-inner x-tab-inner-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[1]/div[1]/div[2]/div/a[4]//span[@innertext='Accesorios']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="be49045d-8ad8-43dc-8c64-685ca51755d3">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAArAFYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDd+zD+
+9+lH2Yf3v0qTav8AdH5UbV/uj8qfMxcq7DBbgfxfpSfZh/e/Ss6PVJJV3R6ezjOMqc/0p/8AaE//
+AEDJP1/wqfaeZu8LNdF96L32Yf3v0o+zD+9+lUf7Qn/6Bkn6/wCFH9oT/wDQMk/X/Cj2nmL6tPsv
+vRe+zD+9+lH2Yf3v0qj/AGhP/wBAyT9f8KP7Qn/6Bkn6/wCFHtPMPq0+y+9F77MP736UfZh/e/Sq
+K6k/nxRy2LR+YwUFjjv9K0tq/wB0flTU77MidFw+JEf2Yf3v0oqTav8AdH5UU+Zkcq7DqKKKQzF0
+pn+wFIwxZpCflxkAAevvitD7Sx5BUYXOw/eY+g5rNsJ7mzgMf2GZ8tuzgjsPb2qz/aVz/wBA2b9f
+8KiMko2Z11qM5VHJbeqLD3LKFw8T5z8w4GfTrTZb5YXKyTQoScLuI45+v+FQ/wBpXP8A0DZv1/wq
+C4uJLnzvOtWh22kxG7v932qlNPQwlRnFXf5o0UmkdgoKYwSWA4OMdOfempcNhOVHC/Kc5bOORz/n
+FVpdTuonKtp5bD7Pkl3Zbbu9PShNVuHQOmnysrDIIJ5H5U3JLcUKUp7EV5KZLyy3FSRL/D06r3ya
+2axZZbi8vLVms5YhHICSQT3Ht7VtVKd22a1YuMIxe+v5hRRRVHOJ5af3F/Kjy0/uL+VUvMf++350
+eY/99vzoAu+Wn9xfyo8tP7i/lVLzH/vt+dHmP/fb86ALNyPLtpXiiVpFQlV25yccCqdvG906ySCG
+S3eB13xArndt4Iz7Hv8AlT/Mf++351FpTt/aF9Hn5AVYD3I5P40AaHkR+Zvx82/fnPfbt/lUOnRo
+dOtiUX/Up29hUt2xSzmZTgiNiD+FZ1jI4sbfDt/ql7+1AGp5af3F/Kjy0/uL+VUvMf8Avt+dHmP/
+AH2/OgC75af3F/KiqXmP/fb86KAP/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="6;7"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2e8f5f2b-ae4d-43f6-ad6d-f2c63a7a2717"
+		sx="244"
+		sy="351"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c1d424b7-a08a-4433-a9c0-130373baa4bf"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table//div/table/tbody/tr[1]/td/?/?/legend/div[@innertext=$Accesorio]/..//input[@type='button']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AccesorioSinMovilidad.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

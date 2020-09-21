@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="29d3ce62-0a4b-4b17-b28c-f81e165623c5"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SolicitudPoliza_BuscarGrupo"
+	namespace="Sura.Emision">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="10;11"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="3dc90cdb-0b2f-4f6c-b74c-ea4b557a949f"
+		sx="286"
+		sy="194"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f605830a-c578-4004-8d6d-04678c90c4b6"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="273,184,15,14"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-actionable
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewSubmission:NewSubmissionScreen:SelectAccountAndProducerDV:ProducerSelectionInputSet:Group:GroupMenuIcon
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-actionable
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						javascript:void(0)
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewSubmission-tbody']//table//span[@innertext~'Grupo Comercial']/../..//a[@id~'GroupMenuIcon']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="34;11"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9e638411-e120-475d-b6e8-b7faf86ffb3f"
+		sx="329"
+		sy="210"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1dd12644-7e54-4df0-9167-68de5406ce47"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="295,199,72,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-menu-item-text x-menu-item-text-default x-menu-item-indent-no-separator
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						NewSubmission:NewSubmissionScreen:SelectAccountAndProducerDV:ProducerSelectionInputSet:Group:GroupSearchMenuIcon-textEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Buscar grupo...
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-menu-item-indent-no-separator x-menu-item-text x-menu-item-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[11]/div/div[2]//span[@innertext='Buscar grupo...']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="d69794f8-8429-4af0-8279-62d68d47426b">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA6AIwDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDosmlB
+4yarxrMJDvkyg6cDmpmUtE6jqQRQBG1zz8qZHqTipY5BIuR+IrLeOcOfLfAbru/h+lXbJCiHkkYA
+ye9NolNt7FmiiikUFFFFABRRRQAUUUUAFFFFABRRRQAUUUUANx7imvIIlyeee1IJEY4DqT6A1DcH
+gD3pxV2TJ2VxWniY5aIE+pAplzdYtZdoKnYcEduKiqO4/wCPaX/cP8q1cFYyhUk5IrW6XE0CyG+n
+XOeMk9/rUn2e4/6CE/6/41Daz+XbRrhehPLYJ5PQd6u719e+PxrOFKDimdNbFVY1JJbXfREH2e4/
+6CE/6/40fZ7j/oIT/r/jUvnJt3fNjt8p5+lL5ihgDkE/7JqvYwM/rlb+kiH7Pcf9BCf9f8aPs9x/
+0EJ/1/xp5uoBjdKqk9AeCfoO9O85P9rrjG05zR7KAfXK39JEX2e4/wCghP8Ar/jR9nuP+ghP+v8A
+jUxkQDJPHPb060nnJgnJ47bTn8qPYwD65W/pIi+z3H/QQn/X/GmwyTW+pxI9zLKpBJDE+h7Zq0rB
+hkdKpy/8hWH/AHP8amVOKs13NaWIqVOZS7Pouxr/AGof3TR9qH901VorX2aOP2si7FOJGxgipaow
+HEgq8OlZSVmbQbkrshWJEcuq4JqG47VbwKYvE34Uk7O5UldWKNR3H/HtL/uH+Va1I6LIjI4yrAgj
+2q3UurWM40rSTuc/a+UbZN04Q4IK7hyMn1qfdBuz9oUDOcbhjNW207TUYK6KrN0BkIJ/WnHSrADJ
+hAHqXb/GojOSVrHTOFGcnK718kUQYAOLhQc5yGX/APVQfs5k3mdSf95fTFXv7Jsf+eH/AI+3+NQX
++n2lvZvLHAMrjOSxAGRk4B7DJp+0l2I9lR7v7kVZFWWK4WIrIcQKvI67z3qNJpICPtFu4UF8MmGA
+CnDE4A4B9q0LCxEby7kj8phGytGxwxDEg8kkdu9TX8EaWFy6jBEMuOf73J/UUKTIlCOy2M9vJKti
+4XoQAWGBml3Qd7hS3HzbhkYq9/ZNj/zw/wDH2/xo/smx/wCeH/j7f40e0l2L9lR7v7l/mUxJCBgX
+C+53Dr61XLK2qRFHDjaeQc+tan9k2P8Azw/8fb/GpIdPtYJRJFFtdeh3E/1pOUna5cI0oXabu010
+6laitKitPaeRyex8yhD/AKwVfHSmS9F/3qeOlRJ3dzWMeVWCmD/XfhT6T+P8KkoWiiigCCUOJgYk
+fJwC2RtI9+/5VEIpz5gbccg9+Dz9ePyFXKKAKgS48yTlgSG2nPyn078flS7Hwn7ufaM5Xzfmz653
+dOverVFAGbCZtOOxonlt3YlfLXcYuemB29PTpS3Mst8htoIJljcgSyOuzC98Z6n8K0aKAKaJcHfu
+DKG2/wAXvzjk9vpS3reXHGqsw5P8WOMepI/nVuigCqI3aNmRpP8AVjZl++Pr1pJTKTlkkUNIAFDg
+EjB9DVuigCoY5tgyJDwdoD4KnPGeeeMetWQzdChPvx6U6igCOTJVDjBz09KkHSkbt9aWgD//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f1c77f8f-fa11-4a74-9633-ff4ef2794973"
+		waitaction="Exists"
+		waittimeout="20000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="caa7eb5d-b820-4793-9c80-e8526f034471"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']//span[@innertext~'Buscar grupos']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SolicitudPoliza_BuscarGrupo.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

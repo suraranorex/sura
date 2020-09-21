@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="aa580e5b-2e39-4f8a-a429-f76cb21d326d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InformacionDePago_EndosoH"
+	namespace="Sura.Endosos">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="4d034d6e-f054-4cba-9083-204a9c4a8800">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<explicitdelayitem
+		duration="500ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="37;11"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="50ee028e-19a7-42c1-85fc-8ba7a69de7e2"
+		sx="666"
+		sy="267"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7148e39f-32ff-42e6-89ab-58115660f00e"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext~'Emitir Endoso']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="32;3"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="adb9c8c9-8847-4abb-9233-b4218ba40834"
+		sx="647"
+		sy="449"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6f771000-8210-4741-b44b-51644bc5b636"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="615,446,53,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						button-1005-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Aceptar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//span[@innertext~'Aceptar']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="d1dd5980-183d-4d3b-b9b4-af251f140990">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA4AK4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKi3
+t60b29adhXJaKi3t60b29aLBcloqLe3rRvb1osFyWiot7etG9vWiwXJaKi3t60b29aLBcloqLe3r
+Rvb1osFyWiot7etG9vWiwXJaKi3t60b29aLBcloqLe3rRvb1osFyWiot7etG9vWiwXJaKi3t60b2
+9aLBcbRRRVEhRRRQAUUUUAZWrsUcsApICAblBxndnr9BWSzF2LHGT6AAfpWrrPU/8A/9nrJokrpL
+zKoycXNrov1QqqznCqWIGeBmkq9ZOltCZ5CwLsFXC5yBye49hT5LRY0YxQeeS555+VcAjofenyRJ
+WJqtbr7l/kZ1IWVfvED6mtR7a3VUAhkYHZiQA4OSM85/pSNCI5btfswiUW0208ndjbzz/nmk4RKj
+XrN7r7l/kZtFXvJaKdxcWIK79n7klju27sAZHbnPNQzCJbWDZGN0ibi5Jz1PahQgxPEVlu19y/yI
+FYowYYyPUAj9a0dLkLzqSFBDgfKoXja3p9BWbWhpH+uH/XQf+gvRFWT9QrycpQb6r9WWtZJxCM8c
+/wBKy609Z/5Y/wDAv6VmVtDY4qvxskSGWQExxu4HXapNMq28csttB5CsyqMELzhs96ebVFtGYp8w
+QMHAOMk+uefyp3FyN7FCitB4YGllTyxGsbqNwY5wTg5zToraJ7lkni8hADt5I3cjuTS5kHIzUoqD
+7bb/APPT/wAdNH223/56f+OmsuV9js5l3J6Kg+22/wDz0/8AHTR9tt/+en/jpo5X2DmXcnoqD7bb
+/wDPT/x00fbbf/np/wCOmjlfYOZdyjq6l3KgqCQhG5gM43Z6/UVkspRipxkehBH6V0n223/56f8A
+jpo+22//AD0/8dNEoyaViqU4Qbctbq25zVFdL9tt/wDnp/46aPttv/z0/wDHTStU/pDvh/5fx/4B
+zQdoyHUZZeQD61tafYs9y87uk1vcQsCyZH3iMjH51b+22/8Az0/8dNVftiWdw0kRaWCU5eNV5Rv7
+w9c9/wA6LT6ibpX9xW+dzU8iPzN+Pm378577dv8AKuOj/wBWv0FdBdaurxGO0RzIwwGdSqr781JD
+c20MKRLKSqKFGQc8fhSSl0Hen9tX+djnlUuwUYyfUgD9a0dLQpOoJUkuD8rBuNren1Faf223/wCe
+n/jpo+22/wDz0/8AHTVRjJJ3FVnCbTjpZWKmsg4hOOOf6Vl1v/bbf/np/wCOmj7bb/8APT/x01ab
+StY55QUne5gUVv8A223/AOen/jpo+22//PT/AMdNVzPsR7JfzGBRW/8Abbf/AJ6f+Omj7bb/APPT
+/wAdNHM+weyX8xH/AGYv95qP7MX+81FFY88u51ckewf2Yv8Aeaj+zF/vNRRRzy7hyR7B/Zi/3mo/
+sxf7zUUUc8u4ckewf2Yv95qP7MX+81FFHPLuHJHsH9mL/eaj+zF/vNRRRzy7hyR7B/Zi/wB5qP7M
+X+81FFHPLuHJHsH9mL/eaj+zF/vNRRRzy7hyR7B/Zi/3mo/sxf7zUUUc8u4ckewf2Yv95qP7MX+8
+1FFHPLuHJHsH9mL/AHmo/sxf7zUUUc8u4ckewf2Yv95qP7MX+81FFHPLuHJHsf/Z
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="a36fac19-b7ac-4983-b8d7-3544f7e88194"
+		waitaction="Exists"
+		waittimeout="45000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="97860dbc-8150-4d15-94c0-f58259d6bba6"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext~'Solicitud de Endoso Emitida']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message="Endoso emitido"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="4d034d6e-f054-4cba-9083-204a9c4a8800">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InformacionDePago_EndosoH.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

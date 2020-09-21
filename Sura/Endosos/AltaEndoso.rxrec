@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8eefbd7d-6bd3-421b-951d-5cfa94cb5047"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AltaEndoso"
+	namespace="Sura.Endosos">
+	</codegen>
+	<variables>
+		<var
+		id="66fe018d-0ba3-401c-91ac-e1ba1b545f18"
+		name="TIPO_ENDOSO">
+			Cambio de Plan de Pagos
+		</var>
+		<var
+		id="a7f77cc8-574c-4172-aed9-47b0237dedc3"
+		name="TipoPoliza_Endoso">
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0c0ab7d9-c30c-436e-ada2-7f639401c038"
+		sx="360"
+		sy="249"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="01092b6f-b431-4ced-b096-1182518a9508"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="299,240,123,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						StartPolicyChange:StartPolicyChangeScreen:StartPolicyChangeDV:EndorsementType-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						StartPolicyChange:StartPolicyChangeScreen:StartPolicyChangeDV:EndorsementType
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext='Tipo de Endoso']/../..//input
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="86a41acf-d3a5-4089-8a8f-7f6db170b4b6">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="TIPO_ENDOSO">
+				</binding>
+			</bindings>
+			<info
+			id="01092b6f-b431-4ced-b096-1182518a9508"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext='Tipo de Endoso']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="f90dc95f-76e9-45db-a4d9-b2eb6a686839">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="01092b6f-b431-4ced-b096-1182518a9508"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext='Tipo de Endoso']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="761ba112-5f05-42c9-ba6e-fa9cd8981d92"
+		waitaction="NotExists"
+		waittimeout="45000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f0ab41e3-93bb-4ce1-85ac-6c736efa6a58"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext='Tipo de Endoso']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="76de9125-4e70-44da-a559-886aa78732e1"
+		varname="TipoPoliza_Endoso">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="40ae5009-31cd-4435-ac4a-d0f0838ba2a5"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="236,109,32,15"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Hogar
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'infoBar-targetEl']//span[@innertext~'Hogar' or @innertext~'Accidentes Personales' or @innertext~'Motor']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="ae2e4f22-4b1f-4a12-a454-ac8d55b84f73">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="TipoPoliza_Endoso">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<explicitdelayitem
+		duration="500ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="20;10"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="207346f6-da05-40f7-935f-3d6128860898"
+		sx="196"
+		sy="193"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c55cfbb4-77c4-41c1-9bfe-277b9d2978c0"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="176,183,57,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						StartPolicyChange:StartPolicyChangeScreen:NewPolicyChange-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Siguiete &gt;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'StartPolicyChange-tbody']/tr[2]/td/div/div/div/a[1]//span[@innertext='Siguiete &gt;']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="baad676a-d334-4e4f-ace8-f02a2d5e8e7f">
+				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
+/Mf4Uf2Nb/35fzH+FaFFHPLuHsodj//Z
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="91fd82fd-448e-46d1-9441-1b43859a22e1"
+		waitaction="Exists"
+		waittimeout="55000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="09bc043f-09f3-4fd5-81de-10a6602bfebc"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="175,131,181,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						PolicyChangeWizard:LOBWizardStepGroup:PolicyChangeWizard_PolicyInfoScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Informaci&#243;n de p&#243;liza
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext='Informaci&#243;n de p&#243;liza']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AltaEndoso.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

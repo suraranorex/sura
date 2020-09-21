@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c82592c1-fb99-4f28-bee8-a1094936d2f7"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Cotizacion_Endoso"
+	namespace="Sura.Endosos">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="6a5d192b-b7a8-4b20-9bfa-c91a5482a0c1"
+		sx="347"
+		sy="263"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c90ac61c-80bb-4a2b-b8bb-26f5b49dd796"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="290,256,72,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						PolicyChangeWizard:Next-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Siguiente &gt;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'PolicyChangeWizard:Next']//span[@innertext='Siguiente &gt;']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="1d9e83a4-6d6c-48f5-a764-fba369bd15c1">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA4AMYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKb5
+Y9W/76NHlj1b/vo0AOopvlj1b/vo0eWPVv8Avo0AOopvlj1b/vo0eWPVv++jQA6im+WPVv8Avo0e
+WPVv++jQA6im+WPVv++jR5Y9W/76NADqKb5Y9W/76NHlj1b/AL6NADqKb5Y9W/76NHlj1b/vo0AO
+opvlj1b/AL6NHlj1b/vo0AOopvlj1b/vo0eWPVv++jQA6im+WPVv++jR5Y9W/wC+jQA6im+WPVv+
++jR5Y9W/76NADqKb5Y9W/wC+jR5Y9W/76NADqKb5Y9W/76NFAHHU/wAuTeU2NuHVdvIqa68vYvke
+V5eeMff/ABzz/SrLMptPtJbDyqIT9e5/ID866LnFymcAWIAGSeAAKDkEgjBHUEVp/Z40lz5PlhJU
+Eb5PzjPv19eKZLDCwluCvCFlZc9Wzx/P9KXMPkM7NGa1XtbcSIghkKl0AkwdrA9ec8/gBWdOUMp8
+uMIo4ABJ/nTTuJxsa3h0nE4zx8vH51D4gJ+2oM8eWOPxNTeHf+Xj/gP9ag8Qf8fyf9cx/M1hU3Z3
+YXdfP8mZyI8jbY0Zm9FGTQ8bxsQ6MpHUMMVNZM4kcJC0oZCGVeuKuC1iXCMXKtJHlS3IyDwat04o
+zWJqvr+C/wAjLorTe1jOY/s+JPLYjaHAJB4xnrTRbLHGVcNGTCpfk9S+OR9KXJAPrFbuvuX+RnUV
+rG1tvtCR/Z5AC+AxBCsMHvk5/DFQ26xSeW4tky29duSQcLkd+tHJEf1ite119y/yM+itCSCJLIyf
+Z3L7GJ2qSEYZ4PPGPcUxYFtp5oLloWRCAWwQ3IB479/pRyQF9YrWvdfcv8ilXQ6ASbFsnpIcfkKw
+JNnmHy92zPG7rW94f/48X/66H+QqJxUWrG9OrKpTnzdLdF5mnnr7Vz2rEnUZMnpjH5CugHU/Wuf1
+X/kIy/h/IVpS3OTEfCVURnbailj6AZodHjba6sp9CMVYtQWgnSPmRgMAdSM81Yih3RJFNHvkVXZU
+JIIHGB/OtnKxzKNzNpcVf+zpwfI/e+Xu8nJ65/Pp2oEKssIeMqcORHk8kYwOTxRzIORmfRWpbWkM
+kyCWHYTGS0eSMc8H1oqXNIapNmLijFdnRUe08jo9j5nGYoxXZ0Ue08g9j5nGYoxXZ0Ue08g9j5mN
+4dBxOccfLz+dQ+IAftqHHBjHP4mt+isp+8dFF+zab1OMp8MrQyiRQCR2NdhRRzT7j5aH8r+//gHI
+yzGSNUCIiKSQFz1P1JqKuzoo5p9w5aH8r+//AIBxlFdnRT5p9w5aH8r+/wD4BxMjDYwyM4PGa6Of
+TI7m7aSaAMGmyWzyU8vH/oVLexRwzO9wBJa3DASBh/q2xgNn04A9j9a0qLt7k2gvhVjkrq1+xyRR
+ktuaFXcMc4Y5z/Ktrw//AMeL/wDXQ/yFWYHD6lclckKkaE9s/MSP1FWql3buy4yjGDilqwx19657
+VgRqMmR1xj8hXQ0VcZcruYVIc6sclT45Gi3bQPmUqc+hrqqK09r5GX1fzOVjlaPO0Ic/3kDfzFIz
+FmLHGT6DFdXRR7XyD6v5nJUV1tFHtfIX1fzMn+2/+nf/AMf/APrUf23/ANO//j//ANaiir5Imftp
+9w/tv/p3/wDH/wD61H9t/wDTv/4//wDWooo5Ih7afcP7b/6d/wDx/wD+tR/bf/Tv/wCP/wD1qKKO
+SIe2n3D+2/8Ap3/8f/8ArUf23/07/wDj/wD9aiijkiHtp9w/tv8A6d//AB//AOtR/bf/AE7/APj/
+AP8AWooo5Ih7afcP7b/6d/8Ax/8A+tR/bf8A07/+P/8A1qKKOSIe2n3D+2/+nf8A8f8A/rUf23/0
+7/8Aj/8A9aiijkiHtp9xG1lXUq1qGUjBBfII/Kqa3WyMxxyXSR9lEw+UegJXP60UUckRe2n3LFvq
+cVtH5cFptXJJ/eZJJ7kkc1L/AG3/ANO//j//ANaiijkiP20+4f23/wBO/wD4/wD/AFqP7b/6d/8A
+x/8A+tRRRyRD20+4f23/ANO//j//ANaj+2/+nf8A8f8A/rUUUckQ9tPuH9t/9O//AI//APWo/tv/
+AKd//H//AK1FFHJEPbT7h/bf/Tv/AOP/AP1qKKKOSIe2n3P/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="a36fac19-b7ac-4983-b8d7-3544f7e88194"
+		waitaction="Exists"
+		waittimeout="45000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="85db4913-8050-4b2a-9322-39383f647ab9"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext~'Formularios / Cl&#225;usulas']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Cotizacion_Endoso.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

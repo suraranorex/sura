@@ -1,0 +1,834 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="48.24s"
+		durationms="48238"
+		type="root"
+		rid="661f67967971c6d"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="MaRuiz"
+		rxversion="9.2.1.0"
+		host="ARLAP405"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="es-AR"
+		screenresolution="1366x768"
+		timestamp="18/9/2020 15:20:06"
+		timestampiso="2020-09-18T18:20:06"
+		endtime="18/9/2020 15:20:54"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InfoPolizaMotorAnswCtaAnonima">
+		<detail>
+			InfoPolizaMotorAnswCtaAnonima
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.324"
+			timeRelativeToTestModuleStartTime="00:03.324"
+			timeWallClock="15:20:09"
+			time="00:03.324"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>CantVehiculos, TipoPlazo, Campania, NombreCtaAnonima, ApellidoCtaAnonima, DNICtaAnonima, CodArea, Telefono, EmailCtaAnonima, Ambiente, OPCION_PAGOCUOTAS, MetodoDePago
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.350"
+			timeRelativeToTestModuleStartTime="00:03.350"
+			timeWallClock="15:20:09"
+			time="00:03.350"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtNombreCtaAnonima' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[4]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:FirstName-inputEl']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[4]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:FirstName-inputEl']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtNombreCtaAnonima"
+				id="b0fa908ecf3748f9be61ef3bceafb8f2"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="230"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.899"
+			timeRelativeToTestModuleStartTime="00:05.899"
+			timeWallClock="15:20:12"
+			time="00:05.899"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$NombreCtaAnonima' with focus on 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtNombreCtaAnonima'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[4]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:FirstName-inputEl']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[4]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:FirstName-inputEl']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtNombreCtaAnonima"
+				id="b0fa908ecf3748f9be61ef3bceafb8f2"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="234"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.718"
+			timeRelativeToTestModuleStartTime="00:06.718"
+			timeWallClock="15:20:13"
+			time="00:06.718"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_CuentaAnonima' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[2]/?/?/label[@innertext='Cuenta Anónima']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[2]/?/?/label[@innertext='Cuenta Anónima']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_CuentaAnonima"
+				id="4d4928f159484976af38496ba94a295c"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="238"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.677"
+			timeRelativeToTestModuleStartTime="00:07.677"
+			timeWallClock="15:20:14"
+			time="00:07.677"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_txtNombreCtaAnonima'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[4]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:FirstName-inputEl']/../..//input[@data-tabindexsaved='True']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[4]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:FirstName-inputEl']/../..//input[@data-tabindexsaved='True']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_txtNombreCtaAnonima"
+				id="7d175c39a7f7440b9aa439c25f09eaa5"
+				timeout="30000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="242"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.723"
+			timeRelativeToTestModuleStartTime="00:13.723"
+			timeWallClock="15:20:20"
+			time="00:13.723"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtApellidoCtaAnonima' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[5]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:LastName-inputEl']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[5]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:LastName-inputEl']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtApellidoCtaAnonima"
+				id="32044ac9f70c4615bcc4221c75af0491"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="245"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.765"
+			timeRelativeToTestModuleStartTime="00:14.765"
+			timeWallClock="15:20:21"
+			time="00:14.765"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$ApellidoCtaAnonima' with focus on 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtApellidoCtaAnonima'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[5]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:LastName-inputEl']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[5]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:LastName-inputEl']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtApellidoCtaAnonima"
+				id="32044ac9f70c4615bcc4221c75af0491"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="249"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.567"
+			timeRelativeToTestModuleStartTime="00:15.567"
+			timeWallClock="15:20:21"
+			time="00:15.567"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_CuentaAnonima' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[2]/?/?/label[@innertext='Cuenta Anónima']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[2]/?/?/label[@innertext='Cuenta Anónima']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_CuentaAnonima"
+				id="4d4928f159484976af38496ba94a295c"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="253"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.493"
+			timeRelativeToTestModuleStartTime="00:16.493"
+			timeWallClock="15:20:22"
+			time="00:16.493"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_txtApellidoCtaAnonima'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[5]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:LastName-inputEl']/../..//input[@data-tabindexsaved='True']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[5]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:LastName-inputEl']/../..//input[@data-tabindexsaved='True']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_txtApellidoCtaAnonima"
+				id="96806cd589874de2a06dc82c12575e6e"
+				timeout="30000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="257"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.522"
+			timeRelativeToTestModuleStartTime="00:18.522"
+			timeWallClock="15:20:24"
+			time="00:18.522"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtDNICtaAnonima' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[9]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:OfficialIDValueDV_Input:PolicyOfficialIDInputSet:OfficialIDSSNDV_Input-inputEl']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[9]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:OfficialIDValueDV_Input:PolicyOfficialIDInputSet:OfficialIDSSNDV_Input-inputEl']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtDNICtaAnonima"
+				id="1ac9a79b11b74d58a51f2ad96dd52e1f"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="260"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.597"
+			timeRelativeToTestModuleStartTime="00:19.597"
+			timeWallClock="15:20:25"
+			time="00:19.597"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'yourtext{LControlKey down}{Akey}{LControlKey up}' with focus on 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtDNICtaAnonima'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[9]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:OfficialIDValueDV_Input:PolicyOfficialIDInputSet:OfficialIDSSNDV_Input-inputEl']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[9]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:OfficialIDValueDV_Input:PolicyOfficialIDInputSet:OfficialIDSSNDV_Input-inputEl']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtDNICtaAnonima"
+				id="1ac9a79b11b74d58a51f2ad96dd52e1f"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="264"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.533"
+			timeRelativeToTestModuleStartTime="00:20.533"
+			timeWallClock="15:20:26"
+			time="00:20.533"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$DNICtaAnonima' with focus on 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtDNICtaAnonima'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[9]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:OfficialIDValueDV_Input:PolicyOfficialIDInputSet:OfficialIDSSNDV_Input-inputEl']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[9]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:OfficialIDValueDV_Input:PolicyOfficialIDInputSet:OfficialIDSSNDV_Input-inputEl']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtDNICtaAnonima"
+				id="1ac9a79b11b74d58a51f2ad96dd52e1f"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="268"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.404"
+			timeRelativeToTestModuleStartTime="00:21.404"
+			timeWallClock="15:20:27"
+			time="00:21.404"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_CuentaAnonima' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[2]/?/?/label[@innertext='Cuenta Anónima']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[2]/?/?/label[@innertext='Cuenta Anónima']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_CuentaAnonima"
+				id="4d4928f159484976af38496ba94a295c"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="272"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.499"
+			timeRelativeToTestModuleStartTime="00:22.499"
+			timeWallClock="15:20:28"
+			time="00:22.499"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_txtDNICtaAnonima'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[9]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:OfficialIDValueDV_Input:PolicyOfficialIDInputSet:OfficialIDSSNDV_Input-inputEl']/../..//input[@data-tabindexsaved='True']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[9]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:OfficialIDValueDV_Input:PolicyOfficialIDInputSet:OfficialIDSSNDV_Input-inputEl']/../..//input[@data-tabindexsaved='True']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_txtDNICtaAnonima"
+				id="621011f48a8d475d8e4c45827b57d639"
+				timeout="30000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="276"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.132"
+			timeRelativeToTestModuleStartTime="00:23.132"
+			timeWallClock="15:20:29"
+			time="00:23.132"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtCodArea' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[12]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:PolicyPhoneInput_Set:AreaCode-inputEl']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[12]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:PolicyPhoneInput_Set:AreaCode-inputEl']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtCodArea"
+				id="65699d839ffe402fbf95d77453a89ddf"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="279"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.163"
+			timeRelativeToTestModuleStartTime="00:24.163"
+			timeWallClock="15:20:30"
+			time="00:24.163"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$CodArea' with focus on 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtCodArea'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[12]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:PolicyPhoneInput_Set:AreaCode-inputEl']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[12]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:PolicyPhoneInput_Set:AreaCode-inputEl']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtCodArea"
+				id="65699d839ffe402fbf95d77453a89ddf"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="283"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.169"
+			timeRelativeToTestModuleStartTime="00:25.169"
+			timeWallClock="15:20:31"
+			time="00:25.169"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_CuentaAnonima' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[2]/?/?/label[@innertext='Cuenta Anónima']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[2]/?/?/label[@innertext='Cuenta Anónima']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_CuentaAnonima"
+				id="4d4928f159484976af38496ba94a295c"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="287"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.057"
+			timeRelativeToTestModuleStartTime="00:26.057"
+			timeWallClock="15:20:32"
+			time="00:26.057"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_txtCodArea'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[12]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:PolicyPhoneInput_Set:AreaCode-inputEl']/../..//input[@data-tabindexsaved='True']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[12]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:PolicyPhoneInput_Set:AreaCode-inputEl']/../..//input[@data-tabindexsaved='True']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_txtCodArea"
+				id="d5bd4431a3fc453ca66ce0a1479f0f0d"
+				timeout="30000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="291"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.124"
+			timeRelativeToTestModuleStartTime="00:28.124"
+			timeWallClock="15:20:34"
+			time="00:28.124"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtTelefono' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[13]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:PolicyPhoneInput_Set:NationalSubscriberNumber-inputEl']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[13]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:PolicyPhoneInput_Set:NationalSubscriberNumber-inputEl']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtTelefono"
+				id="2e8892ed9fdf42ab95d4ecf19c2e7d5a"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="294"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.162"
+			timeRelativeToTestModuleStartTime="00:29.162"
+			timeWallClock="15:20:35"
+			time="00:29.162"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$Telefono' with focus on 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtTelefono'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[13]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:PolicyPhoneInput_Set:NationalSubscriberNumber-inputEl']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[13]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:PolicyPhoneInput_Set:NationalSubscriberNumber-inputEl']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtTelefono"
+				id="2e8892ed9fdf42ab95d4ecf19c2e7d5a"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="298"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.013"
+			timeRelativeToTestModuleStartTime="00:30.013"
+			timeWallClock="15:20:36"
+			time="00:30.013"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_CuentaAnonima' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[2]/?/?/label[@innertext='Cuenta Anónima']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[2]/?/?/label[@innertext='Cuenta Anónima']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_CuentaAnonima"
+				id="4d4928f159484976af38496ba94a295c"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="302"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.959"
+			timeRelativeToTestModuleStartTime="00:30.959"
+			timeWallClock="15:20:37"
+			time="00:30.959"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_txtTelefono'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[13]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:PolicyPhoneInput_Set:NationalSubscriberNumber-inputEl']/../..//input[@data-tabindexsaved='True']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[13]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:AccountInfoInputSet:PolicyPhoneInput_Set:NationalSubscriberNumber-inputEl']/../..//input[@data-tabindexsaved='True']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_txtTelefono"
+				id="7a3b7ddb46ea450d8a0507d547678640"
+				timeout="30000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="306"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.565"
+			timeRelativeToTestModuleStartTime="00:31.565"
+			timeWallClock="15:20:37"
+			time="00:31.565"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Pantalla' at UpperRight.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/div"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/div"
+				fullname="SuraRepository.SURA.PC.Emision.Generales.InformacionDePoliza.Pantalla"
+				id="cccdcb835cc64eb7bbbca2d4c181c350"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="326"
+				itemindex="25"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.352"
+			timeRelativeToTestModuleStartTime="00:32.352"
+			timeWallClock="15:20:38"
+			time="00:32.352"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LControlKey down}{Akey}{LControlKey up}' with focus on 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txt_TipoPlazo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']//span[@innertext='Tipo de plazo']/../..//input"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']//span[@innertext='Tipo de plazo']/../..//input"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txt_TipoPlazo"
+				id="b962091ac7c442c59376b32996817d43"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="333"
+				itemindex="27"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.127"
+			timeRelativeToTestModuleStartTime="00:33.127"
+			timeWallClock="15:20:39"
+			time="00:33.127"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$TipoPlazo' with focus on 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txt_TipoPlazo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']//span[@innertext='Tipo de plazo']/../..//input"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']//span[@innertext='Tipo de plazo']/../..//input"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txt_TipoPlazo"
+				id="b962091ac7c442c59376b32996817d43"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="337"
+				itemindex="28"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.954"
+			timeRelativeToTestModuleStartTime="00:33.954"
+			timeWallClock="15:20:40"
+			time="00:33.954"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.Lbl_DetallesDeLaPoliza' at UpperRight.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody//label[@innertext='Detalles de la póliza']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody//label[@innertext='Detalles de la póliza']"
+				fullname="SuraRepository.SURA.Lbl_DetallesDeLaPoliza"
+				id="76d1e8fb00e14300a2afc8d740d40ef9"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="341"
+				itemindex="29"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.889"
+			timeRelativeToTestModuleStartTime="00:34.889"
+			timeWallClock="15:20:41"
+			time="00:34.889"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_txt_TipoPlazo'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']//span[@innertext='Tipo de plazo']/../..//input[@data-tabindexsaved='True']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']//span[@innertext='Tipo de plazo']/../..//input[@data-tabindexsaved='True']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_txt_TipoPlazo"
+				id="f4471e756b4c4ee1b5eb8d3e5040bc68"
+				timeout="30000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="345"
+				itemindex="30"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.939"
+			timeRelativeToTestModuleStartTime="00:37.939"
+			timeWallClock="15:20:44"
+			time="00:37.939"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$MetodoDePago' with focus on 'SURA.PC.Emision.Generales.InformacionDePoliza.list_MetodoDePago'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//table//span[@innertext~'Método de Pago']/../..//input"
+				itempath=".//table//span[@innertext~'Método de Pago']/../..//input"
+				fullname="SuraRepository.SURA.PC.Emision.Generales.InformacionDePoliza.list_MetodoDePago"
+				id="dbb47d0b279944a1a217e847d6d55bc9"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="348"
+				itemindex="31"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.679"
+			timeRelativeToTestModuleStartTime="00:38.679"
+			timeWallClock="15:20:45"
+			time="00:38.679"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Pantalla' at UpperRight.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/div"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[1]/div"
+				fullname="SuraRepository.SURA.PC.Emision.Generales.InformacionDePoliza.Pantalla"
+				id="cccdcb835cc64eb7bbbca2d4c181c350"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="352"
+				itemindex="32"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.496"
+			timeRelativeToTestModuleStartTime="00:39.496"
+			timeWallClock="15:20:45"
+			time="00:39.496"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 15s to not exist. Associated repository item: 'SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_list_MetodoDePago'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//table//span[@innertext~'Método de Pago']/../..//input[@data-tabindexsaved='True']"
+				itempath=".//table//span[@innertext~'Método de Pago']/../..//input[@data-tabindexsaved='True']"
+				fullname="SuraRepository.SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_list_MetodoDePago"
+				id="f9ce8d2f1f9a47fcaf5f0f48c9fee6b8"
+				timeout="15000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="356"
+				itemindex="33"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:42.255"
+			timeRelativeToTestModuleStartTime="00:42.255"
+			timeWallClock="15:20:48"
+			time="00:42.255"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtEmailCtaAnonima' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[12]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:PolicyInfoInputSet:EmailAddres1-inputEl']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[12]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:PolicyInfoInputSet:EmailAddres1-inputEl']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtEmailCtaAnonima"
+				id="74267caa14c3442b8f313042b219915d"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="359"
+				itemindex="34"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.291"
+			timeRelativeToTestModuleStartTime="00:43.291"
+			timeWallClock="15:20:49"
+			time="00:43.291"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$EmailCtaAnonima' with focus on 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtEmailCtaAnonima'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[12]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:PolicyInfoInputSet:EmailAddres1-inputEl']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[12]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:PolicyInfoInputSet:EmailAddres1-inputEl']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txtEmailCtaAnonima"
+				id="74267caa14c3442b8f313042b219915d"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="363"
+				itemindex="35"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.557"
+			timeRelativeToTestModuleStartTime="00:44.557"
+			timeWallClock="15:20:50"
+			time="00:44.557"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.Lbl_DetallesDeLaPoliza' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody//label[@innertext='Detalles de la póliza']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody//label[@innertext='Detalles de la póliza']"
+				fullname="SuraRepository.SURA.Lbl_DetallesDeLaPoliza"
+				id="76d1e8fb00e14300a2afc8d740d40ef9"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="367"
+				itemindex="36"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.578"
+			timeRelativeToTestModuleStartTime="00:45.578"
+			timeWallClock="15:20:51"
+			time="00:45.578"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_txtEmailCtaAnonima'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[12]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:PolicyInfoInputSet:EmailAddres1-inputEl']/../..//input[@data-tabindexsaved='True']"
+				itempath=".//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[12]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:PolicyInfoInputSet:EmailAddres1-inputEl']/../..//input[@data-tabindexsaved='True']"
+				fullname="SuraRepository.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_txtEmailCtaAnonima"
+				id="338ccc40f868417cab3ed362ea27d392"
+				timeout="30000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="371"
+				itemindex="37"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.235"
+			timeRelativeToTestModuleStartTime="00:48.235"
+			timeWallClock="15:20:54"
+			time="00:48.235"
+			level="Info"
+			category="Section">
+			<message>
+				--------------------------Capturas de pantalla
+			</message>
+			<metainfo
+				itemindex="44"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\InfoPolizaMotorAnswCtaAnonima.cs"
+				codeline="397"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

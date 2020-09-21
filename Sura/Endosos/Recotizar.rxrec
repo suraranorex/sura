@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d0d94ad1-cc59-4a25-9a53-cf5315aaa9d7"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recotizar"
+	namespace="Sura.Endosos">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="0a5d1145-f4b5-4b08-ac8a-5bf6c0f95d46">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="13;1"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="14fe4b72-d8ab-4c0b-a252-824ac1bcfee1"
+		sx="272"
+		sy="142"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="25f606e9-51bf-41f1-8530-363d7cfd5a2d"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="259,141,33,8"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:JobWizardToolbarButtonSet:QuoteOrReview-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Re-Cotiar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Cotiar']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e5d1a009-5082-4a03-a7ab-6cbaa0f18679">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="b72b9355-d78d-41eb-85e8-28ee0856d2db"
+		waitaction="Exists"
+		waittimeout="45000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6b482fab-0202-45af-8df3-5be92077ea7d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext='Cotizaci&#243;n']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recotizar.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

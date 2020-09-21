@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="18.32s"
+		durationms="18321"
+		type="root"
+		rid="18c33166d4ad337"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="MaRuiz"
+		rxversion="9.2.1.0"
+		host="ARLAP405"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="es-MX"
+		dtnlanguage="es-AR"
+		screenresolution="1366x768"
+		timestamp="18/9/2020 13:54:23"
+		timestampiso="2020-09-18T16:54:23"
+		endtime="18/9/2020 13:54:42"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="MenuNuevasolicitudAnonima">
+		<detail>
+			MenuNuevasolicitudAnonima
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.696"
+			timeRelativeToTestModuleStartTime="00:03.696"
+			timeWallClock="13:54:27"
+			time="00:03.696"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Ambiente
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.719"
+			timeRelativeToTestModuleStartTime="00:03.719"
+			timeWallClock="13:54:27"
+			time="00:03.719"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Menu.MenuNuevo' at 38;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[#'Desktop:DesktopMenuActions-btnInnerEl']"
+				itempath=".//span[#'Desktop:DesktopMenuActions-btnInnerEl']"
+				fullname="SuraRepository.SURA.PC.Menu.MenuNuevo"
+				id="b84206eee01c4031ade5c01bbd1ffb8c"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\MenuNuevasolicitudAnonima.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.844"
+			timeRelativeToTestModuleStartTime="00:05.844"
+			timeWallClock="13:54:29"
+			time="00:05.844"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Menu.Lateral_Cuenta.bttn_NuevaSolicitud' at 71;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Nueva Solicitud']"
+				itempath=".//span[@innertext~'Nueva Solicitud']"
+				fullname="SuraRepository.SURA.PC.Menu.Lateral_Cuenta.bttn_NuevaSolicitud"
+				id="c726c09cbd6c4aa78a8ee9020b8e456e"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\MenuNuevasolicitudAnonima.cs"
+				codeline="96"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.428"
+			timeRelativeToTestModuleStartTime="00:06.428"
+			timeWallClock="13:54:30"
+			time="00:06.428"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SURA.PC.Menu.Persona' at CenterRight.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[13]/div/div[2]//span[@innertext='Persona']"
+				itempath="body/div[13]/div/div[2]//span[@innertext='Persona']"
+				fullname="SuraRepository.SURA.PC.Menu.Persona"
+				id="aa02b37da9b24745b5d0e060181fb2c4"
+				timeout="60000"
+				codefile="c:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\Emision\MenuNuevasolicitudAnonima.cs"
+				codeline="100"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.308"
+			timeRelativeToTestModuleStartTime="00:18.308"
+			timeWallClock="13:54:42"
+			time="00:18.308"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
