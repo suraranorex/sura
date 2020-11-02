@@ -227,12 +227,11 @@
 			name="BC/ReversaPago">
 			</testcase>
 			<testcase
-			datarangeset="33,34"
 			datasource="BC_Pago"
 			errorbehavior="ContinueNextIteration"
 			id="a7077552-e484-49d4-aaef-325c403fe529"
-			maxrange="33"
-			minrange="32"
+			maxrange="67"
+			minrange="37"
 			name="BC/Pago_de_Poliza">
 			</testcase>
 			<testmodule
@@ -424,7 +423,7 @@
 		filename="R:\Sura\DataSource\DataSource - Pago.xlsx"
 		id="46355cdd-6d91-437d-af37-776dd8580d97"
 		includefile="Unchecked"
-		lastknownrowcount="21"
+		lastknownrowcount="26"
 		name="BC_Pago"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -443,13 +442,13 @@
 					Contrasenia
 				</column>
 				<column>
+					NumPoliza
+				</column>
+				<column>
 					NroCuenta
 				</column>
 				<column>
 					NumAutorizacion
-				</column>
-				<column>
-					NumPoliza
 				</column>
 				<column>
 					TipoTarjeta
@@ -462,7 +461,7 @@
 		filename="R:\Sura\DataSource\DataSource - Reversa de Pago.xlsx"
 		id="b1a720c0-5ead-4801-b38a-4bb976537817"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="2"
 		name="BC_ReversaPago"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -502,16 +501,16 @@
 			id="03869e2b-bf4b-4681-b2cc-7fccc94848fb">
 			</testcontainer>
 			<testcontainer
-			id="a4ef52bb-f07a-48e9-aefe-1cb152cb624d">
-			</testcontainer>
-			<testcontainer
 			id="a7077552-e484-49d4-aaef-325c403fe529">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
 		<reference>
-			C:\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Wpf.Core.dll
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll
+		</reference>
+		<reference>
+			C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Office.Tools.Excel\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.Office.Tools.Excel.dll
 		</reference>
 	</references>
 </testsuitedoc>

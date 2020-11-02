@@ -108,35 +108,56 @@ namespace Sura.Endosos
             
             Report.Screenshot(ReportLevel.Info, "User", "Información original", repo.SURA.Self, false, new RecordItemIndex(1));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.PolicyChangeWizardLOBWizardStepGroupLi1.cbo_ProveedorAsistencia' at 10;8.", repo.SURA.PC.Endosos2.PolicyChangeWizardLOBWizardStepGroupLi1.cbo_ProveedorAsistenciaInfo, new RecordItemIndex(2));
-            repo.SURA.PC.Endosos2.PolicyChangeWizardLOBWizardStepGroupLi1.cbo_ProveedorAsistencia.Click("10;8");
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.PolicyChangeWizardLOBWizardStepGroupLi1.cbo_ProveedorAsistencia' at 10;8.", repo.SURA.PC.Endosos2.PolicyChangeWizardLOBWizardStepGroupLi1.cbo_ProveedorAsistenciaInfo, new RecordItemIndex(2));
+            //repo.SURA.PC.Endosos2.PolicyChangeWizardLOBWizardStepGroupLi1.cbo_ProveedorAsistencia.Click("10;8");
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(3));
+            Delay.Duration(3000, false);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaInvisible' at Center.", repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaInvisibleInfo, new RecordItemIndex(4));
+            //repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaInvisible.MoveTo();
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaInvisible' at Center.", repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaInvisibleInfo, new RecordItemIndex(5));
+            repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaInvisible.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA'.", repo.SURA.SelfInfo, new RecordItemIndex(3));
-            Keyboard.PrepareFocus(repo.SURA.Self);
-            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaVisible'.", repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaVisibleInfo, new RecordItemIndex(6));
+            //Keyboard.PrepareFocus(repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaVisible);
+            //Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}' with focus on 'SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaInvisible'.", repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaInvisibleInfo, new RecordItemIndex(7));
+            repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaInvisible.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$ProveedorAsistencia' with focus on 'SURA'.", repo.SURA.SelfInfo, new RecordItemIndex(4));
-            repo.SURA.Self.EnsureVisible();
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$ProveedorAsistencia' with focus on 'SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaInvisible'.", repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaInvisibleInfo, new RecordItemIndex(8));
+            repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaInvisible.EnsureVisible();
             Keyboard.Press(ProveedorAsistencia);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgo' at 82;10.", repo.SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgoInfo, new RecordItemIndex(5));
-            repo.SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgo.Click("82;10");
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.Copy_of_txt_ProveedorAsistMecanica'", repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.Copy_of_txt_ProveedorAsistMecanicaInfo, new ActionTimeout(30000), new RecordItemIndex(9));
+            repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.Copy_of_txt_ProveedorAsistMecanicaInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(6));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgo' at 82;10.", repo.SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgoInfo, new RecordItemIndex(10));
+            //repo.SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgo.Click("82;10");
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(11));
             Delay.Duration(1000, false);
             
-            Report.Screenshot(ReportLevel.Info, "User", "Modificación generada por el endoso", repo.SURA.Self, false, new RecordItemIndex(7));
+            Report.Screenshot(ReportLevel.Info, "User", "Modificación generada por el endoso", repo.SURA.Self, false, new RecordItemIndex(12));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.Siguiente' at 29;8.", repo.SURA.PC.Endosos2.SiguienteInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.Siguiente' at 29;8.", repo.SURA.PC.Endosos2.SiguienteInfo, new RecordItemIndex(13));
             repo.SURA.PC.Endosos2.Siguiente.Click("29;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos2.ModifCoberturas.txt_AnalisisDeRiesgo'", repo.SURA.PC.Endosos2.ModifCoberturas.txt_AnalisisDeRiesgoInfo, new ActionTimeout(45000), new RecordItemIndex(9));
-            repo.SURA.PC.Endosos2.ModifCoberturas.txt_AnalisisDeRiesgoInfo.WaitForExists(45000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Endosos2.title_Comisiones_Descuentos'", repo.SURA.PC.Endosos2.title_Comisiones_DescuentosInfo, new ActionTimeout(30000), new RecordItemIndex(14));
+            repo.SURA.PC.Endosos2.title_Comisiones_DescuentosInfo.WaitForExists(30000);
+            
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos2.ModifCoberturas.txt_AnalisisDeRiesgo'", repo.SURA.PC.Endosos2.ModifCoberturas.txt_AnalisisDeRiesgoInfo, new ActionTimeout(45000), new RecordItemIndex(15));
+            //repo.SURA.PC.Endosos2.ModifCoberturas.txt_AnalisisDeRiesgoInfo.WaitForExists(45000);
             
         }
 

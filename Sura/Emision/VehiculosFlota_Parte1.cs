@@ -64,30 +64,6 @@ namespace Sura.Emision
 
 #region Variables
 
-        string _Marca;
-
-        /// <summary>
-        /// Gets or sets the value of variable Marca.
-        /// </summary>
-        [TestVariable("cd5fbe31-698f-43f6-b13e-d72dae3c575d")]
-        public string Marca
-        {
-            get { return _Marca; }
-            set { _Marca = value; }
-        }
-
-        string _Modelo;
-
-        /// <summary>
-        /// Gets or sets the value of variable Modelo.
-        /// </summary>
-        [TestVariable("d00cad0a-f599-40f5-86b0-b27b9c1c4574")]
-        public string Modelo
-        {
-            get { return _Modelo; }
-            set { _Modelo = value; }
-        }
-
         string _Actividad;
 
         /// <summary>
@@ -166,6 +142,26 @@ namespace Sura.Emision
         {
             get { return repo.Anio; }
             set { repo.Anio = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable Marca.
+        /// </summary>
+        [TestVariable("cd5fbe31-698f-43f6-b13e-d72dae3c575d")]
+        public string Marca
+        {
+            get { return repo.Marca; }
+            set { repo.Marca = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable Modelo.
+        /// </summary>
+        [TestVariable("d00cad0a-f599-40f5-86b0-b27b9c1c4574")]
+        public string Modelo
+        {
+            get { return repo.Modelo; }
+            set { repo.Modelo = value; }
         }
 
         /// <summary>

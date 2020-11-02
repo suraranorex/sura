@@ -41,6 +41,7 @@ namespace Sura.Emision
         /// </summary>
         public NuevaPoliza_Hogar()
         {
+            CodigoAgente = "2344";
         }
 
         /// <summary>
@@ -73,6 +74,16 @@ namespace Sura.Emision
             set { repo.TIPOPOLIZA = value; }
         }
 
+        /// <summary>
+        /// Gets or sets the value of variable CodigoAgente.
+        /// </summary>
+        [TestVariable("02e63599-2bb9-4f78-9e89-846e27600de3")]
+        public string CodigoAgente
+        {
+            get { return repo.CodigoAgente; }
+            set { repo.CodigoAgente = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -99,10 +110,31 @@ namespace Sura.Emision
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 2s to exist. Associated repository item: 'SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.Copy_of_bttn_Elegir'", repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.Copy_of_bttn_ElegirInfo, new ActionTimeout(2000), new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.PC.Emision.Enlatados.txtbox_CodigoAgente'.", repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgenteInfo, new RecordItemIndex(0));
+            Keyboard.PrepareFocus(repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgente);
+            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CodigoAgente' with focus on 'SURA.PC.Emision.Enlatados.txtbox_CodigoAgente'.", repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgenteInfo, new RecordItemIndex(1));
+            repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgente.PressKeys(CodigoAgente);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevas' at Center.", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevasInfo, new RecordItemIndex(2));
+            repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevas.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to not exist. Associated repository item: 'SURA.PC.Emision.Enlatados.Copy_of_txtbox_CodigoAgente'", repo.SURA.PC.Emision.Enlatados.Copy_of_txtbox_CodigoAgenteInfo, new ActionTimeout(10000), new RecordItemIndex(3));
+            repo.SURA.PC.Emision.Enlatados.Copy_of_txtbox_CodigoAgenteInfo.WaitForNotExists(10000);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(4));
+            
+            // -------------------
+            Report.Log(ReportLevel.Info, "Section", "-------------------", new RecordItemIndex(5));
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 2s to exist. Associated repository item: 'SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.Copy_of_bttn_Elegir'", repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.Copy_of_bttn_ElegirInfo, new ActionTimeout(2000), new RecordItemIndex(6));
             repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.Copy_of_bttn_ElegirInfo.WaitForExists(2000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.bttn_Elegir' at Center.", repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.bttn_ElegirInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.bttn_Elegir' at Center.", repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.bttn_ElegirInfo, new RecordItemIndex(7));
             repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.bttn_Elegir.Click();
             Delay.Milliseconds(0);
             

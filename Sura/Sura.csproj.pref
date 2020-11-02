@@ -5,6 +5,8 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="PC.rxtst" />
+    <Element value="ValidacionMarcaModelo\ValidacionStatus.UserCode.cs" />
+    <Element value="ValidacionMarcaModelo\ValidacionStatus.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
@@ -12,12 +14,12 @@
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="Sura.ValidacionMarcaModelo.ValidacionStatus.GrabaExcel()" />
+      <Element value="Sura.ValidacionMarcaModelo.ValidacionStatus.GrabaExcel()" />
+      <Element value="Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Validacion()" />
+      <Element value="Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Validate_Copy_of_Modelo(RepoItemInfo divtagInfo)" />
+      <Element value="Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Validate_Copy_of_Marca(RepoItemInfo divtagInfo)" />
       <Element value="Sura.Emision.EmisionPoliza.AprobacionBloqueo()" />
-      <Element value="Sura.Emision.EmisionPoliza.AprobacionBloqueo()" />
-      <Element value="Sura.Emision.EmisionPoliza.Mouse_Click_bttn_Aceptar(RepoItemInfo spantagInfo)" />
-      <Element value="Sura.Emision.Coberturas_HogarNoEnlatado.SeleccionaCoberturaHogar()" />
-      <Element value="Sura.Emision.EmisionPoliza.guardarNumPoliza()" />
-      <Element value="Sura.Emision.EmitirHogarNoEnlatado.guardarNumPoliza()" />
     </Array>
   </Properties>
 </Properties>

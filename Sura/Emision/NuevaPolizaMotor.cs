@@ -42,6 +42,7 @@ namespace Sura.Emision
         public NuevaPolizaMotor()
         {
             TIPOPOLIZA = "Motor";
+            CodigoAgente = "2344";
         }
 
         /// <summary>
@@ -74,6 +75,16 @@ namespace Sura.Emision
             set { repo.TIPOPOLIZA = value; }
         }
 
+        /// <summary>
+        /// Gets or sets the value of variable CodigoAgente.
+        /// </summary>
+        [TestVariable("6f7f07ec-644a-478e-b7a7-f7ea973f5459")]
+        public string CodigoAgente
+        {
+            get { return repo.CodigoAgente; }
+            set { repo.CodigoAgente = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -100,11 +111,36 @@ namespace Sura.Emision
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.bttn_Elegir' at Center.", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.bttn_ElegirInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Enlatados.txtbox_CodigoAgente' at Center.", repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgenteInfo, new RecordItemIndex(0));
+            repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgente.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.PC.Emision.Enlatados.txtbox_CodigoAgente'.", repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgenteInfo, new RecordItemIndex(1));
+            Keyboard.PrepareFocus(repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgente);
+            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CodigoAgente' with focus on 'SURA.PC.Emision.Enlatados.txtbox_CodigoAgente'.", repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgenteInfo, new RecordItemIndex(2));
+            repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgente.PressKeys(CodigoAgente);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevas' at Center.", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevasInfo, new RecordItemIndex(3));
+            repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevas.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to not exist. Associated repository item: 'SURA.PC.Emision.Enlatados.Copy_of_txtbox_CodigoAgente'", repo.SURA.PC.Emision.Enlatados.Copy_of_txtbox_CodigoAgenteInfo, new ActionTimeout(10000), new RecordItemIndex(4));
+            repo.SURA.PC.Emision.Enlatados.Copy_of_txtbox_CodigoAgenteInfo.WaitForNotExists(10000);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(5));
+            
+            // ------
+            Report.Log(ReportLevel.Info, "Section", "------", new RecordItemIndex(6));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.bttn_Elegir' at Center.", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.bttn_ElegirInfo, new RecordItemIndex(7));
             repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.bttn_Elegir.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_Motor'", repo.SURA.PC.Txt_Validacion.txt_MotorInfo, new ActionTimeout(30000), new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_Motor'", repo.SURA.PC.Txt_Validacion.txt_MotorInfo, new ActionTimeout(30000), new RecordItemIndex(8));
             repo.SURA.PC.Txt_Validacion.txt_MotorInfo.WaitForExists(30000);
             
         }

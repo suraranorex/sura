@@ -1,0 +1,2790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9b616537-b30e-4f5a-bc28-2e55d5000374"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="TarjetaCreditoCtaAnonima"
+	namespace="Sura.Emision">
+	</codegen>
+	<variables>
+		<var
+		id="30a3b09c-92f3-4578-afd5-eaa2b7e7c391"
+		name="TipoTarjeta">
+			Huilen
+		</var>
+		<var
+		id="5838a06f-80d8-483d-8697-b7725f36562b"
+		name="NumTarjetaCred">
+			6281015855047101
+		</var>
+		<var
+		id="ed6ed91d-59a1-473e-af32-5eec5d1be3ef"
+		name="FechaVencimiento">
+			05/2024
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="89569a68-91cc-44e0-82c7-1e001591245c"
+		sx="95"
+		sy="460"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="52cf72cb-5474-43f3-b8e7-6bcae0d5c961"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="3"
+				prefcap="spantag"
+				rect="42,453,106,14"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-tree-node-text&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Informaci&#243;n del Pago
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-tree-node-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'westPanel-innerCt']/div[3]/div[3]/div[1]/?/?/div/table[9]//span[@innertext='Informaci&#243;n del Pago']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="2426944b-322a-4d69-ab1a-16f14fda1e32"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ece2d28f-92ab-48b7-b5f3-c98b2f2a1cd1"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="305,466,43,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:SubmissionWizard_PaymentScreen:BillingAdjustmentsDV:PaymentInstrument:PaymentInstrumentsLV_tb:AddPaymentInstrument-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Agregar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Agregar']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="765bd966-d1e0-4ac7-96bc-041cc54051b4"
+		sx="333"
+		sy="471"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ece2d28f-92ab-48b7-b5f3-c98b2f2a1cd1"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="311,466,43,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:SubmissionWizard_PaymentScreen:BillingAdjustmentsDV:PaymentInstrument:PaymentInstrumentsLV_tb:AddPaymentInstrument-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Agregar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/BillingInfo']/table/tbody/tr[5]//table/tbody/tr[8]//table/?/?/tr/td[2]/div/div[1]/div/div/a[1]//span[@innertext='Agregar']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="f7910cee-c17a-4565-a505-508d807e314d">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAwAIQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooqJ7mCNirzxqw6guAaBpN7EtFQ/bLX/n5h/77FH2y1/5+Yf++xSuh8kuxNRUP2y1/wCf
+mH/vsUfbLX/n5h/77FF0HJLsTUVD9stf+fmH/vsU+OaKXPlSI+Ou1gcUXQOMluh9FFFMkKKKKACi
+iigAooooAKKKKACuZ1j/AJCc3/Af/QRXTVzOsf8AITm/4D/6CKTtdXNqbkozcd7fqiKO1Z7YzBuc
+8LjqO5/Wl+w3GCdi4Gc/OvGOveiK9kQxrn90o2lB0I7/AI1Nc3ySK3lhizAqS2cBT7ZPPFaWj2Rz
+c9e3xS/Eq/Z5PMEfybz0XzFz0z0z6U77HNuC4TJGQPMXke3NXLVpZrdJERXm+1YGTjOIvX8Kj+33
+MKo5tdu5VkLb2YYPC5Of0NFo9kNzq/zP72VJYJIQpkAG4ZA3DP5VreHf+Xj/AID/AFrJnmad97AA
+4A49q1vDv/Lx/wAB/rUTUU1Y2pSqOE+dvpv6myDkUUg4H40tBmFFFFABRRRQAUUUUAFFFFACMyr9
+5gPqaqTWdjPKZJVVnbqd5H9asv8A6xfof6UUmk9yoylF3i7FP+zdO/55r/38P+NVr60soEiMaRjd
+IFZmLMFBB54I74H41q0jKrqVYBlIwQRkEUcq7Fe2qfzP7yrp9mYVcSxqhWXem1iR9wLnn8eDRfW0
+KWgXbhS0MZGf4Q4wP1NNhllsMW8yTTRAfu5UQscejAdx696HklvpokSGSO3Rw7vINpYjkAA89cc+
+1Mi7vcX+zdO/55r/AN/D/jU9tBa2u7yNqbsZ+fOfzNS0UrJFOpOSs2xfMT++v50eYn99fzpKKZAv
+mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f23ba14f-87e0-49f0-b543-93980a303bef"
+		sx="406"
+		sy="217"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e01ad0fd-7c52-4f6a-951f-df8d8c208e54"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="338,207,136,20"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:PaymentMethodInputSet:CreditCardType-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Naranja
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:PaymentMethodInputSet:CreditCardType
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Naranja
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext~'Tipo de tarjeta']/../..//input
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{LControlKey down}{Akey}{LControlKey up}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="f8ef9c21-9000-4076-bc07-143e07ba8c82">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e01ad0fd-7c52-4f6a-951f-df8d8c208e54"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="338,207,136,20"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:PaymentMethodInputSet:CreditCardType-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						Naranja
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:PaymentMethodInputSet:CreditCardType
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						Naranja
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext~'Tipo de tarjeta']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="4ab601b8-7c6e-4e80-98ca-0d49d6fddc15">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="TipoTarjeta">
+				</binding>
+			</bindings>
+			<info
+			id="e01ad0fd-7c52-4f6a-951f-df8d8c208e54"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="304,234,123,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:PaymentMethodInputSet:CreditCardType-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:PaymentMethodInputSet:CreditCardType
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Tipo de tarjeta']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="12ba1181-ffd1-42a2-ba7b-82044744fb7a"
+		sx="271"
+		sy="157"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cfdcf19c-98b5-4c01-9942-5bb302ed5ac0"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="175,149,192,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Nuevo M&#233;todo de Pago
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Nuevo M&#233;todo de Pago']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="57f6eefa-ff91-45b6-9faf-de097e6dc59c"
+		waitaction="NotExists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bdc767b4-4e49-433d-9d4e-6c4582a62253"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Tipo de tarjeta']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<setvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="e40aec46-4820-40c6-a6ed-cf66873064bd">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="NumTarjetaCred">
+				</binding>
+			</bindings>
+			<info
+			id="90df83d1-29d2-4a1f-9d54-064bb88384a7"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="299,427,140,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default  x-form-invalid-field x-form-invalid-field-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						PolicyChangeWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:PaymentMethodInputSet:CrediCardNumber-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-invalid-field x-form-invalid-field-default x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						**4123
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						16
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						PolicyChangeWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:PaymentMethodInputSet:CrediCardNumber
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						**4123
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="readonly"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.&#186; de tarjeta de cr&#233;dito']/../..//input
+				</path>
+			</info>
+			<AttributeValue>
+				**4123
+			</AttributeValue>
+		</setvaluerecorditem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="False"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="268a3928-8cba-4fab-b565-a144b12fe9a1">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="NumTarjetaCred">
+				</binding>
+			</bindings>
+			<info
+			id="90df83d1-29d2-4a1f-9d54-064bb88384a7"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="304,260,140,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:PaymentMethodInputSet:CrediCardNumber-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						16
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:PaymentMethodInputSet:CrediCardNumber
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.&#186; de tarjeta de cr&#233;dito']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="12ba1181-ffd1-42a2-ba7b-82044744fb7a"
+		sx="271"
+		sy="157"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cfdcf19c-98b5-4c01-9942-5bb302ed5ac0"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="175,149,192,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Nuevo M&#233;todo de Pago
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Nuevo M&#233;todo de Pago']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="6637d45d-1f97-40df-8115-13fc55b7f18c"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e8b7f5ca-2946-42f7-bce2-64bb7c728f68"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.&#186; de tarjeta de cr&#233;dito']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f4b9517e-0ab6-4efd-8663-a2acfe78a843"
+		sx="0"
+		sy="103"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3c544d2e-ae69-4cde-a41d-6d5c49c79cec"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="0,103,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext~'Fecha de vencimiento']/../..//input
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{LControlKey down}{Akey}{LControlKey up}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="d33aad61-06d7-4a34-b553-0927c2ae2b65">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3c544d2e-ae69-4cde-a41d-6d5c49c79cec"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="0,103,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext~'Fecha de vencimiento']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="3551ed9a-7e90-4381-afbd-8f4c6037a6a6">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="FechaVencimiento">
+				</binding>
+			</bindings>
+			<info
+			id="3c544d2e-ae69-4cde-a41d-6d5c49c79cec"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="304,286,62,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-empty-field x-form-empty-field-default x-form-text x-form-text-default &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:PaymentMethodInputSet:CreditCardDueDate-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-empty-field x-form-empty-field-default x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="maxlength"
+					type="System.String">
+						7
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:PaymentMethodInputSet:CreditCardDueDate
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						##/####
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-qtip"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Fecha de vencimiento']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="7381b934-4b03-49cc-b9e2-f66b6bc52c22"
+		sx="271"
+		sy="157"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cfdcf19c-98b5-4c01-9942-5bb302ed5ac0"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="175,149,192,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Nuevo M&#233;todo de Pago
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Nuevo M&#233;todo de Pago']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="34d7f636-2d65-4a7a-9da8-5d08aafb7e3f"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bfdbfd53-c9f7-4b7d-b195-b8dd99689fad"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Fecha de vencimiento']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0aa430e0-0e03-4a99-83ff-86c2e5fc72bc"
+		sx="235"
+		sy="336"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b84bd7c5-706e-48fc-9995-b15be1117270"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="180,321,120,26"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-item-label-inner x-form-item-label-inner-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Utilizar la informaci&#243;n del contratante?
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-item-label-inner x-form-item-label-inner-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[4]//table/tbody/tr[6]//label/span[@innertext&gt;'Utilizar la informaci&#243;n del']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="def83e34-fcf1-499c-a38b-f3d7e9f7c3a8">
+				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
+tMJJOTyapESt0OsooorlPRP/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="b1b82266-5e80-4dcf-bd19-dfa19a5a586c"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="70c597cd-f5c9-4152-9b6b-e0c045a73e6d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[4]//table/tbody/tr[11]/td/div/div//input[@name='SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:AddressLine1']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="Viamonte"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="3323b4b4-7e4c-4906-a884-bd27e848cf2f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="70c597cd-f5c9-4152-9b6b-e0c045a73e6d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="375,467,173,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:AddressLine1-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:AddressLine1
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[4]//table/tbody/tr[11]/td/div/div//input[@name='SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:AddressLine1']
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c37ed39c-a782-420f-bd80-01fe80ede633"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cfdcf19c-98b5-4c01-9942-5bb302ed5ac0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[@id='centerPanel']//*[@innertext~'Nuevo M&#233;todo de Pago']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="5a43a957-29ca-483f-acb1-ee8f883baa66"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="408f11d2-04f3-4a76-8cf1-49baa919a13b"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[4]//table/tbody/tr[11]/td/div/div//input[@name='SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:AddressLine1']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ea8ca9a3-0bee-4ebc-9550-c67059fd9368"
+		sx="461"
+		sy="429"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="67d86f3e-6acb-4c7b-b700-6e41b093bdd3"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="375,417,173,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:StreetNumberSura-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:StreetNumberSura
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[4]//table/tbody/tr[12]/td/div/div//input[@name='SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:StreetNumberSura']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="500"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="e00362ea-69e0-47f0-bcc5-39edae43d926">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="67d86f3e-6acb-4c7b-b700-6e41b093bdd3"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="375,417,173,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:StreetNumberSura-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-field x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:StreetNumberSura
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[4]//table/tbody/tr[12]/td/div/div//input[@name='SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:StreetNumberSura']
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c37ed39c-a782-420f-bd80-01fe80ede633"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cfdcf19c-98b5-4c01-9942-5bb302ed5ac0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[@id='centerPanel']//*[@innertext~'Nuevo M&#233;todo de Pago']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="775ccd90-a42a-458b-8e7b-0963c3241af1"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6f132f75-1dff-4e67-9716-7be6042567ee"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[4]//table/tbody/tr[12]/td/div/div//input[@name='SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:StreetNumberSura']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="12e92667-e556-42db-8040-ef580523892d"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="600e56e8-9092-41e4-8780-efca9c3c6aad"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext='Validar Direcci&#243;n']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="27a475df-9899-4e15-85ab-8930f2141311">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webdocument"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="3"
+				prefcap="webdocument"
+				rect="0,71,1366,608"
+				role="container"
+				snapElem=""
+				uidroot="True"
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						[Modo DEV - 9.0.3.185] Guidewire PolicyCenter (Lmattioli)
+					</attribute>
+					<attribute
+					name="browsername"
+					type="System.String">
+						Chrome
+					</attribute>
+					<attribute
+					name="browserversion"
+					type="System.String">
+						79.0.3945.130
+					</attribute>
+					<attribute
+					name="domain"
+					type="System.String">
+						ssurgwsoadev4.opc.oracleoutsourcing.com
+					</attribute>
+					<attribute
+					name="fullscreen"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="page"
+					type="System.String">
+						PolicyCenter.do
+					</attribute>
+					<attribute
+					name="pageurl"
+					type="System.String">
+						https://ssurgwsoadev4.opc.oracleoutsourcing.com/pc/PolicyCenter.do
+					</attribute>
+					<attribute
+					name="path"
+					type="System.String">
+						/pc/PolicyCenter.do
+					</attribute>
+					<attribute
+					name="state"
+					type="System.String">
+						complete
+					</attribute>
+					<dynamicaction
+					description="Enables the Chrome accessible renderer mode."
+					displayName="EnableAccessibleRenderer">
+					</dynamicaction>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2d057136-232e-4d20-9e2a-71ab4e2b52ef"
+		sx="195"
+		sy="184"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0d11f308-c379-44e0-adf8-856d4b352cda"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="181,183,52,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:updateButton-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Actualizar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[2]/td/div/div/div/a[1]//span[@innertext='Actualizar']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a261f319-4169-4573-a73e-498ebc891e03">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="True"
+		searchpropertyid="e52d6a97-0974-4884-af80-42a118f1de2c"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2095e632-bb47-4036-a6a2-c4adeeb04fa0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[@innertext='La tarjeta de cr&#233;dito que inteta registrar ya existe en la cuenta']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="c437e9d0-441f-4540-8d59-5c131cc7880d"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cad997ac-9165-4994-bdba-650f4b9598c3"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext='Cancelar']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c107d629-e41c-4b53-bdf3-c93a2dd49980"
+		waitaction="Exists"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="02bdda6f-e248-44ed-88c0-1d3a8c109b92"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext~'Informaci&#243;n del Pago']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		TarjetaCreditoCtaAnonima.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

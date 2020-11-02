@@ -298,6 +298,54 @@ lVUKigAggSEc+uQOe/FFFAFiKEJCiNglVANP8tfSiihgHlr6UBB6UUUABQelFFFAH//Z
 			</helperscreenshot>
 		</mouseitem>
 		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2e8b9ad4-7eef-4f16-baf5-4443c2f9699f"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5b282357-00ba-4472-b91c-792ccec4ec25"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext='Compa&#241;ia']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="dcdc3483-0697-4a76-b8fe-b2f9b0078f94"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="aa02b37d-a9b2-4745-b5d0-e060181fb2c4"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext='Persona']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"

@@ -118,8 +118,8 @@ namespace Sura.Emision
         {
             // TODO: Replace the following line with your code implementation.
             //throw new NotImplementedException();
-            
-            if(repo.SURA_ContinueOnFail.btn_DetallesInfo.Exists(5000)){
+            Report.Info("Info:","Esperando el Botón Detalle por 10s");
+            if(repo.SURA_ContinueOnFail.btn_DetallesInfo.Exists(10000)){
             
 	            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA_ContinueOnFail.btn_Detalles' at Center.", repo.SURA_ContinueOnFail.btn_DetallesInfo, new RecordItemIndex(4));
 	            repo.SURA_ContinueOnFail.btn_Detalles.Click();

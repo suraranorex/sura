@@ -41,6 +41,7 @@ namespace Sura.Endosos
         /// </summary>
         public Vivienda_Endoso_Hogar_Exclusion_de_Riesgo()
         {
+            Domicilio = "VIAMONTE";
         }
 
         /// <summary>

@@ -55,18 +55,6 @@ namespace Sura.Emision
 
 #region Variables
 
-        string _CodigoAgente;
-
-        /// <summary>
-        /// Gets or sets the value of variable CodigoAgente.
-        /// </summary>
-        [TestVariable("82173b09-8bbf-4e2e-8375-40886c9c86be")]
-        public string CodigoAgente
-        {
-            get { return _CodigoAgente; }
-            set { _CodigoAgente = value; }
-        }
-
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
         /// </summary>
@@ -85,6 +73,16 @@ namespace Sura.Emision
         {
             get { return repo.NUM_GRUPO; }
             set { repo.NUM_GRUPO = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable CodigoAgente.
+        /// </summary>
+        [TestVariable("82173b09-8bbf-4e2e-8375-40886c9c86be")]
+        public string CodigoAgente
+        {
+            get { return repo.CodigoAgente; }
+            set { repo.CodigoAgente = value; }
         }
 
 #endregion

@@ -38,6 +38,8 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel" />
+    <Reference Include="Microsoft.Office.Tools.Excel" />
     <Reference Include="Ranorex.Bootstrapper">
       <Private>False</Private>
     </Reference>
@@ -255,6 +257,18 @@
       <UserCode>true</UserCode>
       <id>9f871665-d130-41b6-a7c9-33f2df8089c0</id>
     </Compile>
+    <Compile Include="Emision\ConductoresCtaAnonima.cs">
+      <BoundTo>c59a3c3a-91ba-4e37-95a9-52fa0760d1bc</BoundTo>
+      <DependentUpon>ConductoresCtaAnonima.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>82400b4a-9cee-44d6-a898-651192f17674</id>
+    </Compile>
+    <Compile Include="Emision\ConductoresCtaAnonima.UserCode.cs">
+      <BoundTo>c59a3c3a-91ba-4e37-95a9-52fa0760d1bc</BoundTo>
+      <DependentUpon>ConductoresCtaAnonima.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>80ba1563-aaa5-4cd3-a33e-dac1886c3baa</id>
+    </Compile>
     <Compile Include="Emision\ContinueInformacionAPEnlatada.cs">
       <BoundTo>11051f63-a6ac-488d-a1aa-279614ec3607</BoundTo>
       <DependentUpon>ContinueInformacionAPEnlatada.rxrec</DependentUpon>
@@ -338,6 +352,18 @@
       <DependentUpon>Detalle_Hogar_Answer.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>4adce3d6-e6e8-4f7c-8d01-6d16b3d2d00c</id>
+    </Compile>
+    <Compile Include="Emision\EditarCuenta_CtaAnonima.cs">
+      <BoundTo>ecf7b930-8ca1-4ba3-bf00-dc2b02bba477</BoundTo>
+      <DependentUpon>EditarCuenta_CtaAnonima.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>427e9241-13ec-475f-ae70-a48cdf5aff75</id>
+    </Compile>
+    <Compile Include="Emision\EditarCuenta_CtaAnonima.UserCode.cs">
+      <BoundTo>ecf7b930-8ca1-4ba3-bf00-dc2b02bba477</BoundTo>
+      <DependentUpon>EditarCuenta_CtaAnonima.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8238e224-0f42-4efb-97ee-c8bce3afa378</id>
     </Compile>
     <Compile Include="Emision\EmisionPolizaAP_Retroactiva.cs">
       <BoundTo>25cb4115-5d1b-47b4-96be-22cf1e6aa2b6</BoundTo>
@@ -962,6 +988,18 @@
       <UserCode>true</UserCode>
       <id>41d90db2-7411-4c2b-8de2-721b0c039681</id>
       <BoundTo>9645cd68-0cdb-418a-88c3-2cd6cd7ef968</BoundTo>
+    </Compile>
+    <Compile Include="Emision\TarjetaCreditoCtaAnonima.cs">
+      <BoundTo>55165964-fd45-41d4-802d-febf51f8592e</BoundTo>
+      <DependentUpon>TarjetaCreditoCtaAnonima.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e6fb927d-6923-4557-9f56-070fd3ffb49e</id>
+    </Compile>
+    <Compile Include="Emision\TarjetaCreditoCtaAnonima.UserCode.cs">
+      <BoundTo>55165964-fd45-41d4-802d-febf51f8592e</BoundTo>
+      <DependentUpon>TarjetaCreditoCtaAnonima.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5fda546e-9921-4b9c-a7d5-055c1ca33762</id>
     </Compile>
     <Compile Include="Emision\TC_YaExiste.cs">
       <BoundTo>951e621e-a76c-4eaa-97a9-99881b454b00</BoundTo>
@@ -1863,6 +1901,18 @@
       <UserCode>true</UserCode>
       <id>68afd247-4e8c-4231-a21c-78555a30cba8</id>
     </Compile>
+    <Compile Include="Menu\MenuSupBuscaPolizaNroPoliza.cs">
+      <BoundTo>9117e198-69ab-4868-8da2-c1597b77b1c7</BoundTo>
+      <DependentUpon>MenuSupBuscaPolizaNroPoliza.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>899e1bff-f393-4711-ac3c-1909f091700c</id>
+    </Compile>
+    <Compile Include="Menu\MenuSupBuscaPolizaNroPoliza.UserCode.cs">
+      <BoundTo>9117e198-69ab-4868-8da2-c1597b77b1c7</BoundTo>
+      <DependentUpon>MenuSupBuscaPolizaNroPoliza.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c0817d05-059b-4507-936d-90cf165f9e28</id>
+    </Compile>
     <Compile Include="Menu\MenuSuperior_BusquedaPoliza.cs">
       <BoundTo>f64f1df5-1dbc-4d16-953e-5b056506c3a0</BoundTo>
       <DependentUpon>MenuSuperior_BusquedaPoliza.rxrec</DependentUpon>
@@ -2010,6 +2060,42 @@
       <UserCode>true</UserCode>
       <id>7a58709c-4bd5-4fa6-933c-b45040ad9309</id>
     </Compile>
+    <Compile Include="ValidacionMarcaModelo\ValidacionStatus.cs">
+      <BoundTo>d2d52b0c-70c3-4134-bcce-b2488c7c165b</BoundTo>
+      <DependentUpon>ValidacionStatus.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>19a5c106-3b8a-4a8d-901a-7861d4db4103</id>
+    </Compile>
+    <Compile Include="ValidacionMarcaModelo\ValidacionStatus.UserCode.cs">
+      <BoundTo>d2d52b0c-70c3-4134-bcce-b2488c7c165b</BoundTo>
+      <DependentUpon>ValidacionStatus.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>754fe060-4b0b-4d1c-a00a-ed6218528ef7</id>
+    </Compile>
+    <Compile Include="ValidacionMarcaModelo\ValidaMarcaModelo.cs">
+      <BoundTo>1f6f4f40-fa07-4110-a69f-5f641e1982b5</BoundTo>
+      <DependentUpon>ValidaMarcaModelo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>38aebf62-dd40-4f03-864e-d81f863d255a</id>
+    </Compile>
+    <Compile Include="ValidacionMarcaModelo\ValidaMarcaModelo.UserCode.cs">
+      <BoundTo>1f6f4f40-fa07-4110-a69f-5f641e1982b5</BoundTo>
+      <DependentUpon>ValidaMarcaModelo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8dae625f-015b-4aef-9591-7d97f34dd671</id>
+    </Compile>
+    <Compile Include="ValidacionMarcaModelo\ValidaMarcaModelo_Codigo.cs">
+      <BoundTo>255a35da-e85b-4283-b2b6-ac73d5ef7a77</BoundTo>
+      <DependentUpon>ValidaMarcaModelo_Codigo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0bf4fb1f-8146-4dd7-ab72-3e9e04cac52b</id>
+    </Compile>
+    <Compile Include="ValidacionMarcaModelo\ValidaMarcaModelo_Codigo.UserCode.cs">
+      <BoundTo>255a35da-e85b-4283-b2b6-ac73d5ef7a77</BoundTo>
+      <DependentUpon>ValidaMarcaModelo_Codigo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1ca7bffb-00b1-45a6-8f58-450bb10ecc27</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="BC.rxtst">
@@ -2071,6 +2157,11 @@
       <id>361d3ece-6cc0-4562-b93a-ea8c971834a5</id>
       <recordtableid>3767acfb-e438-4103-9a60-a73c329f95ab</recordtableid>
     </None>
+    <None Include="Emision\ConductoresCtaAnonima.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>c59a3c3a-91ba-4e37-95a9-52fa0760d1bc</id>
+      <recordtableid>d3a04e60-d586-46ce-8289-61e96b7f350a</recordtableid>
+    </None>
     <None Include="Emision\ContinueInformacionAPEnlatada.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>11051f63-a6ac-488d-a1aa-279614ec3607</id>
@@ -2105,6 +2196,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>54af4aba-2952-4c48-a41b-14f1a9a1f77d</id>
       <recordtableid>d3530c35-d9d0-4afe-9fa5-7a305fcf16ff</recordtableid>
+    </None>
+    <None Include="Emision\EditarCuenta_CtaAnonima.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>ecf7b930-8ca1-4ba3-bf00-dc2b02bba477</id>
+      <recordtableid>3531d5c5-faa0-4ec8-b3ff-a7f1c9bafa9f</recordtableid>
     </None>
     <None Include="Emision\EmisionPolizaAP_Retroactiva.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -2365,6 +2461,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>9645cd68-0cdb-418a-88c3-2cd6cd7ef968</id>
       <recordtableid>a3d84a58-e992-4cc8-b590-f8de666c9b00</recordtableid>
+    </None>
+    <None Include="Emision\TarjetaCreditoCtaAnonima.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>55165964-fd45-41d4-802d-febf51f8592e</id>
+      <recordtableid>9b616537-b30e-4f5a-bc28-2e55d5000374</recordtableid>
     </None>
     <None Include="Emision\TC_YaExiste.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -2739,6 +2840,11 @@
       <id>867a6fa0-331b-423d-8546-c54aa21deb37</id>
       <recordtableid>8c5cb056-0cce-46b3-abf2-22c402bebba6</recordtableid>
     </None>
+    <None Include="Menu\MenuSupBuscaPolizaNroPoliza.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>9117e198-69ab-4868-8da2-c1597b77b1c7</id>
+      <recordtableid>8b3e91b0-9ee3-4807-bbac-d005248babe6</recordtableid>
+    </None>
     <None Include="Menu\MenuSuperior_BusquedaPoliza.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>f64f1df5-1dbc-4d16-953e-5b056506c3a0</id>
@@ -2820,6 +2926,21 @@
       <id>1b5a98d6-ca43-48f9-a4be-88dd5f2f4d4d</id>
       <recordtableid>f47c3064-0bff-4fc7-ac40-f719c84eac2a</recordtableid>
     </None>
+    <None Include="ValidacionMarcaModelo\ValidacionStatus.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>d2d52b0c-70c3-4134-bcce-b2488c7c165b</id>
+      <recordtableid>2c92ee0e-bf60-4f22-a58a-07defed5cf16</recordtableid>
+    </None>
+    <None Include="ValidacionMarcaModelo\ValidaMarcaModelo.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>1f6f4f40-fa07-4110-a69f-5f641e1982b5</id>
+      <recordtableid>103649b8-d4a2-4a04-a3dc-0791228b7980</recordtableid>
+    </None>
+    <None Include="ValidacionMarcaModelo\ValidaMarcaModelo_Codigo.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>255a35da-e85b-4283-b2b6-ac73d5ef7a77</id>
+      <recordtableid>8cb5da30-e7c8-49f4-a58a-a86c7d6c264f</recordtableid>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Sura.rxtmg">
@@ -2846,6 +2967,9 @@
     </Folder>
     <Folder Include="Generales">
       <id>811b0ba1-f496-460a-85e2-c928a0dc0a51</id>
+    </Folder>
+    <Folder Include="ValidacionMarcaModelo">
+      <id>6990eff0-3337-422b-8d00-de7cbe1ffeae</id>
     </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

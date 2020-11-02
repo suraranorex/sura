@@ -97,20 +97,28 @@ namespace Sura.Emision
             repo.SURA.PC.Menu.Lateral_Cuenta.bttn_NuevaSolicitud.Click("71;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Menu.Persona' at Center.", repo.SURA.PC.Menu.PersonaInfo, new RecordItemIndex(2));
-            repo.SURA.PC.Menu.Persona.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.PC.Menu.Lateral_Cuenta.SubMenuCtaAnonimaCompania' at Center.", repo.SURA.PC.Menu.Lateral_Cuenta.SubMenuCtaAnonimaCompaniaInfo, new RecordItemIndex(2));
+            repo.SURA.PC.Menu.Lateral_Cuenta.SubMenuCtaAnonimaCompania.MoveTo();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.PC.Menu.Lateral_Cuenta.SubMenuPersona' at Center.", repo.SURA.PC.Menu.Lateral_Cuenta.SubMenuPersonaInfo, new RecordItemIndex(3));
+            repo.SURA.PC.Menu.Lateral_Cuenta.SubMenuPersona.MoveTo();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Menu.Lateral_Cuenta.SubMenuPersona' at Center.", repo.SURA.PC.Menu.Lateral_Cuenta.SubMenuPersonaInfo, new RecordItemIndex(4));
+            repo.SURA.PC.Menu.Lateral_Cuenta.SubMenuPersona.Click();
             Delay.Milliseconds(0);
             
             // Cuando la cuenta tiene saldo deudor
-            Report.Log(ReportLevel.Info, "Section", "Cuando la cuenta tiene saldo deudor", new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Section", "Cuando la cuenta tiene saldo deudor", new RecordItemIndex(5));
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'SURA_ContinueOnFail.bttn_AceptarCOF' at 11;11.", repo.SURA_ContinueOnFail.bttn_AceptarCOFInfo, new RecordItemIndex(4));
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'SURA_ContinueOnFail.bttn_AceptarCOF' at 11;11.", repo.SURA_ContinueOnFail.bttn_AceptarCOFInfo, new RecordItemIndex(6));
                 repo.SURA_ContinueOnFail.bttn_AceptarCOF.Click("11;11");
                 Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevas'", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevasInfo, new ActionTimeout(15000), new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevas'", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevasInfo, new ActionTimeout(15000), new RecordItemIndex(7));
             repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevasInfo.WaitForExists(15000);
             
         }

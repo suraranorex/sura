@@ -182,41 +182,52 @@ namespace Sura.BC
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.BC.NuevoPago.Copy_of_txtbox_Monto'", repo.SURA.BC.NuevoPago.Copy_of_txtbox_MontoInfo, new ActionTimeout(30000), new RecordItemIndex(10));
             repo.SURA.BC.NuevoPago.Copy_of_txtbox_MontoInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NumAutorizacion' with focus on 'SURA.BC.NuevoPago.txtbox_NumAutorizacion'.", repo.SURA.BC.NuevoPago.txtbox_NumAutorizacionInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(11));
+            Delay.Duration(3000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.NuevoPago.txtbox_NumAutorizacion' at Center.", repo.SURA.BC.NuevoPago.txtbox_NumAutorizacionInfo, new RecordItemIndex(12));
+            repo.SURA.BC.NuevoPago.txtbox_NumAutorizacion.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NumAutorizacion' with focus on 'SURA.BC.NuevoPago.txtbox_NumAutorizacion'.", repo.SURA.BC.NuevoPago.txtbox_NumAutorizacionInfo, new RecordItemIndex(13));
             repo.SURA.BC.NuevoPago.txtbox_NumAutorizacion.PressKeys(NumAutorizacion);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.BC.NuevoPago.Copy_of_txtbox_NumAutorizacion'", repo.SURA.BC.NuevoPago.Copy_of_txtbox_NumAutorizacionInfo, new ActionTimeout(30000), new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.BC.NuevoPago.Copy_of_txtbox_NumAutorizacion'", repo.SURA.BC.NuevoPago.Copy_of_txtbox_NumAutorizacionInfo, new ActionTimeout(30000), new RecordItemIndex(14));
             repo.SURA.BC.NuevoPago.Copy_of_txtbox_NumAutorizacionInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.BC.NuevoPago.txtbox_TipoTarjeta'.", repo.SURA.BC.NuevoPago.txtbox_TipoTarjetaInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.NuevoPago.DetallesDePago' at Center.", repo.SURA.BC.NuevoPago.DetallesDePagoInfo, new RecordItemIndex(15));
+            repo.SURA.BC.NuevoPago.DetallesDePago.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.BC.NuevoPago.txtbox_TipoTarjeta'.", repo.SURA.BC.NuevoPago.txtbox_TipoTarjetaInfo, new RecordItemIndex(16));
             Keyboard.PrepareFocus(repo.SURA.BC.NuevoPago.txtbox_TipoTarjeta);
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$TipoTarjeta' with focus on 'SURA.BC.NuevoPago.txtbox_TipoTarjeta'.", repo.SURA.BC.NuevoPago.txtbox_TipoTarjetaInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$TipoTarjeta' with focus on 'SURA.BC.NuevoPago.txtbox_TipoTarjeta'.", repo.SURA.BC.NuevoPago.txtbox_TipoTarjetaInfo, new RecordItemIndex(17));
             repo.SURA.BC.NuevoPago.txtbox_TipoTarjeta.PressKeys(TipoTarjeta);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.txt_PagosMedianteFacturacionDirecta' at Center.", repo.SURA.BC.txt_PagosMedianteFacturacionDirectaInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.txt_PagosMedianteFacturacionDirecta' at Center.", repo.SURA.BC.txt_PagosMedianteFacturacionDirectaInfo, new RecordItemIndex(18));
             repo.SURA.BC.txt_PagosMedianteFacturacionDirecta.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.BC.NuevoPago.Copy_of_txtbox_TipoTarjeta'", repo.SURA.BC.NuevoPago.Copy_of_txtbox_TipoTarjetaInfo, new ActionTimeout(30000), new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.BC.NuevoPago.Copy_of_txtbox_TipoTarjeta'", repo.SURA.BC.NuevoPago.Copy_of_txtbox_TipoTarjetaInfo, new ActionTimeout(30000), new RecordItemIndex(19));
             repo.SURA.BC.NuevoPago.Copy_of_txtbox_TipoTarjetaInfo.WaitForNotExists(30000);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(17));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(20));
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'SURA_ContinueOnFail.bttn_Ejecutar' at Center.", repo.SURA_ContinueOnFail.bttn_EjecutarInfo, new RecordItemIndex(18));
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'SURA_ContinueOnFail.bttn_Ejecutar' at Center.", repo.SURA_ContinueOnFail.bttn_EjecutarInfo, new RecordItemIndex(21));
                 repo.SURA_ContinueOnFail.bttn_Ejecutar.Click();
                 Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(18)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(21)); }
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMS'", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMSInfo, new ActionTimeout(60000), new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMS'", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMSInfo, new ActionTimeout(60000), new RecordItemIndex(22));
             repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMSInfo.WaitForExists(60000);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 6s.", new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 6s.", new RecordItemIndex(23));
             Delay.Duration(6000, false);
             
         }

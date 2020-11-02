@@ -194,7 +194,7 @@ Mf8Ad/WigD//2Q==
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="8;8"
 		movetime="300ms"
 		optional="False"
@@ -449,6 +449,44 @@ Q/woAfRTNjf89X/If4UbG/56v+Q/woAfRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
 			</info>
 		</mouseitem>
 		<keysequenceitem
+		KeySequence="{LControlKey down}{Akey}{LControlKey up}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="efc51150-742d-4eae-81ab-24a0cc43cad8">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e10741b1-229f-411c-979e-663b5808fed1"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="0,0,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input[@id='PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:AddCovs:CA7SpecialAdditionalCoveragesDV:11:CA7CoverageInputSet:CovPatternInputGroup:0:CovTermInputSet:OptionTermInput-inputEl']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
 		KeySequence="yourtext"
 		duration="20ms"
 		enabled="True"
@@ -608,6 +646,30 @@ Q/woAfRTNjf89X/If4UbG/56v+Q/woAfRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
 				</path>
 			</info>
 		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="88fd1a50-4cbc-45c7-a965-c50db3c1d76a"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0a77bbd8-eb21-4697-a985-4008914924eb"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody//span[@innertext='Veh&#237;culos']
+				</path>
+			</info>
+		</mouseitem>
 		<mouseitem
 		action="Move"
 		button="Left"

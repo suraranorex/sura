@@ -695,6 +695,14 @@
 			name="PreEvauacionAnswer"
 			ref="071dc85d-3814-495b-9f8f-11116b647853"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="0b1e981e-f4b8-4340-8b15-38ced0b3e556"
@@ -2230,6 +2238,14 @@
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
+					variablename="URL">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="330d20e7-bd2d-49b2-bbb7-51eea1ca98f0"
@@ -4512,6 +4528,14 @@
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<smartfoldernode
 			id="5eea3a35-804c-4ab2-ae52-fa09880352b7"
@@ -5072,7 +5096,11 @@
 				</databinding>
 			</testmodule>
 			<testcase
+			datarangeactive="True"
+			datasource="EmisionMotorAnswerCtaAnonima"
 			id="6b8502a4-24f0-4568-99ab-e0831c833984"
+			maxrange="0"
+			minrange="0"
 			name="Emision_Motor_AnswerCuentaAnonima">
 			</testcase>
 			<testmodule
@@ -5535,6 +5563,26 @@
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="74aab36e-b3bd-40f5-80b4-be1f994f6f93"
@@ -6425,6 +6473,14 @@
 			name="MenuNuevasolicitudAnonima"
 			ref="69af4e54-d06c-4622-b919-f2b21d5daa13"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="88c5113a-a313-4332-a889-3e96456df79b"
@@ -9575,12 +9631,6 @@
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
-					<var
-					dataname="NombreCobertura"
-					datasourceid="b0b942ab-210a-414d-8f9f-62daffbe8bba"
-					variableid="1ba66223-16a6-41d0-8b84-aeb7748fd49a"
-					variablename="NombreCobertura">
-					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
@@ -9656,6 +9706,62 @@
 			name="InfoPolizaMotorAnswCtaAnonima"
 			ref="bda6ce96-1bd6-4801-985d-6d351e375afe"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="NombreCtaAnonima"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="20e66dc2-4182-4c38-9eec-52fef6f5918d"
+					variablename="NombreCtaAnonima">
+					</var>
+					<var
+					dataname="ApellidoCtaAnonima"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="cc880af7-6ed3-425c-bded-b1f97fdc20e8"
+					variablename="ApellidoCtaAnonima">
+					</var>
+					<var
+					dataname="DNICtaAnonima"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="a354afb6-6e21-428c-a57f-df55dcfcffc3"
+					variablename="DNICtaAnonima">
+					</var>
+					<var
+					dataname="CantVehiculos"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="79228f13-8ca8-47c8-a0b4-72fc2d67109c"
+					variablename="CantVehiculos">
+					</var>
+					<var
+					dataname="TipoPlazo"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="befc2fba-403a-44ec-b0bb-83e9d6da677d"
+					variablename="TipoPlazo">
+					</var>
+					<var
+					dataname="MetodoDePago"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="0ae0763e-e793-4cbe-8ac6-5b68c81da99a"
+					variablename="MetodoDePago">
+					</var>
+					<var
+					dataname="OPCION_PAGOCUOTAS"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
+					variablename="OPCION_PAGOCUOTAS">
+					</var>
+					<var
+					dataname="CAMPANIA"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="a5b0433a-acb2-4214-b792-ce03ce052e15"
+					variablename="Campania">
+					</var>
+				</databinding>
 			</testmodule>
 			<smartfoldernode
 			datasource="A_CoberturasAdicionales"
@@ -10138,6 +10244,20 @@
 			name="NuevaPolizaMotor"
 			ref="3b8e7b23-7562-4aab-b1d1-260aac4e3b51"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="TIPOPOLIZA"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="3c2b5907-735e-42e1-87ab-42197132c013"
+					variablename="TIPOPOLIZA">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="c938aa6c-815c-4c5a-8c82-c0dbb0b58edf"
@@ -10549,6 +10669,14 @@
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			datarangeactive="True"
@@ -16119,20 +16247,104 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - CoberturasAdicionales.xlsx"
+		filename="R:\Sura\DataSource\DataSource - Emision Motor_Answer_CtaAnonima.xlsx"
 		id="b0b942ab-210a-414d-8f9f-62daffbe8bba"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="10"
 		name="A_CoberturasAdicionales"
 		type="Ranorex.Core.Data.ExcelDataConnector"
-		worksheetname="A"
+		worksheetname="Sheet1"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
 				<column>
-					NombreCobertura
+					Ambiente
 				</column>
 				<column>
-					Run
+					URL
+				</column>
+				<column>
+					Usuario
+				</column>
+				<column>
+					Contrasenia
+				</column>
+				<column>
+					NroCuenta
+				</column>
+				<column>
+					TIPOPOLIZA
+				</column>
+				<column>
+					NombreCtaAnonima
+				</column>
+				<column>
+					ApellidoCtaAnonima
+				</column>
+				<column>
+					DNICtaAnonima
+				</column>
+				<column>
+					CantVehiculos
+				</column>
+				<column>
+					TipoPlazo
+				</column>
+				<column>
+					MetodoDePago
+				</column>
+				<column>
+					OPCION_PAGOCUOTAS
+				</column>
+				<column>
+					CantCuotas
+				</column>
+				<column>
+					CAMPANIA
+				</column>
+				<column>
+					TipoTarjeta
+				</column>
+				<column>
+					NumTarjetaCred
+				</column>
+				<column>
+					FechaVencimiento
+				</column>
+				<column>
+					ConductoPago
+				</column>
+				<column>
+					NumCBU
+				</column>
+				<column>
+					FechaInicio
+				</column>
+				<column>
+					Anio
+				</column>
+				<column>
+					Marca
+				</column>
+				<column>
+					Modelo
+				</column>
+				<column>
+					SumaAsegurada
+				</column>
+				<column>
+					Producto
+				</column>
+				<column>
+					Patente
+				</column>
+				<column>
+					Motor
+				</column>
+				<column>
+					Chasis
+				</column>
+				<column>
+					Actividad
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -16457,7 +16669,7 @@
 		filename="R:\Sura\DataSource\DataSource - Emision AP Enlatada.xlsx"
 		id="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
 		includefile="Unchecked"
-		lastknownrowcount="8"
+		lastknownrowcount="5"
 		name="EmisionAP_Enlatada"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -16488,9 +16700,6 @@
 					TIPOPOLIZA
 				</column>
 				<column>
-					Plan
-				</column>
-				<column>
 					MetodoDePago
 				</column>
 				<column>
@@ -16498,6 +16707,9 @@
 				</column>
 				<column>
 					CantCuotas
+				</column>
+				<column>
+					Plan
 				</column>
 				<column>
 					TipoTarjeta
@@ -16528,7 +16740,7 @@
 		filename="R:\Sura\DataSource\DataSource - Emision AP No Enlatada.xlsx"
 		id="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
 		includefile="Unchecked"
-		lastknownrowcount="48"
+		lastknownrowcount="2"
 		name="EmisionAP_NoEnlatada"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="DatosAP"
@@ -16732,7 +16944,7 @@
 		filename="R:\Sura\DataSource\DataSource - Emision Hogar Enlatada.xlsx"
 		id="03cc04f0-efc2-402c-81d5-cad953c654d7"
 		includefile="Unchecked"
-		lastknownrowcount="8"
+		lastknownrowcount="6"
 		name="EmisionHogar_Enlatada"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -16770,21 +16982,6 @@
 				</column>
 				<column>
 					CantCuotas
-				</column>
-				<column>
-					TipoTarjeta
-				</column>
-				<column>
-					NumTarjetaCred
-				</column>
-				<column>
-					FechaVencimiento
-				</column>
-				<column>
-					ConductoPago
-				</column>
-				<column>
-					NumCBU
 				</column>
 				<column>
 					Calle
@@ -16898,10 +17095,10 @@
 		filename="R:\Sura\DataSource\DataSource - Emision Motor.xlsx"
 		id="9027bcb8-f348-4440-91bd-e34ee0858dc1"
 		includefile="Unchecked"
-		lastknownrowcount="66"
+		lastknownrowcount="3"
 		name="EmisionMotor"
 		type="Ranorex.Core.Data.ExcelDataConnector"
-		worksheetname="DatosMotor"
+		worksheetname="Sheet1"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
 				<column>
@@ -17313,6 +17510,110 @@
 				</column>
 				<column>
 					CAMPANIA
+				</column>
+				<column>
+					Anio
+				</column>
+				<column>
+					Marca
+				</column>
+				<column>
+					Modelo
+				</column>
+				<column>
+					SumaAsegurada
+				</column>
+				<column>
+					Producto
+				</column>
+				<column>
+					Patente
+				</column>
+				<column>
+					Motor
+				</column>
+				<column>
+					Chasis
+				</column>
+				<column>
+					Actividad
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
+		filename="R:\Sura\DataSource\DataSource - Emision Motor_Answer_CtaAnonima.xlsx"
+		id="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+		includefile="Unchecked"
+		lastknownrowcount="10"
+		name="EmisionMotorAnswerCtaAnonima"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Sheet1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					Ambiente
+				</column>
+				<column>
+					URL
+				</column>
+				<column>
+					Usuario
+				</column>
+				<column>
+					Contrasenia
+				</column>
+				<column>
+					NroCuenta
+				</column>
+				<column>
+					TIPOPOLIZA
+				</column>
+				<column>
+					NombreCtaAnonima
+				</column>
+				<column>
+					ApellidoCtaAnonima
+				</column>
+				<column>
+					DNICtaAnonima
+				</column>
+				<column>
+					CantVehiculos
+				</column>
+				<column>
+					TipoPlazo
+				</column>
+				<column>
+					MetodoDePago
+				</column>
+				<column>
+					OPCION_PAGOCUOTAS
+				</column>
+				<column>
+					CantCuotas
+				</column>
+				<column>
+					CAMPANIA
+				</column>
+				<column>
+					TipoTarjeta
+				</column>
+				<column>
+					NumTarjetaCred
+				</column>
+				<column>
+					FechaVencimiento
+				</column>
+				<column>
+					ConductoPago
+				</column>
+				<column>
+					NumCBU
+				</column>
+				<column>
+					FechaInicio
 				</column>
 				<column>
 					Anio
@@ -18648,8 +18949,5 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
-		<reference>
-			C:\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Wpf.Core.dll
-		</reference>
 	</references>
 </testsuitedoc>

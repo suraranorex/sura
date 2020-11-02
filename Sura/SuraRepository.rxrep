@@ -716,6 +716,79 @@ name="SuraRepository">
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[12]/td/div/div//input[@id='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:PolicyInfoInputSet:EmailAddres1-inputEl']/../..//input[@data-tabindexsaved='True']
 							</item>
+							<item
+							addcaps="unknown,webelement,labeltag"
+							capname="labeltag"
+							id="9db1789a-eed2-483d-bdd9-0bd4b10014c3"
+							name="lbl_Campana"
+							refimgid="469f6b13-3d31-438b-86a1-4a65a8be0461"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']//label[@innertext='Campa&#241;a']
+							</item>
+							<item
+							addcaps="unknown,webelement,inputtag"
+							capname="inputtag"
+							id="70c597cd-f5c9-4152-9b6b-e0c045a73e6d"
+							name="txt_Dir_Calle_TipoPago"
+							refimgid="f57165a2-e68f-462a-89a0-3d981b121917"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[4]//table/tbody/tr[11]/td/div/div//input[@name='SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:AddressLine1']
+							</item>
+							<item
+							addcaps="unknown,webelement,inputtag"
+							capname="inputtag"
+							id="67d86f3e-6acb-4c7b-b700-6e41b093bdd3"
+							name="txt_Dir_NroCalle_TipoPago"
+							refimgid="f57165a2-e68f-462a-89a0-3d981b121917"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[4]//table/tbody/tr[12]/td/div/div//input[@name='SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:StreetNumberSura']
+							</item>
+							<item
+							addcaps="unknown,webelement,inputtag"
+							capname="inputtag"
+							id="6f132f75-1dff-4e67-9716-7be6042567ee"
+							name="Copy_of_txt_Dir_NroCalle_TipoPago"
+							refimgid="f57165a2-e68f-462a-89a0-3d981b121917"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[4]//table/tbody/tr[12]/td/div/div//input[@name='SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:StreetNumberSura']/../..//input[@data-tabindexsaved='True']
+							</item>
+							<item
+							addcaps="unknown,webelement,inputtag"
+							capname="inputtag"
+							id="408f11d2-04f3-4a76-8cf1-49baa919a13b"
+							name="Copy_of_txt_Dir_Calle_TipoPago"
+							refimgid="f57165a2-e68f-462a-89a0-3d981b121917"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[4]//table/tbody/tr[11]/td/div/div//input[@name='SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:AddressLine1']/../..//input[@data-tabindexsaved='True']
+							</item>
+							<item
+							addcaps="unknown,webelement,divtag"
+							capname="divtag"
+							id="e496f114-a12a-47ea-9a7d-7acaedd4a9d7"
+							name="lbl_ValidacionDireccionCtaAnonima"
+							refimgid="418692bf-95e2-4146-b0fb-99b13ba8459f"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/NewPaymentInstrument']//table/tbody/tr[22]/td/div/div/div[@innertext~'[aA-zZ]+']
+							</item>
+							<item
+							addcaps="unknown,webelement,divtag"
+							capname="divtag"
+							id="cb3596b5-3991-4f2e-9539-62b64cce9518"
+							name="Arrow_Select_ProvinciaCtaAnonima"
+							refimgid="a9db47bf-fa68-49c3-ba53-aab0f8277a1c"
+							refpath="/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'EditAccountPopup-tbody']/tr[4]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[2]/div/table/tbody/tr[3]/td/div/div/div/div[2]"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[3]/td/div/div/div/div[2]
+							</item>
+							<item
+							addcaps="unknown,webelement,litag"
+							capname="litag"
+							id="e700f28d-ca43-4ac7-ae45-5ee297efd17b"
+							name="txt_ProvinciaCtaAnonima"
+							refimgid="65412289-c686-44e2-93ec-8026ecb6d67d"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]/body//ul/li[@enabled='True']
+							</item>
 						</folder>
 						<folder
 						capname="unknown"
@@ -1055,6 +1128,15 @@ name="SuraRepository">
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Tipo']/../..//div[@innertext~'Inspecci&#243;n' and @innertext~$TIPO_INSPECCION]
 							</item>
+							<item
+							addcaps="unknown,webelement,spantag"
+							capname="divtag"
+							id="c4745757-0349-4756-8510-4c49f0766262"
+							name="Copy_of_txt_TipoInspeccion"
+							refimgid="71fb5066-ee1f-4e4a-a6b1-6ebf80793fc3"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Tipo']/../..//div[@innertext~'Inspecci&#243;n' and @innertext~$TIPO_INSPECCION]
+							</item>
 						</folder>
 						<folder
 						capname="unknown"
@@ -1376,6 +1458,49 @@ name="SuraRepository">
 							<basepath>
 								/dom[@domain=$Ambiente]
 							</basepath>
+						</folder>
+						<folder
+						capname="unknown"
+						id="02fdcf6d-6aa4-429a-a8f9-07f56eb146c9"
+						isrooted="False"
+						name="ValidacionMarcaModelo"
+						searchtimeout="0ms">
+							<item
+							addcaps="unknown,webelement,spantag"
+							capname="divtag"
+							id="3b897f99-166a-4cdd-b7cf-8606213daf60"
+							name="Marca"
+							refimgid="0b696856-3f71-4914-a620-0d68d0e47981"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Marca' and @visible='True']/../..//div[@innertext=$Marca]
+							</item>
+							<item
+							addcaps="unknown,webelement,spantag"
+							capname="divtag"
+							id="1d40cf39-3f35-43e1-9e5e-70285c1c99d3"
+							name="Copy_of_Marca"
+							refimgid="0b696856-3f71-4914-a620-0d68d0e47981"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Marca' and @visible='True']/../..//div[@innertext~'[A-Z]+']
+							</item>
+							<item
+							addcaps="unknown,webelement,spantag"
+							capname="divtag"
+							id="de473f9d-b254-4826-a532-b81a7e80974c"
+							name="Modelo"
+							refimgid="0b696856-3f71-4914-a620-0d68d0e47981"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Modelo' and @visible='True']/../..//div[@innertext=$Modelo]
+							</item>
+							<item
+							addcaps="unknown,webelement,spantag"
+							capname="divtag"
+							id="130f4b71-7610-48e5-868b-070e753dd237"
+							name="Copy_of_Modelo"
+							refimgid="0b696856-3f71-4914-a620-0d68d0e47981"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Modelo' and @visible='True']/../..//div[@innertext~'[A-Z]+']
+							</item>
 						</folder>
 					</folder>
 					<folder
@@ -2141,6 +2266,33 @@ name="SuraRepository">
 							refimgid="f57165a2-e68f-462a-89a0-3d981b121917"
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody//input[@class~'x-form-field x-form-text x-form-text-default' and @visible='True']
+							</item>
+							<item
+							addcaps="unknown,webelement,inputtag"
+							capname="inputtag"
+							id="41bc76db-ae39-403f-bb96-402fffbf2524"
+							name="txt_ProveedorAsistMecanicaVisible"
+							refimgid="f57165a2-e68f-462a-89a0-3d981b121917"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input[@class~'x-form-field x-form-text x-form-text-default' and @visible='True']
+							</item>
+							<item
+							addcaps="unknown,webelement,inputtag"
+							capname="inputtag"
+							id="5d620178-98e5-4124-939c-83f1ca0dda7d"
+							name="txt_ProveedorAsistMecanicaInvisible"
+							refimgid="f57165a2-e68f-462a-89a0-3d981b121917"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@class='x-panel x-panel-default']//tbody[@visible='true']//input[@class~'x-form-field x-form-text x-form-text-default']
+							</item>
+							<item
+							addcaps="unknown,webelement,inputtag"
+							capname="inputtag"
+							id="88490465-8689-49e8-a602-4c1064122375"
+							name="Copy_of_txt_ProveedorAsistMecanica"
+							refimgid="f57165a2-e68f-462a-89a0-3d981b121917"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody//input[@class~'x-form-field x-form-text x-form-text-default' and @visible='True' and @data-tabindexsaved='True']
 							</item>
 							<item
 							addcaps="unknown,webelement,inputtag"
@@ -3011,7 +3163,7 @@ name="SuraRepository">
 						name="txt_AnalisisDeRiesgo"
 						refimgid="a74b432e-0b47-4eac-9d10-081ab75c21f3"
 						searchtimeout="30000ms">
-							/dom[@domain=$Ambiente]//tbody//span[@innertext='An&#225;lisis de riesgo']
+							/dom[@domain=$Ambiente]//tbody[@id='centerPanel-tbody']//span[@innertext='An&#225;lisis de riesgo']
 						</item>
 						<item
 						addcaps="unknown,webelement,spantag"
@@ -3624,6 +3776,15 @@ name="SuraRepository">
 						searchtimeout="30000ms">
 							/dom[@domain=$Ambiente]//div[@class~'x-menu']//span[@innertext='Solicitud de P&#243;liza N.&#186;']/../..//input
 						</item>
+						<item
+						addcaps="unknown,webelement,spantag"
+						capname="inputtag"
+						id="b19a8fa1-391f-406a-92af-97d8ce43d216"
+						name="txt_BusquedaPoliza"
+						refimgid="56f39228-9c49-4ac0-b17a-007642e13610"
+						searchtimeout="30000ms">
+							/dom[@domain=$Ambiente]//div[@class~'x-menu']//span[@innertext='N.&#176; de p&#243;liza']/../..//input
+						</item>
 					</folder>
 					<folder
 					capname="unknown"
@@ -3690,6 +3851,24 @@ name="SuraRepository">
 						searchtimeout="30000ms">
 							/dom[@domain=$Ambiente]//div[#'westPanel-innerCt']//span[@innertext='Personas']
 						</item>
+						<item
+						addcaps="unknown,webelement,spantag"
+						capname="spantag"
+						id="5b282357-00ba-4472-b91c-792ccec4ec25"
+						name="SubMenuCtaAnonimaCompania"
+						refimgid="18866a4a-dbce-4fb5-a794-5af0db1ea6a2"
+						searchtimeout="30000ms">
+							/dom[@domain=$Ambiente]//span[@innertext='Compa&#241;ia']
+						</item>
+						<item
+						addcaps="unknown,webelement,spantag"
+						capname="spantag"
+						id="aa02b37d-a9b2-4745-b5d0-e060181fb2c4"
+						name="SubMenuPersona"
+						refimgid="1d472045-2cf3-47d2-b448-c3f5510cdfb3"
+						searchtimeout="30000ms">
+							/dom[@domain=$Ambiente]//span[@innertext='Persona']
+						</item>
 					</folder>
 					<item
 					addcaps="unknown,webelement,divtag"
@@ -3718,15 +3897,6 @@ name="SuraRepository">
 					refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[#'Desktop:DesktopMenuActions-btnInnerEl']"
 					searchtimeout="30000ms">
 						/dom[@domain=$Ambiente]//span[#'Desktop:DesktopMenuActions-btnInnerEl']
-					</item>
-					<item
-					addcaps="unknown,webelement,spantag"
-					capname="spantag"
-					id="aa02b37d-a9b2-4745-b5d0-e060181fb2c4"
-					name="Persona"
-					refimgid="1d472045-2cf3-47d2-b448-c3f5510cdfb3"
-					searchtimeout="30000ms">
-						/dom[@domain=$Ambiente]//span[@innertext='Persona']
 					</item>
 				</folder>
 			</folder>
@@ -3850,6 +4020,16 @@ name="SuraRepository">
 					refimgid="7f11df32-6b46-47eb-a668-631ea9970897"
 					searchtimeout="30000ms">
 						/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'Tipo de tarjeta']/../..//input[@data-tabindexsaved='True']
+					</item>
+					<item
+					addcaps="unknown,webelement,labeltag"
+					capname="labeltag"
+					id="b7084c03-f9d5-435d-8900-52dd683fa480"
+					name="DetallesDePago"
+					refimgid="f2637c1a-15dc-419b-b000-318c60e7ea0a"
+					refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table/tbody/tr[4]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[2]/div/table/tbody/tr[1]/td/label[@innertext='Detalles de pago']"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/div/table/tbody/tr[1]/?/?/label[@innertext='Detalles de pago']
 					</item>
 					<basepath>
 						/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table
@@ -4549,6 +4729,15 @@ name="SuraRepository">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]//table/tbody/tr[2]/td/div
 			</item>
 			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="4f2f2135-4edc-4b7d-9060-58c5d07eaab9"
+			name="txt_FechaNacConductor"
+			refimgid="507b1f8b-5b65-42ea-b41c-a861d5333cda"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr/td[4]/div[@safeclass='x-grid-cell-inner']
+			</item>
+			<item
 			addcaps="unknown,webelement,spantag"
 			capname="inputtag"
 			id="69fe5c37-cc01-40df-9d69-4fe5575b7e01"
@@ -5148,9 +5337,8 @@ name="SuraRepository">
 			id="e10741b1-229f-411c-979e-663b5808fed1"
 			name="txt_clausulaAjuste"
 			refimgid="f020082a-b869-477f-9957-67ecf3c05b29"
-			refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[5]/td/div/table/tbody/tr[3]/td/div/div[2]/div/table/tbody/tr/td/div/table/tbody/tr/td/div/table/tbody/tr/td/fieldset/div/div/div/div/div/div/div[1]/input[@name='PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:AddCovs:CA7SpecialAdditionalCoveragesDV:8:CA7CoverageInputSet:CovPatternInputGroup:0:CovTermInputSet:OptionTermInput']"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[5]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table//div/table//fieldset/div/div/div/div/div/div/div[1]/input[@name='PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:AddCovs:CA7SpecialAdditionalCoveragesDV:8:CA7CoverageInputSet:CovPatternInputGroup:0:CovTermInputSet:OptionTermInput']
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input[@id='PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:AddCovs:CA7SpecialAdditionalCoveragesDV:11:CA7CoverageInputSet:CovPatternInputGroup:0:CovTermInputSet:OptionTermInput-inputEl']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -5705,7 +5893,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 		<var
 		id="7cf10a12-102c-4243-812a-fcb48872b1be"
 		name="TIPO_INSPECCION">
-			Posterior
+			Previa
 		</var>
 		<var
 		id="12fe72ea-c008-4b54-a99a-3cf6bcfa4060"
@@ -5740,7 +5928,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 		<var
 		id="b4bf0cd3-712a-4c23-bb38-5301841e069e"
 		name="Domicilio">
-			RIVADAVIA
+			VIAMONTE
 		</var>
 		<var
 		id="71354204-bdd4-4b57-8f1a-7eb94d98d51e"
@@ -5764,7 +5952,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 		<var
 		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
 		name="Ambiente">
-			ssurgwsoadev4.opc.oracleoutsourcing.com
+			i-preproducciongestion.segurossura.com.ar
 		</var>
 		<var
 		id="fbc3c0ec-d362-401d-acc7-5e95815b84a3"
@@ -5828,6 +6016,21 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 		id="1ba66223-16a6-41d0-8b84-aeb7748fd49a"
 		name="NombreCobertura">
 			CA-RC 3.3 Ampliaci&#243;n RC por Carga Peligrosa - Limitada
+		</var>
+		<var
+		id="08b0fb99-8007-42d4-94f6-8e1a6ff40968"
+		name="CodigoAgente">
+			6254
+		</var>
+		<var
+		id="d8ed3c76-9dca-4386-96c3-80018452fb87"
+		name="Marca">
+			SIN MARCA
+		</var>
+		<var
+		id="d125edff-9547-4ed1-8db7-d5efe4d96753"
+		name="Modelo">
+			TRAILER ZUMUVA
 		</var>
 	</variables>
 </repository>

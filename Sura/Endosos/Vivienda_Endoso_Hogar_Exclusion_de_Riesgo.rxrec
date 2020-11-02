@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sura.Endosos">
 	</codegen>
 	<variables>
+		<var
+		id="b4bf0cd3-712a-4c23-bb38-5301841e069e"
+		name="Domicilio">
+			VIAMONTE
+		</var>
 	</variables>
 	<recorditems>
 		<separatoritem

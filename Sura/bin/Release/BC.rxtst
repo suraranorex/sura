@@ -510,8 +510,5 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
-		<reference>
-			C:\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Plugin.Wpf.Core.dll
-		</reference>
 	</references>
 </testsuitedoc>

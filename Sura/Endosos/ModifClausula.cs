@@ -113,30 +113,38 @@ namespace Sura.Endosos
             repo.SURA.SolapaCoberturasAdicionales.Click("88;6");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Accesorios.txt_Suma_Accesorio' at 8;8.", repo.SURA.PC.Emision.PolizaMotor.Accesorios.txt_Suma_AccesorioInfo, new RecordItemIndex(3));
-            repo.SURA.PC.Emision.PolizaMotor.Accesorios.txt_Suma_Accesorio.Click("8;8");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Accesorios.txt_Suma_Accesorio' at 8;8.", repo.SURA.PC.Emision.PolizaMotor.Accesorios.txt_Suma_AccesorioInfo, new RecordItemIndex(3));
+            //repo.SURA.PC.Emision.PolizaMotor.Accesorios.txt_Suma_Accesorio.Click("8;8");
+            //Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.txt_clausulaAjuste' at 24;10.", repo.SURA.txt_clausulaAjusteInfo, new RecordItemIndex(4));
             repo.SURA.txt_clausulaAjuste.Click("24;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NuevoPorcentajeAjuste' with focus on 'SURA.txt_clausulaAjuste'.", repo.SURA.txt_clausulaAjusteInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}' with focus on 'SURA.txt_clausulaAjuste'.", repo.SURA.txt_clausulaAjusteInfo, new RecordItemIndex(5));
+            repo.SURA.txt_clausulaAjuste.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NuevoPorcentajeAjuste' with focus on 'SURA.txt_clausulaAjuste'.", repo.SURA.txt_clausulaAjusteInfo, new RecordItemIndex(6));
             repo.SURA.txt_clausulaAjuste.PressKeys(NuevoPorcentajeAjuste);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.bttn_ReCotizar_ModifRiesgo' at Center.", repo.SURA.bttn_ReCotizar_ModifRiesgoInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Txt_Validacion.txt_Vehiculos1' at Center.", repo.SURA.PC.Txt_Validacion.txt_Vehiculos1Info, new RecordItemIndex(7));
+            repo.SURA.PC.Txt_Validacion.txt_Vehiculos1.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.bttn_ReCotizar_ModifRiesgo' at Center.", repo.SURA.bttn_ReCotizar_ModifRiesgoInfo, new RecordItemIndex(8));
             repo.SURA.bttn_ReCotizar_ModifRiesgo.MoveTo();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.bttn_ReCotizar_ModifRiesgo' at 25;4.", repo.SURA.bttn_ReCotizar_ModifRiesgoInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.bttn_ReCotizar_ModifRiesgo' at 25;4.", repo.SURA.bttn_ReCotizar_ModifRiesgoInfo, new RecordItemIndex(9));
             repo.SURA.bttn_ReCotizar_ModifRiesgo.Click("25;4");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(10));
             Delay.Duration(3000, false);
             
-            //Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos.Txt_Validacion.txt_Cotizacion'", repo.SURA.PC.Endosos.Txt_Validacion.txt_CotizacionInfo, new ActionTimeout(45000), new RecordItemIndex(9));
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos.Txt_Validacion.txt_Cotizacion'", repo.SURA.PC.Endosos.Txt_Validacion.txt_CotizacionInfo, new ActionTimeout(45000), new RecordItemIndex(11));
             //repo.SURA.PC.Endosos.Txt_Validacion.txt_CotizacionInfo.WaitForExists(45000);
             
         }
