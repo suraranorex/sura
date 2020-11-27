@@ -54,18 +54,6 @@ namespace Sura.Menu
 
 #region Variables
 
-        string _NumPoliza;
-
-        /// <summary>
-        /// Gets or sets the value of variable NumPoliza.
-        /// </summary>
-        [TestVariable("5b19c854-1a54-49cb-9047-6f69de5cc04a")]
-        public string NumPoliza
-        {
-            get { return _NumPoliza; }
-            set { _NumPoliza = value; }
-        }
-
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
         /// </summary>
@@ -74,6 +62,16 @@ namespace Sura.Menu
         {
             get { return repo.Ambiente; }
             set { repo.Ambiente = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable NumPoliza.
+        /// </summary>
+        [TestVariable("5b19c854-1a54-49cb-9047-6f69de5cc04a")]
+        public string NumPoliza
+        {
+            get { return repo.NumPoliza; }
+            set { repo.NumPoliza = value; }
         }
 
 #endregion

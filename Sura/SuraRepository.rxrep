@@ -77,6 +77,15 @@ name="SuraRepository">
 				<item
 				addcaps="unknown,webelement,spantag"
 				capname="spantag"
+				id="28f3aac7-dbf3-49fd-ac7e-e10f6785b296"
+				name="Copy_of_bttn_Configuracion"
+				refimgid="feb7f413-42f2-4ea1-9e7d-26925ab8b831"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//span[#':TabLinkMenuButton-btnEl']/span[@enabled='True' and @data-tabindexsaved='True']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
 				id="616c2729-a015-45ae-ada3-b8cb382b0411"
 				name="bttn_CerrarSesion"
 				refimgid="90b8c912-eb37-4572-87e0-70ebffbd2c6c"
@@ -3960,12 +3969,12 @@ name="SuraRepository">
 					</item>
 					<item
 					addcaps="unknown,webelement,spantag"
-					capname="inputtag"
+					capname="spantag"
 					id="b6b05a51-eb44-431b-b9ec-49827be517f4"
 					name="Copy_of_txtbox_NumeroDePoliza"
 					refimgid="c97cb0a0-c3e7-4035-8bb9-b5eedb279175"
 					searchtimeout="30000ms">
-						/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N&#250;mero de P&#243;liza']/../..//input[@data-tabindexsaved='True']
+						/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N&#250;mero de P&#243;liza' and @data-tabindexsaved='True']
 					</item>
 					<item
 					addcaps="unknown,webelement,spantag"
@@ -3996,12 +4005,12 @@ name="SuraRepository">
 					</item>
 					<item
 					addcaps="unknown,webelement,spantag"
-					capname="inputtag"
+					capname="spantag"
 					id="abac2a90-8395-4b4b-b34e-981ec06317c9"
 					name="Copy_of_txtbox_NumAutorizacion"
 					refimgid="5cbdb2e7-a19a-4dff-b449-198328830d1f"
 					searchtimeout="30000ms">
-						/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N.&#186; Autorizaci&#243;n']/../..//input[@data-tabindexsaved='True']
+						/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N.&#186; Autorizaci&#243;n' and @data-tabindexsaved='True']
 					</item>
 					<item
 					addcaps="unknown,webelement,spantag"
@@ -4030,6 +4039,24 @@ name="SuraRepository">
 					refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table/tbody/tr[4]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[2]/div/table/tbody/tr[1]/td/label[@innertext='Detalles de pago']"
 					searchtimeout="30000ms">
 						/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/div/table/tbody/tr[1]/?/?/label[@innertext='Detalles de pago']
+					</item>
+					<item
+					addcaps="unknown,webelement,divtag"
+					capname="divtag"
+					id="0bf908ee-48c1-4523-acb1-b5ae8aeadf90"
+					name="Arrow_Select_Poliza"
+					refimgid="5affaf5a-b9af-4bbb-85dd-ca3ea20135df"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//div[@id='NewDirectBillPayment:EditDBPaymentScreen:PaymentDetailsDV:policyNumbers-trigger-picker']
+					</item>
+					<item
+					addcaps="unknown,webelement,litag"
+					capname="litag"
+					id="00aeec60-c289-4eea-ac06-bcf7973c362d"
+					name="Select_Poliza"
+					refimgid="65412289-c686-44e2-93ec-8026ecb6d67d"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//li[@innertext~$NumPoliza and @visible='True']
 					</item>
 					<basepath>
 						/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table
@@ -4123,6 +4150,16 @@ name="SuraRepository">
 						/dom[@domain=$Ambiente]/div[#'AccountPayments/PaymentDetails']/..//span[@id~'Revertir']
 					</item>
 				</folder>
+				<item
+				addcaps="unknown,webelement,canvastag"
+				capname="canvastag"
+				id="9f17f1e1-4ed8-45b9-8bf2-5360490ea6ef"
+				name="Imag_torta_pago"
+				refimgid="bdecf50b-c732-4347-a1c3-d07111c8a907"
+				refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'AccountSummary-tbody']/tr[7]/td/div/table/tbody/tr/td[2]/div/table/tbody/tr/td/div/table/tbody/tr/td[1]/div/table/tbody/tr/td/div/div/div[2]/div/canvas"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'AccountSummary-tbody']/tr[7]//table/?/?/tr/td[2]/?/?/table//div/table/?/?/tr/td[1]/?/?/table/?/?/tr/td/div/div/div[2]/?/?/canvas
+				</item>
 			</folder>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -5824,7 +5861,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 		<var
 		id="83067c29-0671-4e04-b81a-f3a234251e38"
 		name="NUM_GRUPO">
-			Baioni
+			Campoli
 		</var>
 		<var
 		id="66fe018d-0ba3-401c-91ac-e1ba1b545f18"
@@ -5952,7 +5989,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 		<var
 		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
 		name="Ambiente">
-			i-preproducciongestion.segurossura.com.ar
+			ssurgwsoadev4.opc.oracleoutsourcing.com
 		</var>
 		<var
 		id="fbc3c0ec-d362-401d-acc7-5e95815b84a3"
@@ -6031,6 +6068,11 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 		id="d125edff-9547-4ed1-8db7-d5efe4d96753"
 		name="Modelo">
 			TRAILER ZUMUVA
+		</var>
+		<var
+		id="6d640889-04a7-4d7a-ba5e-d41d1989006d"
+		name="NumPoliza">
+			04104009714
 		</var>
 	</variables>
 </repository>

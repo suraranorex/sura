@@ -410,6 +410,21 @@ uhZSZ8t+bdicnA6qfp29qnv7tLK0eZ+w4Hqe1Mlu+4zTWRNNtgAR+6Xop9Ks+Yv+1/3yahtY2htI
 YmILIiqcdMgVLQAvmL/tf98mk81R6/8AfJopH+6PqP50AO8xf9r/AL5NFN3DcRnkDJooA//Z
 			</helperscreenshot>
 		</mouseitem>
+		<userrecorditem
+		classname="Comisiones"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="AprobacionBloqueo"
+		namespace="Sura.Emision"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="bb45dccb-1bd2-44ec-a48d-c1005cd0c0cb">
+			</arguments>
+		</userrecorditem>
 		<explicitdelayitem
 		duration="300ms"
 		enabled="True"

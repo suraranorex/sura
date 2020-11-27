@@ -97,11 +97,6 @@
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:Sura.BC.Pago.NumPoliza">
-            <summary>
-            Gets or sets the value of variable NumPoliza.
-            </summary>
-        </member>
         <member name="P:Sura.BC.Pago.Monto">
             <summary>
             Gets or sets the value of variable Monto.
@@ -120,6 +115,11 @@
         <member name="P:Sura.BC.Pago.Ambiente">
             <summary>
             Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.BC.Pago.NumPoliza">
+            <summary>
+            Gets or sets the value of variable NumPoliza.
             </summary>
         </member>
         <member name="T:Sura.Emision.AccesorioConMovilidad">
@@ -8111,14 +8111,14 @@
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:Sura.Menu.MenuSuperior_Poliza.NumPoliza">
-            <summary>
-            Gets or sets the value of variable NumPoliza.
-            </summary>
-        </member>
         <member name="P:Sura.Menu.MenuSuperior_Poliza.Ambiente">
             <summary>
             Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.Menu.MenuSuperior_Poliza.NumPoliza">
+            <summary>
+            Gets or sets the value of variable NumPoliza.
             </summary>
         </member>
         <member name="T:Sura.Menu.MenuSuperior_SolicitudPoliza">
@@ -8658,6 +8658,11 @@
         <member name="P:Sura.SuraRepository.Modelo">
             <summary>
             Gets or sets the value of variable Modelo.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepository.NumPoliza">
+            <summary>
+            Gets or sets the value of variable NumPoliza.
             </summary>
         </member>
         <member name="P:Sura.SuraRepository.SelfInfo">
@@ -10433,6 +10438,16 @@
         <member name="P:Sura.SuraRepositoryFolders.LogoutFolder.bttn_ConfiguracionInfo">
             <summary>
             The bttn_Configuracion item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.LogoutFolder.Copy_of_bttn_Configuracion">
+            <summary>
+            The Copy_of_bttn_Configuracion item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.LogoutFolder.Copy_of_bttn_ConfiguracionInfo">
+            <summary>
+            The Copy_of_bttn_Configuracion item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.LogoutFolder.bttn_CerrarSesion">
@@ -15355,6 +15370,16 @@
             The bttn_NuevoPago item info.
             </summary>
         </member>
+        <member name="P:Sura.SuraRepositoryFolders.BCFolder.Imag_torta_pago">
+            <summary>
+            The Imag_torta_pago item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.BCFolder.Imag_torta_pagoInfo">
+            <summary>
+            The Imag_torta_pago item info.
+            </summary>
+        </member>
         <member name="P:Sura.SuraRepositoryFolders.BCFolder.NuevoPago">
             <summary>
             The NuevoPago folder.
@@ -15473,6 +15498,26 @@
         <member name="P:Sura.SuraRepositoryFolders.NuevoPagoFolder.DetallesDePagoInfo">
             <summary>
             The DetallesDePago item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.NuevoPagoFolder.Arrow_Select_Poliza">
+            <summary>
+            The Arrow_Select_Poliza item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.NuevoPagoFolder.Arrow_Select_PolizaInfo">
+            <summary>
+            The Arrow_Select_Poliza item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.NuevoPagoFolder.Select_Poliza">
+            <summary>
+            The Select_Poliza item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.NuevoPagoFolder.Select_PolizaInfo">
+            <summary>
+            The Select_Poliza item info.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.ReversaFolder">

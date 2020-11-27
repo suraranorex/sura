@@ -8,6 +8,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -31,6 +32,39 @@ namespace Sura.Emision
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+
+        public void AprobacionBloqueo()
+        {
+            // TODO: Replace the following line with your code implementation.
+            //throw new NotImplementedException();
+            Report.Info("Info:","Esperando el Botón Detalle por 10s");
+            if(repo.SURA_ContinueOnFail.btn_DetallesInfo.Exists(10000)){
+            
+	            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA_ContinueOnFail.btn_Detalles' at Center.", repo.SURA_ContinueOnFail.btn_DetallesInfo, new RecordItemIndex(4));
+	            repo.SURA_ContinueOnFail.btn_Detalles.Click();
+	            
+	            
+	            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA_ContinueOnFail.btn_AprobacionEspecial' at Center.", repo.SURA_ContinueOnFail.btn_AprobacionEspecialInfo, new RecordItemIndex(5));
+	            repo.SURA_ContinueOnFail.btn_AprobacionEspecial.Click();
+	            
+	            
+	            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA_ContinueOnFail.bttn_AceptarCOF' at Center.", repo.SURA_ContinueOnFail.bttn_AceptarCOFInfo, new RecordItemIndex(6));
+	            repo.SURA_ContinueOnFail.bttn_AceptarCOF.Click();
+	            
+	            
+	            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA_ContinueOnFail.bttn_Aceptar4' at Center.", repo.SURA_ContinueOnFail.bttn_Aceptar4Info, new RecordItemIndex(7));
+	            repo.SURA_ContinueOnFail.bttn_Aceptar4.Click();
+	           
+	            
+	            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPolizaInfo, new RecordItemIndex(8));
+	            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Cotizar.Click();
+	            
+	            
+	           // Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_AceptarInfo, new RecordItemIndex(9));
+	           // repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar.Click();
+	            
+            }
         }
 
     }

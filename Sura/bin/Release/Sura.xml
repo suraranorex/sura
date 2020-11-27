@@ -387,11 +387,6 @@
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:Sura.Emision.BuscarGrupos.CodigoAgente">
-            <summary>
-            Gets or sets the value of variable CodigoAgente.
-            </summary>
-        </member>
         <member name="P:Sura.Emision.BuscarGrupos.Ambiente">
             <summary>
             Gets or sets the value of variable Ambiente.
@@ -400,6 +395,11 @@
         <member name="P:Sura.Emision.BuscarGrupos.NUM_GRUPO">
             <summary>
             Gets or sets the value of variable NUM_GRUPO.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.BuscarGrupos.CodigoAgente">
+            <summary>
+            Gets or sets the value of variable CodigoAgente.
             </summary>
         </member>
         <member name="T:Sura.Emision.CantCuotasNoMotor">
@@ -596,6 +596,50 @@
         <member name="P:Sura.Emision.Coberturas_NoEnlatado_Answer.SumaAsegurada">
             <summary>
             Gets or sets the value of variable SumaAsegurada.
+            </summary>
+        </member>
+        <member name="T:Sura.Emision.ConductoresCtaAnonima">
+             <summary>
+            The ConductoresCtaAnonima recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Emision.ConductoresCtaAnonima.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.ConductoresCtaAnonima.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.ConductoresCtaAnonima.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Emision.ConductoresCtaAnonima.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.ConductoresCtaAnonima.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Emision.ConductoresCtaAnonima.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.ConductoresCtaAnonima.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.ConductoresCtaAnonima.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
             </summary>
         </member>
         <member name="T:Sura.Emision.ContinueInformacionAPEnlatada">
@@ -959,6 +1003,50 @@
         <member name="P:Sura.Emision.Detalle_Hogar_Answer.NvoNro">
             <summary>
             Gets or sets the value of variable NvoNro.
+            </summary>
+        </member>
+        <member name="T:Sura.Emision.EditarCuenta_CtaAnonima">
+             <summary>
+            The EditarCuenta_CtaAnonima recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Emision.EditarCuenta_CtaAnonima.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.EditarCuenta_CtaAnonima.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.EditarCuenta_CtaAnonima.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Emision.EditarCuenta_CtaAnonima.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.EditarCuenta_CtaAnonima.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Emision.EditarCuenta_CtaAnonima.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.EditarCuenta_CtaAnonima.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.EditarCuenta_CtaAnonima.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
             </summary>
         </member>
         <member name="T:Sura.Emision.EmisionPolizaAP_Retroactiva">
@@ -3167,6 +3255,11 @@
             Gets or sets the value of variable TIPOPOLIZA.
             </summary>
         </member>
+        <member name="P:Sura.Emision.NuevaPolizaMotor.CodigoAgente">
+            <summary>
+            Gets or sets the value of variable CodigoAgente.
+            </summary>
+        </member>
         <member name="T:Sura.Emision.NuevaPolizaMotor_Inspeccion">
              <summary>
             The NuevaPolizaMotor_Inspeccion recording.
@@ -3206,11 +3299,6 @@
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:Sura.Emision.NuevaPolizaMotor_Inspeccion.CodigoAgente">
-            <summary>
-            Gets or sets the value of variable CodigoAgente.
-            </summary>
-        </member>
         <member name="P:Sura.Emision.NuevaPolizaMotor_Inspeccion.Ambiente">
             <summary>
             Gets or sets the value of variable Ambiente.
@@ -3219,6 +3307,11 @@
         <member name="P:Sura.Emision.NuevaPolizaMotor_Inspeccion.TIPOPOLIZA">
             <summary>
             Gets or sets the value of variable TIPOPOLIZA.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.NuevaPolizaMotor_Inspeccion.CodigoAgente">
+            <summary>
+            Gets or sets the value of variable CodigoAgente.
             </summary>
         </member>
         <member name="T:Sura.Emision.NuevaPoliza_Enlatados">
@@ -3260,11 +3353,6 @@
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:Sura.Emision.NuevaPoliza_Enlatados.CodigoAgente">
-            <summary>
-            Gets or sets the value of variable CodigoAgente.
-            </summary>
-        </member>
         <member name="P:Sura.Emision.NuevaPoliza_Enlatados.Ambiente">
             <summary>
             Gets or sets the value of variable Ambiente.
@@ -3273,6 +3361,11 @@
         <member name="P:Sura.Emision.NuevaPoliza_Enlatados.TIPOPOLIZA">
             <summary>
             Gets or sets the value of variable TIPOPOLIZA.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.NuevaPoliza_Enlatados.CodigoAgente">
+            <summary>
+            Gets or sets the value of variable CodigoAgente.
             </summary>
         </member>
         <member name="T:Sura.Emision.NuevaPoliza_Hogar">
@@ -3322,6 +3415,11 @@
         <member name="P:Sura.Emision.NuevaPoliza_Hogar.TIPOPOLIZA">
             <summary>
             Gets or sets the value of variable TIPOPOLIZA.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.NuevaPoliza_Hogar.CodigoAgente">
+            <summary>
+            Gets or sets the value of variable CodigoAgente.
             </summary>
         </member>
         <member name="T:Sura.Emision.Personas">
@@ -3904,6 +4002,65 @@
             Gets or sets the value of variable Ambiente.
             </summary>
         </member>
+        <member name="T:Sura.Emision.TarjetaCreditoCtaAnonima">
+             <summary>
+            The TarjetaCreditoCtaAnonima recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Emision.TarjetaCreditoCtaAnonima.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.TarjetaCreditoCtaAnonima.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.TarjetaCreditoCtaAnonima.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Emision.TarjetaCreditoCtaAnonima.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.TarjetaCreditoCtaAnonima.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Emision.TarjetaCreditoCtaAnonima.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.TarjetaCreditoCtaAnonima.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.TarjetaCreditoCtaAnonima.TipoTarjeta">
+            <summary>
+            Gets or sets the value of variable TipoTarjeta.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.TarjetaCreditoCtaAnonima.NumTarjetaCred">
+            <summary>
+            Gets or sets the value of variable NumTarjetaCred.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.TarjetaCreditoCtaAnonima.FechaVencimiento">
+            <summary>
+            Gets or sets the value of variable FechaVencimiento.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.TarjetaCreditoCtaAnonima.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
         <member name="T:Sura.Emision.TC_YaExiste">
              <summary>
             The TC_YaExiste recording.
@@ -4131,16 +4288,6 @@
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:Sura.Emision.Vehiculos.Marca">
-            <summary>
-            Gets or sets the value of variable Marca.
-            </summary>
-        </member>
-        <member name="P:Sura.Emision.Vehiculos.Modelo">
-            <summary>
-            Gets or sets the value of variable Modelo.
-            </summary>
-        </member>
         <member name="P:Sura.Emision.Vehiculos.Patente">
             <summary>
             Gets or sets the value of variable Patente.
@@ -4169,6 +4316,16 @@
         <member name="P:Sura.Emision.Vehiculos.Anio">
             <summary>
             Gets or sets the value of variable Anio.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos.Marca">
+            <summary>
+            Gets or sets the value of variable Marca.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos.Modelo">
+            <summary>
+            Gets or sets the value of variable Modelo.
             </summary>
         </member>
         <member name="P:Sura.Emision.Vehiculos.SumaAsegurada">
@@ -4220,16 +4377,6 @@
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:Sura.Emision.VehiculosFlota_Parte1.Marca">
-            <summary>
-            Gets or sets the value of variable Marca.
-            </summary>
-        </member>
-        <member name="P:Sura.Emision.VehiculosFlota_Parte1.Modelo">
-            <summary>
-            Gets or sets the value of variable Modelo.
-            </summary>
-        </member>
         <member name="P:Sura.Emision.VehiculosFlota_Parte1.Actividad">
             <summary>
             Gets or sets the value of variable Actividad.
@@ -4263,6 +4410,16 @@
         <member name="P:Sura.Emision.VehiculosFlota_Parte1.Anio">
             <summary>
             Gets or sets the value of variable Anio.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.VehiculosFlota_Parte1.Marca">
+            <summary>
+            Gets or sets the value of variable Marca.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.VehiculosFlota_Parte1.Modelo">
+            <summary>
+            Gets or sets the value of variable Modelo.
             </summary>
         </member>
         <member name="P:Sura.Emision.VehiculosFlota_Parte1.SumaAsegurada">
@@ -7714,6 +7871,60 @@
             Gets or sets the value of variable Ambiente.
             </summary>
         </member>
+        <member name="T:Sura.Menu.MenuSupBuscaPolizaNroPoliza">
+             <summary>
+            The MenuSupBuscaPolizaNroPoliza recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Menu.MenuSupBuscaPolizaNroPoliza.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Menu.MenuSupBuscaPolizaNroPoliza.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Menu.MenuSupBuscaPolizaNroPoliza.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Menu.MenuSupBuscaPolizaNroPoliza.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Menu.MenuSupBuscaPolizaNroPoliza.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Menu.MenuSupBuscaPolizaNroPoliza.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Menu.MenuSupBuscaPolizaNroPoliza.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Menu.MenuSupBuscaPolizaNroPoliza.NroPoliza">
+            <summary>
+            Gets or sets the value of variable NroPoliza.
+            </summary>
+        </member>
+        <member name="P:Sura.Menu.MenuSupBuscaPolizaNroPoliza.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.Menu.MenuSupBuscaPolizaNroPoliza.NroTransaccion">
+            <summary>
+            Gets or sets the value of variable NroTransaccion.
+            </summary>
+        </member>
         <member name="T:Sura.Menu.MenuSuperior_BusquedaPoliza">
              <summary>
             The MenuSuperior_BusquedaPoliza recording.
@@ -8432,6 +8643,21 @@
         <member name="P:Sura.SuraRepository.NombreCobertura">
             <summary>
             Gets or sets the value of variable NombreCobertura.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepository.CodigoAgente">
+            <summary>
+            Gets or sets the value of variable CodigoAgente.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepository.Marca">
+            <summary>
+            Gets or sets the value of variable Marca.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepository.Modelo">
+            <summary>
+            Gets or sets the value of variable Modelo.
             </summary>
         </member>
         <member name="P:Sura.SuraRepository.SelfInfo">
@@ -9162,6 +9388,16 @@
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.PantallaInfo">
             <summary>
             The Pantalla item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txt_FechaNacConductor">
+            <summary>
+            The txt_FechaNacConductor item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txt_FechaNacConductorInfo">
+            <summary>
+            The txt_FechaNacConductor item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_Actividad">
@@ -10884,6 +11120,11 @@
             The CoberturasAdicionales folder.
             </summary>
         </member>
+        <member name="P:Sura.SuraRepositoryFolders.PolizaMotorFolder.ValidacionMarcaModelo">
+            <summary>
+            The ValidacionMarcaModelo folder.
+            </summary>
+        </member>
         <member name="T:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1">
             <summary>
             The InformacionDePolizaFolder1 folder.
@@ -11107,6 +11348,86 @@
         <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.Copy_of_txtEmailCtaAnonimaInfo">
             <summary>
             The Copy_of_txtEmailCtaAnonima item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.lbl_Campana">
+            <summary>
+            The lbl_Campana item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.lbl_CampanaInfo">
+            <summary>
+            The lbl_Campana item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.txt_Dir_Calle_TipoPago">
+            <summary>
+            The txt_Dir_Calle_TipoPago item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.txt_Dir_Calle_TipoPagoInfo">
+            <summary>
+            The txt_Dir_Calle_TipoPago item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.txt_Dir_NroCalle_TipoPago">
+            <summary>
+            The txt_Dir_NroCalle_TipoPago item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.txt_Dir_NroCalle_TipoPagoInfo">
+            <summary>
+            The txt_Dir_NroCalle_TipoPago item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.Copy_of_txt_Dir_NroCalle_TipoPago">
+            <summary>
+            The Copy_of_txt_Dir_NroCalle_TipoPago item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.Copy_of_txt_Dir_NroCalle_TipoPagoInfo">
+            <summary>
+            The Copy_of_txt_Dir_NroCalle_TipoPago item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.Copy_of_txt_Dir_Calle_TipoPago">
+            <summary>
+            The Copy_of_txt_Dir_Calle_TipoPago item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.Copy_of_txt_Dir_Calle_TipoPagoInfo">
+            <summary>
+            The Copy_of_txt_Dir_Calle_TipoPago item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.lbl_ValidacionDireccionCtaAnonima">
+            <summary>
+            The lbl_ValidacionDireccionCtaAnonima item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.lbl_ValidacionDireccionCtaAnonimaInfo">
+            <summary>
+            The lbl_ValidacionDireccionCtaAnonima item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.Arrow_Select_ProvinciaCtaAnonima">
+            <summary>
+            The Arrow_Select_ProvinciaCtaAnonima item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.Arrow_Select_ProvinciaCtaAnonimaInfo">
+            <summary>
+            The Arrow_Select_ProvinciaCtaAnonima item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.txt_ProvinciaCtaAnonima">
+            <summary>
+            The txt_ProvinciaCtaAnonima item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.txt_ProvinciaCtaAnonimaInfo">
+            <summary>
+            The txt_ProvinciaCtaAnonima item info.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.SolicitudDePolizaNuevaFolder">
@@ -11524,6 +11845,16 @@
             The txt_TipoInspeccion item info.
             </summary>
         </member>
+        <member name="P:Sura.SuraRepositoryFolders.InspeccionesFolder.Copy_of_txt_TipoInspeccion">
+            <summary>
+            The Copy_of_txt_TipoInspeccion item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.InspeccionesFolder.Copy_of_txt_TipoInspeccionInfo">
+            <summary>
+            The Copy_of_txt_TipoInspeccion item info.
+            </summary>
+        </member>
         <member name="T:Sura.SuraRepositoryFolders.FlotaFolder">
             <summary>
             The FlotaFolder folder.
@@ -11907,6 +12238,61 @@
         <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.Button1Info">
             <summary>
             The Button1 item info.
+            </summary>
+        </member>
+        <member name="T:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder">
+            <summary>
+            The ValidacionMarcaModeloFolder folder.
+            </summary>
+        </member>
+        <member name="M:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ValidacionMarcaModelo  folder.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder.Marca">
+            <summary>
+            The Marca item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder.MarcaInfo">
+            <summary>
+            The Marca item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder.Copy_of_Marca">
+            <summary>
+            The Copy_of_Marca item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder.Copy_of_MarcaInfo">
+            <summary>
+            The Copy_of_Marca item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder.Modelo">
+            <summary>
+            The Modelo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder.ModeloInfo">
+            <summary>
+            The Modelo item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder.Copy_of_Modelo">
+            <summary>
+            The Copy_of_Modelo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder.Copy_of_ModeloInfo">
+            <summary>
+            The Copy_of_Modelo item info.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.PolizaAPFolder">
@@ -12897,6 +13283,36 @@
         <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.SumaAseguradaCoberturaHogarAntInfo">
             <summary>
             The SumaAseguradaCoberturaHogarAnt item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.txt_ProveedorAsistMecanicaVisible">
+            <summary>
+            The txt_ProveedorAsistMecanicaVisible item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.txt_ProveedorAsistMecanicaVisibleInfo">
+            <summary>
+            The txt_ProveedorAsistMecanicaVisible item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.txt_ProveedorAsistMecanicaInvisible">
+            <summary>
+            The txt_ProveedorAsistMecanicaInvisible item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.txt_ProveedorAsistMecanicaInvisibleInfo">
+            <summary>
+            The txt_ProveedorAsistMecanicaInvisible item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.Copy_of_txt_ProveedorAsistMecanica">
+            <summary>
+            The Copy_of_txt_ProveedorAsistMecanica item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.Copy_of_txt_ProveedorAsistMecanicaInfo">
+            <summary>
+            The Copy_of_txt_ProveedorAsistMecanica item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.SumaAseguradaCoberturaHogar">
@@ -14714,16 +15130,6 @@
             The MenuNuevo item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.MenuFolder.Persona">
-            <summary>
-            The Persona item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.MenuFolder.PersonaInfo">
-            <summary>
-            The Persona item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.MenuFolder.Superior">
             <summary>
             The Superior folder.
@@ -14767,6 +15173,16 @@
         <member name="P:Sura.SuraRepositoryFolders.SuperiorFolder.txt_BusquedaSolicitudInfo">
             <summary>
             The txt_BusquedaSolicitud item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SuperiorFolder.txt_BusquedaPoliza">
+            <summary>
+            The txt_BusquedaPoliza item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SuperiorFolder.txt_BusquedaPolizaInfo">
+            <summary>
+            The txt_BusquedaPoliza item info.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.Lateral_CuentaFolder">
@@ -14852,6 +15268,26 @@
         <member name="P:Sura.SuraRepositoryFolders.Lateral_CuentaFolder.btn_PersonasInfo">
             <summary>
             The btn_Personas item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Lateral_CuentaFolder.SubMenuCtaAnonimaCompania">
+            <summary>
+            The SubMenuCtaAnonimaCompania item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Lateral_CuentaFolder.SubMenuCtaAnonimaCompaniaInfo">
+            <summary>
+            The SubMenuCtaAnonimaCompania item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Lateral_CuentaFolder.SubMenuPersona">
+            <summary>
+            The SubMenuPersona item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Lateral_CuentaFolder.SubMenuPersonaInfo">
+            <summary>
+            The SubMenuPersona item info.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.BCFolder">
@@ -15027,6 +15463,16 @@
         <member name="P:Sura.SuraRepositoryFolders.NuevoPagoFolder.Copy_of_txtbox_TipoTarjetaInfo">
             <summary>
             The Copy_of_txtbox_TipoTarjeta item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.NuevoPagoFolder.DetallesDePago">
+            <summary>
+            The DetallesDePago item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.NuevoPagoFolder.DetallesDePagoInfo">
+            <summary>
+            The DetallesDePago item info.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.ReversaFolder">
@@ -15371,6 +15817,178 @@
         <member name="P:Sura.TestCSV.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Sura.ValidacionMarcaModelo.ValidacionStatus">
+             <summary>
+            The ValidacionStatus recording.
+             </summary>
+        </member>
+        <member name="F:Sura.ValidacionMarcaModelo.ValidacionStatus.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.ValidacionMarcaModelo.ValidacionStatus.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.ValidacionMarcaModelo.ValidacionStatus.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.ValidacionMarcaModelo.ValidacionStatus.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.ValidacionMarcaModelo.ValidacionStatus.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.ValidacionMarcaModelo.ValidacionStatus.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.ValidacionMarcaModelo.ValidacionStatus.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.ValidacionMarcaModelo.ValidacionStatus.Status">
+            <summary>
+            Gets or sets the value of variable Status.
+            </summary>
+        </member>
+        <member name="P:Sura.ValidacionMarcaModelo.ValidacionStatus.ID">
+            <summary>
+            Gets or sets the value of variable ID.
+            </summary>
+        </member>
+        <member name="T:Sura.ValidacionMarcaModelo.ValidaMarcaModelo">
+             <summary>
+            The ValidaMarcaModelo recording.
+             </summary>
+        </member>
+        <member name="F:Sura.ValidacionMarcaModelo.ValidaMarcaModelo.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.ValidacionMarcaModelo.ValidaMarcaModelo.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.ValidacionMarcaModelo.ValidaMarcaModelo.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.ValidacionMarcaModelo.ValidaMarcaModelo.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.ValidacionMarcaModelo.ValidaMarcaModelo.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.ValidacionMarcaModelo.ValidaMarcaModelo.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.ValidacionMarcaModelo.ValidaMarcaModelo.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.ValidacionMarcaModelo.ValidaMarcaModelo.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.ValidacionMarcaModelo.ValidaMarcaModelo.Marca">
+            <summary>
+            Gets or sets the value of variable Marca.
+            </summary>
+        </member>
+        <member name="P:Sura.ValidacionMarcaModelo.ValidaMarcaModelo.Modelo">
+            <summary>
+            Gets or sets the value of variable Modelo.
+            </summary>
+        </member>
+        <member name="T:Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo">
+             <summary>
+            The ValidaMarcaModelo_Codigo recording.
+             </summary>
+        </member>
+        <member name="F:Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.ValidaMarca">
+            <summary>
+            Gets or sets the value of variable ValidaMarca.
+            </summary>
+        </member>
+        <member name="P:Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.ValidaModelo">
+            <summary>
+            Gets or sets the value of variable ValidaModelo.
+            </summary>
+        </member>
+        <member name="P:Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Status">
+            <summary>
+            Gets or sets the value of variable Status.
+            </summary>
+        </member>
+        <member name="P:Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Marca">
+            <summary>
+            Gets or sets the value of variable Marca.
+            </summary>
+        </member>
+        <member name="P:Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Modelo">
+            <summary>
+            Gets or sets the value of variable Modelo.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

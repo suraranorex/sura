@@ -26,7 +26,7 @@ mode="Global">
 		<var
 		id="44c8ebca-9808-49b2-9468-ef21e7ac19e2"
 		name="NumPoliza">
-			04440023926
+			04104009714
 		</var>
 		<var
 		id="84541f12-a9bb-4669-970f-b2100a9ceab4"
@@ -44,17 +44,37 @@ mode="Global">
 		</var>
 	</variables>
 	<recorditems>
-		<keyitem
-		action="Press"
-		data="A, Control"
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="6c94aac0-4e3f-43e5-bc56-5e9413ad5c5f"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0bf908ee-48c1-4523-acb1-b5ae8aeadf90"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//div[@id='NewDirectBillPayment:EditDBPaymentScreen:PaymentDetailsDV:policyNumbers-trigger-picker']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{LControlKey down}{Akey}{LControlKey up}"
 		duration="20ms"
 		enabled="True"
-		numLock="False"
 		optional="False"
 		presstime="20ms"
-		scancode="0"
-		searchpropertyid="ecb90c66-a705-4e8f-9538-c076024906d9"
-		setModifiers="True">
+		searchpropertyid="02d93290-05f9-48e7-b48c-06038f32b094">
 			<comment>
 			</comment>
 			<bindings>
@@ -62,11 +82,65 @@ mode="Global">
 			<info
 			id="94cc1261-bdfc-4564-9b36-c7be4c7f61ec"
 			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="0,111,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N&#250;mero de P&#243;liza']/../..//input
+					/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N&#250;mero de P&#243;liza']/../..//input
 				</path>
 			</info>
-		</keyitem>
+		</keysequenceitem>
 		<keysequenceitem
 		KeySequence="yourtext"
 		duration="20ms"
@@ -227,6 +301,108 @@ mode="Global">
 				</path>
 			</info>
 		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="6245b5ef-5205-4be9-b607-7172d203aabe"
+		sx="0"
+		sy="111"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="94cc1261-bdfc-4564-9b36-c7be4c7f61ec"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="0,111,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N&#250;mero de P&#243;liza']/../..//input
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="84b19a24-2264-4b60-ae1f-9a1d0786d131"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="00aeec60-c289-4eea-ac06-bcf7973c362d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table/body//ul/li[@nnertext=$NumPoliza]
+				</path>
+			</info>
+		</mouseitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -394,18 +570,18 @@ ooooAKKKKAP/2Q==
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"
-		searchpropertyid="0e87b9d8-92e4-41b0-bf93-bc18583984f5"
+		searchpropertyid="a41d581a-6de9-4989-a7bb-dde5ce5ffffb"
 		waitaction="NotExists"
-		waittimeout="30000ms">
+		waittimeout="40000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="b6b05a51-eb44-431b-b9ec-49827be517f4"
+			id="8e5a1e85-5408-45f0-9fdb-07a1ad48e484"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N&#250;mero de P&#243;liza']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext='Monto']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -837,7 +1013,7 @@ DopSco3YUUUVBqFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 		optional="False"
 		searchpropertyid="a41d581a-6de9-4989-a7bb-dde5ce5ffffb"
 		waitaction="NotExists"
-		waittimeout="30000ms">
+		waittimeout="40000ms">
 			<comment>
 			</comment>
 			<bindings>
@@ -852,13 +1028,31 @@ DopSco3YUUUVBqFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 		</WaitForRecordItem>
 		<explicitdelayitem
 		duration="3000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="2daef767-2f41-4017-8a3a-7fb4a1b58187"
+		waitaction="NotExists"
+		waittimeout="40000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="abac2a90-8395-4b4b-b34e-981ec06317c9"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N.&#186; Autorizaci&#243;n']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -1176,24 +1370,6 @@ DopSco3YUUUVBqFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 				</path>
 			</info>
 		</keysequenceitem>
-		<WaitForRecordItem
-		enabled="True"
-		optional="False"
-		searchpropertyid="2daef767-2f41-4017-8a3a-7fb4a1b58187"
-		waitaction="NotExists"
-		waittimeout="30000ms">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="abac2a90-8395-4b4b-b34e-981ec06317c9"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N.&#186; Autorizaci&#243;n']/../..//input[@data-tabindexsaved='True']
-				</path>
-			</info>
-		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -1277,6 +1453,24 @@ DopSco3YUUUVBqFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 				</path>
 			</info>
 		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="9928f4b0-2575-4094-83cd-1cf8cfc125ae"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="eca55051-077c-4ba8-86d2-fe3f09445e37"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'Tipo de tarjeta']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<keyitem
 		action="Press"
 		data="A, Control"
@@ -1487,24 +1681,6 @@ AP1qP7b/AOnf/wAf/wDrVmTqEnkVRgBiB+dNUZYA+tHJEPaz7mr/AG3/ANO//j//ANaj+2/+nf8A
 DopSco3YUUUVBqFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 			</helperscreenshot>
 		</mouseitem>
-		<WaitForRecordItem
-		enabled="True"
-		optional="False"
-		searchpropertyid="9928f4b0-2575-4094-83cd-1cf8cfc125ae"
-		waitaction="NotExists"
-		waittimeout="30000ms">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="eca55051-077c-4ba8-86d2-fe3f09445e37"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'Tipo de tarjeta']/../..//input[@data-tabindexsaved='True']
-				</path>
-			</info>
-		</WaitForRecordItem>
 		<loggingrecorditem
 		action="Screenshot"
 		category="User"
@@ -1645,7 +1821,7 @@ tE6s+9ZH54RVIYknt0x+NXxyMihpPcFOUdm0Zn9hWv8Az0m/Mf4VasrGKyD+UXO/Gdx9Ks0UrLsN
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"
-		searchpropertyid="79414597-d566-4138-bd18-1664a2b564bc"
+		searchpropertyid="eaa82550-43bd-44c5-bccd-73d89622ac8b"
 		waitaction="Exists"
 		waittimeout="60000ms">
 			<comment>
@@ -1653,22 +1829,31 @@ tE6s+9ZH54RVIYknt0x+NXxyMihpPcFOUdm0Zn9hWv8Az0m/Mf4VasrGKyD+UXO/Gdx9Ks0UrLsN
 			<bindings>
 			</bindings>
 			<info
-			id="b72fa9c1-a52e-4939-bf1c-1bdef13e721b"
+			id="9f17f1e1-4ed8-45b9-8bf2-5360490ea6ef"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext~'Resumen']
+					/dom[@domain=$Ambiente]//tbody[#'AccountSummary-tbody']/tr[7]//table/?/?/tr/td[2]/?/?/table//div/table/?/?/tr/td[1]/?/?/table/?/?/tr/td/div/div/div[2]/?/?/canvas
 				</path>
 			</info>
 		</WaitForRecordItem>
-		<explicitdelayitem
-		duration="6000ms"
-		enabled="True"
-		optional="False">
+		<WaitForRecordItem
+		enabled="False"
+		optional="False"
+		searchpropertyid="3cdd257d-d057-4601-af05-25ade7ba155d"
+		waitaction="NotExists"
+		waittimeout="40000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-		</explicitdelayitem>
+			<info
+			id="28f3aac7-dbf3-49fd-ac7e-e10f6785b296"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[#':TabLinkMenuButton-btnEl']/span[@enabled='True' and @data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
 	</recorditems>
 	<repository
 	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"

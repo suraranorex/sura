@@ -4,9 +4,14 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="BC\Pago.rxrec" />
+    <Element value="Logout.rxrec" />
+    <Element value="BC.rxtst" />
     <Element value="PC.rxtst" />
-    <Element value="ValidacionMarcaModelo\ValidacionStatus.UserCode.cs" />
-    <Element value="ValidacionMarcaModelo\ValidacionStatus.rxrec" />
+    <Element value="Emision\EmisionPoliza.UserCode.cs" />
+    <Element value="Emision\Comisiones.rxrec" />
+    <Element value="Emision\Comisiones.UserCode.cs" />
+    <Element value="Emision\BuscarGrupos.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
@@ -14,7 +19,7 @@
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="Sura.ValidacionMarcaModelo.ValidacionStatus.GrabaExcel()" />
+      <Element value="Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Validacion()" />
       <Element value="Sura.ValidacionMarcaModelo.ValidacionStatus.GrabaExcel()" />
       <Element value="Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Validacion()" />
       <Element value="Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Validate_Copy_of_Modelo(RepoItemInfo divtagInfo)" />

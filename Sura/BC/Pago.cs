@@ -41,7 +41,7 @@ namespace Sura.BC
         /// </summary>
         public Pago()
         {
-            NumPoliza = "04440023926";
+            NumPoliza = "04104009714";
             Monto = "";
             NumAutorizacion = "21";
             TipoTarjeta = "American Express";
@@ -56,18 +56,6 @@ namespace Sura.BC
         }
 
 #region Variables
-
-        string _NumPoliza;
-
-        /// <summary>
-        /// Gets or sets the value of variable NumPoliza.
-        /// </summary>
-        [TestVariable("44c8ebca-9808-49b2-9468-ef21e7ac19e2")]
-        public string NumPoliza
-        {
-            get { return _NumPoliza; }
-            set { _NumPoliza = value; }
-        }
 
         string _Monto;
 
@@ -115,6 +103,16 @@ namespace Sura.BC
             set { repo.Ambiente = value; }
         }
 
+        /// <summary>
+        /// Gets or sets the value of variable NumPoliza.
+        /// </summary>
+        [TestVariable("44c8ebca-9808-49b2-9468-ef21e7ac19e2")]
+        public string NumPoliza
+        {
+            get { return repo.NumPoliza; }
+            set { repo.NumPoliza = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -141,94 +139,105 @@ namespace Sura.BC
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.BC.NuevoPago.txtbox_NumeroDePoliza'.", repo.SURA.BC.NuevoPago.txtbox_NumeroDePolizaInfo, new RecordItemIndex(0));
-            Keyboard.PrepareFocus(repo.SURA.BC.NuevoPago.txtbox_NumeroDePoliza);
-            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.NuevoPago.Arrow_Select_Poliza' at Center.", repo.SURA.BC.NuevoPago.Arrow_Select_PolizaInfo, new RecordItemIndex(0));
+            repo.SURA.BC.NuevoPago.Arrow_Select_Poliza.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NumPoliza' with focus on 'SURA.BC.NuevoPago.txtbox_NumeroDePoliza'.", repo.SURA.BC.NuevoPago.txtbox_NumeroDePolizaInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}' with focus on 'SURA.BC.NuevoPago.txtbox_NumeroDePoliza'.", repo.SURA.BC.NuevoPago.txtbox_NumeroDePolizaInfo, new RecordItemIndex(1));
+            repo.SURA.BC.NuevoPago.txtbox_NumeroDePoliza.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NumPoliza' with focus on 'SURA.BC.NuevoPago.txtbox_NumeroDePoliza'.", repo.SURA.BC.NuevoPago.txtbox_NumeroDePolizaInfo, new RecordItemIndex(2));
             repo.SURA.BC.NuevoPago.txtbox_NumeroDePoliza.PressKeys(NumPoliza);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.txt_PagosMedianteFacturacionDirecta' at Center.", repo.SURA.BC.txt_PagosMedianteFacturacionDirectaInfo, new RecordItemIndex(2));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.NuevoPago.txtbox_NumeroDePoliza' at Center.", repo.SURA.BC.NuevoPago.txtbox_NumeroDePolizaInfo, new RecordItemIndex(3));
+            //repo.SURA.BC.NuevoPago.txtbox_NumeroDePoliza.Click();
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.NuevoPago.Select_Poliza' at Center.", repo.SURA.BC.NuevoPago.Select_PolizaInfo, new RecordItemIndex(4));
+            //repo.SURA.BC.NuevoPago.Select_Poliza.Click();
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.txt_PagosMedianteFacturacionDirecta' at Center.", repo.SURA.BC.txt_PagosMedianteFacturacionDirectaInfo, new RecordItemIndex(5));
             repo.SURA.BC.txt_PagosMedianteFacturacionDirecta.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.BC.NuevoPago.Copy_of_txtbox_NumeroDePoliza'", repo.SURA.BC.NuevoPago.Copy_of_txtbox_NumeroDePolizaInfo, new ActionTimeout(30000), new RecordItemIndex(3));
-            repo.SURA.BC.NuevoPago.Copy_of_txtbox_NumeroDePolizaInfo.WaitForNotExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'SURA.BC.NuevoPago.Copy_of_txtbox_Monto'", repo.SURA.BC.NuevoPago.Copy_of_txtbox_MontoInfo, new ActionTimeout(40000), new RecordItemIndex(6));
+            repo.SURA.BC.NuevoPago.Copy_of_txtbox_MontoInfo.WaitForNotExists(40000);
             
             try {
-                Report.Log(ReportLevel.Info, "Get Value", "(Optional Action)\r\nGetting attribute 'InnerText' from item 'SURA_ContinueOnFail.montoPagar' and assigning the part of its value captured by '[0-9.,]+' to variable 'Monto'.", repo.SURA_ContinueOnFail.montoPagarInfo, new RecordItemIndex(4));
+                Report.Log(ReportLevel.Info, "Get Value", "(Optional Action)\r\nGetting attribute 'InnerText' from item 'SURA_ContinueOnFail.montoPagar' and assigning the part of its value captured by '[0-9.,]+' to variable 'Monto'.", repo.SURA_ContinueOnFail.montoPagarInfo, new RecordItemIndex(7));
                 Monto = repo.SURA_ContinueOnFail.montoPagar.Element.GetAttributeValueText("InnerText", new Regex("[0-9.,]+"));
                 Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             
-            Report.Log(ReportLevel.Info, "User", "El monto a pagar es:", new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "User", "El monto a pagar es:", new RecordItemIndex(8));
             
-            Report.Log(ReportLevel.Info, "User", Monto, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "User", Monto, new RecordItemIndex(9));
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}' with focus on 'SURA.BC.NuevoPago.txtbox_Monto'.", repo.SURA.BC.NuevoPago.txtbox_MontoInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}' with focus on 'SURA.BC.NuevoPago.txtbox_Monto'.", repo.SURA.BC.NuevoPago.txtbox_MontoInfo, new RecordItemIndex(10));
             repo.SURA.BC.NuevoPago.txtbox_Monto.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Monto' with focus on 'SURA.BC.NuevoPago.txtbox_Monto'.", repo.SURA.BC.NuevoPago.txtbox_MontoInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Monto' with focus on 'SURA.BC.NuevoPago.txtbox_Monto'.", repo.SURA.BC.NuevoPago.txtbox_MontoInfo, new RecordItemIndex(11));
             repo.SURA.BC.NuevoPago.txtbox_Monto.PressKeys(Monto);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.txt_PagosMedianteFacturacionDirecta' at Center.", repo.SURA.BC.txt_PagosMedianteFacturacionDirectaInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.txt_PagosMedianteFacturacionDirecta' at Center.", repo.SURA.BC.txt_PagosMedianteFacturacionDirectaInfo, new RecordItemIndex(12));
             repo.SURA.BC.txt_PagosMedianteFacturacionDirecta.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.BC.NuevoPago.Copy_of_txtbox_Monto'", repo.SURA.BC.NuevoPago.Copy_of_txtbox_MontoInfo, new ActionTimeout(30000), new RecordItemIndex(10));
-            repo.SURA.BC.NuevoPago.Copy_of_txtbox_MontoInfo.WaitForNotExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'SURA.BC.NuevoPago.Copy_of_txtbox_Monto'", repo.SURA.BC.NuevoPago.Copy_of_txtbox_MontoInfo, new ActionTimeout(40000), new RecordItemIndex(13));
+            repo.SURA.BC.NuevoPago.Copy_of_txtbox_MontoInfo.WaitForNotExists(40000);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(11));
-            Delay.Duration(3000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(14));
+            //Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.NuevoPago.txtbox_NumAutorizacion' at Center.", repo.SURA.BC.NuevoPago.txtbox_NumAutorizacionInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'SURA.BC.NuevoPago.Copy_of_txtbox_NumAutorizacion'", repo.SURA.BC.NuevoPago.Copy_of_txtbox_NumAutorizacionInfo, new ActionTimeout(40000), new RecordItemIndex(15));
+            repo.SURA.BC.NuevoPago.Copy_of_txtbox_NumAutorizacionInfo.WaitForNotExists(40000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.NuevoPago.txtbox_NumAutorizacion' at Center.", repo.SURA.BC.NuevoPago.txtbox_NumAutorizacionInfo, new RecordItemIndex(16));
             repo.SURA.BC.NuevoPago.txtbox_NumAutorizacion.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NumAutorizacion' with focus on 'SURA.BC.NuevoPago.txtbox_NumAutorizacion'.", repo.SURA.BC.NuevoPago.txtbox_NumAutorizacionInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NumAutorizacion' with focus on 'SURA.BC.NuevoPago.txtbox_NumAutorizacion'.", repo.SURA.BC.NuevoPago.txtbox_NumAutorizacionInfo, new RecordItemIndex(17));
             repo.SURA.BC.NuevoPago.txtbox_NumAutorizacion.PressKeys(NumAutorizacion);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.BC.NuevoPago.Copy_of_txtbox_NumAutorizacion'", repo.SURA.BC.NuevoPago.Copy_of_txtbox_NumAutorizacionInfo, new ActionTimeout(30000), new RecordItemIndex(14));
-            repo.SURA.BC.NuevoPago.Copy_of_txtbox_NumAutorizacionInfo.WaitForNotExists(30000);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.NuevoPago.DetallesDePago' at Center.", repo.SURA.BC.NuevoPago.DetallesDePagoInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.NuevoPago.DetallesDePago' at Center.", repo.SURA.BC.NuevoPago.DetallesDePagoInfo, new RecordItemIndex(18));
             repo.SURA.BC.NuevoPago.DetallesDePago.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.BC.NuevoPago.txtbox_TipoTarjeta'.", repo.SURA.BC.NuevoPago.txtbox_TipoTarjetaInfo, new RecordItemIndex(16));
-            Keyboard.PrepareFocus(repo.SURA.BC.NuevoPago.txtbox_TipoTarjeta);
-            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$TipoTarjeta' with focus on 'SURA.BC.NuevoPago.txtbox_TipoTarjeta'.", repo.SURA.BC.NuevoPago.txtbox_TipoTarjetaInfo, new RecordItemIndex(17));
-            repo.SURA.BC.NuevoPago.txtbox_TipoTarjeta.PressKeys(TipoTarjeta);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.txt_PagosMedianteFacturacionDirecta' at Center.", repo.SURA.BC.txt_PagosMedianteFacturacionDirectaInfo, new RecordItemIndex(18));
-            repo.SURA.BC.txt_PagosMedianteFacturacionDirecta.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.BC.NuevoPago.Copy_of_txtbox_TipoTarjeta'", repo.SURA.BC.NuevoPago.Copy_of_txtbox_TipoTarjetaInfo, new ActionTimeout(30000), new RecordItemIndex(19));
             repo.SURA.BC.NuevoPago.Copy_of_txtbox_TipoTarjetaInfo.WaitForNotExists(30000);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.BC.NuevoPago.txtbox_TipoTarjeta'.", repo.SURA.BC.NuevoPago.txtbox_TipoTarjetaInfo, new RecordItemIndex(20));
+            Keyboard.PrepareFocus(repo.SURA.BC.NuevoPago.txtbox_TipoTarjeta);
+            Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$TipoTarjeta' with focus on 'SURA.BC.NuevoPago.txtbox_TipoTarjeta'.", repo.SURA.BC.NuevoPago.txtbox_TipoTarjetaInfo, new RecordItemIndex(21));
+            repo.SURA.BC.NuevoPago.txtbox_TipoTarjeta.PressKeys(TipoTarjeta);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.txt_PagosMedianteFacturacionDirecta' at Center.", repo.SURA.BC.txt_PagosMedianteFacturacionDirectaInfo, new RecordItemIndex(22));
+            repo.SURA.BC.txt_PagosMedianteFacturacionDirecta.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(23));
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'SURA_ContinueOnFail.bttn_Ejecutar' at Center.", repo.SURA_ContinueOnFail.bttn_EjecutarInfo, new RecordItemIndex(21));
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'SURA_ContinueOnFail.bttn_Ejecutar' at Center.", repo.SURA_ContinueOnFail.bttn_EjecutarInfo, new RecordItemIndex(24));
                 repo.SURA_ContinueOnFail.bttn_Ejecutar.Click();
                 Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(21)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(24)); }
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMS'", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMSInfo, new ActionTimeout(60000), new RecordItemIndex(22));
-            repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMSInfo.WaitForExists(60000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'SURA.BC.Imag_torta_pago'", repo.SURA.BC.Imag_torta_pagoInfo, new ActionTimeout(60000), new RecordItemIndex(25));
+            repo.SURA.BC.Imag_torta_pagoInfo.WaitForExists(60000);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 6s.", new RecordItemIndex(23));
-            Delay.Duration(6000, false);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'SURA.Logout.Copy_of_bttn_Configuracion'", repo.SURA.Logout.Copy_of_bttn_ConfiguracionInfo, new ActionTimeout(40000), new RecordItemIndex(26));
+            //repo.SURA.Logout.Copy_of_bttn_ConfiguracionInfo.WaitForNotExists(40000);
             
         }
 

@@ -106,10 +106,13 @@ namespace Sura.Emision
             repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Cotizar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(5));
+            AprobacionBloqueo();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(6));
             Delay.Duration(300, false);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_Cotizacion'", repo.SURA.PC.Txt_Validacion.txt_CotizacionInfo, new ActionTimeout(45000), new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_Cotizacion'", repo.SURA.PC.Txt_Validacion.txt_CotizacionInfo, new ActionTimeout(45000), new RecordItemIndex(7));
             repo.SURA.PC.Txt_Validacion.txt_CotizacionInfo.WaitForExists(45000);
             
         }

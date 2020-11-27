@@ -227,11 +227,12 @@
 			name="BC/ReversaPago">
 			</testcase>
 			<testcase
+			datarangeactive="True"
 			datasource="BC_Pago"
 			errorbehavior="ContinueNextIteration"
 			id="a7077552-e484-49d4-aaef-325c403fe529"
-			maxrange="67"
-			minrange="37"
+			maxrange="0"
+			minrange="0"
 			name="BC/Pago_de_Poliza">
 			</testcase>
 			<testmodule
@@ -423,12 +424,15 @@
 		filename="R:\Sura\DataSource\DataSource - Pago.xlsx"
 		id="46355cdd-6d91-437d-af37-776dd8580d97"
 		includefile="Unchecked"
-		lastknownrowcount="26"
+		lastknownrowcount="90"
 		name="BC_Pago"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
+				<column>
+					ID
+				</column>
 				<column>
 					Ambiente
 				</column>
