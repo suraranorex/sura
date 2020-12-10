@@ -11,3 +11,4 @@
 [1023/192430.374:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
 [1023/193643.613:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
 [1026/121349.512:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0
+[1209/142610.337:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0

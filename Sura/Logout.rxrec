@@ -44,7 +44,7 @@ mode="Global">
 			</info>
 		</WaitForRecordItem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="79414597-d566-4138-bd18-1664a2b564bc"
 		waitaction="Exists"

@@ -4,14 +4,14 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="BC\Pago.rxrec" />
-    <Element value="Logout.rxrec" />
-    <Element value="BC.rxtst" />
     <Element value="PC.rxtst" />
-    <Element value="Emision\EmisionPoliza.UserCode.cs" />
-    <Element value="Emision\Comisiones.rxrec" />
-    <Element value="Emision\Comisiones.UserCode.cs" />
     <Element value="Emision\BuscarGrupos.rxrec" />
+    <Element value="Emision\Comisiones.UserCode.cs" />
+    <Element value="Emision\Comisiones.rxrec" />
+    <Element value="Emision\EmisionPoliza.UserCode.cs" />
+    <Element value="BC.rxtst" />
+    <Element value="Logout.rxrec" />
+    <Element value="BC\Pago.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

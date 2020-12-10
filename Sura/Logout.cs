@@ -92,8 +92,8 @@ namespace Sura
             //Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'SURA.Logout.Copy_of_bttn_Configuracion'", repo.SURA.Logout.Copy_of_bttn_ConfiguracionInfo, new ActionTimeout(40000), new RecordItemIndex(0));
             //repo.SURA.Logout.Copy_of_bttn_ConfiguracionInfo.WaitForNotExists(40000);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMS'", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMSInfo, new ActionTimeout(60000), new RecordItemIndex(1));
-            repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMSInfo.WaitForExists(60000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMS'", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMSInfo, new ActionTimeout(60000), new RecordItemIndex(1));
+            //repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMSInfo.WaitForExists(60000);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Logout.bttn_Configuracion' at Center.", repo.SURA.Logout.bttn_ConfiguracionInfo, new RecordItemIndex(2));
             repo.SURA.Logout.bttn_Configuracion.Click();

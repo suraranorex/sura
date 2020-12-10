@@ -317,7 +317,6 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datarangeactive="True"
 			datasource="EmisionMotor_Inspeccion"
 			errorbehavior="ContinueNextIteration"
 			id="0570b480-9d56-4c17-870e-4b2782417848"
@@ -2966,6 +2965,18 @@
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
+					<var
+					dataname="TipoPlazo"
+					datasourceid="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
+					variableid="cb2f33fd-632b-4035-88d1-53db657415c1"
+					variablename="TipoPlazo">
+					</var>
+					<var
+					dataname="FechaInicio"
+					datasourceid="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
+					variableid="253f7e5e-e31f-4444-8662-87abe76dadce"
+					variablename="FechaInicio">
+					</var>
 				</databinding>
 			</testmodule>
 			<smartfoldernode
@@ -5513,11 +5524,13 @@
 			name="teardown111111">
 			</teardown>
 			<testcase
+			datarangeactive="True"
+			datarangeset="1-4,14,15,25,26,36,37,47-49"
 			datasource="EmisionMotor"
 			errorbehavior="ContinueNextIteration"
 			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b"
-			maxrange="131"
-			minrange="131"
+			maxrange="48"
+			minrange="0"
 			name="Emisión_Motor">
 			</testcase>
 			<testmodule
@@ -18066,12 +18079,15 @@
 		filename="R:\Sura\DataSource\DataSource - Emision Motor.xlsx"
 		id="9027bcb8-f348-4440-91bd-e34ee0858dc1"
 		includefile="Unchecked"
-		lastknownrowcount="3"
+		lastknownrowcount="58"
 		name="EmisionMotor"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="DatosMotor"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
+				<column>
+					ID
+				</column>
 				<column>
 					Ambiente
 				</column>
@@ -18086,12 +18102,6 @@
 				</column>
 				<column>
 					NroCuenta
-				</column>
-				<column>
-					CodigoAgente
-				</column>
-				<column>
-					NUM_GRUPO
 				</column>
 				<column>
 					TIPOPOLIZA
@@ -18137,6 +18147,9 @@
 				</column>
 				<column>
 					Modelo
+				</column>
+				<column>
+					CodInfoAuto
 				</column>
 				<column>
 					SumaAsegurada
@@ -18265,12 +18278,15 @@
 		filename="R:\Sura\DataSource\DataSource - Emision Motor - Inspeccion.xlsx"
 		id="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
 		includefile="Unchecked"
-		lastknownrowcount="5"
+		lastknownrowcount="45"
 		name="EmisionMotor_Inspeccion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
+				<column>
+					ID
+				</column>
 				<column>
 					Ambiente
 				</column>
@@ -18302,16 +18318,13 @@
 					TipoPlazo
 				</column>
 				<column>
-					FechaInicio
-				</column>
-				<column>
 					MetodoDePago
 				</column>
 				<column>
 					OPCION_PAGOCUOTAS
 				</column>
 				<column>
-					CantCuotas
+					FechaInicio
 				</column>
 				<column>
 					Anio
@@ -18321,6 +18334,9 @@
 				</column>
 				<column>
 					Modelo
+				</column>
+				<column>
+					CodInfoAuto
 				</column>
 				<column>
 					SumaAsegurada
@@ -19660,9 +19676,24 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="TestRun">
+	default="Emisiones">
 		<testconfiguration
-		name="TestRun">
+		name="Emisiones">
+			<testcontainer
+			id="00c7dff9-ae9e-4520-82f3-a7c04cfe7c3e">
+			</testcontainer>
+			<testcontainer
+			id="0570b480-9d56-4c17-870e-4b2782417848">
+			</testcontainer>
+			<testcontainer
+			id="0a7360c9-5f5e-42d0-82cc-4a7a6617d15c">
+			</testcontainer>
+			<testcontainer
+			id="16ed9f9e-075d-4d6a-a058-9d5a32750ae0">
+			</testcontainer>
+			<testcontainer
+			id="1ceb8aa2-4f3e-46b0-b627-15ae80920378">
+			</testcontainer>
 			<testcontainer
 			id="1fc98506-d7c4-42b3-ad44-82cc6f15c3e1">
 			</testcontainer>
@@ -19670,25 +19701,73 @@
 			id="1ff4a919-10dc-4f97-a4cd-5e4a0e40c32b">
 			</testcontainer>
 			<testcontainer
-			id="47bc65d3-c9e7-42e6-9861-d3491bed5c3a">
+			id="24a86737-98c1-4915-941d-a2f85e7fc006">
 			</testcontainer>
 			<testcontainer
-			id="4b4f3ef7-a58f-4b8d-a4f3-9fd80cf37f23">
+			id="3ee5bb79-c291-4d4b-b377-6e3cd9ca210a">
+			</testcontainer>
+			<testcontainer
+			id="3f062fb6-f996-41a6-b53c-00b55d407e81">
+			</testcontainer>
+			<testcontainer
+			id="3f3f21e6-a3a6-49a0-8e0e-34d2436d54fe">
+			</testcontainer>
+			<testcontainer
+			id="41f8d188-2b54-4387-9915-4a72a890c58c">
+			</testcontainer>
+			<testcontainer
+			id="471a79c3-2161-46f8-ba52-53c51e7848aa">
+			</testcontainer>
+			<testcontainer
+			id="475ad006-14a3-4bd5-a2e0-c3086b33dfdf">
+			</testcontainer>
+			<testcontainer
+			id="4a78ab7a-ce64-4386-af3e-4b58eafdda2f">
+			</testcontainer>
+			<testcontainer
+			id="520ea22a-5473-411c-9029-f8deb29c8ca1">
+			</testcontainer>
+			<testcontainer
+			id="54ede319-0666-4f70-80c2-3ecae88f8848">
 			</testcontainer>
 			<testcontainer
 			id="55fe0d59-4a2e-4421-a861-9259fda365df">
 			</testcontainer>
 			<testcontainer
-			id="75646c42-08f2-4518-a444-e79150adf684">
+			id="6263d66f-9ee0-4e25-96df-a3b5d89084c3">
 			</testcontainer>
 			<testcontainer
-			id="85dde48f-1604-437a-9bd6-6ce68ec2dacd">
+			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b">
+			</testcontainer>
+			<testcontainer
+			id="7841aa8c-588c-4a62-b26e-bf70a86ce5f9">
+			</testcontainer>
+			<testcontainer
+			id="7d2af1e1-d7a8-4ceb-bb02-4e19adff58d1">
+			</testcontainer>
+			<testcontainer
+			id="8070d4f3-21b7-4e70-a323-9e89e3f0b076">
+			</testcontainer>
+			<testcontainer
+			id="8b652cc7-4ad6-4709-8e38-976b724f6259">
 			</testcontainer>
 			<testcontainer
 			id="8f91e82d-ede3-4907-8e6d-512158b39c77">
 			</testcontainer>
 			<testcontainer
+			id="921ebc01-5706-4b47-9f0a-3f6256f72d89">
+			</testcontainer>
+			<testcontainer
+			id="929d86e0-ac82-42e7-b735-690af58b83e2">
+			</testcontainer>
+			<testcontainer
+			id="96dec050-9577-4c6d-89d0-b9e270d039da">
+			</testcontainer>
+			<testcontainer
 			id="a6ec0e22-30d2-4398-95fd-13a83a69b049">
+			</testcontainer>
+			<testcontainer
+			id="aa98c299-a465-4cfe-9178-1666bc207305">
 			</testcontainer>
 			<testcontainer
 			id="ad1ffc8e-61d9-4b1f-96f0-6c90d1f10304">
@@ -19697,10 +19776,199 @@
 			id="b89afea8-9a8a-450e-a00b-388c9e7ed69b">
 			</testcontainer>
 			<testcontainer
+			id="beed3085-c472-4fbe-8362-86969b7274b4">
+			</testcontainer>
+			<testcontainer
+			id="c74aa803-7496-4fab-abf1-8f3ad9bad07e">
+			</testcontainer>
+			<testcontainer
+			id="d1e1b6ca-8631-4b3c-964e-e43a42d5e39e">
+			</testcontainer>
+			<testcontainer
+			id="d394d76c-744e-4cd6-bb9f-720ad0e1836d">
+			</testcontainer>
+			<testcontainer
 			id="d3cb208e-ea2c-478e-b20a-d1904bcbb384">
 			</testcontainer>
 			<testcontainer
-			id="f3c09186-1f94-494a-9267-2d7afdc9ed17">
+			id="d80dd88f-feb2-4892-909a-8fc75f44422e">
+			</testcontainer>
+			<testcontainer
+			id="d9cd6a38-4ac5-4465-8645-9f747f777772">
+			</testcontainer>
+			<testcontainer
+			id="da6241c5-3ef9-46a7-8fd2-897cf8536d06">
+			</testcontainer>
+			<testcontainer
+			id="e23e28f8-97c4-41ea-8958-41c94e11148a">
+			</testcontainer>
+			<testcontainer
+			id="e849f522-215d-4b59-aa35-f7788db87ecf">
+			</testcontainer>
+			<testcontainer
+			id="fa2e1886-a8c5-4322-b72a-9d83f86cf728">
+			</testcontainer>
+			<testcontainer
+			id="fbf638dd-c40f-4b32-9867-a0b6509ba41d">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="Endosos_AP">
+			<testcontainer
+			id="0043f2e8-bdfb-4515-8ff0-293d8a7a21c7">
+			</testcontainer>
+			<testcontainer
+			id="50b8e93f-be87-4c4e-b6dd-4ee9dbe6fa3e">
+			</testcontainer>
+			<testcontainer
+			id="9e48903c-5212-4e88-a4ca-ff8365238979">
+			</testcontainer>
+			<testcontainer
+			id="ad1ffc8e-61d9-4b1f-96f0-6c90d1f10304">
+			</testcontainer>
+			<testcontainer
+			id="b5a182f9-e27a-4905-a719-5d88431f9bf9">
+			</testcontainer>
+			<testcontainer
+			id="bf1d1823-428d-4d43-a6d6-3d39c43afeb8">
+			</testcontainer>
+			<testcontainer
+			id="cf01deac-6fb6-4f27-a467-cc771b7f5288">
+			</testcontainer>
+			<testcontainer
+			id="d7529aba-621d-4f5e-a2ce-7bd89f131804">
+			</testcontainer>
+			<testcontainer
+			id="d9cc733c-1a6a-4fb8-9650-c826019a8bf9">
+			</testcontainer>
+			<testcontainer
+			id="e44be80d-c5e1-49b5-a0f8-693efd4ec968">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="Endosos_Hogar">
+			<testcontainer
+			id="0043f2e8-bdfb-4515-8ff0-293d8a7a21c7">
+			</testcontainer>
+			<testcontainer
+			id="16ed9f9e-075d-4d6a-a058-9d5a32750ae0">
+			</testcontainer>
+			<testcontainer
+			id="24a86737-98c1-4915-941d-a2f85e7fc006">
+			</testcontainer>
+			<testcontainer
+			id="3f3f21e6-a3a6-49a0-8e0e-34d2436d54fe">
+			</testcontainer>
+			<testcontainer
+			id="54ede319-0666-4f70-80c2-3ecae88f8848">
+			</testcontainer>
+			<testcontainer
+			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b">
+			</testcontainer>
+			<testcontainer
+			id="6df5c432-f7cd-4d67-8679-7879894d8b8f">
+			</testcontainer>
+			<testcontainer
+			id="7d2af1e1-d7a8-4ceb-bb02-4e19adff58d1">
+			</testcontainer>
+			<testcontainer
+			id="9c277ea4-edc8-4474-a8d8-8edc1e87daea">
+			</testcontainer>
+			<testcontainer
+			id="9e48903c-5212-4e88-a4ca-ff8365238979">
+			</testcontainer>
+			<testcontainer
+			id="a5e75163-6f17-4203-8bc4-43d7339131d7">
+			</testcontainer>
+			<testcontainer
+			id="ad1ffc8e-61d9-4b1f-96f0-6c90d1f10304">
+			</testcontainer>
+			<testcontainer
+			id="b5a182f9-e27a-4905-a719-5d88431f9bf9">
+			</testcontainer>
+			<testcontainer
+			id="beed3085-c472-4fbe-8362-86969b7274b4">
+			</testcontainer>
+			<testcontainer
+			id="bf1d1823-428d-4d43-a6d6-3d39c43afeb8">
+			</testcontainer>
+			<testcontainer
+			id="cf01deac-6fb6-4f27-a467-cc771b7f5288">
+			</testcontainer>
+			<testcontainer
+			id="d7529aba-621d-4f5e-a2ce-7bd89f131804">
+			</testcontainer>
+			<testcontainer
+			id="d9cc733c-1a6a-4fb8-9650-c826019a8bf9">
+			</testcontainer>
+			<testcontainer
+			id="e44be80d-c5e1-49b5-a0f8-693efd4ec968">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="Endosos_Motor">
+			<testcontainer
+			id="0043f2e8-bdfb-4515-8ff0-293d8a7a21c7">
+			</testcontainer>
+			<testcontainer
+			id="0044defc-5720-494b-a920-de7f1cbaa222">
+			</testcontainer>
+			<testcontainer
+			id="09eae7b8-f297-419e-8e3b-7405bb4d2932">
+			</testcontainer>
+			<testcontainer
+			id="0d1e98b7-b224-42a9-b3ec-19cf54719d32">
+			</testcontainer>
+			<testcontainer
+			id="2bedf687-42b0-451f-9004-a7a55eec5597">
+			</testcontainer>
+			<testcontainer
+			id="2c0458ce-479a-4a4a-8dab-1ffa26cd5af3">
+			</testcontainer>
+			<testcontainer
+			id="515a0862-e70a-4fc0-964b-b7066992bb72">
+			</testcontainer>
+			<testcontainer
+			id="9e48903c-5212-4e88-a4ca-ff8365238979">
+			</testcontainer>
+			<testcontainer
+			id="ad1ffc8e-61d9-4b1f-96f0-6c90d1f10304">
+			</testcontainer>
+			<testcontainer
+			id="b5a182f9-e27a-4905-a719-5d88431f9bf9">
+			</testcontainer>
+			<testcontainer
+			id="b93021e0-4a96-46b5-8cf9-7be7c2d160f5">
+			</testcontainer>
+			<testcontainer
+			id="b9464099-e428-44f8-a920-b24710053b44">
+			</testcontainer>
+			<testcontainer
+			id="bf1d1823-428d-4d43-a6d6-3d39c43afeb8">
+			</testcontainer>
+			<testcontainer
+			id="bf9c5524-36d4-474d-9ef3-013d9fab4fea">
+			</testcontainer>
+			<testcontainer
+			id="cc2f17bb-daf3-49ce-ae33-81e3837b25e5">
+			</testcontainer>
+			<testcontainer
+			id="cf01deac-6fb6-4f27-a467-cc771b7f5288">
+			</testcontainer>
+			<testcontainer
+			id="d7529aba-621d-4f5e-a2ce-7bd89f131804">
+			</testcontainer>
+			<testcontainer
+			id="d9cc733c-1a6a-4fb8-9650-c826019a8bf9">
+			</testcontainer>
+			<testcontainer
+			id="e44be80d-c5e1-49b5-a0f8-693efd4ec968">
+			</testcontainer>
+			<testcontainer
+			id="ed7c0c9a-5ac8-44d9-bc70-3eade9334521">
+			</testcontainer>
+			<testcontainer
+			id="f517e8c6-0a0b-4674-8f8b-2dc6e1b520aa">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

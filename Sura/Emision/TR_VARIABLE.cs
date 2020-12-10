@@ -42,7 +42,7 @@ namespace Sura.Emision
         public TR_VARIABLE()
         {
             Franquicia = "$ 10.000";
-            FranquiciaVariable = "2 %";
+            FranquiciaVariable = "3 %";
         }
 
         /// <summary>
