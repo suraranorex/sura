@@ -3716,7 +3716,7 @@ name="SuraRepository">
 					name="txt_DetalleAsegurados"
 					refimgid="316b6432-5268-478a-9b7e-b5329594cd5f"
 					searchtimeout="30000ms">
-						/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table/tbody/tr[2]/td/div/div[2]/?/?/table//div/table/tbody/tr[1]/td/div/div/div//span[@innertext='Detalle de Asegurados']
+						/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Detalle de Asegurados']
 					</item>
 					<item
 					addcaps="unknown,webelement,spantag"
@@ -5989,7 +5989,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 		<var
 		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
 		name="Ambiente">
-			ssurgwsoadev4.opc.oracleoutsourcing.com
+			i-preproducciongestion.segurossura.com.ar
 		</var>
 		<var
 		id="fbc3c0ec-d362-401d-acc7-5e95815b84a3"

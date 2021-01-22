@@ -132,3 +132,5 @@ C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Ran
 C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\obj\x86\Debug\Sura.csprojResolveAssemblyReference.cache
 C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\obj\x86\Debug\Sura.exe
 C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\obj\x86\Debug\Sura.pdb
+C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Emision Motor.xlsx
+C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Emision Motor_Answer.xlsx

@@ -391,7 +391,7 @@ namespace Sura
             set { _Anio = value; }
         }
 
-        string _Ambiente = "ssurgwsoadev4.opc.oracleoutsourcing.com";
+        string _Ambiente = "i-preproducciongestion.segurossura.com.ar";
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -16272,7 +16272,7 @@ namespace Sura
                 _txt_buscargruposInfo = new RepoItemInfo(this, "txt_BuscarGrupos", ".//tbody[#'GroupSearchPopup-tbody']//span[@innertext~'Buscar grupos']", 30000, null, "caa7eb5d-b820-4793-9c80-e8526f034471");
                 _txt_informaciondepolizaInfo = new RepoItemInfo(this, "txt_InformacionDePoliza", ".//div/table//span[@innertext='Información de póliza']", 30000, null, "4f00e7b3-cde0-48e2-a451-3c47893771e4");
                 _txt_coberturasInfo = new RepoItemInfo(this, "txt_Coberturas", ".//span[@innertext='Coberturas']", 30000, null, "05f75464-e9b2-421f-934d-55f45f1d5116");
-                _txt_detalleaseguradosInfo = new RepoItemInfo(this, "txt_DetalleAsegurados", ".//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table/tbody/tr[2]/td/div/div[2]/?/?/table//div/table/tbody/tr[1]/td/div/div/div//span[@innertext='Detalle de Asegurados']", 30000, null, "7f49f425-1074-4c10-b6f9-4561a729b1be");
+                _txt_detalleaseguradosInfo = new RepoItemInfo(this, "txt_DetalleAsegurados", ".//tbody[#'centerPanel-tbody']//span[@innertext='Detalle de Asegurados']", 30000, null, "7f49f425-1074-4c10-b6f9-4561a729b1be");
                 _txt_vehiculosInfo = new RepoItemInfo(this, "txt_Vehiculos", ".//tbody//span[@innertext='Vehículos' and @visible='true']", 30000, null, "9e5660a1-d808-428c-a99e-cbc3af1b83ce");
                 _txt_coberturas2Info = new RepoItemInfo(this, "txt_Coberturas2", ".//tbody[#'centerPanel-tbody']//span[@innertext='Coberturas']", 30000, null, "4ebdfa4e-2f97-4c83-95fa-833ccfe1cb73");
                 _title_informaciondepolizaInfo = new RepoItemInfo(this, "title_InformacionDePoliza", ".//tbody[#'centerPanel-tbody']//span[@innertext='Información de póliza']", 30000, null, "09bc043f-09f3-4fd5-81de-10a6602bfebc");

@@ -29,7 +29,6 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testcase
-			datarangeactive="True"
 			datasource="Endoso_ABM_Conductor_Propietario"
 			errorbehavior="ContinueNextIteration"
 			id="0044defc-5720-494b-a920-de7f1cbaa222"
@@ -63,7 +62,6 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<smartfoldernode
-			datasource="TarjetaDeb"
 			id="00c7dff9-ae9e-4520-82f3-a7c04cfe7c3e"
 			name="Debito_M1">
 				<conditiongroup
@@ -645,7 +643,6 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datarangeactive="True"
 			datasource="EndosoM_CartaDanios"
 			errorbehavior="ContinueNextIteration"
 			id="09eae7b8-f297-419e-8e3b-7405bb4d2932"
@@ -670,12 +667,6 @@
 					datasourceid="cd71ff64-71e1-4cf5-ad00-929d2a0a8832"
 					variableid="3c2b5907-735e-42e1-87ab-42197132c013"
 					variablename="TIPOPOLIZA">
-					</var>
-					<var
-					dataname="CodigoAgente"
-					datasourceid="cd71ff64-71e1-4cf5-ad00-929d2a0a8832"
-					variableid="6f7f07ec-644a-478e-b7a7-f7ea973f5459"
-					variablename="CodigoAgente">
 					</var>
 				</databinding>
 			</testmodule>
@@ -1284,24 +1275,6 @@
 					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
-					</var>
-					<var
-					dataname="TipoTarjeta"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="c0724723-8849-4422-bc10-5f4ba5e835c3"
-					variablename="TipoTarjeta">
-					</var>
-					<var
-					dataname="NumTarjetaCred"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="5dea6bb3-16ee-43e6-8622-1f2cfa38a7f9"
-					variablename="NumTarjetaCred">
-					</var>
-					<var
-					dataname="FechaVencimiento"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="c8f191f9-2bc5-42bd-a1a3-eff8a4975324"
-					variablename="FechaVencimiento">
 					</var>
 				</databinding>
 			</testmodule>
@@ -2156,8 +2129,8 @@
 			datarangeactive="True"
 			datasource="Endoso_M_ABM_Ajuste"
 			id="2bedf687-42b0-451f-9004-a7a55eec5597"
-			maxrange="0"
-			minrange="0"
+			maxrange="1"
+			minrange="1"
 			name="Endoso_Motor_ABM_Ajuste">
 			</testcase>
 			<testcase
@@ -2319,18 +2292,6 @@
 					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
-					</var>
-					<var
-					dataname="CodigoAgente"
-					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
-					variableid="82173b09-8bbf-4e2e-8375-40886c9c86be"
-					variablename="CodigoAgente">
-					</var>
-					<var
-					dataname="NUM_GRUPO"
-					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
-					variableid="83067c29-0671-4e04-b81a-f3a234251e38"
-					variablename="NUM_GRUPO">
 					</var>
 				</databinding>
 			</testmodule>
@@ -3167,13 +3128,12 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datarangeactive="True"
-			datarangeset="2,3"
+			datarangeset="1,2"
 			datasource="EmisionHogar_NoEnlatada"
 			errorbehavior="ContinueNextIteration"
 			id="41f8d188-2b54-4387-9915-4a72a890c58c"
-			maxrange="2"
-			minrange="1"
+			maxrange="1"
+			minrange="0"
 			name="Emisión_Hogar_NoEnlatado">
 			</testcase>
 			<testmodule
@@ -3500,11 +3460,12 @@
 				</databinding>
 			</testmodule>
 			<testcase
+			datarangeset="1,2"
 			datasource="EmisionAP_NoEnlatada"
 			errorbehavior="ContinueNextIteration"
 			id="471a79c3-2161-46f8-ba52-53c51e7848aa"
-			maxrange="47"
-			minrange="44"
+			maxrange="1"
+			minrange="0"
 			name="Emisión_AP_NoEnlatada">
 			</testcase>
 			<testmodule
@@ -3885,24 +3846,6 @@
 			type="Recording">
 				<databinding>
 					<var
-					dataname="FechaVencimiento"
-					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
-					variableid="c8f191f9-2bc5-42bd-a1a3-eff8a4975324"
-					variablename="FechaVencimiento">
-					</var>
-					<var
-					dataname="NumTarjetaCred"
-					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
-					variableid="5dea6bb3-16ee-43e6-8622-1f2cfa38a7f9"
-					variablename="NumTarjetaCred">
-					</var>
-					<var
-					dataname="TipoTarjeta"
-					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
-					variableid="c0724723-8849-4422-bc10-5f4ba5e835c3"
-					variablename="TipoTarjeta">
-					</var>
-					<var
 					dataname="Ambiente"
 					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
@@ -4026,18 +3969,6 @@
 			ref="da4f18e4-bc4d-40a1-bb93-bd5557a22c0c"
 			type="Recording">
 				<databinding>
-					<var
-					dataname="NumCBU"
-					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
-					variableid="ef1b9e75-c41d-46f8-b2c6-d6c6d83934f7"
-					variablename="NumCBU">
-					</var>
-					<var
-					dataname="ConductoPago"
-					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
-					variableid="75d02530-51e2-41af-a9a1-c326ff09b999"
-					variablename="ConductoPago">
-					</var>
 					<var
 					dataname="Ambiente"
 					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
@@ -4635,18 +4566,6 @@
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
-					<var
-					dataname="CodigoAgente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="82173b09-8bbf-4e2e-8375-40886c9c86be"
-					variablename="CodigoAgente">
-					</var>
-					<var
-					dataname="NUM_GRUPO"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="83067c29-0671-4e04-b81a-f3a234251e38"
-					variablename="NUM_GRUPO">
-					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
@@ -4737,18 +4656,6 @@
 					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
-					</var>
-					<var
-					dataname="ConductoPago"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="75d02530-51e2-41af-a9a1-c326ff09b999"
-					variablename="ConductoPago">
-					</var>
-					<var
-					dataname="NumCBU"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="ef1b9e75-c41d-46f8-b2c6-d6c6d83934f7"
-					variablename="NumCBU">
 					</var>
 				</databinding>
 			</testmodule>
@@ -5525,12 +5432,11 @@
 			</teardown>
 			<testcase
 			datarangeactive="True"
-			datarangeset="1-4,14,15,25,26,36,37,47-49"
 			datasource="EmisionMotor"
 			errorbehavior="ContinueNextIteration"
 			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b"
-			maxrange="48"
-			minrange="0"
+			maxrange="43"
+			minrange="2"
 			name="Emisión_Motor">
 			</testcase>
 			<testmodule
@@ -6473,24 +6379,6 @@
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
-					<var
-					dataname="TipoTarjeta"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="c0724723-8849-4422-bc10-5f4ba5e835c3"
-					variablename="TipoTarjeta">
-					</var>
-					<var
-					dataname="NumTarjetaCred"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="5dea6bb3-16ee-43e6-8622-1f2cfa38a7f9"
-					variablename="NumTarjetaCred">
-					</var>
-					<var
-					dataname="FechaVencimiento"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="c8f191f9-2bc5-42bd-a1a3-eff8a4975324"
-					variablename="FechaVencimiento">
-					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
@@ -7360,11 +7248,12 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testcase
+			datarangeactive="True"
 			datasource="EmisionMotor_Answer"
 			errorbehavior="ContinueNextIteration"
 			id="8f91e82d-ede3-4907-8e6d-512158b39c77"
-			maxrange="14"
-			minrange="6"
+			maxrange="4"
+			minrange="1"
 			name="Emison_Motor_Answer">
 			</testcase>
 			<testmodule
@@ -8166,18 +8055,6 @@
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
-					<var
-					dataname="ConductoPago"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="75d02530-51e2-41af-a9a1-c326ff09b999"
-					variablename="ConductoPago">
-					</var>
-					<var
-					dataname="NumCBU"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="ef1b9e75-c41d-46f8-b2c6-d6c6d83934f7"
-					variablename="NumCBU">
-					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
@@ -8205,18 +8082,6 @@
 					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
-					</var>
-					<var
-					dataname="ConductoPago"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="75d02530-51e2-41af-a9a1-c326ff09b999"
-					variablename="ConductoPago">
-					</var>
-					<var
-					dataname="NumCBU"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="ef1b9e75-c41d-46f8-b2c6-d6c6d83934f7"
-					variablename="NumCBU">
 					</var>
 				</databinding>
 			</testmodule>
@@ -9004,24 +8869,6 @@
 			type="Recording">
 				<databinding>
 					<var
-					dataname="TipoTarjeta"
-					datasourceid="9bd508f3-8c74-4fa5-b8ee-06df720b1a27"
-					variableid="c0724723-8849-4422-bc10-5f4ba5e835c3"
-					variablename="TipoTarjeta">
-					</var>
-					<var
-					dataname="NumTarjetaCred"
-					datasourceid="9bd508f3-8c74-4fa5-b8ee-06df720b1a27"
-					variableid="5dea6bb3-16ee-43e6-8622-1f2cfa38a7f9"
-					variablename="NumTarjetaCred">
-					</var>
-					<var
-					dataname="FechaVencimiento"
-					datasourceid="9bd508f3-8c74-4fa5-b8ee-06df720b1a27"
-					variableid="c8f191f9-2bc5-42bd-a1a3-eff8a4975324"
-					variablename="FechaVencimiento">
-					</var>
-					<var
 					dataname="Ambiente"
 					datasourceid="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
@@ -9742,8 +9589,8 @@
 			datasource="Endoso_Datos"
 			errorbehavior="ContinueNextIteration"
 			id="b93021e0-4a96-46b5-8cf9-7be7c2d160f5"
-			maxrange="3"
-			minrange="3"
+			maxrange="0"
+			minrange="0"
 			name="Endoso_ModificacionDatos">
 				<description>
 					<![CDATA[<p>Este caso permite modificar:</p><p>- Póliza digital</p><p>- Número de motor</p><p>- Número de chasis</p><p>Para el primero, en caso de que el cambio sea de No a Sí, se debe ingresar el mail. Para los dos últimos, en el DataSource se debe colocar el dato del campo a modificar y en el otro campo "No". </p>]]>
@@ -9994,6 +9841,12 @@
 					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
 					variableid="6323a735-4f93-4bf5-9d6b-bc1d48829b93"
 					variablename="Campania">
+					</var>
+					<var
+					dataname="TipoPlazo"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="2376a5f1-7f55-4b42-9551-fb734e478122"
+					variablename="TipoPlazo">
 					</var>
 				</databinding>
 			</testmodule>
@@ -10737,18 +10590,6 @@
 			type="Recording">
 				<databinding>
 					<var
-					dataname="ConductoPago"
-					datasourceid="0e8b139d-f9d8-4e11-aa3e-7755b02c7c33"
-					variableid="75d02530-51e2-41af-a9a1-c326ff09b999"
-					variablename="ConductoPago">
-					</var>
-					<var
-					dataname="NumCBU"
-					datasourceid="0e8b139d-f9d8-4e11-aa3e-7755b02c7c33"
-					variableid="ef1b9e75-c41d-46f8-b2c6-d6c6d83934f7"
-					variablename="NumCBU">
-					</var>
-					<var
 					dataname="Ambiente"
 					datasourceid="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
@@ -10946,12 +10787,6 @@
 					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
-					</var>
-					<var
-					dataname="CodigoAgente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="02e63599-2bb9-4f78-9e89-846e27600de3"
-					variablename="CodigoAgente">
 					</var>
 				</databinding>
 			</testmodule>
@@ -11870,7 +11705,6 @@
 			name="Endoso_PlanPago">
 			</testcase>
 			<smartfoldernode
-			datasource="TarjetaCred"
 			id="d9cd6a38-4ac5-4465-8645-9f747f777772"
 			name="Credito_M1">
 				<conditiongroup
@@ -12989,7 +12823,6 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datarangeactive="True"
 			datasource="EmisionMotor_NuevasCoberturas"
 			errorbehavior="ContinueNextIteration"
 			id="ef71c345-1687-406b-808c-45247f62606c"
@@ -13794,24 +13627,6 @@
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
-					<var
-					dataname="TipoTarjeta"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="c0724723-8849-4422-bc10-5f4ba5e835c3"
-					variablename="TipoTarjeta">
-					</var>
-					<var
-					dataname="NumTarjetaCred"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="5dea6bb3-16ee-43e6-8622-1f2cfa38a7f9"
-					variablename="NumTarjetaCred">
-					</var>
-					<var
-					dataname="FechaVencimiento"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="c8f191f9-2bc5-42bd-a1a3-eff8a4975324"
-					variablename="FechaVencimiento">
-					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
@@ -13979,12 +13794,6 @@
 					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
 					variableid="3c2b5907-735e-42e1-87ab-42197132c013"
 					variablename="TIPOPOLIZA">
-					</var>
-					<var
-					dataname="CodigoAgente"
-					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
-					variableid="6f7f07ec-644a-478e-b7a7-f7ea973f5459"
-					variablename="CodigoAgente">
 					</var>
 				</databinding>
 			</testmodule>
@@ -17420,7 +17229,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - CoberturasHogar.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - CoberturasHogar.xlsx"
 		id="aced9d59-1e51-46d0-9b3d-a4d9976c66fe"
 		includefile="Unchecked"
 		lastknownrowcount="1"
@@ -17635,7 +17444,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Emision AP Enlatada.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Emision AP Enlatada.xlsx"
 		id="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
 		includefile="Unchecked"
 		lastknownrowcount="5"
@@ -17681,21 +17490,6 @@
 					Plan
 				</column>
 				<column>
-					TipoTarjeta
-				</column>
-				<column>
-					NumTarjetaCred
-				</column>
-				<column>
-					FechaVencimiento
-				</column>
-				<column>
-					ConductoPago
-				</column>
-				<column>
-					NumCBU
-				</column>
-				<column>
 					TipoDocumento
 				</column>
 				<column>
@@ -17706,13 +17500,13 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Emision AP No Enlatada.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Emision AP No Enlatada.xlsx"
 		id="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
 		includefile="Unchecked"
 		lastknownrowcount="2"
 		name="EmisionAP_NoEnlatada"
 		type="Ranorex.Core.Data.ExcelDataConnector"
-		worksheetname="DatosAP"
+		worksheetname="Sheet1"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
 				<column>
@@ -17741,21 +17535,6 @@
 				</column>
 				<column>
 					CantCuotas
-				</column>
-				<column>
-					TipoTarjeta
-				</column>
-				<column>
-					NumTarjetaCred
-				</column>
-				<column>
-					FechaVencimiento
-				</column>
-				<column>
-					ConductoPago
-				</column>
-				<column>
-					NumCBU
 				</column>
 				<column>
 					Ambito
@@ -17913,7 +17692,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Emision Hogar Enlatada.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Emision Hogar Enlatada.xlsx"
 		id="03cc04f0-efc2-402c-81d5-cad953c654d7"
 		includefile="Unchecked"
 		lastknownrowcount="6"
@@ -17978,13 +17757,13 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Emision Hogar No Enlatada.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Emision Hogar No Enlatada.xlsx"
 		id="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
 		includefile="Unchecked"
-		lastknownrowcount="3"
+		lastknownrowcount="2"
 		name="EmisionHogar_NoEnlatada"
 		type="Ranorex.Core.Data.ExcelDataConnector"
-		worksheetname="DatosHogar"
+		worksheetname="Sheet1"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
 				<column>
@@ -18003,12 +17782,6 @@
 					NroCuenta
 				</column>
 				<column>
-					CodigoAgente
-				</column>
-				<column>
-					NUM_GRUPO
-				</column>
-				<column>
 					TIPOPOLIZA
 				</column>
 				<column>
@@ -18019,27 +17792,6 @@
 				</column>
 				<column>
 					CantCuotas
-				</column>
-				<column>
-					Column12
-				</column>
-				<column>
-					Column13
-				</column>
-				<column>
-					TipoTarjeta
-				</column>
-				<column>
-					NumTarjetaCred
-				</column>
-				<column>
-					FechaVencimiento
-				</column>
-				<column>
-					ConductoPago
-				</column>
-				<column>
-					NumCBU
 				</column>
 				<column>
 					Provincia
@@ -18076,18 +17828,15 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Emision Motor.xlsx"
+		filename="DataSource - Emision Motor.xlsx"
 		id="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-		includefile="Unchecked"
-		lastknownrowcount="90"
+		includefile="Checked"
+		lastknownrowcount="44"
 		name="EmisionMotor"
 		type="Ranorex.Core.Data.ExcelDataConnector"
-		worksheetname="DatosMotor"
+		worksheetname="Sheet1"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
-				<column>
-					ID
-				</column>
 				<column>
 					Ambiente
 				</column>
@@ -18171,10 +17920,10 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Emision Motor_Answer.xlsx"
+		filename="DataSource - Emision Motor_Answer.xlsx"
 		id="572b7b41-9d12-444f-9775-c358c54bee8c"
-		includefile="Unchecked"
-		lastknownrowcount="1"
+		includefile="Checked"
+		lastknownrowcount="5"
 		name="EmisionMotor_Answer"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -18194,12 +17943,6 @@
 				</column>
 				<column>
 					NroCuenta
-				</column>
-				<column>
-					CodigoAgente
-				</column>
-				<column>
-					NUM_GRUPO
 				</column>
 				<column>
 					TIPOPOLIZA
@@ -18223,24 +17966,6 @@
 					CAMPANIA
 				</column>
 				<column>
-					TipoTarjeta
-				</column>
-				<column>
-					NumTarjetaCred
-				</column>
-				<column>
-					FechaVencimiento
-				</column>
-				<column>
-					ConductoPago
-				</column>
-				<column>
-					NumCBU
-				</column>
-				<column>
-					FechaInicio
-				</column>
-				<column>
 					Anio
 				</column>
 				<column>
@@ -18272,18 +17997,15 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Emision Motor - Inspeccion.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Emision Motor - Inspeccion.xlsx"
 		id="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
 		includefile="Unchecked"
-		lastknownrowcount="45"
+		lastknownrowcount="5"
 		name="EmisionMotor_Inspeccion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
-				<column>
-					ID
-				</column>
 				<column>
 					Ambiente
 				</column>
@@ -18315,13 +18037,16 @@
 					TipoPlazo
 				</column>
 				<column>
+					FechaInicio
+				</column>
+				<column>
 					MetodoDePago
 				</column>
 				<column>
 					OPCION_PAGOCUOTAS
 				</column>
 				<column>
-					FechaInicio
+					CantCuotas
 				</column>
 				<column>
 					Anio
@@ -18331,9 +18056,6 @@
 				</column>
 				<column>
 					Modelo
-				</column>
-				<column>
-					CodInfoAuto
 				</column>
 				<column>
 					SumaAsegurada
@@ -18361,10 +18083,10 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Emision Motor NuevasCoberturas.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Emision Motor NuevasCoberturas.xlsx"
 		id="cd71ff64-71e1-4cf5-ad00-929d2a0a8832"
 		includefile="Unchecked"
-		lastknownrowcount="4"
+		lastknownrowcount="3"
 		name="EmisionMotor_NuevasCoberturas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -18384,12 +18106,6 @@
 				</column>
 				<column>
 					NroCuenta
-				</column>
-				<column>
-					CodigoAgente
-				</column>
-				<column>
-					NUM_GRUPO
 				</column>
 				<column>
 					TIPOPOLIZA
@@ -18465,7 +18181,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Emision Motor Accesorio Movilidad.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Emision Motor Accesorio Movilidad.xlsx"
 		id="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
 		includefile="Unchecked"
 		lastknownrowcount="3"
@@ -18488,12 +18204,6 @@
 				</column>
 				<column>
 					NroCuenta
-				</column>
-				<column>
-					CodigoAgente
-				</column>
-				<column>
-					NUM_GRUPO
 				</column>
 				<column>
 					TIPOPOLIZA
@@ -18900,7 +18610,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\Endoso_ABM_Conductor_Propietario.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\Endoso_ABM_Conductor_Propietario.xlsx"
 		id="67532d8f-891a-47ca-b6f9-d5cc605068f6"
 		includefile="Unchecked"
 		lastknownrowcount="1"
@@ -18941,7 +18651,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\Endoso_ABMAsistencia.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\Endoso_ABMAsistencia.xlsx"
 		id="e0e8b194-bf7b-4981-9d6c-5b3aee32c591"
 		includefile="Unchecked"
 		lastknownrowcount="1"
@@ -18976,7 +18686,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - Cambio Conducto de Pago.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Endoso - Cambio Conducto de Pago.xlsx"
 		id="818c7ee4-63e3-42ce-8154-1edc880a381a"
 		includefile="Unchecked"
 		lastknownrowcount="4"
@@ -19011,7 +18721,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - Modificacion de Datos.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Endoso - Modificacion de Datos.xlsx"
 		id="cb58867e-8b51-4b67-970f-23ca6b6f925c"
 		includefile="Unchecked"
 		lastknownrowcount="3"
@@ -19137,10 +18847,10 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - ABM_Ajuste.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Endoso - ABM_Ajuste.xlsx"
 		id="c87f87a2-404a-441d-9017-c16f879ed46c"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="2"
 		name="Endoso_M_ABM_Ajuste"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -19172,7 +18882,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - Adicional.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Endoso - Adicional.xlsx"
 		id="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
 		includefile="Unchecked"
 		lastknownrowcount="1"
@@ -19204,7 +18914,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\Endoso_Modificacion_De_Coberturas.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\Endoso_Modificacion_De_Coberturas.xlsx"
 		id="866ad346-f76c-434d-b308-7f2ff0c1e4c7"
 		includefile="Unchecked"
 		lastknownrowcount="6"
@@ -19242,7 +18952,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - Devolucion.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Endoso - Devolucion.xlsx"
 		id="ad241491-a58d-4c38-9742-a890887c218f"
 		includefile="Unchecked"
 		lastknownrowcount="1"
@@ -19274,10 +18984,10 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - Cambio Plan de Pagos.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Endoso - Cambio Plan de Pagos.xlsx"
 		id="e4385810-4193-4f35-aa0d-58d151e3b945"
 		includefile="Unchecked"
-		lastknownrowcount="1"
+		lastknownrowcount="2"
 		name="Endoso_PlanPagos"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -19312,7 +19022,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - Modificacion de Suma Asegurada.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Endoso - Modificacion de Suma Asegurada.xlsx"
 		id="fdd643d7-b2e7-4f9a-aba1-d6374544a108"
 		includefile="Unchecked"
 		lastknownrowcount="6"
@@ -19459,10 +19169,10 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - Carta de Danios.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - Endoso - Carta de Danios.xlsx"
 		id="2d13861a-4919-438c-8ade-ce4bcf1cc753"
 		includefile="Unchecked"
-		lastknownrowcount="3"
+		lastknownrowcount="1"
 		name="EndosoM_CartaDanios"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -19542,7 +19252,7 @@
 			</file>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - TarjetaCred.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - TarjetaCred.xlsx"
 		id="9bd508f3-8c74-4fa5-b8ee-06df720b1a27"
 		includefile="Unchecked"
 		lastknownrowcount="3"
@@ -19565,7 +19275,7 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - TarjetaDeb.xlsx"
+		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - TarjetaDeb.xlsx"
 		id="0e8b139d-f9d8-4e11-aa3e-7755b02c7c33"
 		includefile="Unchecked"
 		lastknownrowcount="1"
@@ -19689,6 +19399,12 @@
 			id="16ed9f9e-075d-4d6a-a058-9d5a32750ae0">
 			</testcontainer>
 			<testcontainer
+			id="1763fda0-9142-451e-922c-07d0fbb76199">
+			</testcontainer>
+			<testcontainer
+			id="1c0c987c-120e-4c81-9877-d784e1b38787">
+			</testcontainer>
+			<testcontainer
 			id="1ceb8aa2-4f3e-46b0-b627-15ae80920378">
 			</testcontainer>
 			<testcontainer
@@ -19701,6 +19417,9 @@
 			id="24a86737-98c1-4915-941d-a2f85e7fc006">
 			</testcontainer>
 			<testcontainer
+			id="3989b721-914c-413d-a0b3-1f3e3095f123">
+			</testcontainer>
+			<testcontainer
 			id="3ee5bb79-c291-4d4b-b377-6e3cd9ca210a">
 			</testcontainer>
 			<testcontainer
@@ -19711,6 +19430,9 @@
 			</testcontainer>
 			<testcontainer
 			id="41f8d188-2b54-4387-9915-4a72a890c58c">
+			</testcontainer>
+			<testcontainer
+			id="45e8eab1-725d-442d-849a-adbd6f3a6024">
 			</testcontainer>
 			<testcontainer
 			id="471a79c3-2161-46f8-ba52-53c51e7848aa">
@@ -19731,10 +19453,22 @@
 			id="55fe0d59-4a2e-4421-a861-9259fda365df">
 			</testcontainer>
 			<testcontainer
+			id="5c81aebf-19ab-41ba-bedc-3f5dfc735065">
+			</testcontainer>
+			<testcontainer
 			id="6263d66f-9ee0-4e25-96df-a3b5d89084c3">
 			</testcontainer>
 			<testcontainer
+			id="65c526c9-f941-4e7a-b1d4-d18e84527149">
+			</testcontainer>
+			<testcontainer
 			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b">
+			</testcontainer>
+			<testcontainer
+			id="6d8919d7-4e56-4c75-91b5-ad61b240bbcb">
+			</testcontainer>
+			<testcontainer
+			id="76cbcbd7-d869-4841-83f0-224663ede966">
 			</testcontainer>
 			<testcontainer
 			id="7841aa8c-588c-4a62-b26e-bf70a86ce5f9">
@@ -19746,7 +19480,19 @@
 			id="8070d4f3-21b7-4e70-a323-9e89e3f0b076">
 			</testcontainer>
 			<testcontainer
+			id="84d72b14-a1d8-46d6-80f7-bd4456359525">
+			</testcontainer>
+			<testcontainer
+			id="88871168-89b4-46ac-bac3-d59c2a8f4ec5">
+			</testcontainer>
+			<testcontainer
 			id="8b652cc7-4ad6-4709-8e38-976b724f6259">
+			</testcontainer>
+			<testcontainer
+			id="8ca65d93-04ab-4102-bd5c-7c0b4863a538">
+			</testcontainer>
+			<testcontainer
+			id="8d8934d0-3869-4d84-af30-40b74e1473c6">
 			</testcontainer>
 			<testcontainer
 			id="8f91e82d-ede3-4907-8e6d-512158b39c77">
@@ -19788,6 +19534,9 @@
 			id="d3cb208e-ea2c-478e-b20a-d1904bcbb384">
 			</testcontainer>
 			<testcontainer
+			id="d5fb8d1f-5e48-4cc3-800e-c13e254ef027">
+			</testcontainer>
+			<testcontainer
 			id="d80dd88f-feb2-4892-909a-8fc75f44422e">
 			</testcontainer>
 			<testcontainer
@@ -19798,6 +19547,9 @@
 			</testcontainer>
 			<testcontainer
 			id="e23e28f8-97c4-41ea-8958-41c94e11148a">
+			</testcontainer>
+			<testcontainer
+			id="e5519f0b-2ee4-41c2-b57a-2f581be89cec">
 			</testcontainer>
 			<testcontainer
 			id="e849f522-215d-4b59-aa35-f7788db87ecf">
@@ -19944,9 +19696,6 @@
 			id="bf1d1823-428d-4d43-a6d6-3d39c43afeb8">
 			</testcontainer>
 			<testcontainer
-			id="bf9c5524-36d4-474d-9ef3-013d9fab4fea">
-			</testcontainer>
-			<testcontainer
 			id="cc2f17bb-daf3-49ce-ae33-81e3837b25e5">
 			</testcontainer>
 			<testcontainer
@@ -19966,6 +19715,117 @@
 			</testcontainer>
 			<testcontainer
 			id="f517e8c6-0a0b-4674-8f8b-2dc6e1b520aa">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="SmokeEmisiones">
+			<testcontainer
+			id="16ed9f9e-075d-4d6a-a058-9d5a32750ae0">
+			</testcontainer>
+			<testcontainer
+			id="1ceb8aa2-4f3e-46b0-b627-15ae80920378">
+			</testcontainer>
+			<testcontainer
+			id="1fc98506-d7c4-42b3-ad44-82cc6f15c3e1">
+			</testcontainer>
+			<testcontainer
+			id="1ff4a919-10dc-4f97-a4cd-5e4a0e40c32b">
+			</testcontainer>
+			<testcontainer
+			id="24a86737-98c1-4915-941d-a2f85e7fc006">
+			</testcontainer>
+			<testcontainer
+			id="3ee5bb79-c291-4d4b-b377-6e3cd9ca210a">
+			</testcontainer>
+			<testcontainer
+			id="3f062fb6-f996-41a6-b53c-00b55d407e81">
+			</testcontainer>
+			<testcontainer
+			id="3f3f21e6-a3a6-49a0-8e0e-34d2436d54fe">
+			</testcontainer>
+			<testcontainer
+			id="41f8d188-2b54-4387-9915-4a72a890c58c">
+			</testcontainer>
+			<testcontainer
+			id="471a79c3-2161-46f8-ba52-53c51e7848aa">
+			</testcontainer>
+			<testcontainer
+			id="475ad006-14a3-4bd5-a2e0-c3086b33dfdf">
+			</testcontainer>
+			<testcontainer
+			id="4a78ab7a-ce64-4386-af3e-4b58eafdda2f">
+			</testcontainer>
+			<testcontainer
+			id="54ede319-0666-4f70-80c2-3ecae88f8848">
+			</testcontainer>
+			<testcontainer
+			id="55fe0d59-4a2e-4421-a861-9259fda365df">
+			</testcontainer>
+			<testcontainer
+			id="6263d66f-9ee0-4e25-96df-a3b5d89084c3">
+			</testcontainer>
+			<testcontainer
+			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b">
+			</testcontainer>
+			<testcontainer
+			id="7841aa8c-588c-4a62-b26e-bf70a86ce5f9">
+			</testcontainer>
+			<testcontainer
+			id="7d2af1e1-d7a8-4ceb-bb02-4e19adff58d1">
+			</testcontainer>
+			<testcontainer
+			id="8070d4f3-21b7-4e70-a323-9e89e3f0b076">
+			</testcontainer>
+			<testcontainer
+			id="8b652cc7-4ad6-4709-8e38-976b724f6259">
+			</testcontainer>
+			<testcontainer
+			id="8f91e82d-ede3-4907-8e6d-512158b39c77">
+			</testcontainer>
+			<testcontainer
+			id="921ebc01-5706-4b47-9f0a-3f6256f72d89">
+			</testcontainer>
+			<testcontainer
+			id="96dec050-9577-4c6d-89d0-b9e270d039da">
+			</testcontainer>
+			<testcontainer
+			id="a6ec0e22-30d2-4398-95fd-13a83a69b049">
+			</testcontainer>
+			<testcontainer
+			id="aa98c299-a465-4cfe-9178-1666bc207305">
+			</testcontainer>
+			<testcontainer
+			id="ad1ffc8e-61d9-4b1f-96f0-6c90d1f10304">
+			</testcontainer>
+			<testcontainer
+			id="b89afea8-9a8a-450e-a00b-388c9e7ed69b">
+			</testcontainer>
+			<testcontainer
+			id="beed3085-c472-4fbe-8362-86969b7274b4">
+			</testcontainer>
+			<testcontainer
+			id="c74aa803-7496-4fab-abf1-8f3ad9bad07e">
+			</testcontainer>
+			<testcontainer
+			id="d394d76c-744e-4cd6-bb9f-720ad0e1836d">
+			</testcontainer>
+			<testcontainer
+			id="d3cb208e-ea2c-478e-b20a-d1904bcbb384">
+			</testcontainer>
+			<testcontainer
+			id="da6241c5-3ef9-46a7-8fd2-897cf8536d06">
+			</testcontainer>
+			<testcontainer
+			id="e23e28f8-97c4-41ea-8958-41c94e11148a">
+			</testcontainer>
+			<testcontainer
+			id="e849f522-215d-4b59-aa35-f7788db87ecf">
+			</testcontainer>
+			<testcontainer
+			id="fa2e1886-a8c5-4322-b72a-9d83f86cf728">
+			</testcontainer>
+			<testcontainer
+			id="fbf638dd-c40f-4b32-9867-a0b6509ba41d">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

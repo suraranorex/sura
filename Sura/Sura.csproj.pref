@@ -1,17 +1,12 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="PC.rxtst" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="PC.rxtst" />
-    <Element value="Emision\BuscarGrupos.rxrec" />
-    <Element value="Emision\Comisiones.UserCode.cs" />
-    <Element value="Emision\Comisiones.rxrec" />
-    <Element value="Emision\EmisionPoliza.UserCode.cs" />
     <Element value="BC.rxtst" />
-    <Element value="Logout.rxrec" />
-    <Element value="BC\Pago.rxrec" />
+    <Element value="Menu\MenuSuperior_CuentaBC.rxrec" />
+    <Element value="Emision\EmisionPoliza.rxrec" />
+    <Element value="Emision\Personas_Enlatada.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
@@ -19,9 +14,9 @@
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+      <Element value="Sura.Emision.EmisionPoliza.guardarNumPoliza()" />
       <Element value="Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Validacion()" />
       <Element value="Sura.ValidacionMarcaModelo.ValidacionStatus.GrabaExcel()" />
-      <Element value="Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Validacion()" />
       <Element value="Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Validate_Copy_of_Modelo(RepoItemInfo divtagInfo)" />
       <Element value="Sura.ValidacionMarcaModelo.ValidaMarcaModelo_Codigo.Validate_Copy_of_Marca(RepoItemInfo divtagInfo)" />
       <Element value="Sura.Emision.EmisionPoliza.AprobacionBloqueo()" />
