@@ -3055,6 +3055,25 @@ name="SuraRepository">
 							</item>
 						</folder>
 					</folder>
+					<item
+					addcaps="unknown,webelement,spantag"
+					capname="spantag"
+					id="0180a955-b600-4f58-bd2a-ffffa7bdeb18"
+					name="lbl_Descuento"
+					refimgid="87e40dc5-5900-4788-aed7-45eb022a5efd"
+					refpath="/dom[@domain='ssurgwsoadev4-oci.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[4]/td/div/div[2]/div/div/div[1]/div/span/span/span[@innertext='Descuento']"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[4]/td/div/div[2]/div/div/div[1]/div/span/?/?/span[@innertext='Descuento']
+					</item>
+					<item
+					addcaps="unknown,webelement,divtag"
+					capname="divtag"
+					id="917486a9-92d3-4a21-8c7d-8d86c23bc976"
+					name="txt_recargo_dev_tecnico"
+					refimgid="507b1f8b-5b65-42ea-b41c-a861d5333cda"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]/td/div/div[3]/div[1]/div[1]/table[1]/?/?/tr/td[2]/div
+					</item>
 				</folder>
 				<folder
 				capname="unknown"
@@ -3283,7 +3302,41 @@ name="SuraRepository">
 					id="1dd668cb-3c97-4edd-b926-20068fc2b40e"
 					name="cbo_NuevoConductor1"
 					searchtimeout="30000ms">
-						/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody//table/tbody//table//div/table//table//div/table/tbody/tr//table/tbody//td/div/div/div//a[@href='javascript:void(0)']/img[@src='https://ssurgwsoadev4.opc.oracleoutsourcing.com/pc/resources/themes/theme-9/resources/images/app/drop_button.png']
+						/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//a[@href='javascript:void(0)']/img[@src='https://'+$Ambiente+'/pc/resources/themes/theme-9/resources/images/app/drop_button.png']
+					</item>
+					<item
+					addcaps="unknown,webelement,imgtag"
+					capname="imgtag"
+					id="5a9c8880-bd53-4352-888b-a2a39b63872e"
+					name="cbo_NuevoConductorMejorado"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Conductor']/../..//a[@href='javascript:void(0)']/img[@src='https://ssurgwsoadev4-oci.opc.oracleoutsourcing.com/pc/resources/themes/theme-9/resources/images/app/drop_button.png']
+					</item>
+					<item
+					addcaps="unknown,webelement,imgtag"
+					capname="imgtag"
+					id="5bd61b87-7c73-46a7-8fbb-5f3ee0f00b0f"
+					name="Copy_of_cbo_NuevoConductorMejorado"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Conductor']/../..//a[@href='javascript:void(0)']/img[@src='https://ssurgwsoadev4-oci.opc.oracleoutsourcing.com/pc/resources/themes/theme-9/resources/images/app/drop_button.png']
+					</item>
+					<item
+					addcaps="unknown,webelement,divtag"
+					capname="divtag"
+					id="5706d7b5-c113-4af8-8ef1-09753f57010b"
+					name="btn_Conductor"
+					refimgid="8a74b3f7-ce28-4a3f-ad30-a2d3f67cd915"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Conductor']/../../div/div/div[2]/div/div[@safeclass='x-form-arrow-trigger x-form-arrow-trigger-default x-form-trigger x-form-trigger-default']
+					</item>
+					<item
+					addcaps="unknown,webelement,divtag"
+					capname="divtag"
+					id="b5a3ae02-7bae-4d8e-823e-497a351880df"
+					name="btn_Conductor_ant"
+					refimgid="e5311dba-735c-4368-a1e6-8923d3390c42"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[3]//table/tbody/?/?/td/div/table/tbody/tr/td[2]/div/table/tbody/tr[5]/td/div/label/span[@innertext='Conductor']/../../div/div/div[2]/div/div
 					</item>
 					<folder
 					capname="table"
@@ -3309,15 +3362,6 @@ name="SuraRepository">
 						refimgid="70247cf6-702f-4de2-b99e-c82dadf49618"
 						searchtimeout="30000ms">
 							/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[3]/td/div/div//input[@name='CA7DriverPopup:CA7DriverScreen:CA7DriversDV:LastName']
-						</item>
-						<item
-						addcaps="unknown,webelement,divtag"
-						capname="divtag"
-						id="b5a3ae02-7bae-4d8e-823e-497a351880df"
-						name="btn_Conductor"
-						refimgid="e5311dba-735c-4368-a1e6-8923d3390c42"
-						searchtimeout="30000ms">
-							/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[3]//table/tbody/?/?/td/div/table/tbody/tr/td[2]/div/table/tbody/tr[5]/td/div/label/span[@innertext='Conductor']/../../div/div/div[2]/div/div
 						</item>
 						<item
 						addcaps="unknown,webelement,divtag"
@@ -5375,7 +5419,7 @@ name="SuraRepository">
 			name="txt_clausulaAjuste"
 			refimgid="f020082a-b869-477f-9957-67ecf3c05b29"
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input[@id='PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:AddCovs:CA7SpecialAdditionalCoveragesDV:11:CA7CoverageInputSet:CovPatternInputGroup:0:CovTermInputSet:OptionTermInput-inputEl']
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input[@name='PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:AddCovs:CA7SpecialAdditionalCoveragesDV:8:CA7CoverageInputSet:CovPatternInputGroup:0:CovTermInputSet:OptionTermInput']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -5955,7 +5999,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 		<var
 		id="a79bcfcb-2886-4ecb-b616-863668223404"
 		name="NUMPOLIZA_REVERTIR">
-			12420005077
+			04104012805
 		</var>
 		<var
 		id="f029afed-3d74-4880-9719-c7d0e7542a84"
@@ -5989,7 +6033,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 		<var
 		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
 		name="Ambiente">
-			i-preproducciongestion.segurossura.com.ar
+			ssurgwsoadev4-oci.opc.oracleoutsourcing.com
 		</var>
 		<var
 		id="fbc3c0ec-d362-401d-acc7-5e95815b84a3"

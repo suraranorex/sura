@@ -90,22 +90,34 @@ namespace Sura.Endosos
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.SolapaCoberturasAdicionales' at 57;6.", repo.SURA.SolapaCoberturasAdicionalesInfo, new RecordItemIndex(0));
-            repo.SURA.SolapaCoberturasAdicionales.Click("57;6");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.txt_ComisionesDescuentos' at Center.", repo.SURA.txt_ComisionesDescuentosInfo, new RecordItemIndex(0));
+            repo.SURA.txt_ComisionesDescuentos.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos.Motor.Button' at 6;6.", repo.SURA.PC.Endosos.Motor.ButtonInfo, new RecordItemIndex(1));
-            repo.SURA.PC.Endosos.Motor.Button.Click("6;6");
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'SURA.PC.Endosos.lbl_Descuento'", repo.SURA.PC.Endosos.lbl_DescuentoInfo, new ActionTimeout(40000), new RecordItemIndex(1));
+            repo.SURA.PC.Endosos.lbl_DescuentoInfo.WaitForExists(40000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos.txt_recargo_dev_tecnico' at Center.", repo.SURA.PC.Endosos.txt_recargo_dev_tecnicoInfo, new RecordItemIndex(2));
+            repo.SURA.PC.Endosos.txt_recargo_dev_tecnico.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(2));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '100' with focus on 'SURA.PC.Endosos.txt_recargo_dev_tecnico'.", repo.SURA.PC.Endosos.txt_recargo_dev_tecnicoInfo, new RecordItemIndex(3));
+            repo.SURA.PC.Endosos.txt_recargo_dev_tecnico.PressKeys("100");
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.bttn_ReCotizar_ModifRiesgo' at 28;5.", repo.SURA.bttn_ReCotizar_ModifRiesgoInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos.lbl_Descuento' at Center.", repo.SURA.PC.Endosos.lbl_DescuentoInfo, new RecordItemIndex(4));
+            repo.SURA.PC.Endosos.lbl_Descuento.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.bttn_ReCotizar_ModifRiesgo' at Center.", repo.SURA.bttn_ReCotizar_ModifRiesgoInfo, new RecordItemIndex(5));
+            repo.SURA.bttn_ReCotizar_ModifRiesgo.MoveTo();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.bttn_ReCotizar_ModifRiesgo' at 28;5.", repo.SURA.bttn_ReCotizar_ModifRiesgoInfo, new RecordItemIndex(6));
             repo.SURA.bttn_ReCotizar_ModifRiesgo.Click("28;5");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.txt_Cotizacion'", repo.SURA.txt_CotizacionInfo, new ActionTimeout(30000), new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.txt_Cotizacion'", repo.SURA.txt_CotizacionInfo, new ActionTimeout(30000), new RecordItemIndex(7));
             repo.SURA.txt_CotizacionInfo.WaitForExists(30000);
             
         }

@@ -13775,6 +13775,26 @@
             The Self item info.
             </summary>
         </member>
+        <member name="P:Sura.SuraRepositoryFolders.EndososFolder.lbl_Descuento">
+            <summary>
+            The lbl_Descuento item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.EndososFolder.lbl_DescuentoInfo">
+            <summary>
+            The lbl_Descuento item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.EndososFolder.txt_recargo_dev_tecnico">
+            <summary>
+            The txt_recargo_dev_tecnico item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.EndososFolder.txt_recargo_dev_tecnicoInfo">
+            <summary>
+            The txt_recargo_dev_tecnico item info.
+            </summary>
+        </member>
         <member name="P:Sura.SuraRepositoryFolders.EndososFolder.Txt_Validacion">
             <summary>
             The Txt_Validacion folder.
@@ -14268,6 +14288,46 @@
         <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.cbo_NuevoConductor1Info">
             <summary>
             The cbo_NuevoConductor1 item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.cbo_NuevoConductorMejorado">
+            <summary>
+            The cbo_NuevoConductorMejorado item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.cbo_NuevoConductorMejoradoInfo">
+            <summary>
+            The cbo_NuevoConductorMejorado item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.Copy_of_cbo_NuevoConductorMejorado">
+            <summary>
+            The Copy_of_cbo_NuevoConductorMejorado item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.Copy_of_cbo_NuevoConductorMejoradoInfo">
+            <summary>
+            The Copy_of_cbo_NuevoConductorMejorado item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.btn_Conductor">
+            <summary>
+            The btn_Conductor item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.btn_ConductorInfo">
+            <summary>
+            The btn_Conductor item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.btn_Conductor_ant">
+            <summary>
+            The btn_Conductor_ant item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.btn_Conductor_antInfo">
+            <summary>
+            The btn_Conductor_ant item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.Copy_of_NuevoConductor1">
@@ -14863,16 +14923,6 @@
         <member name="P:Sura.SuraRepositoryFolders.PolicyChangeWizardLOBWizardStepGroupLi1Folder.ApellidoInfo">
             <summary>
             The Apellido item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.PolicyChangeWizardLOBWizardStepGroupLi1Folder.btn_Conductor">
-            <summary>
-            The btn_Conductor item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.PolicyChangeWizardLOBWizardStepGroupLi1Folder.btn_ConductorInfo">
-            <summary>
-            The btn_Conductor item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.PolicyChangeWizardLOBWizardStepGroupLi1Folder.cbo_ProveedorAsistencia">

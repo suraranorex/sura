@@ -122,7 +122,7 @@ mode="Global">
 		action="Move"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -207,7 +207,7 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -289,7 +289,7 @@ mode="Global">
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="811c9ade-c4ed-4a16-b818-29823d8f0cee"
 		waitaction="NotExists"
@@ -317,10 +317,35 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="3913e083-bbb1-4787-a1c2-13ce7ea7c5c2"
+			id="0180a955-b600-4f58-bd2a-ffffa7bdeb18"
 			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="0,0,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[1]//span[@innertext~'Conductores / Propietario']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[4]/td/div/div[2]/div/div/div[1]/div/span/?/?/span[@innertext='Descuento']
 				</path>
 			</info>
 		</WaitForRecordItem>

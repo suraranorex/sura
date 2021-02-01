@@ -2126,6 +2126,62 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>70a1b29c-2fb9-4b32-916d-129d62558719</id>
     </Content>
+    <Content Include="DataSource - Emision Motor - Inspeccion.xlsx">
+      <Link>DataSource - Emision Motor - Inspeccion.xlsx</Link>
+      <BoundTo>39fa15ad-4131-4223-a98f-ca1c53641d5e</BoundTo>
+      <DependentUpon>PC.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b44c2189-b069-4777-8ded-1f19f858deae</id>
+    </Content>
+    <Content Include="DataSource - Emision Motor Accesorio Movilidad.xlsx">
+      <Link>DataSource - Emision Motor Accesorio Movilidad.xlsx</Link>
+      <BoundTo>39fa15ad-4131-4223-a98f-ca1c53641d5e</BoundTo>
+      <DependentUpon>PC.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7a2777b2-448c-4fb1-840e-ba9282ff56a9</id>
+    </Content>
+    <Content Include="DataSource - Accesorios.xlsx">
+      <Link>DataSource - Accesorios.xlsx</Link>
+      <BoundTo>39fa15ad-4131-4223-a98f-ca1c53641d5e</BoundTo>
+      <DependentUpon>PC.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>dc1b7169-4d03-4370-a956-8d6146ab0af6</id>
+    </Content>
+    <Content Include="DataSource - Emision Hogar No Enlatada.xlsx">
+      <Link>DataSource - Emision Hogar No Enlatada.xlsx</Link>
+      <BoundTo>39fa15ad-4131-4223-a98f-ca1c53641d5e</BoundTo>
+      <DependentUpon>PC.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>c502ec48-ac5d-40eb-9447-1d8c210cf59f</id>
+    </Content>
+    <Content Include="DataSource - Emision Hogar Enlatada.xlsx">
+      <Link>DataSource - Emision Hogar Enlatada.xlsx</Link>
+      <BoundTo>39fa15ad-4131-4223-a98f-ca1c53641d5e</BoundTo>
+      <DependentUpon>PC.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>68785332-ec0a-4114-b1c1-d40b2fc883a4</id>
+    </Content>
+    <Content Include="DataSource - Emision AP No Enlatada.xlsx">
+      <Link>DataSource - Emision AP No Enlatada.xlsx</Link>
+      <BoundTo>39fa15ad-4131-4223-a98f-ca1c53641d5e</BoundTo>
+      <DependentUpon>PC.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b4bbe6f7-99c8-42f9-b21a-12071232f2d2</id>
+    </Content>
+    <Content Include="DataSource - Emision AP Enlatada.xlsx">
+      <Link>DataSource - Emision AP Enlatada.xlsx</Link>
+      <BoundTo>39fa15ad-4131-4223-a98f-ca1c53641d5e</BoundTo>
+      <DependentUpon>PC.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>6ddab076-ac9d-412c-bb48-aa447657ec6b</id>
+    </Content>
+    <Content Include="DataSource - Emision Motor NuevasCoberturas.xlsx">
+      <Link>DataSource - Emision Motor NuevasCoberturas.xlsx</Link>
+      <BoundTo>39fa15ad-4131-4223-a98f-ca1c53641d5e</BoundTo>
+      <DependentUpon>PC.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>6e69f53f-82a9-4d19-94d5-69f005c60027</id>
+    </Content>
     <None Include="Emision\AccesorioConMovilidad.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>417b8e0c-ebf5-44f5-aa14-d299c600cb37</id>
@@ -2819,6 +2875,13 @@
       <id>620674b0-9fbf-4046-8664-329922a70ead</id>
       <recordtableid>528aa202-de4a-4c14-a55e-5fd06313ca3c</recordtableid>
     </None>
+    <Content Include="Endoso_Modificacion_De_Coberturas.xlsx">
+      <Link>Endoso_Modificacion_De_Coberturas.xlsx</Link>
+      <BoundTo>39fa15ad-4131-4223-a98f-ca1c53641d5e</BoundTo>
+      <DependentUpon>PC.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>f482a9d1-5c18-42f9-83ce-75e229326255</id>
+    </Content>
     <None Include="Menu\MenuLateral_CuentaBC.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>a0688872-5351-4ef4-bed1-51eab3c2be24</id>

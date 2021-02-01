@@ -228,7 +228,6 @@
 			name="BC/ReversaPago">
 			</testcase>
 			<testcase
-			datarangeactive="True"
 			datasource="BC_Pago"
 			errorbehavior="ContinueNextIteration"
 			id="a7077552-e484-49d4-aaef-325c403fe529"
@@ -425,7 +424,7 @@
 		filename="R:\Sura\DataSource\DataSource - Pago.xlsx"
 		id="46355cdd-6d91-437d-af37-776dd8580d97"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="11"
 		name="BC_Pago"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"

@@ -94,19 +94,19 @@ namespace Sura.Endosos
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(1));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2Info, new RecordItemIndex(2));
-            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2.MoveTo();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2Info, new RecordItemIndex(2));
+            //repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2.MoveTo();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2Info, new RecordItemIndex(3));
-            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2Info, new RecordItemIndex(3));
+            //repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 50s to not exist. Associated repository item: 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.Copy_of_bttn_Siguiente2'", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.Copy_of_bttn_Siguiente2Info, new ActionTimeout(50000), new RecordItemIndex(4));
-            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.Copy_of_bttn_Siguiente2Info.WaitForNotExists(50000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 50s to not exist. Associated repository item: 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.Copy_of_bttn_Siguiente2'", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.Copy_of_bttn_Siguiente2Info, new ActionTimeout(50000), new RecordItemIndex(4));
+            //repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.Copy_of_bttn_Siguiente2Info.WaitForNotExists(50000);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_ConductoresPropietarios'", repo.SURA.PC.Txt_Validacion.txt_ConductoresPropietariosInfo, new ActionTimeout(40000), new RecordItemIndex(5));
-            repo.SURA.PC.Txt_Validacion.txt_ConductoresPropietariosInfo.WaitForExists(40000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'SURA.PC.Endosos.lbl_Descuento'", repo.SURA.PC.Endosos.lbl_DescuentoInfo, new ActionTimeout(40000), new RecordItemIndex(5));
+            repo.SURA.PC.Endosos.lbl_DescuentoInfo.WaitForExists(40000);
             
         }
 

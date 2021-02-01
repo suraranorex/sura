@@ -130,8 +130,8 @@ namespace Sura.Endosos
 
             Report.Screenshot(ReportLevel.Info, "User", "Información original", repo.SURA.Self, false, new RecordItemIndex(0));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.cbo_NuevoConductor1' at Center.", repo.SURA.PC.Endosos2.cbo_NuevoConductor1Info, new RecordItemIndex(1));
-            repo.SURA.PC.Endosos2.cbo_NuevoConductor1.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.cbo_NuevoConductorMejorado' at Center.", repo.SURA.PC.Endosos2.cbo_NuevoConductorMejoradoInfo, new RecordItemIndex(1));
+            repo.SURA.PC.Endosos2.cbo_NuevoConductorMejorado.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 15s to exist. Associated repository item: 'SURA.PC.Endosos2.Copy_of_NuevoConductor1'", repo.SURA.PC.Endosos2.Copy_of_NuevoConductor1Info, new ActionTimeout(15000), new RecordItemIndex(2));
@@ -173,8 +173,8 @@ namespace Sura.Endosos
             Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_Vehiculos1'", repo.SURA.PC.Txt_Validacion.txt_Vehiculos1Info, new ActionTimeout(45000), new RecordItemIndex(12));
             repo.SURA.PC.Txt_Validacion.txt_Vehiculos1Info.WaitForExists(45000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.PolicyChangeWizardLOBWizardStepGroupLi1.btn_Conductor' at Center.", repo.SURA.PC.Endosos2.PolicyChangeWizardLOBWizardStepGroupLi1.btn_ConductorInfo, new RecordItemIndex(13));
-            repo.SURA.PC.Endosos2.PolicyChangeWizardLOBWizardStepGroupLi1.btn_Conductor.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.btn_Conductor' at Center.", repo.SURA.PC.Endosos2.btn_ConductorInfo, new RecordItemIndex(13));
+            repo.SURA.PC.Endosos2.btn_Conductor.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA'.", repo.SURA.SelfInfo, new RecordItemIndex(14));
@@ -187,12 +187,12 @@ namespace Sura.Endosos
             Keyboard.Press(NombreApellido);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgo' at Center.", repo.SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgoInfo, new RecordItemIndex(16));
-            repo.SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgo.Click();
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgo' at Center.", repo.SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgoInfo, new RecordItemIndex(16));
+            //repo.SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgo.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(17));
-            Delay.Duration(1000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(17));
+            Delay.Duration(2000, false);
             
             Report.Screenshot(ReportLevel.Info, "User", "Modificación generada por el endoso", repo.SURA.Self, false, new RecordItemIndex(18));
             
@@ -200,8 +200,8 @@ namespace Sura.Endosos
             repo.SURA.PC.Endosos2.Siguiente.Click("29;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos2.ModifCoberturas.txt_AnalisisDeRiesgo'", repo.SURA.PC.Endosos2.ModifCoberturas.txt_AnalisisDeRiesgoInfo, new ActionTimeout(45000), new RecordItemIndex(20));
-            repo.SURA.PC.Endosos2.ModifCoberturas.txt_AnalisisDeRiesgoInfo.WaitForExists(45000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos2.title_Comisiones_Descuentos'", repo.SURA.PC.Endosos2.title_Comisiones_DescuentosInfo, new ActionTimeout(45000), new RecordItemIndex(20));
+            repo.SURA.PC.Endosos2.title_Comisiones_DescuentosInfo.WaitForExists(45000);
             
         }
 

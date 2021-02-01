@@ -35,29 +35,47 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="57;6"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="18832335-8dab-40e1-84d9-a4bc01136155"
-		sx="354"
-		sy="333"
+		searchpropertyid="5ac31470-f9b8-45f3-bc4c-94e88b7e8022"
+		sx="0"
+		sy="0"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="db47b9b3-ec90-454d-afdf-b889c62e93f5"
-			sourcename="Recorder">
+			id="a51d2394-20ca-4fd9-928a-9bfbdfd0c5a3"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext~'Comisiones / Descuentos' and @visible='true']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="5c69e8b6-22cf-4def-be5a-512f470d3f3e"
+		waitaction="Exists"
+		waittimeout="40000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0180a955-b600-4f58-bd2a-ffffa7bdeb18"
+			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, spantag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
-				index="1"
+				index="0"
 				prefcap="spantag"
-				rect="297,327,105,12"
+				rect="216,280,223,16"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -65,7 +83,7 @@ mode="Global">
 					<attribute
 					name="class"
 					type="System.String">
-						x-tab-inner x-tab-inner-default
+						x-column-header-text
 					</attribute>
 					<attribute
 					name="draggable"
@@ -80,17 +98,242 @@ mode="Global">
 					<attribute
 					name="id"
 					type="System.String">
-						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:AdditionalCovCardTab-btnInnerEl
+						gridcolumn-2349-textEl
 					</attribute>
 					<attribute
 					name="innertext"
 					type="System.String">
-						Coberturas Adicionales
+						Descuento
 					</attribute>
 					<attribute
 					name="safeclass"
 					type="System.String">
-						x-tab-inner x-tab-inner-default
+						x-column-header-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[4]/td/div/div[2]/div/div/div[1]/div/span/?/?/span[@innertext='Descuento']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2d241996-1013-4be4-b040-359bbd941ebe"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="917486a9-92d3-4a21-8c7d-8d86c23bc976"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]/td/div/div[3]/div[1]/div[1]/table[1]/?/?/tr/td[2]/div
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="100"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="6d73b6ef-25d9-4ddc-a43b-bc8824eab855">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="917486a9-92d3-4a21-8c7d-8d86c23bc976"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="447,305,118,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-grid-cell-inner&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ext-element-1126
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-grid-cell-inner
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]/td/div/div[3]/div[1]/div[1]/table[1]/?/?/tr/td[2]/div
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="13ff324d-3d11-4e77-bc7e-dc719df0945f"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0180a955-b600-4f58-bd2a-ffffa7bdeb18"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="0,0,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[4]/td/div/div[2]/div/div/div[1]/div/span/?/?/span[@innertext='Descuento']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0c0b605e-37c0-4850-abfd-b4dc1256b301"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="72e2b2c4-b651-49e3-a0fc-ba553b78746d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="672,244,67,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7ModifiersScreen:JobWizardToolbarButtonSet:QuoteOrReview-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Re-Cotiar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
 					</attribute>
 					<attribute
 					name="tagname"
@@ -111,206 +354,10 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[5]//table/tbody/tr[3]/td/div/div[1]/div[1]/div[2]/div/a[3]//span[@innertext='Coberturas Adicionales']
-				</path>
-			</info>
-			<helperscreenshot
-			guid="6efa2469-18fb-4870-92f8-bd420ba7e5af">
-				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
-YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAArANIDASIA
-AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDb+zH1
-FH2Y+oqfb7n8zRt9z+ZquZk8qIPsx9RR9mPqKn2+5/M0bfc/maOZhyog+zH1FKLZhnkc1Nt9z+Zo
-2+5/M0czDlRB9mPqKPsx9RVW41F4rt7eO2eUoAflc+g7Y96b/aNz/wBA6f8A76b/AAqfa+ZssLJq
-9vxRc+zH1FH2Y+oqn/aNz/0Dp/8Avpv8KP7Ruf8AoHT/APfTf4Uva+Y/qsu34r/MufZj6ij7MfUV
-T/tG5/6B0/8A303+FH9o3P8A0Dp/++m/wo9r5h9Vl2/Ff5lz7MfUUfZj6iqf9o3P/QOn/wC+m/wo
-/tG5/wCgdP8A99N/hR7XzD6rLt+K/wAy59mPqKPsx9RVP+0bn/oHT/8AfTf4Uf2jc/8AQOn/AO+m
-/wAKPa+YfVZdvxX+Zc+zH1FH2Y+oqn/aNz/0Dp/++m/wo/tG5/6B0/8A303+FHtfMPqsu34r/Muf
-Zj6ij7MfUVT/ALRuf+gdP/303+FI2pXCqWbT5gAMklm4/Sj2vmH1WXb8V/mXfsx9RR9mPqKLOb7V
-bJNtK7s8bie+Kn2+5/M1XO2YumouzRD9mbGMik+zH1FT7fc/maNvufzNPmYuVEH2Y+oo+zH1FT7f
-c/maNvufzNHMw5UQfZj6iip9vufzNFHMw5UVRdOXUEKuQDg9Tx25/pS+dKFVmZMtGWC7ep4461ao
-pXHYrG4LybImQg456jkH/Cm/amLsoKcAkE8YwQOef8Kt0UXCwyF/MiVs5z6DFPoopDMjJXW7kgkD
-YuSOw+XNXTKiACKVNpyS7sWGfTrVGV57bV5p0tZJVZQowDjoO+Papf7Suf8AoGzfr/hURkldM6ql
-KU+Vx7LqieOd95yRksP3Z+8OB/npSx3MkgGNmSQPp16gGq/9pXP/AEDZv1/wo/tK5/6Bs36/4VXP
-Ez+r1P6a/wAy0Jyr4kdMbyp7beDjvSLcOys2VCqobpnOc+/tVb+0rn/oGzfr/hR/aVz/ANA2b9f8
-KXPEPq9T+mv8ycXTFQSyDDYPHXp0Gff3ovLhopYlRJHJbomOTgnHJHYH9Kg/tK5/6Bs36/4UiXk1
-xe2qSWjwgSE7mzz8jcdKfOmJ0JxV3+aJRdmaOORGCq2WCdGxtJGealMx+YbkGMYTncenPWs2A30V
-vCYbkMohhIjkQY+c7cZHPHFWF1O6wQbB3KkqWQnaSDg449qbaREYSm7IstcuA5BQkBvlxyuPWlkn
-ePKsybsjB28dPc/1qt/aVz/0DZv1/wAKP7Suf+gbN+v+FLniafV6n9Nf5kwuXCb+BuI5bovyg+op
-Lidmt5lYpzCxwvP8Prn+lRf2lc/9A2b9f8KZNf3MsEkf9nzDepXPPGR9KTnGw44eopJ/qv8AMs6R
-/wAgyH/gX8zV2qmlo0enxK6lWGcgjB6mrdEdkRV/iS9WVmkcXO4BvLB2E5GP5+uBTRcsVBMsS5PO
-R9z2PPX8qt0VdzKxU+0vvdcxjGfvEDHv1o+0ttzuTgZ5H3jnoOf8etW6KLhYpPeSLIyhVwCR0oq7
-RSKuhPLT+4v5UeWn9xfyqHyY/wC7+tHkx/3f1oETeWn9xfyo8tP7i/lUPkx/3f1o8mP+7+tAE3lp
-/cX8qPLT+4v5VD5Mf939aPJj/u/rQBN5af3F/Kjy0/uL+VQ+TH/d/WjyY/7v60ATeWn9xfyo8tP7
-i/lUPkx/3f1o8mP+7+tAE3lp/cX8qPLT+4v5VD5Mf939aPJj/u/rQBN5af3F/KszT7UiaMSySLPb
-nMiMxYPwQGBPY5PT6HpV3yY/7v61S1BRbzWs8I2SGYRlh3U5yKANXA9Kq2Co9uzbVOZZOcf7bUan
-K8OnTyRttdV4PpUOnwx/2dbnb1jUn6kZNAF7y0/uL+VHlp/cX8qh8mP+7+tHkx/3f1oAm8tP7i/l
-R5af3F/KofJj/u/rR5Mf939aAJvLT+4v5UeWn9xfyqHyY/7v60eTH/d/WgCby0/uL+VHlp/cX8qh
-8mP+7+tHkx/3f1oAm8tP7i/lR5af3F/KofJj/u/rR5Mf939aAJvLT+4v5UVD5Mf939aKAP/Z
-			</helperscreenshot>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="6;6"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="4c2ba760-ba49-40f7-8dce-1d965d8af5ff"
-		sx="180"
-		sy="355"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="9253771f-cce5-46a5-901c-d7c5aacd0b7d"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, inputtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="inputtag"
-				rect="222,382,15,15"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						x-form-field x-form-checkbox x-form-checkbox-default x-form-cb x-form-cb-default &#32;
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:AddCovs:CA7SpecialAdditionalCoveragesDV:1:CA7CoverageInputSet:CovPatternInputGroup:_checkbox
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						x-form-cb x-form-cb-default x-form-checkbox x-form-checkbox-default x-form-field
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						input
-					</attribute>
-					<attribute
-					name="autocomplete"
-					type="System.String">
-						off
-					</attribute>
-					<attribute
-					name="autofocus"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="checked"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="disabled"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="height"
-					type="System.String">
-						0
-					</attribute>
-					<attribute
-					name="multiple"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="required"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="size"
-					type="System.String">
-						20
-					</attribute>
-					<attribute
-					name="type"
-					type="System.String">
-						button
-					</attribute>
-					<attribute
-					name="width"
-					type="System.String">
-						0
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="componentid"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="data-ref"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="hidefocus"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="role"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
-				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody//div/table/tbody/tr[1]/td/?/?/legend/div[1]/div/?/?/input[@type='button']
+					/dom[@domain=$Ambiente]//table//span[@innertext~'Re-Cotiar']
 				</path>
 			</info>
 		</mouseitem>
-		<explicitdelayitem
-		duration="5000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"

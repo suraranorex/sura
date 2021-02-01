@@ -77,98 +77,12 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="1dd668cb-3c97-4edd-b926-20068fc2b40e"
-			sourcename="Recorder">
-				<element
-				capabilities="webelement, imgtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="imgtag"
-				rect="1057,333,16,16"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="draggable"
-					type="System.String">
-						True
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						ext-element-256
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						img
-					</attribute>
-					<attribute
-					name="height"
-					type="System.String">
-						16
-					</attribute>
-					<attribute
-					name="hspace"
-					type="System.String">
-						0
-					</attribute>
-					<attribute
-					name="src"
-					type="System.String">
-						https://ssurgwsoadev4.opc.oracleoutsourcing.com/pc/resources/themes/theme-9/resources/images/app/drop_button.png
-					</attribute>
-					<attribute
-					name="vspace"
-					type="System.String">
-						0
-					</attribute>
-					<attribute
-					name="width"
-					type="System.String">
-						16
-					</attribute>
-				</element>
+			id="5a9c8880-bd53-4352-888b-a2a39b63872e"
+			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody/tr[3]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[5]/td/div/div/div/div[3]/a[@href='javascript:void(0)']/img[@src='https://ssurgwsoadev4.opc.oracleoutsourcing.com/pc/resources/themes/theme-9/resources/images/app/drop_button.png']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Conductor']/../..//a[@href='javascript:void(0)']/img[@src='https://ssurgwsoadev4-oci.opc.oracleoutsourcing.com/pc/resources/themes/theme-9/resources/images/app/drop_button.png']
 				</path>
 			</info>
-			<helperscreenshot
-			guid="055fd4c8-c400-4a20-b906-0a911234ac9b">
-				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
-YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAwAGADASIA
-AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKZv
-f+6v/fX/ANaje/8AdX/vr/61AD6KZvf+6v8A31/9aje/91f++v8A61AD6KrXN4lrCJJVbBbbhee2
-aq/27a/885vyH+NS5JbmsaM5q8UadFZn9u2v/POb8h/jVqyvor3f5SuNmM7gO/8A+qhSTCVGpFXa
-LNFFFUZBRRRQAyiiikA1pEU4Z1U+5pVZWGVYMPY0yaFJlw/boR1FPVQihVGAO1AGdrn/AB4r/wBd
-R/6CaledZZQrtywyqn0qLXP+PFf+uo/9BNJqMPl2shOQ0alkb6DilH4nc2qX9lG3n+hNHOsUpVG5
-UZZR6UzSv+P7UP8Arp/Vqgh8i1uJ7ea5QEOPmkYKSCoP9TU+lf8AH9qH/XT+rUS+JBSv7Od/L8zT
-oooqjEKKKKAGc/3T+lHP90/pT6KAGc/3T+lHP90/pT6KAKl7Zm8gEZfy8PuzjPbFZV7GYoriN9Tm
-ZlUgqUbaTtzjOcciugqheILaRrnaXhkwLhMZAGMb8e3APt9KXKm7miqzjHlWw57ESXBeRY2UzeZg
-jPHl7cfnUel2i2UzxKoU+REXwcgt8wJ/StBWV1DIwZSMgg8GqlrKJ766kjw0ahItwPBYbif/AEIU
-zMuUUUUAFFFFAH//2Q==
-			</helperscreenshot>
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
@@ -1635,101 +1549,12 @@ QuPYZ5qWiigCK1uEurdZowwVs4DdeDipaKKGB//Z
 			<bindings>
 			</bindings>
 			<info
-			id="b5a3ae02-7bae-4d8e-823e-497a351880df"
-			sourcename="Recorder">
-				<element
-				capabilities="webelement, divtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="1"
-				prefcap="divtag"
-				rect="1029,330,22,24"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						x-form-trigger x-form-trigger-default x-form-arrow-trigger x-form-arrow-trigger-default  x-form-trigger-over
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CA7BasicVehicleInfoDV:PassengerDriver-trigger-picker
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						x-form-arrow-trigger x-form-arrow-trigger-default x-form-trigger x-form-trigger-default
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						div
-					</attribute>
-				</element>
+			id="5706d7b5-c113-4af8-8ef1-09753f57010b"
+			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody/tr[3]//table/tbody/?/?/td/div/table/tbody/tr/td[2]/div/table/tbody/tr[5]/td/div/div/div/div[2]/div/div[2]
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Conductor']/../../div/div/div[2]/div/div[@safeclass='x-form-arrow-trigger x-form-arrow-trigger-default x-form-trigger x-form-trigger-default']
 				</path>
 			</info>
-			<helperscreenshot
-			guid="1fb8f27d-7a7a-4671-85a7-228d5c1acfc8">
-				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
-YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACEAIQDASIA
-AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDUiZDJ
-bsJGeTkyLuJwdp7dvpTVndncwHO6JmwJC+Dxjg9Dz0rSooApwGM3a+VKZB5bZyxbByP84pxkjhu5
-GnZU3AbGY4GPTP1q1RQBUkdvMkdGJVAjgA8Ec5/ShWZij7jiQsQM8Yxx/j+NW6KAKrKW0oBQSfKH
-A+lBljnuYfJdX2ZLbTnHGOatUUMVilBuVbR97s0o+fcxIPy56U2KRWWH7TMyKYlKkyFdzd+e/bir
-9FMZRabN2uw4PmbSPNOcdPu9Me9IFYiFjLJl5WVvnPT5uP0HvV+ikBQld0ULu/diQgs0hXAxxlut
-OjDSNCjyllKucxyHkZGOR1q7RQBnpgzW7yuwxvQEuRkhuB79PxpbWR2nXdIgk58xDKSf++ccVfoo
-AKKKKACimYk/vp/3yf8AGjEn99P++T/jQA+imYk/vp/3yf8AGjEn99P++T/jQA+imYk/vp/3yf8A
-GjEn99P++T/jQA+imYk/vp/3yf8AGjEn99P++T/jQA+imYk/vp/3yf8AGjEn99P++T/jQA+imYk/
-vp/3yf8AGjEn99P++T/jQA+imYk/vp/3yf8AGjEn99P++T/jQA+imYk/vp/3yf8AGjEn99P++T/j
-QA+imYk/vp/3yf8AGigB9FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAM8z/AGG/
-T/GjzP8AYb9P8aYZowhYtwDjp39KatxGysckbRkhlIIH0PNAEvmf7Dfp/jR5n+w36f40wSoVRg2Q
-/wB0+tPoAPM/2G/T/GjzP9hv0/xoooApahfT27wpBGpaQkYf14x396j+0av/AM+sP5//AGVJqn/H
-7Yf9dP6rWlUatvU6eZQhF8qd/wDMzvtGr/8APrD+f/2VMmvtTgjMktvCqjqev9a1Kpax/wAg6T6j
-+YoaaW4U6ilNRcVr/XcuW8hltopGwC6Bjj3FSVmp5aWcWQmXjUszKOm3H+P50Msags2AO5Y8c59f
-qfzNWtjnlpJmlRVe2ZWkchVDbQGx9SfX39Pz7WKBBRRRQAUUUUAUSjAh9jEJMzEAc4wRkfnRLmcs
-6I4VYmX5lIJJxxg89qtZ9j+VGfY/lQBVaN45Ygqkxs4Y4H3Tjn8DVukz7H8qM+x/KgBaKTPsfyoz
-7H8qAM7VP+P2w/66f1WtB1V1KsMg9RWdqrBbuyZjgB8knjutXPtlr/z8Rf8AfQqFuzonFunCy7/m
-UwPsd2VSISAbMuXwVDsVGBjnpU2sf8g6T6j+YqKYpdSziJ94ItwTGeR+8OeR04qrdWlwtvLi4n2b
-ZXZZPnBCN8o56ZFU1dGUHyTTfRl4RBrKAsMo0Kg+3FQLa8gSSF41+6p/rV+zdvsMH7pz+7XuOePr
-7fqPfEgCqSVtjkdwF9/f2/Ue+Ki2kRUinJ3GWqlXfPUgNjPTr7+3p+faxTF3GRiVIGABn6n3+nb/
-AOs+kwQUUUUAFFFFABRRRQAUUUUAFFFFAENzaQXW3z037c45Ix+VVLnR7Z4GEESrJwVLkkcHOCM9
-D0rRopWW5aqTS5U9CjpkdsPNlt08pmOyWMHhGXOR+tS6owTTLoscDymH5jFJPaM04ntpvIlPD/Lu
-Vx7jjn3pv2KWWVHu7kyLGwZURdi5Hc8kntTILaIsaKiDCqAAPaloooAKKKKACiiigAooooAKKKKA
-CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAZvb/nk/5j/Gje3/PJ/wAx/jT6KAGb2/55
-P+Y/xo3t/wA8n/Mf40+igBm9v+eT/mP8aN7f88n/ADH+NPooAZvb/nk/5j/Gje3/ADyf8x/jT6KA
-Gb2/55P+Y/xo3t/zyf8AMf40+igBm9v+eT/mP8aN7f8APJ/zH+NPooAZvb/nk/5j/Gje3/PJ/wAx
-/jT6KAGb2/55P+Y/xo3t/wA8n/Mf40+igBm9v+eT/mP8aKfRQAUUUUAFFFFABRRRQAUUUUAFFFFA
-BRRRQAUUUUAFFFFABRRRQB//2Q==
-			</helperscreenshot>
 		</mouseitem>
 		<keyitem
 		action="Press"
@@ -2177,7 +2002,7 @@ AKKKKACiiigAooooAKKKKAP/2Q==
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -2419,7 +2244,7 @@ f1+JJctlhh1W5jWNVZlVwVUDA6EfnRRRR0Bn/9k=
 			</helperscreenshot>
 		</mouseitem>
 		<explicitdelayitem
-		duration="1000ms"
+		duration="2000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -2582,10 +2407,10 @@ RRQAfbf+mf8A49R9t/6Z/wDj1FFAB9t/6Z/+PUfbf+mf/j1FFAB9t/6Z/wDj1H23/pn/AOPUUUAH
 			<bindings>
 			</bindings>
 			<info
-			id="b8a25ae3-5621-421e-bea1-28046e1a9489"
+			id="b71b8bbc-8e19-4684-b41c-f342c2aa2a01"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='An&#225;lisis de riesgo']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext~'Comisiones / Descuentos']
 				</path>
 			</info>
 		</WaitForRecordItem>
