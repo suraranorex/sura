@@ -116,15 +116,17 @@ namespace Sura.Emision
             
             Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(4));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SURA.PC.Emision.PolizaMotor.Inspecciones.txt_TipoInspeccion'.", repo.SURA.PC.Emision.PolizaMotor.Inspecciones.txt_TipoInspeccionInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "User", TIPO_INSPECCION, new RecordItemIndex(5));
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SURA.PC.Emision.PolizaMotor.Inspecciones.txt_TipoInspeccion'.", repo.SURA.PC.Emision.PolizaMotor.Inspecciones.txt_TipoInspeccionInfo, new RecordItemIndex(6));
             Validate.Exists(repo.SURA.PC.Emision.PolizaMotor.Inspecciones.txt_TipoInspeccionInfo);
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Inspecciones.InspeccionPosterior' at 14;10.", repo.SURA.PC.Emision.PolizaMotor.Inspecciones.InspeccionPosteriorInfo, new RecordItemIndex(6));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Inspecciones.InspeccionPosterior' at 14;10.", repo.SURA.PC.Emision.PolizaMotor.Inspecciones.InspeccionPosteriorInfo, new RecordItemIndex(7));
             //repo.SURA.PC.Emision.PolizaMotor.Inspecciones.InspeccionPosterior.Click("14;10");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Inspecciones.txt_TipoInspeccion' at 9;8.", repo.SURA.PC.Emision.PolizaMotor.Inspecciones.txt_TipoInspeccionInfo, new RecordItemIndex(7));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Inspecciones.txt_TipoInspeccion' at 9;8.", repo.SURA.PC.Emision.PolizaMotor.Inspecciones.txt_TipoInspeccionInfo, new RecordItemIndex(8));
             //repo.SURA.PC.Emision.PolizaMotor.Inspecciones.txt_TipoInspeccion.Click("9;8");
             //Delay.Milliseconds(0);
             

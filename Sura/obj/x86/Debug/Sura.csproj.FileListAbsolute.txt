@@ -143,3 +143,5 @@ C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Dat
 C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Emision AP Enlatada.xlsx
 C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Emision Motor NuevasCoberturas.xlsx
 C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Endoso_Modificacion_De_Coberturas.xlsx
+C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - ValidaFormularios.xlsx
+C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\PC_GestionDocumental.rxtst

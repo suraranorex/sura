@@ -233,6 +233,22 @@ ACiiigD/2Q==
 				</path>
 			</info>
 		</loggingrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="3f863b7a-1ed3-458d-9f60-3cb77afceca2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="TIPO_INSPECCION">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 		<validationitem
 		action="Exists"
 		enabled="True"

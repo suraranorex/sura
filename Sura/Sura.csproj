@@ -2102,6 +2102,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>6f1feb10-990f-4014-b79b-c6c486ab1763</id>
     </Content>
+    <Content Include="PC_GestionDocumental.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>35d3314d-2112-4af9-8f4e-597276adf246</id>
+    </Content>
     <None Include="BC\ConfirmarReversion.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>2ee57791-49e9-4a14-9f74-a367507e0df7</id>
@@ -2181,6 +2185,13 @@
       <DependentUpon>PC.rxtst</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>6e69f53f-82a9-4d19-94d5-69f005c60027</id>
+    </Content>
+    <Content Include="DataSource - ValidaFormularios.xlsx">
+      <Link>DataSource - ValidaFormularios.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>934ec7fe-d14e-471e-8c05-3db56a4ba804</id>
     </Content>
     <None Include="Emision\AccesorioConMovilidad.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>

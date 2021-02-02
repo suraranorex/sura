@@ -8,5 +8,10 @@
     "Enabled": "True",
     "TestSuite": "BC",
     "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "PC_GestionDocumental",
+    "RunConfig": "TestRun"
   }
 ]
