@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0c5da5c9-1955-472d-b029-44e8e8ca2ca5"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="EliminarVehiculo"
+	namespace="Sura.Endosos">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="774f5c26-1fbc-41f6-8d41-6e290d0ff741"
+		sx="240"
+		sy="303"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ee8194b1-392c-4791-b927-c18bc9ff016b"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="219,297,106,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP_tb:Remove-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Elimina Vehículo
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext~'Elimina']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="f008f583-bb02-4845-acb6-8dc3793ef387">
+				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
+UmNDtif3F/KiiikM/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="4000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		EliminarVehiculo.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
