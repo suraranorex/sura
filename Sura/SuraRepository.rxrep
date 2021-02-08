@@ -1303,6 +1303,25 @@ name="SuraRepository">
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody//legend/div[@innertext&gt;'CA-RC 5.2 Ampliaci&#243;n RC Ingreso']/../..//input[@type='button']/../..//input[@data-tabindexsaved='True']
 							</item>
+							<item
+							addcaps="unknown,webelement,spantag"
+							capname="spantag"
+							id="f84c2d65-0c03-4c5b-8ff6-f8cc8272ba1d"
+							name="Proveedor"
+							refimgid="a97fed81-1114-4a73-b8be-a1355ade1f94"
+							refpath="/dom[@domain='ssurgwsoadev4-oci.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]/td/div/table/tbody/tr[3]/td/div/div[2]/div/table/tbody/tr/td/div/table/tbody/tr/td/div/table/tbody/tr[12]/td/fieldset/div/div/div/div/label/span[@innertext='Proveedor']"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/div/table//div/table//div/table/tbody/tr[12]//div/div/div/?/?/label/span[@innertext='Proveedor']
+							</item>
+							<item
+							addcaps="unknown,webelement,spantag"
+							capname="spantag"
+							id="9caa45bd-7834-49de-932d-58583087b85b"
+							name="lbl_Proveedor"
+							refimgid="a97fed81-1114-4a73-b8be-a1355ade1f94"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//span[@innertext='Proveedor']
+							</item>
 							<basepath>
 								/dom[@domain=$Ambiente]
 							</basepath>
@@ -1350,6 +1369,15 @@ name="SuraRepository">
 								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Modelo' and @visible='True']/../..//div[@innertext~'[A-Z]+']
 							</item>
 						</folder>
+						<item
+						addcaps="unknown,webelement,inputtag"
+						capname="inputtag"
+						id="41bc76db-ae39-403f-bb96-402fffbf2524"
+						name="txt_ProveedorAsistMecanicaVisible"
+						refimgid="f57165a2-e68f-462a-89a0-3d981b121917"
+						searchtimeout="30000ms">
+							/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input[@class~'x-form-field x-form-text x-form-text-default' and @visible='True']
+						</item>
 					</folder>
 					<folder
 					capname="unknown"
@@ -2019,15 +2047,6 @@ name="SuraRepository">
 							refimgid="f57165a2-e68f-462a-89a0-3d981b121917"
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody//input[@class~'x-form-field x-form-text x-form-text-default' and @visible='True']
-							</item>
-							<item
-							addcaps="unknown,webelement,inputtag"
-							capname="inputtag"
-							id="41bc76db-ae39-403f-bb96-402fffbf2524"
-							name="txt_ProveedorAsistMecanicaVisible"
-							refimgid="f57165a2-e68f-462a-89a0-3d981b121917"
-							searchtimeout="30000ms">
-								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input[@class~'x-form-field x-form-text x-form-text-default' and @visible='True']
 							</item>
 							<item
 							addcaps="unknown,webelement,inputtag"

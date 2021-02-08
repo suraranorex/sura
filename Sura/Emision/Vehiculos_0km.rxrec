@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="a8db0db7-1495-4f4c-82cf-9b7785069bda"
+id="1f20520d-a1fc-470e-ad44-de1143cf9207"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,54 +19,54 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Vehiculos"
+	classname="Vehiculos_0km"
 	namespace="Sura.Emision">
 	</codegen>
 	<variables>
 		<var
-		id="b33950d6-3d59-43a8-b2e5-3f0f339f77ab"
+		id="573a6a54-0a4c-4496-aaae-d44830997257"
 		name="Anio">
 			2009
 		</var>
 		<var
-		id="530cc40f-c5ca-499d-8134-cc7de4b9df6a"
+		id="d29032ba-813c-46e6-8ddd-ee09d26fb82a"
 		name="Marca">
 			CHEVROLET
 		</var>
 		<var
-		id="ca116355-04ae-4788-a082-c59d2549f9a5"
+		id="e3527f0c-44fb-42f2-bdaf-f83b1622ded4"
 		name="Modelo">
 			ASTRA
 		</var>
 		<var
-		id="4a0ed49e-feb3-4307-aff7-07782ac32de7"
+		id="2e93f88b-6420-439f-ab5a-bbd2a4d58c5f"
+		name="Actividad">
+			Sin Actividad
+		</var>
+		<var
+		id="131714e1-afff-4b8e-9dad-3fd89c0e7325"
 		name="SumaAsegurada">
 			400000
 		</var>
 		<var
-		id="e2cdec4e-22ac-4626-b31e-3efcc29b593c"
-		name="Producto">
-			A - Responsabilidad Civil Unicamente
-		</var>
-		<var
-		id="e8224fca-8080-4ad3-90af-9cb992c61e30"
+		id="9b7c630a-dc22-4900-8648-05196c741949"
 		name="Patente">
 			ZZZ999
 		</var>
 		<var
-		id="ad7ae700-5483-453a-afb1-ab8843eedf86"
+		id="1ddc194e-c5f8-44ea-8d98-c56f7888618c"
 		name="Motor">
 			ABH134H8812
 		</var>
 		<var
-		id="c36048c9-4d5a-4bad-b6b8-658dd965e627"
+		id="8d4e46c0-7ef3-49ca-ada1-bf0f3051454d"
 		name="Chasis">
 			CA52MN31912
 		</var>
 		<var
-		id="1584d5c5-17f1-4934-a8ee-6aa46e81b1e3"
-		name="Actividad">
-			Sin Actividad
+		id="091f947e-5c51-4d84-b39c-9732f273d5bd"
+		name="Producto">
+			A - Responsabilidad Civil Unicamente
 		</var>
 	</variables>
 	<recorditems>
@@ -195,6 +195,39 @@ mode="Global">
 				</element>
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody/tr[3]//table/tbody/tr/td/?/?/table/?/?/tr/td[1]
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5aee46b7-8ea2-4af6-b34e-886463c06fd9"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0fcebcff-f990-4e82-a5f7-1dbc59921146"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//td[@id='ext-element-1176']//label[@innertext='S&#237;']
 				</path>
 			</info>
 		</mouseitem>
@@ -2305,7 +2338,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Vehiculos.UserCode.cs
+		Vehiculos_0km.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

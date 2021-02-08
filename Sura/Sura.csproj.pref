@@ -1,14 +1,14 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="PC.rxtst" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="Emision\Vehiculos.rxrec" />
     <Element value="PC.rxtst" />
     <Element value="BC.rxtst" />
-    <Element value="Menu\MenuSuperior_CuentaBC.rxrec" />
-    <Element value="Emision\EmisionPoliza.rxrec" />
-    <Element value="Emision\Personas_Enlatada.rxrec" />
+    <Element value="Emision\BuscarGrupos.rxrec" />
+    <Element value="Emision\SinAsistenciaMecanica.rxrec" />
+    <Element value="Emision\Comisiones.rxrec" />
+    <Element value="Emision\Vehiculos_0km.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

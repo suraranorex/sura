@@ -965,6 +965,18 @@
       <id>d893a2e8-149c-496e-9402-ec241a0358f2</id>
       <BoundTo>c46d55ca-1ea7-49ca-8609-e994af1a9b49</BoundTo>
     </Compile>
+    <Compile Include="Emision\SinAsistenciaMecanica.cs">
+      <BoundTo>44b3d8df-b69f-44c7-861f-624f38e78565</BoundTo>
+      <DependentUpon>SinAsistenciaMecanica.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fa0d741d-7399-4ccb-87dd-72a0d08ae252</id>
+    </Compile>
+    <Compile Include="Emision\SinAsistenciaMecanica.UserCode.cs">
+      <BoundTo>44b3d8df-b69f-44c7-861f-624f38e78565</BoundTo>
+      <DependentUpon>SinAsistenciaMecanica.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>33f07870-f7c0-4951-a981-05e14b7b5f11</id>
+    </Compile>
     <Compile Include="Emision\SolicitudPoliza_BuscarGrupo.cs">
       <DependentUpon>SolicitudPoliza_BuscarGrupo.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -1078,6 +1090,18 @@
       <DependentUpon>VehiculosFlota_Parte2.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>e56b50cc-3c08-495f-a77a-527f523cb2c3</id>
+    </Compile>
+    <Compile Include="Emision\Vehiculos_0km.cs">
+      <BoundTo>a83bb4e5-9435-463d-81e9-b4fb0a12f507</BoundTo>
+      <DependentUpon>Vehiculos_0km.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>088cd5fd-f7f0-484c-ac96-1208111cb27f</id>
+    </Compile>
+    <Compile Include="Emision\Vehiculos_0km.UserCode.cs">
+      <BoundTo>a83bb4e5-9435-463d-81e9-b4fb0a12f507</BoundTo>
+      <DependentUpon>Vehiculos_0km.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c445f341-e97f-4356-81f2-d39457e85397</id>
     </Compile>
     <Compile Include="Emision\Vivienda_Enlatada.cs">
       <DependentUpon>Vivienda_Enlatada.rxrec</DependentUpon>
@@ -2533,6 +2557,11 @@
       <id>c46d55ca-1ea7-49ca-8609-e994af1a9b49</id>
       <recordtableid>049c3d9f-6afa-4967-aa60-496be1286bb8</recordtableid>
     </None>
+    <None Include="Emision\SinAsistenciaMecanica.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>44b3d8df-b69f-44c7-861f-624f38e78565</id>
+      <recordtableid>aea33a7c-b265-4357-910b-ea540d6569eb</recordtableid>
+    </None>
     <None Include="Emision\SolicitudPoliza_BuscarGrupo.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>bf81bfa8-78df-4507-a9d7-01aeb629d070</id>
@@ -2577,6 +2606,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>140715a7-8a43-400e-a6a1-1a9a1240727f</id>
       <recordtableid>e4d58108-8cec-4d52-8288-3a8b254d536e</recordtableid>
+    </None>
+    <None Include="Emision\Vehiculos_0km.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>a83bb4e5-9435-463d-81e9-b4fb0a12f507</id>
+      <recordtableid>1f20520d-a1fc-470e-ad44-de1143cf9207</recordtableid>
     </None>
     <None Include="Emision\Vivienda_Enlatada.rxrec">
       <id>02300b95-4bda-484b-88ca-df46f7fd5890</id>

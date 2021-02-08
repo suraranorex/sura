@@ -5390,6 +5390,7 @@ namespace Sura
             SuraRepositoryFolders.AccesoriosFolder _accesorios;
             SuraRepositoryFolders.CoberturasAdicionalesFolder _coberturasadicionales;
             SuraRepositoryFolders.ValidacionMarcaModeloFolder _validacionmarcamodelo;
+            RepoItemInfo _txt_proveedorasistmecanicavisibleInfo;
 
             /// <summary>
             /// Creates a new PolizaMotor  folder.
@@ -5405,6 +5406,7 @@ namespace Sura
                 _accesorios = new SuraRepositoryFolders.AccesoriosFolder(this);
                 _coberturasadicionales = new SuraRepositoryFolders.CoberturasAdicionalesFolder(this);
                 _validacionmarcamodelo = new SuraRepositoryFolders.ValidacionMarcaModeloFolder(this);
+                _txt_proveedorasistmecanicavisibleInfo = new RepoItemInfo(this, "txt_ProveedorAsistMecanicaVisible", ".//tbody[#'centerPanel-tbody']//input[@class~'x-form-field x-form-text x-form-text-default' and @visible='True']", 30000, null, "41bc76db-ae39-403f-bb96-402fffbf2524");
             }
 
             /// <summary>
@@ -5416,6 +5418,30 @@ namespace Sura
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_ProveedorAsistMecanicaVisible item.
+            /// </summary>
+            [RepositoryItem("41bc76db-ae39-403f-bb96-402fffbf2524")]
+            public virtual Ranorex.InputTag txt_ProveedorAsistMecanicaVisible
+            {
+                get
+                {
+                    return _txt_proveedorasistmecanicavisibleInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_ProveedorAsistMecanicaVisible item info.
+            /// </summary>
+            [RepositoryItemInfo("41bc76db-ae39-403f-bb96-402fffbf2524")]
+            public virtual RepoItemInfo txt_ProveedorAsistMecanicaVisibleInfo
+            {
+                get
+                {
+                    return _txt_proveedorasistmecanicavisibleInfo;
                 }
             }
 
@@ -7687,6 +7713,8 @@ namespace Sura
             RepoItemInfo _copy_of_optiondanioporgranizoInfo;
             RepoItemInfo _optioncampospetroliferosInfo;
             RepoItemInfo _copy_of_optioncampospetroliferosInfo;
+            RepoItemInfo _proveedorInfo;
+            RepoItemInfo _lbl_proveedorInfo;
 
             /// <summary>
             /// Creates a new CoberturasAdicionales  folder.
@@ -7700,6 +7728,8 @@ namespace Sura
                 _copy_of_optiondanioporgranizoInfo = new RepoItemInfo(this, "Copy_of_OptionDanioPorGranizo", ".//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody//legend/div[@innertext='Daño por Granizo']/../..//input[@type='button']/../..//input[@data-tabindexsaved='True']", 30000, null, "c3f074fc-e755-456c-aa24-46161aac88d1");
                 _optioncampospetroliferosInfo = new RepoItemInfo(this, "OptionCamposPetroliferos", ".//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody//legend/div[@innertext>'CA-RC 5.2 Ampliación RC Ingreso']/../..//input[@type='button']", 30000, null, "c21373e7-e421-4d60-b812-b1a34a88ce71");
                 _copy_of_optioncampospetroliferosInfo = new RepoItemInfo(this, "Copy_of_OptionCamposPetroliferos", ".//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody//legend/div[@innertext>'CA-RC 5.2 Ampliación RC Ingreso']/../..//input[@type='button']/../..//input[@data-tabindexsaved='True']", 30000, null, "e718f991-d4f4-41dc-aa9a-d3294d4b5acb");
+                _proveedorInfo = new RepoItemInfo(this, "Proveedor", ".//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/div/table//div/table//div/table/tbody/tr[12]//div/div/div/?/?/label/span[@innertext='Proveedor']", 30000, null, "f84c2d65-0c03-4c5b-8ff6-f8cc8272ba1d");
+                _lbl_proveedorInfo = new RepoItemInfo(this, "lbl_Proveedor", ".//div[#'SubmissionWizard/VehicleList']//span[@innertext='Proveedor']", 30000, null, "9caa45bd-7834-49de-932d-58583087b85b");
             }
 
             /// <summary>
@@ -7867,6 +7897,54 @@ namespace Sura
                 get
                 {
                     return _copy_of_optioncampospetroliferosInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Proveedor item.
+            /// </summary>
+            [RepositoryItem("f84c2d65-0c03-4c5b-8ff6-f8cc8272ba1d")]
+            public virtual Ranorex.SpanTag Proveedor
+            {
+                get
+                {
+                    return _proveedorInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Proveedor item info.
+            /// </summary>
+            [RepositoryItemInfo("f84c2d65-0c03-4c5b-8ff6-f8cc8272ba1d")]
+            public virtual RepoItemInfo ProveedorInfo
+            {
+                get
+                {
+                    return _proveedorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lbl_Proveedor item.
+            /// </summary>
+            [RepositoryItem("9caa45bd-7834-49de-932d-58583087b85b")]
+            public virtual Ranorex.SpanTag lbl_Proveedor
+            {
+                get
+                {
+                    return _lbl_proveedorInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lbl_Proveedor item info.
+            /// </summary>
+            [RepositoryItemInfo("9caa45bd-7834-49de-932d-58583087b85b")]
+            public virtual RepoItemInfo lbl_ProveedorInfo
+            {
+                get
+                {
+                    return _lbl_proveedorInfo;
                 }
             }
         }
@@ -9971,7 +10049,6 @@ namespace Sura
             RepoItemInfo _cotizarInfo;
             RepoItemInfo _sumaaseguradaInfo;
             RepoItemInfo _sumaaseguradacoberturahogarantInfo;
-            RepoItemInfo _txt_proveedorasistmecanicavisibleInfo;
             RepoItemInfo _txt_proveedorasistmecanicainvisibleInfo;
             RepoItemInfo _copy_of_txt_proveedorasistmecanicaInfo;
             RepoItemInfo _sumaaseguradacoberturahogarInfo;
@@ -10016,7 +10093,6 @@ namespace Sura
                 _cotizarInfo = new RepoItemInfo(this, "Cotizar", ".//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[2]/td/div/div/div//span[@innertext='Cotiar']", 30000, null, "a6ca23fd-d1b8-4a3f-9267-b9ce38df0fd8");
                 _sumaaseguradaInfo = new RepoItemInfo(this, "SumaAsegurada", ".//tbody[#'centerPanel-tbody']//table/tbody/tr[5]/td/div/div[2]/?/?/table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[1]//table/tbody/tr[2]/td/div/table/tbody/tr[1]/td/fieldset/div/div/div/div/div/div/div[2]//input[@name='SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:HOCoveragesHOEScreen:HomeownersListDetailPanel:HOMainCoveragesHOEPanelSet:coveragePatterIterId1:0:HOCoverageInputSet:PostOnChangeCovPatternInputGroup:0:CovTermInputSet:DirectTermInputPostOnChangeMoney']", 30000, null, "14e8a52f-e554-44fa-b746-43c8eafa95dc");
                 _sumaaseguradacoberturahogarantInfo = new RepoItemInfo(this, "SumaAseguradaCoberturaHogarAnt", ".//tbody[#'centerPanel-tbody']//table/tbody//input[@class~'x-form-field x-form-text x-form-text-default' and @visible='True']", 30000, null, "0d093c32-2db9-480d-af74-aee638af536b");
-                _txt_proveedorasistmecanicavisibleInfo = new RepoItemInfo(this, "txt_ProveedorAsistMecanicaVisible", ".//tbody[#'centerPanel-tbody']//input[@class~'x-form-field x-form-text x-form-text-default' and @visible='True']", 30000, null, "41bc76db-ae39-403f-bb96-402fffbf2524");
                 _txt_proveedorasistmecanicainvisibleInfo = new RepoItemInfo(this, "txt_ProveedorAsistMecanicaInvisible", ".//tbody[#'centerPanel-tbody']//div[@class='x-panel x-panel-default']//tbody[@visible='true']//input[@class~'x-form-field x-form-text x-form-text-default']", 30000, null, "5d620178-98e5-4124-939c-83f1ca0dda7d");
                 _copy_of_txt_proveedorasistmecanicaInfo = new RepoItemInfo(this, "Copy_of_txt_ProveedorAsistMecanica", ".//tbody[#'centerPanel-tbody']//table/tbody//input[@class~'x-form-field x-form-text x-form-text-default' and @visible='True' and @data-tabindexsaved='True']", 30000, null, "88490465-8689-49e8-a602-4c1064122375");
                 _sumaaseguradacoberturahogarInfo = new RepoItemInfo(this, "SumaAseguradaCoberturaHogar", ".//tbody[#'centerPanel-tbody']//table/tbody//legend/div[@innertext=$NombreCoberturaHogar]/../..//input[@class~'x-form-field x-form-text x-form-text-default']", 30000, null, "ed8a4db3-0ad6-4c42-9a90-284bd8dc9311");
@@ -10203,30 +10279,6 @@ namespace Sura
                 get
                 {
                     return _sumaaseguradacoberturahogarantInfo;
-                }
-            }
-
-            /// <summary>
-            /// The txt_ProveedorAsistMecanicaVisible item.
-            /// </summary>
-            [RepositoryItem("41bc76db-ae39-403f-bb96-402fffbf2524")]
-            public virtual Ranorex.InputTag txt_ProveedorAsistMecanicaVisible
-            {
-                get
-                {
-                    return _txt_proveedorasistmecanicavisibleInfo.CreateAdapter<Ranorex.InputTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The txt_ProveedorAsistMecanicaVisible item info.
-            /// </summary>
-            [RepositoryItemInfo("41bc76db-ae39-403f-bb96-402fffbf2524")]
-            public virtual RepoItemInfo txt_ProveedorAsistMecanicaVisibleInfo
-            {
-                get
-                {
-                    return _txt_proveedorasistmecanicavisibleInfo;
                 }
             }
 

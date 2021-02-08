@@ -3894,6 +3894,55 @@
             Gets or sets the value of variable Ambiente.
             </summary>
         </member>
+        <member name="T:Sura.Emision.SinAsistenciaMecanica">
+             <summary>
+            The SinAsistenciaMecanica recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Emision.SinAsistenciaMecanica.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.SinAsistenciaMecanica.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.SinAsistenciaMecanica.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Emision.SinAsistenciaMecanica.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.SinAsistenciaMecanica.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Emision.SinAsistenciaMecanica.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.SinAsistenciaMecanica.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.SinAsistenciaMecanica.AsistenciaMecanica">
+            <summary>
+            Gets or sets the value of variable AsistenciaMecanica.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.SinAsistenciaMecanica.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
         <member name="T:Sura.Emision.SolicitudPoliza_BuscarGrupo">
              <summary>
             The SolicitudPoliza_BuscarGrupo recording.
@@ -4494,6 +4543,95 @@
         <member name="P:Sura.Emision.VehiculosFlota_Parte2.NroTransaccion">
             <summary>
             Gets or sets the value of variable NroTransaccion.
+            </summary>
+        </member>
+        <member name="T:Sura.Emision.Vehiculos_0km">
+             <summary>
+            The Vehiculos_0km recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Emision.Vehiculos_0km.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.Vehiculos_0km.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.Vehiculos_0km.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Emision.Vehiculos_0km.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.Vehiculos_0km.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Emision.Vehiculos_0km.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_0km.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_0km.Actividad">
+            <summary>
+            Gets or sets the value of variable Actividad.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_0km.Patente">
+            <summary>
+            Gets or sets the value of variable Patente.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_0km.Motor">
+            <summary>
+            Gets or sets the value of variable Motor.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_0km.Chasis">
+            <summary>
+            Gets or sets the value of variable Chasis.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_0km.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_0km.Anio">
+            <summary>
+            Gets or sets the value of variable Anio.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_0km.Marca">
+            <summary>
+            Gets or sets the value of variable Marca.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_0km.Modelo">
+            <summary>
+            Gets or sets the value of variable Modelo.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_0km.SumaAsegurada">
+            <summary>
+            Gets or sets the value of variable SumaAsegurada.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_0km.Producto">
+            <summary>
+            Gets or sets the value of variable Producto.
             </summary>
         </member>
         <member name="T:Sura.Emision.Vivienda_Enlatada">
@@ -10585,6 +10723,16 @@
             The Self item info.
             </summary>
         </member>
+        <member name="P:Sura.SuraRepositoryFolders.PolizaMotorFolder.txt_ProveedorAsistMecanicaVisible">
+            <summary>
+            The txt_ProveedorAsistMecanicaVisible item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PolizaMotorFolder.txt_ProveedorAsistMecanicaVisibleInfo">
+            <summary>
+            The txt_ProveedorAsistMecanicaVisible item info.
+            </summary>
+        </member>
         <member name="P:Sura.SuraRepositoryFolders.PolizaMotorFolder.InformacionDePoliza">
             <summary>
             The InformacionDePoliza folder.
@@ -11575,6 +11723,26 @@
             The Copy_of_OptionCamposPetroliferos item info.
             </summary>
         </member>
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.Proveedor">
+            <summary>
+            The Proveedor item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.ProveedorInfo">
+            <summary>
+            The Proveedor item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.lbl_Proveedor">
+            <summary>
+            The lbl_Proveedor item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.lbl_ProveedorInfo">
+            <summary>
+            The lbl_Proveedor item info.
+            </summary>
+        </member>
         <member name="T:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder">
             <summary>
             The ValidacionMarcaModeloFolder folder.
@@ -12498,16 +12666,6 @@
         <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.SumaAseguradaCoberturaHogarAntInfo">
             <summary>
             The SumaAseguradaCoberturaHogarAnt item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.txt_ProveedorAsistMecanicaVisible">
-            <summary>
-            The txt_ProveedorAsistMecanicaVisible item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.txt_ProveedorAsistMecanicaVisibleInfo">
-            <summary>
-            The txt_ProveedorAsistMecanicaVisible item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.txt_ProveedorAsistMecanicaInvisible">
