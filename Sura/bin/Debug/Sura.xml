@@ -4619,6 +4619,95 @@
             Gets or sets the value of variable SumaAccesorio.
             </summary>
         </member>
+        <member name="T:Sura.Endosos.AgregarVehiculos">
+             <summary>
+            The AgregarVehiculos recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Endosos.AgregarVehiculos.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.AgregarVehiculos.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.AgregarVehiculos.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Endosos.AgregarVehiculos.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.AgregarVehiculos.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Endosos.AgregarVehiculos.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Actividad">
+            <summary>
+            Gets or sets the value of variable Actividad.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Patente">
+            <summary>
+            Gets or sets the value of variable Patente.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Motor">
+            <summary>
+            Gets or sets the value of variable Motor.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Chasis">
+            <summary>
+            Gets or sets the value of variable Chasis.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Anio">
+            <summary>
+            Gets or sets the value of variable Anio.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Marca">
+            <summary>
+            Gets or sets the value of variable Marca.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Modelo">
+            <summary>
+            Gets or sets the value of variable Modelo.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.SumaAsegurada">
+            <summary>
+            Gets or sets the value of variable SumaAsegurada.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Producto">
+            <summary>
+            Gets or sets the value of variable Producto.
+            </summary>
+        </member>
         <member name="T:Sura.Endosos.AltaEndoso">
              <summary>
             The AltaEndoso recording.
@@ -5591,6 +5680,99 @@
         <member name="P:Sura.Endosos.Cotizar_Endoso_Hogar_Exclusion_Inclusion_de_Riesgo.Ambiente">
             <summary>
             Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.Endosos.EliminarVehiculo">
+             <summary>
+            The EliminarVehiculo recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Endosos.EliminarVehiculo.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.EliminarVehiculo.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.EliminarVehiculo.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Endosos.EliminarVehiculo.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.EliminarVehiculo.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Endosos.EliminarVehiculo.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.EliminarVehiculo.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.EliminarVehiculo.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.Endosos.SeleccionarVehiculos">
+             <summary>
+            The SeleccionarVehiculos recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Endosos.SeleccionarVehiculos.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.SeleccionarVehiculos.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.SeleccionarVehiculos.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Endosos.SeleccionarVehiculos.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.SeleccionarVehiculos.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Endosos.SeleccionarVehiculos.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.SeleccionarVehiculos.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.SeleccionarVehiculos.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.SeleccionarVehiculos.NUM_VEHICULO">
+            <summary>
+            Gets or sets the value of variable NUM_VEHICULO.
             </summary>
         </member>
         <member name="T:Sura.Endosos.EmitirEndoso">
@@ -7284,6 +7466,95 @@
             Gets or sets the value of variable Ambiente.
             </summary>
         </member>
+        <member name="T:Sura.Endosos.Vehiculos_Endoso">
+             <summary>
+            The Vehiculos_Endoso recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Endosos.Vehiculos_Endoso.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.Vehiculos_Endoso.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.Vehiculos_Endoso.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Endosos.Vehiculos_Endoso.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.Vehiculos_Endoso.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Endosos.Vehiculos_Endoso.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.Vehiculos_Endoso.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.Vehiculos_Endoso.Actividad">
+            <summary>
+            Gets or sets the value of variable Actividad.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.Vehiculos_Endoso.Patente">
+            <summary>
+            Gets or sets the value of variable Patente.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.Vehiculos_Endoso.Motor">
+            <summary>
+            Gets or sets the value of variable Motor.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.Vehiculos_Endoso.Chasis">
+            <summary>
+            Gets or sets the value of variable Chasis.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.Vehiculos_Endoso.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.Vehiculos_Endoso.Anio">
+            <summary>
+            Gets or sets the value of variable Anio.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.Vehiculos_Endoso.Marca">
+            <summary>
+            Gets or sets the value of variable Marca.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.Vehiculos_Endoso.Modelo">
+            <summary>
+            Gets or sets the value of variable Modelo.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.Vehiculos_Endoso.SumaAsegurada">
+            <summary>
+            Gets or sets the value of variable SumaAsegurada.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.Vehiculos_Endoso.Producto">
+            <summary>
+            Gets or sets the value of variable Producto.
+            </summary>
+        </member>
         <member name="T:Sura.Endosos.Vehiculos_ModifAsistencia">
              <summary>
             The Vehiculos_ModifAsistencia recording.
@@ -7557,6 +7828,266 @@
             <remarks>You should not call this method directly, instead pass the module
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Sura.GestionDocumental.VerFormulario_Cotizada">
+             <summary>
+            The VerFormulario_Cotizada recording.
+             </summary>
+        </member>
+        <member name="F:Sura.GestionDocumental.VerFormulario_Cotizada.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_Cotizada.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_Cotizada.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.GestionDocumental.VerFormulario_Cotizada.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_Cotizada.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_Cotizada.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_Cotizada.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_Cotizada.NombreArchivo">
+            <summary>
+            Gets or sets the value of variable NombreArchivo.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_Cotizada.NumeroPoliza">
+            <summary>
+            Gets or sets the value of variable NumeroPoliza.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_Cotizada.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.GestionDocumental.MenuLateral_Formularios">
+             <summary>
+            The MenuLateral_Formularios recording.
+             </summary>
+        </member>
+        <member name="F:Sura.GestionDocumental.MenuLateral_Formularios.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.MenuLateral_Formularios.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.MenuLateral_Formularios.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.GestionDocumental.MenuLateral_Formularios.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.MenuLateral_Formularios.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.GestionDocumental.MenuLateral_Formularios.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.MenuLateral_Formularios.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.MenuLateral_Formularios.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.GestionDocumental.VerFormulario_CotizadaFlota">
+             <summary>
+            The VerFormulario_CotizadaFlota recording.
+             </summary>
+        </member>
+        <member name="F:Sura.GestionDocumental.VerFormulario_CotizadaFlota.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_CotizadaFlota.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_CotizadaFlota.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.GestionDocumental.VerFormulario_CotizadaFlota.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_CotizadaFlota.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_CotizadaFlota.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_CotizadaFlota.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_CotizadaFlota.NombreArchivo">
+            <summary>
+            Gets or sets the value of variable NombreArchivo.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_CotizadaFlota.NumeroPoliza">
+            <summary>
+            Gets or sets the value of variable NumeroPoliza.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_CotizadaFlota.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.GestionDocumental.VerFormulario_Emitida">
+             <summary>
+            The VerFormulario_Emitida recording.
+             </summary>
+        </member>
+        <member name="F:Sura.GestionDocumental.VerFormulario_Emitida.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_Emitida.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_Emitida.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.GestionDocumental.VerFormulario_Emitida.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_Emitida.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_Emitida.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_Emitida.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_Emitida.NombreArchivo">
+            <summary>
+            Gets or sets the value of variable NombreArchivo.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_Emitida.NumeroPoliza">
+            <summary>
+            Gets or sets the value of variable NumeroPoliza.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_Emitida.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.GestionDocumental.VerFormulario_EmitidaFlota">
+             <summary>
+            The VerFormulario_EmitidaFlota recording.
+             </summary>
+        </member>
+        <member name="F:Sura.GestionDocumental.VerFormulario_EmitidaFlota.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_EmitidaFlota.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_EmitidaFlota.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.GestionDocumental.VerFormulario_EmitidaFlota.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_EmitidaFlota.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_EmitidaFlota.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_EmitidaFlota.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_EmitidaFlota.NombreArchivo">
+            <summary>
+            Gets or sets the value of variable NombreArchivo.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_EmitidaFlota.NumeroPoliza">
+            <summary>
+            Gets or sets the value of variable NumeroPoliza.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_EmitidaFlota.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
         </member>
         <member name="T:Sura.Menu.MenuLateral_CuentaBC">
              <summary>
@@ -8665,9 +9196,34 @@
             Gets or sets the value of variable NumPoliza.
             </summary>
         </member>
+        <member name="P:Sura.SuraRepository.Formulario">
+            <summary>
+            Gets or sets the value of variable Formulario.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepository.NumVehiculo">
+            <summary>
+            Gets or sets the value of variable NumVehiculo.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepository.NUM_VEHICULO">
+            <summary>
+            Gets or sets the value of variable NUM_VEHICULO.
+            </summary>
+        </member>
         <member name="P:Sura.SuraRepository.SelfInfo">
             <summary>
             The Self item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepository.bttn_CerrarPestaniaFormulario">
+            <summary>
+            The bttn_CerrarPestaniaFormulario item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepository.bttn_CerrarPestaniaFormularioInfo">
+            <summary>
+            The bttn_CerrarPestaniaFormulario item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepository.SURA">
@@ -8688,6 +9244,21 @@
         <member name="P:Sura.SuraRepository.VentanaEmergente_Examinar">
             <summary>
             The VentanaEmergente_Examinar folder.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepository.Chrome">
+            <summary>
+            The Chrome folder.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepository.GuardarComo">
+            <summary>
+            The GuardarComo folder.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepository.WebDocumentModoDEV903185Guidew">
+            <summary>
+            The WebDocumentModoDEV903185Guidew folder.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders">
@@ -9013,36 +9584,6 @@
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_AceptarInfo">
             <summary>
             The bttn_Aceptar item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_cbo_UbicacionRiesgo">
-            <summary>
-            The Copy_of_cbo_UbicacionRiesgo item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_cbo_UbicacionRiesgoInfo">
-            <summary>
-            The Copy_of_cbo_UbicacionRiesgo item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.UbicacionRiesgo">
-            <summary>
-            The UbicacionRiesgo item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.UbicacionRiesgoInfo">
-            <summary>
-            The UbicacionRiesgo item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.cbo_UbicacionRiesgo">
-            <summary>
-            The cbo_UbicacionRiesgo item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.cbo_UbicacionRiesgoInfo">
-            <summary>
-            The cbo_UbicacionRiesgo item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_cbo_TipoDeVivienda">
@@ -9375,26 +9916,6 @@
             The Copy_of_txtxbox_Plan item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_Actividad">
-            <summary>
-            The txtbox_Actividad item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_ActividadInfo">
-            <summary>
-            The txtbox_Actividad item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Pantalla">
-            <summary>
-            The Pantalla item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.PantallaInfo">
-            <summary>
-            The Pantalla item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txt_FechaNacConductor">
             <summary>
             The txt_FechaNacConductor item.
@@ -9403,56 +9924,6 @@
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txt_FechaNacConductorInfo">
             <summary>
             The txt_FechaNacConductor item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_Actividad">
-            <summary>
-            The Copy_of_txtbox_Actividad item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_ActividadInfo">
-            <summary>
-            The Copy_of_txtbox_Actividad item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_CantidadVigente">
-            <summary>
-            The txtbox_CantidadVigente item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_CantidadVigenteInfo">
-            <summary>
-            The txtbox_CantidadVigente item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_CantidadVigente">
-            <summary>
-            The Copy_of_txtbox_CantidadVigente item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_CantidadVigenteInfo">
-            <summary>
-            The Copy_of_txtbox_CantidadVigente item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_SumaAsegurada">
-            <summary>
-            The txtbox_SumaAsegurada item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_SumaAseguradaInfo">
-            <summary>
-            The txtbox_SumaAsegurada item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_SumaAsegurada">
-            <summary>
-            The Copy_of_txtbox_SumaAsegurada item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_SumaAseguradaInfo">
-            <summary>
-            The Copy_of_txtbox_SumaAsegurada item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_InformacionAsegurado">
@@ -9615,16 +10086,6 @@
             The txtbox_NumSolicitudPoliza item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_Personas">
-            <summary>
-            The bttn_Personas item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_PersonasInfo">
-            <summary>
-            The bttn_Personas item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txt_Personas">
             <summary>
             The txt_Personas item.
@@ -9635,26 +10096,6 @@
             The txt_Personas item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_Importar">
-            <summary>
-            The bttn_Importar item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_ImportarInfo">
-            <summary>
-            The bttn_Importar item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_Examinar">
-            <summary>
-            The bttn_Examinar item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_ExaminarInfo">
-            <summary>
-            The bttn_Examinar item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txt_ImportarDeLaHojaDeCalculo">
             <summary>
             The txt_ImportarDeLaHojaDeCalculo item.
@@ -9663,116 +10104,6 @@
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txt_ImportarDeLaHojaDeCalculoInfo">
             <summary>
             The txt_ImportarDeLaHojaDeCalculo item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_AceptarCambios">
-            <summary>
-            The bttn_AceptarCambios item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_AceptarCambiosInfo">
-            <summary>
-            The bttn_AceptarCambios item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_Anio">
-            <summary>
-            The txtbox_Anio item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_AnioInfo">
-            <summary>
-            The txtbox_Anio item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.lbl_Reload">
-            <summary>
-            The lbl_Reload item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.lbl_ReloadInfo">
-            <summary>
-            The lbl_Reload item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_Anio">
-            <summary>
-            The Copy_of_txtbox_Anio item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_AnioInfo">
-            <summary>
-            The Copy_of_txtbox_Anio item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_Marca">
-            <summary>
-            The txtbox_Marca item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_MarcaInfo">
-            <summary>
-            The txtbox_Marca item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_Marca">
-            <summary>
-            The Copy_of_txtbox_Marca item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_MarcaInfo">
-            <summary>
-            The Copy_of_txtbox_Marca item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_Modelo">
-            <summary>
-            The txtbox_Modelo item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_ModeloInfo">
-            <summary>
-            The txtbox_Modelo item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_Modelo">
-            <summary>
-            The Copy_of_txtbox_Modelo item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_ModeloInfo">
-            <summary>
-            The Copy_of_txtbox_Modelo item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_SumaAsegurada1">
-            <summary>
-            The Copy_of_txtbox_SumaAsegurada1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_SumaAsegurada1Info">
-            <summary>
-            The Copy_of_txtbox_SumaAsegurada1 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_Producto">
-            <summary>
-            The txtbox_Producto item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_ProductoInfo">
-            <summary>
-            The txtbox_Producto item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_Producto">
-            <summary>
-            The Copy_of_txtbox_Producto item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_ProductoInfo">
-            <summary>
-            The Copy_of_txtbox_Producto item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_Patente">
@@ -9885,16 +10216,6 @@
             The lbl_Personas item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_Aceptar1">
-            <summary>
-            The bttn_Aceptar1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_Aceptar1Info">
-            <summary>
-            The bttn_Aceptar1 item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_cbo_TipoVivienda">
             <summary>
             The Copy_of_cbo_TipoVivienda item.
@@ -9923,36 +10244,6 @@
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.PantallaViviendaInfo">
             <summary>
             The PantallaVivienda item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.ProductosDisponibles">
-            <summary>
-            The ProductosDisponibles item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.ProductosDisponiblesInfo">
-            <summary>
-            The ProductosDisponibles item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Detalles">
-            <summary>
-            The Detalles item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.DetallesInfo">
-            <summary>
-            The Detalles item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.SubmissionWizardLOBWizardStepGroupLine">
-            <summary>
-            The SubmissionWizardLOBWizardStepGroupLine item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.SubmissionWizardLOBWizardStepGroupLineInfo">
-            <summary>
-            The SubmissionWizardLOBWizardStepGroupLine item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.TxtSumaAseguradaMovilidad">
@@ -10005,16 +10296,6 @@
             The Inspecciones1 item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.CoordinarInspeccion">
-            <summary>
-            The CoordinarInspeccion item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.CoordinarInspeccionInfo">
-            <summary>
-            The CoordinarInspeccion item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.CoordinarInspeccionaEndosoABM">
             <summary>
             The CoordinarInspeccionaEndosoABM item.
@@ -10065,116 +10346,6 @@
             The txt_clausulaAjuste item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Button">
-            <summary>
-            The Button item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.ButtonInfo">
-            <summary>
-            The Button item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Provincia1">
-            <summary>
-            The Provincia1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Provincia1Info">
-            <summary>
-            The Provincia1 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_cbo_Localidad21">
-            <summary>
-            The Copy_of_cbo_Localidad21 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_cbo_Localidad21Info">
-            <summary>
-            The Copy_of_cbo_Localidad21 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.cbo_Localidad1">
-            <summary>
-            The cbo_Localidad1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.cbo_Localidad1Info">
-            <summary>
-            The cbo_Localidad1 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.cbo_UbicacionNueva1">
-            <summary>
-            The cbo_UbicacionNueva1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.cbo_UbicacionNueva1Info">
-            <summary>
-            The cbo_UbicacionNueva1 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_UbicacionNueva1">
-            <summary>
-            The Copy_of_UbicacionNueva1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_UbicacionNueva1Info">
-            <summary>
-            The Copy_of_UbicacionNueva1 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.UbicacionNueva1">
-            <summary>
-            The UbicacionNueva1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.UbicacionNueva1Info">
-            <summary>
-            The UbicacionNueva1 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txt_InformacionDeUbicacion">
-            <summary>
-            The txt_InformacionDeUbicacion item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txt_InformacionDeUbicacionInfo">
-            <summary>
-            The txt_InformacionDeUbicacion item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.imp_NvaProvincia1">
-            <summary>
-            The imp_NvaProvincia1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.imp_NvaProvincia1Info">
-            <summary>
-            The imp_NvaProvincia1 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_imp_NvaProvincia1">
-            <summary>
-            The Copy_of_imp_NvaProvincia1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_imp_NvaProvincia1Info">
-            <summary>
-            The Copy_of_imp_NvaProvincia1 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Imp_NvaLocalidad1">
-            <summary>
-            The Imp_NvaLocalidad1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Imp_NvaLocalidad1Info">
-            <summary>
-            The Imp_NvaLocalidad1 item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_Imp_NvaLocalidad">
             <summary>
             The Copy_of_Imp_NvaLocalidad item.
@@ -10183,16 +10354,6 @@
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_Imp_NvaLocalidadInfo">
             <summary>
             The Copy_of_Imp_NvaLocalidad item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.imp_NvaCalle1">
-            <summary>
-            The imp_NvaCalle1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.imp_NvaCalle1Info">
-            <summary>
-            The imp_NvaCalle1 item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_imp_NvaCalle">
@@ -10205,16 +10366,6 @@
             The Copy_of_imp_NvaCalle item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.imp_NvoNro1">
-            <summary>
-            The imp_NvoNro1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.imp_NvoNro1Info">
-            <summary>
-            The imp_NvoNro1 item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_imp_NvoNro">
             <summary>
             The Copy_of_imp_NvoNro item.
@@ -10223,76 +10374,6 @@
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_imp_NvoNroInfo">
             <summary>
             The Copy_of_imp_NvoNro item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_bttn_Aceptar3">
-            <summary>
-            The Copy_of_bttn_Aceptar3 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_bttn_Aceptar3Info">
-            <summary>
-            The Copy_of_bttn_Aceptar3 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_Aceptar3">
-            <summary>
-            The bttn_Aceptar3 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_Aceptar3Info">
-            <summary>
-            The bttn_Aceptar3 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.TipoDeVivienda1">
-            <summary>
-            The TipoDeVivienda1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.TipoDeVivienda1Info">
-            <summary>
-            The TipoDeVivienda1 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Producto1">
-            <summary>
-            The Producto1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Producto1Info">
-            <summary>
-            The Producto1 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_cbo_Plan_Planta">
-            <summary>
-            The Copy_of_cbo_Plan_Planta item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_cbo_Plan_PlantaInfo">
-            <summary>
-            The Copy_of_cbo_Plan_Planta item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Plan_Planta1">
-            <summary>
-            The Plan_Planta1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Plan_Planta1Info">
-            <summary>
-            The Plan_Planta1 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.TipoDeConstruccion1">
-            <summary>
-            The TipoDeConstruccion1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.TipoDeConstruccion1Info">
-            <summary>
-            The TipoDeConstruccion1 item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.imp_NvaProvincia2">
@@ -10475,6 +10556,26 @@
             The Self item info.
             </summary>
         </member>
+        <member name="P:Sura.SuraRepositoryFolders.PCFolder1.checkVehiculo">
+            <summary>
+            The checkVehiculo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PCFolder1.checkVehiculoInfo">
+            <summary>
+            The checkVehiculo item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PCFolder1.DataImageGifBase64R0lGODlhAQABAIDAM">
+            <summary>
+            The DataImageGifBase64R0lGODlhAQABAIDAM item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PCFolder1.DataImageGifBase64R0lGODlhAQABAIDAMInfo">
+            <summary>
+            The DataImageGifBase64R0lGODlhAQABAIDAM item info.
+            </summary>
+        </member>
         <member name="P:Sura.SuraRepositoryFolders.PCFolder1.Emision">
             <summary>
             The Emision folder.
@@ -10498,6 +10599,11 @@
         <member name="P:Sura.SuraRepositoryFolders.PCFolder1.Menu">
             <summary>
             The Menu folder.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PCFolder1.GestionDocumental">
+            <summary>
+            The GestionDocumental folder.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.EmisionFolder">
@@ -10625,16 +10731,6 @@
             The Copy_of_txt_Tipo_Plan item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder.Copy_of_option_Pago">
-            <summary>
-            The Copy_of_option_Pago item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder.Copy_of_option_PagoInfo">
-            <summary>
-            The Copy_of_option_Pago item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder.listCantCuotas">
             <summary>
             The listCantCuotas item.
@@ -10693,16 +10789,6 @@
         <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder.list_MetodoDePagoInfo">
             <summary>
             The list_MetodoDePago item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder.ItemMetodoDePago">
-            <summary>
-            The ItemMetodoDePago item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder.ItemMetodoDePagoInfo">
-            <summary>
-            The ItemMetodoDePago item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder.lbl_NroDeVehiculo">
@@ -11125,11 +11211,6 @@
             The Accesorios folder.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.PolizaMotorFolder.Bloqueos">
-            <summary>
-            The Bloqueos folder.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.PolizaMotorFolder.CoberturasAdicionales">
             <summary>
             The CoberturasAdicionales folder.
@@ -11415,16 +11496,6 @@
             The Copy_of_txt_Dir_Calle_TipoPago item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.lbl_ValidacionDireccionCtaAnonima">
-            <summary>
-            The lbl_ValidacionDireccionCtaAnonima item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.lbl_ValidacionDireccionCtaAnonimaInfo">
-            <summary>
-            The lbl_ValidacionDireccionCtaAnonima item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1.Arrow_Select_ProvinciaCtaAnonima">
             <summary>
             The Arrow_Select_ProvinciaCtaAnonima item.
@@ -11498,16 +11569,6 @@
         <member name="P:Sura.SuraRepositoryFolders.SolicitudDePolizaNuevaFolder.lbl_TituloCargaDocumentosInfo">
             <summary>
             The lbl_TituloCargaDocumentos item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SolicitudDePolizaNuevaFolder.NewItem">
-            <summary>
-            The NewItem item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SolicitudDePolizaNuevaFolder.NewItemInfo">
-            <summary>
-            The NewItem item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.SolicitudDePolizaNuevaFolder.CodPASCuenta">
@@ -11860,16 +11921,6 @@
             The txt_TipoInspeccion item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.InspeccionesFolder.Copy_of_txt_TipoInspeccion">
-            <summary>
-            The Copy_of_txt_TipoInspeccion item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.InspeccionesFolder.Copy_of_txt_TipoInspeccionInfo">
-            <summary>
-            The Copy_of_txt_TipoInspeccion item info.
-            </summary>
-        </member>
         <member name="T:Sura.SuraRepositoryFolders.FlotaFolder">
             <summary>
             The FlotaFolder folder.
@@ -11883,36 +11934,6 @@
         <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.SelfInfo">
             <summary>
             The Self item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.bttn_DescargarHojaDeCalculo">
-            <summary>
-            The bttn_DescargarHojaDeCalculo item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.bttn_DescargarHojaDeCalculoInfo">
-            <summary>
-            The bttn_DescargarHojaDeCalculo item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.bttn_ExportarAHojaCalculo">
-            <summary>
-            The bttn_ExportarAHojaCalculo item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.bttn_ExportarAHojaCalculoInfo">
-            <summary>
-            The bttn_ExportarAHojaCalculo item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.bttn_VolverAVehiculos">
-            <summary>
-            The bttn_VolverAVehiculos item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.bttn_VolverAVehiculosInfo">
-            <summary>
-            The bttn_VolverAVehiculos item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.bttn_Importar">
@@ -11933,6 +11954,26 @@
         <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.rdo_0KmInfo">
             <summary>
             The rdo_0Km item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.rdo_0Km2">
+            <summary>
+            The rdo_0Km2 item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.rdo_0Km2Info">
+            <summary>
+            The rdo_0Km2 item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.Copy_of_rdo_0Km2">
+            <summary>
+            The Copy_of_rdo_0Km2 item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.Copy_of_rdo_0Km2Info">
+            <summary>
+            The Copy_of_rdo_0Km2 item info.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.AccesoriosFolder">
@@ -11978,16 +12019,6 @@
         <member name="P:Sura.SuraRepositoryFolders.AccesoriosFolder.CboMontoMovilidadInfo">
             <summary>
             The CboMontoMovilidad item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.AccesoriosFolder.CheckMovilidad">
-            <summary>
-            The CheckMovilidad item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.AccesoriosFolder.CheckMovilidadInfo">
-            <summary>
-            The CheckMovilidad item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.AccesoriosFolder.OptionCobAdicional">
@@ -12060,26 +12091,6 @@
             The txt_Suma_Accesorio item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.AccesoriosFolder.txt_Suma_Accesorio_Espera">
-            <summary>
-            The txt_Suma_Accesorio_Espera item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.AccesoriosFolder.txt_Suma_Accesorio_EsperaInfo">
-            <summary>
-            The txt_Suma_Accesorio_Espera item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.AccesoriosFolder.Check_Button">
-            <summary>
-            The Check_Button item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.AccesoriosFolder.Check_ButtonInfo">
-            <summary>
-            The Check_Button item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.AccesoriosFolder.txt_SumaAseguradaAccesorio">
             <summary>
             The txt_SumaAseguradaAccesorio item.
@@ -12098,31 +12109,6 @@
         <member name="P:Sura.SuraRepositoryFolders.AccesoriosFolder.Copy_of_txt_SumaAseguradaAccesorioInfo">
             <summary>
             The Copy_of_txt_SumaAseguradaAccesorio item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.AccesoriosFolder.txt_suma_estribos">
-            <summary>
-            The txt_suma_estribos item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.AccesoriosFolder.txt_suma_estribosInfo">
-            <summary>
-            The txt_suma_estribos item info.
-            </summary>
-        </member>
-        <member name="T:Sura.SuraRepositoryFolders.BloqueosFolder">
-            <summary>
-            The BloqueosFolder folder.
-            </summary>
-        </member>
-        <member name="M:Sura.SuraRepositoryFolders.BloqueosFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            Creates a new Bloqueos  folder.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.BloqueosFolder.SelfInfo">
-            <summary>
-            The Self item info.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder">
@@ -12205,54 +12191,44 @@
             The Copy_of_OptionCamposPetroliferos item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.txtSumaAseguradaCobHogar">
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.txt_NumPoliza">
             <summary>
-            The txtSumaAseguradaCobHogar item.
+            The txt_NumPoliza item.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.txtSumaAseguradaCobHogarInfo">
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.txt_NumPolizaInfo">
             <summary>
-            The txtSumaAseguradaCobHogar item info.
+            The txt_NumPoliza item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.DivTagDollar">
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.lbl_InfoDelVehiculo2">
             <summary>
-            The DivTagDollar item.
+            The lbl_InfoDelVehiculo2 item.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.DivTagDollarInfo">
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.lbl_InfoDelVehiculo2Info">
             <summary>
-            The DivTagDollar item info.
+            The lbl_InfoDelVehiculo2 item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.SumaAsegurada">
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.btn_Eliminar_unselectable">
             <summary>
-            The SumaAsegurada item.
+            The btn_Eliminar_unselectable item.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.SumaAseguradaInfo">
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.btn_Eliminar_unselectableInfo">
             <summary>
-            The SumaAsegurada item info.
+            The btn_Eliminar_unselectable item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.Button">
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.DataImageGifBase64R0lGODlhAQABAIDAM">
             <summary>
-            The Button item.
+            The DataImageGifBase64R0lGODlhAQABAIDAM item.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.ButtonInfo">
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.DataImageGifBase64R0lGODlhAQABAIDAMInfo">
             <summary>
-            The Button item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.Button1">
-            <summary>
-            The Button1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.Button1Info">
-            <summary>
-            The Button1 item info.
+            The DataImageGifBase64R0lGODlhAQABAIDAM item info.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder">
@@ -12345,11 +12321,6 @@
             The lbl_TituloTransacciones item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.PolizaAPFolder.Nomina">
-            <summary>
-            The Nomina folder.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.PolizaAPFolder.Producto">
             <summary>
             The Producto folder.
@@ -12358,71 +12329,6 @@
         <member name="P:Sura.SuraRepositoryFolders.PolizaAPFolder.Personas">
             <summary>
             The Personas folder.
-            </summary>
-        </member>
-        <member name="T:Sura.SuraRepositoryFolders.NominaFolder">
-            <summary>
-            The NominaFolder folder.
-            </summary>
-        </member>
-        <member name="M:Sura.SuraRepositoryFolders.NominaFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
-            <summary>
-            Creates a new Nomina  folder.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.NominaFolder.SelfInfo">
-            <summary>
-            The Self item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.NominaFolder.txtbox_Exportar">
-            <summary>
-            The txtbox_Exportar item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.NominaFolder.txtbox_ExportarInfo">
-            <summary>
-            The txtbox_Exportar item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.NominaFolder.Copy_of_txtbox_Exportar">
-            <summary>
-            The Copy_of_txtbox_Exportar item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.NominaFolder.Copy_of_txtbox_ExportarInfo">
-            <summary>
-            The Copy_of_txtbox_Exportar item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.NominaFolder.bttn_Exportar">
-            <summary>
-            The bttn_Exportar item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.NominaFolder.bttn_ExportarInfo">
-            <summary>
-            The bttn_Exportar item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.NominaFolder.bttn_ExportarAHojaDeCalculo">
-            <summary>
-            The bttn_ExportarAHojaDeCalculo item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.NominaFolder.bttn_ExportarAHojaDeCalculoInfo">
-            <summary>
-            The bttn_ExportarAHojaDeCalculo item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.NominaFolder.bttn_VolverAPersonas">
-            <summary>
-            The bttn_VolverAPersonas item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.NominaFolder.bttn_VolverAPersonasInfo">
-            <summary>
-            The bttn_VolverAPersonas item info.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.ProductoFolder">
@@ -12855,26 +12761,6 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.Flota_NominaFolder.txt_SolicitudPoliza">
-            <summary>
-            The txt_SolicitudPoliza item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Flota_NominaFolder.txt_SolicitudPolizaInfo">
-            <summary>
-            The txt_SolicitudPoliza item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Flota_NominaFolder.btn_Examinar">
-            <summary>
-            The btn_Examinar item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Flota_NominaFolder.btn_ExaminarInfo">
-            <summary>
-            The btn_Examinar item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.Flota_NominaFolder.btn_ExaminarImport">
             <summary>
             The btn_ExaminarImport item.
@@ -12903,36 +12789,6 @@
         <member name="P:Sura.SuraRepositoryFolders.FlotaFolder1.SelfInfo">
             <summary>
             The Self item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder1.bttn_DescargarHojaDeCalculo">
-            <summary>
-            The bttn_DescargarHojaDeCalculo item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder1.bttn_DescargarHojaDeCalculoInfo">
-            <summary>
-            The bttn_DescargarHojaDeCalculo item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder1.bttn_ExportarAHojaCalculo">
-            <summary>
-            The bttn_ExportarAHojaCalculo item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder1.bttn_ExportarAHojaCalculoInfo">
-            <summary>
-            The bttn_ExportarAHojaCalculo item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder1.bttn_VolverAVehiculos">
-            <summary>
-            The bttn_VolverAVehiculos item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder1.bttn_VolverAVehiculosInfo">
-            <summary>
-            The bttn_VolverAVehiculos item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.FlotaFolder1.lbl_ColoqueArchivos">
@@ -13380,16 +13236,6 @@
             The Copy_of_SumaAsegurada item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.bttn_Siguiente">
-            <summary>
-            The bttn_Siguiente item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.bttn_SiguienteInfo">
-            <summary>
-            The bttn_Siguiente item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.cbo_TipoDeConstruccion">
             <summary>
             The cbo_TipoDeConstruccion item.
@@ -13510,36 +13356,6 @@
             The Copy_of_cbo_TipoDeVivienda item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.cbo_UbicacionRiesgo">
-            <summary>
-            The cbo_UbicacionRiesgo item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.cbo_UbicacionRiesgoInfo">
-            <summary>
-            The cbo_UbicacionRiesgo item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.Copy_of_cbo_UbicacionRiesgo">
-            <summary>
-            The Copy_of_cbo_UbicacionRiesgo item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.Copy_of_cbo_UbicacionRiesgoInfo">
-            <summary>
-            The Copy_of_cbo_UbicacionRiesgo item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.UbicacionRiesgo">
-            <summary>
-            The UbicacionRiesgo item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.UbicacionRiesgoInfo">
-            <summary>
-            The UbicacionRiesgo item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.bttn_Aceptar">
             <summary>
             The bttn_Aceptar item.
@@ -13548,96 +13364,6 @@
         <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.bttn_AceptarInfo">
             <summary>
             The bttn_Aceptar item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.bttn_Aceptar2">
-            <summary>
-            The bttn_Aceptar2 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.bttn_Aceptar2Info">
-            <summary>
-            The bttn_Aceptar2 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.btn_ValidarDireccion">
-            <summary>
-            The btn_ValidarDireccion item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.btn_ValidarDireccionInfo">
-            <summary>
-            The btn_ValidarDireccion item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.imp_NvoNro">
-            <summary>
-            The imp_NvoNro item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.imp_NvoNroInfo">
-            <summary>
-            The imp_NvoNro item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.imp_NvaCalle">
-            <summary>
-            The imp_NvaCalle item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.imp_NvaCalleInfo">
-            <summary>
-            The imp_NvaCalle item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.Imp_NvaLocalidad">
-            <summary>
-            The Imp_NvaLocalidad item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.Imp_NvaLocalidadInfo">
-            <summary>
-            The Imp_NvaLocalidad item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.cbo_NvaLocalidad">
-            <summary>
-            The cbo_NvaLocalidad item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.cbo_NvaLocalidadInfo">
-            <summary>
-            The cbo_NvaLocalidad item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.imp_Pais">
-            <summary>
-            The imp_Pais item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.imp_PaisInfo">
-            <summary>
-            The imp_Pais item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.cbo_NvaProvincia">
-            <summary>
-            The cbo_NvaProvincia item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.cbo_NvaProvinciaInfo">
-            <summary>
-            The cbo_NvaProvincia item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.cbo_Pais">
-            <summary>
-            The cbo_Pais item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.cbo_PaisInfo">
-            <summary>
-            The cbo_Pais item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.UbicacionNueva1">
@@ -13750,16 +13476,6 @@
             The bttn_Elegir item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.SubmissionWizardLOBWizardStepGroupLine">
-            <summary>
-            The SubmissionWizardLOBWizardStepGroupLine item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.SubmissionWizardLOBWizardStepGroupLineInfo">
-            <summary>
-            The SubmissionWizardLOBWizardStepGroupLine item info.
-            </summary>
-        </member>
         <member name="T:Sura.SuraRepositoryFolders.EndososFolder">
             <summary>
             The EndososFolder folder.
@@ -13783,16 +13499,6 @@
         <member name="P:Sura.SuraRepositoryFolders.EndososFolder.lbl_DescuentoInfo">
             <summary>
             The lbl_Descuento item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.EndososFolder.txt_recargo_dev_tecnico">
-            <summary>
-            The txt_recargo_dev_tecnico item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.EndososFolder.txt_recargo_dev_tecnicoInfo">
-            <summary>
-            The txt_recargo_dev_tecnico item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.EndososFolder.Txt_Validacion">
@@ -14140,26 +13846,6 @@
             The Copy_of_txtbox_CartaDanios item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.MotorFolder.Button">
-            <summary>
-            The Button item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.MotorFolder.ButtonInfo">
-            <summary>
-            The Button item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.MotorFolder.Copy_of_Button">
-            <summary>
-            The Copy_of_Button item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.MotorFolder.Copy_of_ButtonInfo">
-            <summary>
-            The Copy_of_Button item info.
-            </summary>
-        </member>
         <member name="T:Sura.SuraRepositoryFolders.APFolder">
             <summary>
             The APFolder folder.
@@ -14280,16 +13966,6 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.cbo_NuevoConductor1">
-            <summary>
-            The cbo_NuevoConductor1 item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.cbo_NuevoConductor1Info">
-            <summary>
-            The cbo_NuevoConductor1 item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.cbo_NuevoConductorMejorado">
             <summary>
             The cbo_NuevoConductorMejorado item.
@@ -14300,16 +13976,6 @@
             The cbo_NuevoConductorMejorado item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.Copy_of_cbo_NuevoConductorMejorado">
-            <summary>
-            The Copy_of_cbo_NuevoConductorMejorado item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.Copy_of_cbo_NuevoConductorMejoradoInfo">
-            <summary>
-            The Copy_of_cbo_NuevoConductorMejorado item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.btn_Conductor">
             <summary>
             The btn_Conductor item.
@@ -14318,16 +13984,6 @@
         <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.btn_ConductorInfo">
             <summary>
             The btn_Conductor item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.btn_Conductor_ant">
-            <summary>
-            The btn_Conductor_ant item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.btn_Conductor_antInfo">
-            <summary>
-            The btn_Conductor_ant item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.Copy_of_NuevoConductor1">
@@ -14410,16 +14066,6 @@
             The title_Comisiones_Descuentos item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.title_Formularios_Clausulas">
-            <summary>
-            The title_Formularios_Clausulas item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.title_Formularios_ClausulasInfo">
-            <summary>
-            The title_Formularios_Clausulas item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.title_Vivienda">
             <summary>
             The title_Vivienda item.
@@ -14438,26 +14084,6 @@
         <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.Copy_of_cbo_TipoDeViviendaInfo">
             <summary>
             The Copy_of_cbo_TipoDeVivienda item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.TipoDeVivienda">
-            <summary>
-            The TipoDeVivienda item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.TipoDeViviendaInfo">
-            <summary>
-            The TipoDeVivienda item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.cbo_TipoDeVivienda">
-            <summary>
-            The cbo_TipoDeVivienda item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.cbo_TipoDeViviendaInfo">
-            <summary>
-            The cbo_TipoDeVivienda item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.Endosos2Folder.Copy_of_cbo_Producto">
@@ -14620,16 +14246,6 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.ProductosDisponibles_Ant">
-            <summary>
-            The ProductosDisponibles_Ant item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.ProductosDisponibles_AntInfo">
-            <summary>
-            The ProductosDisponibles_Ant item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.ProductosDisponibles">
             <summary>
             The ProductosDisponibles item.
@@ -14640,16 +14256,6 @@
             The ProductosDisponibles item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.Copy_of_ProductosDisponibles">
-            <summary>
-            The Copy_of_ProductosDisponibles item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.Copy_of_ProductosDisponiblesInfo">
-            <summary>
-            The Copy_of_ProductosDisponibles item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.Siguiente1">
             <summary>
             The Siguiente1 item.
@@ -14658,16 +14264,6 @@
         <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.Siguiente1Info">
             <summary>
             The Siguiente1 item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.Siguiente">
-            <summary>
-            The Siguiente item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.SiguienteInfo">
-            <summary>
-            The Siguiente item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.title_ConductoresPropietarios">
@@ -14740,16 +14336,6 @@
             The txt_AnalisisDeRiesgo item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.txt_AnalisisDeRiesgo_ModifCobertura">
-            <summary>
-            The txt_AnalisisDeRiesgo_ModifCobertura item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.txt_AnalisisDeRiesgo_ModifCoberturaInfo">
-            <summary>
-            The txt_AnalisisDeRiesgo_ModifCobertura item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.bttn_ReCotizar">
             <summary>
             The bttn_ReCotizar item.
@@ -14768,16 +14354,6 @@
         <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.txt_CotizacionInfo">
             <summary>
             The txt_Cotizacion item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.title_Formularios_Clausulas">
-            <summary>
-            The title_Formularios_Clausulas item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.title_Formularios_ClausulasInfo">
-            <summary>
-            The title_Formularios_Clausulas item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.ModifCoberturasFolder.title_Formularios_Clausulas_ModifCobertura">
@@ -14953,16 +14529,6 @@
         <member name="P:Sura.SuraRepositoryFolders.PolicyChangeWizardLOBWizardStepGroupLi1Folder.ResumenDeImportacionInfo">
             <summary>
             The ResumenDeImportacion item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.PolicyChangeWizardLOBWizardStepGroupLi1Folder.PolicyChangeWizardLOBWizardStepGroupLi">
-            <summary>
-            The PolicyChangeWizardLOBWizardStepGroupLi item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.PolicyChangeWizardLOBWizardStepGroupLi1Folder.PolicyChangeWizardLOBWizardStepGroupLiInfo">
-            <summary>
-            The PolicyChangeWizardLOBWizardStepGroupLi item info.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.Txt_ValidacionFolder1">
@@ -15355,6 +14921,291 @@
             The SubMenuPersona item info.
             </summary>
         </member>
+        <member name="T:Sura.SuraRepositoryFolders.GestionDocumentalFolder">
+            <summary>
+            The GestionDocumentalFolder folder.
+            </summary>
+        </member>
+        <member name="M:Sura.SuraRepositoryFolders.GestionDocumentalFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GestionDocumental  folder.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.optionMenu_Formularios">
+            <summary>
+            The optionMenu_Formularios item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.optionMenu_FormulariosInfo">
+            <summary>
+            The optionMenu_Formularios item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.title_Formularios_Clausulas">
+            <summary>
+            The title_Formularios_Clausulas item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.title_Formularios_ClausulasInfo">
+            <summary>
+            The title_Formularios_Clausulas item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver">
+            <summary>
+            The bttn_Ver item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_VerInfo">
+            <summary>
+            The bttn_Ver item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_ConstanciaCoberturaAuto">
+            <summary>
+            The bttn_Ver_ConstanciaCoberturaAuto item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_ConstanciaCoberturaAutoInfo">
+            <summary>
+            The bttn_Ver_ConstanciaCoberturaAuto item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_CotizacionCliente">
+            <summary>
+            The bttn_Ver_CotizacionCliente item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_CotizacionClienteInfo">
+            <summary>
+            The bttn_Ver_CotizacionCliente item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_CotizacionProductor">
+            <summary>
+            The bttn_Ver_CotizacionProductor item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_CotizacionProductorInfo">
+            <summary>
+            The bttn_Ver_CotizacionProductor item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_Factura">
+            <summary>
+            The bttn_Ver_Factura item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_FacturaInfo">
+            <summary>
+            The bttn_Ver_Factura item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_TarjMercosur">
+            <summary>
+            The bttn_Ver_TarjMercosur item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_TarjMercosurInfo">
+            <summary>
+            The bttn_Ver_TarjMercosur item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_CopiaProductor">
+            <summary>
+            The bttn_Ver_CopiaProductor item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_CopiaProductorInfo">
+            <summary>
+            The bttn_Ver_CopiaProductor item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_CopiaOrganizador">
+            <summary>
+            The bttn_Ver_CopiaOrganizador item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_CopiaOrganizadorInfo">
+            <summary>
+            The bttn_Ver_CopiaOrganizador item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_CopiaPolizaAsegurado">
+            <summary>
+            The bttn_Ver_CopiaPolizaAsegurado item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_CopiaPolizaAseguradoInfo">
+            <summary>
+            The bttn_Ver_CopiaPolizaAsegurado item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_CertificadoPagos">
+            <summary>
+            The bttn_Ver_CertificadoPagos item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_CertificadoPagosInfo">
+            <summary>
+            The bttn_Ver_CertificadoPagos item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_Cuponera">
+            <summary>
+            The bttn_Ver_Cuponera item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_CuponeraInfo">
+            <summary>
+            The bttn_Ver_Cuponera item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.formularioPDF">
+            <summary>
+            The formularioPDF item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.formularioPDFInfo">
+            <summary>
+            The formularioPDF item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.XTableLayoutCell">
+            <summary>
+            The XTableLayoutCell item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.XTableLayoutCellInfo">
+            <summary>
+            The XTableLayoutCell item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.Flota">
+            <summary>
+            The Flota folder.
+            </summary>
+        </member>
+        <member name="T:Sura.SuraRepositoryFolders.FlotaFolder2">
+            <summary>
+            The FlotaFolder2 folder.
+            </summary>
+        </member>
+        <member name="M:Sura.SuraRepositoryFolders.FlotaFolder2.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Flota  folder.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_CotizacionCliente_Flota">
+            <summary>
+            The bttn_Ver_CotizacionCliente_Flota item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_CotizacionCliente_FlotaInfo">
+            <summary>
+            The bttn_Ver_CotizacionCliente_Flota item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_CotizacionProductor_Flota">
+            <summary>
+            The bttn_Ver_CotizacionProductor_Flota item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_CotizacionProductor_FlotaInfo">
+            <summary>
+            The bttn_Ver_CotizacionProductor_Flota item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_CertificadoPagos_Flota">
+            <summary>
+            The bttn_Ver_CertificadoPagos_Flota item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_CertificadoPagos_FlotaInfo">
+            <summary>
+            The bttn_Ver_CertificadoPagos_Flota item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_ConstanciaCoberturaAuto_Flota">
+            <summary>
+            The bttn_Ver_ConstanciaCoberturaAuto_Flota item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_ConstanciaCoberturaAuto_FlotaInfo">
+            <summary>
+            The bttn_Ver_ConstanciaCoberturaAuto_Flota item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_Factura_Flota">
+            <summary>
+            The bttn_Ver_Factura_Flota item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_Factura_FlotaInfo">
+            <summary>
+            The bttn_Ver_Factura_Flota item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_TarjMercosur_Flota">
+            <summary>
+            The bttn_Ver_TarjMercosur_Flota item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_TarjMercosur_FlotaInfo">
+            <summary>
+            The bttn_Ver_TarjMercosur_Flota item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_CopiaProductor_Flota">
+            <summary>
+            The bttn_Ver_CopiaProductor_Flota item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_CopiaProductor_FlotaInfo">
+            <summary>
+            The bttn_Ver_CopiaProductor_Flota item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_CopiaOrganizador_Flota">
+            <summary>
+            The bttn_Ver_CopiaOrganizador_Flota item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_CopiaOrganizador_FlotaInfo">
+            <summary>
+            The bttn_Ver_CopiaOrganizador_Flota item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_CopiaPolizaAsegurado_Flota">
+            <summary>
+            The bttn_Ver_CopiaPolizaAsegurado_Flota item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_CopiaPolizaAsegurado_FlotaInfo">
+            <summary>
+            The bttn_Ver_CopiaPolizaAsegurado_Flota item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_Cuponera_Flota">
+            <summary>
+            The bttn_Ver_Cuponera_Flota item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_Cuponera_FlotaInfo">
+            <summary>
+            The bttn_Ver_Cuponera_Flota item info.
+            </summary>
+        </member>
         <member name="T:Sura.SuraRepositoryFolders.BCFolder">
             <summary>
             The BCFolder folder.
@@ -15468,16 +15319,6 @@
         <member name="P:Sura.SuraRepositoryFolders.NuevoPagoFolder.txtbox_NumeroDePolizaInfo">
             <summary>
             The txtbox_NumeroDePoliza item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.NuevoPagoFolder.Copy_of_txtbox_NumeroDePoliza">
-            <summary>
-            The Copy_of_txtbox_NumeroDePoliza item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.NuevoPagoFolder.Copy_of_txtbox_NumeroDePolizaInfo">
-            <summary>
-            The Copy_of_txtbox_NumeroDePoliza item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.NuevoPagoFolder.txtbox_Monto">
@@ -15705,16 +15546,6 @@
             The btn_UltimaPagina item info.
             </summary>
         </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURA_ContinueOnFailAppFolder.SubmissionWizardLOBWizardStepGroupLine">
-            <summary>
-            The SubmissionWizardLOBWizardStepGroupLine item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.SURA_ContinueOnFailAppFolder.SubmissionWizardLOBWizardStepGroupLineInfo">
-            <summary>
-            The SubmissionWizardLOBWizardStepGroupLine item info.
-            </summary>
-        </member>
         <member name="P:Sura.SuraRepositoryFolders.SURA_ContinueOnFailAppFolder.Copy_of_lbl_TCExistente">
             <summary>
             The Copy_of_lbl_TCExistente item.
@@ -15873,6 +15704,116 @@
         <member name="P:Sura.SuraRepositoryFolders.VentanaEmergente_ExaminarAppFolder.EscritorioInfo">
             <summary>
             The Escritorio item info.
+            </summary>
+        </member>
+        <member name="T:Sura.SuraRepositoryFolders.ChromeAppFolder">
+            <summary>
+            The ChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Sura.SuraRepositoryFolders.ChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Chrome  folder.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ChromeAppFolder.option_GuardarComo">
+            <summary>
+            The option_GuardarComo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ChromeAppFolder.option_GuardarComoInfo">
+            <summary>
+            The option_GuardarComo item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ChromeAppFolder.Cerrar">
+            <summary>
+            The Cerrar item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ChromeAppFolder.CerrarInfo">
+            <summary>
+            The Cerrar item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ChromeAppFolder.bttn_FormularioPDF">
+            <summary>
+            The bttn_FormularioPDF item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.ChromeAppFolder.bttn_FormularioPDFInfo">
+            <summary>
+            The bttn_FormularioPDF item info.
+            </summary>
+        </member>
+        <member name="T:Sura.SuraRepositoryFolders.GuardarComoAppFolder">
+            <summary>
+            The GuardarComoAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Sura.SuraRepositoryFolders.GuardarComoAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GuardarComo  folder.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GuardarComoAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GuardarComoAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GuardarComoAppFolder.ButtonGuardar">
+            <summary>
+            The ButtonGuardar item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GuardarComoAppFolder.ButtonGuardarInfo">
+            <summary>
+            The ButtonGuardar item info.
+            </summary>
+        </member>
+        <member name="T:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185GuidewAppFolder">
+            <summary>
+            The WebDocumentModoDEV903185GuidewAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185GuidewAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new WebDocumentModoDEV903185Guidew  folder.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185GuidewAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185GuidewAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185GuidewAppFolder.Oliza">
+            <summary>
+            The Oliza item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185GuidewAppFolder.OlizaInfo">
+            <summary>
+            The Oliza item info.
             </summary>
         </member>
         <member name="T:Sura.TestCSV">

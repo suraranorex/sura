@@ -145,3 +145,29 @@ C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Dat
 C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Endoso_Modificacion_De_Coberturas.xlsx
 C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - ValidaFormularios.xlsx
 C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\PC_GestionDocumental.rxtst
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Emision Motor.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Emision Motor_Answer.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Emision Motor - Inspeccion.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Emision Motor Accesorio Movilidad.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Accesorios.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Emision Hogar No Enlatada.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Emision Hogar Enlatada.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Emision AP No Enlatada.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Emision AP Enlatada.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Emision Motor NuevasCoberturas.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - ValidaFormularios.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Endoso_Modificacion_De_Coberturas.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\BC.rxtst
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\PC_GestionDocumental.rxtst
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Sura.rxsqc
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Sura.rxtmg
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\PC.rxtst
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Sura.exe.config
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Sura.xml
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Sura.exe
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Sura.pdb
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\obj\x86\Debug\Sura.csprojResolveAssemblyReference.cache
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\obj\x86\Debug\Sura.exe
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\obj\x86\Debug\Sura.pdb
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\RepositoryImages\SuraRepository52dfe65a.rximgres

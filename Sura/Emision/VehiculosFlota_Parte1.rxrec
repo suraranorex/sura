@@ -97,7 +97,7 @@ mode="Global">
 			id="3da66ac4-0baa-4f71-b54d-a74371ae73b2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='A&#241;o']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Año']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -154,7 +154,7 @@ mode="Global">
 			id="0fcebcff-f990-4e82-a5f7-1dbc59921146"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//td[@id='ext-element-1176']//label[@innertext='S&#237;']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//td[@id='ext-element-1176']//label[@innertext='Sí']
 				</path>
 			</info>
 		</mouseitem>
@@ -277,7 +277,7 @@ mode="Global">
 			id="704c90c3-64f3-41ea-8c49-bddcb38d0f1e"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='A&#241;o']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Año']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -2312,7 +2312,7 @@ H//Z
 					<attribute
 					name="innertext"
 					type="System.String">
-						Exportar a hoja de c&#225;lculo
+						Exportar a hoja de cálculo
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -2338,7 +2338,7 @@ H//Z
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//a//span[@innertext~'hoja de c&#225;lculo']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//a//span[@innertext~'hoja de cálculo']
 				</path>
 			</info>
 		</mouseitem>
@@ -2397,7 +2397,7 @@ H//Z
 					<attribute
 					name="innertext"
 					type="System.String">
-						Descargar hoja de c&#225;lculo
+						Descargar hoja de cálculo
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -2423,7 +2423,7 @@ H//Z
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[6]/td/div/div[1]/?/?/table/?/?/tr/td/a//span[@innertext='Descargar hoja de c&#225;lculo']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[6]/td/div/div[1]/?/?/table/?/?/tr/td/a//span[@innertext='Descargar hoja de cálculo']
 				</path>
 			</info>
 		</mouseitem>
@@ -2570,7 +2570,7 @@ H//Z
 		reportlevel="Info;20"
 		searchpropertyid="4a0a24f9-5628-4e30-8941-7d23729bfb7a">
 			<comment>
-				El n&#250;mero de solicitud es:
+				El número de solicitud es:
 			</comment>
 			<bindings>
 				<binding
@@ -2658,7 +2658,7 @@ H//Z
 					<attribute
 					name="innertext"
 					type="System.String">
-						Volver a Veh&#237;culos
+						Volver a Vehículos
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -2683,7 +2683,7 @@ H//Z
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[1]//a[@innertext='Volver a Veh&#237;culos']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[1]//a[@innertext='Volver a Vehículos']
 				</path>
 			</info>
 		</mouseitem>
@@ -2701,7 +2701,7 @@ H//Z
 			id="beaf2548-e92d-46d3-93b0-5ba32a1df2c2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Veh&#237;culos']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Vehículos']
 				</path>
 			</info>
 		</WaitForRecordItem>

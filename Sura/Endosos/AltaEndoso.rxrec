@@ -26,7 +26,7 @@ mode="Global">
 		<var
 		id="66fe018d-0ba3-401c-91ac-e1ba1b545f18"
 		name="TIPO_ENDOSO">
-			Cambio de Plan de Pagos
+			Inclusión de Riesgo
 		</var>
 		<var
 		id="a7f77cc8-574c-4172-aed9-47b0237dedc3"
@@ -490,7 +490,7 @@ AGNb/wB+X8x/hWhRVKTWxk4Rbu0Z/wDY1v8A35fzH+FH9jW/9+X8x/hWhRT55dyfZQ7Gf/Y1v/fl
 					<attribute
 					name="innertext"
 					type="System.String">
-						Informaci&#243;n de p&#243;liza
+						Información de póliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -504,7 +504,7 @@ AGNb/wB+X8x/hWhRVKTWxk4Rbu0Z/wDY1v8A35fzH+FH9jW/9+X8x/hWhRT55dyfZQ7Gf/Y1v/fl
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext='Informaci&#243;n de p&#243;liza']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext='Información de póliza']
 				</path>
 			</info>
 		</WaitForRecordItem>

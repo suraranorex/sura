@@ -350,7 +350,7 @@ oooAKKKKACiiigD/2Q==
 			id="dc8ffd07-2c8a-404d-a66a-c55a83428245"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'reversi&#243;n de pago']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'reversión de pago']
 				</path>
 			</info>
 		</mouseitem>

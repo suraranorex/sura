@@ -137,7 +137,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N&#250;mero de P&#243;liza']/../..//input
+					/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'Número de Póliza']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -297,7 +297,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N&#250;mero de P&#243;liza']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'Número de Póliza']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -375,7 +375,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N&#250;mero de P&#243;liza']/../..//input
+					/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'Número de Póliza']/../..//input
 				</path>
 			</info>
 		</mouseitem>
@@ -458,7 +458,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Pagos mediante facturaci&#243;n directa
+						Pagos mediante facturación directa
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -899,7 +899,7 @@ ooooAKKKKAP/2Q==
 					<attribute
 					name="innertext"
 					type="System.String">
-						Pagos mediante facturaci&#243;n directa
+						Pagos mediante facturación directa
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1049,7 +1049,7 @@ DopSco3YUUUVBqFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 			id="abac2a90-8395-4b4b-b34e-981ec06317c9"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N.&#186; Autorizaci&#243;n']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N.º Autorización']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -1211,7 +1211,7 @@ DopSco3YUUUVBqFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N.&#186; Autorizaci&#243;n']/../..//input
+					/dom[@domain=$Ambiente]//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N.º Autorización']/../..//input
 				</path>
 			</info>
 		</mouseitem>
@@ -1366,7 +1366,7 @@ DopSco3YUUUVBqFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N.&#186; Autorizaci&#243;n']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'N.º Autorización']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -1572,7 +1572,7 @@ DopSco3YUUUVBqFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 					<attribute
 					name="innertext"
 					type="System.String">
-						Pagos mediante facturaci&#243;n directa
+						Pagos mediante facturación directa
 					</attribute>
 					<attribute
 					name="safeclass"

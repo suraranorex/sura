@@ -95,8 +95,8 @@ namespace Sura.Endosos
             repo.SURA.PC.Endosos2.Siguiente.Click("29;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos2.title_Formularios_Clausulas'", repo.SURA.PC.Endosos2.title_Formularios_ClausulasInfo, new ActionTimeout(45000), new RecordItemIndex(2));
-            repo.SURA.PC.Endosos2.title_Formularios_ClausulasInfo.WaitForExists(45000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.GestionDocumental.title_Formularios_Clausulas'", repo.SURA.PC.GestionDocumental.title_Formularios_ClausulasInfo, new ActionTimeout(45000), new RecordItemIndex(2));
+            repo.SURA.PC.GestionDocumental.title_Formularios_ClausulasInfo.WaitForExists(45000);
             
         }
 

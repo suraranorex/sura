@@ -172,7 +172,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Emitir P&#243;liza
+						Emitir Póliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -198,7 +198,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/ViewQuote']/table/tbody/tr[2]/td/div/div/div/a[4]//span[@innertext='Emitir P&#243;liza']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/ViewQuote']/table/tbody/tr[2]/td/div/div/div/a[4]//span[@innertext='Emitir Póliza']
 				</path>
 			</info>
 			<helperscreenshot
@@ -398,7 +398,7 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 			id="e617ea94-e90a-429d-a582-a646fe5c6b34"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/RiskAnalysis']/table/tbody/tr[6]//table/tbody/tr[2]/td/div/div[2]/?/?/table//div/div[3]/div[1]/div/table[2]/tbody/tr/td[5]/?/?/a[@innertext='Aprobaci&#243;n especial']
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/RiskAnalysis']/table/tbody/tr[6]//table/tbody/tr[2]/td/div/div[2]/?/?/table//div/div[3]/div[1]/div/table[2]/tbody/tr/td[5]/?/?/a[@innertext='Aprobación especial']
 				</path>
 			</info>
 		</mouseitem>
@@ -505,7 +505,7 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 					<attribute
 					name="innertext"
 					type="System.String">
-						Emitir P&#243;liza
+						Emitir Póliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -531,7 +531,7 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/ViewQuote']/table/tbody/tr[2]/td/div/div/div/a[4]//span[@innertext='Emitir P&#243;liza']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/ViewQuote']/table/tbody/tr[2]/td/div/div/div/a[4]//span[@innertext='Emitir Póliza']
 				</path>
 			</info>
 			<helperscreenshot
@@ -697,7 +697,7 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 		reportlevel="Info;20"
 		searchpropertyid="d2a95ba6-6b2a-43a9-a0fe-4498dbdf8277">
 			<comment>
-				El n&#250;mero de poliza emitida es:
+				El número de poliza emitida es:
 			</comment>
 			<bindings>
 				<binding

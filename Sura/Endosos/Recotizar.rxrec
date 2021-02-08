@@ -180,7 +180,7 @@ BSWAx1JBpyebuXdux3zim/av9j9aPtX+x+tPll2Fzx7k9FQfav8AY/Wj7V/sfrS5JFe0j3P/2Q==
 			id="6b482fab-0202-45af-8df3-5be92077ea7d"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext='Cotizaci&#243;n']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext='Cotización']
 				</path>
 			</info>
 		</WaitForRecordItem>

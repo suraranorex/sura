@@ -255,7 +255,7 @@ X8qQ7Fuiqn2p/Rfyo+1P6L+VAH//2Q==
 			id="3f4902ad-4f05-4e15-8954-2de25ff6eb29"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewSubmission-tbody']//span[@innertext~'Solicitudes de P&#243;liza nue']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewSubmission-tbody']//span[@innertext~'Solicitudes de Póliza nue']
 				</path>
 			</info>
 		</WaitForRecordItem>

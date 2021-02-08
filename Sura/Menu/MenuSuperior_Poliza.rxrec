@@ -85,7 +85,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						&#243;liza
+						óliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -111,7 +111,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'TabBar:PolicyTab']//span[@innertext='&#243;liza']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'TabBar:PolicyTab']//span[@innertext='óliza']
 				</path>
 			</info>
 			<helperscreenshot
@@ -292,7 +292,7 @@ zy7k8kexzNol7ZymSO1kJK7fmjP+e1FdNRSbvuUklsf/2Q==
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.&#176; de p&#243;liza']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.° de póliza']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -453,7 +453,7 @@ zy7k8kexzNol7ZymSO1kJK7fmjP+e1FdNRSbvuUklsf/2Q==
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.&#176; de p&#243;liza']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.° de póliza']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>

@@ -41,7 +41,7 @@ namespace Sura.Endosos
         /// </summary>
         public AltaEndoso()
         {
-            TIPO_ENDOSO = "Cambio de Plan de Pagos";
+            TIPO_ENDOSO = "Inclusión de Riesgo";
             TipoPoliza_Endoso = "";
         }
 

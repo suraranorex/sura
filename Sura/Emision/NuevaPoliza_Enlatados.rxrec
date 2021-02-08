@@ -50,7 +50,7 @@ mode="Global">
 			id="9630d4a6-2df9-471b-af09-2b10bbf97fae"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'C&#243;digo de agente']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Código de agente']/../..//input
 				</path>
 			</info>
 		</mouseitem>
@@ -73,7 +73,7 @@ mode="Global">
 			id="9630d4a6-2df9-471b-af09-2b10bbf97fae"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'C&#243;digo de agente']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Código de agente']/../..//input
 				</path>
 			</info>
 		</keyitem>
@@ -150,7 +150,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'C&#243;digo de agente']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Código de agente']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -209,7 +209,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Solicitudes de P&#243;liza nuevas
+						Solicitudes de Póliza nuevas
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -223,7 +223,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewSubmission-tbody']//span[@innertext~'Solicitudes de P&#243;liza nue']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewSubmission-tbody']//span[@innertext~'Solicitudes de Póliza nue']
 				</path>
 			</info>
 		</mouseitem>
@@ -241,7 +241,7 @@ mode="Global">
 			id="67b2401a-bbb4-4741-8202-910b4bd6a53e"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'C&#243;digo de agente']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Código de agente']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -353,7 +353,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Pre-evaluaci&#243;n
+						Pre-evaluación
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -367,7 +367,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PreQualification']/table/tbody/tr[1]/td//span[@innertext='Pre-evaluaci&#243;n']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PreQualification']/table/tbody/tr[1]/td//span[@innertext='Pre-evaluación']
 				</path>
 			</info>
 			<helperscreenshot

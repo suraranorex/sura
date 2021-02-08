@@ -97,12 +97,12 @@ namespace Sura.Endosos
             Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'SURA.PC.Endosos.lbl_Descuento'", repo.SURA.PC.Endosos.lbl_DescuentoInfo, new ActionTimeout(40000), new RecordItemIndex(1));
             repo.SURA.PC.Endosos.lbl_DescuentoInfo.WaitForExists(40000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos.txt_recargo_dev_tecnico' at Center.", repo.SURA.PC.Endosos.txt_recargo_dev_tecnicoInfo, new RecordItemIndex(2));
-            repo.SURA.PC.Endosos.txt_recargo_dev_tecnico.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.GestionDocumental.bttn_Ver_ConstanciaCoberturaAuto' at Center.", repo.SURA.PC.GestionDocumental.bttn_Ver_ConstanciaCoberturaAutoInfo, new RecordItemIndex(2));
+            repo.SURA.PC.GestionDocumental.bttn_Ver_ConstanciaCoberturaAuto.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '100' with focus on 'SURA.PC.Endosos.txt_recargo_dev_tecnico'.", repo.SURA.PC.Endosos.txt_recargo_dev_tecnicoInfo, new RecordItemIndex(3));
-            repo.SURA.PC.Endosos.txt_recargo_dev_tecnico.PressKeys("100");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '100' with focus on 'SURA.PC.GestionDocumental.bttn_Ver_ConstanciaCoberturaAuto'.", repo.SURA.PC.GestionDocumental.bttn_Ver_ConstanciaCoberturaAutoInfo, new RecordItemIndex(3));
+            repo.SURA.PC.GestionDocumental.bttn_Ver_ConstanciaCoberturaAuto.PressKeys("100");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos.lbl_Descuento' at Center.", repo.SURA.PC.Endosos.lbl_DescuentoInfo, new RecordItemIndex(4));

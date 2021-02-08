@@ -1103,6 +1103,18 @@
       <UserCode>true</UserCode>
       <id>c0b4b434-6d03-47a1-b558-d9bb872a58f7</id>
     </Compile>
+    <Compile Include="Endosos\AgregarVehiculos.cs">
+      <BoundTo>7b892083-ca39-4c6e-bf9d-b9c5df88f2aa</BoundTo>
+      <DependentUpon>AgregarVehiculos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1641f67b-3943-48f3-b6c0-97740ef7eb82</id>
+    </Compile>
+    <Compile Include="Endosos\AgregarVehiculos.UserCode.cs">
+      <BoundTo>7b892083-ca39-4c6e-bf9d-b9c5df88f2aa</BoundTo>
+      <DependentUpon>AgregarVehiculos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0bfa7060-38ac-4596-93be-0dfe06f6337f</id>
+    </Compile>
     <Compile Include="Endosos\AltaEndoso.cs">
       <DependentUpon>AltaEndoso.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -1357,6 +1369,30 @@
       <DependentUpon>Cotizar_Endoso_Hogar_Exclusion_Inclusion_de_Riesgo.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>adc63e2a-9533-4942-978b-f80b60c01de2</id>
+    </Compile>
+    <Compile Include="Endosos\EliminarVehiculo.cs">
+      <BoundTo>15b51250-a93c-4be6-b0df-2749b4bd17d4</BoundTo>
+      <DependentUpon>EliminarVehiculo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3b19633e-d9c9-49f3-8a95-11a1c27d859e</id>
+    </Compile>
+    <Compile Include="Endosos\EliminarVehiculo.UserCode.cs">
+      <BoundTo>15b51250-a93c-4be6-b0df-2749b4bd17d4</BoundTo>
+      <DependentUpon>EliminarVehiculo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>240b411f-f8bc-43b6-8a97-1dd72b1093ee</id>
+    </Compile>
+    <Compile Include="Endosos\SeleccionarVehiculos.cs">
+      <BoundTo>23b71a94-9671-411a-a3aa-72648f7bcf3d</BoundTo>
+      <DependentUpon>SeleccionarVehiculos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>62b0fc3e-9f5b-4750-9e4c-32d4454a75ac</id>
+    </Compile>
+    <Compile Include="Endosos\SeleccionarVehiculos.UserCode.cs">
+      <BoundTo>23b71a94-9671-411a-a3aa-72648f7bcf3d</BoundTo>
+      <DependentUpon>SeleccionarVehiculos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>df55e057-1ebc-4265-9295-697c76e083e1</id>
     </Compile>
     <Compile Include="Endosos\EmitirEndoso.cs">
       <DependentUpon>EmitirEndoso.rxrec</DependentUpon>
@@ -1766,6 +1802,18 @@
       <id>ecc20d96-f1a7-4c9c-8735-c848a85d2b49</id>
       <BoundTo>eac98765-7e4c-47ee-a506-6fa8d9077f08</BoundTo>
     </Compile>
+    <Compile Include="Endosos\Vehiculos_Endoso.cs">
+      <BoundTo>3a7ca7eb-ce73-4776-9f9a-195762f02e1f</BoundTo>
+      <DependentUpon>Vehiculos_Endoso.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>af6b9562-dad6-4425-b661-59cc052a94f5</id>
+    </Compile>
+    <Compile Include="Endosos\Vehiculos_Endoso.UserCode.cs">
+      <BoundTo>3a7ca7eb-ce73-4776-9f9a-195762f02e1f</BoundTo>
+      <DependentUpon>Vehiculos_Endoso.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4907b6bf-b572-4814-920a-2db33c7d94b8</id>
+    </Compile>
     <Compile Include="Endosos\Vehiculos_ModifAsistencia.cs">
       <DependentUpon>Vehiculos_ModifAsistencia.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -1816,6 +1864,66 @@
     </Compile>
     <Compile Include="Generales\UCM_setStatus.cs">
       <id>cae467de-50d5-4760-948a-352069efb7e3</id>
+    </Compile>
+    <Compile Include="GestionDocumental\VerFormulario_Cotizada.cs">
+      <BoundTo>d6428693-b642-40aa-9827-5a9be7a41ff7</BoundTo>
+      <DependentUpon>VerFormulario_Cotizada.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7765ffd2-a179-4eb6-9cd5-ae19004237cf</id>
+    </Compile>
+    <Compile Include="GestionDocumental\VerFormulario_Cotizada.UserCode.cs">
+      <BoundTo>d6428693-b642-40aa-9827-5a9be7a41ff7</BoundTo>
+      <DependentUpon>VerFormulario_Cotizada.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7134dc99-e106-4449-ad62-803869646d72</id>
+    </Compile>
+    <Compile Include="GestionDocumental\MenuLateral_Formularios.cs">
+      <BoundTo>7366533c-0fa7-474d-9edf-a438a0f54ebc</BoundTo>
+      <DependentUpon>MenuLateral_Formularios.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d8042fe4-ec99-4dcd-b2ae-f34f29cb43f7</id>
+    </Compile>
+    <Compile Include="GestionDocumental\MenuLateral_Formularios.UserCode.cs">
+      <BoundTo>7366533c-0fa7-474d-9edf-a438a0f54ebc</BoundTo>
+      <DependentUpon>MenuLateral_Formularios.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a03e28b4-bf50-444e-a4ec-dd95c57fc9ec</id>
+    </Compile>
+    <Compile Include="GestionDocumental\VerFormulario_CotizadaFlota.cs">
+      <BoundTo>86897abb-3957-4e08-8964-af102793a79f</BoundTo>
+      <DependentUpon>VerFormulario_CotizadaFlota.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>957e0772-3a58-49d8-bcaf-3f74ce68b862</id>
+    </Compile>
+    <Compile Include="GestionDocumental\VerFormulario_CotizadaFlota.UserCode.cs">
+      <BoundTo>86897abb-3957-4e08-8964-af102793a79f</BoundTo>
+      <DependentUpon>VerFormulario_CotizadaFlota.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c50c325c-0697-46db-9a4b-f1bf02af3792</id>
+    </Compile>
+    <Compile Include="GestionDocumental\VerFormulario_Emitida.cs">
+      <BoundTo>58b21898-5ee5-4a76-a82d-1f6faf44745c</BoundTo>
+      <DependentUpon>VerFormulario_Emitida.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d504d301-788f-4d13-9b9f-4cd08409880e</id>
+    </Compile>
+    <Compile Include="GestionDocumental\VerFormulario_Emitida.UserCode.cs">
+      <BoundTo>58b21898-5ee5-4a76-a82d-1f6faf44745c</BoundTo>
+      <DependentUpon>VerFormulario_Emitida.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2bb8530c-4ec2-4ba9-9479-ecccc0ecadcf</id>
+    </Compile>
+    <Compile Include="GestionDocumental\VerFormulario_EmitidaFlota.cs">
+      <BoundTo>76f2af7e-8062-4dbd-bb67-91dda6ba5230</BoundTo>
+      <DependentUpon>VerFormulario_EmitidaFlota.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5da029ab-7c10-4ad4-83d8-58b6428baafc</id>
+    </Compile>
+    <Compile Include="GestionDocumental\VerFormulario_EmitidaFlota.UserCode.cs">
+      <BoundTo>76f2af7e-8062-4dbd-bb67-91dda6ba5230</BoundTo>
+      <DependentUpon>VerFormulario_EmitidaFlota.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>414e52da-7a21-4c0e-a620-1ecd90e70110</id>
     </Compile>
     <Compile Include="Menu\MenuLateral_CuentaBC.cs">
       <DependentUpon>MenuLateral_CuentaBC.rxrec</DependentUpon>
@@ -2588,6 +2696,11 @@
       <id>3a4be5da-aac9-444f-9694-9429a940b177</id>
       <recordtableid>c5bb02a6-1f18-408e-a20c-ed4470fca104</recordtableid>
     </None>
+    <None Include="Endosos\AgregarVehiculos.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>7b892083-ca39-4c6e-bf9d-b9c5df88f2aa</id>
+      <recordtableid>db7ad970-ba32-4a6f-9ed2-afc31584bb00</recordtableid>
+    </None>
     <None Include="Endosos\AltaEndoso.rxrec">
       <id>980d56ff-54f4-4617-a0a5-dab66ff1c3cf</id>
       <recordtableid>8eefbd7d-6bd3-421b-951d-5cfa94cb5047</recordtableid>
@@ -2695,6 +2808,16 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>3c2d11a1-20fa-4682-8cda-828f2a19c0a0</id>
       <recordtableid>968281dc-e99a-4a16-ac6f-1387a35d00fc</recordtableid>
+    </None>
+    <None Include="Endosos\EliminarVehiculo.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>15b51250-a93c-4be6-b0df-2749b4bd17d4</id>
+      <recordtableid>0c5da5c9-1955-472d-b029-44e8e8ca2ca5</recordtableid>
+    </None>
+    <None Include="Endosos\SeleccionarVehiculos.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>23b71a94-9671-411a-a3aa-72648f7bcf3d</id>
+      <recordtableid>318184fd-b426-40fa-8cee-58545186dcd9</recordtableid>
     </None>
     <None Include="Endosos\EmitirEndoso.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -2866,6 +2989,11 @@
       <id>eac98765-7e4c-47ee-a506-6fa8d9077f08</id>
       <recordtableid>0b1780fc-4d84-44a9-b462-d3ed75c599ec</recordtableid>
     </None>
+    <None Include="Endosos\Vehiculos_Endoso.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>3a7ca7eb-ce73-4776-9f9a-195762f02e1f</id>
+      <recordtableid>4bdd58f6-e2bf-48d1-ab0e-558d1d743f03</recordtableid>
+    </None>
     <None Include="Endosos\Vehiculos_ModifAsistencia.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>4bfa85fa-e997-48bf-8af6-94c00381a798</id>
@@ -2893,6 +3021,31 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>f482a9d1-5c18-42f9-83ce-75e229326255</id>
     </Content>
+    <None Include="GestionDocumental\VerFormulario_Cotizada.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>d6428693-b642-40aa-9827-5a9be7a41ff7</id>
+      <recordtableid>03d5cad4-1f32-4da2-bf41-95bfcb2c3067</recordtableid>
+    </None>
+    <None Include="GestionDocumental\MenuLateral_Formularios.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>7366533c-0fa7-474d-9edf-a438a0f54ebc</id>
+      <recordtableid>fe5792fc-075e-46de-9b3d-759b86e5cb7f</recordtableid>
+    </None>
+    <None Include="GestionDocumental\VerFormulario_CotizadaFlota.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>86897abb-3957-4e08-8964-af102793a79f</id>
+      <recordtableid>3688e53d-6185-4b7c-8ef3-200a2c49667b</recordtableid>
+    </None>
+    <None Include="GestionDocumental\VerFormulario_Emitida.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>58b21898-5ee5-4a76-a82d-1f6faf44745c</id>
+      <recordtableid>a814c36b-ccce-4dfa-9a3d-a8c835bd9cbb</recordtableid>
+    </None>
+    <None Include="GestionDocumental\VerFormulario_EmitidaFlota.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>76f2af7e-8062-4dbd-bb67-91dda6ba5230</id>
+      <recordtableid>d00d64ad-928c-44e5-b63a-faa7b34743f6</recordtableid>
+    </None>
     <None Include="Menu\MenuLateral_CuentaBC.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>a0688872-5351-4ef4-bed1-51eab3c2be24</id>
@@ -3046,6 +3199,9 @@
     </Folder>
     <Folder Include="Emision">
       <id>2fa0cd5e-540b-40b9-b36a-99f05d563079</id>
+    </Folder>
+    <Folder Include="GestionDocumental">
+      <id>c9f6acbd-b162-43b9-9ee5-4c8b001c6475</id>
     </Folder>
     <Folder Include="Menu">
       <id>e7a34f90-362d-4b10-8cd5-546b393d193e</id>

@@ -100,7 +100,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Emitir P&#243;liza
+						Emitir Póliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -126,7 +126,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/ViewQuote']/table/tbody/tr[2]/td/div/div/div/a[4]//span[@innertext='Emitir P&#243;liza']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/ViewQuote']/table/tbody/tr[2]/td/div/div/div/a[4]//span[@innertext='Emitir Póliza']
 				</path>
 			</info>
 			<helperscreenshot

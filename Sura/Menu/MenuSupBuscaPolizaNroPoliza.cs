@@ -42,7 +42,7 @@ namespace Sura.Menu
         public MenuSupBuscaPolizaNroPoliza()
         {
             NroTransaccion = "0010490216";
-            NroPoliza = "04005237838";
+            NroPoliza = "04104012918";
         }
 
         /// <summary>

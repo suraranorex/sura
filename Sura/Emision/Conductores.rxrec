@@ -182,7 +182,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Veh&#237;culos
+						Vehículos
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -196,7 +196,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Veh&#237;culos']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Vehículos']
 				</path>
 			</info>
 		</WaitForRecordItem>
