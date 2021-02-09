@@ -1242,6 +1242,31 @@
 				</databinding>
 			</testmodule>
 			<smartfoldernode
+			id="169887d7-21a4-4604-b511-48dcebd5d05d"
+			name="SiEs0km1">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Es0km"
+								id="572b7b41-9d12-444f-9775-c358c54bee8c">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="si">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
+			<smartfoldernode
 			id="16ed9f9e-075d-4d6a-a058-9d5a32750ae0"
 			maxrange="1"
 			minrange="1"
@@ -2548,6 +2573,74 @@
 					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
 					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
 					variablename="URL">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="32ef8248-da53-430a-ae8f-f979604a8688"
+			name="Vehiculos_0km"
+			ref="1f20520d-a1fc-470e-ad44-de1143cf9207"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Anio"
+					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
+					variableid="573a6a54-0a4c-4496-aaae-d44830997257"
+					variablename="Anio">
+					</var>
+					<var
+					dataname="Marca"
+					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
+					variableid="d29032ba-813c-46e6-8ddd-ee09d26fb82a"
+					variablename="Marca">
+					</var>
+					<var
+					dataname="Modelo"
+					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
+					variableid="e3527f0c-44fb-42f2-bdaf-f83b1622ded4"
+					variablename="Modelo">
+					</var>
+					<var
+					dataname="SumaAsegurada"
+					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
+					variableid="131714e1-afff-4b8e-9dad-3fd89c0e7325"
+					variablename="SumaAsegurada">
+					</var>
+					<var
+					dataname="Producto"
+					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
+					variableid="091f947e-5c51-4d84-b39c-9732f273d5bd"
+					variablename="Producto">
+					</var>
+					<var
+					dataname="Patente"
+					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
+					variableid="9b7c630a-dc22-4900-8648-05196c741949"
+					variablename="Patente">
+					</var>
+					<var
+					dataname="Motor"
+					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
+					variableid="1ddc194e-c5f8-44ea-8d98-c56f7888618c"
+					variablename="Motor">
+					</var>
+					<var
+					dataname="Chasis"
+					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
+					variableid="8d4e46c0-7ef3-49ca-ada1-bf0f3051454d"
+					variablename="Chasis">
+					</var>
+					<var
+					dataname="Actividad"
+					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
+					variableid="2e93f88b-6420-439f-ab5a-bbd2a4d58c5f"
+					variablename="Actividad">
 					</var>
 				</databinding>
 			</testmodule>
@@ -6118,6 +6211,31 @@
 						<rightvalue>
 							<simplevaluesource
 							value="Sí">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
+			<smartfoldernode
+			id="73833851-5008-4a41-995f-b3944a9aa217"
+			name="SiNoEs0km">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Es0km"
+								id="572b7b41-9d12-444f-9775-c358c54bee8c">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="no">
 							</simplevaluesource>
 						</rightvalue>
 					</condition>
@@ -14661,10 +14779,22 @@
 						id="1f3958ee-db0b-41fa-9780-83616d5d63bf"
 						name="Conductores">
 						</testmodule>
-						<testmodule
-						id="ed629069-1c71-4caa-b5a1-b4df0c0ae0d5"
-						name="Vehiculos">
-						</testmodule>
+						<smartfoldernode
+						id="169887d7-21a4-4604-b511-48dcebd5d05d"
+						name="SiEs0km1">
+							<testmodule
+							id="32ef8248-da53-430a-ae8f-f979604a8688"
+							name="Vehiculos_0km">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="73833851-5008-4a41-995f-b3944a9aa217"
+						name="SiNoEs0km">
+							<testmodule
+							id="ed629069-1c71-4caa-b5a1-b4df0c0ae0d5"
+							name="Vehiculos">
+							</testmodule>
+						</smartfoldernode>
 						<smartfoldernode
 						id="d3cb208e-ea2c-478e-b20a-d1904bcbb384"
 						name="TR_FIJA1">
@@ -18380,6 +18510,9 @@
 					Anio
 				</column>
 				<column>
+					Es0km
+				</column>
+				<column>
 					Marca
 				</column>
 				<column>
@@ -19816,6 +19949,9 @@
 			id="0a7360c9-5f5e-42d0-82cc-4a7a6617d15c">
 			</testcontainer>
 			<testcontainer
+			id="169887d7-21a4-4604-b511-48dcebd5d05d">
+			</testcontainer>
+			<testcontainer
 			id="16ed9f9e-075d-4d6a-a058-9d5a32750ae0">
 			</testcontainer>
 			<testcontainer
@@ -19928,6 +20064,9 @@
 			</testcontainer>
 			<testcontainer
 			id="6f2b1f27-497d-4c41-9eea-bc6fa8772cdb">
+			</testcontainer>
+			<testcontainer
+			id="73833851-5008-4a41-995f-b3944a9aa217">
 			</testcontainer>
 			<testcontainer
 			id="75646c42-08f2-4518-a444-e79150adf684">
