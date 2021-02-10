@@ -438,7 +438,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Detalles de la p&#243;liza
+						Detalles de la póliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -462,7 +462,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/div/table/tbody/tr[4]/?/?/label[@innertext='Detalles de la p&#243;liza']
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/div/table/tbody/tr[4]/?/?/label[@innertext='Detalles de la póliza']
 				</path>
 			</info>
 		</mouseitem>

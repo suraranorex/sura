@@ -5,8 +5,7 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="PC_GestionDocumental.rxtst" />
-    <Element value="PC.rxtst" />
-    <Element value="Endosos\EliminarVehiculo.rxrec" />
+    <Element value="Menu\MenuSuperior_SolicitudPoliza.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
@@ -14,12 +13,12 @@
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="Sura.GestionDocumental.VerFormulario_EmitidaFlota.manejarFormularioFlota()" />
+      <Element value="Sura.GestionDocumental.VerFormulario_Cotizada.fileCheck()" />
+      <Element value="Sura.Emision.CotizarPoliza_Motor.guardarNumSolicitud()" />
       <Element value="Sura.GestionDocumental.VerFormulario_EmitidaFlota.manejarFormularioFlota()" />
       <Element value="Sura.GestionDocumental.VerFormulario_EmitidaFlota.manejarFormulario()" />
       <Element value="Sura.GestionDocumental.VerFormulario_CotizadaFlota.manejarFormularioFlota()" />
       <Element value="Sura.GestionDocumental.VerFormulario_Emitida.manejarFormulario()" />
-      <Element value="Sura.GestionDocumental.VerFormulario_Cotizada.manejarFormulario()" />
     </Array>
   </Properties>
 </Properties>

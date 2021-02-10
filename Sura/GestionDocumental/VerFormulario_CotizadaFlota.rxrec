@@ -29,12 +29,16 @@ mode="Global">
 		</var>
 		<var
 		id="bc3472ee-69ea-4d57-8a98-d8dad891b314"
+		name="NumeroTransaccion">
+		</var>
+		<var
+		id="d1f3a94d-929f-4f08-9cde-32dfac6073be"
 		name="NumeroPoliza">
 		</var>
 	</variables>
 	<recorditems>
 		<separatoritem
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 				----- Cotización Cliente - Flota
@@ -1287,19 +1291,20 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 		</loggingrecorditem>
 		<getvaluerecorditem
 		attrname="InnerText"
+		captureregex="[0-9]+"
 		enabled="True"
 		optional="False"
 		searchpropertyid="3ed06dd9-baa1-4aee-a9ad-02b39138891b"
-		varname="NumeroPoliza">
+		varname="NumeroTransaccion">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="17f779fb-c76a-46f6-8f04-71ce8564f8cf"
+			id="5fde796f-8da2-4e2a-bffd-5d93a0b90475"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'infoBar-targetEl']//span[@innertext='N° de póliza']/..//span[@innertext~'[0-9]']
+					/dom[@domain=$Ambiente]//div[#'westPanel-innerCt']//div[@innertext&gt;'Solicitud de P&#243;liza']
 				</path>
 			</info>
 		</getvaluerecorditem>

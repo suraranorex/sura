@@ -42,6 +42,7 @@ namespace Sura.GestionDocumental
         public VerFormulario_CotizadaFlota()
         {
             NombreArchivo = "";
+            NumeroTransaccion = "";
             NumeroPoliza = "";
         }
 
@@ -67,12 +68,24 @@ namespace Sura.GestionDocumental
             set { _NombreArchivo = value; }
         }
 
+        string _NumeroTransaccion;
+
+        /// <summary>
+        /// Gets or sets the value of variable NumeroTransaccion.
+        /// </summary>
+        [TestVariable("bc3472ee-69ea-4d57-8a98-d8dad891b314")]
+        public string NumeroTransaccion
+        {
+            get { return _NumeroTransaccion; }
+            set { _NumeroTransaccion = value; }
+        }
+
         string _NumeroPoliza;
 
         /// <summary>
         /// Gets or sets the value of variable NumeroPoliza.
         /// </summary>
-        [TestVariable("bc3472ee-69ea-4d57-8a98-d8dad891b314")]
+        [TestVariable("d1f3a94d-929f-4f08-9cde-32dfac6073be")]
         public string NumeroPoliza
         {
             get { return _NumeroPoliza; }
@@ -116,7 +129,7 @@ namespace Sura.GestionDocumental
             Init();
 
             // ----- Cotización Cliente - Flota
-            Report.Log(ReportLevel.Info, "Section", "----- Cotización Cliente - Flota", new RecordItemIndex(0));
+            //Report.Log(ReportLevel.Info, "Section", "----- Cotización Cliente - Flota", new RecordItemIndex(0));
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.GestionDocumental.Flota.bttn_Ver_CotizacionCliente_Flota' at Center.", repo.SURA.PC.GestionDocumental.Flota.bttn_Ver_CotizacionCliente_FlotaInfo, new RecordItemIndex(1));
             repo.SURA.PC.GestionDocumental.Flota.bttn_Ver_CotizacionCliente_Flota.Click();
@@ -146,8 +159,8 @@ namespace Sura.GestionDocumental
             
             Report.Log(ReportLevel.Info, "User", NombreArchivo, new RecordItemIndex(8));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.txt_NumPoliza' and assigning its value to variable 'NumeroPoliza'.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.txt_NumPolizaInfo, new RecordItemIndex(9));
-            NumeroPoliza = repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.txt_NumPoliza.Element.GetAttributeValueText("InnerText");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.txt_SolicitudPoliza' and assigning the part of its value captured by '[0-9]+' to variable 'NumeroTransaccion'.", repo.SURA.txt_SolicitudPolizaInfo, new RecordItemIndex(9));
+            NumeroTransaccion = repo.SURA.txt_SolicitudPoliza.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
             Delay.Milliseconds(0);
             
             manejarFormularioFlota();

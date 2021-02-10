@@ -862,6 +862,105 @@
             Gets or sets the value of variable Ambiente.
             </summary>
         </member>
+        <member name="T:Sura.Emision.CotizarPoliza_Motor">
+             <summary>
+            The CotizarPoliza_Motor recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Emision.CotizarPoliza_Motor.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.CotizarPoliza_Motor.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.CotizarPoliza_Motor.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Emision.CotizarPoliza_Motor.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.CotizarPoliza_Motor.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Emision.CotizarPoliza_Motor.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPoliza_Motor.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPoliza_Motor.Actividad">
+            <summary>
+            Gets or sets the value of variable Actividad.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPoliza_Motor.Patente">
+            <summary>
+            Gets or sets the value of variable Patente.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPoliza_Motor.Motor">
+            <summary>
+            Gets or sets the value of variable Motor.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPoliza_Motor.Chasis">
+            <summary>
+            Gets or sets the value of variable Chasis.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPoliza_Motor.NumSolicitud">
+            <summary>
+            Gets or sets the value of variable NumSolicitud.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPoliza_Motor.ValidateNroCuenta">
+            <summary>
+            Gets or sets the value of variable ValidateNroCuenta.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPoliza_Motor.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPoliza_Motor.Anio">
+            <summary>
+            Gets or sets the value of variable Anio.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPoliza_Motor.Marca">
+            <summary>
+            Gets or sets the value of variable Marca.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPoliza_Motor.Modelo">
+            <summary>
+            Gets or sets the value of variable Modelo.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPoliza_Motor.SumaAsegurada">
+            <summary>
+            Gets or sets the value of variable SumaAsegurada.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPoliza_Motor.Producto">
+            <summary>
+            Gets or sets the value of variable Producto.
+            </summary>
+        </member>
         <member name="T:Sura.Emision.Cotizar_Answer">
              <summary>
             The Cotizar_Answer recording.
@@ -7873,9 +7972,9 @@
             Gets or sets the value of variable NombreArchivo.
             </summary>
         </member>
-        <member name="P:Sura.GestionDocumental.VerFormulario_Cotizada.NumeroPoliza">
+        <member name="P:Sura.GestionDocumental.VerFormulario_Cotizada.NumeroTransaccion">
             <summary>
-            Gets or sets the value of variable NumeroPoliza.
+            Gets or sets the value of variable NumeroTransaccion.
             </summary>
         </member>
         <member name="P:Sura.GestionDocumental.VerFormulario_Cotizada.Ambiente">

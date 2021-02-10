@@ -329,6 +329,18 @@
       <UserCode>true</UserCode>
       <id>111813ac-5118-47ca-a177-7cc94d57c8da</id>
     </Compile>
+    <Compile Include="Emision\CotizarPoliza_Motor.cs">
+      <BoundTo>f49960d2-1c52-44f1-9613-d674718b95ac</BoundTo>
+      <DependentUpon>CotizarPoliza_Motor.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ccdbe6e3-d7e2-48c1-a116-bd0680462b8c</id>
+    </Compile>
+    <Compile Include="Emision\CotizarPoliza_Motor.UserCode.cs">
+      <BoundTo>f49960d2-1c52-44f1-9613-d674718b95ac</BoundTo>
+      <DependentUpon>CotizarPoliza_Motor.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>18d595d2-189a-4a19-8087-2f3fed366515</id>
+    </Compile>
     <Compile Include="Emision\Cotizar_Answer.cs">
       <BoundTo>4beabfae-9097-4f88-ab6c-573b5981fa5a</BoundTo>
       <DependentUpon>Cotizar_Answer.rxrec</DependentUpon>
@@ -2294,12 +2306,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>6e69f53f-82a9-4d19-94d5-69f005c60027</id>
     </Content>
-    <Content Include="DataSource - ValidaFormularios.xlsx">
-      <Link>DataSource - ValidaFormularios.xlsx</Link>
+    <Content Include="DataSource - ValidaFormularios - Emitida.xlsx">
+      <Link>DataSource - ValidaFormularios - Emitida.xlsx</Link>
       <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
       <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>934ec7fe-d14e-471e-8c05-3db56a4ba804</id>
+      <id>80ea9a9f-ffa7-42a8-9bc0-86dd0b61b9b5</id>
     </Content>
     <None Include="Emision\AccesorioConMovilidad.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -2375,6 +2387,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>0cd8cdc3-8b40-4b88-b755-9587d01b8443</id>
       <recordtableid>bb487230-7c4c-4ec9-90ed-39779c3a56a5</recordtableid>
+    </None>
+    <None Include="Emision\CotizarPoliza_Motor.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>f49960d2-1c52-44f1-9613-d674718b95ac</id>
+      <recordtableid>8c4a1cbd-6b09-440e-8acd-56d6c63d0a30</recordtableid>
     </None>
     <None Include="Emision\Cotizar_Answer.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>

@@ -15,10 +15,11 @@
       <string>a50f59ea-ea72-4e26-8436-a5ca438adda2</string>
       <string>f5e15f90-cde0-4877-a54a-460d88c334e4</string>
       <string>6d2fba6e-4ad7-4514-83d3-9a6fbb8b3152</string>
+      <string>811b0ba1-f496-460a-85e2-c928a0dc0a51</string>
       <string>c9f6acbd-b162-43b9-9ee5-4c8b001c6475</string>
       <string>e7a34f90-362d-4b10-8cd5-546b393d193e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution Sura[Sura[GestionDocumental[]PC_GestionDocumental.rxtst[]]]]&#xD;&#xA;Solution Sura\Sura\PC_GestionDocumental.rxtst&#xD;&#xA;Solution Sura\Sura\GestionDocumental\VerFormulario_CotizadaFlota.rxrec" />
+  <ProjectBrowserState value="[Solution Sura[Sura[Emision[]Menu[]PC_GestionDocumental.rxtst[]]]]&#xD;&#xA;Solution Sura\Sura\PC_GestionDocumental.rxtst&#xD;&#xA;Solution Sura\Sura\Menu\MenuSuperior_SolicitudPoliza.rxrec" />
   <StartupProject value="{9F6470D6-24A8-4006-AA8A-74B35DD73A26}" />
 </Properties>

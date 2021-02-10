@@ -3521,7 +3521,7 @@ name="SuraRepository">
 					name="optionMenu_Formularios"
 					refimgid="fbaf6ef6-2190-4fb3-9e50-12e5da60cc90"
 					searchtimeout="30000ms">
-						/dom[@domain=$Ambiente]//div[#'PolicyFile:PolicyFileAcceleratedMenuActions']//span[@innertext~'Formularios']
+						/dom[@domain=$Ambiente]//span[@innertext~'Formularios / Cláusulas']
 					</item>
 					<item
 					addcaps="unknown,webelement,spantag"

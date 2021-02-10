@@ -14862,7 +14862,7 @@ namespace Sura
                     base("GestionDocumental", "", parentFolder, 0, null, false, "ffa08642-66b6-4f2f-92fc-f51cff669dad", "")
             {
                 _flota = new SuraRepositoryFolders.FlotaFolder2(this);
-                _optionmenu_formulariosInfo = new RepoItemInfo(this, "optionMenu_Formularios", ".//div[#'PolicyFile:PolicyFileAcceleratedMenuActions']//span[@innertext~'Formularios']", 30000, null, "691df541-0ff6-41c0-85b0-075dc1ac089f");
+                _optionmenu_formulariosInfo = new RepoItemInfo(this, "optionMenu_Formularios", ".//span[@innertext~'Formularios / Cláusulas']", 30000, null, "691df541-0ff6-41c0-85b0-075dc1ac089f");
                 _title_formularios_clausulasInfo = new RepoItemInfo(this, "title_Formularios_Clausulas", ".//div[@id='centerPanel']//span[@innertext~'Formularios']", 30000, null, "85db4913-8050-4b2a-9322-39383f647ab9");
                 _bttn_verInfo = new RepoItemInfo(this, "bttn_Ver", ".//tbody[#'centerPanel-tbody']//div[@innertext~$Formulario]/..//..//img[@title='Ver documento']", 30000, null, "64f68905-81a7-4293-8bc8-36cd882c177e");
                 _bttn_ver_constanciacoberturaautoInfo = new RepoItemInfo(this, "bttn_Ver_ConstanciaCoberturaAuto", ".//tbody[#'centerPanel-tbody']//div[@innertext='Constancia Cobertura Auto']/..//..//img[@title='Ver documento']", 30000, null, "917486a9-92d3-4a21-8c7d-8d86c23bc976");

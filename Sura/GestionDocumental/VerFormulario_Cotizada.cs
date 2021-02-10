@@ -42,7 +42,7 @@ namespace Sura.GestionDocumental
         public VerFormulario_Cotizada()
         {
             NombreArchivo = "";
-            NumeroPoliza = "";
+            NumeroTransaccion = "";
         }
 
         /// <summary>
@@ -67,16 +67,16 @@ namespace Sura.GestionDocumental
             set { _NombreArchivo = value; }
         }
 
-        string _NumeroPoliza;
+        string _NumeroTransaccion;
 
         /// <summary>
-        /// Gets or sets the value of variable NumeroPoliza.
+        /// Gets or sets the value of variable NumeroTransaccion.
         /// </summary>
         [TestVariable("98fe957e-8da3-46e6-9fdf-35b14b56ab4a")]
-        public string NumeroPoliza
+        public string NumeroTransaccion
         {
-            get { return _NumeroPoliza; }
-            set { _NumeroPoliza = value; }
+            get { return _NumeroTransaccion; }
+            set { _NumeroTransaccion = value; }
         }
 
         /// <summary>
@@ -146,19 +146,19 @@ namespace Sura.GestionDocumental
             
             Report.Log(ReportLevel.Info, "User", NombreArchivo, new RecordItemIndex(8));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.txt_NumPoliza' and assigning its value to variable 'NumeroPoliza'.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.txt_NumPolizaInfo, new RecordItemIndex(9));
-            NumeroPoliza = repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.txt_NumPoliza.Element.GetAttributeValueText("InnerText");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'bttn_CerrarPestaniaFormulario' at Center.", repo.bttn_CerrarPestaniaFormularioInfo, new RecordItemIndex(9));
+            repo.bttn_CerrarPestaniaFormulario.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Cerrar' at 17;15.", repo.Chrome.CerrarInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.txt_SolicitudPoliza' and assigning the part of its value captured by '[0-9]+' to variable 'NumeroTransaccion'.", repo.SURA.txt_SolicitudPolizaInfo, new RecordItemIndex(10));
+            NumeroTransaccion = repo.SURA.txt_SolicitudPoliza.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Cerrar' at 17;15.", repo.Chrome.CerrarInfo, new RecordItemIndex(11));
             repo.Chrome.Cerrar.Click("17;15");
             Delay.Milliseconds(0);
             
             manejarFormulario();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'bttn_CerrarPestaniaFormulario' at Center.", repo.bttn_CerrarPestaniaFormularioInfo, new RecordItemIndex(12));
-            repo.bttn_CerrarPestaniaFormulario.Click();
             Delay.Milliseconds(0);
             
             // ----- Cotización Productor
@@ -192,15 +192,15 @@ namespace Sura.GestionDocumental
             
             Report.Log(ReportLevel.Info, "User", NombreArchivo, new RecordItemIndex(21));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Cerrar' at 17;15.", repo.Chrome.CerrarInfo, new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'bttn_CerrarPestaniaFormulario' at Center.", repo.bttn_CerrarPestaniaFormularioInfo, new RecordItemIndex(22));
+            repo.bttn_CerrarPestaniaFormulario.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Cerrar' at 17;15.", repo.Chrome.CerrarInfo, new RecordItemIndex(23));
             repo.Chrome.Cerrar.Click("17;15");
             Delay.Milliseconds(0);
             
             manejarFormulario();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'bttn_CerrarPestaniaFormulario' at Center.", repo.bttn_CerrarPestaniaFormularioInfo, new RecordItemIndex(24));
-            repo.bttn_CerrarPestaniaFormulario.Click();
             Delay.Milliseconds(0);
             
             // ----- Certificado de Pagos al Día
@@ -234,15 +234,15 @@ namespace Sura.GestionDocumental
             
             Report.Log(ReportLevel.Info, "User", NombreArchivo, new RecordItemIndex(33));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Cerrar' at 17;15.", repo.Chrome.CerrarInfo, new RecordItemIndex(34));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'bttn_CerrarPestaniaFormulario' at Center.", repo.bttn_CerrarPestaniaFormularioInfo, new RecordItemIndex(34));
+            repo.bttn_CerrarPestaniaFormulario.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Cerrar' at 17;15.", repo.Chrome.CerrarInfo, new RecordItemIndex(35));
             repo.Chrome.Cerrar.Click("17;15");
             Delay.Milliseconds(0);
             
             manejarFormulario();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'bttn_CerrarPestaniaFormulario' at Center.", repo.bttn_CerrarPestaniaFormularioInfo, new RecordItemIndex(36));
-            repo.bttn_CerrarPestaniaFormulario.Click();
             Delay.Milliseconds(0);
             
         }
