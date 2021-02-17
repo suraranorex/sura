@@ -1083,6 +1083,31 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="12bbd790-f5ae-4be2-ae54-44a263746970"
+			name="SiEs0Km">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Es0km"
+								id="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="si">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
 			<testmodule
 			id="130eccc5-a3fb-4dd6-83dc-ce2801db8ed9"
 			name="ContinueInformacionPoliza"
@@ -2501,6 +2526,18 @@
 					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
+					</var>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="82173b09-8bbf-4e2e-8375-40886c9c86be"
+					variablename="CodigoAgente">
+					</var>
+					<var
+					dataname="NUM_GRUPO"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="83067c29-0671-4e04-b81a-f3a234251e38"
+					variablename="NUM_GRUPO">
 					</var>
 				</databinding>
 			</testmodule>
@@ -5812,7 +5849,6 @@
 			name="teardown111111">
 			</teardown>
 			<testcase
-			datarangeactive="True"
 			datasource="EmisionMotor"
 			errorbehavior="ContinueNextIteration"
 			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b"
@@ -6269,6 +6305,31 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="747136f3-3c19-4631-9c96-69b3ca60021b"
+			name="SinAsistenciaMecanica3">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="SinAsistenciaMecanica"
+								id="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Sí">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
 			<testmodule
 			id="74938a41-7ed4-4e6a-a33c-332c1d63d34d"
 			name="Login"
@@ -6858,6 +6919,12 @@
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
+			<testmodule
+			id="80b882da-91cc-4279-b3b2-3aadcde6693a"
+			name="SinAsistenciaMecanica"
+			ref="aea33a7c-b265-4357-910b-ea540d6569eb"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="80d23856-ad19-4804-b910-eee3d3cd5a4c"
 			name="Comisiones"
@@ -7671,7 +7738,6 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testcase
-			datarangeactive="True"
 			datasource="EmisionMotor_Answer"
 			errorbehavior="ContinueNextIteration"
 			id="8f91e82d-ede3-4907-8e6d-512158b39c77"
@@ -8479,6 +8545,31 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="9d911d90-7567-4cf3-b3f2-f553250c703c"
+			name="SinAsistenciaMecanica2">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="SinAsistenciaMecanica"
+								id="572b7b41-9d12-444f-9775-c358c54bee8c">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Sí">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
 			<testcase
 			datarangeactive="True"
 			datasource="Endoso_ConductoPago"
@@ -8794,6 +8885,12 @@
 					variableid="2376a5f1-7f55-4b42-9551-fb734e478122"
 					variablename="TipoPlazo">
 					</var>
+					<var
+					dataname="FechaInicio"
+					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
+					variableid="78512ccc-9533-4e79-a9fd-499a3a813f37"
+					variablename="FechaInicio">
+					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
@@ -8849,6 +8946,20 @@
 			name="InformacionPolizaEndosoABM"
 			ref="2f71d7ed-c4f2-4748-adef-bf2c5378698b"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="a4a27cf6-e8f9-48a3-bf6c-3f40da35bdf0"
+			name="SinAsistenciaMecanica"
+			ref="aea33a7c-b265-4357-910b-ea540d6569eb"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="a5387d84-71aa-471f-8d30-0588bcd2f0ae"
@@ -11914,12 +12025,12 @@
 			</teardown>
 			<testcase
 			datarangeactive="True"
-			datarangeset="1,2"
+			datarangeset="4,5"
 			datasource="EmisionMotorAcceMovilidad"
 			errorbehavior="ContinueNextIteration"
 			id="d5fb8d1f-5e48-4cc3-800e-c13e254ef027"
-			maxrange="1"
-			minrange="0"
+			maxrange="4"
+			minrange="3"
 			name="EmisionMotorConAccesorioMovilidad">
 			</testcase>
 			<testmodule
@@ -12487,6 +12598,31 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="dfb3ae89-2a61-45db-8c3d-c2b2ef1292ef"
+			name="SiNoEs0km1">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="DataConnector"
+								dataname="Es0km"
+								id="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="no">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
 			<testmodule
 			id="dfc28106-cab5-46cc-af58-5eca22a755a8"
 			name="Login"
@@ -12859,6 +12995,74 @@
 					datasourceid="9b924234-3935-41a6-b46a-3156911ba026"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="e646a5bf-3b64-47a1-82bb-3191078e8b97"
+			name="Vehiculos_0km"
+			ref="1f20520d-a1fc-470e-ad44-de1143cf9207"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Anio"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="573a6a54-0a4c-4496-aaae-d44830997257"
+					variablename="Anio">
+					</var>
+					<var
+					dataname="Marca"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="d29032ba-813c-46e6-8ddd-ee09d26fb82a"
+					variablename="Marca">
+					</var>
+					<var
+					dataname="Modelo"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="e3527f0c-44fb-42f2-bdaf-f83b1622ded4"
+					variablename="Modelo">
+					</var>
+					<var
+					dataname="SumaAsegurada"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="131714e1-afff-4b8e-9dad-3fd89c0e7325"
+					variablename="SumaAsegurada">
+					</var>
+					<var
+					dataname="Producto"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="091f947e-5c51-4d84-b39c-9732f273d5bd"
+					variablename="Producto">
+					</var>
+					<var
+					dataname="Patente"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="9b7c630a-dc22-4900-8648-05196c741949"
+					variablename="Patente">
+					</var>
+					<var
+					dataname="Motor"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="1ddc194e-c5f8-44ea-8d98-c56f7888618c"
+					variablename="Motor">
+					</var>
+					<var
+					dataname="Chasis"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="8d4e46c0-7ef3-49ca-ada1-bf0f3051454d"
+					variablename="Chasis">
+					</var>
+					<var
+					dataname="Actividad"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="2e93f88b-6420-439f-ab5a-bbd2a4d58c5f"
+					variablename="Actividad">
 					</var>
 				</databinding>
 			</testmodule>
@@ -14268,6 +14472,12 @@
 					variableid="3c2b5907-735e-42e1-87ab-42197132c013"
 					variablename="TIPOPOLIZA">
 					</var>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="6f7f07ec-644a-478e-b7a7-f7ea973f5459"
+					variablename="CodigoAgente">
+					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
@@ -14811,6 +15021,14 @@
 							name="TR_VARIABLE">
 							</testmodule>
 						</smartfoldernode>
+						<smartfoldernode
+						id="9d911d90-7567-4cf3-b3f2-f553250c703c"
+						name="SinAsistenciaMecanica2">
+							<testmodule
+							id="a4a27cf6-e8f9-48a3-bf6c-3f40da35bdf0"
+							name="SinAsistenciaMecanica">
+							</testmodule>
+						</smartfoldernode>
 						<testmodule
 						id="249001f5-3e6c-4af2-ad8f-537d35f1cffd"
 						name="Comisiones">
@@ -14947,10 +15165,22 @@
 						id="f2fc90ca-dc36-405f-9168-f27c0e172aaf"
 						name="Conductores">
 						</testmodule>
-						<testmodule
-						id="fea6945d-9b64-4927-aefc-153ae97c34be"
-						name="Vehiculos">
-						</testmodule>
+						<smartfoldernode
+						id="12bbd790-f5ae-4be2-ae54-44a263746970"
+						name="SiEs0Km">
+							<testmodule
+							id="e646a5bf-3b64-47a1-82bb-3191078e8b97"
+							name="Vehiculos_0km">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="dfb3ae89-2a61-45db-8c3d-c2b2ef1292ef"
+						name="SiNoEs0km1">
+							<testmodule
+							id="fea6945d-9b64-4927-aefc-153ae97c34be"
+							name="Vehiculos">
+							</testmodule>
+						</smartfoldernode>
 						<smartfoldernode
 						id="1c0c987c-120e-4c81-9877-d784e1b38787"
 						name="TR_FIJA2">
@@ -14965,6 +15195,14 @@
 							<testmodule
 							id="64de2075-3419-46a2-a8f1-c83a8e104c79"
 							name="TR_VARIABLE">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="747136f3-3c19-4631-9c96-69b3ca60021b"
+						name="SinAsistenciaMecanica3">
+							<testmodule
+							id="80b882da-91cc-4279-b3b2-3aadcde6693a"
+							name="SinAsistenciaMecanica">
 							</testmodule>
 						</smartfoldernode>
 						<smartfoldernode
@@ -18363,7 +18601,7 @@
 		filename="DataSource - Emision Motor.xlsx"
 		id="9027bcb8-f348-4440-91bd-e34ee0858dc1"
 		includefile="Checked"
-		lastknownrowcount="34"
+		lastknownrowcount="102"
 		name="EmisionMotor"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -18397,6 +18635,9 @@
 					TipoPlazo
 				</column>
 				<column>
+					FechaInicio
+				</column>
+				<column>
 					MetodoDePago
 				</column>
 				<column>
@@ -18419,9 +18660,6 @@
 				</column>
 				<column>
 					NumCBU
-				</column>
-				<column>
-					FechaInicio
 				</column>
 				<column>
 					Anio
@@ -18464,12 +18702,15 @@
 		filename="DataSource - Emision Motor_Answer.xlsx"
 		id="572b7b41-9d12-444f-9775-c358c54bee8c"
 		includefile="Checked"
-		lastknownrowcount="5"
+		lastknownrowcount="34"
 		name="EmisionMotor_Answer"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
+				<column>
+					ID
+				</column>
 				<column>
 					Ambiente
 				</column>
@@ -18493,6 +18734,9 @@
 				</column>
 				<column>
 					TipoPlazo
+				</column>
+				<column>
+					FechaInicio
 				</column>
 				<column>
 					MetodoDePago
@@ -18535,6 +18779,9 @@
 				</column>
 				<column>
 					Actividad
+				</column>
+				<column>
+					SinAsistenciaMecanica
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -18756,6 +19003,12 @@
 					NroCuenta
 				</column>
 				<column>
+					CodigoAgente
+				</column>
+				<column>
+					NUM_GRUPO
+				</column>
+				<column>
 					TIPOPOLIZA
 				</column>
 				<column>
@@ -18783,6 +19036,9 @@
 					Anio
 				</column>
 				<column>
+					Es0km
+				</column>
+				<column>
 					Marca
 				</column>
 				<column>
@@ -18805,6 +19061,9 @@
 				</column>
 				<column>
 					Actividad
+				</column>
+				<column>
+					SinAsistenciaMecanica
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -19933,7 +20192,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="Emisiones">
+	default="EmisionMotorAsist0km">
 		<testconfiguration
 		name="Emisiones">
 			<testcontainer
@@ -19947,6 +20206,9 @@
 			</testcontainer>
 			<testcontainer
 			id="0a7360c9-5f5e-42d0-82cc-4a7a6617d15c">
+			</testcontainer>
+			<testcontainer
+			id="12bbd790-f5ae-4be2-ae54-44a263746970">
 			</testcontainer>
 			<testcontainer
 			id="169887d7-21a4-4604-b511-48dcebd5d05d">
@@ -20069,6 +20331,9 @@
 			id="73833851-5008-4a41-995f-b3944a9aa217">
 			</testcontainer>
 			<testcontainer
+			id="747136f3-3c19-4631-9c96-69b3ca60021b">
+			</testcontainer>
+			<testcontainer
 			id="75646c42-08f2-4518-a444-e79150adf684">
 			</testcontainer>
 			<testcontainer
@@ -20132,6 +20397,9 @@
 			id="9b4cb4a3-ea8b-4484-868f-fe3db24fccae">
 			</testcontainer>
 			<testcontainer
+			id="9d911d90-7567-4cf3-b3f2-f553250c703c">
+			</testcontainer>
+			<testcontainer
 			id="a6ec0e22-30d2-4398-95fd-13a83a69b049">
 			</testcontainer>
 			<testcontainer
@@ -20186,6 +20454,9 @@
 			id="da6241c5-3ef9-46a7-8fd2-897cf8536d06">
 			</testcontainer>
 			<testcontainer
+			id="dfb3ae89-2a61-45db-8c3d-c2b2ef1292ef">
+			</testcontainer>
+			<testcontainer
 			id="e23e28f8-97c4-41ea-8958-41c94e11148a">
 			</testcontainer>
 			<testcontainer
@@ -20211,6 +20482,78 @@
 			</testcontainer>
 			<testcontainer
 			id="fbf638dd-c40f-4b32-9867-a0b6509ba41d">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="EmisionMotorAnswer">
+			<testcontainer
+			id="169887d7-21a4-4604-b511-48dcebd5d05d">
+			</testcontainer>
+			<testcontainer
+			id="1fc98506-d7c4-42b3-ad44-82cc6f15c3e1">
+			</testcontainer>
+			<testcontainer
+			id="1ff4a919-10dc-4f97-a4cd-5e4a0e40c32b">
+			</testcontainer>
+			<testcontainer
+			id="55fe0d59-4a2e-4421-a861-9259fda365df">
+			</testcontainer>
+			<testcontainer
+			id="73833851-5008-4a41-995f-b3944a9aa217">
+			</testcontainer>
+			<testcontainer
+			id="8f91e82d-ede3-4907-8e6d-512158b39c77">
+			</testcontainer>
+			<testcontainer
+			id="9d911d90-7567-4cf3-b3f2-f553250c703c">
+			</testcontainer>
+			<testcontainer
+			id="a6ec0e22-30d2-4398-95fd-13a83a69b049">
+			</testcontainer>
+			<testcontainer
+			id="ad1ffc8e-61d9-4b1f-96f0-6c90d1f10304">
+			</testcontainer>
+			<testcontainer
+			id="b89afea8-9a8a-450e-a00b-388c9e7ed69b">
+			</testcontainer>
+			<testcontainer
+			id="d3cb208e-ea2c-478e-b20a-d1904bcbb384">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="EmisionMotorAsist0km">
+			<testcontainer
+			id="16ed9f9e-075d-4d6a-a058-9d5a32750ae0">
+			</testcontainer>
+			<testcontainer
+			id="174922ed-809e-4d46-8258-8bad09ffc99c">
+			</testcontainer>
+			<testcontainer
+			id="24a86737-98c1-4915-941d-a2f85e7fc006">
+			</testcontainer>
+			<testcontainer
+			id="3f3f21e6-a3a6-49a0-8e0e-34d2436d54fe">
+			</testcontainer>
+			<testcontainer
+			id="54ede319-0666-4f70-80c2-3ecae88f8848">
+			</testcontainer>
+			<testcontainer
+			id="5c7b1279-38e4-4893-a3b8-18e476d94bf7">
+			</testcontainer>
+			<testcontainer
+			id="65fc3614-b6f8-499d-bfe2-ab9d7106f6f8">
+			</testcontainer>
+			<testcontainer
+			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b">
+			</testcontainer>
+			<testcontainer
+			id="7d2af1e1-d7a8-4ceb-bb02-4e19adff58d1">
+			</testcontainer>
+			<testcontainer
+			id="ad1ffc8e-61d9-4b1f-96f0-6c90d1f10304">
+			</testcontainer>
+			<testcontainer
+			id="beed3085-c472-4fbe-8362-86969b7274b4">
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration

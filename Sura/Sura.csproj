@@ -1127,6 +1127,18 @@
       <UserCode>true</UserCode>
       <id>c0b4b434-6d03-47a1-b558-d9bb872a58f7</id>
     </Compile>
+    <Compile Include="Endosos\AgregarVehiculos.cs">
+      <BoundTo>6d94c00a-e21e-4af8-9c42-91a7825550b0</BoundTo>
+      <DependentUpon>AgregarVehiculos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0370bb04-0604-481a-8a6c-40ced21f64cb</id>
+    </Compile>
+    <Compile Include="Endosos\AgregarVehiculos.UserCode.cs">
+      <BoundTo>6d94c00a-e21e-4af8-9c42-91a7825550b0</BoundTo>
+      <DependentUpon>AgregarVehiculos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>41a38dd3-b903-4111-a413-4a5e6832b8aa</id>
+    </Compile>
     <Compile Include="Endosos\AltaEndoso.cs">
       <DependentUpon>AltaEndoso.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -2621,6 +2633,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>3a4be5da-aac9-444f-9694-9429a940b177</id>
       <recordtableid>c5bb02a6-1f18-408e-a20c-ed4470fca104</recordtableid>
+    </None>
+    <None Include="Endosos\AgregarVehiculos.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>6d94c00a-e21e-4af8-9c42-91a7825550b0</id>
+      <recordtableid>46052bc0-d519-4f74-87c5-67bddd361655</recordtableid>
     </None>
     <None Include="Endosos\AltaEndoso.rxrec">
       <id>980d56ff-54f4-4617-a0a5-dab66ff1c3cf</id>

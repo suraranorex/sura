@@ -1126,6 +1126,13 @@ name="SuraRepository">
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|&#237;)']
 							</item>
+							<item
+							capname="labeltag"
+							id="c4d14423-5fa8-4db0-9fcd-981c162fec56"
+							name="rdo_0Km2"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|&#237;)']
+							</item>
 						</folder>
 						<folder
 						capname="unknown"
@@ -1140,7 +1147,7 @@ name="SuraRepository">
 							name="SelectMontoMovilidad"
 							refimgid="a1597744-bc39-4223-9db7-3808cef43665"
 							searchtimeout="30000ms">
-								/dom[@domain=$Ambiente]/body/div[11]/?/?/ul/li[@innertext=$MontoMovilidad]
+								/dom[@domain=$Ambiente]/body//li[@innertext=$MontoMovilidad and @enabled='True']
 							</item>
 							<item
 							addcaps="unknown,webelement,spantag"
@@ -1321,6 +1328,15 @@ name="SuraRepository">
 							refimgid="a97fed81-1114-4a73-b8be-a1355ade1f94"
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//span[@innertext='Proveedor']
+							</item>
+							<item
+							addcaps="unknown,webelement,labeltag"
+							capname="labeltag"
+							id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
+							name="lbl_InfoDelVehiculo2"
+							refpath="/dom[@domain='ssurgwsoadev4-oci.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[5]/td/div/table/tbody/tr[3]/td/div/div[2]/div/table/tbody/tr/td/div/table/tbody/tr[3]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[1]/div/table/tbody/tr[6]/td/label[@innertext='Información del vehículo']"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
 							</item>
 							<basepath>
 								/dom[@domain=$Ambiente]
@@ -4741,6 +4757,126 @@ name="SuraRepository">
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='N&#250;mero']/../..//input
 			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="7706c77d-0d5a-430e-9737-4d16685d7929"
+			name="bttn_Agregar"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//span[@innertext~'Agregar']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="inputtag"
+			id="17decd89-df31-4338-a0ad-1c7de2e292a3"
+			name="Copy_of_txtbox_Anio"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//label/span[@innertext='A&#241;o']/../..//input[@data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="inputtag"
+			id="2039bf2c-a347-4122-b46b-8f08d1ad897f"
+			name="txtbox_Anio"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//label/span[@innertext~'A&#241;o']/../..//input
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="a072f1bb-85f4-4e5c-9a51-34e9ac59ae81"
+			name="lbl_InfoDelVehiculo2"
+			refpath="/dom[@domain='ssurgwsoadev4-oci.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[5]/td/div/table/tbody/tr[3]/td/div/div[2]/div/table/tbody/tr/td/div/table/tbody/tr[3]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[1]/div/table/tbody/tr[6]/td/label[@innertext='Información del vehículo']"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
+			</item>
+			<item
+			capname="labeltag"
+			id="f247aeb9-7673-45aa-8301-7a6e66e50d1d"
+			name="rdo_0Km2"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|&#237;)']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="inputtag"
+			id="90929d91-0a7e-46be-9512-8c6434d7e8a9"
+			name="txtbox_Marca"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//label/span[@innertext~'Marca']/../..//input
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="inputtag"
+			id="34565688-88c4-4ef7-a981-d56b2441996c"
+			name="Copy_of_txtbox_Marca"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//label/span[@innertext='Marca']/../..//input[@data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="inputtag"
+			id="10883098-fdeb-4fcd-8692-b31b4a4076ab"
+			name="txtbox_Modelo"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//label/span[@innertext~'Modelo']/../..//input
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="inputtag"
+			id="cab9abfc-42ab-4e0a-9c55-28957f97dfe8"
+			name="Copy_of_txtbox_Modelo"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//label/span[@innertext='Modelo']/../..//input[@data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="inputtag"
+			id="43eb8460-64c0-4bf3-8bc5-2425e622905c"
+			name="txtbox_Actividad"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//label/span[@innertext~'Actividad']/../..//input
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="inputtag"
+			id="158b0acd-bdcc-4d55-a478-2b9934e18316"
+			name="Copy_of_txtbox_Actividad"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//label/span[@innertext~'Actividad']/../..//input[@data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="inputtag"
+			id="745bc693-f516-413c-af2e-7b8a1543f9ec"
+			name="txtbox_SumaAsegurada"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//label/span[@innertext~'Suma Asegurada']/../..//input
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="inputtag"
+			id="a09f39e8-61f3-4fd8-9515-48cc62f9b425"
+			name="Copy_of_txtbox_SumaAsegurada"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//label/span[@innertext='Suma Asegurada']/../..//input[@data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="inputtag"
+			id="46fd206b-31a9-4cae-aa0c-97cfd1a6c7bb"
+			name="txtbox_Producto"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//label/span[@innertext~'Producto']/../..//input
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="inputtag"
+			id="8528128b-78e1-4348-8090-20e3a78580c0"
+			name="Copy_of_txtbox_Producto"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//label/span[@innertext='Producto']/../..//input[@data-tabindexsaved='True']
+			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
 			</basepath>
@@ -5139,7 +5275,7 @@ CvK8u/xXVicC1up4QFYAoSrWgXUxFtsH2rE8ZZN1WebMsjxDWzStPIYYy1RFAwVDlIXO+D3nt7XJ
 		<var
 		id="eefbfabd-1a02-4018-b813-f834167c1fea"
 		name="NombreAccesorios">
-			Aire Acondicionado
+			Movilidad
 		</var>
 		<var
 		id="bd7252ee-7b8a-48b4-af67-7d3b7546da94"

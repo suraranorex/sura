@@ -4,7 +4,11 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="Emision\BuscarGrupos.rxrec" />
+    <Element value="Emision\AccesorioConMovilidad.rxrec" />
     <Element value="PC.rxtst" />
+    <Element value="Emision\Informacion_Poliza_Motor_Answer.rxrec" />
+    <Element value="Emision\InformacionDePoliza_Motor.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

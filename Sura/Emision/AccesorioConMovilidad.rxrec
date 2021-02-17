@@ -28,6 +28,11 @@ mode="Global">
 		name="MontoMovilidad">
 			Hasta $20.000
 		</var>
+		<var
+		id="eefbfabd-1a02-4018-b813-f834167c1fea"
+		name="NombreAccesorios">
+			Movilidad
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
