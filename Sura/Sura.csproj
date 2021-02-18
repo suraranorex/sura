@@ -3065,6 +3065,9 @@
       <id>1b5a98d6-ca43-48f9-a4be-88dd5f2f4d4d</id>
       <recordtableid>f47c3064-0bff-4fc7-ac40-f719c84eac2a</recordtableid>
     </None>
+    <None Include="Utilitarios\VPNConnect.exe">
+      <id>0d9650d3-52e6-4eb6-9b99-b2a368bc6ae9</id>
+    </None>
     <None Include="ValidacionMarcaModelo\ValidacionStatus.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>d2d52b0c-70c3-4134-bcce-b2488c7c165b</id>
@@ -3106,6 +3109,9 @@
     </Folder>
     <Folder Include="Generales">
       <id>811b0ba1-f496-460a-85e2-c928a0dc0a51</id>
+    </Folder>
+    <Folder Include="Utilitarios">
+      <id>d890f76d-655c-41fd-880b-27ed3656e40e</id>
     </Folder>
     <Folder Include="ValidacionMarcaModelo">
       <id>6990eff0-3337-422b-8d00-de7cbe1ffeae</id>
