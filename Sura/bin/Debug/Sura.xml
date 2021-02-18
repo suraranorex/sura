@@ -9993,6 +9993,156 @@
             The imp_NvoNro2 item info.
             </summary>
         </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_Agregar">
+            <summary>
+            The bttn_Agregar item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.bttn_AgregarInfo">
+            <summary>
+            The bttn_Agregar item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_Anio">
+            <summary>
+            The Copy_of_txtbox_Anio item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_AnioInfo">
+            <summary>
+            The Copy_of_txtbox_Anio item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_Anio">
+            <summary>
+            The txtbox_Anio item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_AnioInfo">
+            <summary>
+            The txtbox_Anio item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.lbl_InfoDelVehiculo2">
+            <summary>
+            The lbl_InfoDelVehiculo2 item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.lbl_InfoDelVehiculo2Info">
+            <summary>
+            The lbl_InfoDelVehiculo2 item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.rdo_0Km2">
+            <summary>
+            The rdo_0Km2 item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.rdo_0Km2Info">
+            <summary>
+            The rdo_0Km2 item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_Marca">
+            <summary>
+            The txtbox_Marca item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_MarcaInfo">
+            <summary>
+            The txtbox_Marca item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_Marca">
+            <summary>
+            The Copy_of_txtbox_Marca item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_MarcaInfo">
+            <summary>
+            The Copy_of_txtbox_Marca item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_Modelo">
+            <summary>
+            The txtbox_Modelo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_ModeloInfo">
+            <summary>
+            The txtbox_Modelo item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_Modelo">
+            <summary>
+            The Copy_of_txtbox_Modelo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_ModeloInfo">
+            <summary>
+            The Copy_of_txtbox_Modelo item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_Actividad">
+            <summary>
+            The txtbox_Actividad item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_ActividadInfo">
+            <summary>
+            The txtbox_Actividad item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_Actividad">
+            <summary>
+            The Copy_of_txtbox_Actividad item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_ActividadInfo">
+            <summary>
+            The Copy_of_txtbox_Actividad item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_SumaAsegurada">
+            <summary>
+            The txtbox_SumaAsegurada item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_SumaAseguradaInfo">
+            <summary>
+            The txtbox_SumaAsegurada item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_SumaAsegurada">
+            <summary>
+            The Copy_of_txtbox_SumaAsegurada item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_SumaAseguradaInfo">
+            <summary>
+            The Copy_of_txtbox_SumaAsegurada item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_Producto">
+            <summary>
+            The txtbox_Producto item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.txtbox_ProductoInfo">
+            <summary>
+            The txtbox_Producto item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_Producto">
+            <summary>
+            The Copy_of_txtbox_Producto item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Copy_of_txtbox_ProductoInfo">
+            <summary>
+            The Copy_of_txtbox_Producto item info.
+            </summary>
+        </member>
         <member name="P:Sura.SuraRepositoryFolders.SURAAppFolder.Login">
             <summary>
             The Login folder.
@@ -11508,6 +11658,16 @@
             The rdo_0Km item info.
             </summary>
         </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.rdo_0Km2">
+            <summary>
+            The rdo_0Km2 item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder.rdo_0Km2Info">
+            <summary>
+            The rdo_0Km2 item info.
+            </summary>
+        </member>
         <member name="T:Sura.SuraRepositoryFolders.AccesoriosFolder">
             <summary>
             The AccesoriosFolder folder.
@@ -11741,6 +11901,16 @@
         <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.lbl_ProveedorInfo">
             <summary>
             The lbl_Proveedor item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.lbl_InfoDelVehiculo2">
+            <summary>
+            The lbl_InfoDelVehiculo2 item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.lbl_InfoDelVehiculo2Info">
+            <summary>
+            The lbl_InfoDelVehiculo2 item info.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder">
