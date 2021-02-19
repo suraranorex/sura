@@ -5849,11 +5849,13 @@
 			name="teardown111111">
 			</teardown>
 			<testcase
+			datarangeactive="True"
+			datarangeset="8,15,32,42,44,45,55-79"
 			datasource="EmisionMotor"
 			errorbehavior="ContinueNextIteration"
 			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b"
-			maxrange="26"
-			minrange="23"
+			maxrange="78"
+			minrange="7"
 			name="Emisión_Motor">
 			</testcase>
 			<testmodule
@@ -8884,12 +8886,6 @@
 					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
 					variableid="2376a5f1-7f55-4b42-9551-fb734e478122"
 					variablename="TipoPlazo">
-					</var>
-					<var
-					dataname="FechaInicio"
-					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
-					variableid="78512ccc-9533-4e79-a9fd-499a3a813f37"
-					variablename="FechaInicio">
 					</var>
 				</databinding>
 			</testmodule>
