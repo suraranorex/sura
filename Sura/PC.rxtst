@@ -5850,12 +5850,12 @@
 			</teardown>
 			<testcase
 			datarangeactive="True"
-			datarangeset="8,15,32,42,44,45,55-79"
+			datarangeset="1,2"
 			datasource="EmisionMotor"
 			errorbehavior="ContinueNextIteration"
 			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b"
-			maxrange="78"
-			minrange="7"
+			maxrange="1"
+			minrange="0"
 			name="Emisión_Motor">
 			</testcase>
 			<testmodule
