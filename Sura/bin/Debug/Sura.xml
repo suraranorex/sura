@@ -3108,6 +3108,11 @@
             Gets or sets the value of variable MetodoDePago.
             </summary>
         </member>
+        <member name="P:Sura.Emision.Informacion_Poliza_Motor_Answer.FechaInicio">
+            <summary>
+            Gets or sets the value of variable FechaInicio.
+            </summary>
+        </member>
         <member name="T:Sura.Emision.Inspeccion">
              <summary>
             The Inspeccion recording.
@@ -4755,6 +4760,95 @@
         <member name="P:Sura.Endosos.AgregaAccesorios.SumaAccesorio">
             <summary>
             Gets or sets the value of variable SumaAccesorio.
+            </summary>
+        </member>
+        <member name="T:Sura.Endosos.AgregarVehiculos">
+             <summary>
+            The AgregarVehiculos recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Endosos.AgregarVehiculos.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.AgregarVehiculos.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.AgregarVehiculos.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Endosos.AgregarVehiculos.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.AgregarVehiculos.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Endosos.AgregarVehiculos.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Actividad">
+            <summary>
+            Gets or sets the value of variable Actividad.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Patente">
+            <summary>
+            Gets or sets the value of variable Patente.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Motor">
+            <summary>
+            Gets or sets the value of variable Motor.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Chasis">
+            <summary>
+            Gets or sets the value of variable Chasis.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Anio">
+            <summary>
+            Gets or sets the value of variable Anio.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Marca">
+            <summary>
+            Gets or sets the value of variable Marca.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Modelo">
+            <summary>
+            Gets or sets the value of variable Modelo.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.SumaAsegurada">
+            <summary>
+            Gets or sets the value of variable SumaAsegurada.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.AgregarVehiculos.Producto">
+            <summary>
+            Gets or sets the value of variable Producto.
             </summary>
         </member>
         <member name="T:Sura.Endosos.AltaEndoso">
