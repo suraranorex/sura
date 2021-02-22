@@ -559,7 +559,7 @@ namespace Sura
             set { _NombreCobertura = value; }
         }
 
-        string _CodigoAgente = "6254";
+        string _CodigoAgente = "";
 
         /// <summary>
         /// Gets or sets the value of variable CodigoAgente.

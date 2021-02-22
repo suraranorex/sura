@@ -1,10 +1,9 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="PC.rxtst" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="PC.rxtst" />
+    <Element value="Emision\NuevaPolizaMotor.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
