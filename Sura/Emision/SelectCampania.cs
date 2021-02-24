@@ -110,34 +110,38 @@ namespace Sura.Emision
             repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.list_Campania.PressKeys(Campania);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos.Txt_Validacion.txt_InformacionDePoliza' at UpperRight.", repo.SURA.PC.Endosos.Txt_Validacion.txt_InformacionDePolizaInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.list_Campania' at Center.", repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.list_CampaniaInfo, new RecordItemIndex(2));
+            repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.list_Campania.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos.Txt_Validacion.txt_InformacionDePoliza' at UpperRight.", repo.SURA.PC.Endosos.Txt_Validacion.txt_InformacionDePolizaInfo, new RecordItemIndex(3));
             repo.SURA.PC.Endosos.Txt_Validacion.txt_InformacionDePoliza.Click(Location.UpperRight);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_Campana' at Center.", repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_CampanaInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_Campana' at Center.", repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_CampanaInfo, new RecordItemIndex(4));
             repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_Campana.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_list_Campania'", repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_list_CampaniaInfo, new ActionTimeout(30000), new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_list_Campania'", repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_list_CampaniaInfo, new ActionTimeout(30000), new RecordItemIndex(5));
             repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_list_CampaniaInfo.WaitForNotExists(30000);
             
             // Capturas de Pantalla
-            Report.Log(ReportLevel.Info, "Section", "Capturas de Pantalla", new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Section", "Capturas de Pantalla", new RecordItemIndex(6));
             
-            //Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(6));
+            //Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(7));
             
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(7));
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(8));
             //Delay.Duration(1000, false);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_SiguienteInfo, new RecordItemIndex(8));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_SiguienteInfo, new RecordItemIndex(9));
             //repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente.MoveTo();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_SiguienteInfo, new RecordItemIndex(9));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_SiguienteInfo, new RecordItemIndex(10));
             //repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_ConductoresPropietarios'", repo.SURA.PC.Txt_Validacion.txt_ConductoresPropietariosInfo, new ActionTimeout(30000), new RecordItemIndex(10));
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_ConductoresPropietarios'", repo.SURA.PC.Txt_Validacion.txt_ConductoresPropietariosInfo, new ActionTimeout(30000), new RecordItemIndex(11));
             //repo.SURA.PC.Txt_Validacion.txt_ConductoresPropietariosInfo.WaitForExists(30000);
             
         }

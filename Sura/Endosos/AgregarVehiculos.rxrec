@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
+<<<<<<< HEAD
 id="db7ad970-ba32-4a6f-9ed2-afc31584bb00"
+=======
+id="46052bc0-d519-4f74-87c5-67bddd361655"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 mode="Global">
 	<repeatcount>
 		1
@@ -24,47 +28,83 @@ mode="Global">
 	</codegen>
 	<variables>
 		<var
+<<<<<<< HEAD
 		id="09e08b4f-e9e1-43ba-a3b2-acb8ae88e351"
+=======
+		id="ca84c77d-5df9-43eb-afd5-c81d3010e029"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 		name="Anio">
 			2009
 		</var>
 		<var
+<<<<<<< HEAD
 		id="29d2c4a2-68ac-4a12-af24-e97e5550e360"
+=======
+		id="4ad91318-8103-4b6e-871a-ebdc2a610037"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 		name="Marca">
 			CHEVROLET
 		</var>
 		<var
+<<<<<<< HEAD
 		id="eb5cdde2-e606-4e72-9c70-8e3d75cfcc5d"
+=======
+		id="0b330178-7853-4af2-a915-b1757f593a48"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 		name="Modelo">
 			ASTRA
 		</var>
 		<var
+<<<<<<< HEAD
 		id="57558c39-9edc-4b15-a260-2cb468e1206c"
+=======
+		id="46965c8c-fb47-4a1c-a30a-9de2f9f1cb25"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 		name="Actividad">
 			Sin Actividad
 		</var>
 		<var
+<<<<<<< HEAD
 		id="a810337e-ad67-4b08-9bfe-f171f3517ea4"
+=======
+		id="93940daf-1e6a-4636-87cb-c8cb21db36aa"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 		name="SumaAsegurada">
 			400000
 		</var>
 		<var
+<<<<<<< HEAD
 		id="56a0070d-44ca-40df-86b1-4e2554ca70b7"
+=======
+		id="92bd8253-e8e2-41ab-acf2-4caeedd116d8"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 		name="Patente">
 			ZZZ999
 		</var>
 		<var
+<<<<<<< HEAD
 		id="849d649d-5502-4f72-bb6b-f5e785909740"
+=======
+		id="fbc38b40-a9c2-457c-8e7b-cc6d74b66f68"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 		name="Motor">
 			ABH134H8812
 		</var>
 		<var
+<<<<<<< HEAD
 		id="956129d6-87fc-40b7-ad76-746243cf7df6"
+=======
+		id="5973b3d3-0b4d-4e7d-bdcd-30b72e6fafe6"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 		name="Chasis">
 			CA52MN31912
 		</var>
 		<var
+<<<<<<< HEAD
 		id="0ac547d7-79e8-4e1f-8c8b-c31e54dd8bbb"
+=======
+		id="3fbd1613-ca01-4075-b4f1-85d0d18d0f9f"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 		name="Producto">
 			A - Responsabilidad Civil Unicamente
 		</var>
@@ -117,7 +157,11 @@ mode="Global">
 			id="704c90c3-64f3-41ea-8c49-bddcb38d0f1e"
 			sourcename="RepositoryEditor">
 				<path>
+<<<<<<< HEAD
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Año']/../..//input[@data-tabindexsaved='True']
+=======
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='A&#241;o']/../..//input[@data-tabindexsaved='True']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -140,7 +184,11 @@ mode="Global">
 			id="3da66ac4-0baa-4f71-b54d-a74371ae73b2"
 			sourcename="RepositoryEditor">
 				<path>
+<<<<<<< HEAD
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Año']/../..//input
+=======
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='A&#241;o']/../..//input
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</keysequenceitem>
@@ -161,7 +209,11 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
+<<<<<<< HEAD
 			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
+=======
+			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, labeltag"
@@ -199,7 +251,11 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
+<<<<<<< HEAD
 						Información del vehículo
+=======
+						Informaci&#243;n del veh&#237;culo
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -223,7 +279,11 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
+<<<<<<< HEAD
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
+=======
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</mouseitem>
@@ -241,7 +301,11 @@ mode="Global">
 			id="704c90c3-64f3-41ea-8c49-bddcb38d0f1e"
 			sourcename="RepositoryEditor">
 				<path>
+<<<<<<< HEAD
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Año']/../..//input[@data-tabindexsaved='True']
+=======
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='A&#241;o']/../..//input[@data-tabindexsaved='True']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -262,7 +326,11 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
+<<<<<<< HEAD
 			id="e17048e6-8577-4a4f-9409-dcf3b3cbc232"
+=======
+			id="c4d14423-5fa8-4db0-9fcd-981c162fec56"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, labeltag"
@@ -300,7 +368,11 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
+<<<<<<< HEAD
 						Sí
+=======
+						S&#237;
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -325,7 +397,11 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
+<<<<<<< HEAD
 					/dom[@domain=$Ambiente]//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|í)']
+=======
+					/dom[@domain=$Ambiente]//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|&#237;)']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</mouseitem>
@@ -346,7 +422,11 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
+<<<<<<< HEAD
 			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
+=======
+			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, labeltag"
@@ -384,7 +464,11 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
+<<<<<<< HEAD
 						Información del vehículo
+=======
+						Informaci&#243;n del veh&#237;culo
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -408,7 +492,11 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
+<<<<<<< HEAD
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
+=======
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</mouseitem>
@@ -426,7 +514,11 @@ mode="Global">
 			id="704c90c3-64f3-41ea-8c49-bddcb38d0f1e"
 			sourcename="RepositoryEditor">
 				<path>
+<<<<<<< HEAD
 					/dom[@domain=$Ambiente]//label/span[@innertext='Año']/../..//input[@data-tabindexsaved='True']
+=======
+					/dom[@domain=$Ambiente]//label/span[@innertext='A&#241;o']/../..//input[@data-tabindexsaved='True']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -507,7 +599,11 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
+<<<<<<< HEAD
 			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
+=======
+			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, labeltag"
@@ -545,7 +641,11 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
+<<<<<<< HEAD
 						Información del vehículo
+=======
+						Informaci&#243;n del veh&#237;culo
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -569,7 +669,11 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
+<<<<<<< HEAD
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
+=======
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</mouseitem>
@@ -677,7 +781,11 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
+<<<<<<< HEAD
 			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
+=======
+			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, labeltag"
@@ -715,7 +823,11 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
+<<<<<<< HEAD
 						Información del vehículo
+=======
+						Informaci&#243;n del veh&#237;culo
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -739,7 +851,11 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
+<<<<<<< HEAD
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
+=======
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</mouseitem>
@@ -852,7 +968,11 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
+<<<<<<< HEAD
 			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
+=======
+			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, labeltag"
@@ -890,7 +1010,11 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
+<<<<<<< HEAD
 						Información del vehículo
+=======
+						Informaci&#243;n del veh&#237;culo
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -914,7 +1038,11 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
+<<<<<<< HEAD
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
+=======
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</mouseitem>
@@ -1008,7 +1136,11 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
+<<<<<<< HEAD
 			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
+=======
+			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, labeltag"
@@ -1046,7 +1178,11 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
+<<<<<<< HEAD
 						Información del vehículo
+=======
+						Informaci&#243;n del veh&#237;culo
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1070,7 +1206,11 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
+<<<<<<< HEAD
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
+=======
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</mouseitem>
@@ -1315,7 +1455,11 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
+<<<<<<< HEAD
 			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
+=======
+			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, labeltag"
@@ -1353,7 +1497,11 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
+<<<<<<< HEAD
 						Información del vehículo
+=======
+						Informaci&#243;n del veh&#237;culo
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1377,7 +1525,11 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
+<<<<<<< HEAD
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
+=======
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</mouseitem>
@@ -1613,7 +1765,11 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
+<<<<<<< HEAD
 			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
+=======
+			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, labeltag"
@@ -1651,7 +1807,11 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
+<<<<<<< HEAD
 						Información del vehículo
+=======
+						Informaci&#243;n del veh&#237;culo
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1675,7 +1835,11 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
+<<<<<<< HEAD
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
+=======
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</mouseitem>
@@ -1911,7 +2075,11 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
+<<<<<<< HEAD
 			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
+=======
+			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, labeltag"
@@ -1949,7 +2117,11 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
+<<<<<<< HEAD
 						Información del vehículo
+=======
+						Informaci&#243;n del veh&#237;culo
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1973,7 +2145,11 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
+<<<<<<< HEAD
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
+=======
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</mouseitem>
@@ -1995,6 +2171,8 @@ mode="Global">
 				</path>
 			</info>
 		</WaitForRecordItem>
+<<<<<<< HEAD
+=======
 		<loggingrecorditem
 		action="Screenshot"
 		category="User"
@@ -2015,6 +2193,7 @@ mode="Global">
 				</path>
 			</info>
 		</loggingrecorditem>
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 		<keysequenceitem
 		KeySequence="yourtext"
 		duration="20ms"
@@ -2031,7 +2210,11 @@ mode="Global">
 				</binding>
 			</bindings>
 			<info
+<<<<<<< HEAD
 			id="f8c8a5e9-914e-47db-8935-9336c5920595"
+=======
+			id="46fd206b-31a9-4cae-aa0c-97cfd1a6c7bb"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 			sourcename="RepositoryEditor">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Producto']/../..//input
@@ -2055,10 +2238,17 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
+<<<<<<< HEAD
 			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
 			sourcename="RepositoryEditor">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
+=======
+			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</mouseitem>
@@ -2073,7 +2263,11 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
+<<<<<<< HEAD
 			id="56b8357d-1949-491c-aac2-b15886967ce0"
+=======
+			id="8528128b-78e1-4348-8090-20e3a78580c0"
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 			sourcename="RepositoryEditor">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Producto']/../..//input[@data-tabindexsaved='True']
@@ -2093,7 +2287,13 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
+<<<<<<< HEAD
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]
+=======
+			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, labeltag"
@@ -2131,7 +2331,8 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
+>>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</loggingrecorditem>

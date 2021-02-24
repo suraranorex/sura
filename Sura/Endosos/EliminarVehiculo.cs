@@ -96,6 +96,10 @@ namespace Sura.Endosos
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(1));
             Delay.Duration(4000, false);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA' at Center.", repo.SURA.SelfInfo, new RecordItemIndex(2));
+            repo.SURA.Self.Click();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

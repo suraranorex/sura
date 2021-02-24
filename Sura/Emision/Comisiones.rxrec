@@ -448,7 +448,7 @@ YmILIiqcdMgVLQAvmL/tf98mk81R6/8AfJopH+6PqP50AO8xf9r/AL5NFN3DcRnkDJooA//Z
 			id="f1cd1ecf-90f3-4350-b920-eade924349f2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/ViewQuote']//span[@innertext~'Cotizaci&#243;n']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/ViewQuote']//span[@innertext~'Cotización']
 				</path>
 			</info>
 		</WaitForRecordItem>

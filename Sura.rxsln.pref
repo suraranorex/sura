@@ -7,12 +7,19 @@
   <SerializedValue name="ModuleBrowserState">
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <string>{9F6470D6-24A8-4006-AA8A-74B35DD73A26}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+<<<<<<< HEAD
       <string>6d2fba6e-4ad7-4514-83d3-9a6fbb8b3152</string>
       <string>c9f6acbd-b162-43b9-9ee5-4c8b001c6475</string>
       <string>e7a34f90-362d-4b10-8cd5-546b393d193e</string>
     </ArrayOfString>
   </SerializedValue>
   <ProjectBrowserState value="[Solution Sura[Sura[Generales[]]]]&#xD;&#xA;Solution Sura&#xD;&#xA;Solution Sura" />
+=======
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Sura[Sura[]]]&#xD;&#xA;Solution Sura&#xD;&#xA;Solution Sura" />
+>>>>>>> DesarrolloIrina
   <StartupProject value="{9F6470D6-24A8-4006-AA8A-74B35DD73A26}" />
 </Properties>

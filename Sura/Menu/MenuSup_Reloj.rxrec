@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e65d009d-0de2-4458-95f4-757f4e5af189"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="MenuSup_Reloj"
+	namespace="Sura.Menu">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="CenterRight"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="75003f4c-1c00-46b9-8fc8-9b66224529c3"
+		sx="503"
+		sy="118"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8d8ae5e2-c318-424b-8aaf-9182d03cc725"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="425,110,156,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-wrap x-btn-wrap-gw-top-menu-toolbar-small x-btn-split x-btn-split-right
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						InternalToolsTabBar:UnsupportedToolsTab-btnWrap
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-split x-btn-split-right x-btn-wrap x-btn-wrap-gw-top-menu-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//a[#'InternalToolsTabBar:UnsupportedToolsTab']//span[@innertext='Herramientas internas']/../..//span
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a335dfea-3470-4af2-9c20-f44fe7f9a76b"
+		sx="560"
+		sy="188"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cb9ec4dd-93e0-4799-9951-6e9c15c62b1c"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="442,182,168,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-menu-item-text x-menu-item-text-default x-menu-item-indent-no-separator
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						InternalToolsTabBar:UnsupportedToolsTab:UnsupportedTools_SystemClock-textEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Prueba del reloj del sistema
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-menu-item-indent-no-separator x-menu-item-text x-menu-item-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//span[@innertext&gt;'Prueba del reloj del sist']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ba913c85-de82-4246-8711-9c227e0c39e7">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="ce57c0ce-8ff6-477b-9eef-fb13533b42ed"
+		waitaction="Exists"
+		waittimeout="20000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="be9187d2-cd43-4781-9472-a6c6295dd6d4"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="264,162,293,22"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SystemClock:SystemClockScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Prueba del reloj del sistema
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'SystemClock-tbody']//span[@innertext&gt;'Prueba del reloj del sist']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		MenuSup_Reloj.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

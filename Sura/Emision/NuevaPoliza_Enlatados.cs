@@ -139,9 +139,9 @@ namespace Sura.Emision
             repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.bttn_Elegir.Click("20;3");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Txt_Validacion.txt_PreEvaluacion' at 64;11.", repo.SURA.PC.Txt_Validacion.txt_PreEvaluacionInfo, new RecordItemIndex(8));
-            repo.SURA.PC.Txt_Validacion.txt_PreEvaluacion.Click("64;11");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Txt_Validacion.txt_PreEvaluacion' at 64;11.", repo.SURA.PC.Txt_Validacion.txt_PreEvaluacionInfo, new RecordItemIndex(8));
+            //repo.SURA.PC.Txt_Validacion.txt_PreEvaluacion.Click("64;11");
+            //Delay.Milliseconds(0);
             
         }
 

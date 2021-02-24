@@ -223,8 +223,8 @@
 			datasource="BC_ReversaPago"
 			errorbehavior="ContinueNextIteration"
 			id="a4ef52bb-f07a-48e9-aefe-1cb152cb624d"
-			maxrange="1"
-			minrange="1"
+			maxrange="0"
+			minrange="0"
 			name="BC/ReversaPago">
 			</testcase>
 			<testcase
@@ -424,15 +424,12 @@
 		filename="R:\Sura\DataSource\DataSource - Pago.xlsx"
 		id="46355cdd-6d91-437d-af37-776dd8580d97"
 		includefile="Unchecked"
-		lastknownrowcount="11"
+		lastknownrowcount="1"
 		name="BC_Pago"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
-				<column>
-					ID
-				</column>
 				<column>
 					Ambiente
 				</column>
@@ -446,13 +443,13 @@
 					Contrasenia
 				</column>
 				<column>
-					NumPoliza
-				</column>
-				<column>
 					NroCuenta
 				</column>
 				<column>
 					NumAutorizacion
+				</column>
+				<column>
+					NumPoliza
 				</column>
 				<column>
 					TipoTarjeta

@@ -85,7 +85,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						&#243;liza
+						óliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -111,7 +111,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'TabBar:PolicyTab']//span[@innertext='&#243;liza']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'TabBar:PolicyTab']//span[@innertext='óliza']
 				</path>
 			</info>
 			<helperscreenshot
@@ -160,7 +160,7 @@ zy7k8kexzNol7ZymSO1kJK7fmjP+e1FdNRSbvuUklsf/2Q==
 			id="c4bacf6e-6bfa-41a3-9c7d-7bf432399f81"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[@class~'x-menu']//span[@innertext='Solicitud de P&#243;liza N.&#186;']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[@class~'x-menu']//span[@innertext='Solicitud de Póliza N.º']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -179,7 +179,7 @@ zy7k8kexzNol7ZymSO1kJK7fmjP+e1FdNRSbvuUklsf/2Q==
 			id="c4bacf6e-6bfa-41a3-9c7d-7bf432399f81"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[@class~'x-menu']//span[@innertext='Solicitud de P&#243;liza N.&#186;']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[@class~'x-menu']//span[@innertext='Solicitud de Póliza N.º']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -232,7 +232,7 @@ zy7k8kexzNol7ZymSO1kJK7fmjP+e1FdNRSbvuUklsf/2Q==
 					<attribute
 					name="innertext"
 					type="System.String">
-						Informaci&#243;n de p&#243;liza
+						Información de póliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -246,7 +246,7 @@ zy7k8kexzNol7ZymSO1kJK7fmjP+e1FdNRSbvuUklsf/2Q==
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div/table//span[@innertext='Informaci&#243;n de p&#243;liza']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div/table//span[@innertext='Información de póliza']
 				</path>
 			</info>
 		</WaitForRecordItem>

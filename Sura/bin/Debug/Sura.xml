@@ -279,6 +279,11 @@
             Gets or sets the value of variable Ambiente.
             </summary>
         </member>
+        <member name="P:Sura.Emision.AgregarPersonas.NroPoliza">
+            <summary>
+            Gets or sets the value of variable NroPoliza.
+            </summary>
+        </member>
         <member name="P:Sura.Emision.AgregarPersonas.SumaAsegurada">
             <summary>
             Gets or sets the value of variable SumaAsegurada.
@@ -336,6 +341,11 @@
         <member name="P:Sura.Emision.AgregaVariasPersonas.Ambiente">
             <summary>
             Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.AgregaVariasPersonas.NroPoliza">
+            <summary>
+            Gets or sets the value of variable NroPoliza.
             </summary>
         </member>
         <member name="P:Sura.Emision.AgregaVariasPersonas.TipoDocumento">
@@ -860,6 +870,213 @@
         <member name="P:Sura.Emision.ContinueInformacionPolizasAP.Ambiente">
             <summary>
             Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.Emision.CotizarPolizaAP">
+             <summary>
+            The CotizarPolizaAP recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Emision.CotizarPolizaAP.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.CotizarPolizaAP.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.CotizarPolizaAP.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Emision.CotizarPolizaAP.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.CotizarPolizaAP.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Emision.CotizarPolizaAP.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaAP.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaAP.NumSolicitud">
+            <summary>
+            Gets or sets the value of variable NumSolicitud.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaAP.ValidateNroCuenta">
+            <summary>
+            Gets or sets the value of variable ValidateNroCuenta.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaAP.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.Emision.CotizarPolizaHogar">
+             <summary>
+            The CotizarPolizaHogar recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Emision.CotizarPolizaHogar.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.CotizarPolizaHogar.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.CotizarPolizaHogar.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Emision.CotizarPolizaHogar.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.CotizarPolizaHogar.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Emision.CotizarPolizaHogar.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaHogar.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaHogar.NumSolicitud">
+            <summary>
+            Gets or sets the value of variable NumSolicitud.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaHogar.ValidateNroCuenta">
+            <summary>
+            Gets or sets the value of variable ValidateNroCuenta.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaHogar.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.Emision.CotizarPolizaMotor">
+             <summary>
+            The CotizarPolizaMotor recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Emision.CotizarPolizaMotor.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.CotizarPolizaMotor.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.CotizarPolizaMotor.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Emision.CotizarPolizaMotor.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.CotizarPolizaMotor.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Emision.CotizarPolizaMotor.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaMotor.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaMotor.Actividad">
+            <summary>
+            Gets or sets the value of variable Actividad.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaMotor.Patente">
+            <summary>
+            Gets or sets the value of variable Patente.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaMotor.Motor">
+            <summary>
+            Gets or sets the value of variable Motor.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaMotor.Chasis">
+            <summary>
+            Gets or sets the value of variable Chasis.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaMotor.NumSolicitud">
+            <summary>
+            Gets or sets the value of variable NumSolicitud.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaMotor.ValidateNroCuenta">
+            <summary>
+            Gets or sets the value of variable ValidateNroCuenta.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaMotor.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaMotor.Anio">
+            <summary>
+            Gets or sets the value of variable Anio.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaMotor.Marca">
+            <summary>
+            Gets or sets the value of variable Marca.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaMotor.Modelo">
+            <summary>
+            Gets or sets the value of variable Modelo.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaMotor.SumaAsegurada">
+            <summary>
+            Gets or sets the value of variable SumaAsegurada.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.CotizarPolizaMotor.Producto">
+            <summary>
+            Gets or sets the value of variable Producto.
             </summary>
         </member>
         <member name="T:Sura.Emision.Cotizar_Answer">
@@ -1993,6 +2210,11 @@
             Gets or sets the value of variable Ambiente.
             </summary>
         </member>
+        <member name="P:Sura.Emision.Persona_Answer.NroPoliza">
+            <summary>
+            Gets or sets the value of variable NroPoliza.
+            </summary>
+        </member>
         <member name="P:Sura.Emision.Persona_Answer.NumeroDocumento">
             <summary>
             Gets or sets the value of variable NumeroDocumento.
@@ -2040,6 +2262,55 @@
         <member name="P:Sura.Emision.ContinueInformacionPolizaHogarEnlatado.Ambiente">
             <summary>
             Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.Emision.PolizasVigentesOtroGrupoComercial">
+             <summary>
+            The PolizasVigentesOtroGrupoComercial recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Emision.PolizasVigentesOtroGrupoComercial.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.PolizasVigentesOtroGrupoComercial.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.PolizasVigentesOtroGrupoComercial.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Emision.PolizasVigentesOtroGrupoComercial.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.PolizasVigentesOtroGrupoComercial.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Emision.PolizasVigentesOtroGrupoComercial.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.PolizasVigentesOtroGrupoComercial.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.PolizasVigentesOtroGrupoComercial.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.PolizasVigentesOtroGrupoComercial.TIPOPOLIZA">
+            <summary>
+            Gets or sets the value of variable TIPOPOLIZA.
             </summary>
         </member>
         <member name="T:Sura.Emision.SeleccionCoberturaAdicional">
@@ -3491,6 +3762,11 @@
             Gets or sets the value of variable Ambiente.
             </summary>
         </member>
+        <member name="P:Sura.Emision.Personas.NroPoliza">
+            <summary>
+            Gets or sets the value of variable NroPoliza.
+            </summary>
+        </member>
         <member name="P:Sura.Emision.Personas.SumaAsegurada">
             <summary>
             Gets or sets the value of variable SumaAsegurada.
@@ -3563,6 +3839,11 @@
         <member name="P:Sura.Emision.PersonasNomina_Parte1.Ambiente">
             <summary>
             Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.PersonasNomina_Parte1.NroPoliza">
+            <summary>
+            Gets or sets the value of variable NroPoliza.
             </summary>
         </member>
         <member name="P:Sura.Emision.PersonasNomina_Parte1.SumaAsegurada">
@@ -4494,6 +4775,80 @@
         <member name="P:Sura.Emision.VehiculosFlota_Parte2.NroTransaccion">
             <summary>
             Gets or sets the value of variable NroTransaccion.
+            </summary>
+        </member>
+        <member name="T:Sura.Emision.Vehiculos_Prendario">
+             <summary>
+            The Vehiculos_Prendario recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Emision.Vehiculos_Prendario.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.Vehiculos_Prendario.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.Vehiculos_Prendario.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Emision.Vehiculos_Prendario.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Emision.Vehiculos_Prendario.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Emision.Vehiculos_Prendario.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_Prendario.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_Prendario.TipoAcreedorPrendario">
+            <summary>
+            Gets or sets the value of variable TipoAcreedorPrendario.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_Prendario.InicioDelPrestamo">
+            <summary>
+            Gets or sets the value of variable InicioDelPrestamo.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_Prendario.FinDelPrestamo">
+            <summary>
+            Gets or sets the value of variable FinDelPrestamo.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_Prendario.CantCuotasPrendario">
+            <summary>
+            Gets or sets the value of variable CantCuotasPrendario.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_Prendario.NumPrestamo">
+            <summary>
+            Gets or sets the value of variable NumPrestamo.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_Prendario.Vencimiento1Cuota">
+            <summary>
+            Gets or sets the value of variable Vencimiento1Cuota.
+            </summary>
+        </member>
+        <member name="P:Sura.Emision.Vehiculos_Prendario.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
             </summary>
         </member>
         <member name="T:Sura.Emision.Vivienda_Enlatada">
@@ -7811,6 +8166,50 @@
             Gets or sets the value of variable Domicilio.
             </summary>
         </member>
+        <member name="T:Sura.Generales.IngresarHerramientas">
+             <summary>
+            The IngresarHerramientas recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Generales.IngresarHerramientas.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Generales.IngresarHerramientas.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Generales.IngresarHerramientas.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Generales.IngresarHerramientas.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Generales.IngresarHerramientas.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Generales.IngresarHerramientas.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Generales.IngresarHerramientas.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Generales.IngresarHerramientas.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
         <member name="T:Sura.Generales.UCM_setStatus">
             <summary>
             Description of UCM_setStatus.
@@ -7873,9 +8272,9 @@
             Gets or sets the value of variable NombreArchivo.
             </summary>
         </member>
-        <member name="P:Sura.GestionDocumental.VerFormulario_Cotizada.NumeroPoliza">
+        <member name="P:Sura.GestionDocumental.VerFormulario_Cotizada.NumeroTransaccion">
             <summary>
-            Gets or sets the value of variable NumeroPoliza.
+            Gets or sets the value of variable NumeroTransaccion.
             </summary>
         </member>
         <member name="P:Sura.GestionDocumental.VerFormulario_Cotizada.Ambiente">
@@ -7969,6 +8368,11 @@
         <member name="P:Sura.GestionDocumental.VerFormulario_CotizadaFlota.NombreArchivo">
             <summary>
             Gets or sets the value of variable NombreArchivo.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_CotizadaFlota.NumeroTransaccion">
+            <summary>
+            Gets or sets the value of variable NumeroTransaccion.
             </summary>
         </member>
         <member name="P:Sura.GestionDocumental.VerFormulario_CotizadaFlota.NumeroPoliza">
@@ -8085,6 +8489,168 @@
             </summary>
         </member>
         <member name="P:Sura.GestionDocumental.VerFormulario_EmitidaFlota.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.GestionDocumental.VerFormulario_EndosoExclusionRiesgo">
+             <summary>
+            The VerFormulario_EndosoExclusionRiesgo recording.
+             </summary>
+        </member>
+        <member name="F:Sura.GestionDocumental.VerFormulario_EndosoExclusionRiesgo.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_EndosoExclusionRiesgo.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_EndosoExclusionRiesgo.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.GestionDocumental.VerFormulario_EndosoExclusionRiesgo.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_EndosoExclusionRiesgo.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_EndosoExclusionRiesgo.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_EndosoExclusionRiesgo.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_EndosoExclusionRiesgo.NombreArchivo">
+            <summary>
+            Gets or sets the value of variable NombreArchivo.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_EndosoExclusionRiesgo.NumeroPoliza">
+            <summary>
+            Gets or sets the value of variable NumeroPoliza.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_EndosoExclusionRiesgo.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.GestionDocumental.VerFormulario_EndosoInclusionRiesgo">
+             <summary>
+            The VerFormulario_EndosoInclusionRiesgo recording.
+             </summary>
+        </member>
+        <member name="F:Sura.GestionDocumental.VerFormulario_EndosoInclusionRiesgo.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_EndosoInclusionRiesgo.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_EndosoInclusionRiesgo.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.GestionDocumental.VerFormulario_EndosoInclusionRiesgo.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_EndosoInclusionRiesgo.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.GestionDocumental.VerFormulario_EndosoInclusionRiesgo.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_EndosoInclusionRiesgo.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_EndosoInclusionRiesgo.NombreArchivo">
+            <summary>
+            Gets or sets the value of variable NombreArchivo.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_EndosoInclusionRiesgo.NumeroPoliza">
+            <summary>
+            Gets or sets the value of variable NumeroPoliza.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.VerFormulario_EndosoInclusionRiesgo.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.GestionDocumental.Ver_CertificadoPagosAlDia">
+             <summary>
+            The Ver_CertificadoPagosAlDia recording.
+             </summary>
+        </member>
+        <member name="F:Sura.GestionDocumental.Ver_CertificadoPagosAlDia.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.Ver_CertificadoPagosAlDia.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.Ver_CertificadoPagosAlDia.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.GestionDocumental.Ver_CertificadoPagosAlDia.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.GestionDocumental.Ver_CertificadoPagosAlDia.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.GestionDocumental.Ver_CertificadoPagosAlDia.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.Ver_CertificadoPagosAlDia.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.Ver_CertificadoPagosAlDia.NombreArchivo">
+            <summary>
+            Gets or sets the value of variable NombreArchivo.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.Ver_CertificadoPagosAlDia.NumeroPoliza">
+            <summary>
+            Gets or sets the value of variable NumeroPoliza.
+            </summary>
+        </member>
+        <member name="P:Sura.GestionDocumental.Ver_CertificadoPagosAlDia.Ambiente">
             <summary>
             Gets or sets the value of variable Ambiente.
             </summary>
@@ -8441,11 +9007,6 @@
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:Sura.Menu.MenuSupBuscaPolizaNroPoliza.NroPoliza">
-            <summary>
-            Gets or sets the value of variable NroPoliza.
-            </summary>
-        </member>
         <member name="P:Sura.Menu.MenuSupBuscaPolizaNroPoliza.Ambiente">
             <summary>
             Gets or sets the value of variable Ambiente.
@@ -8454,6 +9015,11 @@
         <member name="P:Sura.Menu.MenuSupBuscaPolizaNroPoliza.NroTransaccion">
             <summary>
             Gets or sets the value of variable NroTransaccion.
+            </summary>
+        </member>
+        <member name="P:Sura.Menu.MenuSupBuscaPolizaNroPoliza.NroPoliza">
+            <summary>
+            Gets or sets the value of variable NroPoliza.
             </summary>
         </member>
         <member name="T:Sura.Menu.MenuSuperior_BusquedaPoliza">
@@ -8701,6 +9267,50 @@
             Gets or sets the value of variable Ambiente.
             </summary>
         </member>
+        <member name="T:Sura.Menu.MenuSup_Reloj">
+             <summary>
+            The MenuSup_Reloj recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Menu.MenuSup_Reloj.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Menu.MenuSup_Reloj.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Menu.MenuSup_Reloj.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Menu.MenuSup_Reloj.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Menu.MenuSup_Reloj.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Menu.MenuSup_Reloj.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Menu.MenuSup_Reloj.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Menu.MenuSup_Reloj.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
         <member name="T:Sura.OpenBrowser_BC">
              <summary>
             The OpenBrowser_BC recording.
@@ -8745,6 +9355,192 @@
             Gets or sets the value of variable URL.
             </summary>
         </member>
+        <member name="T:Sura.Procesos.CambiarHora">
+             <summary>
+            The CambiarHora recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Procesos.CambiarHora.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Procesos.CambiarHora.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Procesos.CambiarHora.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Procesos.CambiarHora.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Procesos.CambiarHora.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Procesos.CambiarHora.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Procesos.CambiarHora.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Procesos.CambiarHora.Fecha">
+            <summary>
+            Gets or sets the value of variable Fecha.
+            </summary>
+        </member>
+        <member name="P:Sura.Procesos.CambiarHora.FechaVieja">
+            <summary>
+            Gets or sets the value of variable FechaVieja.
+            </summary>
+        </member>
+        <member name="P:Sura.Procesos.CambiarHora.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.Procesos.Ejecutar_FlujoDeTrabajo">
+             <summary>
+            The Ejecutar_FlujoDeTrabajo recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Procesos.Ejecutar_FlujoDeTrabajo.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Procesos.Ejecutar_FlujoDeTrabajo.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Procesos.Ejecutar_FlujoDeTrabajo.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Procesos.Ejecutar_FlujoDeTrabajo.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Procesos.Ejecutar_FlujoDeTrabajo.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Procesos.Ejecutar_FlujoDeTrabajo.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Procesos.Ejecutar_FlujoDeTrabajo.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Procesos.Ejecutar_FlujoDeTrabajo.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.Procesos.Ejecutar_Refacturacion">
+             <summary>
+            The Ejecutar_Refacturacion recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Procesos.Ejecutar_Refacturacion.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Procesos.Ejecutar_Refacturacion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Procesos.Ejecutar_Refacturacion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Procesos.Ejecutar_Refacturacion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Procesos.Ejecutar_Refacturacion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Procesos.Ejecutar_Refacturacion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Procesos.Ejecutar_Refacturacion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Procesos.Ejecutar_Refacturacion.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.Procesos.Logout_Procesos">
+             <summary>
+            The Logout_Procesos recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Procesos.Logout_Procesos.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Procesos.Logout_Procesos.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Procesos.Logout_Procesos.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Procesos.Logout_Procesos.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Procesos.Logout_Procesos.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Procesos.Logout_Procesos.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Procesos.Logout_Procesos.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Procesos.Logout_Procesos.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
         <member name="T:Sura.Recording1">
              <summary>
             The Recording1 recording.
@@ -8782,6 +9578,55 @@
         <member name="P:Sura.Recording1.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Sura.Refacturacion.ValidarRefacturacion">
+             <summary>
+            The ValidarRefacturacion recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Refacturacion.ValidarRefacturacion.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Refacturacion.ValidarRefacturacion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Refacturacion.ValidarRefacturacion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Refacturacion.ValidarRefacturacion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Refacturacion.ValidarRefacturacion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Refacturacion.ValidarRefacturacion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Refacturacion.ValidarRefacturacion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Refacturacion.ValidarRefacturacion.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.Refacturacion.ValidarRefacturacion.NroPoliza">
+            <summary>
+            Gets or sets the value of variable NroPoliza.
             </summary>
         </member>
         <member name="T:Sura.SURA_BC">
@@ -9211,6 +10056,11 @@
             Gets or sets the value of variable NUM_VEHICULO.
             </summary>
         </member>
+        <member name="P:Sura.SuraRepository.NroPoliza">
+            <summary>
+            Gets or sets the value of variable NroPoliza.
+            </summary>
+        </member>
         <member name="P:Sura.SuraRepository.SelfInfo">
             <summary>
             The Self item info.
@@ -9259,6 +10109,11 @@
         <member name="P:Sura.SuraRepository.WebDocumentModoDEV903185Guidew">
             <summary>
             The WebDocumentModoDEV903185Guidew folder.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepository.WebDocumentModoDEV903185Guidew1">
+            <summary>
+            The WebDocumentModoDEV903185Guidew1 folder.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders">
@@ -10541,6 +11396,16 @@
             The bttn_CerrarSesion item info.
             </summary>
         </member>
+        <member name="P:Sura.SuraRepositoryFolders.LogoutFolder.Copy_of_bttn_CerrarSesion">
+            <summary>
+            The Copy_of_bttn_CerrarSesion item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.LogoutFolder.Copy_of_bttn_CerrarSesionInfo">
+            <summary>
+            The Copy_of_bttn_CerrarSesion item info.
+            </summary>
+        </member>
         <member name="T:Sura.SuraRepositoryFolders.PCFolder1">
             <summary>
             The PCFolder1 folder.
@@ -10574,6 +11439,36 @@
         <member name="P:Sura.SuraRepositoryFolders.PCFolder1.DataImageGifBase64R0lGODlhAQABAIDAMInfo">
             <summary>
             The DataImageGifBase64R0lGODlhAQABAIDAM item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PCFolder1.txt_Refacturacion">
+            <summary>
+            The txt_Refacturacion item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PCFolder1.txt_RefacturacionInfo">
+            <summary>
+            The txt_Refacturacion item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PCFolder1.Copy_of_txt_Refacturacion">
+            <summary>
+            The Copy_of_txt_Refacturacion item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PCFolder1.Copy_of_txt_RefacturacionInfo">
+            <summary>
+            The Copy_of_txt_Refacturacion item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PCFolder1.TransaccionesPoliza">
+            <summary>
+            The TransaccionesPoliza item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PCFolder1.TransaccionesPolizaInfo">
+            <summary>
+            The TransaccionesPoliza item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.PCFolder1.Emision">
@@ -11219,6 +12114,11 @@
         <member name="P:Sura.SuraRepositoryFolders.PolizaMotorFolder.ValidacionMarcaModelo">
             <summary>
             The ValidacionMarcaModelo folder.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PolizaMotorFolder.Prendario">
+            <summary>
+            The Prendario folder.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.InformacionDePolizaFolder1">
@@ -12231,6 +13131,36 @@
             The DataImageGifBase64R0lGODlhAQABAIDAM item info.
             </summary>
         </member>
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.txt_ProveedorAsistMecanicaVisible">
+            <summary>
+            The txt_ProveedorAsistMecanicaVisible item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.txt_ProveedorAsistMecanicaVisibleInfo">
+            <summary>
+            The txt_ProveedorAsistMecanicaVisible item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.Refacturacion">
+            <summary>
+            The Refacturacion item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.RefacturacionInfo">
+            <summary>
+            The Refacturacion item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.ATag04104013502">
+            <summary>
+            The ATag04104013502 item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.CoberturasAdicionalesFolder.ATag04104013502Info">
+            <summary>
+            The ATag04104013502 item info.
+            </summary>
+        </member>
         <member name="T:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder">
             <summary>
             The ValidacionMarcaModeloFolder folder.
@@ -12284,6 +13214,141 @@
         <member name="P:Sura.SuraRepositoryFolders.ValidacionMarcaModeloFolder.Copy_of_ModeloInfo">
             <summary>
             The Copy_of_Modelo item info.
+            </summary>
+        </member>
+        <member name="T:Sura.SuraRepositoryFolders.PrendarioFolder">
+            <summary>
+            The PrendarioFolder folder.
+            </summary>
+        </member>
+        <member name="M:Sura.SuraRepositoryFolders.PrendarioFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Prendario  folder.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.input_TipoAcreedorPrendario">
+            <summary>
+            The input_TipoAcreedorPrendario item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.input_TipoAcreedorPrendarioInfo">
+            <summary>
+            The input_TipoAcreedorPrendario item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.Copy_of_input_TipoAcreedorPrendario">
+            <summary>
+            The Copy_of_input_TipoAcreedorPrendario item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.Copy_of_input_TipoAcreedorPrendarioInfo">
+            <summary>
+            The Copy_of_input_TipoAcreedorPrendario item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.input_NumPrestamo">
+            <summary>
+            The input_NumPrestamo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.input_NumPrestamoInfo">
+            <summary>
+            The input_NumPrestamo item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.Copy_of_input_NumPrestamo">
+            <summary>
+            The Copy_of_input_NumPrestamo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.Copy_of_input_NumPrestamoInfo">
+            <summary>
+            The Copy_of_input_NumPrestamo item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.input_InicioDelPrestamo">
+            <summary>
+            The input_InicioDelPrestamo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.input_InicioDelPrestamoInfo">
+            <summary>
+            The input_InicioDelPrestamo item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.Copy_of_input_InicioDelPrestamo">
+            <summary>
+            The Copy_of_input_InicioDelPrestamo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.Copy_of_input_InicioDelPrestamoInfo">
+            <summary>
+            The Copy_of_input_InicioDelPrestamo item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.input_FinDelPrestamo">
+            <summary>
+            The input_FinDelPrestamo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.input_FinDelPrestamoInfo">
+            <summary>
+            The input_FinDelPrestamo item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.Copy_of_input_FinDelPrestamo">
+            <summary>
+            The Copy_of_input_FinDelPrestamo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.Copy_of_input_FinDelPrestamoInfo">
+            <summary>
+            The Copy_of_input_FinDelPrestamo item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.input_Vencimiento1Cuota">
+            <summary>
+            The input_Vencimiento1Cuota item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.input_Vencimiento1CuotaInfo">
+            <summary>
+            The input_Vencimiento1Cuota item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.Copy_of_input_Vencimiento1Cuota">
+            <summary>
+            The Copy_of_input_Vencimiento1Cuota item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.Copy_of_input_Vencimiento1CuotaInfo">
+            <summary>
+            The Copy_of_input_Vencimiento1Cuota item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.input_CantCuotasPrendario">
+            <summary>
+            The input_CantCuotasPrendario item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.input_CantCuotasPrendarioInfo">
+            <summary>
+            The input_CantCuotasPrendario item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.Copy_of_input_CantCuotasPrendario">
+            <summary>
+            The Copy_of_input_CantCuotasPrendario item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.PrendarioFolder.Copy_of_input_CantCuotasPrendarioInfo">
+            <summary>
+            The Copy_of_input_CantCuotasPrendario item info.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.PolizaAPFolder">
@@ -12579,16 +13644,6 @@
         <member name="P:Sura.SuraRepositoryFolders.PersonasFolder.bttn_ValidarDocumentoInfo">
             <summary>
             The bttn_ValidarDocumento item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.PersonasFolder.Pantalla">
-            <summary>
-            The Pantalla item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.PersonasFolder.PantallaInfo">
-            <summary>
-            The Pantalla item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.PersonasFolder.txt_NombrePersona">
@@ -13154,16 +14209,6 @@
         <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.SumaAseguradaCoberturaHogarAntInfo">
             <summary>
             The SumaAseguradaCoberturaHogarAnt item info.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.txt_ProveedorAsistMecanicaVisible">
-            <summary>
-            The txt_ProveedorAsistMecanicaVisible item.
-            </summary>
-        </member>
-        <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.txt_ProveedorAsistMecanicaVisibleInfo">
-            <summary>
-            The txt_ProveedorAsistMecanicaVisible item info.
             </summary>
         </member>
         <member name="P:Sura.SuraRepositoryFolders.Hogar_NoEnlatadoFolder.txt_ProveedorAsistMecanicaInvisible">
@@ -15066,6 +16111,16 @@
             The bttn_Ver_Cuponera item info.
             </summary>
         </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_Comparativo">
+            <summary>
+            The bttn_Ver_Comparativo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.bttn_Ver_ComparativoInfo">
+            <summary>
+            The bttn_Ver_Comparativo item info.
+            </summary>
+        </member>
         <member name="P:Sura.SuraRepositoryFolders.GestionDocumentalFolder.formularioPDF">
             <summary>
             The formularioPDF item.
@@ -15204,6 +16259,16 @@
         <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_Cuponera_FlotaInfo">
             <summary>
             The bttn_Ver_Cuponera_Flota item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_Comparativo_Flota">
+            <summary>
+            The bttn_Ver_Comparativo_Flota item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.FlotaFolder2.bttn_Ver_Comparativo_FlotaInfo">
+            <summary>
+            The bttn_Ver_Comparativo_Flota item info.
             </summary>
         </member>
         <member name="T:Sura.SuraRepositoryFolders.BCFolder">
@@ -15814,6 +16879,176 @@
         <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185GuidewAppFolder.OlizaInfo">
             <summary>
             The Oliza item info.
+            </summary>
+        </member>
+        <member name="T:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder">
+            <summary>
+            The WebDocumentModoDEV903185Guidew1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new WebDocumentModoDEV903185Guidew1  folder.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.txt_InformacionPorLotes">
+            <summary>
+            The txt_InformacionPorLotes item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.txt_InformacionPorLotesInfo">
+            <summary>
+            The txt_InformacionPorLotes item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.XBtnSplitXBtnSplitRightXBtnWrap">
+            <summary>
+            The XBtnSplitXBtnSplitRightXBtnWrap item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.XBtnSplitXBtnSplitRightXBtnWrapInfo">
+            <summary>
+            The XBtnSplitXBtnSplitRightXBtnWrap item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.option_Reloj">
+            <summary>
+            The option_Reloj item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.option_RelojInfo">
+            <summary>
+            The option_Reloj item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.txt_Reloj">
+            <summary>
+            The txt_Reloj item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.txt_RelojInfo">
+            <summary>
+            The txt_Reloj item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.bttn_HerramientasInternas">
+            <summary>
+            The bttn_HerramientasInternas item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.bttn_HerramientasInternasInfo">
+            <summary>
+            The bttn_HerramientasInternas item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.input_Fecha">
+            <summary>
+            The input_Fecha item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.input_FechaInfo">
+            <summary>
+            The input_Fecha item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.bttn_CambiarFecha">
+            <summary>
+            The bttn_CambiarFecha item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.bttn_CambiarFechaInfo">
+            <summary>
+            The bttn_CambiarFecha item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.txt_FechaActual">
+            <summary>
+            The txt_FechaActual item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.txt_FechaActualInfo">
+            <summary>
+            The txt_FechaActual item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.txt_EjecucionFlujoTrabajo">
+            <summary>
+            The txt_EjecucionFlujoTrabajo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.txt_EjecucionFlujoTrabajoInfo">
+            <summary>
+            The txt_EjecucionFlujoTrabajo item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.txt_EjecucionRefacturaciones">
+            <summary>
+            The txt_EjecucionRefacturaciones item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.txt_EjecucionRefacturacionesInfo">
+            <summary>
+            The txt_EjecucionRefacturaciones item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.txt_CompletoFlujoTrabajo">
+            <summary>
+            The txt_CompletoFlujoTrabajo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.txt_CompletoFlujoTrabajoInfo">
+            <summary>
+            The txt_CompletoFlujoTrabajo item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.txt_CompletoRefacturaciones">
+            <summary>
+            The txt_CompletoRefacturaciones item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.txt_CompletoRefacturacionesInfo">
+            <summary>
+            The txt_CompletoRefacturaciones item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.bttn_FlujoDeTrabajo">
+            <summary>
+            The bttn_FlujoDeTrabajo item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.bttn_FlujoDeTrabajoInfo">
+            <summary>
+            The bttn_FlujoDeTrabajo item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.bttn_Refacturaciones">
+            <summary>
+            The bttn_Refacturaciones item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.bttn_RefacturacionesInfo">
+            <summary>
+            The bttn_Refacturaciones item info.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.CerrarSesionSuperUser">
+            <summary>
+            The CerrarSesionSuperUser item.
+            </summary>
+        </member>
+        <member name="P:Sura.SuraRepositoryFolders.WebDocumentModoDEV903185Guidew1AppFolder.CerrarSesionSuperUserInfo">
+            <summary>
+            The CerrarSesionSuperUser item info.
             </summary>
         </member>
         <member name="T:Sura.TestCSV">

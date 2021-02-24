@@ -29,10 +29,30 @@ mode="Global">
 		</var>
 		<var
 		id="98fe957e-8da3-46e6-9fdf-35b14b56ab4a"
-		name="NumeroPoliza">
+		name="NumeroTransaccion">
 		</var>
 	</variables>
 	<recorditems>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="8fe36a0b-f01d-4fed-a90b-d273868ab783">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]
+				</path>
+			</info>
+		</loggingrecorditem>
 		<separatoritem
 		enabled="True"
 		optional="False">
@@ -1200,21 +1220,75 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				</binding>
 			</bindings>
 		</loggingrecorditem>
-		<getvaluerecorditem
-		attrname="InnerText"
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
 		enabled="True"
+		loc="Center"
+		movetime="300ms"
 		optional="False"
-		searchpropertyid="3ed06dd9-baa1-4aee-a9ad-02b39138891b"
-		varname="NumeroPoliza">
+		searchpropertyid="214ad4ac-3ed8-4fdd-a407-10a1f4ec11d6"
+		sx="1133"
+		sy="17"
+		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="17f779fb-c76a-46f6-8f04-71ce8564f8cf"
+			id="ff3cf5f3-c817-4733-806b-e7bad703d27c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="1115,0,36,35"
+				role="button"
+				snapElem=""
+				valid="False"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
+				</path>
+			</info>
+		</mouseitem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		captureregex="[0-9]+"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3ed06dd9-baa1-4aee-a9ad-02b39138891b"
+		varname="NumeroTransaccion">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5fde796f-8da2-4e2a-bffd-5d93a0b90475"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'infoBar-targetEl']//span[@innertext='N° de póliza']/..//span[@innertext~'[0-9]']
+					/dom[@domain=$Ambiente]//div[#'westPanel-innerCt']//div[@innertext&gt;'Solicitud de P&#243;liza']
 				</path>
 			</info>
 		</getvaluerecorditem>
@@ -1336,59 +1410,6 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 			id="d0d3aa25-daa3-4d63-9b43-66ff75d6db64">
 			</arguments>
 		</userrecorditem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="214ad4ac-3ed8-4fdd-a407-10a1f4ec11d6"
-		sx="1133"
-		sy="17"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="ff3cf5f3-c817-4733-806b-e7bad703d27c"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="0"
-				prefcap="button"
-				rect="1115,0,36,35"
-				role="button"
-				snapElem=""
-				valid="False"
-				visible="True">
-					<attribute
-					name="pressed"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						None
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						None
-					</attribute>
-				</element>
-				<path>
-					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
-				</path>
-			</info>
-		</mouseitem>
 		<separatoritem
 		enabled="True"
 		optional="False">
@@ -2651,6 +2672,59 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 		button="Left"
 		duration="300ms"
 		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="214ad4ac-3ed8-4fdd-a407-10a1f4ec11d6"
+		sx="1133"
+		sy="17"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ff3cf5f3-c817-4733-806b-e7bad703d27c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="1115,0,36,35"
+				role="button"
+				snapElem=""
+				valid="False"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
 		loc="17;15"
 		movetime="300ms"
 		optional="False"
@@ -2764,59 +2838,6 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 			id="d0d3aa25-daa3-4d63-9b43-66ff75d6db64">
 			</arguments>
 		</userrecorditem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="214ad4ac-3ed8-4fdd-a407-10a1f4ec11d6"
-		sx="1133"
-		sy="17"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="ff3cf5f3-c817-4733-806b-e7bad703d27c"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="0"
-				prefcap="button"
-				rect="1115,0,36,35"
-				role="button"
-				snapElem=""
-				valid="False"
-				visible="True">
-					<attribute
-					name="pressed"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						None
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						None
-					</attribute>
-				</element>
-				<path>
-					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
-				</path>
-			</info>
-		</mouseitem>
 		<separatoritem
 		enabled="True"
 		optional="False">
@@ -3989,6 +4010,59 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 		button="Left"
 		duration="300ms"
 		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="214ad4ac-3ed8-4fdd-a407-10a1f4ec11d6"
+		sx="1133"
+		sy="17"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ff3cf5f3-c817-4733-806b-e7bad703d27c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="1115,0,36,35"
+				role="button"
+				snapElem=""
+				valid="False"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
 		loc="17;15"
 		movetime="300ms"
 		optional="False"
@@ -4102,59 +4176,6 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 			id="d0d3aa25-daa3-4d63-9b43-66ff75d6db64">
 			</arguments>
 		</userrecorditem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="214ad4ac-3ed8-4fdd-a407-10a1f4ec11d6"
-		sx="1133"
-		sy="17"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="ff3cf5f3-c817-4733-806b-e7bad703d27c"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="0"
-				prefcap="button"
-				rect="1115,0,36,35"
-				role="button"
-				snapElem=""
-				valid="False"
-				visible="True">
-					<attribute
-					name="pressed"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						None
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						None
-					</attribute>
-				</element>
-				<path>
-					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
-				</path>
-			</info>
-		</mouseitem>
 	</recorditems>
 	<repository
 	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
