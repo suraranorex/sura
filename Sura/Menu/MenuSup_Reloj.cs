@@ -89,16 +89,16 @@ namespace Sura.Menu
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WebDocumentModoDEV903185Guidew1.bttn_HerramientasInternas' at CenterRight.", repo.WebDocumentModoDEV903185Guidew1.bttn_HerramientasInternasInfo, new RecordItemIndex(0));
-            repo.WebDocumentModoDEV903185Guidew1.bttn_HerramientasInternas.Click(Location.CenterRight);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Procesos.bttn_HerramientasInternas' at CenterRight.", repo.SURA.Procesos.bttn_HerramientasInternasInfo, new RecordItemIndex(0));
+            repo.SURA.Procesos.bttn_HerramientasInternas.Click(Location.CenterRight);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WebDocumentModoDEV903185Guidew1.option_Reloj' at Center.", repo.WebDocumentModoDEV903185Guidew1.option_RelojInfo, new RecordItemIndex(1));
-            repo.WebDocumentModoDEV903185Guidew1.option_Reloj.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Procesos.option_Reloj' at Center.", repo.SURA.Procesos.option_RelojInfo, new RecordItemIndex(1));
+            repo.SURA.Procesos.option_Reloj.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'WebDocumentModoDEV903185Guidew1.txt_Reloj'", repo.WebDocumentModoDEV903185Guidew1.txt_RelojInfo, new ActionTimeout(20000), new RecordItemIndex(2));
-            repo.WebDocumentModoDEV903185Guidew1.txt_RelojInfo.WaitForExists(20000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SURA.Procesos.txt_Reloj'", repo.SURA.Procesos.txt_RelojInfo, new ActionTimeout(20000), new RecordItemIndex(2));
+            repo.SURA.Procesos.txt_RelojInfo.WaitForExists(20000);
             
         }
 

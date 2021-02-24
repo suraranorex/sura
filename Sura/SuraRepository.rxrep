@@ -925,6 +925,15 @@ name="SuraRepository">
 									/dom[@domain=$Ambiente]//label/span[@innertext~'Actividad']/../..//input[@data-tabindexsaved='True']
 								</item>
 								<item
+								addcaps="unknown,webelement,spantag"
+								capname="inputtag"
+								id="c1b1ad2b-9d81-4f83-8f05-f758910d379d"
+								name="Copy_of_txtbox_Destino"
+								refimgid="c7abeb68-adae-4f99-bb06-67dad6e6ee8f"
+								searchtimeout="30000ms">
+									/dom[@domain=$Ambiente]//label/span[@innertext~'Destino']/../..//input[@data-tabindexsaved='True']
+								</item>
+								<item
 								addcaps="unknown,webelement,inputtag"
 								capname="inputtag"
 								id="335243c1-1144-410e-9dac-7dfe904f6f11"
@@ -1032,6 +1041,15 @@ name="SuraRepository">
 							refimgid="c7abeb68-adae-4f99-bb06-67dad6e6ee8f"
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//label/span[@innertext~'Año']/../..//input
+							</item>
+							<item
+							addcaps="unknown,webelement,spantag"
+							capname="inputtag"
+							id="987f1cf5-e26d-499c-a32f-7417048ae068"
+							name="txtbox_Destino"
+							refimgid="c7abeb68-adae-4f99-bb06-67dad6e6ee8f"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//label/span[@innertext~'Destino']/../..//input
 							</item>
 							<item
 							addcaps="unknown,webelement,spantag"
@@ -4511,6 +4529,15 @@ name="SuraRepository">
 				/dom[@domain=$Ambiente]/body//li[@enabled='True']
 			</item>
 			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="c291674a-a0f6-4e97-b909-519c53d0586e"
+			name="option_Destino"
+			refimgid="86ab6b5d-9b5d-49e1-9fb8-8d8a760fee1e"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]/body//li[@innertext='Capital Federal' and @enabled='True']
+			</item>
+			<item
 			addcaps="unknown,webelement,divtag"
 			capname="divtag"
 			id="333eb15c-fe70-4d8d-bdbf-adaefd9e2d57"
@@ -5351,6 +5378,148 @@ name="SuraRepository">
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//label/span[@innertext='Producto']/../..//input[@data-tabindexsaved='True']
 			</item>
+			<folder
+			capname="unknown"
+			id="a53e6e37-0ca7-4b5e-9cbe-29f98daff27a"
+			isrooted="False"
+			name="Procesos"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="8737f01f-82b9-4205-b98c-82da6e08979c"
+				name="txt_InformacionPorLotes"
+				refimgid="17b05df4-e339-431f-bc21-fb14397e880a"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext&gt;'Informaci&#243;n de proceso por']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="3d7948ff-0d79-459c-8677-8aca15b1d191"
+				name="XBtnSplitXBtnSplitRightXBtnWrap"
+				refimgid="2101d8cf-cd3c-4752-a6cb-54bc6e9d6171"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//a[#'InternalToolsTabBar:UnsupportedToolsTab']/span
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="cb9ec4dd-93e0-4799-9951-6e9c15c62b1c"
+				name="option_Reloj"
+				refimgid="93692606-611a-49ae-9ac4-85a87730b0a0"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//span[@innertext~'(R|r)eloj']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="be9187d2-cd43-4781-9472-a6c6295dd6d4"
+				name="txt_Reloj"
+				refimgid="a4c9a9a8-da58-423a-9459-04e67805d14c"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'SystemClock-tbody']//span[@innertext~'(R|r)eloj']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="8d8ae5e2-c318-424b-8aaf-9182d03cc725"
+				name="bttn_HerramientasInternas"
+				refimgid="37d9b050-5b9d-4dc9-8635-f7844a9a751f"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//a[#'InternalToolsTabBar:UnsupportedToolsTab']//span[@innertext='Herramientas internas']/../..//span
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="inputtag"
+				id="4746b467-d5b9-4477-b383-df9e2733d215"
+				name="input_Fecha"
+				refimgid="7ab0fe92-825a-4469-b170-a41f6f558dbf"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'SystemClock-tbody']//span[@innertext='Fecha']/../..//input
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="d736fdfd-1e98-4273-b557-7e20344169f6"
+				name="bttn_CambiarFecha"
+				refimgid="92f61663-1b88-4cbd-9755-6b380d8e58b8"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'SystemClock-tbody']//span[@innertext~'Cambiar']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="24e63973-6e73-450e-b628-f7d55a805abb"
+				name="txt_FechaActual"
+				refimgid="f0718260-bafb-46c0-ac3f-e8fd213bbac9"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'SystemClock-tbody']//label[@class='x-component g-msg-info x-component-default']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="91c6781d-28e1-46a6-8a02-d20a9c396533"
+				name="txt_EjecucionFlujoTrabajo"
+				refimgid="66e6e424-2b61-4e2a-8c40-fe4da45861ca"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Flujo de trabajo']/../..//div[@innertext~'Ejecución']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="96e5d0ff-c552-4d60-bd7f-72252cd2ae3d"
+				name="txt_EjecucionRefacturaciones"
+				refimgid="66e6e424-2b61-4e2a-8c40-fe4da45861ca"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Refacturaciones']/../..//div[@innertext~'Ejecución']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="5baf2a07-9c1b-4b4a-ba64-7b83135347ae"
+				name="txt_CompletoFlujoTrabajo"
+				refimgid="90ad3650-2d1b-4eea-99a4-75808649a2f8"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Flujo de trabajo']/../..//div[@innertext~'Completo']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="39bce9ee-f7aa-416d-b951-bf7b8f61605f"
+				name="txt_CompletoRefacturaciones"
+				refimgid="90ad3650-2d1b-4eea-99a4-75808649a2f8"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Refacturaciones']/../..//div[@innertext~'Completo']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="atag"
+				id="d1a8b0b5-ac4b-4e2d-983d-1d974d843eff"
+				name="bttn_FlujoDeTrabajo"
+				refimgid="90ad3650-2d1b-4eea-99a4-75808649a2f8"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Flujo de trabajo']/../..//a[@innertext='Ejecutar']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="atag"
+				id="f2d1fabe-284f-4539-870f-ad70ad75bbb2"
+				name="bttn_Refacturaciones"
+				refimgid="90ad3650-2d1b-4eea-99a4-75808649a2f8"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Refacturaciones']/../..//a[@innertext='Ejecutar']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="7563f093-b031-433a-a80c-a6a5fda8daa9"
+				name="CerrarSesionSuperUser"
+				refimgid="fe7e7ee2-2ccd-4995-9db1-31a50bdb964f"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//span[@innertext='Cerrar sesión Super User']
+				</item>
+			</folder>
 			<basepath>
 				/dom[@domain=$Ambiente]
 			</basepath>
@@ -5658,206 +5827,6 @@ RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
 AAAASUVORK5CYII=
 			</icon>
 		</appfolder>
-		<appfolder
-		addcaps="container,webdocument"
-		capname="webdocument"
-		id="604f9b8b-ce19-480c-9c49-a3636684b2a1"
-		isrooted="True"
-		name="WebDocumentModoDEV903185Guidew"
-		refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']"
-		searchtimeout="30000ms"
-		usecache="False">
-			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="adcd6149-bf7b-4bed-8e41-1314b406f643"
-			name="Oliza"
-			refimgid="b7774a35-d9fe-47a8-801e-a8f399c174a7"
-			refpath="/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'TabBar:PolicyTab']/span/span/span[@innertext='óliza']"
-			searchtimeout="30000ms">
-				/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'TabBar:PolicyTab']//span[@innertext='óliza']
-			</item>
-			<basepath>
-				/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
-dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
-yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
-9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
-cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
-bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
-dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
-6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
-lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
-zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
-8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
-F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
-			</icon>
-		</appfolder>
-		<appfolder
-		addcaps="container,webdocument"
-		capname="webdocument"
-		id="c1d71252-0642-4212-a5f1-77fae9051553"
-		isrooted="True"
-		name="WebDocumentModoDEV903185Guidew1"
-		searchtimeout="30000ms"
-		usecache="False">
-			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="8737f01f-82b9-4205-b98c-82da6e08979c"
-			name="txt_InformacionPorLotes"
-			refimgid="17b05df4-e339-431f-bc21-fb14397e880a"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext&gt;'Informaci&#243;n de proceso por']
-			</item>
-			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="3d7948ff-0d79-459c-8677-8aca15b1d191"
-			name="XBtnSplitXBtnSplitRightXBtnWrap"
-			refimgid="2101d8cf-cd3c-4752-a6cb-54bc6e9d6171"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//a[#'InternalToolsTabBar:UnsupportedToolsTab']/span
-			</item>
-			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="cb9ec4dd-93e0-4799-9951-6e9c15c62b1c"
-			name="option_Reloj"
-			refimgid="93692606-611a-49ae-9ac4-85a87730b0a0"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//span[@innertext~'(R|r)eloj']
-			</item>
-			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="be9187d2-cd43-4781-9472-a6c6295dd6d4"
-			name="txt_Reloj"
-			refimgid="a4c9a9a8-da58-423a-9459-04e67805d14c"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'SystemClock-tbody']//span[@innertext~'(R|r)eloj']
-			</item>
-			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="8d8ae5e2-c318-424b-8aaf-9182d03cc725"
-			name="bttn_HerramientasInternas"
-			refimgid="37d9b050-5b9d-4dc9-8635-f7844a9a751f"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//a[#'InternalToolsTabBar:UnsupportedToolsTab']//span[@innertext='Herramientas internas']/../..//span
-			</item>
-			<item
-			addcaps="unknown,webelement,spantag"
-			capname="inputtag"
-			id="4746b467-d5b9-4477-b383-df9e2733d215"
-			name="input_Fecha"
-			refimgid="7ab0fe92-825a-4469-b170-a41f6f558dbf"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'SystemClock-tbody']//span[@innertext='Fecha']/../..//input
-			</item>
-			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="d736fdfd-1e98-4273-b557-7e20344169f6"
-			name="bttn_CambiarFecha"
-			refimgid="92f61663-1b88-4cbd-9755-6b380d8e58b8"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'SystemClock-tbody']//span[@innertext~'Cambiar']
-			</item>
-			<item
-			addcaps="unknown,webelement,labeltag"
-			capname="labeltag"
-			id="24e63973-6e73-450e-b628-f7d55a805abb"
-			name="txt_FechaActual"
-			refimgid="f0718260-bafb-46c0-ac3f-e8fd213bbac9"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'SystemClock-tbody']//label[@class='x-component g-msg-info x-component-default']
-			</item>
-			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="91c6781d-28e1-46a6-8a02-d20a9c396533"
-			name="txt_EjecucionFlujoTrabajo"
-			refimgid="66e6e424-2b61-4e2a-8c40-fe4da45861ca"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Flujo de trabajo']/../..//div[@innertext~'Ejecución']
-			</item>
-			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="96e5d0ff-c552-4d60-bd7f-72252cd2ae3d"
-			name="txt_EjecucionRefacturaciones"
-			refimgid="66e6e424-2b61-4e2a-8c40-fe4da45861ca"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Refacturaciones']/../..//div[@innertext~'Ejecución']
-			</item>
-			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="5baf2a07-9c1b-4b4a-ba64-7b83135347ae"
-			name="txt_CompletoFlujoTrabajo"
-			refimgid="90ad3650-2d1b-4eea-99a4-75808649a2f8"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Flujo de trabajo']/../..//div[@innertext~'Completo']
-			</item>
-			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="39bce9ee-f7aa-416d-b951-bf7b8f61605f"
-			name="txt_CompletoRefacturaciones"
-			refimgid="90ad3650-2d1b-4eea-99a4-75808649a2f8"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Refacturaciones']/../..//div[@innertext~'Completo']
-			</item>
-			<item
-			addcaps="unknown,webelement,divtag"
-			capname="atag"
-			id="d1a8b0b5-ac4b-4e2d-983d-1d974d843eff"
-			name="bttn_FlujoDeTrabajo"
-			refimgid="90ad3650-2d1b-4eea-99a4-75808649a2f8"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Flujo de trabajo']/../..//a[@innertext='Ejecutar']
-			</item>
-			<item
-			addcaps="unknown,webelement,divtag"
-			capname="atag"
-			id="f2d1fabe-284f-4539-870f-ad70ad75bbb2"
-			name="bttn_Refacturaciones"
-			refimgid="90ad3650-2d1b-4eea-99a4-75808649a2f8"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Refacturaciones']/../..//a[@innertext='Ejecutar']
-			</item>
-			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="7563f093-b031-433a-a80c-a6a5fda8daa9"
-			name="CerrarSesionSuperUser"
-			refimgid="fe7e7ee2-2ccd-4995-9db1-31a50bdb964f"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//span[@innertext='Cerrar sesión Super User']
-			</item>
-			<basepath>
-				/dom[@domain=$Ambiente]
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
-dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
-yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
-9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
-cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
-bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
-dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
-6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
-lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
-zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
-8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
-F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
-			</icon>
-		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>
@@ -6003,7 +5972,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		<var
 		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
 		name="Ambiente">
-			i-preproducciongestion.segurossura.com.ar
+			ssurgwsoadev4-oci.opc.oracleoutsourcing.com
 		</var>
 		<var
 		id="fbc3c0ec-d362-401d-acc7-5e95815b84a3"

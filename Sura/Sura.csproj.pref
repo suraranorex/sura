@@ -1,27 +1,13 @@
 ﻿<Properties>
-  <Array name="active" />
-  <Array name="bookmarks" />
-<<<<<<< HEAD
-  <Array name="files" />
-  <Properties name="projectSavedData">
-    <Properties name="customTool">
-      <fileNames value="" />
-      <runOnBuild value="False" />
-    </Properties>
-    <Array name="recentusercodeselections">
-      <Element value="Sura.GestionDocumental.VerFormulario_EndosoExclusionRiesgo.manejarFormularioEndosoExclusion()" />
-      <Element value="Sura.GestionDocumental.VerFormulario_EndosoInclusionRiesgo.manejarFormularioEndosoInclusion()" />
-      <Element value="Sura.GestionDocumental.VerFormulario_EmitidaFlota.manejarFormularioFlota()" />
-      <Element value="Sura.Emision.CotizarPolizaMotor.guardarNumSolicitud()" />
-      <Element value="Sura.Emision.CotizarPolizaHogar.guardarNumSolicitud()" />
-      <Element value="Sura.GestionDocumental.VerFormulario_CotizadaFlota.manejarFormularioFlota()" />
-    </Array>
-  </Properties>
-=======
-  <Array name="files">
-    <Element value="BC.rxtst" />
+  <Array name="active">
     <Element value="PC_GestionDocumental.rxtst" />
   </Array>
-  <Properties name="projectSavedData" />
->>>>>>> DesarrolloIrina
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="PC_GestionDocumental.rxtst" />
+    <Element value="Emision\Vehiculos_Complementaria.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
 </Properties>

@@ -115,24 +115,24 @@ namespace Sura.Procesos
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'WebDocumentModoDEV903185Guidew1.txt_FechaActual' and assigning its value to variable 'FechaVieja'.", repo.WebDocumentModoDEV903185Guidew1.txt_FechaActualInfo, new RecordItemIndex(0));
-            FechaVieja = repo.WebDocumentModoDEV903185Guidew1.txt_FechaActual.Element.GetAttributeValueText("InnerText");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.Procesos.txt_FechaActual' and assigning its value to variable 'FechaVieja'.", repo.SURA.Procesos.txt_FechaActualInfo, new RecordItemIndex(0));
+            FechaVieja = repo.SURA.Procesos.txt_FechaActual.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Fecha' with focus on 'WebDocumentModoDEV903185Guidew1.input_Fecha'.", repo.WebDocumentModoDEV903185Guidew1.input_FechaInfo, new RecordItemIndex(1));
-            repo.WebDocumentModoDEV903185Guidew1.input_Fecha.PressKeys(Fecha);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Fecha' with focus on 'SURA.Procesos.input_Fecha'.", repo.SURA.Procesos.input_FechaInfo, new RecordItemIndex(1));
+            repo.SURA.Procesos.input_Fecha.PressKeys(Fecha);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'WebDocumentModoDEV903185Guidew1.input_Fecha'.", repo.WebDocumentModoDEV903185Guidew1.input_FechaInfo, new RecordItemIndex(2));
-            repo.WebDocumentModoDEV903185Guidew1.input_Fecha.PressKeys("{Return}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SURA.Procesos.input_Fecha'.", repo.SURA.Procesos.input_FechaInfo, new RecordItemIndex(2));
+            repo.SURA.Procesos.input_Fecha.PressKeys("{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WebDocumentModoDEV903185Guidew1.bttn_CambiarFecha' at Center.", repo.WebDocumentModoDEV903185Guidew1.bttn_CambiarFechaInfo, new RecordItemIndex(3));
-            repo.WebDocumentModoDEV903185Guidew1.bttn_CambiarFecha.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Procesos.bttn_CambiarFecha' at Center.", repo.SURA.Procesos.bttn_CambiarFechaInfo, new RecordItemIndex(3));
+            repo.SURA.Procesos.bttn_CambiarFecha.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s for the attribute 'InnerText' to not contain the specified value $FechaVieja. Associated repository item: 'WebDocumentModoDEV903185Guidew1.txt_FechaActual'", repo.WebDocumentModoDEV903185Guidew1.txt_FechaActualInfo, new RecordItemIndex(4));
-            repo.WebDocumentModoDEV903185Guidew1.txt_FechaActualInfo.WaitForAttributeNotContains(5000, "InnerText", FechaVieja);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s for the attribute 'InnerText' to not contain the specified value $FechaVieja. Associated repository item: 'SURA.Procesos.txt_FechaActual'", repo.SURA.Procesos.txt_FechaActualInfo, new RecordItemIndex(4));
+            repo.SURA.Procesos.txt_FechaActualInfo.WaitForAttributeNotContains(5000, "InnerText", FechaVieja);
             
             Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(5));
             

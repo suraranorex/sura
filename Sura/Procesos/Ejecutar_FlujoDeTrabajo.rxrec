@@ -62,7 +62,7 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="c1d71252-0642-4212-a5f1-77fae9051553"
+			id="a34bddf5-f8f2-43ea-8857-83ea467af727"
 			sourcename="RepositoryEditor">
 				<path>
 					/dom[@domain=$Ambiente]

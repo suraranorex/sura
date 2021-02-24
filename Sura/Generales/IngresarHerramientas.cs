@@ -94,8 +94,8 @@ namespace Sura.Generales
             Keyboard.Press(System.Windows.Forms.Keys.T | System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.Alt, 20, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'WebDocumentModoDEV903185Guidew1.txt_InformacionPorLotes'", repo.WebDocumentModoDEV903185Guidew1.txt_InformacionPorLotesInfo, new ActionTimeout(20000), new RecordItemIndex(1));
-            repo.WebDocumentModoDEV903185Guidew1.txt_InformacionPorLotesInfo.WaitForExists(20000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SURA.Procesos.txt_InformacionPorLotes'", repo.SURA.Procesos.txt_InformacionPorLotesInfo, new ActionTimeout(20000), new RecordItemIndex(1));
+            repo.SURA.Procesos.txt_InformacionPorLotesInfo.WaitForExists(20000);
             
         }
 

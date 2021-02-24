@@ -89,20 +89,20 @@ namespace Sura.Procesos
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'WebDocumentModoDEV903185Guidew1.bttn_Refacturaciones' at Center.", repo.WebDocumentModoDEV903185Guidew1.bttn_RefacturacionesInfo, new RecordItemIndex(0));
-            repo.WebDocumentModoDEV903185Guidew1.bttn_Refacturaciones.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Procesos.bttn_Refacturaciones' at Center.", repo.SURA.Procesos.bttn_RefacturacionesInfo, new RecordItemIndex(0));
+            repo.SURA.Procesos.bttn_Refacturaciones.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{F5}' with focus on 'WebDocumentModoDEV903185Guidew1'.", repo.WebDocumentModoDEV903185Guidew1.SelfInfo, new RecordItemIndex(1));
-            repo.WebDocumentModoDEV903185Guidew1.Self.EnsureVisible();
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{F5}' with focus on 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales'.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.SelfInfo, new RecordItemIndex(1));
+            repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.Self.EnsureVisible();
             Keyboard.Press("{F5}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'WebDocumentModoDEV903185Guidew1.txt_InformacionPorLotes'", repo.WebDocumentModoDEV903185Guidew1.txt_InformacionPorLotesInfo, new ActionTimeout(20000), new RecordItemIndex(2));
-            repo.WebDocumentModoDEV903185Guidew1.txt_InformacionPorLotesInfo.WaitForExists(20000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SURA.Procesos.txt_InformacionPorLotes'", repo.SURA.Procesos.txt_InformacionPorLotesInfo, new ActionTimeout(20000), new RecordItemIndex(2));
+            repo.SURA.Procesos.txt_InformacionPorLotesInfo.WaitForExists(20000);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'WebDocumentModoDEV903185Guidew1.txt_CompletoRefacturaciones'.", repo.WebDocumentModoDEV903185Guidew1.txt_CompletoRefacturacionesInfo, new RecordItemIndex(3));
-            Validate.Exists(repo.WebDocumentModoDEV903185Guidew1.txt_CompletoRefacturacionesInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SURA.Procesos.txt_CompletoRefacturaciones'.", repo.SURA.Procesos.txt_CompletoRefacturacionesInfo, new RecordItemIndex(3));
+            Validate.Exists(repo.SURA.Procesos.txt_CompletoRefacturacionesInfo);
             Delay.Milliseconds(0);
             
         }
