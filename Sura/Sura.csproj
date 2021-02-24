@@ -2544,13 +2544,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>ec51c6b8-20f9-4381-a55a-49f695eb2ce1</id>
     </Content>
-    <Content Include="DataSource - Cotización AP Enlatada.xlsx">
-      <Link>DataSource - Cotización AP Enlatada.xlsx</Link>
-      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
-      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>33328ccf-a632-41d6-b1f1-5ce024b06951</id>
-    </Content>
     <Content Include="DataSource - Cotización AP No Enlatada.xlsx">
       <Link>DataSource - Cotización AP No Enlatada.xlsx</Link>
       <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
@@ -2592,6 +2585,20 @@
       <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>b5dba8a8-c4e6-4f00-96db-7aa2880a4ed9</id>
+    </Content>
+    <Content Include="DataSource - Endoso Exclusion de Riesgo Vehiculos.xlsx">
+      <Link>DataSource - Endoso Exclusion de Riesgo Vehiculos.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>1caf9501-a3a0-485d-9f02-e8e294311740</id>
+    </Content>
+    <Content Include="DataSource - Cotización AP Enlatada.xlsx">
+      <Link>DataSource - Cotización AP Enlatada.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7df1fa3e-a64c-49d0-9aed-b0282ab21a74</id>
     </Content>
     <None Include="Emision\AccesorioConMovilidad.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -3014,6 +3021,13 @@
       <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>3002aae2-4410-4163-b7a7-30af26da664f</id>
+    </Content>
+    <Content Include="Emisión Motor - Varios vehiculos - Vehiculos.xlsx">
+      <Link>Emisión Motor - Varios vehiculos - Vehiculos.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>03946c1b-d578-43d5-be1d-556956ebacb9</id>
     </Content>
     <None Include="Endosos\AgregaAccesorios.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>

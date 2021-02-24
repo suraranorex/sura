@@ -1,11 +1,11 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Endosos\EmitirEndoso.rxrec" />
+    <Element value="PC_GestionDocumental.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="BC.rxtst" />
     <Element value="PC_GestionDocumental.rxtst" />
-    <Element value="Endosos\EmitirEndoso.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

@@ -9398,9 +9398,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\Emisión Motor - Varios vehiculos - Vehiculos.xlsx"
+		filename="Emisión Motor - Varios vehiculos - Vehiculos.xlsx"
 		id="8aabcb06-d09d-4a25-b3c0-8098a1f75f62"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="4"
 		name="EmisionMotor_VariosVeh_Vehiculos"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -9471,9 +9471,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\DataSource - Endoso Exclusion de Riesgo Vehiculos.xlsx"
+		filename="DataSource - Endoso Exclusion de Riesgo Vehiculos.xlsx"
 		id="6cfd1f09-d093-4951-bc76-2fe8511a9402"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="2"
 		name="Endoso_ExclusionRiesgo_Vehiculos"
 		type="Ranorex.Core.Data.ExcelDataConnector"
