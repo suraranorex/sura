@@ -20,47 +20,50 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Sura.Endosos
+namespace Sura.Generales
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The EliminarVehiculo recording.
+    ///The OpenBrowser_BC recording.
     /// </summary>
-    [TestModule("0c5da5c9-1955-472d-b029-44e8e8ca2ca5", ModuleType.Recording, 1)]
-    public partial class EliminarVehiculo : ITestModule
+    [TestModule("51f2220e-f2ef-4b03-87a3-208a63fbe569", ModuleType.Recording, 1)]
+    public partial class OpenBrowser_BC : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
         public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static EliminarVehiculo instance = new EliminarVehiculo();
+        static OpenBrowser_BC instance = new OpenBrowser_BC();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public EliminarVehiculo()
+        public OpenBrowser_BC()
         {
+            URL = "https://ssurgwsoadev4.opc.oracleoutsourcing.com/bc/BillingCenter.do\r\n";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static EliminarVehiculo Instance
+        public static OpenBrowser_BC Instance
         {
             get { return instance; }
         }
 
 #region Variables
 
+        string _URL;
+
         /// <summary>
-        /// Gets or sets the value of variable Ambiente.
+        /// Gets or sets the value of variable URL.
         /// </summary>
-        [TestVariable("e249a1a2-b157-42ff-9826-60bc615aa12c")]
-        public string Ambiente
+        [TestVariable("d2b427b2-b4e4-4466-8f01-dd2293ff0aa6")]
+        public string URL
         {
-            get { return repo.Ambiente; }
-            set { repo.Ambiente = value; }
+            get { return _URL; }
+            set { _URL = value; }
         }
 
 #endregion
@@ -89,15 +92,8 @@ namespace Sura.Endosos
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.EliminaVivienda' at Center.", repo.SURA.EliminaViviendaInfo, new RecordItemIndex(0));
-            repo.SURA.EliminaVivienda.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(1));
-            Delay.Duration(4000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA' at Center.", repo.SURA.SelfInfo, new RecordItemIndex(2));
-            repo.SURA.Self.Click();
+            Report.Log(ReportLevel.Info, "Website", "Opening web site URL in variable $URL with browser 'Chrome' in maximized mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser(URL, "Chrome", "", false, true, false, true, false, true);
             Delay.Milliseconds(0);
             
         }

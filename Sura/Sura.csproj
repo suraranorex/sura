@@ -329,15 +329,39 @@
       <UserCode>true</UserCode>
       <id>111813ac-5118-47ca-a177-7cc94d57c8da</id>
     </Compile>
-    <Compile Include="Emision\CotizarPoliza_Motor.cs">
+    <Compile Include="Emision\CotizarPolizaAP.cs">
+      <BoundTo>3f4b4261-6307-4edf-93b4-b50bb8e2e5a5</BoundTo>
+      <DependentUpon>CotizarPolizaAP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d63c1a4e-aaad-4155-bc13-f4d71ec089f1</id>
+    </Compile>
+    <Compile Include="Emision\CotizarPolizaAP.UserCode.cs">
+      <BoundTo>3f4b4261-6307-4edf-93b4-b50bb8e2e5a5</BoundTo>
+      <DependentUpon>CotizarPolizaAP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fc0f6b9a-c1f2-44d1-bf21-23a514238334</id>
+    </Compile>
+    <Compile Include="Emision\CotizarPolizaHogar.cs">
+      <BoundTo>ca1b5f3b-dcea-4d06-af08-35d48d3ad7a0</BoundTo>
+      <DependentUpon>CotizarPolizaHogar.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f3458a3c-5e2a-42bb-9518-d2b5b3010697</id>
+    </Compile>
+    <Compile Include="Emision\CotizarPolizaHogar.UserCode.cs">
+      <BoundTo>ca1b5f3b-dcea-4d06-af08-35d48d3ad7a0</BoundTo>
+      <DependentUpon>CotizarPolizaHogar.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4fe57cc5-a500-4fd3-b2d5-f0c6c0e455fa</id>
+    </Compile>
+    <Compile Include="Emision\CotizarPolizaMotor.cs">
       <BoundTo>f49960d2-1c52-44f1-9613-d674718b95ac</BoundTo>
-      <DependentUpon>CotizarPoliza_Motor.rxrec</DependentUpon>
+      <DependentUpon>CotizarPolizaMotor.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>ccdbe6e3-d7e2-48c1-a116-bd0680462b8c</id>
     </Compile>
-    <Compile Include="Emision\CotizarPoliza_Motor.UserCode.cs">
+    <Compile Include="Emision\CotizarPolizaMotor.UserCode.cs">
       <BoundTo>f49960d2-1c52-44f1-9613-d674718b95ac</BoundTo>
-      <DependentUpon>CotizarPoliza_Motor.rxrec</DependentUpon>
+      <DependentUpon>CotizarPolizaMotor.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>18d595d2-189a-4a19-8087-2f3fed366515</id>
     </Compile>
@@ -580,6 +604,18 @@
       <DependentUpon>ContinueInformacionPolizaHogarEnlatado.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>149b97e8-dcfc-424b-a6d6-8e6adb8412bb</id>
+    </Compile>
+    <Compile Include="Emision\PolizasVigentesOtroGrupoComercial.cs">
+      <BoundTo>35424f94-f43f-48a8-8cac-bb2b9b3c179d</BoundTo>
+      <DependentUpon>PolizasVigentesOtroGrupoComercial.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>424f9467-9728-4429-9bd3-e8933590a65c</id>
+    </Compile>
+    <Compile Include="Emision\PolizasVigentesOtroGrupoComercial.UserCode.cs">
+      <BoundTo>35424f94-f43f-48a8-8cac-bb2b9b3c179d</BoundTo>
+      <DependentUpon>PolizasVigentesOtroGrupoComercial.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5d46ed39-2f10-49b3-ac82-ee49087b0abc</id>
     </Compile>
     <Compile Include="Emision\SeleccionCoberturaAdicional.cs">
       <BoundTo>681519b1-443f-415c-ac67-e5bf52309d8f</BoundTo>
@@ -1091,6 +1127,18 @@
       <UserCode>true</UserCode>
       <id>e56b50cc-3c08-495f-a77a-527f523cb2c3</id>
     </Compile>
+    <Compile Include="Emision\Vehiculos_Prendario.cs">
+      <BoundTo>d241335e-8dc8-4b06-a7d3-374e066c9476</BoundTo>
+      <DependentUpon>Vehiculos_Prendario.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>450bf510-1af2-4eea-bacd-845b25010ba7</id>
+    </Compile>
+    <Compile Include="Emision\Vehiculos_Prendario.UserCode.cs">
+      <BoundTo>d241335e-8dc8-4b06-a7d3-374e066c9476</BoundTo>
+      <DependentUpon>Vehiculos_Prendario.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>87196b20-1b44-4f1a-bc2e-60941e9e0b80</id>
+    </Compile>
     <Compile Include="Emision\Vivienda_Enlatada.cs">
       <DependentUpon>Vivienda_Enlatada.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -1201,18 +1249,6 @@
     </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>e04547fe-8f9b-4944-8594-18c1cb33c921</id>
-    </Compile>
-    <Compile Include="CloseBrowser.cs">
-      <BoundTo>9ee3f383-3ef6-45c5-b67b-e0d738122b89</BoundTo>
-      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>345ba923-c20a-470a-91c0-dc4e0248aff2</id>
-    </Compile>
-    <Compile Include="CloseBrowser.UserCode.cs">
-      <BoundTo>9ee3f383-3ef6-45c5-b67b-e0d738122b89</BoundTo>
-      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>080f99f1-5421-4638-b482-d3188b8f1c9a</id>
     </Compile>
     <Compile Include="Endosos\AnalisisRiesgo_Endoso.cs">
       <DependentUpon>AnalisisRiesgo_Endoso.rxrec</DependentUpon>
@@ -1874,6 +1910,90 @@
       <UserCode>true</UserCode>
       <id>c876edaa-a029-4dd5-a6ec-5b7f607de425</id>
     </Compile>
+    <Compile Include="Generales\CloseBrowser.cs">
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>345ba923-c20a-470a-91c0-dc4e0248aff2</id>
+      <BoundTo>9ee3f383-3ef6-45c5-b67b-e0d738122b89</BoundTo>
+    </Compile>
+    <Compile Include="Generales\CloseBrowser.UserCode.cs">
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>080f99f1-5421-4638-b482-d3188b8f1c9a</id>
+      <BoundTo>9ee3f383-3ef6-45c5-b67b-e0d738122b89</BoundTo>
+    </Compile>
+    <Compile Include="Generales\IngresarHerramientas.cs">
+      <BoundTo>db25a79c-f219-4181-bb5f-db0df040f0a2</BoundTo>
+      <DependentUpon>IngresarHerramientas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6ea60f9b-b653-4cdb-a5a4-02dc46c297a3</id>
+    </Compile>
+    <Compile Include="Generales\IngresarHerramientas.UserCode.cs">
+      <BoundTo>db25a79c-f219-4181-bb5f-db0df040f0a2</BoundTo>
+      <DependentUpon>IngresarHerramientas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f3791dde-c2b9-4869-9b88-ddbaf8fc4e7a</id>
+    </Compile>
+    <Compile Include="Generales\Login.cs">
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ede5f62a-2891-46ed-96c0-0508063db8ad</id>
+      <BoundTo>b7226441-4615-4fdd-a0be-4e1405a07113</BoundTo>
+    </Compile>
+    <Compile Include="Generales\Login.UserCode.cs">
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c28d0e86-3d46-421d-90f0-fd69328a5ce2</id>
+      <BoundTo>b7226441-4615-4fdd-a0be-4e1405a07113</BoundTo>
+    </Compile>
+    <Compile Include="Generales\Logout.cs">
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>76cedb34-4247-419f-bf0e-268cc22e8d3d</id>
+      <BoundTo>2f0e3962-e3fd-49e1-bbc2-f32206eb59d2</BoundTo>
+    </Compile>
+    <Compile Include="Generales\Logout.UserCode.cs">
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>341a1e80-2836-4667-b724-45d858ba7842</id>
+      <BoundTo>2f0e3962-e3fd-49e1-bbc2-f32206eb59d2</BoundTo>
+    </Compile>
+    <Compile Include="Generales\Logout_Procesos.cs">
+      <DependentUpon>Logout_Procesos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1e3620c4-31ef-475e-9218-eccecd0af9f6</id>
+      <BoundTo>da367be0-2bf8-40b5-a027-805e898b4b85</BoundTo>
+    </Compile>
+    <Compile Include="Generales\Logout_Procesos.UserCode.cs">
+      <DependentUpon>Logout_Procesos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e901e66f-1bfc-4f32-8988-2760e2b74954</id>
+      <BoundTo>da367be0-2bf8-40b5-a027-805e898b4b85</BoundTo>
+    </Compile>
+    <Compile Include="Generales\OpenBrowser_BC.cs">
+      <DependentUpon>OpenBrowser_BC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>16cde518-9439-4207-aca9-f641babb68ac</id>
+      <BoundTo>70033d65-314b-4fdf-869d-803498e6392e</BoundTo>
+    </Compile>
+    <Compile Include="Generales\OpenBrowser_BC.UserCode.cs">
+      <DependentUpon>OpenBrowser_BC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6355f0e0-f2b4-4cf2-9cf6-783373f5dc7c</id>
+      <BoundTo>70033d65-314b-4fdf-869d-803498e6392e</BoundTo>
+    </Compile>
+    <Compile Include="Generales\OpenBrowser_PC.cs">
+      <DependentUpon>OpenBrowser_PC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8c05ba30-c810-4cd5-a465-af960a33f2d5</id>
+      <BoundTo>ee5d56d6-4c1b-4436-8d7d-19fd0c7c3f80</BoundTo>
+    </Compile>
+    <Compile Include="Generales\OpenBrowser_PC.UserCode.cs">
+      <DependentUpon>OpenBrowser_PC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>422391cb-7e87-42bf-a456-3ebb715346e9</id>
+      <BoundTo>ee5d56d6-4c1b-4436-8d7d-19fd0c7c3f80</BoundTo>
+    </Compile>
     <Compile Include="Generales\UCM_setStatus.cs">
       <id>cae467de-50d5-4760-948a-352069efb7e3</id>
     </Compile>
@@ -1936,6 +2056,42 @@
       <DependentUpon>VerFormulario_EmitidaFlota.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>414e52da-7a21-4c0e-a620-1ecd90e70110</id>
+    </Compile>
+    <Compile Include="GestionDocumental\VerFormulario_EndosoExclusionRiesgo.cs">
+      <BoundTo>12228ddc-ddc4-4849-b63d-94d70b2ca90c</BoundTo>
+      <DependentUpon>VerFormulario_EndosoExclusionRiesgo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>98804d2c-199d-483e-b75e-153c1d25f570</id>
+    </Compile>
+    <Compile Include="GestionDocumental\VerFormulario_EndosoExclusionRiesgo.UserCode.cs">
+      <BoundTo>12228ddc-ddc4-4849-b63d-94d70b2ca90c</BoundTo>
+      <DependentUpon>VerFormulario_EndosoExclusionRiesgo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2d9c71a2-eb56-4351-8218-d2819bff9446</id>
+    </Compile>
+    <Compile Include="GestionDocumental\VerFormulario_EndosoInclusionRiesgo.cs">
+      <BoundTo>c70e06eb-a189-4b3b-83c7-db3e0e1e95d6</BoundTo>
+      <DependentUpon>VerFormulario_EndosoInclusionRiesgo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>10330e07-ed46-4d4d-b715-16849d67012b</id>
+    </Compile>
+    <Compile Include="GestionDocumental\VerFormulario_EndosoInclusionRiesgo.UserCode.cs">
+      <BoundTo>c70e06eb-a189-4b3b-83c7-db3e0e1e95d6</BoundTo>
+      <DependentUpon>VerFormulario_EndosoInclusionRiesgo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>be7e10e3-4108-495d-9a3d-b3add23b7a7b</id>
+    </Compile>
+    <Compile Include="GestionDocumental\Ver_CertificadoPagosAlDia.cs">
+      <BoundTo>03121122-1733-4cd1-902a-01e7f89ab66e</BoundTo>
+      <DependentUpon>Ver_CertificadoPagosAlDia.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>83f9573f-b6d4-434d-9303-12ec64582d4b</id>
+    </Compile>
+    <Compile Include="GestionDocumental\Ver_CertificadoPagosAlDia.UserCode.cs">
+      <BoundTo>03121122-1733-4cd1-902a-01e7f89ab66e</BoundTo>
+      <DependentUpon>Ver_CertificadoPagosAlDia.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cd6d4ec9-ee90-4f43-a043-67c992670ade</id>
     </Compile>
     <Compile Include="Menu\MenuLateral_CuentaBC.cs">
       <DependentUpon>MenuLateral_CuentaBC.rxrec</DependentUpon>
@@ -2093,17 +2249,53 @@
       <UserCode>true</UserCode>
       <id>7cfc45ee-d7b4-4c7b-ba6a-5410efd7d9fb</id>
     </Compile>
-    <Compile Include="OpenBrowser_BC.cs">
-      <BoundTo>70033d65-314b-4fdf-869d-803498e6392e</BoundTo>
-      <DependentUpon>OpenBrowser_BC.rxrec</DependentUpon>
+    <Compile Include="Menu\MenuSup_Reloj.cs">
+      <BoundTo>3bf5f4bb-f128-49ac-939b-02df5212de4b</BoundTo>
+      <DependentUpon>MenuSup_Reloj.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>16cde518-9439-4207-aca9-f641babb68ac</id>
+      <id>2ea66430-20f9-42a8-8721-96106eaefbd4</id>
     </Compile>
-    <Compile Include="OpenBrowser_BC.UserCode.cs">
-      <BoundTo>70033d65-314b-4fdf-869d-803498e6392e</BoundTo>
-      <DependentUpon>OpenBrowser_BC.rxrec</DependentUpon>
+    <Compile Include="Menu\MenuSup_Reloj.UserCode.cs">
+      <BoundTo>3bf5f4bb-f128-49ac-939b-02df5212de4b</BoundTo>
+      <DependentUpon>MenuSup_Reloj.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>6355f0e0-f2b4-4cf2-9cf6-783373f5dc7c</id>
+      <id>6d10b288-d3dc-4a13-bb93-3bf5a2ff6682</id>
+    </Compile>
+    <Compile Include="Procesos\CambiarHora.cs">
+      <DependentUpon>CambiarHora.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1915b671-a9e5-41a7-b5af-4cded302d48b</id>
+      <BoundTo>addd210c-b27b-4432-bf3e-eeb97cc6c498</BoundTo>
+    </Compile>
+    <Compile Include="Procesos\CambiarHora.UserCode.cs">
+      <DependentUpon>CambiarHora.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>320a0447-67dd-4c6c-b5c8-2453d344a36c</id>
+      <BoundTo>addd210c-b27b-4432-bf3e-eeb97cc6c498</BoundTo>
+    </Compile>
+    <Compile Include="Procesos\Ejecutar_FlujoDeTrabajo.cs">
+      <BoundTo>0db2682b-4165-46c0-b90f-0a63ed8220b1</BoundTo>
+      <DependentUpon>Ejecutar_FlujoDeTrabajo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>46e7fb21-a616-4c4f-95e8-66ba0362a9fc</id>
+    </Compile>
+    <Compile Include="Procesos\Ejecutar_FlujoDeTrabajo.UserCode.cs">
+      <BoundTo>0db2682b-4165-46c0-b90f-0a63ed8220b1</BoundTo>
+      <DependentUpon>Ejecutar_FlujoDeTrabajo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>78ad2b82-56b4-4de1-b7f3-51feb0ee460d</id>
+    </Compile>
+    <Compile Include="Procesos\Ejecutar_Refacturacion.cs">
+      <BoundTo>d4d87b57-902a-48c5-9050-f10e7190a2d1</BoundTo>
+      <DependentUpon>Ejecutar_Refacturacion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>750a25c4-b007-4de3-bf78-0af6516bbdda</id>
+    </Compile>
+    <Compile Include="Procesos\Ejecutar_Refacturacion.UserCode.cs">
+      <BoundTo>d4d87b57-902a-48c5-9050-f10e7190a2d1</BoundTo>
+      <DependentUpon>Ejecutar_Refacturacion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>da94c14a-a9fb-42b7-a7c0-395970dd9011</id>
     </Compile>
     <Compile Include="Recording1.cs">
       <BoundTo>fe3bd7fe-e1c4-4258-916a-9882b33b6e9f</BoundTo>
@@ -2117,50 +2309,26 @@
       <UserCode>true</UserCode>
       <id>83f404cf-4790-4e70-a89d-5bca1e930f7d</id>
     </Compile>
+    <Compile Include="Refacturacion\ValidarRefacturacion.cs">
+      <BoundTo>935c34f8-f774-4293-9b6d-c4ff4871909a</BoundTo>
+      <DependentUpon>ValidarRefacturacion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2ea9d777-1309-4df0-8648-c25081d2151a</id>
+    </Compile>
+    <Compile Include="Refacturacion\ValidarRefacturacion.UserCode.cs">
+      <BoundTo>935c34f8-f774-4293-9b6d-c4ff4871909a</BoundTo>
+      <DependentUpon>ValidarRefacturacion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cfd91826-3508-45c2-88e9-ee831f6f5c2c</id>
+    </Compile>
     <Compile Include="SURA_BC.cs">
       <BoundTo>54012D06-CA32-405E-BBFA-25C32DF459DD</BoundTo>
       <DependentUpon>SURA_BC.rxrep</DependentUpon>
       <RepositoryCode>true</RepositoryCode>
       <id>7d2345a6-e495-4109-b48f-8ab380850920</id>
     </Compile>
-    <Compile Include="Logout.cs">
-      <BoundTo>2f0e3962-e3fd-49e1-bbc2-f32206eb59d2</BoundTo>
-      <DependentUpon>Logout.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>76cedb34-4247-419f-bf0e-268cc22e8d3d</id>
-    </Compile>
-    <Compile Include="Logout.UserCode.cs">
-      <BoundTo>2f0e3962-e3fd-49e1-bbc2-f32206eb59d2</BoundTo>
-      <DependentUpon>Logout.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>341a1e80-2836-4667-b724-45d858ba7842</id>
-    </Compile>
-    <Compile Include="OpenBrowser_PC.cs">
-      <BoundTo>ee5d56d6-4c1b-4436-8d7d-19fd0c7c3f80</BoundTo>
-      <DependentUpon>OpenBrowser_PC.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>8c05ba30-c810-4cd5-a465-af960a33f2d5</id>
-    </Compile>
-    <Compile Include="OpenBrowser_PC.UserCode.cs">
-      <BoundTo>ee5d56d6-4c1b-4436-8d7d-19fd0c7c3f80</BoundTo>
-      <DependentUpon>OpenBrowser_PC.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>422391cb-7e87-42bf-a456-3ebb715346e9</id>
-    </Compile>
     <Compile Include="Program.cs">
       <id>479c8fe2-11e3-4301-abf3-8e519e236ddf</id>
-    </Compile>
-    <Compile Include="Login.cs">
-      <BoundTo>b7226441-4615-4fdd-a0be-4e1405a07113</BoundTo>
-      <DependentUpon>Login.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>ede5f62a-2891-46ed-96c0-0508063db8ad</id>
-    </Compile>
-    <Compile Include="Login.UserCode.cs">
-      <BoundTo>b7226441-4615-4fdd-a0be-4e1405a07113</BoundTo>
-      <DependentUpon>Login.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>c28d0e86-3d46-421d-90f0-fd69328a5ce2</id>
     </Compile>
     <Compile Include="SuraRepository.cs">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -2313,6 +2481,118 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>80ea9a9f-ffa7-42a8-9bc0-86dd0b61b9b5</id>
     </Content>
+    <Content Include="DataSource - ValidaFormularios - Cotizada.xlsx">
+      <Link>DataSource - ValidaFormularios - Cotizada.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>9d229fc3-4194-4329-bf7e-7e0ebf9c156d</id>
+    </Content>
+    <Content Include="DataSource - ValidaFormularios - Flota Cotizada.xlsx">
+      <Link>DataSource - ValidaFormularios - Flota Cotizada.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>606c7bc6-d522-4670-9a4f-f133929932ee</id>
+    </Content>
+    <Content Include="DataSource - ValidaFormularios - Flota Emitida.xlsx">
+      <Link>DataSource - ValidaFormularios - Flota Emitida.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>e82e0501-5215-419f-bc06-4e4dc765c4bf</id>
+    </Content>
+    <Content Include="DataSource  - Endoso Exclusión de Riesgo.xlsx">
+      <Link>DataSource  - Endoso Exclusión de Riesgo.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>e7f5e031-a7c4-4b88-add1-0ed5fd353624</id>
+    </Content>
+    <Content Include="DataSource - Endoso Inclusion de Riesgo.xlsx">
+      <Link>DataSource - Endoso Inclusion de Riesgo.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>a9b9f88a-88d7-4feb-bc61-85c93215990a</id>
+    </Content>
+    <Content Include="DataSource - Cotización Motor.xlsx">
+      <Link>DataSource - Cotización Motor.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>425b0761-6446-466a-b7bc-13a5b14437ce</id>
+    </Content>
+    <Content Include="DataSource - Emision Motor - Prendario.xlsx">
+      <Link>DataSource - Emision Motor - Prendario.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>4fb72f4e-1669-4294-abb9-dc22815403a3</id>
+    </Content>
+    <Content Include="DataSource - Cotización Hogar Enlatado.xlsx">
+      <Link>DataSource - Cotización Hogar Enlatado.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>9cc1d32d-cb63-47ba-aca9-59603dfe7c36</id>
+    </Content>
+    <Content Include="DataSource - Cotización Hogar No Enlatada.xlsx">
+      <Link>DataSource - Cotización Hogar No Enlatada.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>ec51c6b8-20f9-4381-a55a-49f695eb2ce1</id>
+    </Content>
+    <Content Include="DataSource - Cotización AP Enlatada.xlsx">
+      <Link>DataSource - Cotización AP Enlatada.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>33328ccf-a632-41d6-b1f1-5ce024b06951</id>
+    </Content>
+    <Content Include="DataSource - Cotización AP No Enlatada.xlsx">
+      <Link>DataSource - Cotización AP No Enlatada.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>865e501e-e4e2-43ac-a6fa-7a44710a37b7</id>
+    </Content>
+    <Content Include="DataSource - Cambio de fecha.xlsx">
+      <Link>DataSource - Cambio de fecha.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>4a72b929-9b14-4d5f-8aa1-4e6dc4243e77</id>
+    </Content>
+    <Content Include="DataSource - Refacturacion.xlsx">
+      <Link>DataSource - Refacturacion.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>8d41bb22-dcbc-43be-bcc0-ac8cd9f73a2e</id>
+    </Content>
+    <Content Include="DataSource - Endoso Inclusion de Riesgo - Vehiculos.xlsx">
+      <Link>DataSource - Endoso Inclusion de Riesgo - Vehiculos.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>5cf348fd-49a2-4efd-ac33-e6cc836a7303</id>
+    </Content>
+    <Content Include="DataSource - Validar Formularios - Endoso Inclusión de Riesgo.xlsx">
+      <Link>DataSource - Validar Formularios - Endoso Inclusión de Riesgo.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>2289430b-a646-43b2-99b0-23be609677b8</id>
+    </Content>
+    <Content Include="DataSource - Validar Formularios - Endoso Exclusión de Riesgo.xlsx">
+      <Link>DataSource - Validar Formularios - Endoso Exclusión de Riesgo.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b5dba8a8-c4e6-4f00-96db-7aa2880a4ed9</id>
+    </Content>
     <None Include="Emision\AccesorioConMovilidad.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>417b8e0c-ebf5-44f5-aa14-d299c600cb37</id>
@@ -2388,7 +2668,17 @@
       <id>0cd8cdc3-8b40-4b88-b755-9587d01b8443</id>
       <recordtableid>bb487230-7c4c-4ec9-90ed-39779c3a56a5</recordtableid>
     </None>
-    <None Include="Emision\CotizarPoliza_Motor.rxrec">
+    <None Include="Emision\CotizarPolizaAP.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>3f4b4261-6307-4edf-93b4-b50bb8e2e5a5</id>
+      <recordtableid>3d1e6e1c-1004-4d03-82af-945f37b04c83</recordtableid>
+    </None>
+    <None Include="Emision\CotizarPolizaHogar.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>ca1b5f3b-dcea-4d06-af08-35d48d3ad7a0</id>
+      <recordtableid>0fad853c-2a01-4af8-aa83-14b926bb6e16</recordtableid>
+    </None>
+    <None Include="Emision\CotizarPolizaMotor.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>f49960d2-1c52-44f1-9613-d674718b95ac</id>
       <recordtableid>8c4a1cbd-6b09-440e-8acd-56d6c63d0a30</recordtableid>
@@ -2492,6 +2782,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>cb9033d1-e78a-4158-90d9-57b86586567b</id>
       <recordtableid>2704ca3f-573d-40b8-a1a9-4e24737f9d55</recordtableid>
+    </None>
+    <None Include="Emision\PolizasVigentesOtroGrupoComercial.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>35424f94-f43f-48a8-8cac-bb2b9b3c179d</id>
+      <recordtableid>5d8a2599-76d6-425c-8163-6424fe941388</recordtableid>
     </None>
     <None Include="Emision\SeleccionCoberturaAdicional.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -2703,20 +2998,32 @@
       <id>140715a7-8a43-400e-a6a1-1a9a1240727f</id>
       <recordtableid>e4d58108-8cec-4d52-8288-3a8b254d536e</recordtableid>
     </None>
+    <None Include="Emision\Vehiculos_Prendario.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>d241335e-8dc8-4b06-a7d3-374e066c9476</id>
+      <recordtableid>d7a38fb7-9216-402b-8fc9-010c257888f6</recordtableid>
+    </None>
     <None Include="Emision\Vivienda_Enlatada.rxrec">
       <id>02300b95-4bda-484b-88ca-df46f7fd5890</id>
       <recordtableid>a93951bd-80cf-41c1-8e67-9011eade6d41</recordtableid>
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
     </None>
+    <Content Include="Emisión Motor - Varios vehiculos - General.xlsx">
+      <Link>Emisión Motor - Varios vehiculos - General.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>3002aae2-4410-4163-b7a7-30af26da664f</id>
+    </Content>
     <None Include="Endosos\AgregaAccesorios.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>3a4be5da-aac9-444f-9694-9429a940b177</id>
       <recordtableid>c5bb02a6-1f18-408e-a20c-ed4470fca104</recordtableid>
     </None>
     <None Include="Endosos\AgregarVehiculos.rxrec">
-      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>7b892083-ca39-4c6e-bf9d-b9c5df88f2aa</id>
       <recordtableid>db7ad970-ba32-4a6f-9ed2-afc31584bb00</recordtableid>
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
     </None>
     <None Include="Endosos\AltaEndoso.rxrec">
       <id>980d56ff-54f4-4617-a0a5-dab66ff1c3cf</id>
@@ -2750,11 +3057,6 @@
     </None>
     <None Include="app.config">
       <id>12b51fe0-4b3e-41af-b8dc-b86f5f282fa3</id>
-    </None>
-    <None Include="CloseBrowser.rxrec">
-      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
-      <id>9ee3f383-3ef6-45c5-b67b-e0d738122b89</id>
-      <recordtableid>b5884f88-adf0-4880-8ec9-29aa0e9b3095</recordtableid>
     </None>
     <None Include="Endosos\AnalisisRiesgo_Endoso.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -3038,10 +3340,45 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>f482a9d1-5c18-42f9-83ce-75e229326255</id>
     </Content>
-    <None Include="GestionDocumental\VerFormulario_Cotizada.rxrec">
+    <None Include="Generales\CloseBrowser.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>9ee3f383-3ef6-45c5-b67b-e0d738122b89</id>
+      <recordtableid>b5884f88-adf0-4880-8ec9-29aa0e9b3095</recordtableid>
+    </None>
+    <None Include="Generales\IngresarHerramientas.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>db25a79c-f219-4181-bb5f-db0df040f0a2</id>
+      <recordtableid>2dba4d98-2246-4da7-817b-04c67f4bb41c</recordtableid>
+    </None>
+    <None Include="Generales\Login.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>b7226441-4615-4fdd-a0be-4e1405a07113</id>
+      <recordtableid>acd97189-4d27-4333-b80e-4298b8446c8c</recordtableid>
+    </None>
+    <None Include="Generales\Logout.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>2f0e3962-e3fd-49e1-bbc2-f32206eb59d2</id>
+      <recordtableid>68c8632a-235c-4edc-9f8a-e1402221543e</recordtableid>
+    </None>
+    <None Include="Generales\Logout_Procesos.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>da367be0-2bf8-40b5-a027-805e898b4b85</id>
+      <recordtableid>d4b52919-acfe-48e5-9b16-ef9edbbbf5d8</recordtableid>
+    </None>
+    <None Include="Generales\OpenBrowser_BC.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>70033d65-314b-4fdf-869d-803498e6392e</id>
+      <recordtableid>51f2220e-f2ef-4b03-87a3-208a63fbe569</recordtableid>
+    </None>
+    <None Include="Generales\OpenBrowser_PC.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>ee5d56d6-4c1b-4436-8d7d-19fd0c7c3f80</id>
+      <recordtableid>40f2ee22-6d43-40a8-8f40-05b7a81ee02d</recordtableid>
+    </None>
+    <None Include="GestionDocumental\VerFormulario_Cotizada.rxrec">
       <id>d6428693-b642-40aa-9827-5a9be7a41ff7</id>
       <recordtableid>03d5cad4-1f32-4da2-bf41-95bfcb2c3067</recordtableid>
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
     </None>
     <None Include="GestionDocumental\MenuLateral_Formularios.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -3062,6 +3399,21 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>76f2af7e-8062-4dbd-bb67-91dda6ba5230</id>
       <recordtableid>d00d64ad-928c-44e5-b63a-faa7b34743f6</recordtableid>
+    </None>
+    <None Include="GestionDocumental\VerFormulario_EndosoExclusionRiesgo.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>12228ddc-ddc4-4849-b63d-94d70b2ca90c</id>
+      <recordtableid>2919ec18-e769-4455-b469-da598ed51a5b</recordtableid>
+    </None>
+    <None Include="GestionDocumental\VerFormulario_EndosoInclusionRiesgo.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>c70e06eb-a189-4b3b-83c7-db3e0e1e95d6</id>
+      <recordtableid>c9711ff1-229b-4d64-8254-dda8a73a71b1</recordtableid>
+    </None>
+    <None Include="GestionDocumental\Ver_CertificadoPagosAlDia.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>03121122-1733-4cd1-902a-01e7f89ab66e</id>
+      <recordtableid>58da8c4c-9a1e-4ab8-b8b0-b7874ab44425</recordtableid>
     </None>
     <None Include="Menu\MenuLateral_CuentaBC.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -3128,19 +3480,39 @@
       <id>d3f5d578-20ea-49d7-8535-cb80247e4f2f</id>
       <recordtableid>522c1674-af8e-481b-94f3-1af91492e908</recordtableid>
     </None>
-    <None Include="OpenBrowser_BC.rxrec">
+    <None Include="Menu\MenuSup_Reloj.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
-      <id>70033d65-314b-4fdf-869d-803498e6392e</id>
-      <recordtableid>51f2220e-f2ef-4b03-87a3-208a63fbe569</recordtableid>
+      <id>3bf5f4bb-f128-49ac-939b-02df5212de4b</id>
+      <recordtableid>e65d009d-0de2-4458-95f4-757f4e5af189</recordtableid>
     </None>
     <Content Include="Sura.rxsqc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>6840d29f-3ad8-41ee-8436-b7cbb14acf29</id>
     </Content>
+    <None Include="Procesos\CambiarHora.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>addd210c-b27b-4432-bf3e-eeb97cc6c498</id>
+      <recordtableid>0a6079d9-b6a2-40f3-a85a-91c2daf275a1</recordtableid>
+    </None>
+    <None Include="Procesos\Ejecutar_FlujoDeTrabajo.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>0db2682b-4165-46c0-b90f-0a63ed8220b1</id>
+      <recordtableid>c8122c7c-e8fc-4c5b-bbe4-90c25c233321</recordtableid>
+    </None>
+    <None Include="Procesos\Ejecutar_Refacturacion.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>d4d87b57-902a-48c5-9050-f10e7190a2d1</id>
+      <recordtableid>863803f2-ee42-462b-be49-9101878eca41</recordtableid>
+    </None>
     <None Include="Recording1.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>fe3bd7fe-e1c4-4258-916a-9882b33b6e9f</id>
       <recordtableid>6ce34d8f-1517-412e-9e97-ca65f4f42a84</recordtableid>
+    </None>
+    <None Include="Refacturacion\ValidarRefacturacion.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>935c34f8-f774-4293-9b6d-c4ff4871909a</id>
+      <recordtableid>fa2cd4b0-301b-42fa-bf1d-f51addd752af</recordtableid>
     </None>
     <None Include="SURA_BC.rximg">
       <BoundTo>54012D06-CA32-405E-BBFA-25C32DF459DD</BoundTo>
@@ -3152,21 +3524,6 @@
       <id>54012D06-CA32-405E-BBFA-25C32DF459DD</id>
       <repoid>7209bdc2-6fba-4609-8e95-b4626342ed6b</repoid>
       <reporootid>62376b15-ea9e-42e0-851c-65f876b505a9</reporootid>
-    </None>
-    <None Include="Logout.rxrec">
-      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
-      <id>2f0e3962-e3fd-49e1-bbc2-f32206eb59d2</id>
-      <recordtableid>68c8632a-235c-4edc-9f8a-e1402221543e</recordtableid>
-    </None>
-    <None Include="OpenBrowser_PC.rxrec">
-      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
-      <id>ee5d56d6-4c1b-4436-8d7d-19fd0c7c3f80</id>
-      <recordtableid>40f2ee22-6d43-40a8-8f40-05b7a81ee02d</recordtableid>
-    </None>
-    <None Include="Login.rxrec">
-      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
-      <id>b7226441-4615-4fdd-a0be-4e1405a07113</id>
-      <recordtableid>acd97189-4d27-4333-b80e-4298b8446c8c</recordtableid>
     </None>
     <None Include="SuraRepository.rximg">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -3228,6 +3585,12 @@
     </Folder>
     <Folder Include="Generales">
       <id>811b0ba1-f496-460a-85e2-c928a0dc0a51</id>
+    </Folder>
+    <Folder Include="Refacturacion">
+      <id>e804ffef-8099-46b3-bccd-c973429e3804</id>
+    </Folder>
+    <Folder Include="Procesos">
+      <id>463c44bd-96da-4cbd-a600-2a148828f12c</id>
     </Folder>
     <Folder Include="ValidacionMarcaModelo">
       <id>6990eff0-3337-422b-8d00-de7cbe1ffeae</id>

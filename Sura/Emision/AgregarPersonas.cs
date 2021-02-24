@@ -93,6 +93,16 @@ namespace Sura.Emision
         }
 
         /// <summary>
+        /// Gets or sets the value of variable NroPoliza.
+        /// </summary>
+        [TestVariable("7f21a146-b56c-4b8b-84a6-3fad8d4c0caa")]
+        public string NroPoliza
+        {
+            get { return repo.NroPoliza; }
+            set { repo.NroPoliza = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable SumaAsegurada.
         /// </summary>
         [TestVariable("4e17a6d3-1784-4c04-bc86-2820dd620664")]
@@ -152,8 +162,8 @@ namespace Sura.Emision
             repo.SURA.PC.Emision.PolizaAP.Personas.txtbox_Actividad.PressKeys(Actividad);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaAP.Personas.Pantalla' at Center.", repo.SURA.PC.Emision.PolizaAP.Personas.PantallaInfo, new RecordItemIndex(1));
-            repo.SURA.PC.Emision.PolizaAP.Personas.Pantalla.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.txt_Refacturacion' at Center.", repo.SURA.PC.txt_RefacturacionInfo, new RecordItemIndex(1));
+            repo.SURA.PC.txt_Refacturacion.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaAP.Personas.Copy_of_txtbox_Actividad'", repo.SURA.PC.Emision.PolizaAP.Personas.Copy_of_txtbox_ActividadInfo, new ActionTimeout(30000), new RecordItemIndex(2));
@@ -163,8 +173,8 @@ namespace Sura.Emision
             repo.SURA.PC.Emision.PolizaAP.Personas.txtbox_CantidadVigente.PressKeys(CantidadVigente);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaAP.Personas.Pantalla' at Center.", repo.SURA.PC.Emision.PolizaAP.Personas.PantallaInfo, new RecordItemIndex(4));
-            repo.SURA.PC.Emision.PolizaAP.Personas.Pantalla.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.txt_Refacturacion' at Center.", repo.SURA.PC.txt_RefacturacionInfo, new RecordItemIndex(4));
+            repo.SURA.PC.txt_Refacturacion.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaAP.Personas.Copy_of_txtbox_CantidadVigente'", repo.SURA.PC.Emision.PolizaAP.Personas.Copy_of_txtbox_CantidadVigenteInfo, new ActionTimeout(30000), new RecordItemIndex(5));
@@ -174,8 +184,8 @@ namespace Sura.Emision
             repo.SURA.PC.Emision.PolizaAP.Personas.txtbox_SumaAsegurada.PressKeys(SumaAsegurada);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaAP.Personas.Pantalla' at Center.", repo.SURA.PC.Emision.PolizaAP.Personas.PantallaInfo, new RecordItemIndex(7));
-            repo.SURA.PC.Emision.PolizaAP.Personas.Pantalla.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.txt_Refacturacion' at Center.", repo.SURA.PC.txt_RefacturacionInfo, new RecordItemIndex(7));
+            repo.SURA.PC.txt_Refacturacion.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaAP.Personas.Copy_of_txtbox_SumaAsegurada'", repo.SURA.PC.Emision.PolizaAP.Personas.Copy_of_txtbox_SumaAseguradaInfo, new ActionTimeout(30000), new RecordItemIndex(8));
@@ -198,8 +208,8 @@ namespace Sura.Emision
             repo.SURA.PC.Emision.PolizaAP.Personas.txtbox_TipoDeDocumento.PressKeys(TipoDocumento);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaAP.Personas.Pantalla' at Center.", repo.SURA.PC.Emision.PolizaAP.Personas.PantallaInfo, new RecordItemIndex(14));
-            repo.SURA.PC.Emision.PolizaAP.Personas.Pantalla.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.txt_Refacturacion' at Center.", repo.SURA.PC.txt_RefacturacionInfo, new RecordItemIndex(14));
+            repo.SURA.PC.txt_Refacturacion.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaAP.Personas.Copy_of_txtbox_TipoDeDocumento'", repo.SURA.PC.Emision.PolizaAP.Personas.Copy_of_txtbox_TipoDeDocumentoInfo, new ActionTimeout(30000), new RecordItemIndex(15));
@@ -209,8 +219,8 @@ namespace Sura.Emision
             repo.SURA.PC.Emision.PolizaAP.Personas.txtbox_NumeroDeDocumento.PressKeys(NumeroDocumento);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaAP.Personas.Pantalla' at Center.", repo.SURA.PC.Emision.PolizaAP.Personas.PantallaInfo, new RecordItemIndex(17));
-            repo.SURA.PC.Emision.PolizaAP.Personas.Pantalla.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.txt_Refacturacion' at Center.", repo.SURA.PC.txt_RefacturacionInfo, new RecordItemIndex(17));
+            repo.SURA.PC.txt_Refacturacion.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaAP.Personas.Copy_of_txtbox_NumeroDeDocumento'", repo.SURA.PC.Emision.PolizaAP.Personas.Copy_of_txtbox_NumeroDeDocumentoInfo, new ActionTimeout(30000), new RecordItemIndex(18));

@@ -171,3 +171,20 @@ C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\obj\x
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\obj\x86\Debug\Sura.pdb
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\RepositoryImages\SuraRepository52dfe65a.rximgres
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - ValidaFormularios - Emitida.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - ValidaFormularios - Cotizada.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - ValidaFormularios - Flota Cotizada.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - ValidaFormularios - Flota Emitida.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource  - Endoso Exclusión de Riesgo.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Endoso Inclusion de Riesgo.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Cotización Motor.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Emision Motor - Prendario.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Cotización Hogar Enlatado.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Cotización Hogar No Enlatada.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Cotización AP Enlatada.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Cotización AP No Enlatada.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Cambio de fecha.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Refacturacion.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Emisión Motor - Varios vehiculos - General.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Endoso Inclusion de Riesgo - Vehiculos.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Validar Formularios - Endoso Inclusión de Riesgo.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Validar Formularios - Endoso Exclusión de Riesgo.xlsx

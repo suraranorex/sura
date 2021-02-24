@@ -20,64 +20,38 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Sura
+namespace Sura.Generales
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Login recording.
+    ///The Logout_Procesos recording.
     /// </summary>
-    [TestModule("acd97189-4d27-4333-b80e-4298b8446c8c", ModuleType.Recording, 1)]
-    public partial class Login : ITestModule
+    [TestModule("d4b52919-acfe-48e5-9b16-ef9edbbbf5d8", ModuleType.Recording, 1)]
+    public partial class Logout_Procesos : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the SuraRepository repository.
+        /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
-        public static SuraRepository repo = SuraRepository.Instance;
+        public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static Login instance = new Login();
+        static Logout_Procesos instance = new Logout_Procesos();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Login()
+        public Logout_Procesos()
         {
-            Usuario = "su";
-            Contrasenia = "gw";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Login Instance
+        public static Logout_Procesos Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        string _Usuario;
-
-        /// <summary>
-        /// Gets or sets the value of variable Usuario.
-        /// </summary>
-        [TestVariable("b3a49cd3-e669-442e-b17d-0fe0e31486a0")]
-        public string Usuario
-        {
-            get { return _Usuario; }
-            set { _Usuario = value; }
-        }
-
-        string _Contrasenia;
-
-        /// <summary>
-        /// Gets or sets the value of variable Contrasenia.
-        /// </summary>
-        [TestVariable("1a6fc457-6eaa-4392-bf26-1c49b108d9f0")]
-        public string Contrasenia
-        {
-            get { return _Contrasenia; }
-            set { _Contrasenia = value; }
-        }
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -115,20 +89,29 @@ namespace Sura
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Usuario' on item 'SURA.Login.txtbox_Usuario'.", repo.SURA.Login.txtbox_UsuarioInfo, new RecordItemIndex(0));
-            repo.SURA.Login.txtbox_Usuario.Element.SetAttributeValue("TagValue", Usuario);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'SURA.Logout.Copy_of_bttn_Configuracion'", repo.SURA.Logout.Copy_of_bttn_ConfiguracionInfo, new ActionTimeout(40000), new RecordItemIndex(0));
+            //repo.SURA.Logout.Copy_of_bttn_ConfiguracionInfo.WaitForNotExists(40000);
+            
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMS'", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMSInfo, new ActionTimeout(60000), new RecordItemIndex(1));
+            //repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMSInfo.WaitForExists(60000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Logout.bttn_Configuracion' at Center.", repo.SURA.Logout.bttn_ConfiguracionInfo, new RecordItemIndex(2));
+            repo.SURA.Logout.bttn_Configuracion.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Contrasenia' on item 'SURA.Login.txtbox_Contrasenia'.", repo.SURA.Login.txtbox_ContraseniaInfo, new RecordItemIndex(1));
-            repo.SURA.Login.txtbox_Contrasenia.Element.SetAttributeValue("TagValue", Contrasenia);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Logout.Copy_of_bttn_CerrarSesion' at Center.", repo.SURA.Logout.Copy_of_bttn_CerrarSesionInfo, new RecordItemIndex(3));
+            repo.SURA.Logout.Copy_of_bttn_CerrarSesion.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Login.bttn_IniciarSesion' at 26;3.", repo.SURA.Login.bttn_IniciarSesionInfo, new RecordItemIndex(2));
-            repo.SURA.Login.bttn_IniciarSesion.Click("26;3");
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'SURA_ContinueOnFail.Copy_of_bttn_Aceptar' at Center.", repo.SURA_ContinueOnFail.Copy_of_bttn_AceptarInfo, new RecordItemIndex(4));
+                repo.SURA_ContinueOnFail.Copy_of_bttn_Aceptar.Click();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SURA.Logout.bttn_Configuracion'", repo.SURA.Logout.bttn_ConfiguracionInfo, new ActionTimeout(20000), new RecordItemIndex(3));
-            repo.SURA.Logout.bttn_ConfiguracionInfo.WaitForExists(20000);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SURA.Login.bttn_IniciarSesion'.", repo.SURA.Login.bttn_IniciarSesionInfo, new RecordItemIndex(5));
+            Validate.Exists(repo.SURA.Login.bttn_IniciarSesionInfo);
+            Delay.Milliseconds(100);
             
         }
 

@@ -26,7 +26,7 @@ mode="Global">
 		<var
 		id="8176b232-5607-419b-a9c5-2840cda0fc1e"
 		name="MetodoDePago">
-			Cup&#243;n
+			Cupón
 		</var>
 		<var
 		id="1fffd155-0099-4fad-a8ec-52a58fd98f5f"
@@ -391,7 +391,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Informaci&#243;n de p&#243;liza
+						Información de póliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -405,7 +405,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Informaci&#243;n de p&#243;liza']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Información de póliza']
 				</path>
 			</info>
 		</mouseitem>
@@ -524,7 +524,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='M&#233;todo de Pago']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Método de Pago']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -583,7 +583,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Informaci&#243;n de p&#243;liza
+						Información de póliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -597,7 +597,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Informaci&#243;n de p&#243;liza']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Información de póliza']
 				</path>
 			</info>
 		</mouseitem>
@@ -615,7 +615,7 @@ mode="Global">
 			id="f9ce8d2f-1f9a-47fc-af5f-0f48c9fee6b8"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='M&#233;todo de Pago']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Método de Pago']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>

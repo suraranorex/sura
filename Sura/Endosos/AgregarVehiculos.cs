@@ -378,20 +378,18 @@ namespace Sura.Endosos
             Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Chasis'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ChasisInfo, new ActionTimeout(45000), new RecordItemIndex(48));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ChasisInfo.WaitForNotExists(45000);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(49));
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Producto' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Producto'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ProductoInfo, new RecordItemIndex(50));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Producto' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Producto'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ProductoInfo, new RecordItemIndex(49));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Producto.PressKeys(Producto);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2Info, new RecordItemIndex(51));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2Info, new RecordItemIndex(50));
             repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Producto'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ProductoInfo, new ActionTimeout(45000), new RecordItemIndex(52));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Producto'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ProductoInfo, new ActionTimeout(45000), new RecordItemIndex(51));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ProductoInfo.WaitForNotExists(45000);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2, false, new RecordItemIndex(53));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(52));
             
         }
 

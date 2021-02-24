@@ -9646,7 +9646,7 @@
 		filename="DataSource - ValidaFormularios - Emitida.xlsx"
 		id="0b3457b0-c1dc-4393-97cd-af92ddbae930"
 		includefile="Checked"
-		lastknownrowcount="2"
+		lastknownrowcount="1"
 		name="ValidarFormularios_Emitida"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"

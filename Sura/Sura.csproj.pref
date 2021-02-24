@@ -1,11 +1,11 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="PC_GestionDocumental.rxtst" />
+    <Element value="Endosos\EmitirEndoso.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="PC_GestionDocumental.rxtst" />
-    <Element value="Menu\MenuSuperior_SolicitudPoliza.rxrec" />
+    <Element value="Endosos\EmitirEndoso.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
@@ -13,12 +13,12 @@
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="Sura.GestionDocumental.VerFormulario_Cotizada.fileCheck()" />
-      <Element value="Sura.Emision.CotizarPoliza_Motor.guardarNumSolicitud()" />
+      <Element value="Sura.GestionDocumental.VerFormulario_EndosoExclusionRiesgo.manejarFormularioEndosoExclusion()" />
+      <Element value="Sura.GestionDocumental.VerFormulario_EndosoInclusionRiesgo.manejarFormularioEndosoInclusion()" />
       <Element value="Sura.GestionDocumental.VerFormulario_EmitidaFlota.manejarFormularioFlota()" />
-      <Element value="Sura.GestionDocumental.VerFormulario_EmitidaFlota.manejarFormulario()" />
+      <Element value="Sura.Emision.CotizarPolizaMotor.guardarNumSolicitud()" />
+      <Element value="Sura.Emision.CotizarPolizaHogar.guardarNumSolicitud()" />
       <Element value="Sura.GestionDocumental.VerFormulario_CotizadaFlota.manejarFormularioFlota()" />
-      <Element value="Sura.GestionDocumental.VerFormulario_Emitida.manejarFormulario()" />
     </Array>
   </Properties>
 </Properties>

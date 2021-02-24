@@ -33,6 +33,26 @@ mode="Global">
 		</var>
 	</variables>
 	<recorditems>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="8fe36a0b-f01d-4fed-a90b-d273868ab783">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]
+				</path>
+			</info>
+		</loggingrecorditem>
 		<separatoritem
 		enabled="True"
 		optional="False">

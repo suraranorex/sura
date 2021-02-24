@@ -20,7 +20,7 @@ mode="Desktop">
 	</useDefaultItemLogging>
 	<codegen
 	classname="Login"
-	namespace="Sura">
+	namespace="Sura.Generales">
 	</codegen>
 	<variables>
 		<var
@@ -136,7 +136,7 @@ mode="Desktop">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Iniciar sesi&#243;n
+						Iniciar sesión
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -162,7 +162,7 @@ mode="Desktop">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'Login-tbody']/tr[3]//table/tbody/tr[3]/td/div/div[1]/?/?/table/?/?/tr/td/a//span[@innertext='Iniciar sesi&#243;n']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'Login-tbody']/tr[3]//table/tbody/tr[3]/td/div/div[1]/?/?/table/?/?/tr/td/a//span[@innertext='Iniciar sesión']
 				</path>
 			</info>
 			<helperscreenshot
@@ -305,7 +305,7 @@ iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
 	<repository
 	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
 	name="SuraRepository"
-	relativepath="SuraRepository.rxrep">
+	relativepath="..\SuraRepository.rxrep">
 		<codegen
 		classname="SuraRepository"
 		namespace="Sura">

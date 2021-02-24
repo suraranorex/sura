@@ -20,38 +20,64 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Sura
+namespace Sura.Generales
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The CloseBrowser recording.
+    ///The Login recording.
     /// </summary>
-    [TestModule("b5884f88-adf0-4880-8ec9-29aa0e9b3095", ModuleType.Recording, 1)]
-    public partial class CloseBrowser : ITestModule
+    [TestModule("acd97189-4d27-4333-b80e-4298b8446c8c", ModuleType.Recording, 1)]
+    public partial class Login : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the SuraRepository repository.
+        /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
-        public static SuraRepository repo = SuraRepository.Instance;
+        public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static CloseBrowser instance = new CloseBrowser();
+        static Login instance = new Login();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public CloseBrowser()
+        public Login()
         {
+            Usuario = "su";
+            Contrasenia = "gw";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static CloseBrowser Instance
+        public static Login Instance
         {
             get { return instance; }
         }
 
 #region Variables
+
+        string _Usuario;
+
+        /// <summary>
+        /// Gets or sets the value of variable Usuario.
+        /// </summary>
+        [TestVariable("b3a49cd3-e669-442e-b17d-0fe0e31486a0")]
+        public string Usuario
+        {
+            get { return _Usuario; }
+            set { _Usuario = value; }
+        }
+
+        string _Contrasenia;
+
+        /// <summary>
+        /// Gets or sets the value of variable Contrasenia.
+        /// </summary>
+        [TestVariable("1a6fc457-6eaa-4392-bf26-1c49b108d9f0")]
+        public string Contrasenia
+        {
+            get { return _Contrasenia; }
+            set { _Contrasenia = value; }
+        }
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -89,9 +115,20 @@ namespace Sura
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'SURA'.", repo.SURA.SelfInfo, new RecordItemIndex(0));
-            Host.Current.CloseApplication(repo.SURA.Self, new Duration(0));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Usuario' on item 'SURA.Login.txtbox_Usuario'.", repo.SURA.Login.txtbox_UsuarioInfo, new RecordItemIndex(0));
+            repo.SURA.Login.txtbox_Usuario.Element.SetAttributeValue("TagValue", Usuario);
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$Contrasenia' on item 'SURA.Login.txtbox_Contrasenia'.", repo.SURA.Login.txtbox_ContraseniaInfo, new RecordItemIndex(1));
+            repo.SURA.Login.txtbox_Contrasenia.Element.SetAttributeValue("TagValue", Contrasenia);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Login.bttn_IniciarSesion' at 26;3.", repo.SURA.Login.bttn_IniciarSesionInfo, new RecordItemIndex(2));
+            repo.SURA.Login.bttn_IniciarSesion.Click("26;3");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SURA.Logout.bttn_Configuracion'", repo.SURA.Logout.bttn_ConfiguracionInfo, new ActionTimeout(20000), new RecordItemIndex(3));
+            repo.SURA.Logout.bttn_ConfiguracionInfo.WaitForExists(20000);
             
         }
 

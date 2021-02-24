@@ -65,6 +65,16 @@ namespace Sura.Emision
         }
 
         /// <summary>
+        /// Gets or sets the value of variable NroPoliza.
+        /// </summary>
+        [TestVariable("7f21a146-b56c-4b8b-84a6-3fad8d4c0caa")]
+        public string NroPoliza
+        {
+            get { return repo.NroPoliza; }
+            set { repo.NroPoliza = value; }
+        }
+
+        /// <summary>
         /// Gets or sets the value of variable NumeroDocumento.
         /// </summary>
         [TestVariable("0ca98dd1-5c0c-4f0d-a9e8-083eecbb5db8")]
@@ -116,8 +126,8 @@ namespace Sura.Emision
             repo.SURA.PC.Emision.PolizaAP.Personas.txtbox_NumeroDeDocumento.PressKeys(NumeroDocumento);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaAP.Personas.Pantalla' at Center.", repo.SURA.PC.Emision.PolizaAP.Personas.PantallaInfo, new RecordItemIndex(4));
-            repo.SURA.PC.Emision.PolizaAP.Personas.Pantalla.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.txt_Refacturacion' at Center.", repo.SURA.PC.txt_RefacturacionInfo, new RecordItemIndex(4));
+            repo.SURA.PC.txt_Refacturacion.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaAP.Personas.Copy_of_txtbox_NumeroDeDocumento'", repo.SURA.PC.Emision.PolizaAP.Personas.Copy_of_txtbox_NumeroDeDocumentoInfo, new ActionTimeout(30000), new RecordItemIndex(5));

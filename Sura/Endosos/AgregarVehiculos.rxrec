@@ -1995,26 +1995,6 @@ mode="Global">
 				</path>
 			</info>
 		</WaitForRecordItem>
-		<loggingrecorditem
-		action="Screenshot"
-		category="User"
-		enabled="True"
-		message=""
-		optional="False"
-		reportlevel="Info;20"
-		searchpropertyid="2193bd3c-2498-4b50-b992-92ec0c13f520">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
-				</path>
-			</info>
-		</loggingrecorditem>
 		<keysequenceitem
 		KeySequence="yourtext"
 		duration="20ms"
@@ -2093,45 +2073,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, labeltag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="labeltag"
-				rect="0,0,0,0"
-				role="unknown"
-				snapElem=""
-				valid="False"
-				visible="False">
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						label
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="style"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
+					/dom[@domain=$Ambiente]
 				</path>
 			</info>
 		</loggingrecorditem>

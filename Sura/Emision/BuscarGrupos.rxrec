@@ -674,7 +674,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'C&#243;digo de agente']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Código de agente']/../..//input
 				</path>
 			</info>
 		</keyitem>
@@ -857,7 +857,7 @@ mode="Global">
 			id="67b2401a-bbb4-4741-8202-910b4bd6a53e"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'C&#243;digo de agente']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Código de agente']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -1086,7 +1086,7 @@ iigA3GjcaKKADcaKKKAP/9k=
 			id="3f4902ad-4f05-4e15-8954-2de25ff6eb29"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewSubmission-tbody']//span[@innertext~'Solicitudes de P&#243;liza nue']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewSubmission-tbody']//span[@innertext~'Solicitudes de Póliza nue']
 				</path>
 			</info>
 		</WaitForRecordItem>

@@ -56,7 +56,7 @@ namespace Sura.GestionDocumental
         	Report.Info("Info","Descarga finalizada");
         }
         
-                public void verificarDirectorio(){
+        public void verificarDirectorio(){
         	Report.Info("Info","Verificando la existencia del directorio destino");
         	
         	if (!Directory.Exists(@"C:\TEMP\"+ NumeroPoliza.TrimStart()))
