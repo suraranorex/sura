@@ -42,6 +42,7 @@ namespace Sura.Emision
         public AccesorioConMovilidad()
         {
             MontoMovilidad = "Hasta $20.000";
+            NombreAccesorios = "Movilidad";
         }
 
         /// <summary>

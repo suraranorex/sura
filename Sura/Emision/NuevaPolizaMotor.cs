@@ -42,7 +42,7 @@ namespace Sura.Emision
         public NuevaPolizaMotor()
         {
             TIPOPOLIZA = "Motor";
-            CodigoAgente = "2344";
+            CodigoAgente = "";
         }
 
         /// <summary>
