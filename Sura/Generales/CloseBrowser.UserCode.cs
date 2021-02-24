@@ -20,9 +20,9 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace Sura
+namespace Sura.Generales
 {
-    public partial class OpenBrowser_BC
+    public partial class CloseBrowser
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

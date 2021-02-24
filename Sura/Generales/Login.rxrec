@@ -20,7 +20,7 @@ mode="Desktop">
 	</useDefaultItemLogging>
 	<codegen
 	classname="Login"
-	namespace="Sura">
+	namespace="Sura.Generales">
 	</codegen>
 	<variables>
 		<var
@@ -305,7 +305,7 @@ iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/9k=
 	<repository
 	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
 	name="SuraRepository"
-	relativepath="SuraRepository.rxrep">
+	relativepath="..\SuraRepository.rxrep">
 		<codegen
 		classname="SuraRepository"
 		namespace="Sura">

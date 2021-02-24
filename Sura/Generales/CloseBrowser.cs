@@ -20,50 +20,47 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Sura
+namespace Sura.Generales
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The OpenBrowser_PC recording.
+    ///The CloseBrowser recording.
     /// </summary>
-    [TestModule("40f2ee22-6d43-40a8-8f40-05b7a81ee02d", ModuleType.Recording, 1)]
-    public partial class OpenBrowser_PC : ITestModule
+    [TestModule("b5884f88-adf0-4880-8ec9-29aa0e9b3095", ModuleType.Recording, 1)]
+    public partial class CloseBrowser : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the SuraRepository repository.
+        /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
-        public static SuraRepository repo = SuraRepository.Instance;
+        public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static OpenBrowser_PC instance = new OpenBrowser_PC();
+        static CloseBrowser instance = new CloseBrowser();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public OpenBrowser_PC()
+        public CloseBrowser()
         {
-            URL = "https://ssurgwsoadev4.opc.oracleoutsourcing.com/pc/PolicyCenter.do";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static OpenBrowser_PC Instance
+        public static CloseBrowser Instance
         {
             get { return instance; }
         }
 
 #region Variables
 
-        string _URL;
-
         /// <summary>
-        /// Gets or sets the value of variable URL.
+        /// Gets or sets the value of variable Ambiente.
         /// </summary>
-        [TestVariable("8f5057a4-a492-4878-a2aa-f3dd6306dc6f")]
-        public string URL
+        [TestVariable("e249a1a2-b157-42ff-9826-60bc615aa12c")]
+        public string Ambiente
         {
-            get { return _URL; }
-            set { _URL = value; }
+            get { return repo.Ambiente; }
+            set { repo.Ambiente = value; }
         }
 
 #endregion
@@ -92,8 +89,8 @@ namespace Sura
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site URL in variable $URL with browser 'Chrome' in maximized mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser(URL, "Chrome", "", false, true, false, true, false, false);
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'SURA'.", repo.SURA.SelfInfo, new RecordItemIndex(0));
+            Host.Current.CloseApplication(repo.SURA.Self, new Duration(0));
             Delay.Milliseconds(0);
             
         }

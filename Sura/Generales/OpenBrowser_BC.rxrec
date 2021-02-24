@@ -20,7 +20,7 @@ mode="Global">
 	</useDefaultItemLogging>
 	<codegen
 	classname="OpenBrowser_BC"
-	namespace="Sura">
+	namespace="Sura.Generales">
 	</codegen>
 	<variables>
 		<var
@@ -57,7 +57,7 @@ mode="Global">
 	<repository
 	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
 	name="SuraRepository"
-	relativepath="SuraRepository.rxrep">
+	relativepath="..\SuraRepository.rxrep">
 		<codegen
 		classname="SuraRepository"
 		namespace="Sura">

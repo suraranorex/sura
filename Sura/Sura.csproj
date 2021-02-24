@@ -1222,18 +1222,6 @@
     <Compile Include="AssemblyInfo.cs">
       <id>e04547fe-8f9b-4944-8594-18c1cb33c921</id>
     </Compile>
-    <Compile Include="CloseBrowser.cs">
-      <BoundTo>9ee3f383-3ef6-45c5-b67b-e0d738122b89</BoundTo>
-      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>345ba923-c20a-470a-91c0-dc4e0248aff2</id>
-    </Compile>
-    <Compile Include="CloseBrowser.UserCode.cs">
-      <BoundTo>9ee3f383-3ef6-45c5-b67b-e0d738122b89</BoundTo>
-      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>080f99f1-5421-4638-b482-d3188b8f1c9a</id>
-    </Compile>
     <Compile Include="Endosos\AnalisisRiesgo_Endoso.cs">
       <DependentUpon>AnalisisRiesgo_Endoso.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -1858,6 +1846,66 @@
       <UserCode>true</UserCode>
       <id>c876edaa-a029-4dd5-a6ec-5b7f607de425</id>
     </Compile>
+    <Compile Include="Generales\CloseBrowser.cs">
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>345ba923-c20a-470a-91c0-dc4e0248aff2</id>
+      <BoundTo>9ee3f383-3ef6-45c5-b67b-e0d738122b89</BoundTo>
+    </Compile>
+    <Compile Include="Generales\CloseBrowser.UserCode.cs">
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>080f99f1-5421-4638-b482-d3188b8f1c9a</id>
+      <BoundTo>9ee3f383-3ef6-45c5-b67b-e0d738122b89</BoundTo>
+    </Compile>
+    <Compile Include="Generales\Login.cs">
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ede5f62a-2891-46ed-96c0-0508063db8ad</id>
+      <BoundTo>b7226441-4615-4fdd-a0be-4e1405a07113</BoundTo>
+    </Compile>
+    <Compile Include="Generales\Login.UserCode.cs">
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c28d0e86-3d46-421d-90f0-fd69328a5ce2</id>
+      <BoundTo>b7226441-4615-4fdd-a0be-4e1405a07113</BoundTo>
+    </Compile>
+    <Compile Include="Generales\Logout.cs">
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>76cedb34-4247-419f-bf0e-268cc22e8d3d</id>
+      <BoundTo>2f0e3962-e3fd-49e1-bbc2-f32206eb59d2</BoundTo>
+    </Compile>
+    <Compile Include="Generales\Logout.UserCode.cs">
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>341a1e80-2836-4667-b724-45d858ba7842</id>
+      <BoundTo>2f0e3962-e3fd-49e1-bbc2-f32206eb59d2</BoundTo>
+    </Compile>
+    <Compile Include="Generales\OpenBrowser_BC.cs">
+      <DependentUpon>OpenBrowser_BC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>16cde518-9439-4207-aca9-f641babb68ac</id>
+      <BoundTo>70033d65-314b-4fdf-869d-803498e6392e</BoundTo>
+    </Compile>
+    <Compile Include="Generales\OpenBrowser_BC.UserCode.cs">
+      <DependentUpon>OpenBrowser_BC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6355f0e0-f2b4-4cf2-9cf6-783373f5dc7c</id>
+      <BoundTo>70033d65-314b-4fdf-869d-803498e6392e</BoundTo>
+    </Compile>
+    <Compile Include="Generales\OpenBrowser_PC.cs">
+      <DependentUpon>OpenBrowser_PC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8c05ba30-c810-4cd5-a465-af960a33f2d5</id>
+      <BoundTo>ee5d56d6-4c1b-4436-8d7d-19fd0c7c3f80</BoundTo>
+    </Compile>
+    <Compile Include="Generales\OpenBrowser_PC.UserCode.cs">
+      <DependentUpon>OpenBrowser_PC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>422391cb-7e87-42bf-a456-3ebb715346e9</id>
+      <BoundTo>ee5d56d6-4c1b-4436-8d7d-19fd0c7c3f80</BoundTo>
+    </Compile>
     <Compile Include="Generales\UCM_setStatus.cs">
       <id>cae467de-50d5-4760-948a-352069efb7e3</id>
     </Compile>
@@ -2017,18 +2065,6 @@
       <UserCode>true</UserCode>
       <id>7cfc45ee-d7b4-4c7b-ba6a-5410efd7d9fb</id>
     </Compile>
-    <Compile Include="OpenBrowser_BC.cs">
-      <BoundTo>70033d65-314b-4fdf-869d-803498e6392e</BoundTo>
-      <DependentUpon>OpenBrowser_BC.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>16cde518-9439-4207-aca9-f641babb68ac</id>
-    </Compile>
-    <Compile Include="OpenBrowser_BC.UserCode.cs">
-      <BoundTo>70033d65-314b-4fdf-869d-803498e6392e</BoundTo>
-      <DependentUpon>OpenBrowser_BC.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>6355f0e0-f2b4-4cf2-9cf6-783373f5dc7c</id>
-    </Compile>
     <Compile Include="Recording1.cs">
       <BoundTo>fe3bd7fe-e1c4-4258-916a-9882b33b6e9f</BoundTo>
       <DependentUpon>Recording1.rxrec</DependentUpon>
@@ -2047,44 +2083,8 @@
       <RepositoryCode>true</RepositoryCode>
       <id>7d2345a6-e495-4109-b48f-8ab380850920</id>
     </Compile>
-    <Compile Include="Logout.cs">
-      <BoundTo>2f0e3962-e3fd-49e1-bbc2-f32206eb59d2</BoundTo>
-      <DependentUpon>Logout.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>76cedb34-4247-419f-bf0e-268cc22e8d3d</id>
-    </Compile>
-    <Compile Include="Logout.UserCode.cs">
-      <BoundTo>2f0e3962-e3fd-49e1-bbc2-f32206eb59d2</BoundTo>
-      <DependentUpon>Logout.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>341a1e80-2836-4667-b724-45d858ba7842</id>
-    </Compile>
-    <Compile Include="OpenBrowser_PC.cs">
-      <BoundTo>ee5d56d6-4c1b-4436-8d7d-19fd0c7c3f80</BoundTo>
-      <DependentUpon>OpenBrowser_PC.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>8c05ba30-c810-4cd5-a465-af960a33f2d5</id>
-    </Compile>
-    <Compile Include="OpenBrowser_PC.UserCode.cs">
-      <BoundTo>ee5d56d6-4c1b-4436-8d7d-19fd0c7c3f80</BoundTo>
-      <DependentUpon>OpenBrowser_PC.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>422391cb-7e87-42bf-a456-3ebb715346e9</id>
-    </Compile>
     <Compile Include="Program.cs">
       <id>479c8fe2-11e3-4301-abf3-8e519e236ddf</id>
-    </Compile>
-    <Compile Include="Login.cs">
-      <BoundTo>b7226441-4615-4fdd-a0be-4e1405a07113</BoundTo>
-      <DependentUpon>Login.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>ede5f62a-2891-46ed-96c0-0508063db8ad</id>
-    </Compile>
-    <Compile Include="Login.UserCode.cs">
-      <BoundTo>b7226441-4615-4fdd-a0be-4e1405a07113</BoundTo>
-      <DependentUpon>Login.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>c28d0e86-3d46-421d-90f0-fd69328a5ce2</id>
     </Compile>
     <Compile Include="SuraRepository.cs">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -2680,11 +2680,6 @@
     <None Include="app.config">
       <id>12b51fe0-4b3e-41af-b8dc-b86f5f282fa3</id>
     </None>
-    <None Include="CloseBrowser.rxrec">
-      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
-      <id>9ee3f383-3ef6-45c5-b67b-e0d738122b89</id>
-      <recordtableid>b5884f88-adf0-4880-8ec9-29aa0e9b3095</recordtableid>
-    </None>
     <None Include="Endosos\AnalisisRiesgo_Endoso.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>6c9255c9-e3c7-45f3-a41d-8d5f268f5bb1</id>
@@ -2952,6 +2947,31 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>f482a9d1-5c18-42f9-83ce-75e229326255</id>
     </Content>
+    <None Include="Generales\CloseBrowser.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>9ee3f383-3ef6-45c5-b67b-e0d738122b89</id>
+      <recordtableid>b5884f88-adf0-4880-8ec9-29aa0e9b3095</recordtableid>
+    </None>
+    <None Include="Generales\Login.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>b7226441-4615-4fdd-a0be-4e1405a07113</id>
+      <recordtableid>acd97189-4d27-4333-b80e-4298b8446c8c</recordtableid>
+    </None>
+    <None Include="Generales\Logout.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>2f0e3962-e3fd-49e1-bbc2-f32206eb59d2</id>
+      <recordtableid>68c8632a-235c-4edc-9f8a-e1402221543e</recordtableid>
+    </None>
+    <None Include="Generales\OpenBrowser_BC.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>70033d65-314b-4fdf-869d-803498e6392e</id>
+      <recordtableid>51f2220e-f2ef-4b03-87a3-208a63fbe569</recordtableid>
+    </None>
+    <None Include="Generales\OpenBrowser_PC.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>ee5d56d6-4c1b-4436-8d7d-19fd0c7c3f80</id>
+      <recordtableid>40f2ee22-6d43-40a8-8f40-05b7a81ee02d</recordtableid>
+    </None>
     <None Include="Menu\MenuLateral_CuentaBC.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>a0688872-5351-4ef4-bed1-51eab3c2be24</id>
@@ -3017,11 +3037,6 @@
       <id>d3f5d578-20ea-49d7-8535-cb80247e4f2f</id>
       <recordtableid>522c1674-af8e-481b-94f3-1af91492e908</recordtableid>
     </None>
-    <None Include="OpenBrowser_BC.rxrec">
-      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
-      <id>70033d65-314b-4fdf-869d-803498e6392e</id>
-      <recordtableid>51f2220e-f2ef-4b03-87a3-208a63fbe569</recordtableid>
-    </None>
     <Content Include="Sura.rxsqc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>6840d29f-3ad8-41ee-8436-b7cbb14acf29</id>
@@ -3041,21 +3056,6 @@
       <id>54012D06-CA32-405E-BBFA-25C32DF459DD</id>
       <repoid>7209bdc2-6fba-4609-8e95-b4626342ed6b</repoid>
       <reporootid>62376b15-ea9e-42e0-851c-65f876b505a9</reporootid>
-    </None>
-    <None Include="Logout.rxrec">
-      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
-      <id>2f0e3962-e3fd-49e1-bbc2-f32206eb59d2</id>
-      <recordtableid>68c8632a-235c-4edc-9f8a-e1402221543e</recordtableid>
-    </None>
-    <None Include="OpenBrowser_PC.rxrec">
-      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
-      <id>ee5d56d6-4c1b-4436-8d7d-19fd0c7c3f80</id>
-      <recordtableid>40f2ee22-6d43-40a8-8f40-05b7a81ee02d</recordtableid>
-    </None>
-    <None Include="Login.rxrec">
-      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
-      <id>b7226441-4615-4fdd-a0be-4e1405a07113</id>
-      <recordtableid>acd97189-4d27-4333-b80e-4298b8446c8c</recordtableid>
     </None>
     <None Include="SuraRepository.rximg">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>

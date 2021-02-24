@@ -20,7 +20,7 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Sura
+namespace Sura.Generales
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
@@ -30,9 +30,9 @@ namespace Sura
     public partial class Login : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the SuraRepository repository.
+        /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
-        public static SuraRepository repo = SuraRepository.Instance;
+        public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
         static Login instance = new Login();
 

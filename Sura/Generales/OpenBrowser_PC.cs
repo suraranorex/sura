@@ -20,34 +20,34 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Sura
+namespace Sura.Generales
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The OpenBrowser_BC recording.
+    ///The OpenBrowser_PC recording.
     /// </summary>
-    [TestModule("51f2220e-f2ef-4b03-87a3-208a63fbe569", ModuleType.Recording, 1)]
-    public partial class OpenBrowser_BC : ITestModule
+    [TestModule("40f2ee22-6d43-40a8-8f40-05b7a81ee02d", ModuleType.Recording, 1)]
+    public partial class OpenBrowser_PC : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the SuraRepository repository.
+        /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
-        public static SuraRepository repo = SuraRepository.Instance;
+        public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static OpenBrowser_BC instance = new OpenBrowser_BC();
+        static OpenBrowser_PC instance = new OpenBrowser_PC();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public OpenBrowser_BC()
+        public OpenBrowser_PC()
         {
-            URL = "https://ssurgwsoadev4.opc.oracleoutsourcing.com/bc/BillingCenter.do\r\n";
+            URL = "https://ssurgwsoadev4.opc.oracleoutsourcing.com/pc/PolicyCenter.do";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static OpenBrowser_BC Instance
+        public static OpenBrowser_PC Instance
         {
             get { return instance; }
         }
@@ -59,7 +59,7 @@ namespace Sura
         /// <summary>
         /// Gets or sets the value of variable URL.
         /// </summary>
-        [TestVariable("d2b427b2-b4e4-4466-8f01-dd2293ff0aa6")]
+        [TestVariable("8f5057a4-a492-4878-a2aa-f3dd6306dc6f")]
         public string URL
         {
             get { return _URL; }
@@ -93,7 +93,7 @@ namespace Sura
             Init();
 
             Report.Log(ReportLevel.Info, "Website", "Opening web site URL in variable $URL with browser 'Chrome' in maximized mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser(URL, "Chrome", "", false, true, false, true, false, true);
+            Host.Current.OpenBrowser(URL, "Chrome", "", false, true, false, true, false, false);
             Delay.Milliseconds(0);
             
         }

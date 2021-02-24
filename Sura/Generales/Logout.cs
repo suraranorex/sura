@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Sura
+namespace Sura.Generales
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The CloseBrowser recording.
+    ///The Logout recording.
     /// </summary>
-    [TestModule("b5884f88-adf0-4880-8ec9-29aa0e9b3095", ModuleType.Recording, 1)]
-    public partial class CloseBrowser : ITestModule
+    [TestModule("68c8632a-235c-4edc-9f8a-e1402221543e", ModuleType.Recording, 1)]
+    public partial class Logout : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the SuraRepository repository.
+        /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
-        public static SuraRepository repo = SuraRepository.Instance;
+        public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static CloseBrowser instance = new CloseBrowser();
+        static Logout instance = new Logout();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public CloseBrowser()
+        public Logout()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static CloseBrowser Instance
+        public static Logout Instance
         {
             get { return instance; }
         }
@@ -89,9 +89,29 @@ namespace Sura
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'SURA'.", repo.SURA.SelfInfo, new RecordItemIndex(0));
-            Host.Current.CloseApplication(repo.SURA.Self, new Duration(0));
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'SURA.Logout.Copy_of_bttn_Configuracion'", repo.SURA.Logout.Copy_of_bttn_ConfiguracionInfo, new ActionTimeout(40000), new RecordItemIndex(0));
+            //repo.SURA.Logout.Copy_of_bttn_ConfiguracionInfo.WaitForNotExists(40000);
+            
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMS'", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMSInfo, new ActionTimeout(60000), new RecordItemIndex(1));
+            //repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_VerificarMSInfo.WaitForExists(60000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Logout.bttn_Configuracion' at Center.", repo.SURA.Logout.bttn_ConfiguracionInfo, new RecordItemIndex(2));
+            repo.SURA.Logout.bttn_Configuracion.Click();
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Logout.bttn_CerrarSesion' at Center.", repo.SURA.Logout.bttn_CerrarSesionInfo, new RecordItemIndex(3));
+            repo.SURA.Logout.bttn_CerrarSesion.Click();
+            Delay.Milliseconds(0);
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'SURA_ContinueOnFail.Copy_of_bttn_Aceptar' at Center.", repo.SURA_ContinueOnFail.Copy_of_bttn_AceptarInfo, new RecordItemIndex(4));
+                repo.SURA_ContinueOnFail.Copy_of_bttn_Aceptar.Click();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(4)); }
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SURA.Login.bttn_IniciarSesion'.", repo.SURA.Login.bttn_IniciarSesionInfo, new RecordItemIndex(5));
+            Validate.Exists(repo.SURA.Login.bttn_IniciarSesionInfo);
+            Delay.Milliseconds(100);
             
         }
 
