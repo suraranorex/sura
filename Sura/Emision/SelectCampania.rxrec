@@ -26,7 +26,7 @@ mode="Global">
 		<var
 		id="e3bd0892-4510-4dc9-b76b-dc96b336e15d"
 		name="Campania">
-			prueba campa&#241;a
+			prueba campaña
 		</var>
 	</variables>
 	<recorditems>
@@ -50,7 +50,7 @@ mode="Global">
 			id="ac44891a-1699-4fa3-a048-baf51820fdb2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a']/../..//input
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input
 				</path>
 			</info>
 		</mouseitem>
@@ -73,7 +73,7 @@ mode="Global">
 			id="ac44891a-1699-4fa3-a048-baf51820fdb2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a']/../..//input
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -97,7 +97,7 @@ mode="Global">
 			id="ac44891a-1699-4fa3-a048-baf51820fdb2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a']/../..//input
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input
 				</path>
 			</info>
 		</mouseitem>
@@ -121,7 +121,7 @@ mode="Global">
 			id="dfe8b596-7ec9-4079-97b5-bd9f719f0a45"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//span[@innertext='Informaci&#243;n de p&#243;liza']
+					/dom[@domain=$Ambiente]//span[@innertext='Información de póliza']
 				</path>
 			</info>
 		</mouseitem>
@@ -145,7 +145,7 @@ mode="Global">
 			id="9db1789a-eed2-483d-bdd9-0bd4b10014c3"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']//label[@innertext='Campa&#241;a']
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']//label[@innertext='Campaña']
 				</path>
 			</info>
 		</mouseitem>
@@ -163,7 +163,7 @@ mode="Global">
 			id="63cc2831-0ac6-4b81-bdcf-bcd8707b2647"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>

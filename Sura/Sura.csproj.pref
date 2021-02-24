@@ -4,27 +4,8 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-<<<<<<< HEAD
     <Element value="BC.rxtst" />
     <Element value="PC_GestionDocumental.rxtst" />
-=======
-    <Element value="PC.rxtst" />
-    <Element value="Emision\NuevaPolizaMotor.rxrec" />
-    <Element value="Emision\Comisiones.rxrec" />
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
   </Array>
-  <Properties name="projectSavedData">
-    <Properties name="customTool">
-      <fileNames value="" />
-      <runOnBuild value="False" />
-    </Properties>
-    <Array name="recentusercodeselections">
-      <Element value="Sura.GestionDocumental.VerFormulario_EndosoExclusionRiesgo.manejarFormularioEndosoExclusion()" />
-      <Element value="Sura.GestionDocumental.VerFormulario_EndosoInclusionRiesgo.manejarFormularioEndosoInclusion()" />
-      <Element value="Sura.GestionDocumental.VerFormulario_EmitidaFlota.manejarFormularioFlota()" />
-      <Element value="Sura.Emision.CotizarPolizaMotor.guardarNumSolicitud()" />
-      <Element value="Sura.Emision.CotizarPolizaHogar.guardarNumSolicitud()" />
-      <Element value="Sura.GestionDocumental.VerFormulario_CotizadaFlota.manejarFormularioFlota()" />
-    </Array>
-  </Properties>
+  <Properties name="projectSavedData" />
 </Properties>

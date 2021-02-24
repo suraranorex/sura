@@ -26,17 +26,17 @@ mode="Global">
 		<var
 		id="4c7b902a-4a26-4687-b052-856824a22e5e"
 		name="MetodoDePago">
-			Cup&#243;n
+			Cupón
 		</var>
 		<var
 		id="33c340a6-7862-4f8e-bb71-0b0dd7c20037"
 		name="CantVehiculos">
-			5 o m&#225;s veh&#237;culos
+			5 o más vehículos
 		</var>
 		<var
 		id="6323a735-4f93-4bf5-9d6b-bc1d48829b93"
 		name="Campania">
-			prueba campa&#241;a
+			prueba campaña
 		</var>
 		<var
 		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
@@ -124,7 +124,7 @@ mode="Global">
 					<attribute
 					name="tagvalue"
 					type="System.String">
-						Menos de 5 veh&#237;culos
+						Menos de 5 vehículos
 					</attribute>
 					<attribute
 					name="autocomplete"
@@ -179,7 +179,7 @@ mode="Global">
 					<attribute
 					name="value"
 					type="System.String">
-						Menos de 5 veh&#237;culos
+						Menos de 5 vehículos
 					</attribute>
 					<attribute
 					name="width"
@@ -212,7 +212,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Cantidad de veh&#237;culos']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Cantidad de vehículos']/../..//input
 				</path>
 			</info>
 		</mouseitem>
@@ -235,7 +235,7 @@ mode="Global">
 			id="bbd1136a-3856-4fca-bdf6-405c0d813fa2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Cantidad de veh&#237;culos']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Cantidad de vehículos']/../..//input
 				</path>
 			</info>
 		</keyitem>
@@ -308,7 +308,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Cantidad de veh&#237;culos']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Cantidad de vehículos']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -385,7 +385,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Cantidad de veh&#237;culos']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Cantidad de vehículos']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -481,7 +481,7 @@ mode="Global">
 			id="9f52bc26-dec5-40c6-9fcf-647ec702c9c9"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Cantidad de veh&#237;culos']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Cantidad de vehículos']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -582,7 +582,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Detalles de la p&#243;liza
+						Detalles de la póliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -606,7 +606,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/div/table/tbody/tr[4]/?/?/label[@innertext='Detalles de la p&#243;liza']
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/div/table/tbody/tr[4]/?/?/label[@innertext='Detalles de la póliza']
 				</path>
 			</info>
 		</mouseitem>
@@ -873,7 +873,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Detalles de la p&#243;liza
+						Detalles de la póliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -897,7 +897,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/div/table/tbody/tr[4]/?/?/label[@innertext='Detalles de la p&#243;liza']
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/div/table/tbody/tr[4]/?/?/label[@innertext='Detalles de la póliza']
 				</path>
 			</info>
 		</mouseitem>
@@ -1016,7 +1016,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='M&#233;todo de Pago']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Método de Pago']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -1112,7 +1112,7 @@ mode="Global">
 			id="f9ce8d2f-1f9a-47fc-af5f-0f48c9fee6b8"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='M&#233;todo de Pago']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Método de Pago']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -1442,7 +1442,7 @@ mode="Global">
 			id="ac44891a-1699-4fa3-a048-baf51820fdb2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a']/../..//input
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input
 				</path>
 			</info>
 		</mouseitem>
@@ -1465,7 +1465,7 @@ mode="Global">
 			id="ac44891a-1699-4fa3-a048-baf51820fdb2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a']/../..//input
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -1561,7 +1561,7 @@ mode="Global">
 			id="63cc2831-0ac6-4b81-bdcf-bcd8707b2647"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>

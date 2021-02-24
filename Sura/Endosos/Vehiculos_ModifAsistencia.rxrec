@@ -846,7 +846,7 @@ RRQAfbf+mf8A49R9t/6Z/wDj1FFAB9t/6Z/+PUfbf+mf/j1FFAB9t/6Z/wDj1H23/pn/AOPUUUAH
 			id="b8a25ae3-5621-421e-bea1-28046e1a9489"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='An&#225;lisis de riesgo']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Análisis de riesgo']
 				</path>
 			</info>
 		</WaitForRecordItem>

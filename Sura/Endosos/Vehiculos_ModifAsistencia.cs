@@ -123,8 +123,8 @@ namespace Sura.Endosos
             repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.txt_ProveedorAsistMecanicaInvisible.Click();
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.txt_ProveedorAsistMecanicaVisible'.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.txt_ProveedorAsistMecanicaVisibleInfo, new RecordItemIndex(6));
-            //Keyboard.PrepareFocus(repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.txt_ProveedorAsistMecanicaVisible);
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.SumaAseguradaCoberturaHogarAnt'.", repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.SumaAseguradaCoberturaHogarAntInfo, new RecordItemIndex(6));
+            //Keyboard.PrepareFocus(repo.SURA.PC.Emision.PolizaHogar.Hogar_NoEnlatado.SumaAseguradaCoberturaHogarAnt);
             //Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
             //Delay.Milliseconds(0);
             
