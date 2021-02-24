@@ -23,7 +23,7 @@ using Ranorex.Core.Testing;
 
 namespace Sura.Emision
 {
-    public partial class CotizarPoliza_Motor
+    public partial class CotizarPolizaAP
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
@@ -37,7 +37,7 @@ namespace Sura.Emision
         public void guardarNumSolicitud()
         {
            	verificarDirectorio();
-			string path = @"C:\TEMP\Solicitudes\solicitudesMotor.csv";
+			string path = @"C:\TEMP\Solicitudes\solicitudesAP.csv";
 			bool exist = File.Exists(path);
 			
 			string cabecera = "NumSolicitud,NumCuenta" + System.Environment.NewLine;
@@ -46,7 +46,7 @@ namespace Sura.Emision
 			if(exist) {
 				try {
 					File.AppendAllText(path,datos);
-					Report.Info("Info", "El archivo solicitudesMotor.csv ya existía previamente");
+					Report.Info("Info", "El archivo solicitudesAP.csv ya existía previamente");
 					Report.Success("Info", "Los datos han sido guardados correctamente");
 				} catch (Exception e) {
 					Report.Failure("Fail", "Error al guardar los datos\r\nError: " + e);
@@ -54,7 +54,7 @@ namespace Sura.Emision
 				}
 			} else {
 				try {
-					Report.Info("Info", "Se creó el archivo solicitudesMotor.csv");
+					Report.Info("Info", "Se creó el archivo solicitudesAP.csv");
 					File.WriteAllText(path,cabecera);
 					File.AppendAllText(path,datos);
 					Report.Success("Info", "Los datos han sido guardados correctamente");
@@ -64,8 +64,8 @@ namespace Sura.Emision
 				}
         }
         }
-
-   		public void verificarDirectorio(){
+        
+        public void verificarDirectorio(){
         	Report.Info("Info","Verificando la existencia del directorio destino");
 			
         	if (!Directory.Exists(@"C:\TEMP\Solicitudes"))
@@ -76,5 +76,6 @@ namespace Sura.Emision
 			}
 			Report.Info("Info","Verificacion finalizada");
         }
+
     }
 }

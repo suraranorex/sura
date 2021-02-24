@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="CotizarPoliza_Motor"
+	classname="CotizarPolizaMotor"
 	namespace="Sura.Emision">
 	</codegen>
 	<variables>
@@ -173,7 +173,7 @@ mode="Global">
 			</bindings>
 		</loggingrecorditem>
 		<userrecorditem
-		classname="CotizarPoliza_Motor"
+		classname="CotizarPolizaMotor"
 		enabled="True"
 		isexternaltestmethod="False"
 		methodname="guardarNumSolicitud"
@@ -187,6 +187,26 @@ mode="Global">
 			id="5ef3953f-8a55-4a94-8001-d247450e7f11">
 			</arguments>
 		</userrecorditem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="2d33f3d9-8358-4834-9c18-a3aaaa507158">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]
+				</path>
+			</info>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
@@ -203,7 +223,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		CotizarPoliza_Motor.UserCode.cs
+		CotizarPolizaMotor.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>
