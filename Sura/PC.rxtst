@@ -1126,12 +1126,6 @@
 			id="1385e3cc-2c9b-4eda-9139-5a0b43070366"
 			name="setup">
 			</setup>
-			<testmodule
-			id="145d6882-c722-484b-b2a0-01575f338685"
-			name="Logout"
-			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
-			type="Recording">
-			</testmodule>
 			<teardown
 			id="14a78b17-00b8-45d0-810c-e31e71bfa979"
 			name="teardown">
@@ -4895,10 +4889,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<setup
-			id="589cd659-c7ef-48cc-9eb3-14dd31e3eb3c"
-			name="setup">
-			</setup>
 			<testmodule
 			id="5981ef2b-2c70-46dc-a6e3-0aab0cd90fce"
 			name="InformacionDePoliza_AP"
@@ -7844,10 +7834,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<teardown
-			id="91dd1ec5-110a-40fb-b0aa-247373bb372e"
-			name="teardown">
-			</teardown>
 			<testmodule
 			id="920f2401-3569-453a-a01a-adc27216f87a"
 			name="CloseBrowser"
@@ -8524,10 +8510,6 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testcase
-			id="9c0d820d-72aa-4b9a-9cfc-32811915e67b"
-			name="Solo_Emisiones_Motor">
-			</testcase>
-			<testcase
 			datarangeactive="True"
 			datasource="Endoso_Hogar_Inclusion_de_Riesgo"
 			errorbehavior="ContinueNextIteration"
@@ -8953,12 +8935,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-			</testmodule>
-			<testmodule
-			id="a440acbc-6350-4e3d-87ee-5c4373c7fbfe"
-			name="CloseBrowser"
-			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
-			type="Recording">
 			</testmodule>
 			<testmodule
 			id="a49c268b-ea3a-4f07-b95b-d3e9f135d564"
@@ -13186,12 +13162,6 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
-			id="e8c37402-a96e-45fe-9035-2066432b0ccd"
-			name="OpenBrowser_PC"
-			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="e920d880-b12c-4158-b8f5-da5e9d1342fd"
 			name="MenuSuperior_CuentaPC"
 			ref="bf174612-568c-4bc4-9383-74a62c199f00"
@@ -13862,12 +13832,6 @@
 					variablename="NumCBU">
 					</var>
 				</databinding>
-			</testmodule>
-			<testmodule
-			id="f41885fa-aff7-4f85-82fb-8ed5c3969cdd"
-			name="Login"
-			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
-			type="Recording">
 			</testmodule>
 			<testmodule
 			id="f4989536-e6f4-486e-8cb9-718acfeda690"
@@ -17814,34 +17778,6 @@
 							<testmodule
 							id="45b413ea-4b4f-481d-a140-d767605a202c"
 							name="ValidacionStatus">
-							</testmodule>
-						</teardown>
-					</testcase>
-					<testcase
-					id="9c0d820d-72aa-4b9a-9cfc-32811915e67b"
-					name="Solo_Emisiones_Motor">
-						<setup
-						id="589cd659-c7ef-48cc-9eb3-14dd31e3eb3c"
-						name="setup">
-							<testmodule
-							id="e8c37402-a96e-45fe-9035-2066432b0ccd"
-							name="OpenBrowser_PC">
-							</testmodule>
-							<testmodule
-							id="f41885fa-aff7-4f85-82fb-8ed5c3969cdd"
-							name="Login">
-							</testmodule>
-						</setup>
-						<teardown
-						id="91dd1ec5-110a-40fb-b0aa-247373bb372e"
-						name="teardown">
-							<testmodule
-							id="145d6882-c722-484b-b2a0-01575f338685"
-							name="Logout">
-							</testmodule>
-							<testmodule
-							id="a440acbc-6350-4e3d-87ee-5c4373c7fbfe"
-							name="CloseBrowser">
 							</testmodule>
 						</teardown>
 					</testcase>
