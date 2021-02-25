@@ -2281,18 +2281,6 @@
       <UserCode>true</UserCode>
       <id>6d10b288-d3dc-4a13-bb93-3bf5a2ff6682</id>
     </Compile>
-    <Compile Include="Menu\Menu_Buscar_Soli.cs">
-      <BoundTo>08e15dde-f670-4c03-bd18-7eb5e9005d5b</BoundTo>
-      <DependentUpon>Menu_Buscar_Soli.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>9e1c9d6a-8315-419f-8a5f-065397f9f56c</id>
-    </Compile>
-    <Compile Include="Menu\Menu_Buscar_Soli.UserCode.cs">
-      <BoundTo>08e15dde-f670-4c03-bd18-7eb5e9005d5b</BoundTo>
-      <DependentUpon>Menu_Buscar_Soli.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>210e253f-f0af-45ca-985c-e59e58f8c442</id>
-    </Compile>
     <Compile Include="Procesos\CambiarHora.cs">
       <DependentUpon>CambiarHora.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -3540,11 +3528,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>6840d29f-3ad8-41ee-8436-b7cbb14acf29</id>
     </Content>
-    <None Include="Menu\Menu_Buscar_Soli.rxrec">
-      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
-      <id>08e15dde-f670-4c03-bd18-7eb5e9005d5b</id>
-      <recordtableid>0b1bc70f-36b6-49a5-b270-b8dc3e12ea29</recordtableid>
-    </None>
     <None Include="Procesos\CambiarHora.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>addd210c-b27b-4432-bf3e-eeb97cc6c498</id>
