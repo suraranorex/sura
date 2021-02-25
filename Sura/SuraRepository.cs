@@ -7977,7 +7977,6 @@ namespace Sura
             RepoItemInfo _rdo_0kmInfo;
             RepoItemInfo _rdo_0km2Info;
             RepoItemInfo _copy_of_rdo_0km2Info;
-            RepoItemInfo _rdo_0km2Info;
 
             /// <summary>
             /// Creates a new Flota  folder.
@@ -7989,7 +7988,6 @@ namespace Sura
                 _rdo_0kmInfo = new RepoItemInfo(this, "rdo_0Km", ".//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|í)']", 30000, null, "0fcebcff-f990-4e82-a5f7-1dbc59921146");
                 _rdo_0km2Info = new RepoItemInfo(this, "rdo_0Km2", ".//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|í)']", 30000, null, "e17048e6-8577-4a4f-9409-dcf3b3cbc232");
                 _copy_of_rdo_0km2Info = new RepoItemInfo(this, "Copy_of_rdo_0Km2", ".//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|í)' and @data-tabindexsaved='True']", 30000, null, "a1352e7e-8770-4d54-9635-10287c92cf6c");
-                _rdo_0km2Info = new RepoItemInfo(this, "rdo_0Km2", ".//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|í)']", 30000, null, "c4d14423-5fa8-4db0-9fcd-981c162fec56");
             }
 
             /// <summary>
@@ -8097,30 +8095,6 @@ namespace Sura
                 get
                 {
                     return _copy_of_rdo_0km2Info;
-                }
-            }
-
-            /// <summary>
-            /// The rdo_0Km2 item.
-            /// </summary>
-            [RepositoryItem("c4d14423-5fa8-4db0-9fcd-981c162fec56")]
-            public virtual Ranorex.LabelTag rdo_0Km2
-            {
-                get
-                {
-                    return _rdo_0km2Info.CreateAdapter<Ranorex.LabelTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The rdo_0Km2 item info.
-            /// </summary>
-            [RepositoryItemInfo("c4d14423-5fa8-4db0-9fcd-981c162fec56")]
-            public virtual RepoItemInfo rdo_0Km2Info
-            {
-                get
-                {
-                    return _rdo_0km2Info;
                 }
             }
         }
@@ -8485,7 +8459,6 @@ namespace Sura
             RepoItemInfo _refacturacionInfo;
             RepoItemInfo _atag04104013502Info;
             RepoItemInfo _lbl_proveedorInfo;
-            RepoItemInfo _lbl_infodelvehiculo2Info;
 
             /// <summary>
             /// Creates a new CoberturasAdicionales  folder.
@@ -8507,7 +8480,6 @@ namespace Sura
                 _refacturacionInfo = new RepoItemInfo(this, "Refacturacion", ".//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Refacturación']", 30000, null, "65ee7220-00f3-4f08-9de2-c662beb07205");
                 _atag04104013502Info = new RepoItemInfo(this, "ATag04104013502", ".//tbody[#'PolicyFile_Summary-tbody']//a[@innertext='04104013502']", 30000, null, "c379855c-fbe4-4c83-b7fd-94348102bdfa");
                 _lbl_proveedorInfo = new RepoItemInfo(this, "lbl_Proveedor", ".//div[#'SubmissionWizard/VehicleList']//span[@innertext='Proveedor']", 30000, null, "9caa45bd-7834-49de-932d-58583087b85b");
-                _lbl_infodelvehiculo2Info = new RepoItemInfo(this, "lbl_InfoDelVehiculo2", ".//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']", 30000, null, "b37d1a11-02ff-4c2f-a2c5-e4716eb39411");
             }
 
             /// <summary>
@@ -8867,30 +8839,6 @@ namespace Sura
                 get
                 {
                     return _lbl_proveedorInfo;
-                }
-            }
-
-            /// <summary>
-            /// The lbl_InfoDelVehiculo2 item.
-            /// </summary>
-            [RepositoryItem("b37d1a11-02ff-4c2f-a2c5-e4716eb39411")]
-            public virtual Ranorex.LabelTag lbl_InfoDelVehiculo2
-            {
-                get
-                {
-                    return _lbl_infodelvehiculo2Info.CreateAdapter<Ranorex.LabelTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The lbl_InfoDelVehiculo2 item info.
-            /// </summary>
-            [RepositoryItemInfo("b37d1a11-02ff-4c2f-a2c5-e4716eb39411")]
-            public virtual RepoItemInfo lbl_InfoDelVehiculo2Info
-            {
-                get
-                {
-                    return _lbl_infodelvehiculo2Info;
                 }
             }
         }

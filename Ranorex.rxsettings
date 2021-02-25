@@ -1,5 +1,5 @@
 ﻿<configuration
-rxversion="9.3">
+rxversion="9.2">
 	<adapter.defaultsearchtimeout>
 		10000ms
 	</adapter.defaultsearchtimeout>
@@ -408,9 +408,6 @@ rxversion="9.3">
 	<TestCase.Retry.ShowWarning>
 		True
 	</TestCase.Retry.ShowWarning>
-	<TestCase.Autobind.Action>
-		AskUser
-	</TestCase.Autobind.Action>
 	<Testing.Data.ExcelDataLoadingPreference>
 		PreferExcel
 	</Testing.Data.ExcelDataLoadingPreference>
@@ -574,15 +571,9 @@ rxversion="9.3">
 	<plugins.uia.SubscribeToFocusChangedEvent>
 		False
 	</plugins.uia.SubscribeToFocusChangedEvent>
-	<plugins.web.chrome.ForceAccessibleRenderer>
-		True
-	</plugins.web.chrome.ForceAccessibleRenderer>
 	<plugin.rawtext.captureansi>
 		True
 	</plugin.rawtext.captureansi>
-	<plugin.rawtext.capturegdiplus>
-		False
-	</plugin.rawtext.capturegdiplus>
 	<plugin.rawtext.includetextinrectcomparison>
 		False
 	</plugin.rawtext.includetextinrectcomparison>
@@ -670,6 +661,15 @@ rxversion="9.3">
 	<plugin.webdriver.screenshotUpdate>
 		False
 	</plugin.webdriver.screenshotUpdate>
+	<TestCase.Autobind.Action>
+		AskUser
+	</TestCase.Autobind.Action>
+	<plugins.web.chrome.ForceAccessibleRenderer>
+		True
+	</plugins.web.chrome.ForceAccessibleRenderer>
+	<plugin.rawtext.capturegdiplus>
+		False
+	</plugin.rawtext.capturegdiplus>
 	<plugins.wpfcore.flags>
 	</plugins.wpfcore.flags>
 </configuration>
