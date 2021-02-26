@@ -8,7 +8,6 @@
 			reportlevel="Info;20">
 			</testcase>
 			<testmodule
-			enabled="False"
 			id="0b2a9349-c63d-4f0c-b0f0-0a95a0345c0f"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -75,7 +74,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="1b4b2df4-11e9-4dce-af0a-d36e201f74b4"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -159,7 +157,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="719e6156-9ba8-417a-b086-28cbb44eb0ff"
 			name="OpenBrowser_BC"
 			ref="51f2220e-f2ef-4b03-87a3-208a63fbe569"
@@ -302,7 +299,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="e03e6fb5-fc42-4c6a-b15e-e1e9d07be0ae"
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
