@@ -231,11 +231,12 @@
 			name="BC/ReversaPago">
 			</testcase>
 			<testcase
+			datarangeactive="True"
 			datasource="BC_Pago"
 			errorbehavior="ContinueNextIteration"
 			id="a7077552-e484-49d4-aaef-325c403fe529"
-			maxrange="0"
-			minrange="0"
+			maxrange="51"
+			minrange="3"
 			name="BC/Pago_de_Poliza">
 			</testcase>
 			<testmodule
