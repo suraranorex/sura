@@ -2620,6 +2620,13 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>7df1fa3e-a64c-49d0-9aed-b0282ab21a74</id>
     </Content>
+    <Content Include="DataSource - Pago.xlsx">
+      <Link>DataSource - Pago.xlsx</Link>
+      <BoundTo>6f1feb10-990f-4014-b79b-c6c486ab1763</BoundTo>
+      <DependentUpon>BC.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>458ccf63-ca52-45af-bcc5-6a2b202459f4</id>
+    </Content>
     <None Include="Emision\AccesorioConMovilidad.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>417b8e0c-ebf5-44f5-aa14-d299c600cb37</id>
@@ -2846,9 +2853,9 @@
       <recordtableid>18014d35-0102-415f-91a3-a6f8cdba02f8</recordtableid>
     </None>
     <None Include="Emision\Comisiones.rxrec">
-      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>dfb4f493-9d40-49e4-98b8-b0acfd37a4c0</id>
       <recordtableid>cd462a8e-6a4e-4b79-b3c4-395f67857a8a</recordtableid>
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
     </None>
     <None Include="Emision\Conductores.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>

@@ -421,9 +421,9 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Pago.xlsx"
+		filename="DataSource - Pago.xlsx"
 		id="46355cdd-6d91-437d-af37-776dd8580d97"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="1"
 		name="BC_Pago"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -495,14 +495,11 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="TestRun">
+	default="PagoPolizas">
 		<testconfiguration
-		name="TestRun">
+		name="PagoPolizas">
 			<testcontainer
 			id="03869e2b-bf4b-4681-b2cc-7fccc94848fb">
-			</testcontainer>
-			<testcontainer
-			id="a4ef52bb-f07a-48e9-aefe-1cb152cb624d">
 			</testcontainer>
 			<testcontainer
 			id="a7077552-e484-49d4-aaef-325c403fe529">

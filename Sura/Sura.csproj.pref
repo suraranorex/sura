@@ -1,10 +1,11 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="PC.rxtst" />
+    <Element value="Emision\EmisionPoliza.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="PC.rxtst" />
+    <Element value="Emision\EmisionPoliza.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
