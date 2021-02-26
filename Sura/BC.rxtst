@@ -233,7 +233,7 @@
 			errorbehavior="ContinueNextIteration"
 			id="a7077552-e484-49d4-aaef-325c403fe529"
 			maxrange="51"
-			minrange="3"
+			minrange="31"
 			name="BC/Pago_de_Poliza">
 			</testcase>
 			<testmodule
