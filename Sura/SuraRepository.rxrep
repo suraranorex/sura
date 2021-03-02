@@ -942,6 +942,24 @@ name="SuraRepository">
 								searchtimeout="30000ms">
 									/dom[@domain=$Ambiente]//label/span[@innertext='Franquicia']/../..//input[@data-tabindexsaved='True']
 								</item>
+								<item
+								addcaps="unknown,webelement,spantag"
+								capname="inputtag"
+								id="cc3cfd25-26f9-41b1-90f5-9e9b95b2837c"
+								name="Copy_of_txtbox_ZonaRiesgo"
+								refimgid="c7abeb68-adae-4f99-bb06-67dad6e6ee8f"
+								searchtimeout="30000ms">
+									/dom[@domain=$Ambiente]//label/span[@innertext~'Zona de Riesgo']/../..//input[@data-tabindexsaved='True']
+								</item>
+								<item
+								addcaps="unknown,webelement,spantag"
+								capname="inputtag"
+								id="59c52e11-096a-45a4-bafc-353c8cb06ec9"
+								name="Copy_of_input_Kilometros"
+								refimgid="5f9c80da-20c4-4f31-b74a-9fb5b076fbdd"
+								searchtimeout="30000ms">
+									/dom[@domain=$Ambiente]//div[#'SubmissionWizard/WithoutVehicle']//span[@innertext='Kilómetros']/../..//input[@data-tabindexsaved='True']
+								</item>
 							</folder>
 							<item
 							addcaps="unknown,webelement,inputtag"
@@ -1053,12 +1071,40 @@ name="SuraRepository">
 							</item>
 							<item
 							addcaps="unknown,webelement,spantag"
+							capname="inputtag"
+							id="01714149-b169-42ce-a664-79e4f89f700e"
+							name="txtbox_ZonaRiesgo"
+							refimgid="c7abeb68-adae-4f99-bb06-67dad6e6ee8f"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//label/span[@innertext~'Zona de Riesgo']/../..//input
+							</item>
+							<item
+							addcaps="unknown,webelement,spantag"
 							capname="litag"
 							id="b29f8b31-a001-4db2-836f-84c6e9de6a80"
 							name="item_cboAnio"
 							refimgid="c7abeb68-adae-4f99-bb06-67dad6e6ee8f"
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]/body//ul/li[@innertext=$Anio]
+							</item>
+							<item
+							addcaps="unknown,webelement,spantag"
+							capname="inputtag"
+							id="4a7f267b-3744-495b-a607-9d8ae176e530"
+							name="input_Kilometros"
+							refimgid="5f9c80da-20c4-4f31-b74a-9fb5b076fbdd"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/WithoutVehicle']//span[@innertext='Kilómetros']/../..//input
+							</item>
+							<item
+							addcaps="unknown,webelement,spantag"
+							capname="spantag"
+							id="6b85dcae-f6f5-4491-b9e8-8e33535d4248"
+							name="txt_Kilometros"
+							refimgid="8e895b03-36fc-4a18-9006-9429777d6942"
+							refpath="/dom[@domain='ssurgwsoadev4-oci.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/WithoutVehicle']/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext='Kilómetros']"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/WithoutVehicle']//span[@innertext='Kilómetros']
 							</item>
 						</folder>
 						<folder
@@ -1166,13 +1212,6 @@ name="SuraRepository">
 							name="Copy_of_rdo_0Km2"
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|í)' and @data-tabindexsaved='True']
-							</item>
-							<item
-							capname="labeltag"
-							id="c4d14423-5fa8-4db0-9fcd-981c162fec56"
-							name="rdo_0Km2"
-							searchtimeout="30000ms">
-								/dom[@domain=$Ambiente]//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|í)']
 							</item>
 						</folder>
 						<folder
@@ -1427,15 +1466,6 @@ name="SuraRepository">
 							refimgid="a97fed81-1114-4a73-b8be-a1355ade1f94"
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//span[@innertext='Proveedor']
-							</item>
-							<item
-							addcaps="unknown,webelement,labeltag"
-							capname="labeltag"
-							id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
-							name="lbl_InfoDelVehiculo2"
-							refpath="/dom[@domain='ssurgwsoadev4-oci.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[5]/td/div/table/tbody/tr[3]/td/div/div[2]/div/table/tbody/tr/td/div/table/tbody/tr[3]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[1]/div/table/tbody/tr[6]/td/label[@innertext='Información del vehículo']"
-							searchtimeout="30000ms">
-								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
 							</item>
 							<basepath>
 								/dom[@domain=$Ambiente]
@@ -4532,10 +4562,19 @@ name="SuraRepository">
 			addcaps="unknown,webelement,litag"
 			capname="litag"
 			id="c291674a-a0f6-4e97-b909-519c53d0586e"
-			name="option_Destino"
+			name="option_ZonaRiesgo"
 			refimgid="86ab6b5d-9b5d-49e1-9fb8-8d8a760fee1e"
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]/body//li[@innertext='Capital Federal' and @enabled='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="44ce843b-f4f4-4d16-9667-c05405797c79"
+			name="option_Destino"
+			refimgid="86ab6b5d-9b5d-49e1-9fb8-8d8a760fee1e"
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]/body//li[@innertext=$Destino and @enabled='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -5263,6 +5302,7 @@ name="SuraRepository">
 			capname="spantag"
 			id="7706c77d-0d5a-430e-9737-4d16685d7929"
 			name="bttn_Agregar"
+			refimgid="0dcd8d0c-8844-48de-8d2a-06b21a5e7eb3"
 			searchtimeout="30000ms">
 				/dom[@domain=$Ambiente]//span[@innertext~'Agregar']
 			</item>
@@ -6044,12 +6084,10 @@ AAAASUVORK5CYII=
 		<var
 		id="d8ed3c76-9dca-4386-96c3-80018452fb87"
 		name="Marca">
-			SIN MARCA
 		</var>
 		<var
 		id="d125edff-9547-4ed1-8db7-d5efe4d96753"
 		name="Modelo">
-			TRAILER ZUMUVA
 		</var>
 		<var
 		id="6d640889-04a7-4d7a-ba5e-d41d1989006d"
@@ -6074,6 +6112,11 @@ AAAASUVORK5CYII=
 		id="7f21a146-b56c-4b8b-84a6-3fad8d4c0caa"
 		name="NroPoliza">
 			04104013800
+		</var>
+		<var
+		id="392d688b-a1f7-44af-a25f-a35cf553aadb"
+		name="Destino">
+			REMIS MULTIPLATAFORMA
 		</var>
 	</variables>
 </repository>

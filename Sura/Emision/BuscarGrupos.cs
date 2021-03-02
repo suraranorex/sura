@@ -140,11 +140,14 @@ namespace Sura.Emision
             repo.SURA.PC.Emision.Enlatados.bttn_BuscarGrupo2.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Enlatados.bttn_Seleccionar' at Center.", repo.SURA.PC.Emision.Enlatados.bttn_SeleccionarInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(7));
+            Delay.Duration(1000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Enlatados.bttn_Seleccionar' at Center.", repo.SURA.PC.Emision.Enlatados.bttn_SeleccionarInfo, new RecordItemIndex(8));
             repo.SURA.PC.Emision.Enlatados.bttn_Seleccionar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevas'", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevasInfo, new ActionTimeout(20000), new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevas'", repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevasInfo, new ActionTimeout(20000), new RecordItemIndex(9));
             repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.lbl_SolicitudesDePolizaNuevasInfo.WaitForExists(20000);
             
         }

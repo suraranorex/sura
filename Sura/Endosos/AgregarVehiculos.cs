@@ -26,7 +26,7 @@ namespace Sura.Endosos
     /// <summary>
     ///The AgregarVehiculos recording.
     /// </summary>
-    [TestModule("db7ad970-ba32-4a6f-9ed2-afc31584bb00", ModuleType.Recording, 1)]
+    [TestModule("42bc5570-af75-42cb-b755-a9bddba5f70e", ModuleType.Recording, 1)]
     public partial class AgregarVehiculos : ITestModule
     {
         /// <summary>
@@ -41,9 +41,9 @@ namespace Sura.Endosos
         /// </summary>
         public AgregarVehiculos()
         {
-            Anio = "2009";
-            Marca = "CHEVROLET";
-            Modelo = "ASTRA";
+            Anio = "";
+            Marca = "";
+            Modelo = "";
             Actividad = "Sin Actividad";
             SumaAsegurada = "400000";
             Patente = "ZZZ999";
@@ -67,7 +67,7 @@ namespace Sura.Endosos
         /// <summary>
         /// Gets or sets the value of variable Actividad.
         /// </summary>
-        [TestVariable("57558c39-9edc-4b15-a260-2cb468e1206c")]
+        [TestVariable("a27d5302-9402-43d2-9f70-dde1b9ea87ba")]
         public string Actividad
         {
             get { return _Actividad; }
@@ -79,7 +79,7 @@ namespace Sura.Endosos
         /// <summary>
         /// Gets or sets the value of variable Patente.
         /// </summary>
-        [TestVariable("56a0070d-44ca-40df-86b1-4e2554ca70b7")]
+        [TestVariable("b554cd55-4dfd-4c20-be09-7833b4c8f08b")]
         public string Patente
         {
             get { return _Patente; }
@@ -91,7 +91,7 @@ namespace Sura.Endosos
         /// <summary>
         /// Gets or sets the value of variable Motor.
         /// </summary>
-        [TestVariable("849d649d-5502-4f72-bb6b-f5e785909740")]
+        [TestVariable("7536376c-4d6b-497a-a76c-69dd8b9b2063")]
         public string Motor
         {
             get { return _Motor; }
@@ -103,7 +103,7 @@ namespace Sura.Endosos
         /// <summary>
         /// Gets or sets the value of variable Chasis.
         /// </summary>
-        [TestVariable("956129d6-87fc-40b7-ad76-746243cf7df6")]
+        [TestVariable("739a3126-5a5e-43df-9301-88cf56909507")]
         public string Chasis
         {
             get { return _Chasis; }
@@ -123,7 +123,7 @@ namespace Sura.Endosos
         /// <summary>
         /// Gets or sets the value of variable Anio.
         /// </summary>
-        [TestVariable("09e08b4f-e9e1-43ba-a3b2-acb8ae88e351")]
+        [TestVariable("3a41f651-1fbc-470c-935e-fe43e5962202")]
         public string Anio
         {
             get { return repo.Anio; }
@@ -133,7 +133,7 @@ namespace Sura.Endosos
         /// <summary>
         /// Gets or sets the value of variable Marca.
         /// </summary>
-        [TestVariable("29d2c4a2-68ac-4a12-af24-e97e5550e360")]
+        [TestVariable("4a0cda88-3b9e-4304-b923-ed240ee6bdd4")]
         public string Marca
         {
             get { return repo.Marca; }
@@ -143,7 +143,7 @@ namespace Sura.Endosos
         /// <summary>
         /// Gets or sets the value of variable Modelo.
         /// </summary>
-        [TestVariable("eb5cdde2-e606-4e72-9c70-8e3d75cfcc5d")]
+        [TestVariable("94486440-25de-41ab-b401-b4e8a537d8e0")]
         public string Modelo
         {
             get { return repo.Modelo; }
@@ -153,7 +153,7 @@ namespace Sura.Endosos
         /// <summary>
         /// Gets or sets the value of variable SumaAsegurada.
         /// </summary>
-        [TestVariable("a810337e-ad67-4b08-9bfe-f171f3517ea4")]
+        [TestVariable("193e46b6-419f-4a0d-91ff-2563420ce412")]
         public string SumaAsegurada
         {
             get { return repo.SumaAsegurada; }
@@ -163,7 +163,7 @@ namespace Sura.Endosos
         /// <summary>
         /// Gets or sets the value of variable Producto.
         /// </summary>
-        [TestVariable("0ac547d7-79e8-4e1f-8c8b-c31e54dd8bbb")]
+        [TestVariable("80b1a37c-b9c1-448b-bb8f-b2a559663532")]
         public string Producto
         {
             get { return repo.Producto; }
@@ -196,200 +196,200 @@ namespace Sura.Endosos
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePago.bttn_Agregar' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePago.bttn_AgregarInfo, new RecordItemIndex(0));
-            repo.SURA.PC.Emision.Generales.InformacionDePago.bttn_Agregar.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.bttn_Agregar' at Center.", repo.SURA.bttn_AgregarInfo, new RecordItemIndex(0));
+            repo.SURA.bttn_Agregar.Click();
             Delay.Milliseconds(0);
             
-            // -----Info auto
-            Report.Log(ReportLevel.Info, "Section", "-----Info auto", new RecordItemIndex(1));
-            
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Anio'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_AnioInfo, new ActionTimeout(45000), new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Anio'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_AnioInfo, new ActionTimeout(45000), new RecordItemIndex(1));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_AnioInfo.WaitForNotExists(45000);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Anio' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Anio'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_AnioInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Anio' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Anio'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_AnioInfo, new RecordItemIndex(2));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Anio.PressKeys(Anio);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2Info, new RecordItemIndex(4));
-            repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo' at Center.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculoInfo, new RecordItemIndex(3));
+            repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Anio'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_AnioInfo, new ActionTimeout(45000), new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Anio'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_AnioInfo, new ActionTimeout(45000), new RecordItemIndex(4));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_AnioInfo.WaitForNotExists(45000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Flota.rdo_0Km2' at Center.", repo.SURA.PC.Emision.PolizaMotor.Flota.rdo_0Km2Info, new RecordItemIndex(6));
-            repo.SURA.PC.Emision.PolizaMotor.Flota.rdo_0Km2.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Flota.rdo_0Km' at Center.", repo.SURA.PC.Emision.PolizaMotor.Flota.rdo_0KmInfo, new RecordItemIndex(5));
+            repo.SURA.PC.Emision.PolizaMotor.Flota.rdo_0Km.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2Info, new RecordItemIndex(7));
-            repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo' at Center.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculoInfo, new RecordItemIndex(6));
+            repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Anio'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_AnioInfo, new ActionTimeout(45000), new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Anio'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_AnioInfo, new ActionTimeout(45000), new RecordItemIndex(7));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_AnioInfo.WaitForNotExists(45000);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Marca' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Marca'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_MarcaInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Marca' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Marca'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_MarcaInfo, new RecordItemIndex(8));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Marca.PressKeys(Marca, 10);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(9));
             Delay.Duration(500, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Marca'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_MarcaInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Marca'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_MarcaInfo, new RecordItemIndex(10));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Marca.PressKeys("{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(11));
             Delay.Duration(500, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2Info, new RecordItemIndex(13));
-            repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo' at Center.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculoInfo, new RecordItemIndex(12));
+            repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(13));
             Delay.Duration(500, false);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Marca'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_MarcaInfo, new ActionTimeout(45000), new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Marca'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_MarcaInfo, new ActionTimeout(45000), new RecordItemIndex(14));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_MarcaInfo.WaitForNotExists(45000);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Modelo' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Modelo'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ModeloInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Modelo' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Modelo'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ModeloInfo, new RecordItemIndex(15));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Modelo.PressKeys(Modelo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(16));
             Delay.Duration(500, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Modelo'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ModeloInfo, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Modelo'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ModeloInfo, new RecordItemIndex(17));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Modelo.PressKeys("{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(18));
             Delay.Duration(500, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2Info, new RecordItemIndex(20));
-            repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo' at Center.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculoInfo, new RecordItemIndex(19));
+            repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(20));
             Delay.Duration(500, false);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Modelo'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ModeloInfo, new ActionTimeout(45000), new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Modelo'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ModeloInfo, new ActionTimeout(45000), new RecordItemIndex(21));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ModeloInfo.WaitForNotExists(45000);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Actividad'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ActividadInfo, new RecordItemIndex(23));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Actividad'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ActividadInfo, new RecordItemIndex(22));
             //Keyboard.PrepareFocus(repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Actividad);
             //Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Actividad'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ActividadInfo, new RecordItemIndex(24));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Actividad'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ActividadInfo, new RecordItemIndex(23));
             //repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Actividad.PressKeys("{Back}");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Actividad' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Actividad'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ActividadInfo, new RecordItemIndex(25));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Actividad' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Actividad'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ActividadInfo, new RecordItemIndex(24));
             //repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Actividad.PressKeys(Actividad);
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2Info, new RecordItemIndex(26));
-            //repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2.Click();
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo' at Center.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculoInfo, new RecordItemIndex(25));
+            //repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo.Click();
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Actividad'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ActividadInfo, new ActionTimeout(45000), new RecordItemIndex(27));
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Actividad'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ActividadInfo, new ActionTimeout(45000), new RecordItemIndex(26));
             //repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ActividadInfo.WaitForNotExists(45000);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_SumaAsegurada'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_SumaAseguradaInfo, new RecordItemIndex(28));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_SumaAsegurada'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_SumaAseguradaInfo, new RecordItemIndex(27));
             Keyboard.PrepareFocus(repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_SumaAsegurada);
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$SumaAsegurada' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_SumaAsegurada'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_SumaAseguradaInfo, new RecordItemIndex(29));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$SumaAsegurada' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_SumaAsegurada'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_SumaAseguradaInfo, new RecordItemIndex(28));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_SumaAsegurada.PressKeys(SumaAsegurada);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(30));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(29));
             Delay.Duration(300, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2Info, new RecordItemIndex(31));
-            repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo' at Center.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculoInfo, new RecordItemIndex(30));
+            repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_SumaAsegurada'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_SumaAseguradaInfo, new ActionTimeout(45000), new RecordItemIndex(32));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_SumaAsegurada'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_SumaAseguradaInfo, new ActionTimeout(45000), new RecordItemIndex(31));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_SumaAseguradaInfo.WaitForNotExists(45000);
             
             // --------------------------------Campos Opcionales
-            Report.Log(ReportLevel.Info, "Section", "--------------------------------Campos Opcionales", new RecordItemIndex(33));
+            Report.Log(ReportLevel.Info, "Section", "--------------------------------Campos Opcionales", new RecordItemIndex(32));
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Patente'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_PatenteInfo, new RecordItemIndex(34));
-            //Keyboard.PrepareFocus(repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Patente);
-            //Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
-            //Delay.Milliseconds(0);
-            
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Patente'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_PatenteInfo, new RecordItemIndex(35));
-            //repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Patente.PressKeys("{Back}");
-            //Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Patente' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Patente'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_PatenteInfo, new RecordItemIndex(36));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Patente' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Patente'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_PatenteInfo, new RecordItemIndex(33));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Patente.PressKeys(Patente);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2Info, new RecordItemIndex(37));
-            repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo' at Center.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculoInfo, new RecordItemIndex(34));
+            repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Patente'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_PatenteInfo, new ActionTimeout(45000), new RecordItemIndex(38));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Patente'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_PatenteInfo, new ActionTimeout(45000), new RecordItemIndex(35));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_PatenteInfo.WaitForNotExists(45000);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Motor'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_MotorInfo, new RecordItemIndex(39));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Motor'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_MotorInfo, new RecordItemIndex(36));
             Keyboard.PrepareFocus(repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Motor);
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Motor'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_MotorInfo, new RecordItemIndex(40));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Motor'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_MotorInfo, new RecordItemIndex(37));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Motor.PressKeys("{Back}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Motor' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Motor'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_MotorInfo, new RecordItemIndex(41));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Motor' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Motor'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_MotorInfo, new RecordItemIndex(38));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Motor.PressKeys(Motor);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2Info, new RecordItemIndex(42));
-            repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo' at Center.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculoInfo, new RecordItemIndex(39));
+            repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Motor'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_MotorInfo, new ActionTimeout(45000), new RecordItemIndex(43));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Motor'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_MotorInfo, new ActionTimeout(45000), new RecordItemIndex(40));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_MotorInfo.WaitForNotExists(45000);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Chasis'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ChasisInfo, new RecordItemIndex(44));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Chasis'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ChasisInfo, new RecordItemIndex(41));
             Keyboard.PrepareFocus(repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Chasis);
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Chasis'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ChasisInfo, new RecordItemIndex(45));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Chasis'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ChasisInfo, new RecordItemIndex(42));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Chasis.PressKeys("{Back}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Chasis' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Chasis'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ChasisInfo, new RecordItemIndex(46));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Chasis' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Chasis'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ChasisInfo, new RecordItemIndex(43));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Chasis.PressKeys(Chasis);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2Info, new RecordItemIndex(47));
-            repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo' at Center.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculoInfo, new RecordItemIndex(44));
+            repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Chasis'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ChasisInfo, new ActionTimeout(45000), new RecordItemIndex(48));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Chasis'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ChasisInfo, new ActionTimeout(45000), new RecordItemIndex(45));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ChasisInfo.WaitForNotExists(45000);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Producto' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Producto'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ProductoInfo, new RecordItemIndex(49));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(46));
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Producto' with focus on 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Producto'.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_ProductoInfo, new RecordItemIndex(47));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Producto.PressKeys(Producto);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2Info, new RecordItemIndex(50));
-            repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_InfoDelVehiculo2.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo' at Center.", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculoInfo, new RecordItemIndex(48));
+            repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.lbl_InfoDelVehiculo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Producto'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ProductoInfo, new ActionTimeout(45000), new RecordItemIndex(51));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_Producto'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ProductoInfo, new ActionTimeout(45000), new RecordItemIndex(49));
             repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.Copias.Copy_of_txtbox_ProductoInfo.WaitForNotExists(45000);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(52));
+            Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(50));
+            
+            // --------------------------------Cambio a Siguiente Pantalla
+            Report.Log(ReportLevel.Info, "Section", "--------------------------------Cambio a Siguiente Pantalla", new RecordItemIndex(51));
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_SiguienteInfo, new RecordItemIndex(52));
+            //repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente.Click();
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_ComisionesDescuentos'", repo.SURA.PC.Txt_Validacion.txt_ComisionesDescuentosInfo, new ActionTimeout(45000), new RecordItemIndex(53));
+            //repo.SURA.PC.Txt_Validacion.txt_ComisionesDescuentosInfo.WaitForExists(45000);
             
         }
 

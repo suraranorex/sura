@@ -577,7 +577,7 @@ namespace Sura
             set { _CodigoAgente = value; }
         }
 
-        string _Marca = "SIN MARCA";
+        string _Marca = "";
 
         /// <summary>
         /// Gets or sets the value of variable Marca.
@@ -589,7 +589,7 @@ namespace Sura
             set { _Marca = value; }
         }
 
-        string _Modelo = "TRAILER ZUMUVA";
+        string _Modelo = "";
 
         /// <summary>
         /// Gets or sets the value of variable Modelo.
@@ -659,6 +659,18 @@ namespace Sura
         {
             get { return _NroPoliza; }
             set { _NroPoliza = value; }
+        }
+
+        string _Destino = "REMIS MULTIPLATAFORMA";
+
+        /// <summary>
+        /// Gets or sets the value of variable Destino.
+        /// </summary>
+        [TestVariable("392d688b-a1f7-44af-a25f-a35cf553aadb")]
+        public string Destino
+        {
+            get { return _Destino; }
+            set { _Destino = value; }
         }
 
 #endregion
@@ -805,6 +817,7 @@ namespace Sura
             RepoItemInfo _tipodeviviendaInfo;
             RepoItemInfo _cbo_tipodeviviendaInfo;
             RepoItemInfo _copy_of_cbo_productoInfo;
+            RepoItemInfo _option_zonariesgoInfo;
             RepoItemInfo _option_destinoInfo;
             RepoItemInfo _productoInfo;
             RepoItemInfo _cbo_productoInfo;
@@ -947,7 +960,8 @@ namespace Sura
                 _tipodeviviendaInfo = new RepoItemInfo(this, "TipoDeVivienda", ".//table/tbody//label/span[@innertext='Tipo de Vivienda']/../../div/div/div[2]", 30000, null, "1241900c-9b7e-476e-a666-e9ca9ac11e7d");
                 _cbo_tipodeviviendaInfo = new RepoItemInfo(this, "cbo_TipoDeVivienda", "body//ul/li[@innertext~$TipoVivienda and @visible='True']", 30000, null, "9a044025-a5a2-4056-b76f-82b2d2ab99d8");
                 _copy_of_cbo_productoInfo = new RepoItemInfo(this, "Copy_of_cbo_Producto", "body//li[@enabled='True']", 30000, null, "cfaed0ec-3c9d-4b70-bac9-98fb61e6ad84");
-                _option_destinoInfo = new RepoItemInfo(this, "option_Destino", "body//li[@innertext='Capital Federal' and @enabled='True']", 30000, null, "c291674a-a0f6-4e97-b909-519c53d0586e");
+                _option_zonariesgoInfo = new RepoItemInfo(this, "option_ZonaRiesgo", "body//li[@innertext='Capital Federal' and @enabled='True']", 30000, null, "c291674a-a0f6-4e97-b909-519c53d0586e");
+                _option_destinoInfo = new RepoItemInfo(this, "option_Destino", "body//li[@innertext=$Destino and @enabled='True']", 30000, null, "44ce843b-f4f4-4d16-9667-c05405797c79");
                 _productoInfo = new RepoItemInfo(this, "Producto", ".//table/tbody//label/span[@innertext='Producto']/../../div/div/div[2]", 30000, null, "333eb15c-fe70-4d8d-bdbf-adaefd9e2d57");
                 _cbo_productoInfo = new RepoItemInfo(this, "cbo_Producto", "body//ul/li[@innertext~$Producto and @visible='True']", 30000, null, "caf657e1-5eae-4731-b8a1-8e45814b4e14");
                 _plan_plantaInfo = new RepoItemInfo(this, "Plan_Planta", ".//table/tbody//label/span[@innertext='Plan / Planta']/../../div/div/div[2]", 30000, null, "344a0071-00a7-4be8-95c3-d75d1df8abec");
@@ -1886,9 +1900,33 @@ namespace Sura
             }
 
             /// <summary>
-            /// The option_Destino item.
+            /// The option_ZonaRiesgo item.
             /// </summary>
             [RepositoryItem("c291674a-a0f6-4e97-b909-519c53d0586e")]
+            public virtual Ranorex.LiTag option_ZonaRiesgo
+            {
+                get
+                {
+                    return _option_zonariesgoInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The option_ZonaRiesgo item info.
+            /// </summary>
+            [RepositoryItemInfo("c291674a-a0f6-4e97-b909-519c53d0586e")]
+            public virtual RepoItemInfo option_ZonaRiesgoInfo
+            {
+                get
+                {
+                    return _option_zonariesgoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The option_Destino item.
+            /// </summary>
+            [RepositoryItem("44ce843b-f4f4-4d16-9667-c05405797c79")]
             public virtual Ranorex.LiTag option_Destino
             {
                 get
@@ -1900,7 +1938,7 @@ namespace Sura
             /// <summary>
             /// The option_Destino item info.
             /// </summary>
-            [RepositoryItemInfo("c291674a-a0f6-4e97-b909-519c53d0586e")]
+            [RepositoryItemInfo("44ce843b-f4f4-4d16-9667-c05405797c79")]
             public virtual RepoItemInfo option_DestinoInfo
             {
                 get
@@ -7152,7 +7190,10 @@ namespace Sura
             RepoItemInfo _txtbox_marcaInfo;
             RepoItemInfo _txtbox_anioInfo;
             RepoItemInfo _txtbox_destinoInfo;
+            RepoItemInfo _txtbox_zonariesgoInfo;
             RepoItemInfo _item_cboanioInfo;
+            RepoItemInfo _input_kilometrosInfo;
+            RepoItemInfo _txt_kilometrosInfo;
 
             /// <summary>
             /// Creates a new Vehiculoss  folder.
@@ -7173,7 +7214,10 @@ namespace Sura
                 _txtbox_marcaInfo = new RepoItemInfo(this, "txtbox_Marca", ".//label/span[@innertext~'Marca']/../..//input", 30000, null, "47d5ad4b-be5e-41b9-ac1f-8734c325a53c");
                 _txtbox_anioInfo = new RepoItemInfo(this, "txtbox_Anio", ".//label/span[@innertext~'Año']/../..//input", 30000, null, "3da66ac4-0baa-4f71-b54d-a74371ae73b2");
                 _txtbox_destinoInfo = new RepoItemInfo(this, "txtbox_Destino", ".//label/span[@innertext~'Destino']/../..//input", 30000, null, "987f1cf5-e26d-499c-a32f-7417048ae068");
+                _txtbox_zonariesgoInfo = new RepoItemInfo(this, "txtbox_ZonaRiesgo", ".//label/span[@innertext~'Zona de Riesgo']/../..//input", 30000, null, "01714149-b169-42ce-a664-79e4f89f700e");
                 _item_cboanioInfo = new RepoItemInfo(this, "item_cboAnio", "body//ul/li[@innertext=$Anio]", 30000, null, "b29f8b31-a001-4db2-836f-84c6e9de6a80");
+                _input_kilometrosInfo = new RepoItemInfo(this, "input_Kilometros", ".//div[#'SubmissionWizard/WithoutVehicle']//span[@innertext='Kilómetros']/../..//input", 30000, null, "4a7f267b-3744-495b-a607-9d8ae176e530");
+                _txt_kilometrosInfo = new RepoItemInfo(this, "txt_Kilometros", ".//div[#'SubmissionWizard/WithoutVehicle']//span[@innertext='Kilómetros']", 30000, null, "6b85dcae-f6f5-4491-b9e8-8e33535d4248");
             }
 
             /// <summary>
@@ -7477,6 +7521,30 @@ namespace Sura
             }
 
             /// <summary>
+            /// The txtbox_ZonaRiesgo item.
+            /// </summary>
+            [RepositoryItem("01714149-b169-42ce-a664-79e4f89f700e")]
+            public virtual Ranorex.InputTag txtbox_ZonaRiesgo
+            {
+                get
+                {
+                    return _txtbox_zonariesgoInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txtbox_ZonaRiesgo item info.
+            /// </summary>
+            [RepositoryItemInfo("01714149-b169-42ce-a664-79e4f89f700e")]
+            public virtual RepoItemInfo txtbox_ZonaRiesgoInfo
+            {
+                get
+                {
+                    return _txtbox_zonariesgoInfo;
+                }
+            }
+
+            /// <summary>
             /// The item_cboAnio item.
             /// </summary>
             [RepositoryItem("b29f8b31-a001-4db2-836f-84c6e9de6a80")]
@@ -7497,6 +7565,54 @@ namespace Sura
                 get
                 {
                     return _item_cboanioInfo;
+                }
+            }
+
+            /// <summary>
+            /// The input_Kilometros item.
+            /// </summary>
+            [RepositoryItem("4a7f267b-3744-495b-a607-9d8ae176e530")]
+            public virtual Ranorex.InputTag input_Kilometros
+            {
+                get
+                {
+                    return _input_kilometrosInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The input_Kilometros item info.
+            /// </summary>
+            [RepositoryItemInfo("4a7f267b-3744-495b-a607-9d8ae176e530")]
+            public virtual RepoItemInfo input_KilometrosInfo
+            {
+                get
+                {
+                    return _input_kilometrosInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_Kilometros item.
+            /// </summary>
+            [RepositoryItem("6b85dcae-f6f5-4491-b9e8-8e33535d4248")]
+            public virtual Ranorex.SpanTag txt_Kilometros
+            {
+                get
+                {
+                    return _txt_kilometrosInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_Kilometros item info.
+            /// </summary>
+            [RepositoryItemInfo("6b85dcae-f6f5-4491-b9e8-8e33535d4248")]
+            public virtual RepoItemInfo txt_KilometrosInfo
+            {
+                get
+                {
+                    return _txt_kilometrosInfo;
                 }
             }
 
@@ -7527,6 +7643,8 @@ namespace Sura
             RepoItemInfo _copy_of_txtbox_actividadInfo;
             RepoItemInfo _copy_of_txtbox_destinoInfo;
             RepoItemInfo _copy_of_txt_franquiciaInfo;
+            RepoItemInfo _copy_of_txtbox_zonariesgoInfo;
+            RepoItemInfo _copy_of_input_kilometrosInfo;
 
             /// <summary>
             /// Creates a new Copias  folder.
@@ -7545,6 +7663,8 @@ namespace Sura
                 _copy_of_txtbox_actividadInfo = new RepoItemInfo(this, "Copy_of_txtbox_Actividad", ".//label/span[@innertext~'Actividad']/../..//input[@data-tabindexsaved='True']", 30000, null, "c55062da-8b0d-4adb-b13c-545303e0596f");
                 _copy_of_txtbox_destinoInfo = new RepoItemInfo(this, "Copy_of_txtbox_Destino", ".//label/span[@innertext~'Destino']/../..//input[@data-tabindexsaved='True']", 30000, null, "c1b1ad2b-9d81-4f83-8f05-f758910d379d");
                 _copy_of_txt_franquiciaInfo = new RepoItemInfo(this, "Copy_of_txt_Franquicia", ".//label/span[@innertext='Franquicia']/../..//input[@data-tabindexsaved='True']", 30000, null, "335243c1-1144-410e-9dac-7dfe904f6f11");
+                _copy_of_txtbox_zonariesgoInfo = new RepoItemInfo(this, "Copy_of_txtbox_ZonaRiesgo", ".//label/span[@innertext~'Zona de Riesgo']/../..//input[@data-tabindexsaved='True']", 30000, null, "cc3cfd25-26f9-41b1-90f5-9e9b95b2837c");
+                _copy_of_input_kilometrosInfo = new RepoItemInfo(this, "Copy_of_input_Kilometros", ".//div[#'SubmissionWizard/WithoutVehicle']//span[@innertext='Kilómetros']/../..//input[@data-tabindexsaved='True']", 30000, null, "59c52e11-096a-45a4-bafc-353c8cb06ec9");
             }
 
             /// <summary>
@@ -7822,6 +7942,54 @@ namespace Sura
                     return _copy_of_txt_franquiciaInfo;
                 }
             }
+
+            /// <summary>
+            /// The Copy_of_txtbox_ZonaRiesgo item.
+            /// </summary>
+            [RepositoryItem("cc3cfd25-26f9-41b1-90f5-9e9b95b2837c")]
+            public virtual Ranorex.InputTag Copy_of_txtbox_ZonaRiesgo
+            {
+                get
+                {
+                    return _copy_of_txtbox_zonariesgoInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_txtbox_ZonaRiesgo item info.
+            /// </summary>
+            [RepositoryItemInfo("cc3cfd25-26f9-41b1-90f5-9e9b95b2837c")]
+            public virtual RepoItemInfo Copy_of_txtbox_ZonaRiesgoInfo
+            {
+                get
+                {
+                    return _copy_of_txtbox_zonariesgoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_input_Kilometros item.
+            /// </summary>
+            [RepositoryItem("59c52e11-096a-45a4-bafc-353c8cb06ec9")]
+            public virtual Ranorex.InputTag Copy_of_input_Kilometros
+            {
+                get
+                {
+                    return _copy_of_input_kilometrosInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_input_Kilometros item info.
+            /// </summary>
+            [RepositoryItemInfo("59c52e11-096a-45a4-bafc-353c8cb06ec9")]
+            public virtual RepoItemInfo Copy_of_input_KilometrosInfo
+            {
+                get
+                {
+                    return _copy_of_input_kilometrosInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -8044,7 +8212,6 @@ namespace Sura
             RepoItemInfo _rdo_0kmInfo;
             RepoItemInfo _rdo_0km2Info;
             RepoItemInfo _copy_of_rdo_0km2Info;
-            RepoItemInfo _rdo_0km2Info;
 
             /// <summary>
             /// Creates a new Flota  folder.
@@ -8056,7 +8223,6 @@ namespace Sura
                 _rdo_0kmInfo = new RepoItemInfo(this, "rdo_0Km", ".//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|í)']", 30000, null, "0fcebcff-f990-4e82-a5f7-1dbc59921146");
                 _rdo_0km2Info = new RepoItemInfo(this, "rdo_0Km2", ".//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|í)']", 30000, null, "e17048e6-8577-4a4f-9409-dcf3b3cbc232");
                 _copy_of_rdo_0km2Info = new RepoItemInfo(this, "Copy_of_rdo_0Km2", ".//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|í)' and @data-tabindexsaved='True']", 30000, null, "a1352e7e-8770-4d54-9635-10287c92cf6c");
-                _rdo_0km2Info = new RepoItemInfo(this, "rdo_0Km2", ".//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|í)']", 30000, null, "c4d14423-5fa8-4db0-9fcd-981c162fec56");
             }
 
             /// <summary>
@@ -8164,30 +8330,6 @@ namespace Sura
                 get
                 {
                     return _copy_of_rdo_0km2Info;
-                }
-            }
-
-            /// <summary>
-            /// The rdo_0Km2 item.
-            /// </summary>
-            [RepositoryItem("c4d14423-5fa8-4db0-9fcd-981c162fec56")]
-            public virtual Ranorex.LabelTag rdo_0Km2
-            {
-                get
-                {
-                    return _rdo_0km2Info.CreateAdapter<Ranorex.LabelTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The rdo_0Km2 item info.
-            /// </summary>
-            [RepositoryItemInfo("c4d14423-5fa8-4db0-9fcd-981c162fec56")]
-            public virtual RepoItemInfo rdo_0Km2Info
-            {
-                get
-                {
-                    return _rdo_0km2Info;
                 }
             }
         }
@@ -8552,7 +8694,6 @@ namespace Sura
             RepoItemInfo _refacturacionInfo;
             RepoItemInfo _atag04104013502Info;
             RepoItemInfo _lbl_proveedorInfo;
-            RepoItemInfo _lbl_infodelvehiculo2Info;
 
             /// <summary>
             /// Creates a new CoberturasAdicionales  folder.
@@ -8574,7 +8715,6 @@ namespace Sura
                 _refacturacionInfo = new RepoItemInfo(this, "Refacturacion", ".//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Refacturación']", 30000, null, "65ee7220-00f3-4f08-9de2-c662beb07205");
                 _atag04104013502Info = new RepoItemInfo(this, "ATag04104013502", ".//tbody[#'PolicyFile_Summary-tbody']//a[@innertext='04104013502']", 30000, null, "c379855c-fbe4-4c83-b7fd-94348102bdfa");
                 _lbl_proveedorInfo = new RepoItemInfo(this, "lbl_Proveedor", ".//div[#'SubmissionWizard/VehicleList']//span[@innertext='Proveedor']", 30000, null, "9caa45bd-7834-49de-932d-58583087b85b");
-                _lbl_infodelvehiculo2Info = new RepoItemInfo(this, "lbl_InfoDelVehiculo2", ".//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']", 30000, null, "b37d1a11-02ff-4c2f-a2c5-e4716eb39411");
             }
 
             /// <summary>
@@ -8934,30 +9074,6 @@ namespace Sura
                 get
                 {
                     return _lbl_proveedorInfo;
-                }
-            }
-
-            /// <summary>
-            /// The lbl_InfoDelVehiculo2 item.
-            /// </summary>
-            [RepositoryItem("b37d1a11-02ff-4c2f-a2c5-e4716eb39411")]
-            public virtual Ranorex.LabelTag lbl_InfoDelVehiculo2
-            {
-                get
-                {
-                    return _lbl_infodelvehiculo2Info.CreateAdapter<Ranorex.LabelTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The lbl_InfoDelVehiculo2 item info.
-            /// </summary>
-            [RepositoryItemInfo("b37d1a11-02ff-4c2f-a2c5-e4716eb39411")]
-            public virtual RepoItemInfo lbl_InfoDelVehiculo2Info
-            {
-                get
-                {
-                    return _lbl_infodelvehiculo2Info;
                 }
             }
         }

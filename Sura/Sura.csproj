@@ -229,6 +229,18 @@
       <UserCode>true</UserCode>
       <id>958041aa-b313-478c-bed5-3e1a8fbb66bb</id>
     </Compile>
+    <Compile Include="Emision\CargaVehiculos.cs">
+      <BoundTo>9d51a5a5-de0b-468e-b4f9-37b996cb2ac1</BoundTo>
+      <DependentUpon>CargaVehiculos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>82afaa47-79f5-4066-8349-052efb0a4233</id>
+    </Compile>
+    <Compile Include="Emision\CargaVehiculos.UserCode.cs">
+      <BoundTo>9d51a5a5-de0b-468e-b4f9-37b996cb2ac1</BoundTo>
+      <DependentUpon>CargaVehiculos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ea5a1522-7789-480b-b6ac-527e15daf931</id>
+    </Compile>
     <Compile Include="Emision\CoberturasAdicionales.cs">
       <BoundTo>fd729d05-9e02-4a4c-a57e-477a35f657fc</BoundTo>
       <DependentUpon>CoberturasAdicionales.rxrec</DependentUpon>
@@ -276,6 +288,18 @@
       <DependentUpon>ConductoresCtaAnonima.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>80ba1563-aaa5-4cd3-a33e-dac1886c3baa</id>
+    </Compile>
+    <Compile Include="Emision\ContinuarInformacionPoliza_Blanket.cs">
+      <BoundTo>19f923e1-7fd5-4532-8315-46e8dbbca475</BoundTo>
+      <DependentUpon>ContinuarInformacionPoliza_Blanket.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>47462434-4252-4a5c-9517-36d86e666b86</id>
+    </Compile>
+    <Compile Include="Emision\ContinuarInformacionPoliza_Blanket.UserCode.cs">
+      <BoundTo>19f923e1-7fd5-4532-8315-46e8dbbca475</BoundTo>
+      <DependentUpon>ContinuarInformacionPoliza_Blanket.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>321bb420-399d-429f-95bc-f3702538ae4d</id>
     </Compile>
     <Compile Include="Emision\ContinueInformacionAPEnlatada.cs">
       <BoundTo>11051f63-a6ac-488d-a1aa-279614ec3607</BoundTo>
@@ -564,6 +588,18 @@
       <DependentUpon>Informacion_poliza_motor_retroactiva.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>3597b979-8ec5-4051-a711-8114d8346c12</id>
+    </Compile>
+    <Compile Include="Emision\Kilometros.cs">
+      <BoundTo>3d419bcd-27ae-4b9d-ae3e-1eb22dfa31b1</BoundTo>
+      <DependentUpon>Kilometros.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fa183689-e6cf-4c2a-b5f9-40b36da962b3</id>
+    </Compile>
+    <Compile Include="Emision\Kilometros.UserCode.cs">
+      <BoundTo>3d419bcd-27ae-4b9d-ae3e-1eb22dfa31b1</BoundTo>
+      <DependentUpon>Kilometros.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d7e61d20-057f-48b7-a493-18d0b1489e75</id>
     </Compile>
     <Compile Include="Emision\MenuNuevasolicitudAnonima.cs">
       <BoundTo>96bf383c-e8cb-4d03-a77a-bd9c319a5fd9</BoundTo>
@@ -1208,28 +1244,16 @@
       <id>c0b4b434-6d03-47a1-b558-d9bb872a58f7</id>
     </Compile>
     <Compile Include="Endosos\AgregarVehiculos.cs">
-      <BoundTo>7b892083-ca39-4c6e-bf9d-b9c5df88f2aa</BoundTo>
+      <BoundTo>f5545e2c-7295-4d2f-a499-9ba9cc6c33cb</BoundTo>
       <DependentUpon>AgregarVehiculos.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>1641f67b-3943-48f3-b6c0-97740ef7eb82</id>
+      <id>c5a1ed14-b6c3-4a7c-b86c-3b748deeb5a5</id>
     </Compile>
     <Compile Include="Endosos\AgregarVehiculos.UserCode.cs">
-      <BoundTo>7b892083-ca39-4c6e-bf9d-b9c5df88f2aa</BoundTo>
+      <BoundTo>f5545e2c-7295-4d2f-a499-9ba9cc6c33cb</BoundTo>
       <DependentUpon>AgregarVehiculos.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>0bfa7060-38ac-4596-93be-0dfe06f6337f</id>
-    </Compile>
-    <Compile Include="Endosos\AgregarVehiculos.cs">
-      <BoundTo>6d94c00a-e21e-4af8-9c42-91a7825550b0</BoundTo>
-      <DependentUpon>AgregarVehiculos.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>0370bb04-0604-481a-8a6c-40ced21f64cb</id>
-    </Compile>
-    <Compile Include="Endosos\AgregarVehiculos.UserCode.cs">
-      <BoundTo>6d94c00a-e21e-4af8-9c42-91a7825550b0</BoundTo>
-      <DependentUpon>AgregarVehiculos.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>41a38dd3-b903-4111-a413-4a5e6832b8aa</id>
+      <id>36c5b645-c97a-4e1a-b6a6-c49df53996da</id>
     </Compile>
     <Compile Include="Endosos\AltaEndoso.cs">
       <DependentUpon>AltaEndoso.rxrec</DependentUpon>
@@ -2656,6 +2680,13 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>7df1fa3e-a64c-49d0-9aed-b0282ab21a74</id>
     </Content>
+    <Content Include="EmisionMotor_PolizaBlanket.xlsx">
+      <Link>EmisionMotor_PolizaBlanket.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>141d602a-4da5-47f5-beeb-06d089d88249</id>
+    </Content>
     <None Include="Emision\AccesorioConMovilidad.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>417b8e0c-ebf5-44f5-aa14-d299c600cb37</id>
@@ -2686,6 +2717,11 @@
       <id>cf60713e-f95f-496e-a81e-e7793d852e44</id>
       <recordtableid>71a1c8cb-0253-44f8-ad7e-fbb8f794a022</recordtableid>
     </None>
+    <None Include="Emision\CargaVehiculos.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>9d51a5a5-de0b-468e-b4f9-37b996cb2ac1</id>
+      <recordtableid>6a1dc262-3de5-4b8d-9179-beb405045f72</recordtableid>
+    </None>
     <None Include="Emision\CoberturasAdicionales.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>fd729d05-9e02-4a4c-a57e-477a35f657fc</id>
@@ -2705,6 +2741,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>c59a3c3a-91ba-4e37-95a9-52fa0760d1bc</id>
       <recordtableid>d3a04e60-d586-46ce-8289-61e96b7f350a</recordtableid>
+    </None>
+    <None Include="Emision\ContinuarInformacionPoliza_Blanket.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>19f923e1-7fd5-4532-8315-46e8dbbca475</id>
+      <recordtableid>b6d34487-7c0c-481e-8cfa-ddbcf33b9ac0</recordtableid>
     </None>
     <None Include="Emision\ContinueInformacionAPEnlatada.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -2825,6 +2866,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>6ff24189-9e20-4952-8169-cb5d275e7d06</id>
       <recordtableid>24876d59-96f0-4479-bcd4-be8a352f494a</recordtableid>
+    </None>
+    <None Include="Emision\Kilometros.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>3d419bcd-27ae-4b9d-ae3e-1eb22dfa31b1</id>
+      <recordtableid>96f2a098-5c2f-4d93-bd01-1f189aa42df5</recordtableid>
     </None>
     <None Include="Emision\MenuNuevasolicitudAnonima.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -3100,20 +3146,22 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>03946c1b-d578-43d5-be1d-556956ebacb9</id>
     </Content>
+    <Content Include="Emisión Motor -Polizas Complementarias.xlsx">
+      <Link>Emisión Motor -Polizas Complementarias.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>875617bb-234b-4ea3-81c3-47150a69df6d</id>
+    </Content>
     <None Include="Endosos\AgregaAccesorios.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>3a4be5da-aac9-444f-9694-9429a940b177</id>
       <recordtableid>c5bb02a6-1f18-408e-a20c-ed4470fca104</recordtableid>
     </None>
     <None Include="Endosos\AgregarVehiculos.rxrec">
-      <id>7b892083-ca39-4c6e-bf9d-b9c5df88f2aa</id>
-      <recordtableid>db7ad970-ba32-4a6f-9ed2-afc31584bb00</recordtableid>
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
-    </None>
-    <None Include="Endosos\AgregarVehiculos.rxrec">
-      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
-      <id>6d94c00a-e21e-4af8-9c42-91a7825550b0</id>
-      <recordtableid>46052bc0-d519-4f74-87c5-67bddd361655</recordtableid>
+      <id>f5545e2c-7295-4d2f-a499-9ba9cc6c33cb</id>
+      <recordtableid>42bc5570-af75-42cb-b755-a9bddba5f70e</recordtableid>
     </None>
     <None Include="Endosos\AltaEndoso.rxrec">
       <id>980d56ff-54f4-4617-a0a5-dab66ff1c3cf</id>

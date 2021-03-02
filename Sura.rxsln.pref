@@ -9,9 +9,10 @@
       <string>{9F6470D6-24A8-4006-AA8A-74B35DD73A26}</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
       <string>2fa0cd5e-540b-40b9-b36a-99f05d563079</string>
+      <string>6d2fba6e-4ad7-4514-83d3-9a6fbb8b3152</string>
       <string>e7a34f90-362d-4b10-8cd5-546b393d193e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution Sura[Sura[Endosos[]PC_GestionDocumental.rxtst[]]]]&#xD;&#xA;Solution Sura\Sura\Endosos\EndosoAP_Persona.rxrec&#xD;&#xA;Solution Sura\Sura\Endosos\Endoso_PlanDePagos.rxrec" />
+  <ProjectBrowserState value="[Solution Sura[Sura[PC_GestionDocumental.rxtst[]]]]&#xD;&#xA;Solution Sura\Sura\PC_GestionDocumental.rxtst&#xD;&#xA;Solution Sura\Sura" />
   <StartupProject value="{9F6470D6-24A8-4006-AA8A-74B35DD73A26}" />
 </Properties>

@@ -169,7 +169,6 @@ C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\D
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\obj\x86\Debug\Sura.csprojResolveAssemblyReference.cache
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\obj\x86\Debug\Sura.exe
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\obj\x86\Debug\Sura.pdb
-C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\RepositoryImages\SuraRepository52dfe65a.rximgres
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - ValidaFormularios - Emitida.xlsx
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - ValidaFormularios - Cotizada.xlsx
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - ValidaFormularios - Flota Cotizada.xlsx
@@ -188,3 +187,8 @@ C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\D
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Endoso Inclusion de Riesgo - Vehiculos.xlsx
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Validar Formularios - Endoso Inclusión de Riesgo.xlsx
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Validar Formularios - Endoso Exclusión de Riesgo.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\DataSource - Endoso Exclusion de Riesgo Vehiculos.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Emisión Motor - Varios vehiculos - Vehiculos.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Utilitarios\VPNConnect.exe
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Emisión Motor -Polizas Complementarias.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\EmisionMotor_PolizaBlanket.xlsx

@@ -89,7 +89,7 @@ mode="Global">
 			id="3da66ac4-0baa-4f71-b54d-a74371ae73b2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='A&#241;o']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Año']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -227,7 +227,7 @@ mode="Global">
 			id="0fcebcff-f990-4e82-a5f7-1dbc59921146"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//td[@id='ext-element-1176']//label[@innertext='S&#237;']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//td[@id='ext-element-1176']//label[@innertext='Sí']
 				</path>
 			</info>
 		</mouseitem>
@@ -350,7 +350,7 @@ mode="Global">
 			id="704c90c3-64f3-41ea-8c49-bddcb38d0f1e"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='A&#241;o']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Año']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>

@@ -87,10 +87,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="987f1cf5-e26d-499c-a32f-7417048ae068"
+			id="01714149-b169-42ce-a664-79e4f89f700e"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//label/span[@innertext~'Destino']/../..//input
+					/dom[@domain=$Ambiente]//label/span[@innertext~'Zona de Riesgo']/../..//input
 				</path>
 			</info>
 		</mouseitem>
@@ -129,10 +129,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="c1b1ad2b-9d81-4f83-8f05-f758910d379d"
+			id="cc3cfd25-26f9-41b1-90f5-9e9b95b2837c"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//label/span[@innertext~'Destino']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain=$Ambiente]//label/span[@innertext~'Zona de Riesgo']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -768,6 +768,72 @@ mode="Global">
 			sourcename="RepositoryEditor">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Modelo']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="7f045b80-1e34-452a-be36-e55051b53e90"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="987f1cf5-e26d-499c-a32f-7417048ae068"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//label/span[@innertext~'Destino']/../..//input
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="dd5d035f-270d-4727-b76a-ce48708325ae"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="44ce843b-f4f4-4d16-9667-c05405797c79"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]/body//li[@innertext=$Destino and @enabled='True']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="8d6afe6d-f29e-44ee-b637-9249cb5c52ef"
+		waitaction="NotExists"
+		waittimeout="45000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c1b1ad2b-9d81-4f83-8f05-f758910d379d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//label/span[@innertext~'Destino']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>

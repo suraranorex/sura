@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-<<<<<<< HEAD
-id="db7ad970-ba32-4a6f-9ed2-afc31584bb00"
-=======
-id="46052bc0-d519-4f74-87c5-67bddd361655"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+id="42bc5570-af75-42cb-b755-a9bddba5f70e"
 mode="Global">
 	<repeatcount>
 		1
@@ -28,83 +24,44 @@ mode="Global">
 	</codegen>
 	<variables>
 		<var
-<<<<<<< HEAD
-		id="09e08b4f-e9e1-43ba-a3b2-acb8ae88e351"
-=======
-		id="ca84c77d-5df9-43eb-afd5-c81d3010e029"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+		id="3a41f651-1fbc-470c-935e-fe43e5962202"
 		name="Anio">
-			2009
 		</var>
 		<var
-<<<<<<< HEAD
-		id="29d2c4a2-68ac-4a12-af24-e97e5550e360"
-=======
-		id="4ad91318-8103-4b6e-871a-ebdc2a610037"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+		id="4a0cda88-3b9e-4304-b923-ed240ee6bdd4"
 		name="Marca">
-			CHEVROLET
 		</var>
 		<var
-<<<<<<< HEAD
-		id="eb5cdde2-e606-4e72-9c70-8e3d75cfcc5d"
-=======
-		id="0b330178-7853-4af2-a915-b1757f593a48"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+		id="94486440-25de-41ab-b401-b4e8a537d8e0"
 		name="Modelo">
-			ASTRA
 		</var>
 		<var
-<<<<<<< HEAD
-		id="57558c39-9edc-4b15-a260-2cb468e1206c"
-=======
-		id="46965c8c-fb47-4a1c-a30a-9de2f9f1cb25"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+		id="a27d5302-9402-43d2-9f70-dde1b9ea87ba"
 		name="Actividad">
 			Sin Actividad
 		</var>
 		<var
-<<<<<<< HEAD
-		id="a810337e-ad67-4b08-9bfe-f171f3517ea4"
-=======
-		id="93940daf-1e6a-4636-87cb-c8cb21db36aa"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+		id="193e46b6-419f-4a0d-91ff-2563420ce412"
 		name="SumaAsegurada">
 			400000
 		</var>
 		<var
-<<<<<<< HEAD
-		id="56a0070d-44ca-40df-86b1-4e2554ca70b7"
-=======
-		id="92bd8253-e8e2-41ab-acf2-4caeedd116d8"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+		id="b554cd55-4dfd-4c20-be09-7833b4c8f08b"
 		name="Patente">
 			ZZZ999
 		</var>
 		<var
-<<<<<<< HEAD
-		id="849d649d-5502-4f72-bb6b-f5e785909740"
-=======
-		id="fbc38b40-a9c2-457c-8e7b-cc6d74b66f68"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+		id="7536376c-4d6b-497a-a76c-69dd8b9b2063"
 		name="Motor">
 			ABH134H8812
 		</var>
 		<var
-<<<<<<< HEAD
-		id="956129d6-87fc-40b7-ad76-746243cf7df6"
-=======
-		id="5973b3d3-0b4d-4e7d-bdcd-30b72e6fafe6"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+		id="739a3126-5a5e-43df-9301-88cf56909507"
 		name="Chasis">
 			CA52MN31912
 		</var>
 		<var
-<<<<<<< HEAD
-		id="0ac547d7-79e8-4e1f-8c8b-c31e54dd8bbb"
-=======
-		id="3fbd1613-ca01-4075-b4f1-85d0d18d0f9f"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+		id="80b1a37c-b9c1-448b-bb8f-b2a559663532"
 		name="Producto">
 			A - Responsabilidad Civil Unicamente
 		</var>
@@ -118,7 +75,7 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="2c077283-7167-4b59-b580-bd109bd951fe"
+		searchpropertyid="8a09b180-314d-4a54-8ffe-0ae8236e386a"
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -127,22 +84,13 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="ece2d28f-92ab-48b7-b5f3-c98b2f2a1cd1"
+			id="7706c77d-0d5a-430e-9737-4d16685d7929"
 			sourcename="RepositoryEditor">
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext~'Agregar']
 				</path>
 			</info>
 		</mouseitem>
-		<separatoritem
-		enabled="True"
-		optional="False">
-			<comment>
-				-----Info auto
-			</comment>
-			<bindings>
-			</bindings>
-		</separatoritem>
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"
@@ -157,11 +105,7 @@ mode="Global">
 			id="704c90c3-64f3-41ea-8c49-bddcb38d0f1e"
 			sourcename="RepositoryEditor">
 				<path>
-<<<<<<< HEAD
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Año']/../..//input[@data-tabindexsaved='True']
-=======
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='A&#241;o']/../..//input[@data-tabindexsaved='True']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -184,11 +128,7 @@ mode="Global">
 			id="3da66ac4-0baa-4f71-b54d-a74371ae73b2"
 			sourcename="RepositoryEditor">
 				<path>
-<<<<<<< HEAD
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Año']/../..//input
-=======
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='A&#241;o']/../..//input
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</keysequenceitem>
@@ -209,21 +149,17 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-<<<<<<< HEAD
-			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
-=======
-			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+			id="0a77e887-5b87-4e6a-8cb2-2b04b674e0fd"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, labeltag"
+				capabilities="webelement, tdtag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
 				index="0"
-				prefcap="labeltag"
-				rect="391,327,161,18"
+				prefcap="tdtag"
+				rect="188,382,450,669"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -231,7 +167,7 @@ mode="Global">
 					<attribute
 					name="class"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell&#32;
 					</attribute>
 					<attribute
 					name="draggable"
@@ -246,31 +182,49 @@ mode="Global">
 					<attribute
 					name="id"
 					type="System.String">
-						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CA7BasicVehicleInfoDV:1
+						ext-element-5323
 					</attribute>
 					<attribute
 					name="innertext"
 					type="System.String">
-<<<<<<< HEAD
-						Información del vehículo
-=======
-						Informaci&#243;n del veh&#237;culo
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
-						label
+						td
 					</attribute>
 					<attribute
-					name="for"
+					name="colspan"
 					type="System.String">
+						1
 					</attribute>
+					<attribute
+					name="rowspan"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						500
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-cellid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
 					<dynamicattribute
 					description="Dynamic HTML attribute."
 					name="style"
@@ -279,11 +233,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-<<<<<<< HEAD
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
-=======
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody/tr[3]//table/tbody/tr/td/?/?/table/?/?/tr/td[1]
 				</path>
 			</info>
 		</mouseitem>
@@ -301,11 +251,7 @@ mode="Global">
 			id="704c90c3-64f3-41ea-8c49-bddcb38d0f1e"
 			sourcename="RepositoryEditor">
 				<path>
-<<<<<<< HEAD
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Año']/../..//input[@data-tabindexsaved='True']
-=======
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='A&#241;o']/../..//input[@data-tabindexsaved='True']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -317,7 +263,7 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="738a92d9-d2fa-484c-9a90-440a4ce96a26"
+		searchpropertyid="5aee46b7-8ea2-4af6-b34e-886463c06fd9"
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -326,82 +272,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-<<<<<<< HEAD
-			id="e17048e6-8577-4a4f-9409-dcf3b3cbc232"
-=======
-			id="c4d14423-5fa8-4db0-9fcd-981c162fec56"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+			id="0fcebcff-f990-4e82-a5f7-1dbc59921146"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, labeltag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="1"
-				prefcap="labeltag"
-				rect="550,458,29,17"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						x-form-cb-label x-form-cb-label-default x-form-cb-label-after&#32;
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CA7BasicVehicleInfoDV:zeroKm_true-boxLabelEl
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-<<<<<<< HEAD
-						Sí
-=======
-						S&#237;
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						x-form-cb-label x-form-cb-label-after x-form-cb-label-default
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						label
-					</attribute>
-					<attribute
-					name="for"
-					type="System.String">
-						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CA7BasicVehicleInfoDV:zeroKm_true-inputEl
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="data-ref"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
 				<path>
-<<<<<<< HEAD
-					/dom[@domain=$Ambiente]//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|í)']
-=======
-					/dom[@domain=$Ambiente]//label/span[@innertext='Es 0Km']/../..//label[@innertext~'S(i|&#237;)']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//td[@id='ext-element-1176']//label[@innertext='Sí']
 				</path>
 			</info>
 		</mouseitem>
@@ -422,21 +296,17 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-<<<<<<< HEAD
-			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
-=======
-			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+			id="0a77e887-5b87-4e6a-8cb2-2b04b674e0fd"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, labeltag"
+				capabilities="webelement, tdtag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
 				index="0"
-				prefcap="labeltag"
-				rect="391,327,161,18"
+				prefcap="tdtag"
+				rect="188,382,450,669"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -444,7 +314,7 @@ mode="Global">
 					<attribute
 					name="class"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell&#32;
 					</attribute>
 					<attribute
 					name="draggable"
@@ -459,31 +329,49 @@ mode="Global">
 					<attribute
 					name="id"
 					type="System.String">
-						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CA7BasicVehicleInfoDV:1
+						ext-element-5323
 					</attribute>
 					<attribute
 					name="innertext"
 					type="System.String">
-<<<<<<< HEAD
-						Información del vehículo
-=======
-						Informaci&#243;n del veh&#237;culo
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
-						label
+						td
 					</attribute>
 					<attribute
-					name="for"
+					name="colspan"
 					type="System.String">
+						1
 					</attribute>
+					<attribute
+					name="rowspan"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						500
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-cellid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
 					<dynamicattribute
 					description="Dynamic HTML attribute."
 					name="style"
@@ -492,18 +380,14 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-<<<<<<< HEAD
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
-=======
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody/tr[3]//table/tbody/tr/td/?/?/table/?/?/tr/td[1]
 				</path>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"
-		searchpropertyid="1092121e-5e1e-4f1f-9228-f71555568fa3"
+		searchpropertyid="baf67854-bf60-46c5-9228-393b7e4afe63"
 		waitaction="NotExists"
 		waittimeout="45000ms">
 			<comment>
@@ -514,11 +398,7 @@ mode="Global">
 			id="704c90c3-64f3-41ea-8c49-bddcb38d0f1e"
 			sourcename="RepositoryEditor">
 				<path>
-<<<<<<< HEAD
-					/dom[@domain=$Ambiente]//label/span[@innertext='Año']/../..//input[@data-tabindexsaved='True']
-=======
-					/dom[@domain=$Ambiente]//label/span[@innertext='A&#241;o']/../..//input[@data-tabindexsaved='True']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Año']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -599,21 +479,17 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-<<<<<<< HEAD
-			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
-=======
-			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+			id="0a77e887-5b87-4e6a-8cb2-2b04b674e0fd"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, labeltag"
+				capabilities="webelement, tdtag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
 				index="0"
-				prefcap="labeltag"
-				rect="391,327,161,18"
+				prefcap="tdtag"
+				rect="188,382,450,669"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -621,7 +497,7 @@ mode="Global">
 					<attribute
 					name="class"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell&#32;
 					</attribute>
 					<attribute
 					name="draggable"
@@ -636,31 +512,49 @@ mode="Global">
 					<attribute
 					name="id"
 					type="System.String">
-						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CA7BasicVehicleInfoDV:1
+						ext-element-5323
 					</attribute>
 					<attribute
 					name="innertext"
 					type="System.String">
-<<<<<<< HEAD
-						Información del vehículo
-=======
-						Informaci&#243;n del veh&#237;culo
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
-						label
+						td
 					</attribute>
 					<attribute
-					name="for"
+					name="colspan"
 					type="System.String">
+						1
 					</attribute>
+					<attribute
+					name="rowspan"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						500
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-cellid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
 					<dynamicattribute
 					description="Dynamic HTML attribute."
 					name="style"
@@ -669,11 +563,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-<<<<<<< HEAD
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
-=======
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody/tr[3]//table/tbody/tr/td/?/?/table/?/?/tr/td[1]
 				</path>
 			</info>
 		</mouseitem>
@@ -781,21 +671,17 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-<<<<<<< HEAD
-			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
-=======
-			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+			id="0a77e887-5b87-4e6a-8cb2-2b04b674e0fd"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, labeltag"
+				capabilities="webelement, tdtag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
 				index="0"
-				prefcap="labeltag"
-				rect="391,327,161,18"
+				prefcap="tdtag"
+				rect="188,382,450,669"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -803,7 +689,7 @@ mode="Global">
 					<attribute
 					name="class"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell&#32;
 					</attribute>
 					<attribute
 					name="draggable"
@@ -818,31 +704,49 @@ mode="Global">
 					<attribute
 					name="id"
 					type="System.String">
-						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CA7BasicVehicleInfoDV:1
+						ext-element-5323
 					</attribute>
 					<attribute
 					name="innertext"
 					type="System.String">
-<<<<<<< HEAD
-						Información del vehículo
-=======
-						Informaci&#243;n del veh&#237;culo
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
-						label
+						td
 					</attribute>
 					<attribute
-					name="for"
+					name="colspan"
 					type="System.String">
+						1
 					</attribute>
+					<attribute
+					name="rowspan"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						500
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-cellid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
 					<dynamicattribute
 					description="Dynamic HTML attribute."
 					name="style"
@@ -851,11 +755,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-<<<<<<< HEAD
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
-=======
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody/tr[3]//table/tbody/tr/td/?/?/table/?/?/tr/td[1]
 				</path>
 			</info>
 		</mouseitem>
@@ -968,21 +868,17 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-<<<<<<< HEAD
-			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
-=======
-			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+			id="0a77e887-5b87-4e6a-8cb2-2b04b674e0fd"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, labeltag"
+				capabilities="webelement, tdtag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
 				index="0"
-				prefcap="labeltag"
-				rect="391,327,161,18"
+				prefcap="tdtag"
+				rect="188,382,450,669"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -990,7 +886,7 @@ mode="Global">
 					<attribute
 					name="class"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell&#32;
 					</attribute>
 					<attribute
 					name="draggable"
@@ -1005,31 +901,49 @@ mode="Global">
 					<attribute
 					name="id"
 					type="System.String">
-						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CA7BasicVehicleInfoDV:1
+						ext-element-5323
 					</attribute>
 					<attribute
 					name="innertext"
 					type="System.String">
-<<<<<<< HEAD
-						Información del vehículo
-=======
-						Informaci&#243;n del veh&#237;culo
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
-						label
+						td
 					</attribute>
 					<attribute
-					name="for"
+					name="colspan"
 					type="System.String">
+						1
 					</attribute>
+					<attribute
+					name="rowspan"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						500
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-cellid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
 					<dynamicattribute
 					description="Dynamic HTML attribute."
 					name="style"
@@ -1038,11 +952,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-<<<<<<< HEAD
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
-=======
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody/tr[3]//table/tbody/tr/td/?/?/table/?/?/tr/td[1]
 				</path>
 			</info>
 		</mouseitem>
@@ -1136,21 +1046,17 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-<<<<<<< HEAD
-			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
-=======
-			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+			id="0a77e887-5b87-4e6a-8cb2-2b04b674e0fd"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, labeltag"
+				capabilities="webelement, tdtag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
 				index="0"
-				prefcap="labeltag"
-				rect="391,327,161,18"
+				prefcap="tdtag"
+				rect="188,382,450,669"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -1158,7 +1064,7 @@ mode="Global">
 					<attribute
 					name="class"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell&#32;
 					</attribute>
 					<attribute
 					name="draggable"
@@ -1173,31 +1079,49 @@ mode="Global">
 					<attribute
 					name="id"
 					type="System.String">
-						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CA7BasicVehicleInfoDV:1
+						ext-element-5323
 					</attribute>
 					<attribute
 					name="innertext"
 					type="System.String">
-<<<<<<< HEAD
-						Información del vehículo
-=======
-						Informaci&#243;n del veh&#237;culo
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
-						label
+						td
 					</attribute>
 					<attribute
-					name="for"
+					name="colspan"
 					type="System.String">
+						1
 					</attribute>
+					<attribute
+					name="rowspan"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						500
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-cellid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
 					<dynamicattribute
 					description="Dynamic HTML attribute."
 					name="style"
@@ -1206,11 +1130,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-<<<<<<< HEAD
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
-=======
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody/tr[3]//table/tbody/tr/td/?/?/table/?/?/tr/td[1]
 				</path>
 			</info>
 		</mouseitem>
@@ -1241,48 +1161,6 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</separatoritem>
-		<keyitem
-		action="Press"
-		data="A, Control"
-		duration="20ms"
-		enabled="False"
-		numLock="False"
-		optional="False"
-		presstime="20ms"
-		scancode="0"
-		searchpropertyid="18338b34-50ff-433c-8263-d54d340ae2f7"
-		setModifiers="True">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="8e7a9c7c-c8e5-48a3-8635-e30d9877d816"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain=$Ambiente]//label/span[@innertext~'Patente']/../..//input
-				</path>
-			</info>
-		</keyitem>
-		<keysequenceitem
-		KeySequence="{Back}"
-		duration="20ms"
-		enabled="False"
-		optional="False"
-		presstime="20ms"
-		searchpropertyid="5bf281dd-c362-4043-a4b4-1b999bf427a9">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="8e7a9c7c-c8e5-48a3-8635-e30d9877d816"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain=$Ambiente]//label/span[@innertext~'Patente']/../..//input
-				</path>
-			</info>
-		</keysequenceitem>
 		<keysequenceitem
 		KeySequence="yourtext"
 		duration="20ms"
@@ -1455,21 +1333,17 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-<<<<<<< HEAD
-			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
-=======
-			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+			id="0a77e887-5b87-4e6a-8cb2-2b04b674e0fd"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, labeltag"
+				capabilities="webelement, tdtag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
 				index="0"
-				prefcap="labeltag"
-				rect="391,327,161,18"
+				prefcap="tdtag"
+				rect="188,382,450,669"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -1477,7 +1351,7 @@ mode="Global">
 					<attribute
 					name="class"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell&#32;
 					</attribute>
 					<attribute
 					name="draggable"
@@ -1492,31 +1366,49 @@ mode="Global">
 					<attribute
 					name="id"
 					type="System.String">
-						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CA7BasicVehicleInfoDV:1
+						ext-element-5323
 					</attribute>
 					<attribute
 					name="innertext"
 					type="System.String">
-<<<<<<< HEAD
-						Información del vehículo
-=======
-						Informaci&#243;n del veh&#237;culo
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
-						label
+						td
 					</attribute>
 					<attribute
-					name="for"
+					name="colspan"
 					type="System.String">
+						1
 					</attribute>
+					<attribute
+					name="rowspan"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						500
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-cellid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
 					<dynamicattribute
 					description="Dynamic HTML attribute."
 					name="style"
@@ -1525,11 +1417,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-<<<<<<< HEAD
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
-=======
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody/tr[3]//table/tbody/tr/td/?/?/table/?/?/tr/td[1]
 				</path>
 			</info>
 		</mouseitem>
@@ -1765,21 +1653,17 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-<<<<<<< HEAD
-			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
-=======
-			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+			id="0a77e887-5b87-4e6a-8cb2-2b04b674e0fd"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, labeltag"
+				capabilities="webelement, tdtag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
 				index="0"
-				prefcap="labeltag"
-				rect="391,327,161,18"
+				prefcap="tdtag"
+				rect="188,382,450,669"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -1787,7 +1671,7 @@ mode="Global">
 					<attribute
 					name="class"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell&#32;
 					</attribute>
 					<attribute
 					name="draggable"
@@ -1802,31 +1686,49 @@ mode="Global">
 					<attribute
 					name="id"
 					type="System.String">
-						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CA7BasicVehicleInfoDV:1
+						ext-element-5323
 					</attribute>
 					<attribute
 					name="innertext"
 					type="System.String">
-<<<<<<< HEAD
-						Información del vehículo
-=======
-						Informaci&#243;n del veh&#237;culo
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
-						label
+						td
 					</attribute>
 					<attribute
-					name="for"
+					name="colspan"
 					type="System.String">
+						1
 					</attribute>
+					<attribute
+					name="rowspan"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						500
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-cellid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
 					<dynamicattribute
 					description="Dynamic HTML attribute."
 					name="style"
@@ -1835,11 +1737,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-<<<<<<< HEAD
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
-=======
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody/tr[3]//table/tbody/tr/td/?/?/table/?/?/tr/td[1]
 				</path>
 			</info>
 		</mouseitem>
@@ -2075,21 +1973,17 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-<<<<<<< HEAD
-			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
-=======
-			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+			id="0a77e887-5b87-4e6a-8cb2-2b04b674e0fd"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, labeltag"
+				capabilities="webelement, tdtag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
 				index="0"
-				prefcap="labeltag"
-				rect="391,327,161,18"
+				prefcap="tdtag"
+				rect="188,382,450,669"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -2097,7 +1991,7 @@ mode="Global">
 					<attribute
 					name="class"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell&#32;
 					</attribute>
 					<attribute
 					name="draggable"
@@ -2112,31 +2006,49 @@ mode="Global">
 					<attribute
 					name="id"
 					type="System.String">
-						PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CA7BasicVehicleInfoDV:1
+						ext-element-5323
 					</attribute>
 					<attribute
 					name="innertext"
 					type="System.String">
-<<<<<<< HEAD
-						Información del vehículo
-=======
-						Informaci&#243;n del veh&#237;culo
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 					</attribute>
 					<attribute
 					name="safeclass"
 					type="System.String">
-						x-component x-component-default
+						x-table-layout-cell
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
-						label
+						td
 					</attribute>
 					<attribute
-					name="for"
+					name="colspan"
 					type="System.String">
+						1
 					</attribute>
+					<attribute
+					name="rowspan"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						500
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-cellid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
 					<dynamicattribute
 					description="Dynamic HTML attribute."
 					name="style"
@@ -2145,11 +2057,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-<<<<<<< HEAD
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
-=======
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody/tr[3]//table/tbody/tr/td/?/?/table/?/?/tr/td[1]
 				</path>
 			</info>
 		</mouseitem>
@@ -2171,8 +2079,6 @@ mode="Global">
 				</path>
 			</info>
 		</WaitForRecordItem>
-<<<<<<< HEAD
-=======
 		<loggingrecorditem
 		action="Screenshot"
 		category="User"
@@ -2193,7 +2099,6 @@ mode="Global">
 				</path>
 			</info>
 		</loggingrecorditem>
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 		<keysequenceitem
 		KeySequence="yourtext"
 		duration="20ms"
@@ -2210,11 +2115,7 @@ mode="Global">
 				</binding>
 			</bindings>
 			<info
-<<<<<<< HEAD
 			id="f8c8a5e9-914e-47db-8935-9336c5920595"
-=======
-			id="46fd206b-31a9-4cae-aa0c-97cfd1a6c7bb"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 			sourcename="RepositoryEditor">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Producto']/../..//input
@@ -2238,17 +2139,91 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-<<<<<<< HEAD
-			id="f35ca3e2-2e40-41be-bade-c7aa1c41e2af"
+			id="0a77e887-5b87-4e6a-8cb2-2b04b674e0fd"
 			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, tdtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="tdtag"
+				rect="188,382,450,669"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-table-layout-cell&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ext-element-5323
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-table-layout-cell
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						td
+					</attribute>
+					<attribute
+					name="colspan"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="rowspan"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						500
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-cellid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del vehículo']
-=======
-			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table/tbody/tr[3]//table/tbody/tr/td/?/?/table/?/?/tr/td[1]
 				</path>
 			</info>
 		</mouseitem>
@@ -2263,11 +2238,7 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-<<<<<<< HEAD
 			id="56b8357d-1949-491c-aac2-b15886967ce0"
-=======
-			id="8528128b-78e1-4348-8090-20e3a78580c0"
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
 			sourcename="RepositoryEditor">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']//label/span[@innertext='Producto']/../..//input[@data-tabindexsaved='True']
@@ -2286,28 +2257,53 @@ mode="Global">
 			</comment>
 			<bindings>
 			</bindings>
+		</loggingrecorditem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				--------------------------------Cambio a Siguiente Pantalla
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9adc1782-5a52-462f-95d1-03ad7e494042"
+		sx="245"
+		sy="167"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
 			<info
-<<<<<<< HEAD
-			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain=$Ambiente]
-=======
-			id="b37d1a11-02ff-4c2f-a2c5-e4716eb39411"
+			id="97474c20-e3a6-4320-843d-c02ad0f4324a"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, labeltag"
+				capabilities="webelement, spantag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
-				index="0"
-				prefcap="labeltag"
-				rect="0,0,0,0"
+				index="-1"
+				prefcap="spantag"
+				rect="218,161,54,12"
 				role="unknown"
 				snapElem=""
-				valid="False"
-				visible="False">
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
 					<attribute
 					name="draggable"
 					type="System.String">
@@ -2319,23 +2315,61 @@ mode="Global">
 						False
 					</attribute>
 					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:Next-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Siguiente &gt;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
 					name="tagname"
 					type="System.String">
-						label
+						span
 					</attribute>
 					<dynamicattribute
 					description="Dynamic HTML attribute."
-					name="style"
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
 					readonly="False"
 					type="System.String">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Informaci&#243;n del veh&#237;culo']
->>>>>>> 5906168d248459bbf2644cf1057bd0a2f123fdc8
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[#'SubmissionWizard:Next-btnInnerEl']
 				</path>
 			</info>
-		</loggingrecorditem>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="False"
+		optional="False"
+		searchpropertyid="eda1f98d-e395-45c2-91a6-95761d0de5f2"
+		waitaction="Exists"
+		waittimeout="45000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d816b2b5-a783-464e-84a6-e40cbe7be84e"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/ModifiersSura']//span[@innertext~'Comisiones / Descuentos']
+				</path>
+			</info>
+		</WaitForRecordItem>
 	</recorditems>
 	<repository
 	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
