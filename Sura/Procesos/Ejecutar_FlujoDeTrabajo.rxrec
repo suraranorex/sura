@@ -118,7 +118,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Información de proceso por lotes
+						Informaci&#243;n de proceso por lotes
 					</attribute>
 					<attribute
 					name="safeclass"
