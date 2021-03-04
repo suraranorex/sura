@@ -1,18 +1,29 @@
 ﻿<Properties>
-  <Array name="active" />
+  <Array name="active">
+    <Element value="PC.rxtst" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
+<<<<<<< HEAD
     <Element value="PC_GestionDocumental.rxtst" />
     <Element value="PC.rxtst" />
+=======
+    <Element value="PC.rxtst" />
+    <Element value="Menu\MenuSuperior_CuentaPC.rxrec" />
+>>>>>>> 557463a18b171201dc0c9612810108f8d6db35d2
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
+<<<<<<< HEAD
     <Array name="recentusercodeselections">
       <Element value="Sura.Emision.ContinuarInformacionPoliza_Blanket.MergedUserCodeMethod(RepoItemInfo inputtagInfo)" />
       <Element value="Sura.Emision.CargaVehiculos.seleccionaVehiculos2()" />
       <Element value="Sura.Emision.CargaVehiculos.seleccionaVehiculos()" />
     </Array>
+=======
+    <Array name="recentusercodeselections" />
+>>>>>>> 557463a18b171201dc0c9612810108f8d6db35d2
   </Properties>
 </Properties>

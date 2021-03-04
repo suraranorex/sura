@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
@@ -15,40 +15,12 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="768c1973-5b9e-4ee0-aad7-dfe2fb3faf96"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="0098bf6d-f145-432d-8e54-2afc72a74579"
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
 			type="Recording">
-				<missingdatabinding>
-					<var
-					dataname="Usuario"
-					datasourceid="28b6ebe8-4083-4c88-acf7-0c9095a3019f"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Contrasenia"
-					datasourceid="28b6ebe8-4083-4c88-acf7-0c9095a3019f"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="28b6ebe8-4083-4c88-acf7-0c9095a3019f"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -92,20 +64,6 @@
 					variablename="NroPoliza">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="NroPoliza"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="42428f7f-6975-4ad4-9ef7-76736c2aa29d"
-					variablename="NroPoliza">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="01c958c3-db78-45ba-a08e-a9d4a8769303"
@@ -138,32 +96,6 @@
 					variablename="Plan">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="MetodoDePago"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="f774390e-cc74-4508-8c0f-778935e7c0b0"
-					variablename="MetodoDePago">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-					<var
-					dataname="Plan"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="df7b1e60-77d5-470f-80ab-8b783ab4ab5c"
-					variablename="Plan">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="01efa8ae-e511-4387-90fc-115749138100"
@@ -360,14 +292,6 @@
 					variablename="NumSolicitudPoliza">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="0571edd0-77e2-431b-9f13-6fc1116d1985"
@@ -408,14 +332,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="08b3546c-83c1-48b6-9001-1e408524ecb3"
@@ -442,26 +358,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="CodigoAgente"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="82173b09-8bbf-4e2e-8375-40886c9c86be"
-					variablename="CodigoAgente">
-					</var>
-					<var
-					dataname="NUM_GRUPO"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="83067c29-0671-4e04-b81a-f3a234251e38"
-					variablename="NUM_GRUPO">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="09ea63c2-ec4a-4075-ba9e-0311bea1956b"
@@ -476,14 +372,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testcase
 			datasource="ValidarFormularios_EndosoExclusionRiesgo"
@@ -530,38 +418,6 @@
 					variablename="TomadorComoBenef">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambito"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e4716c08-ed17-4fb9-8242-a85fc04ecb8e"
-					variablename="Ambito">
-					</var>
-					<var
-					dataname="Extension"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="ee26d163-a9f7-49eb-8c2c-f8584a2c6ef5"
-					variablename="Extension">
-					</var>
-					<var
-					dataname="Oferta"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="2f9771f4-d42a-4516-ae6b-bc637eba8d1c"
-					variablename="Oferta">
-					</var>
-					<var
-					dataname="TomadorComoBenef"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="c9ebcd1a-573b-455c-a2cb-be24e91ed663"
-					variablename="TomadorComoBenef">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="0b05c206-f874-4238-9d44-d1a78e5503ac"
@@ -582,14 +438,6 @@
 					variablename="NumSolicitudPoliza">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="0c1bf977-9ed0-4c15-b09f-d2a4dc71f8f2"
@@ -610,20 +458,6 @@
 					variablename="OPCION_PAGOCUOTAS">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="0c775e44-fed3-4db7-9da5-0616f4803d16"
@@ -638,14 +472,6 @@
 					variablename="URL">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="0c77928c-05f6-4a19-ac79-2efbed448d09"
@@ -738,20 +564,6 @@
 					variablename="OPCION_PAGOCUOTAS">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="0e49a2a0-55ba-4a4f-a43a-c4065bd1266a"
@@ -778,26 +590,6 @@
 					variablename="Contrasenia">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="83737164-0d86-4a83-a5bc-62e1ea2320d5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="Usuario"
-					datasourceid="83737164-0d86-4a83-a5bc-62e1ea2320d5"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Contrasenia"
-					datasourceid="83737164-0d86-4a83-a5bc-62e1ea2320d5"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="0e4be902-dc3a-418b-ba8a-047d92e57d87"
@@ -911,26 +703,6 @@
 					variablename="OPCION_PAGOCUOTAS">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="MetodoDePago"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="fbfb25e7-a5ff-4b36-bb25-153a86c03b37"
-					variablename="MetodoDePago">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="12a96e73-a5da-407b-b8d1-43c65f8e088a"
@@ -974,14 +746,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="12eb8546-acc7-4d79-be39-a390d55c040f"
@@ -1098,14 +862,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="155ced6f-d68d-4d77-b59a-567b5f4a84f1"
@@ -1126,20 +882,6 @@
 					variablename="OPCION_PAGOCUOTAS">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="1568df61-eb3b-49e0-835b-e88f41541e70"
@@ -1160,20 +902,6 @@
 					variablename="TIPOPOLIZA">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="TIPOPOLIZA"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="3c2b5907-735e-42e1-87ab-42197132c013"
-					variablename="TIPOPOLIZA">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="159ea2cb-1990-46d8-90d4-0818587ab953"
@@ -1242,14 +970,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="1690efbf-d5e7-4cd7-bf47-ba252330b66e"
@@ -1291,14 +1011,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="1a3f0eee-9b4c-454f-8e67-ea948e496725"
@@ -1475,44 +1187,6 @@
 					variablename="FechaInicio">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="FechaInicio"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="253f7e5e-e31f-4444-8662-87abe76dadce"
-					variablename="FechaInicio">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-					<var
-					dataname="MetodoDePago"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="a1eb004d-5c0d-4810-8407-96022d7e077c"
-					variablename="MetodoDePago">
-					</var>
-					<var
-					dataname="TipoPlazo"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="cb2f33fd-632b-4035-88d1-53db657415c1"
-					variablename="TipoPlazo">
-					</var>
-					<var
-					dataname="CantVehiculos"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="9460d65f-d497-4301-aee2-2d445adb62c0"
-					variablename="CantVehiculos">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="1e524d2e-444d-48cf-a03c-e7346d103f4c"
@@ -1549,14 +1223,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="1f9515a2-c205-4e61-bffe-fce638118ece"
@@ -1583,40 +1249,12 @@
 					variablename="NumCBU">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="ConductoPago"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="75d02530-51e2-41af-a9a1-c326ff09b999"
-					variablename="ConductoPago">
-					</var>
-					<var
-					dataname="NumCBU"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="ef1b9e75-c41d-46f8-b2c6-d6c6d83934f7"
-					variablename="NumCBU">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="1f97d081-637a-4957-8403-659e5bb15efc"
 			name="Comisiones"
 			ref="cd462a8e-6a4e-4b79-b3c4-395f67857a8a"
 			type="Recording">
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="28b6ebe8-4083-4c88-acf7-0c9095a3019f"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -1632,14 +1270,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="21ef52a6-41c1-4d2f-8f88-379f4343ee8e"
@@ -1654,14 +1284,6 @@
 					variablename="URL">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="83737164-0d86-4a83-a5bc-62e1ea2320d5"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="23cf9aba-906d-41fc-a3fd-228f58aaea65"
@@ -1676,14 +1298,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="2421f2d7-5cc9-4edf-881b-71c66cbe3e43"
@@ -1698,14 +1312,6 @@
 					variablename="URL">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="24d4e70d-d2c6-42e4-b912-c595953f5bb4"
@@ -1720,14 +1326,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -1796,20 +1394,6 @@
 					variablename="TIPO_ENDOSO">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="TIPO_ENDOSO"
-					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-					variableid="66fe018d-0ba3-401c-91ac-e1ba1b545f18"
-					variablename="TIPO_ENDOSO">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="26124acf-0206-4a03-9e48-b6fc1ceb96a8"
@@ -1943,14 +1527,6 @@
 					variablename="URL">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testcase
 			datasource="ValidarFormularios_Emitida"
@@ -2040,44 +1616,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Calle"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="9d790da2-40b6-4878-94d5-10f04b10a8d1"
-					variablename="Calle">
-					</var>
-					<var
-					dataname="Provincia"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="f73ee919-8612-456f-a313-284304a22795"
-					variablename="Provincia">
-					</var>
-					<var
-					dataname="Localidad"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="5e5f6e2e-6dee-40de-a61d-9a6a1dc05a9e"
-					variablename="Localidad">
-					</var>
-					<var
-					dataname="Producto"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="836c1c3e-d03c-4189-b740-e4b62f5a283f"
-					variablename="Producto">
-					</var>
-					<var
-					dataname="TipoVivienda"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="ccb50087-6750-400c-9ba2-15079cb88a7c"
-					variablename="TipoVivienda">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="305114cb-88f3-4768-9f14-d9698ecd6669"
@@ -2114,14 +1652,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="3180b9f0-bd00-4ee2-a590-bb649479089a"
@@ -2158,14 +1688,6 @@
 					variablename="URL">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="31e2f1d8-2ed9-4dc4-a830-ddd3d38baeeb"
@@ -2184,14 +1706,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="32d5a0f5-ad75-49b0-bd64-921439758cde"
@@ -2206,14 +1720,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="33e58913-442a-4c33-a48f-8cbdd57408e6"
@@ -2351,32 +1857,6 @@
 					variablename="FechaVencimiento">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="TipoTarjeta"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="c0724723-8849-4422-bc10-5f4ba5e835c3"
-					variablename="TipoTarjeta">
-					</var>
-					<var
-					dataname="NumTarjetaCred"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="5dea6bb3-16ee-43e6-8622-1f2cfa38a7f9"
-					variablename="NumTarjetaCred">
-					</var>
-					<var
-					dataname="FechaVencimiento"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="c8f191f9-2bc5-42bd-a1a3-eff8a4975324"
-					variablename="FechaVencimiento">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="366a9ffd-b1a4-4bb5-b82c-49372a6a0562"
@@ -2391,14 +1871,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="371b633b-bf4e-4cfe-a3e5-052c2ab34d0d"
@@ -2491,44 +1963,6 @@
 					variablename="FechaInicio">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="FechaInicio"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="253f7e5e-e31f-4444-8662-87abe76dadce"
-					variablename="FechaInicio">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-					<var
-					dataname="MetodoDePago"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="a1eb004d-5c0d-4810-8407-96022d7e077c"
-					variablename="MetodoDePago">
-					</var>
-					<var
-					dataname="TipoPlazo"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="cb2f33fd-632b-4035-88d1-53db657415c1"
-					variablename="TipoPlazo">
-					</var>
-					<var
-					dataname="CantVehiculos"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="9460d65f-d497-4301-aee2-2d445adb62c0"
-					variablename="CantVehiculos">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="39aea3a5-da62-48c5-b46b-c15fcfd384e0"
@@ -2622,20 +2056,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="SumaAsegurada"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="d2cf53b0-d0d6-45ee-9341-300fc0c26aa7"
-					variablename="SumaAsegurada">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="3cdf0823-146b-4988-8dff-39c15abc3400"
@@ -2733,14 +2153,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="416c0b41-2934-43e3-99ba-7710d9b827d3"
@@ -2779,20 +2191,6 @@
 					variablename="OPCION_PAGOCUOTAS">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="42de6f50-6134-46c1-90ec-087158d63cc8"
@@ -2811,14 +2209,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testcase
 			datasource="EmisionMotor_Prendario"
@@ -2839,14 +2229,6 @@
 					variablename="URL">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="452e5a48-c12d-491e-877c-bd2f3fb9facf"
@@ -2989,20 +2371,6 @@
 					variablename="TIPOPOLIZA">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="TIPOPOLIZA"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="3c2b5907-735e-42e1-87ab-42197132c013"
-					variablename="TIPOPOLIZA">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -3018,14 +2386,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="4bce2237-b2b3-424c-8584-b2013d812455"
@@ -3052,26 +2412,6 @@
 					variablename="Contrasenia">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Usuario"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Contrasenia"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -3087,14 +2427,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="4c304f69-e42e-44f9-8181-0b19e993e3e9"
@@ -3179,20 +2511,6 @@
 					variablename="NroCuenta">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="NroCuenta"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="86ed9d1b-ce17-40b1-ab11-a57e2cb28cb0"
-					variablename="NroCuenta">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="4f64a1a7-b401-4ffc-99d9-e0749bc6351e"
@@ -3207,14 +2525,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="4fc1e988-3ad1-4dea-b39f-b13302b621de"
@@ -3259,14 +2569,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="51f3bfe8-8eed-4f1a-baac-5d79d5442412"
@@ -3293,26 +2595,6 @@
 					variablename="CantCuotas">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-					<var
-					dataname="CantCuotas"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="38723ca9-452e-4e8a-b17c-d7c8966bc2a2"
-					variablename="CantCuotas">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="525c4515-2fd8-4d46-839d-a3271fb79299"
@@ -3327,14 +2609,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="52ad2f98-be5b-4271-9d93-ef9658a0b328"
@@ -3495,14 +2769,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="5623a982-f0c4-4fa6-b462-7ef04e364b82"
@@ -3604,20 +2870,6 @@
 					variablename="NroCuenta">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="NroCuenta"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="86ed9d1b-ce17-40b1-ab11-a57e2cb28cb0"
-					variablename="NroCuenta">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="576ae103-b450-4cae-b83c-4b748d7e4c0b"
@@ -3638,20 +2890,6 @@
 					variablename="NroCuenta">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="NroCuenta"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="86ed9d1b-ce17-40b1-ab11-a57e2cb28cb0"
-					variablename="NroCuenta">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="577c4920-d710-4ca7-b225-4818fb84babd"
@@ -3725,14 +2963,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="5b6f831f-4570-4cec-a999-0a46bb051e0e"
@@ -3751,14 +2981,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="5d4849b7-e6e8-48dd-adfd-97cb80fd76c6"
@@ -3789,26 +3011,6 @@
 					variablename="NumCBU">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="ConductoPago"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="75d02530-51e2-41af-a9a1-c326ff09b999"
-					variablename="ConductoPago">
-					</var>
-					<var
-					dataname="NumCBU"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="ef1b9e75-c41d-46f8-b2c6-d6c6d83934f7"
-					variablename="NumCBU">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="5dd2662a-102a-4eb1-8175-112b004bc2e0"
@@ -3829,20 +3031,6 @@
 					variablename="NroCuenta">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="NroCuenta"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="86ed9d1b-ce17-40b1-ab11-a57e2cb28cb0"
-					variablename="NroCuenta">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -3886,20 +3074,6 @@
 					variablename="NumPoliza">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="NumPoliza"
-					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-					variableid="5b19c854-1a54-49cb-9047-6f69de5cc04a"
-					variablename="NumPoliza">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="5f074424-21e1-4ede-9987-db2610089a14"
@@ -3972,14 +3146,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="a599309f-9010-40df-b2c7-c6ea805927cd"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="5f7c0715-c89b-4505-811d-fa0de63c4f14"
@@ -4008,14 +3174,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="5fb28d5f-7723-429d-8980-e193b032bf63"
@@ -4030,14 +3188,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="608c93b4-6ad0-408a-8dd6-370040900685"
@@ -4116,14 +3266,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="768c1973-5b9e-4ee0-aad7-dfe2fb3faf96"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="618412d9-22ff-4a07-8692-96b210d8dc81"
@@ -4150,26 +3292,6 @@
 					variablename="OPCION_PAGOCUOTAS">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="MetodoDePago"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="39b71208-67be-4097-a76e-f824a8bd72fd"
-					variablename="MetodoDePago">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="636afa65-ebba-4c46-8418-b4a9fb0733c0"
@@ -4387,14 +3509,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="768c1973-5b9e-4ee0-aad7-dfe2fb3faf96"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="6583710e-3f9a-45d0-a796-c3c22f754ad6"
@@ -4429,20 +3543,6 @@
 					variablename="OPCION_PAGOCUOTAS">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="66d26d38-a61a-42c5-8784-9cb537c8d1c2"
@@ -4469,26 +3569,6 @@
 					variablename="Contrasenia">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="Usuario"
-					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Contrasenia"
-					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="685535e7-f882-4e6e-864c-12423392972e"
@@ -4503,14 +3583,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -4617,26 +3689,6 @@
 					variablename="TIPOPOLIZA">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="CodigoAgente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="adc9525d-0629-4cb8-ba1e-7631963edcb8"
-					variablename="CodigoAgente">
-					</var>
-					<var
-					dataname="TIPOPOLIZA"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="3c2b5907-735e-42e1-87ab-42197132c013"
-					variablename="TIPOPOLIZA">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="6bae73bd-910f-4571-aed4-04c7c7cb1b5a"
@@ -4697,74 +3749,6 @@
 					variablename="TipoConstruccion">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Provincia"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="011ad719-b571-4ff3-a505-dc06d8c0a930"
-					variablename="Provincia">
-					</var>
-					<var
-					dataname="Localidad"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="182e0895-c262-479b-a214-377a67da5cdc"
-					variablename="Localidad">
-					</var>
-					<var
-					dataname="Producto"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="af2970a8-a444-40b0-a03c-b45924021ac5"
-					variablename="Producto">
-					</var>
-					<var
-					dataname="TipoVivienda"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="552a0fb1-e9b4-418f-98aa-2eb241576c49"
-					variablename="TipoVivienda">
-					</var>
-					<var
-					dataname="NvoNro"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="9d63c9ae-4f3e-4842-a3d4-ca323891ee9f"
-					variablename="NvoNro">
-					</var>
-					<var
-					dataname="PlanPlanta"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="2dc1aba1-2685-4977-8cd2-cb276204ff27"
-					variablename="PlanPlanta">
-					</var>
-					<var
-					dataname="TipoConstruccion"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="49e8aee4-3a95-4db7-a0ac-6275f2d45e45"
-					variablename="TipoConstruccion">
-					</var>
-					<var
-					dataname="NvoCalle"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="f03f67fb-ee69-4e43-ba7a-25b212b7c310"
-					variablename="NvaCalle">
-					</var>
-					<var
-					dataname="NvoPcia"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="be68ceca-6f4a-48f5-9aa5-8d5366603a12"
-					variablename="NvaPcia">
-					</var>
-					<var
-					dataname="NvaLocalidad"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="cbf7f3c4-173c-47ef-a06f-ee39f110423e"
-					variablename="NvaCiudad">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -4780,14 +3764,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -4850,20 +3826,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="NroCuenta"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="86ed9d1b-ce17-40b1-ab11-a57e2cb28cb0"
-					variablename="NroCuenta">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="72ca6d35-42ae-4d47-9cfa-6bb8a776c1c8"
@@ -4914,14 +3876,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="74dae02f-ebf7-42fb-b405-91436bb0adb2"
@@ -4940,14 +3894,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			datasource="Endoso_ExclusionRiesgo_Vehiculos"
@@ -5007,26 +3953,6 @@
 					variablename="Contrasenia">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Usuario"
-					datasourceid="14dde014-713f-4950-92e8-77ec26f8a82e"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Contrasenia"
-					datasourceid="14dde014-713f-4950-92e8-77ec26f8a82e"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="14dde014-713f-4950-92e8-77ec26f8a82e"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="79aaa7c0-b751-4336-9806-29dbf00360c6"
@@ -5047,14 +3973,6 @@
 					variablename="SumaAseguradaCobHogar">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="79c867b8-da2c-4e99-a388-fdce4a52b836"
@@ -5069,14 +3987,6 @@
 					variablename="URL">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="7a11e1bd-8df4-49d8-bcb5-0754b2446ec6"
@@ -5097,20 +4007,6 @@
 					variablename="OPCION_PAGOCUOTAS">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="7c0c8acc-bea3-407b-bb6e-ea9327a777dd"
@@ -5125,14 +4021,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="7d364bd8-5a83-45e1-9b31-8a845b087271"
@@ -5199,14 +4087,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="83737164-0d86-4a83-a5bc-62e1ea2320d5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			datasource="CoberturasHogar"
@@ -5253,26 +4133,6 @@
 					variablename="Contrasenia">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Usuario"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Contrasenia"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -5300,26 +4160,6 @@
 					variablename="Contrasenia">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Usuario"
-					datasourceid="a599309f-9010-40df-b2c7-c6ea805927cd"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Contrasenia"
-					datasourceid="a599309f-9010-40df-b2c7-c6ea805927cd"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="a599309f-9010-40df-b2c7-c6ea805927cd"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="825c75d0-4d41-4a34-abf6-4927dfbf891a"
@@ -5334,14 +4174,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="826c82a3-7f26-4f90-a85b-20cabf97c69a"
@@ -5368,26 +4200,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="Usuario"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Contrasenia"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="8322bd2c-55e9-4309-aade-e42642d41782"
@@ -5432,44 +4244,6 @@
 					variablename="NumeroDocumento">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Actividad"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="c6cfcee9-4572-4b4d-94fb-1ed0500e2b25"
-					variablename="Actividad">
-					</var>
-					<var
-					dataname="CantidadVigente"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="fc2a41ca-f448-4ba0-b0b8-10e1fd9bbd1b"
-					variablename="CantidadVigente">
-					</var>
-					<var
-					dataname="SumaAsegurada"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e3bb0bb3-f0a7-4803-93dc-c5582cd29ae4"
-					variablename="SumaAsegurada">
-					</var>
-					<var
-					dataname="TipoDocumento"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e5bbd427-f3d2-461f-93d0-74272e719b80"
-					variablename="TipoDocumento">
-					</var>
-					<var
-					dataname="NumeroDocumento"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="1edca5f8-2cf7-42eb-9b85-d1e9ec32e944"
-					variablename="NumeroDocumento">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="8487e29c-8ddd-468f-958a-069e17eb4820"
@@ -5555,14 +4329,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="a599309f-9010-40df-b2c7-c6ea805927cd"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="8567fcc6-2004-4f47-8ada-9ad3fb6f797c"
@@ -5577,14 +4343,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="768c1973-5b9e-4ee0-aad7-dfe2fb3faf96"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="862a31a5-56e6-47e7-83a1-3af6ac88a165"
@@ -5599,14 +4357,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="14dde014-713f-4950-92e8-77ec26f8a82e"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="8680c8b5-2a9e-4057-9c91-bdc6eac67ca9"
@@ -5625,14 +4375,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="88b4e08d-051b-4ca1-897b-67f9aa430dc0"
@@ -5659,26 +4401,6 @@
 					variablename="CantCuotas">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-					<var
-					dataname="CantCuotas"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="38723ca9-452e-4e8a-b17c-d7c8966bc2a2"
-					variablename="CantCuotas">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="88cfc030-662f-4c2f-bad4-11e71fbd2490"
@@ -5782,26 +4504,6 @@
 					variablename="CantCuotas">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-					<var
-					dataname="CantCuotas"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="38723ca9-452e-4e8a-b17c-d7c8966bc2a2"
-					variablename="CantCuotas">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="8b3b4ab6-b6a5-4cd7-b668-fe3f9c2ec0b5"
@@ -5880,26 +4582,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="Usuario"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Contrasenia"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="8c754a0d-18e5-4d02-acc9-24cc1896cc71"
@@ -5949,14 +4631,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="8cbcf99a-073e-4244-8ba7-b0f5aa35d553"
@@ -6036,14 +4710,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="8f5b8dc4-2e31-461b-9b06-223e307890ad"
@@ -6070,26 +4736,6 @@
 					variablename="Contrasenia">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Usuario"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Contrasenia"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="8f8c59f0-e2cd-421a-aa0f-54deb3115b6b"
@@ -6142,26 +4788,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="Usuario"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Contrasenia"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="91d8bdc7-db70-41ae-b382-8fa95286b5e0"
@@ -6294,26 +4920,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="CodigoAgente"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="adc9525d-0629-4cb8-ba1e-7631963edcb8"
-					variablename="CodigoAgente">
-					</var>
-					<var
-					dataname="TIPOPOLIZA"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="3c2b5907-735e-42e1-87ab-42197132c013"
-					variablename="TIPOPOLIZA">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="926cdb12-3be4-4be1-9462-7321b2574f93"
@@ -6416,14 +5022,6 @@
 					variablename="NroPoliza">
 					</var>
 				</databinding>
-				<missingdatavariablesbinding>
-					<var
-					dataname="NumPoliza"
-					datasourceid="b597c1a4-3bad-4649-96f5-e82a5fe45674"
-					variableid="6d640889-04a7-4d7a-ba5e-d41d1989006d"
-					variablename="NumPoliza">
-					</var>
-				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
 			id="99862db0-6d85-42e4-b466-6e4feb62f816"
@@ -6497,14 +5095,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="9c04b6b9-92e8-468b-9b14-189935726050"
@@ -6525,14 +5115,6 @@
 					variablename="NombreArchivo">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="28b6ebe8-4083-4c88-acf7-0c9095a3019f"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="9c191d87-aa4e-4bf5-aa21-ad690ff5969f"
@@ -6559,26 +5141,6 @@
 					variablename="Contrasenia">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Contrasenia"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-					<var
-					dataname="Usuario"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="9c347a6e-eef9-4459-90be-daeb437d2713"
@@ -6593,14 +5155,6 @@
 					variablename="NroTransaccion">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="28b6ebe8-4083-4c88-acf7-0c9095a3019f"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="9ef14a78-b344-4d16-a296-c445a30c78e5"
@@ -6701,26 +5255,6 @@
 					variablename="CantCuotas">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-					<var
-					dataname="CantCuotas"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="38723ca9-452e-4e8a-b17c-d7c8966bc2a2"
-					variablename="CantCuotas">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="a0d89e12-2c44-4c16-b3eb-41c3cfcd2093"
@@ -6885,14 +5419,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			datasource="flotaMotor_DS"
@@ -6969,14 +5495,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="aab18114-8ce2-4550-8dc5-056977b3a2af"
@@ -7013,26 +5531,6 @@
 					variablename="NumeroDocumento">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="TipoDocumento"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="f17dab93-da0f-4001-bdd0-8ed3e646fbaa"
-					variablename="TipoDocumento">
-					</var>
-					<var
-					dataname="NumeroDocumento"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="6739dced-b815-4a81-abfd-c13123de938a"
-					variablename="NumeroDocumento">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="b1125262-956c-4c7e-a110-8f56ad518e75"
@@ -7047,14 +5545,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="b121d1c7-8152-4b4e-a5e5-66c5b658f39d"
@@ -7234,68 +5724,6 @@
 					variablename="Actividad">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="Anio"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="b33950d6-3d59-43a8-b2e5-3f0f339f77ab"
-					variablename="Anio">
-					</var>
-					<var
-					dataname="Marca"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="530cc40f-c5ca-499d-8134-cc7de4b9df6a"
-					variablename="Marca">
-					</var>
-					<var
-					dataname="Modelo"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="ca116355-04ae-4788-a082-c59d2549f9a5"
-					variablename="Modelo">
-					</var>
-					<var
-					dataname="SumaAsegurada"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="4a0ed49e-feb3-4307-aff7-07782ac32de7"
-					variablename="SumaAsegurada">
-					</var>
-					<var
-					dataname="Producto"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e2cdec4e-22ac-4626-b31e-3efcc29b593c"
-					variablename="Producto">
-					</var>
-					<var
-					dataname="Patente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e8224fca-8080-4ad3-90af-9cb992c61e30"
-					variablename="Patente">
-					</var>
-					<var
-					dataname="Motor"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="ad7ae700-5483-453a-afb1-ab8843eedf86"
-					variablename="Motor">
-					</var>
-					<var
-					dataname="Chasis"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="c36048c9-4d5a-4bad-b6b8-658dd965e627"
-					variablename="Chasis">
-					</var>
-					<var
-					dataname="Actividad"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="1584d5c5-17f1-4934-a8ee-6aa46e81b1e3"
-					variablename="Actividad">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="b6b254dd-51e7-42ff-b5c8-b01463dd0401"
@@ -7310,14 +5738,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="b6c685fc-1c94-4322-8322-5e3ee0247ba1"
@@ -7338,20 +5758,6 @@
 					variablename="TIPOPOLIZA">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="TIPOPOLIZA"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="3c2b5907-735e-42e1-87ab-42197132c013"
-					variablename="TIPOPOLIZA">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			datasource="Endoso_InclusionRiesgo_Vehiculos"
@@ -7376,14 +5782,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="b7d4935e-d743-41af-9884-dace6d8240a0"
@@ -7454,14 +5852,6 @@
 					variablename="URL">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="768c1973-5b9e-4ee0-aad7-dfe2fb3faf96"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="bae33c86-758c-461e-81e7-a90950654312"
@@ -7544,14 +5934,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="83737164-0d86-4a83-a5bc-62e1ea2320d5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="bdbc94d8-3a6b-4040-8158-e6c71be9162b"
@@ -7566,14 +5948,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="bef7a8a6-2da7-4d7f-b0f7-f8f85de87c3d"
@@ -7588,14 +5962,6 @@
 					variablename="URL">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="bf459028-3a8a-49cd-af87-90394b9d7bbb"
@@ -7646,26 +6012,6 @@
 					variablename="CantCuotas">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-					<var
-					dataname="CantCuotas"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="38723ca9-452e-4e8a-b17c-d7c8966bc2a2"
-					variablename="CantCuotas">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="c098ba23-f55f-4429-85bc-c60ac14a5bc2"
@@ -7750,14 +6096,6 @@
 					variablename="URL">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="c218dc88-256e-4c5f-9838-e1ad9b69ba69"
@@ -7890,20 +6228,6 @@
 					variablename="NroCuenta">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="NroCuenta"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="86ed9d1b-ce17-40b1-ab11-a57e2cb28cb0"
-					variablename="NroCuenta">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="c60f1d7b-3103-49c6-abaa-9dc770689d6c"
@@ -7924,20 +6248,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="NroPoliza"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="42428f7f-6975-4ad4-9ef7-76736c2aa29d"
-					variablename="NroPoliza">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="c64173d0-43a0-430a-af15-d264d8c112f2"
@@ -7952,14 +6262,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -8034,26 +6336,6 @@
 					variablename="CantCuotas">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-					<var
-					dataname="CantCuotas"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="38723ca9-452e-4e8a-b17c-d7c8966bc2a2"
-					variablename="CantCuotas">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="c741ea04-a426-40cb-a1e2-ef1dc63f7e66"
@@ -8116,14 +6398,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="cc78dc28-3e8d-4f2a-ae80-4ae8051bfed7"
@@ -8150,26 +6424,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="MetodoDePago"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="8176b232-5607-419b-a9c5-2840cda0fc1e"
-					variablename="MetodoDePago">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="ccc5abd9-d302-41c5-b3d5-ba05f05ce832"
@@ -8207,14 +6461,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="a599309f-9010-40df-b2c7-c6ea805927cd"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="ce1af20c-f4f7-4393-b804-9173faaee738"
@@ -8438,26 +6684,6 @@
 					variablename="NUM_GRUPO">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="CodigoAgente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="82173b09-8bbf-4e2e-8375-40886c9c86be"
-					variablename="CodigoAgente">
-					</var>
-					<var
-					dataname="NUM_GRUPO"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="83067c29-0671-4e04-b81a-f3a234251e38"
-					variablename="NUM_GRUPO">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="d53611bb-bcce-4404-a3c6-d9bd34b8d085"
@@ -8472,14 +6698,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="d6026116-a97d-4fac-9dbb-ee11232c7c42"
@@ -8510,26 +6728,6 @@
 					variablename="Contrasenia">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Usuario"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Contrasenia"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testcase
 			id="d7c05272-23b6-40b0-82d1-68f500915bfb"
@@ -8569,26 +6767,6 @@
 					variablename="Contrasenia">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Contrasenia"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-					<var
-					dataname="Usuario"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -8604,14 +6782,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="da4bd4e8-a1af-4025-b558-17222d64cd03"
@@ -8645,28 +6815,12 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="dab1fe85-dca2-4727-8ba7-69c51b3671c4"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
 			type="Recording">
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="28b6ebe8-4083-4c88-acf7-0c9095a3019f"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="dc5d0322-3247-4144-976e-8556ef60aba6"
@@ -8716,20 +6870,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="NroPoliza"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="42428f7f-6975-4ad4-9ef7-76736c2aa29d"
-					variablename="NroPoliza">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="ddee026d-e649-4dd5-ba9c-091a3f435c6f"
@@ -8784,20 +6924,6 @@
 					variablename="OPCION_PAGOCUOTAS">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="ded0136e-37be-4d08-8a32-5fb53dcbe0e5"
@@ -8832,14 +6958,6 @@
 					variablename="URL">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="e25dfe99-ba27-4e05-868d-891cd033f2b6"
@@ -8879,14 +6997,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="e3a4328c-2169-4272-9861-12a85337f2b7"
@@ -8901,14 +7011,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -8942,14 +7044,6 @@
 					variablename="URL">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="e4070f0f-62e0-46c4-a465-58d69d053cec"
@@ -8986,32 +7080,6 @@
 					variablename="FechaVencimiento">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="TipoTarjeta"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="c0724723-8849-4422-bc10-5f4ba5e835c3"
-					variablename="TipoTarjeta">
-					</var>
-					<var
-					dataname="NumTarjetaCred"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="5dea6bb3-16ee-43e6-8622-1f2cfa38a7f9"
-					variablename="NumTarjetaCred">
-					</var>
-					<var
-					dataname="FechaVencimiento"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="c8f191f9-2bc5-42bd-a1a3-eff8a4975324"
-					variablename="FechaVencimiento">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="e7aea607-8bc6-4042-b780-fe3148bd1f2f"
@@ -9080,68 +7148,6 @@
 					variablename="Actividad">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="Anio"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="b33950d6-3d59-43a8-b2e5-3f0f339f77ab"
-					variablename="Anio">
-					</var>
-					<var
-					dataname="Marca"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="530cc40f-c5ca-499d-8134-cc7de4b9df6a"
-					variablename="Marca">
-					</var>
-					<var
-					dataname="Modelo"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="ca116355-04ae-4788-a082-c59d2549f9a5"
-					variablename="Modelo">
-					</var>
-					<var
-					dataname="SumaAsegurada"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="4a0ed49e-feb3-4307-aff7-07782ac32de7"
-					variablename="SumaAsegurada">
-					</var>
-					<var
-					dataname="Producto"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e2cdec4e-22ac-4626-b31e-3efcc29b593c"
-					variablename="Producto">
-					</var>
-					<var
-					dataname="Patente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e8224fca-8080-4ad3-90af-9cb992c61e30"
-					variablename="Patente">
-					</var>
-					<var
-					dataname="Motor"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="ad7ae700-5483-453a-afb1-ab8843eedf86"
-					variablename="Motor">
-					</var>
-					<var
-					dataname="Chasis"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="c36048c9-4d5a-4bad-b6b8-658dd965e627"
-					variablename="Chasis">
-					</var>
-					<var
-					dataname="Actividad"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="1584d5c5-17f1-4934-a8ee-6aa46e81b1e3"
-					variablename="Actividad">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testcase
 			datasource="CotizarHogar_Enlatado"
@@ -9174,26 +7180,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="768c1973-5b9e-4ee0-aad7-dfe2fb3faf96"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="Usuario"
-					datasourceid="768c1973-5b9e-4ee0-aad7-dfe2fb3faf96"
-					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
-					variablename="Usuario">
-					</var>
-					<var
-					dataname="Contrasenia"
-					datasourceid="768c1973-5b9e-4ee0-aad7-dfe2fb3faf96"
-					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
-					variablename="Contrasenia">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="e9de81e5-6a8d-44fb-94e4-8bd6ee22618a"
@@ -9208,14 +7194,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="ead2f3c3-3637-4bca-8965-f2e968df4c68"
@@ -9256,14 +7234,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testcase
 			datasource="ValidarFormularios_Cotizada"
@@ -9315,14 +7285,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="83737164-0d86-4a83-a5bc-62e1ea2320d5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="ee32fc05-ae20-43ec-bbfa-e7c1dad99bc8"
@@ -9343,48 +7305,18 @@
 					variablename="TIPOPOLIZA">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="TIPOPOLIZA"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="3c2b5907-735e-42e1-87ab-42197132c013"
-					variablename="TIPOPOLIZA">
-					</var>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="ee79b6d5-1fe2-4dbb-89a8-03a2014f0453"
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
 			type="Recording">
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="28b6ebe8-4083-4c88-acf7-0c9095a3019f"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="eeae7876-d1dd-4949-aab3-f8ecb88a736c"
 			name="MenuLateral_Vehiculo"
 			ref="8c5cb056-0cce-46b3-abf2-22c402bebba6"
 			type="Recording">
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="28b6ebe8-4083-4c88-acf7-0c9095a3019f"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="eeef77e6-22b9-42a0-af9e-3c2ebf89a53a"
@@ -9415,26 +7347,6 @@
 					variablename="CantCuotas">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="OPCION_PAGOCUOTAS"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
-					variablename="OPCION_PAGOCUOTAS">
-					</var>
-					<var
-					dataname="CantCuotas"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="38723ca9-452e-4e8a-b17c-d7c8966bc2a2"
-					variablename="CantCuotas">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<teardown
 			id="efc0e90f-9bac-4429-b94c-346d7eab96b5"
@@ -9453,14 +7365,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -9512,14 +7416,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="f3ac58f3-e329-4d95-9937-d74537fb1fd0"
@@ -9539,14 +7435,6 @@
 					variablename="URL">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="a599309f-9010-40df-b2c7-c6ea805927cd"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="f46a0cc1-6866-4bc8-97be-432c58d96d78"
@@ -9575,14 +7463,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="f5424a78-3714-4177-9320-00c683456ab1"
@@ -9603,20 +7483,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="768c1973-5b9e-4ee0-aad7-dfe2fb3faf96"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-					<var
-					dataname="NroPoliza"
-					datasourceid="768c1973-5b9e-4ee0-aad7-dfe2fb3faf96"
-					variableid="42428f7f-6975-4ad4-9ef7-76736c2aa29d"
-					variablename="NroPoliza">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="f60df820-18ed-427c-a07a-090040a273c9"
@@ -9631,14 +7497,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="f610699f-7d73-4f23-81b0-6e380c9eefb9"
@@ -9649,14 +7507,6 @@
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
 			type="Recording">
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="28b6ebe8-4083-4c88-acf7-0c9095a3019f"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="f94a37ce-53e4-48da-8a79-47ea9d42db5d"
@@ -9671,14 +7521,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -9716,14 +7558,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="fbc36a8b-aea0-4f95-97b0-8981b4c447c6"
@@ -9784,14 +7618,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			enabled="False"
@@ -9833,14 +7659,6 @@
 					variablename="URL">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="URL"
-					datasourceid="14dde014-713f-4950-92e8-77ec26f8a82e"
-					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
-					variablename="URL">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="fefc3589-a5ee-49d8-b603-85e773dc819b"
@@ -9855,14 +7673,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="ff8acb70-2f70-4477-a1e7-08f8a76db2d4"
@@ -9877,14 +7687,6 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
-				<missingdatabinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			id="ffacfab4-5440-4874-a85f-3c08b5e5a2fe"
@@ -12750,10 +10552,10 @@
 	</testconfigurations>
 	<references>
 		<reference>
-			C:\windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll
 		</reference>
 		<reference>
-			C:\windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Office.Tools.Excel\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.Office.Tools.Excel.dll
+			C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Office.Tools.Excel\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.Office.Tools.Excel.dll
 		</reference>
 	</references>
 </testsuitedoc>

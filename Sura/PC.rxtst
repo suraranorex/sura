@@ -5849,7 +5849,6 @@
 			name="teardown111111">
 			</teardown>
 			<testcase
-			datarangeactive="True"
 			datarangeset="1,2"
 			datasource="EmisionMotor"
 			errorbehavior="ContinueNextIteration"
@@ -18597,7 +18596,7 @@
 		filename="DataSource - Emision Motor.xlsx"
 		id="9027bcb8-f348-4440-91bd-e34ee0858dc1"
 		includefile="Checked"
-		lastknownrowcount="102"
+		lastknownrowcount="504"
 		name="EmisionMotor"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"

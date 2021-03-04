@@ -10,9 +10,17 @@
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
       <string>2fa0cd5e-540b-40b9-b36a-99f05d563079</string>
       <string>6d2fba6e-4ad7-4514-83d3-9a6fbb8b3152</string>
+<<<<<<< HEAD
       <string>e7a34f90-362d-4b10-8cd5-546b393d193e</string>
     </ArrayOfString>
   </SerializedValue>
   <ProjectBrowserState value="[Solution Sura[Sura[PC_GestionDocumental.rxtst[]]]]&#xD;&#xA;Solution Sura\Sura\PC_GestionDocumental.rxtst&#xD;&#xA;Solution Sura" />
+=======
+      <string>811b0ba1-f496-460a-85e2-c928a0dc0a51</string>
+      <string>e7a34f90-362d-4b10-8cd5-546b393d193e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Sura[Sura[Reports[]BC.rxtst[]SuraRepository.rxrep[]]]]&#xD;&#xA;Solution Sura\Sura\PC.rxtst&#xD;&#xA;Solution Sura\Sura" />
+>>>>>>> 557463a18b171201dc0c9612810108f8d6db35d2
   <StartupProject value="{9F6470D6-24A8-4006-AA8A-74B35DD73A26}" />
 </Properties>
