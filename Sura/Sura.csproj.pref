@@ -1,10 +1,19 @@
 ﻿<Properties>
   <Array name="active">
+<<<<<<< HEAD
     <Element value="BC.rxtst" />
+=======
+    <Element value="PC_GestionDocumental.rxtst" />
+>>>>>>> 4f976f0df3c48ecacedd969cb550c44c4ae41f62
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="BC.rxtst" />
+<<<<<<< HEAD
+=======
+    <Element value="PC.rxtst" />
+    <Element value="PC_GestionDocumental.rxtst" />
+>>>>>>> 4f976f0df3c48ecacedd969cb550c44c4ae41f62
   </Array>
   <Properties name="projectSavedData" />
 </Properties>
