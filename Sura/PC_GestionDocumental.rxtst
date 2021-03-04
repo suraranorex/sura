@@ -673,6 +673,53 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
+			enabled="False"
+			id="0cabfe76-61f7-48d2-b82d-7fcbe23e7f50"
+			name="Login"
+			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="47396740-83cc-455a-bc94-d967e7bbdbc7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="47396740-83cc-455a-bc94-d967e7bbdbc7"
+					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="47396740-83cc-455a-bc94-d967e7bbdbc7"
+					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
+					variablename="Contrasenia">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="0cb1c8d3-dbb2-45fb-b4b1-fc8383dcea08"
 			name="Cant_Cuotas"
 			ref="b72675f6-1250-4843-966e-038436ac00a4"
@@ -753,14 +800,83 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
+			id="0e4be902-dc3a-418b-ba8a-047d92e57d87"
+			name="MenuSuperior_Poliza"
+			ref="8c3cc7b2-dae0-4f18-97b1-6b9eaf4b957a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="NumPoliza"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="5b19c854-1a54-49cb-9047-6f69de5cc04a"
+					variablename="NumPoliza">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="NumPoliza"
+					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
+					variableid="5b19c854-1a54-49cb-9047-6f69de5cc04a"
+					variablename="NumPoliza">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testcase
+			datasource="Endoso_AdicionalBlanket"
+			id="100c9e32-8c26-4af9-93a9-e906b86f238f"
+			name="EndosoModifKM_Blanket">
+			</testcase>
+			<testmodule
 			id="1036e386-2d5f-4989-8407-e792bb6abb68"
 			name="TR_VARIABLE"
 			ref="4f0933b3-d143-49e9-9f80-604f703deca7"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Ambiente"
 					datasourceid="669045e1-d1e5-4314-9038-060ce1509719"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="109fba2d-13c2-41e3-aadd-2ea17dbc0f05"
+			name="EmitirEndoso"
+			ref="453af12a-922a-43d9-89e6-d3a04a749a6c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
@@ -1140,6 +1256,29 @@
 			name="setup1">
 			</setup>
 			<testmodule
+			enabled="False"
+			id="17b2b5ca-6d2e-4e4b-921e-5ee0d7378f8f"
+			name="Logout"
+			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="19505119-d2ab-494b-8f37-e9f673c96501"
 			name="ContinueInformacionPoliza"
 			ref="10ba3d58-cb70-405c-a838-1180fdec8436"
@@ -1266,6 +1405,29 @@
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
+			<testmodule
+			enabled="False"
+			id="1dd24712-48ff-440a-9e64-241dc9e6a262"
+			name="Logout"
+			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="47396740-83cc-455a-bc94-d967e7bbdbc7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<setup
 			id="1ddc7a6e-3e15-410b-b822-c7153a343d2b"
 			name="setup">
@@ -1746,6 +1908,29 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
+			enabled="False"
+			id="28c5354d-93cb-4593-b013-ccec99d4c616"
+			name="CloseBrowser"
+			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="2ab0bfbf-88de-4b7a-bd00-005ccde84580"
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
@@ -1889,6 +2074,28 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="305114cb-88f3-4768-9f14-d9698ecd6669"
+			name="SolicitudPoliza_BuscarGrupo"
+			ref="29d3ce62-0a4b-4b17-b28c-f81e165623c5"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="3dc78185-c2d9-48cd-9f04-fd9c3c877dc4"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
@@ -2091,6 +2298,29 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
+			id="355dd20a-e408-4b9e-b9cc-bfd5374b1f15"
+			name="OpenBrowser_PC"
+			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
+					variablename="URL">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="URL"
+					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
+					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
+					variablename="URL">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="356ddfdf-b7e9-46bc-9491-7fc5a204fc2a"
 			name="TarjetaCredito"
 			ref="a3d84a58-e992-4cc8-b590-f8de666c9b00"
@@ -2179,6 +2409,20 @@
 			name="Cant_Cuotas"
 			ref="b72675f6-1250-4843-966e-038436ac00a4"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="OPCION_PAGOCUOTAS"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
+					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
+					variablename="OPCION_PAGOCUOTAS">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Ambiente"
@@ -2194,6 +2438,10 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
+			<teardown
+			id="382b3c91-dd76-4a65-936f-f797375f6265"
+			name="teardown">
+			</teardown>
 			<testcase
 			datasource="EmisionMotor_VariosVeh_General"
 			errorbehavior="ContinueNextIteration"
@@ -2283,6 +2531,28 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
+			id="39aea3a5-da62-48c5-b46b-c15fcfd384e0"
+			name="EmitirEndoso"
+			ref="453af12a-922a-43d9-89e6-d3a04a749a6c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="47396740-83cc-455a-bc94-d967e7bbdbc7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="3acfa08a-ceaa-452e-a8e6-f6840abc52b3"
 			name="EmitirEndoso"
 			ref="453af12a-922a-43d9-89e6-d3a04a749a6c"
@@ -2364,6 +2634,40 @@
 					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="3cdf0823-146b-4988-8dff-39c15abc3400"
+			name="AltaEndoso"
+			ref="8eefbd7d-6bd3-421b-951d-5cfa94cb5047"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="TIPO_ENDOSO"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="66fe018d-0ba3-401c-91ac-e1ba1b545f18"
+					variablename="TIPO_ENDOSO">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="TIPO_ENDOSO"
+					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
+					variableid="66fe018d-0ba3-401c-91ac-e1ba1b545f18"
+					variablename="TIPO_ENDOSO">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -2817,6 +3121,29 @@
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
+			<testmodule
+			enabled="False"
+			id="4c564b62-2486-4737-b124-1be1b749ec49"
+			name="CloseBrowser"
+			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="47396740-83cc-455a-bc94-d967e7bbdbc7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<testcase
 			datasource="Endoso_InclusionRiesgo"
 			errorbehavior="ContinueNextIteration"
@@ -2884,6 +3211,32 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<setup
+			id="4fc1e988-3ad1-4dea-b39f-b13302b621de"
+			name="setup">
+			</setup>
+			<testmodule
+			id="50662802-f47c-40b3-9062-d7c66d97cdbb"
+			name="MenuLateral_Poliza"
+			ref="580f0ee5-bfb6-4935-aa16-2f9062ec3587"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="47396740-83cc-455a-bc94-d967e7bbdbc7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
@@ -3152,6 +3505,40 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
+			id="5623a982-f0c4-4fa6-b462-7ef04e364b82"
+			name="AltaEndoso"
+			ref="8eefbd7d-6bd3-421b-951d-5cfa94cb5047"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="47396740-83cc-455a-bc94-d967e7bbdbc7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="TIPO_ENDOSO"
+					datasourceid="47396740-83cc-455a-bc94-d967e7bbdbc7"
+					variableid="66fe018d-0ba3-401c-91ac-e1ba1b545f18"
+					variablename="TIPO_ENDOSO">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="TIPO_ENDOSO"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="66fe018d-0ba3-401c-91ac-e1ba1b545f18"
+					variablename="TIPO_ENDOSO">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			enabled="False"
 			id="57132095-a16d-4c6a-9d0b-2de05b7fb44e"
 			name="Login"
@@ -3291,6 +3678,40 @@
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
+			<testmodule
+			id="5850466e-3916-43a8-9626-6c99e00ab3cd"
+			name="MenuSuperior_Poliza"
+			ref="8c3cc7b2-dae0-4f18-97b1-6b9eaf4b957a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="47396740-83cc-455a-bc94-d967e7bbdbc7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="NumPoliza"
+					datasourceid="47396740-83cc-455a-bc94-d967e7bbdbc7"
+					variableid="5b19c854-1a54-49cb-9047-6f69de5cc04a"
+					variablename="NumPoliza">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="NumPoliza"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="5b19c854-1a54-49cb-9047-6f69de5cc04a"
+					variablename="NumPoliza">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<testmodule
 			id="5a5b5646-1a10-4968-958b-b08a418d105c"
 			name="MenuLateral_Formularios"
@@ -3485,6 +3906,32 @@
 			name="TarjetaCredito"
 			ref="a3d84a58-e992-4cc8-b590-f8de666c9b00"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="TipoTarjeta"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
+					variableid="c0724723-8849-4422-bc10-5f4ba5e835c3"
+					variablename="TipoTarjeta">
+					</var>
+					<var
+					dataname="NumTarjetaCred"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
+					variableid="5dea6bb3-16ee-43e6-8622-1f2cfa38a7f9"
+					variablename="NumTarjetaCred">
+					</var>
+					<var
+					dataname="FechaVencimiento"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
+					variableid="c8f191f9-2bc5-42bd-a1a3-eff8a4975324"
+					variablename="FechaVencimiento">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Ambiente"
@@ -3886,6 +4333,26 @@
 			name="CantCuotasSi"
 			ref="85ecfd94-48d8-4830-8bf0-c03d5e87eece"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="OPCION_PAGOCUOTAS"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
+					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
+					variablename="OPCION_PAGOCUOTAS">
+					</var>
+					<var
+					dataname="CantCuotas"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
+					variableid="38723ca9-452e-4e8a-b17c-d7c8966bc2a2"
+					variablename="CantCuotas">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Ambiente"
@@ -4078,6 +4545,53 @@
 			id="6abee2b1-9604-4a8f-8a0a-55f8b34715fc"
 			name="EndosoMotor_ExclusionRiesgo">
 			</testcase>
+			<testmodule
+			enabled="False"
+			id="6af4a51a-ac5d-4098-b699-d4a082c2b7ae"
+			name="Login"
+			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
+					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
+					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
+					variablename="Contrasenia">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<testmodule
 			id="6b7abc61-3dc4-49fd-bc1b-d9bfa26879bc"
 			name="NuevaPoliza_Enlatados"
@@ -5000,6 +5514,12 @@
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="3dc78185-c2d9-48cd-9f04-fd9c3c877dc4"
+					variableid="6f7f07ec-644a-478e-b7a7-f7ea973f5459"
+					variablename="CodigoAgente">
+					</var>
 				</databinding>
 				<missingdatabinding>
 					<var
@@ -5218,6 +5738,11 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
+			<testcase
+			datasource="Endoso_PolizaComplementaria"
+			id="88dd64e1-62e1-4ceb-863e-8f0c56e73d38"
+			name="Endoso_PolizaComplementaria">
+			</testcase>
 			<testmodule
 			id="88eb567b-3f72-4a10-b0ac-d6945d6e20ed"
 			name="CloseBrowser"
@@ -5571,6 +6096,14 @@
 			name="TR_FIJA"
 			ref="4a387d35-8643-4106-b4fa-ff5dc012d2eb"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Ambiente"
@@ -5635,6 +6168,26 @@
 			name="DebitoBancario"
 			ref="da4f18e4-bc4d-40a1-bb93-bd5557a22c0c"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="ConductoPago"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
+					variableid="75d02530-51e2-41af-a9a1-c326ff09b999"
+					variablename="ConductoPago">
+					</var>
+					<var
+					dataname="NumCBU"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
+					variableid="ef1b9e75-c41d-46f8-b2c6-d6c6d83934f7"
+					variablename="NumCBU">
+					</var>
+				</databinding>
 				<missingdatabinding>
 					<var
 					dataname="Ambiente"
@@ -5871,6 +6424,12 @@
 					variablename="NumPoliza">
 					</var>
 				</missingdatavariablesbinding>
+			</testmodule>
+			<testmodule
+			id="99862db0-6d85-42e4-b466-6e4feb62f816"
+			name="EndosoBlanket_KM"
+			ref="a3cef25b-e865-4c37-94c3-4415b1271ac4"
+			type="Recording">
 			</testmodule>
 			<smartfoldernode
 			id="999a0a0a-8857-4333-b8c2-03a9e4aad60b"
@@ -7126,6 +7685,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<setup
+			id="c0c324b7-2619-42d8-af87-1eea647889a1"
+			name="setup">
+			</setup>
 			<testmodule
 			id="c0dc2a93-ff6f-4216-ac67-6dcc1ad845d0"
 			name="MenuSuperior_CuentaPC"
@@ -7152,6 +7715,28 @@
 			id="c119966e-9dd1-406d-8aac-ba32ae0d2975"
 			name="Cotizar_APEnlatado">
 			</testcase>
+			<testmodule
+			id="c11fc07d-6743-4873-9047-74c8d7cf6275"
+			name="MenuLateral_Poliza"
+			ref="580f0ee5-bfb6-4935-aa16-2f9062ec3587"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<testmodule
 			id="c18f8167-8234-4228-a9aa-04bffa1a3fdf"
 			name="OpenBrowser_PC"
@@ -7241,6 +7826,52 @@
 			name="Cotizar_APNoEnlatado">
 			</testcase>
 			<testmodule
+			id="c3f3720c-63c7-492a-ac18-c027fa0915f8"
+			name="BuscarGrupos"
+			ref="ccb0676d-cbbf-4ccf-866a-4c5daaaf449f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="3dc78185-c2d9-48cd-9f04-fd9c3c877dc4"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="3dc78185-c2d9-48cd-9f04-fd9c3c877dc4"
+					variableid="82173b09-8bbf-4e2e-8375-40886c9c86be"
+					variablename="CodigoAgente">
+					</var>
+					<var
+					dataname="NUM_GRUPO"
+					datasourceid="3dc78185-c2d9-48cd-9f04-fd9c3c877dc4"
+					variableid="83067c29-0671-4e04-b81a-f3a234251e38"
+					variablename="NUM_GRUPO">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
+					variableid="82173b09-8bbf-4e2e-8375-40886c9c86be"
+					variablename="CodigoAgente">
+					</var>
+					<var
+					dataname="NUM_GRUPO"
+					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
+					variableid="83067c29-0671-4e04-b81a-f3a234251e38"
+					variablename="NUM_GRUPO">
+					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="c4eb822a-755e-4859-b470-23c00c659bbc"
 			name="MenuSuperior_CuentaPC"
 			ref="bf174612-568c-4bc4-9383-74a62c199f00"
@@ -7327,6 +7958,29 @@
 					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			enabled="False"
+			id="c67250e6-037b-4470-91b3-97f07b922d19"
+			name="OpenBrowser_PC"
+			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="47396740-83cc-455a-bc94-d967e7bbdbc7"
+					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
+					variablename="URL">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="URL"
+					datasourceid="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
+					variablename="URL">
 					</var>
 				</missingdatabinding>
 			</testmodule>
@@ -7518,6 +8172,29 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
+			id="ccc5abd9-d302-41c5-b3d5-ba05f05ce832"
+			name="EndosoComplementaria_Destino"
+			ref="b0f1dc45-9887-440d-9137-524ff49589e5"
+			type="Recording">
+				<description>
+					<![CDATA[Agregar pasos previos y posteriores]]>
+				</description>
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="47396740-83cc-455a-bc94-d967e7bbdbc7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Destino"
+					datasourceid="47396740-83cc-455a-bc94-d967e7bbdbc7"
+					variableid="392d688b-a1f7-44af-a25f-a35cf553aadb"
+					variablename="Destino">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="cdd78a79-d812-4c34-9a24-99e90b7448d5"
 			name="Logout_Procesos"
 			ref="d4b52919-acfe-48e5-9b16-ef9edbbbf5d8"
@@ -7655,7 +8332,7 @@
 					</var>
 					<var
 					dataname="CodigoAgente"
-					datasourceid="d636e027-44e2-49c3-a29e-61b96224b357"
+					datasourceid="b883e774-fd66-44a6-b488-5148bd901e62"
 					variableid="6f7f07ec-644a-478e-b7a7-f7ea973f5459"
 					variablename="CodigoAgente">
 					</var>
@@ -8709,6 +9386,10 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
+			<teardown
+			id="eeef77e6-22b9-42a0-af9e-3c2ebf89a53a"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="eef19da3-a419-462a-b13f-e41280ca1e80"
 			name="CantCuotasSi"
@@ -10619,6 +11300,54 @@
 						</teardown>
 					</testcase>
 					<testcase
+					id="88dd64e1-62e1-4ceb-863e-8f0c56e73d38"
+					name="Endoso_PolizaComplementaria">
+						<setup
+						id="c0c324b7-2619-42d8-af87-1eea647889a1"
+						name="setup">
+							<testmodule
+							id="c67250e6-037b-4470-91b3-97f07b922d19"
+							name="OpenBrowser_PC">
+							</testmodule>
+							<testmodule
+							id="0cabfe76-61f7-48d2-b82d-7fcbe23e7f50"
+							name="Login">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="5850466e-3916-43a8-9626-6c99e00ab3cd"
+						name="MenuSuperior_Poliza">
+						</testmodule>
+						<testmodule
+						id="50662802-f47c-40b3-9062-d7c66d97cdbb"
+						name="MenuLateral_Poliza">
+						</testmodule>
+						<testmodule
+						id="5623a982-f0c4-4fa6-b462-7ef04e364b82"
+						name="AltaEndoso">
+						</testmodule>
+						<testmodule
+						id="ccc5abd9-d302-41c5-b3d5-ba05f05ce832"
+						name="EndosoComplementaria_Destino">
+						</testmodule>
+						<testmodule
+						id="39aea3a5-da62-48c5-b46b-c15fcfd384e0"
+						name="EmitirEndoso">
+						</testmodule>
+						<teardown
+						id="382b3c91-dd76-4a65-936f-f797375f6265"
+						name="teardown">
+							<testmodule
+							id="1dd24712-48ff-440a-9e64-241dc9e6a262"
+							name="Logout">
+							</testmodule>
+							<testmodule
+							id="4c564b62-2486-4737-b124-1be1b749ec49"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
+					</testcase>
+					<testcase
 					id="13838ddd-3185-46ee-8310-5491947035f4"
 					name="Emitir_PolizaBlanket">
 						<setup
@@ -10640,6 +11369,14 @@
 						<testmodule
 						id="3180b9f0-bd00-4ee2-a590-bb649479089a"
 						name="MenuLateral_CuentaPC">
+						</testmodule>
+						<testmodule
+						id="305114cb-88f3-4768-9f14-d9698ecd6669"
+						name="SolicitudPoliza_BuscarGrupo">
+						</testmodule>
+						<testmodule
+						id="c3f3720c-63c7-492a-ac18-c027fa0915f8"
+						name="BuscarGrupos">
 						</testmodule>
 						<testmodule
 						id="84a2b62e-83cf-485a-8488-7eebb66a6984"
@@ -10706,6 +11443,54 @@
 							</testmodule>
 							<testmodule
 							id="fa9dcf04-006f-4275-aeb1-d78beda71875"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
+					</testcase>
+					<testcase
+					id="100c9e32-8c26-4af9-93a9-e906b86f238f"
+					name="EndosoModifKM_Blanket">
+						<setup
+						id="4fc1e988-3ad1-4dea-b39f-b13302b621de"
+						name="setup">
+							<testmodule
+							id="355dd20a-e408-4b9e-b9cc-bfd5374b1f15"
+							name="OpenBrowser_PC">
+							</testmodule>
+							<testmodule
+							id="6af4a51a-ac5d-4098-b699-d4a082c2b7ae"
+							name="Login">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="0e4be902-dc3a-418b-ba8a-047d92e57d87"
+						name="MenuSuperior_Poliza">
+						</testmodule>
+						<testmodule
+						id="c11fc07d-6743-4873-9047-74c8d7cf6275"
+						name="MenuLateral_Poliza">
+						</testmodule>
+						<testmodule
+						id="3cdf0823-146b-4988-8dff-39c15abc3400"
+						name="AltaEndoso">
+						</testmodule>
+						<testmodule
+						id="99862db0-6d85-42e4-b466-6e4feb62f816"
+						name="EndosoBlanket_KM">
+						</testmodule>
+						<testmodule
+						id="109fba2d-13c2-41e3-aadd-2ea17dbc0f05"
+						name="EmitirEndoso">
+						</testmodule>
+						<teardown
+						id="eeef77e6-22b9-42a0-af9e-3c2ebf89a53a"
+						name="teardown">
+							<testmodule
+							id="17b2b5ca-6d2e-4e4b-921e-5ee0d7378f8f"
+							name="Logout">
+							</testmodule>
+							<testmodule
+							id="28c5354d-93cb-4593-b013-ccec99d4c616"
 							name="CloseBrowser">
 							</testmodule>
 						</teardown>
@@ -11139,6 +11924,12 @@
 					Contrasenia
 				</column>
 				<column>
+					CodigoAgente
+				</column>
+				<column>
+					NUM_GRUPO
+				</column>
+				<column>
 					NroCuenta
 				</column>
 				<column>
@@ -11188,7 +11979,7 @@
 		filename="Emisión Motor -Polizas Complementarias.xlsx"
 		id="b883e774-fd66-44a6-b488-5148bd901e62"
 		includefile="Checked"
-		lastknownrowcount="1"
+		lastknownrowcount="3"
 		name="EmisionMotor_PolizaComplementaria"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -11511,6 +12302,41 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
+		filename="Endoso Adicional - Blanket.xlsx"
+		id="06fdf5ea-aa3f-462e-8dd9-057f8bfa5fbd"
+		includefile="Checked"
+		lastknownrowcount="1"
+		name="Endoso_AdicionalBlanket"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Hoja1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					Ambiente
+				</column>
+				<column>
+					URL
+				</column>
+				<column>
+					Usuario
+				</column>
+				<column>
+					Contrasenia
+				</column>
+				<column>
+					NumPoliza
+				</column>
+				<column>
+					TIPO_ENDOSO
+				</column>
+				<column>
+					nuevoKms
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
 		filename="DataSource  - Endoso Exclusión de Riesgo.xlsx"
 		id="fc5579bd-ed77-4d7b-a14e-e88862c73c2d"
 		includefile="Checked"
@@ -11627,6 +12453,41 @@
 				</column>
 				<column>
 					Actividad
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
+		filename="Endoso Modificación de Riesgo - Complementaria.xlsx"
+		id="47396740-83cc-455a-bc94-d967e7bbdbc7"
+		includefile="Checked"
+		lastknownrowcount="1"
+		name="Endoso_PolizaComplementaria"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Hoja1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					Ambiente
+				</column>
+				<column>
+					URL
+				</column>
+				<column>
+					Usuario
+				</column>
+				<column>
+					Contrasenia
+				</column>
+				<column>
+					NumPoliza
+				</column>
+				<column>
+					TIPO_ENDOSO
+				</column>
+				<column>
+					Destino
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>

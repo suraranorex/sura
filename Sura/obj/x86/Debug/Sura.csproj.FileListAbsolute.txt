@@ -192,3 +192,5 @@ C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\D
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Utilitarios\VPNConnect.exe
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Emisión Motor -Polizas Complementarias.xlsx
 C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\EmisionMotor_PolizaBlanket.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Endoso Adicional - Blanket.xlsx
+C:\Users\Irina Storozuk\Documents\Ranorex\RanorexStudio Projects\Sura\Sura\bin\Debug\Endoso Modificación de Riesgo - Complementaria.xlsx

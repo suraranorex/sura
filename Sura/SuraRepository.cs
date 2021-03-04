@@ -7216,8 +7216,8 @@ namespace Sura
                 _txtbox_destinoInfo = new RepoItemInfo(this, "txtbox_Destino", ".//label/span[@innertext~'Destino']/../..//input", 30000, null, "987f1cf5-e26d-499c-a32f-7417048ae068");
                 _txtbox_zonariesgoInfo = new RepoItemInfo(this, "txtbox_ZonaRiesgo", ".//label/span[@innertext~'Zona de Riesgo']/../..//input", 30000, null, "01714149-b169-42ce-a664-79e4f89f700e");
                 _item_cboanioInfo = new RepoItemInfo(this, "item_cboAnio", "body//ul/li[@innertext=$Anio]", 30000, null, "b29f8b31-a001-4db2-836f-84c6e9de6a80");
-                _input_kilometrosInfo = new RepoItemInfo(this, "input_Kilometros", ".//div[#'SubmissionWizard/WithoutVehicle']//span[@innertext='Kilómetros']/../..//input", 30000, null, "4a7f267b-3744-495b-a607-9d8ae176e530");
-                _txt_kilometrosInfo = new RepoItemInfo(this, "txt_Kilometros", ".//div[#'SubmissionWizard/WithoutVehicle']//span[@innertext='Kilómetros']", 30000, null, "6b85dcae-f6f5-4491-b9e8-8e33535d4248");
+                _input_kilometrosInfo = new RepoItemInfo(this, "input_Kilometros", ".//span[@innertext='Kilómetros']/../..//input", 30000, null, "4a7f267b-3744-495b-a607-9d8ae176e530");
+                _txt_kilometrosInfo = new RepoItemInfo(this, "txt_Kilometros", ".//span[@innertext='Kilómetros']", 30000, null, "6b85dcae-f6f5-4491-b9e8-8e33535d4248");
             }
 
             /// <summary>

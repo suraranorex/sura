@@ -317,7 +317,7 @@ W+y2v9yP8hRVmii7DlXYKKKKRQUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 					<attribute
 					name="innertext"
 					type="System.String">
-						Se contrat&#243; Solicitud de Endoso (n.&#176; 0060482063), con el N.&#186; de endoso 1.
+						Se contrató Solicitud de Endoso (n.° 0060482063), con el N.º de endoso 1.
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -343,7 +343,7 @@ W+y2v9yP8hRVmii7DlXYKKKKRQUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 		enabled="True"
 		optional="False">
 			<comment>
-				El n&#250;mero de endoso emitido es:
+				El número de endoso emitido es:
 			</comment>
 			<bindings>
 			</bindings>

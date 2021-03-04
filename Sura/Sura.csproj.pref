@@ -1,11 +1,9 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="PC_GestionDocumental.rxtst" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="PC_GestionDocumental.rxtst" />
-    <Element value="Emision\ContinuarInformacionPoliza_Blanket.rxrec" />
+    <Element value="PC.rxtst" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

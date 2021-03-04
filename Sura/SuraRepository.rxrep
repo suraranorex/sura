@@ -1094,7 +1094,7 @@ name="SuraRepository">
 							name="input_Kilometros"
 							refimgid="5f9c80da-20c4-4f31-b74a-9fb5b076fbdd"
 							searchtimeout="30000ms">
-								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/WithoutVehicle']//span[@innertext='Kilómetros']/../..//input
+								/dom[@domain=$Ambiente]//span[@innertext='Kilómetros']/../..//input
 							</item>
 							<item
 							addcaps="unknown,webelement,spantag"
@@ -1102,9 +1102,8 @@ name="SuraRepository">
 							id="6b85dcae-f6f5-4491-b9e8-8e33535d4248"
 							name="txt_Kilometros"
 							refimgid="8e895b03-36fc-4a18-9006-9429777d6942"
-							refpath="/dom[@domain='ssurgwsoadev4-oci.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/WithoutVehicle']/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext='Kilómetros']"
 							searchtimeout="30000ms">
-								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/WithoutVehicle']//span[@innertext='Kilómetros']
+								/dom[@domain=$Ambiente]//span[@innertext='Kilómetros']
 							</item>
 						</folder>
 						<folder

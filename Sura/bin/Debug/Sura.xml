@@ -6476,6 +6476,104 @@
             Gets or sets the value of variable Ambiente.
             </summary>
         </member>
+        <member name="T:Sura.Endosos.EndosoBlanket_KM">
+             <summary>
+            The EndosoBlanket_KM recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Endosos.EndosoBlanket_KM.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.EndosoBlanket_KM.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.EndosoBlanket_KM.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Endosos.EndosoBlanket_KM.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.EndosoBlanket_KM.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Endosos.EndosoBlanket_KM.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.EndosoBlanket_KM.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.EndosoBlanket_KM.nuevoKms">
+            <summary>
+            Gets or sets the value of variable nuevoKms.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.EndosoBlanket_KM.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="T:Sura.Endosos.EndosoComplementaria_Destino">
+             <summary>
+            The EndosoComplementaria_Destino recording.
+             </summary>
+        </member>
+        <member name="F:Sura.Endosos.EndosoComplementaria_Destino.repo">
+            <summary>
+            Holds an instance of the global::Sura.SuraRepository repository.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.EndosoComplementaria_Destino.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.EndosoComplementaria_Destino.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Sura.Endosos.EndosoComplementaria_Destino.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Sura.Endosos.EndosoComplementaria_Destino.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Sura.Endosos.EndosoComplementaria_Destino.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.EndosoComplementaria_Destino.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.EndosoComplementaria_Destino.Ambiente">
+            <summary>
+            Gets or sets the value of variable Ambiente.
+            </summary>
+        </member>
+        <member name="P:Sura.Endosos.EndosoComplementaria_Destino.Destino">
+            <summary>
+            Gets or sets the value of variable Destino.
+            </summary>
+        </member>
         <member name="T:Sura.Endosos.SeleccionarVehiculos">
              <summary>
             The SeleccionarVehiculos recording.

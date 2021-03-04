@@ -1510,6 +1510,30 @@
       <UserCode>true</UserCode>
       <id>240b411f-f8bc-43b6-8a97-1dd72b1093ee</id>
     </Compile>
+    <Compile Include="Endosos\EndosoBlanket_KM.cs">
+      <BoundTo>5706a60b-3966-4a32-9941-f228f79c548f</BoundTo>
+      <DependentUpon>EndosoBlanket_KM.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c5fffb40-f9cf-44f4-b150-a42d9e59b5e5</id>
+    </Compile>
+    <Compile Include="Endosos\EndosoBlanket_KM.UserCode.cs">
+      <BoundTo>5706a60b-3966-4a32-9941-f228f79c548f</BoundTo>
+      <DependentUpon>EndosoBlanket_KM.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>75e55b2e-6e30-4afa-85a1-1a2747a14c9f</id>
+    </Compile>
+    <Compile Include="Endosos\EndosoComplementaria_Destino.cs">
+      <BoundTo>10507784-2a8f-4014-9efc-e3f960a208e5</BoundTo>
+      <DependentUpon>EndosoComplementaria_Destino.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9bfdafe7-bac2-4c81-a85e-98a9f7313776</id>
+    </Compile>
+    <Compile Include="Endosos\EndosoComplementaria_Destino.UserCode.cs">
+      <BoundTo>10507784-2a8f-4014-9efc-e3f960a208e5</BoundTo>
+      <DependentUpon>EndosoComplementaria_Destino.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>359d7be9-03de-4144-8ea6-70256bfc40fd</id>
+    </Compile>
     <Compile Include="Endosos\SeleccionarVehiculos.cs">
       <BoundTo>23b71a94-9671-411a-a3aa-72648f7bcf3d</BoundTo>
       <DependentUpon>SeleccionarVehiculos.rxrec</DependentUpon>
@@ -3153,6 +3177,20 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>875617bb-234b-4ea3-81c3-47150a69df6d</id>
     </Content>
+    <Content Include="Endoso Adicional - Blanket.xlsx">
+      <Link>Endoso Adicional - Blanket.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>4e0a0760-496a-44ac-a488-e449a6680eba</id>
+    </Content>
+    <Content Include="Endoso Modificación de Riesgo - Complementaria.xlsx">
+      <Link>Endoso Modificación de Riesgo - Complementaria.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>f33d8081-fd8e-4241-8d90-0e5e1f744005</id>
+    </Content>
     <None Include="Endosos\AgregaAccesorios.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>3a4be5da-aac9-444f-9694-9429a940b177</id>
@@ -3270,6 +3308,16 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>15b51250-a93c-4be6-b0df-2749b4bd17d4</id>
       <recordtableid>0c5da5c9-1955-472d-b029-44e8e8ca2ca5</recordtableid>
+    </None>
+    <None Include="Endosos\EndosoBlanket_KM.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>5706a60b-3966-4a32-9941-f228f79c548f</id>
+      <recordtableid>a3cef25b-e865-4c37-94c3-4415b1271ac4</recordtableid>
+    </None>
+    <None Include="Endosos\EndosoComplementaria_Destino.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>10507784-2a8f-4014-9efc-e3f960a208e5</id>
+      <recordtableid>b0f1dc45-9887-440d-9137-524ff49589e5</recordtableid>
     </None>
     <None Include="Endosos\SeleccionarVehiculos.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
