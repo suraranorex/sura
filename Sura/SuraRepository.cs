@@ -9940,6 +9940,7 @@ namespace Sura
             RepoItemInfo _txt_fecha_nac_personaInfo;
             RepoItemInfo _copy_of_txt_fecha_nac_personaInfo;
             RepoItemInfo _lbl_detalleInfo;
+            RepoItemInfo _pantallaInfo;
 
             /// <summary>
             /// Creates a new Personas  folder.
@@ -9967,6 +9968,7 @@ namespace Sura
                 _txt_fecha_nac_personaInfo = new RepoItemInfo(this, "txt_fecha_nac_persona", ".//tbody[#'centerPanel-tbody']//span[@innertext='Fecha Nacimiento']/../..//input", 30000, null, "3cdd91bc-af81-4270-8d57-3a2a3e8b39d2");
                 _copy_of_txt_fecha_nac_personaInfo = new RepoItemInfo(this, "Copy_of_txt_fecha_nac_persona", ".//tbody[#'centerPanel-tbody']//span[@innertext='Fecha Nacimiento']/../..//input[@data-tabindexsaved='True']", 30000, null, "10956fe0-5e04-4937-81a6-cc541ca4465f");
                 _lbl_detalleInfo = new RepoItemInfo(this, "lbl_Detalle", ".//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[4]/td/div/div[2]/?/?/table/tbody/tr[2]/td/div/div[2]/?/?/table//div/table/tbody/tr[4]/td/div/div[1]/div[1]/div[2]/div/a//span[@innertext='Detalle']", 30000, null, "988f01c3-a12a-459a-a8c7-50e4f5a2eedf");
+                _pantallaInfo = new RepoItemInfo(this, "Pantalla", ".//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]//table/tbody/tr[2]/td/div", 30000, null, "f8489305-3283-4e17-b066-792ddb66c32e");
             }
 
             /// <summary>
@@ -10458,6 +10460,30 @@ namespace Sura
                 get
                 {
                     return _lbl_detalleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Pantalla item.
+            /// </summary>
+            [RepositoryItem("f8489305-3283-4e17-b066-792ddb66c32e")]
+            public virtual Ranorex.DivTag Pantalla
+            {
+                get
+                {
+                    return _pantallaInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Pantalla item info.
+            /// </summary>
+            [RepositoryItemInfo("f8489305-3283-4e17-b066-792ddb66c32e")]
+            public virtual RepoItemInfo PantallaInfo
+            {
+                get
+                {
+                    return _pantallaInfo;
                 }
             }
         }

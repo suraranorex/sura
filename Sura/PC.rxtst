@@ -333,7 +333,6 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datarangeactive="True"
 			datarangeset="6,7"
 			datasource="EmisionMotor_Inspeccion"
 			errorbehavior="ContinueNextIteration"
@@ -3442,7 +3441,6 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datarangeactive="True"
 			datasource="EmisionHogar_NoEnlatada"
 			errorbehavior="ContinueNextIteration"
 			id="41f8d188-2b54-4387-9915-4a72a890c58c"
@@ -3775,12 +3773,11 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datarangeactive="True"
 			datasource="EmisionAP_NoEnlatada"
 			errorbehavior="ContinueNextIteration"
 			id="471a79c3-2161-46f8-ba52-53c51e7848aa"
-			maxrange="0"
-			minrange="0"
+			maxrange="2"
+			minrange="2"
 			name="Emisión_AP_NoEnlatada">
 			</testcase>
 			<testmodule
@@ -12019,7 +12016,6 @@
 			name="teardown">
 			</teardown>
 			<testcase
-			datarangeactive="True"
 			datarangeset="4,5"
 			datasource="EmisionMotorAcceMovilidad"
 			errorbehavior="ContinueNextIteration"
@@ -12739,7 +12735,6 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datarangeactive="True"
 			datasource="EmisionHogar_Enlatada"
 			errorbehavior="ContinueNextIteration"
 			id="e23e28f8-97c4-41ea-8958-41c94e11148a"
@@ -13494,7 +13489,6 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datarangeactive="True"
 			datasource="EmisionMotor_NuevasCoberturas"
 			errorbehavior="ContinueNextIteration"
 			id="ef71c345-1687-406b-808c-45247f62606c"
@@ -18209,7 +18203,7 @@
 		filename="DataSource - Emision AP Enlatada.xlsx"
 		id="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
 		includefile="Checked"
-		lastknownrowcount="5"
+		lastknownrowcount="1"
 		name="EmisionAP_Enlatada"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -18265,7 +18259,7 @@
 		filename="DataSource - Emision AP No Enlatada.xlsx"
 		id="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
 		includefile="Checked"
-		lastknownrowcount="4"
+		lastknownrowcount="1"
 		name="EmisionAP_NoEnlatada"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -18460,7 +18454,7 @@
 		filename="DataSource - Emision Hogar Enlatada.xlsx"
 		id="03cc04f0-efc2-402c-81d5-cad953c654d7"
 		includefile="Checked"
-		lastknownrowcount="6"
+		lastknownrowcount="1"
 		name="EmisionHogar_Enlatada"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -18525,7 +18519,7 @@
 		filename="DataSource - Emision Hogar No Enlatada.xlsx"
 		id="f2f78d84-6731-4d5c-b8e1-d15cac125c50"
 		includefile="Checked"
-		lastknownrowcount="4"
+		lastknownrowcount="1"
 		name="EmisionHogar_NoEnlatada"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -18596,7 +18590,7 @@
 		filename="DataSource - Emision Motor.xlsx"
 		id="9027bcb8-f348-4440-91bd-e34ee0858dc1"
 		includefile="Checked"
-		lastknownrowcount="504"
+		lastknownrowcount="3"
 		name="EmisionMotor"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -18697,7 +18691,7 @@
 		filename="DataSource - Emision Motor_Answer.xlsx"
 		id="572b7b41-9d12-444f-9775-c358c54bee8c"
 		includefile="Checked"
-		lastknownrowcount="34"
+		lastknownrowcount="2"
 		name="EmisionMotor_Answer"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -18786,7 +18780,7 @@
 		filename="DataSource - Emision Motor - Inspeccion.xlsx"
 		id="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
 		includefile="Checked"
-		lastknownrowcount="7"
+		lastknownrowcount="2"
 		name="EmisionMotor_Inspeccion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -18878,7 +18872,7 @@
 		filename="DataSource - Emision Motor NuevasCoberturas.xlsx"
 		id="cd71ff64-71e1-4cf5-ad00-929d2a0a8832"
 		includefile="Checked"
-		lastknownrowcount="5"
+		lastknownrowcount="1"
 		name="EmisionMotor_NuevasCoberturas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -18976,7 +18970,7 @@
 		filename="DataSource - Emision Motor Accesorio Movilidad.xlsx"
 		id="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
 		includefile="Checked"
-		lastknownrowcount="5"
+		lastknownrowcount="2"
 		name="EmisionMotorAcceMovilidad"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -20187,7 +20181,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="EmisionMotorAsist0km">
+	default="Emisiones">
 		<testconfiguration
 		name="Emisiones">
 			<testcontainer

@@ -5,12 +5,16 @@
   <Array name="bookmarks" />
   <Array name="files" />
   <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{9F6470D6-24A8-4006-AA8A-74B35DD73A26}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>2fa0cd5e-540b-40b9-b36a-99f05d563079</string>
+      <string>6d2fba6e-4ad7-4514-83d3-9a6fbb8b3152</string>
+      <string>e7a34f90-362d-4b10-8cd5-546b393d193e</string>
+      <string>e804ffef-8099-46b3-bccd-c973429e3804</string>
+    </ArrayOfString>
   </SerializedValue>
-<<<<<<< HEAD
-  <ProjectBrowserState value="[Solution Sura[Sura[]]]&#xD;&#xA;Solution Sura\Sura&#xD;&#xA;Solution Sura\Sura" />
-=======
-  <ProjectBrowserState value="[Solution Sura[Sura[]]]&#xD;&#xA;Solution Sura&#xD;&#xA;Solution Sura" />
->>>>>>> 4f976f0df3c48ecacedd969cb550c44c4ae41f62
+  <ProjectBrowserState value="[Solution Sura[Sura[Emision[]]]]&#xD;&#xA;Solution Sura\Sura\PC.rxtst&#xD;&#xA;Solution Sura\Sura\Emision\Vehiculos_Complementaria.rxrec" />
   <StartupProject value="{9F6470D6-24A8-4006-AA8A-74B35DD73A26}" />
 </Properties>

@@ -1934,6 +1934,15 @@ name="SuraRepository">
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[4]/td/div/div[2]/?/?/table/tbody/tr[2]/td/div/div[2]/?/?/table//div/table/tbody/tr[4]/td/div/div[1]/div[1]/div[2]/div/a//span[@innertext='Detalle']
 							</item>
+							<item
+							addcaps="unknown,webelement,divtag"
+							capname="divtag"
+							id="f8489305-3283-4e17-b066-792ddb66c32e"
+							name="Pantalla"
+							refimgid="9f067534-fa1f-4927-8529-1c84dc3cedea"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]//table/tbody/tr[2]/td/div
+							</item>
 						</folder>
 					</folder>
 					<folder
