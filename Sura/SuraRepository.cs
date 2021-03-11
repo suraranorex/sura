@@ -397,7 +397,7 @@ namespace Sura
             set { _Anio = value; }
         }
 
-        string _Ambiente = "ssurgwsoadev4-oci.opc.oracleoutsourcing.com";
+        string _Ambiente = "preproducciongestion.segurossura.com.ar";
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -671,6 +671,18 @@ namespace Sura
         {
             get { return _Destino; }
             set { _Destino = value; }
+        }
+
+        string _Campania = "";
+
+        /// <summary>
+        /// Gets or sets the value of variable Campania.
+        /// </summary>
+        [TestVariable("87d7f473-a0e4-48bd-bc62-03a29ee785a0")]
+        public string Campania
+        {
+            get { return _Campania; }
+            set { _Campania = value; }
         }
 
 #endregion
@@ -6291,6 +6303,7 @@ namespace Sura
             RepoItemInfo _copy_of_txt_dir_calle_tipopagoInfo;
             RepoItemInfo _arrow_select_provinciactaanonimaInfo;
             RepoItemInfo _txt_provinciactaanonimaInfo;
+            RepoItemInfo _select_campaniaInfo;
 
             /// <summary>
             /// Creates a new InformacionDePoliza  folder.
@@ -6300,7 +6313,7 @@ namespace Sura
             {
                 _list_cantvehiculosInfo = new RepoItemInfo(this, "list_CantVehiculos", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Cantidad de vehículos']/../..//input", 30000, null, "bbd1136a-3856-4fca-bdf6-405c0d813fa2");
                 _list_campaniaInfo = new RepoItemInfo(this, "list_Campania", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input", 30000, null, "ac44891a-1699-4fa3-a048-baf51820fdb2");
-                _copy_of_list_campaniaInfo = new RepoItemInfo(this, "Copy_of_list_Campania", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input[@data-tabindexsaved='True']", 30000, null, "63cc2831-0ac6-4b81-bdcf-bcd8707b2647");
+                _copy_of_list_campaniaInfo = new RepoItemInfo(this, "Copy_of_list_Campania", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña' and @data-tabindexsaved='True']", 30000, null, "63cc2831-0ac6-4b81-bdcf-bcd8707b2647");
                 _copy_of_list_cantvehiculosInfo = new RepoItemInfo(this, "Copy_of_list_CantVehiculos", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Cantidad de vehículos']/../..//input[@data-tabindexsaved='True']", 30000, null, "9f52bc26-dec5-40c6-9fcf-647ec702c9c9");
                 _txt_fecha_inicioInfo = new RepoItemInfo(this, "txt_Fecha_Inicio", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Inicio de vigencia']/../..//input", 30000, null, "0c3d9058-5499-481a-8f25-be1ffd4fb41e");
                 _copy_of_txt_fecha_inicioInfo = new RepoItemInfo(this, "Copy_of_txt_Fecha_Inicio", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Inicio de vigencia']/../..//input[@data-tabindexsaved='True']", 30000, null, "b1016cb6-df70-4095-94fe-f7fa78df67f7");
@@ -6326,6 +6339,7 @@ namespace Sura
                 _copy_of_txt_dir_calle_tipopagoInfo = new RepoItemInfo(this, "Copy_of_txt_Dir_Calle_TipoPago", ".//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[4]//table/tbody/tr[11]/td/div/div//input[@name='SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:AddressLine1']/../..//input[@data-tabindexsaved='True']", 30000, null, "408f11d2-04f3-4a76-8cf1-49baa919a13b");
                 _arrow_select_provinciactaanonimaInfo = new RepoItemInfo(this, "Arrow_Select_ProvinciaCtaAnonima", ".//tbody[#'EditAccountPopup-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[3]/td/div/div/div/div[2]", 30000, null, "cb3596b5-3991-4f2e-9539-62b64cce9518");
                 _txt_provinciactaanonimaInfo = new RepoItemInfo(this, "txt_ProvinciaCtaAnonima", "body//ul/li[@enabled='True']", 30000, null, "e700f28d-ca43-4ac7-ae45-5ee297efd17b");
+                _select_campaniaInfo = new RepoItemInfo(this, "Select_Campania", "body//li[@innertext~$Campania and @enabled='True']", 30000, null, "244a64a9-1643-4ba6-92ef-b19c87751831");
             }
 
             /// <summary>
@@ -6392,11 +6406,11 @@ namespace Sura
             /// The Copy_of_list_Campania item.
             /// </summary>
             [RepositoryItem("63cc2831-0ac6-4b81-bdcf-bcd8707b2647")]
-            public virtual Ranorex.InputTag Copy_of_list_Campania
+            public virtual Ranorex.SpanTag Copy_of_list_Campania
             {
                 get
                 {
-                    return _copy_of_list_campaniaInfo.CreateAdapter<Ranorex.InputTag>(true);
+                    return _copy_of_list_campaniaInfo.CreateAdapter<Ranorex.SpanTag>(true);
                 }
             }
 
@@ -7009,6 +7023,30 @@ namespace Sura
                 get
                 {
                     return _txt_provinciactaanonimaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Select_Campania item.
+            /// </summary>
+            [RepositoryItem("244a64a9-1643-4ba6-92ef-b19c87751831")]
+            public virtual Ranorex.LiTag Select_Campania
+            {
+                get
+                {
+                    return _select_campaniaInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Select_Campania item info.
+            /// </summary>
+            [RepositoryItemInfo("244a64a9-1643-4ba6-92ef-b19c87751831")]
+            public virtual RepoItemInfo Select_CampaniaInfo
+            {
+                get
+                {
+                    return _select_campaniaInfo;
                 }
             }
         }

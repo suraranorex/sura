@@ -546,12 +546,12 @@ name="SuraRepository">
 							</item>
 							<item
 							addcaps="unknown,webelement,inputtag"
-							capname="inputtag"
+							capname="spantag"
 							id="63cc2831-0ac6-4b81-bdcf-bcd8707b2647"
 							name="Copy_of_list_Campania"
 							refimgid="1e517334-143d-4d66-acc3-4bb321381059"
 							searchtimeout="30000ms">
-								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a']/../..//input[@data-tabindexsaved='True']
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a' and @data-tabindexsaved='True']
 							</item>
 							<item
 							addcaps="unknown,webelement,inputtag"
@@ -779,6 +779,15 @@ name="SuraRepository">
 							refimgid="65412289-c686-44e2-93ec-8026ecb6d67d"
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]/body//ul/li[@enabled='True']
+							</item>
+							<item
+							addcaps="unknown,webelement,litag"
+							capname="litag"
+							id="244a64a9-1643-4ba6-92ef-b19c87751831"
+							name="Select_Campania"
+							refimgid="86ab6b5d-9b5d-49e1-9fb8-8d8a760fee1e"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]/body//li[@innertext~$Campania and @enabled='True']
 							</item>
 						</folder>
 						<folder
@@ -6020,7 +6029,7 @@ AAAASUVORK5CYII=
 		<var
 		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
 		name="Ambiente">
-			ssurgwsoadev4-oci.opc.oracleoutsourcing.com
+			preproducciongestion.segurossura.com.ar
 		</var>
 		<var
 		id="fbc3c0ec-d362-401d-acc7-5e95815b84a3"
@@ -6125,6 +6134,10 @@ AAAASUVORK5CYII=
 		id="392d688b-a1f7-44af-a25f-a35cf553aadb"
 		name="Destino">
 			REMIS MULTIPLATAFORMA
+		</var>
+		<var
+		id="87d7f473-a0e4-48bd-bc62-03a29ee785a0"
+		name="Campania">
 		</var>
 	</variables>
 </repository>

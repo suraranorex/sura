@@ -26,7 +26,7 @@ mode="Global">
 		<var
 		id="e3bd0892-4510-4dc9-b76b-dc96b336e15d"
 		name="Campania">
-			prueba campaña
+			prueba campa&#241;a
 		</var>
 	</variables>
 	<recorditems>
@@ -50,38 +50,81 @@ mode="Global">
 			id="ac44891a-1699-4fa3-a048-baf51820fdb2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a']/../..//input
 				</path>
 			</info>
 		</mouseitem>
-		<keysequenceitem
-		KeySequence="yourtext"
-		duration="20ms"
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
 		enabled="True"
+		loc="Center"
+		movetime="300ms"
 		optional="False"
-		presstime="20ms"
-		searchpropertyid="a0b9cde3-14a1-48fa-8f95-8d50ff4b2fd8">
+		searchpropertyid="366a5567-8bf0-49ef-8d70-fe226d05363f"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="KeySequence"
-				variable="Campania">
-				</binding>
 			</bindings>
 			<info
-			id="ac44891a-1699-4fa3-a048-baf51820fdb2"
+			id="244a64a9-1643-4ba6-92ef-b19c87751831"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input
+					/dom[@domain=$Ambiente]/body//li[@innertext~$Campania and @enabled='True']
 				</path>
 			</info>
-		</keysequenceitem>
+		</mouseitem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
 		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="65cb5669-6850-4cd5-b93e-c1cf7b3eb3ed"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="244a64a9-1643-4ba6-92ef-b19c87751831"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]/body//li[@innertext~$Campania and @enabled='True']
+				</path>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="e6233cf7-1105-43e7-8e1d-ab32c354ff33"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="63cc2831-0ac6-4b81-bdcf-bcd8707b2647"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a' and @data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -97,31 +140,7 @@ mode="Global">
 			id="ac44891a-1699-4fa3-a048-baf51820fdb2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input
-				</path>
-			</info>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="UpperRight"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="7d43d165-a2c8-4f0f-a971-b3da5dd15fa2"
-		sx="458"
-		sy="463"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="dfe8b596-7ec9-4079-97b5-bd9f719f0a45"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain=$Ambiente]//span[@innertext='Información de póliza']
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a']/../..//input
 				</path>
 			</info>
 		</mouseitem>
@@ -145,28 +164,10 @@ mode="Global">
 			id="9db1789a-eed2-483d-bdd9-0bd4b10014c3"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']//label[@innertext='Campaña']
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']//label[@innertext='Campa&#241;a']
 				</path>
 			</info>
 		</mouseitem>
-		<WaitForRecordItem
-		enabled="True"
-		optional="False"
-		searchpropertyid="dfd4308d-b472-451d-ac58-a248080256fe"
-		waitaction="NotExists"
-		waittimeout="30000ms">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="63cc2831-0ac6-4b81-bdcf-bcd8707b2647"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input[@data-tabindexsaved='True']
-				</path>
-			</info>
-		</WaitForRecordItem>
 		<separatoritem
 		enabled="True"
 		optional="False">
