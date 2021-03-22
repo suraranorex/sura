@@ -606,7 +606,7 @@ mode="Global">
 		optional="False"
 		searchpropertyid="896c5803-8e89-4746-ac13-70ddf5e083de"
 		waitaction="NotExists"
-		waittimeout="10000ms">
+		waittimeout="30000ms">
 			<comment>
 			</comment>
 			<bindings>

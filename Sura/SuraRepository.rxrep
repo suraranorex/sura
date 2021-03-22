@@ -152,12 +152,12 @@ name="SuraRepository">
 								</item>
 								<item
 								addcaps="unknown,webelement,spantag"
-								capname="spantag"
+								capname="unknown"
 								id="25f606e9-51bf-41f1-8530-363d7cfd5a2d"
 								name="bttn_Cotizar"
 								refimgid="300b2463-368f-4b6d-9799-2a6484dcdcd2"
 								searchtimeout="30000ms">
-									/dom[@domain=$Ambiente]//span[@innertext~'Cotiar']
+									/dom[@domain=$Ambiente]//*[@innertext~'Cotiar']
 								</item>
 								<item
 								addcaps="unknown,webelement,spantag"
@@ -297,12 +297,12 @@ name="SuraRepository">
 							</item>
 							<item
 							addcaps="unknown,webelement,spantag"
-							capname="inputtag"
+							capname="spantag"
 							id="f9ce8d2f-1f9a-47fc-af5f-0f48c9fee6b8"
 							name="Copy_of_list_MetodoDePago"
 							refimgid="c4e3c299-aae1-4ec2-be18-86afbf6a23e4"
 							searchtimeout="30000ms">
-								/dom[@domain=$Ambiente]//table//span[@innertext~'M&#233;todo de Pago']/../..//input[@data-tabindexsaved='True']
+								/dom[@domain=$Ambiente]//table//span[@innertext~'M&#233;todo de Pago' and @data-tabindexsaved='True']
 							</item>
 							<item
 							addcaps="unknown,webelement,spantag"
@@ -787,7 +787,7 @@ name="SuraRepository">
 							name="Select_Campania"
 							refimgid="86ab6b5d-9b5d-49e1-9fb8-8d8a760fee1e"
 							searchtimeout="30000ms">
-								/dom[@domain=$Ambiente]/body//li[@innertext~$Campania and @enabled='True']
+								/dom[@domain=$Ambiente]/body//li[@enabled='True' and @innertext~$Campania]
 							</item>
 						</folder>
 						<folder
@@ -6029,7 +6029,7 @@ AAAASUVORK5CYII=
 		<var
 		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
 		name="Ambiente">
-			preproducciongestion.segurossura.com.ar
+			ssurgwsoadev4-oci.opc.oracleoutsourcing.com
 		</var>
 		<var
 		id="fbc3c0ec-d362-401d-acc7-5e95815b84a3"
@@ -6138,6 +6138,7 @@ AAAASUVORK5CYII=
 		<var
 		id="87d7f473-a0e4-48bd-bc62-03a29ee785a0"
 		name="Campania">
+			1.VUELVE CLIENTE
 		</var>
 	</variables>
 </repository>

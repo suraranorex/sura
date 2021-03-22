@@ -1,16 +1,16 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="PC.rxtst" />
+    <Element value="Emision\SelectCampania.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="Emision\Personas.rxrec" />
     <Element value="PC.rxtst" />
-    <Element value="Emision\Comisiones.rxrec" />
+    <Element value="Emision\SelectCampania.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
+    <Array name="recentusercodeselections" />
   </Properties>
 </Properties>
