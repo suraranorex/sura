@@ -77,6 +77,25 @@ mode="Global">
 				</path>
 			</info>
 		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="0401e2a5-10fb-4b22-a369-3bbe27d40695">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ac44891a-1699-4fa3-a048-baf51820fdb2"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a']/../..//input
+				</path>
+			</info>
+		</keysequenceitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -98,30 +117,6 @@ mode="Global">
 			sourcename="RepositoryEditor">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']//label[@innertext='Campa&#241;a']
-				</path>
-			</info>
-		</mouseitem>
-		<mouseitem
-		action="Move"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="65cb5669-6850-4cd5-b93e-c1cf7b3eb3ed"
-		sx="0"
-		sy="0"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="244a64a9-1643-4ba6-92ef-b19c87751831"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain=$Ambiente]//li[@innertext~$Campania]
 				</path>
 			</info>
 		</mouseitem>

@@ -108,12 +108,12 @@ namespace Sura.Emision
             repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.list_Campania.PressKeys(Campania);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_Campana' at Center.", repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_CampanaInfo, new RecordItemIndex(2));
-            repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_Campana.Click();
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.list_Campania'.", repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.list_CampaniaInfo, new RecordItemIndex(2));
+            repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.list_Campania.PressKeys("{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Select_Campania' at Center.", repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Select_CampaniaInfo, new RecordItemIndex(3));
-            repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Select_Campania.MoveTo();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_Campana' at Center.", repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_CampanaInfo, new RecordItemIndex(3));
+            repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.lbl_Campana.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_list_Campania'", repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Copy_of_list_CampaniaInfo, new ActionTimeout(30000), new RecordItemIndex(4));

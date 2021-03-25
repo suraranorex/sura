@@ -5852,12 +5852,12 @@
 			name="teardown111111">
 			</teardown>
 			<testcase
-			datarangeset="1,2"
+			datarangeactive="True"
 			datasource="EmisionMotor"
 			errorbehavior="ContinueNextIteration"
 			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b"
-			maxrange="1"
-			minrange="0"
+			maxrange="9"
+			minrange="9"
 			name="Emisión_Motor">
 			</testcase>
 			<testmodule
@@ -8617,6 +8617,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<setup
+			id="9f372dfb-d54c-49c3-b2c0-97f74f95db77"
+			name="setup">
+			</setup>
 			<testmodule
 			id="9fb619ee-9f54-4964-b2eb-d95e78c25d99"
 			name="DebitoBancario"
@@ -15327,6 +15331,10 @@
 							<smartfoldernode
 							id="8aaa1ead-38f3-4d96-bd01-01271bccd1e7"
 							name="C1">
+								<setup
+								id="9f372dfb-d54c-49c3-b2c0-97f74f95db77"
+								name="setup">
+								</setup>
 								<testmodule
 								id="45d7e634-3eeb-4626-82d8-1635f5092540"
 								name="SeleccionCoberturaAdicional">
@@ -20134,7 +20142,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="EmisionMotorAsist0km">
+	default="Emisiones">
 		<testconfiguration
 		name="Emisiones">
 			<testcontainer
