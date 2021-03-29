@@ -673,6 +673,18 @@ namespace Sura
             set { _Destino = value; }
         }
 
+        string _Campania = "1.VUELVE CLIENTE";
+
+        /// <summary>
+        /// Gets or sets the value of variable Campania.
+        /// </summary>
+        [TestVariable("87d7f473-a0e4-48bd-bc62-03a29ee785a0")]
+        public string Campania
+        {
+            get { return _Campania; }
+            set { _Campania = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -4926,7 +4938,7 @@ namespace Sura
                 _copy_of_listcantcuotasInfo = new RepoItemInfo(this, "Copy_of_listCantCuotas", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Cantidad de cuotas']/../..//input[@data-tabindexsaved='True']", 30000, null, "9da199dc-9615-44b1-ba08-b5bb21ff1300");
                 _rb_pagocuotasInfo = new RepoItemInfo(this, "rb_PagoCuotas", ".//span[@innertext~'Pago en Cuotas']/../..//label[@innertext~$OPCION_PAGOCUOTAS]/../..//input", 30000, null, "9d1173a0-fbab-4ce1-9af7-a4f9afc14c55");
                 _copy_of_option_pagocuotasInfo = new RepoItemInfo(this, "Copy_of_option_PagoCuotas", ".//span[@innertext~'Pago en Cuotas']/../..//label[@innertext~$OPCION_PAGOCUOTAS]/../..//input[@data-tabindexsaved='True']", 30000, null, "78146f5d-d1e3-4075-b04f-eed8c8ee8cb6");
-                _copy_of_list_metododepagoInfo = new RepoItemInfo(this, "Copy_of_list_MetodoDePago", ".//table//span[@innertext~'Método de Pago']/../..//input[@data-tabindexsaved='True']", 30000, null, "f9ce8d2f-1f9a-47fc-af5f-0f48c9fee6b8");
+                _copy_of_list_metododepagoInfo = new RepoItemInfo(this, "Copy_of_list_MetodoDePago", ".//table//span[@innertext~'Método de Pago' and @data-tabindexsaved='True']", 30000, null, "f9ce8d2f-1f9a-47fc-af5f-0f48c9fee6b8");
                 _list_metododepagoInfo = new RepoItemInfo(this, "list_MetodoDePago", ".//table//span[@innertext~'Método de Pago']/../..//input", 30000, null, "dbb47d0b-2799-44a1-a217-e847d6d55bc9");
                 _lbl_nrodevehiculoInfo = new RepoItemInfo(this, "lbl_NroDeVehiculo", ".//div[#'SubmissionWizard/VehicleList']/table/tbody//span[@innertext='Nro de Vehículo' and @visible='True']", 30000, null, "bf2dd0e6-253d-4b95-bc18-9c38cbbbb096");
                 _btn_guardarborradorInfo = new RepoItemInfo(this, "btn_GuardarBorrador", ".//div[#'SubmissionWizard/VehicleList']/table/tbody//span[@innertext='Guardar borrador' and @visible='True']", 30000, null, "e0caf11d-1a0f-49ec-877c-2184a8490f18");
@@ -5140,11 +5152,11 @@ namespace Sura
             /// The Copy_of_list_MetodoDePago item.
             /// </summary>
             [RepositoryItem("f9ce8d2f-1f9a-47fc-af5f-0f48c9fee6b8")]
-            public virtual Ranorex.InputTag Copy_of_list_MetodoDePago
+            public virtual Ranorex.SpanTag Copy_of_list_MetodoDePago
             {
                 get
                 {
-                    return _copy_of_list_metododepagoInfo.CreateAdapter<Ranorex.InputTag>(true);
+                    return _copy_of_list_metododepagoInfo.CreateAdapter<Ranorex.SpanTag>(true);
                 }
             }
 
@@ -5267,7 +5279,7 @@ namespace Sura
             {
                 _numerodepolizaemitidaInfo = new RepoItemInfo(this, "NumeroDePolizaEmitida", ".//tbody[#'JobComplete-tbody']//div[@innertext>'Ver su póliza']", 30000, null, "e81387f0-e0d3-4442-b002-fb5970a5ca18");
                 _bttn_emitirpolizaInfo = new RepoItemInfo(this, "bttn_EmitirPoliza", ".//div//span[@innertext~'Emitir Póliza']", 30000, null, "1d480b2d-134d-4b5c-96b0-46a365c5a829");
-                _bttn_cotizarInfo = new RepoItemInfo(this, "bttn_Cotizar", ".//span[@innertext~'Cotiar']", 30000, null, "25f606e9-51bf-41f1-8530-363d7cfd5a2d");
+                _bttn_cotizarInfo = new RepoItemInfo(this, "bttn_Cotizar", ".//*[@innertext~'Cotiar']", 30000, null, "25f606e9-51bf-41f1-8530-363d7cfd5a2d");
                 _bttn_aceptarInfo = new RepoItemInfo(this, "bttn_Aceptar", "body//span[@innertext~'Aceptar']", 1000, null, "a82638ae-274b-4817-9cad-a1d43bce9e34");
                 _bttn_aceptar3Info = new RepoItemInfo(this, "bttn_Aceptar3", "body//table//table//div/div/div//span/span/span[@innertext='Aceptar']", 1000, null, "f2d8d103-d73b-4dc4-b6d3-9f19ce69d14b");
                 _copy_of_bttn_aceptar3Info = new RepoItemInfo(this, "Copy_of_bttn_Aceptar3", "body//table//table//div/div/div//span/span/span[@innertext='Aceptar' and @enabled='True']", 1000, null, "6a107779-7d5c-4d75-a684-912faa096f78");
@@ -5341,11 +5353,11 @@ namespace Sura
             /// The bttn_Cotizar item.
             /// </summary>
             [RepositoryItem("25f606e9-51bf-41f1-8530-363d7cfd5a2d")]
-            public virtual Ranorex.SpanTag bttn_Cotizar
+            public virtual Ranorex.Unknown bttn_Cotizar
             {
                 get
                 {
-                    return _bttn_cotizarInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                    return _bttn_cotizarInfo.CreateAdapter<Ranorex.Unknown>(true);
                 }
             }
 
@@ -6291,6 +6303,7 @@ namespace Sura
             RepoItemInfo _copy_of_txt_dir_calle_tipopagoInfo;
             RepoItemInfo _arrow_select_provinciactaanonimaInfo;
             RepoItemInfo _txt_provinciactaanonimaInfo;
+            RepoItemInfo _select_campaniaInfo;
 
             /// <summary>
             /// Creates a new InformacionDePoliza  folder.
@@ -6300,7 +6313,7 @@ namespace Sura
             {
                 _list_cantvehiculosInfo = new RepoItemInfo(this, "list_CantVehiculos", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Cantidad de vehículos']/../..//input", 30000, null, "bbd1136a-3856-4fca-bdf6-405c0d813fa2");
                 _list_campaniaInfo = new RepoItemInfo(this, "list_Campania", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input", 30000, null, "ac44891a-1699-4fa3-a048-baf51820fdb2");
-                _copy_of_list_campaniaInfo = new RepoItemInfo(this, "Copy_of_list_Campania", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input[@data-tabindexsaved='True']", 30000, null, "63cc2831-0ac6-4b81-bdcf-bcd8707b2647");
+                _copy_of_list_campaniaInfo = new RepoItemInfo(this, "Copy_of_list_Campania", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña' and @data-tabindexsaved='True']", 30000, null, "63cc2831-0ac6-4b81-bdcf-bcd8707b2647");
                 _copy_of_list_cantvehiculosInfo = new RepoItemInfo(this, "Copy_of_list_CantVehiculos", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Cantidad de vehículos']/../..//input[@data-tabindexsaved='True']", 30000, null, "9f52bc26-dec5-40c6-9fcf-647ec702c9c9");
                 _txt_fecha_inicioInfo = new RepoItemInfo(this, "txt_Fecha_Inicio", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Inicio de vigencia']/../..//input", 30000, null, "0c3d9058-5499-481a-8f25-be1ffd4fb41e");
                 _copy_of_txt_fecha_inicioInfo = new RepoItemInfo(this, "Copy_of_txt_Fecha_Inicio", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Inicio de vigencia']/../..//input[@data-tabindexsaved='True']", 30000, null, "b1016cb6-df70-4095-94fe-f7fa78df67f7");
@@ -6326,6 +6339,7 @@ namespace Sura
                 _copy_of_txt_dir_calle_tipopagoInfo = new RepoItemInfo(this, "Copy_of_txt_Dir_Calle_TipoPago", ".//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[4]//table/tbody/tr[11]/td/div/div//input[@name='SubmissionWizard:BillingInfoWizardStepGroup:NewPaymentInstrumentScreen:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:AddressLine1']/../..//input[@data-tabindexsaved='True']", 30000, null, "408f11d2-04f3-4a76-8cf1-49baa919a13b");
                 _arrow_select_provinciactaanonimaInfo = new RepoItemInfo(this, "Arrow_Select_ProvinciaCtaAnonima", ".//tbody[#'EditAccountPopup-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[3]/td/div/div/div/div[2]", 30000, null, "cb3596b5-3991-4f2e-9539-62b64cce9518");
                 _txt_provinciactaanonimaInfo = new RepoItemInfo(this, "txt_ProvinciaCtaAnonima", "body//ul/li[@enabled='True']", 30000, null, "e700f28d-ca43-4ac7-ae45-5ee297efd17b");
+                _select_campaniaInfo = new RepoItemInfo(this, "Select_Campania", "body//li[@enabled='True' and @innertext~$Campania]", 30000, null, "244a64a9-1643-4ba6-92ef-b19c87751831");
             }
 
             /// <summary>
@@ -6392,11 +6406,11 @@ namespace Sura
             /// The Copy_of_list_Campania item.
             /// </summary>
             [RepositoryItem("63cc2831-0ac6-4b81-bdcf-bcd8707b2647")]
-            public virtual Ranorex.InputTag Copy_of_list_Campania
+            public virtual Ranorex.SpanTag Copy_of_list_Campania
             {
                 get
                 {
-                    return _copy_of_list_campaniaInfo.CreateAdapter<Ranorex.InputTag>(true);
+                    return _copy_of_list_campaniaInfo.CreateAdapter<Ranorex.SpanTag>(true);
                 }
             }
 
@@ -7009,6 +7023,30 @@ namespace Sura
                 get
                 {
                     return _txt_provinciactaanonimaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Select_Campania item.
+            /// </summary>
+            [RepositoryItem("244a64a9-1643-4ba6-92ef-b19c87751831")]
+            public virtual Ranorex.LiTag Select_Campania
+            {
+                get
+                {
+                    return _select_campaniaInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Select_Campania item info.
+            /// </summary>
+            [RepositoryItemInfo("244a64a9-1643-4ba6-92ef-b19c87751831")]
+            public virtual RepoItemInfo Select_CampaniaInfo
+            {
+                get
+                {
+                    return _select_campaniaInfo;
                 }
             }
         }
@@ -9966,6 +10004,7 @@ namespace Sura
             RepoItemInfo _txt_fecha_nac_personaInfo;
             RepoItemInfo _copy_of_txt_fecha_nac_personaInfo;
             RepoItemInfo _lbl_detalleInfo;
+            RepoItemInfo _pantallaInfo;
 
             /// <summary>
             /// Creates a new Personas  folder.
@@ -9993,6 +10032,7 @@ namespace Sura
                 _txt_fecha_nac_personaInfo = new RepoItemInfo(this, "txt_fecha_nac_persona", ".//tbody[#'centerPanel-tbody']//span[@innertext='Fecha Nacimiento']/../..//input", 30000, null, "3cdd91bc-af81-4270-8d57-3a2a3e8b39d2");
                 _copy_of_txt_fecha_nac_personaInfo = new RepoItemInfo(this, "Copy_of_txt_fecha_nac_persona", ".//tbody[#'centerPanel-tbody']//span[@innertext='Fecha Nacimiento']/../..//input[@data-tabindexsaved='True']", 30000, null, "10956fe0-5e04-4937-81a6-cc541ca4465f");
                 _lbl_detalleInfo = new RepoItemInfo(this, "lbl_Detalle", ".//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[4]/td/div/div[2]/?/?/table/tbody/tr[2]/td/div/div[2]/?/?/table//div/table/tbody/tr[4]/td/div/div[1]/div[1]/div[2]/div/a//span[@innertext='Detalle']", 30000, null, "988f01c3-a12a-459a-a8c7-50e4f5a2eedf");
+                _pantallaInfo = new RepoItemInfo(this, "Pantalla", ".//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]//table/tbody/tr[2]/td/div", 30000, null, "f8489305-3283-4e17-b066-792ddb66c32e");
             }
 
             /// <summary>
@@ -10484,6 +10524,30 @@ namespace Sura
                 get
                 {
                     return _lbl_detalleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Pantalla item.
+            /// </summary>
+            [RepositoryItem("f8489305-3283-4e17-b066-792ddb66c32e")]
+            public virtual Ranorex.DivTag Pantalla
+            {
+                get
+                {
+                    return _pantallaInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Pantalla item info.
+            /// </summary>
+            [RepositoryItemInfo("f8489305-3283-4e17-b066-792ddb66c32e")]
+            public virtual RepoItemInfo PantallaInfo
+            {
+                get
+                {
+                    return _pantallaInfo;
                 }
             }
         }

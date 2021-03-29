@@ -194,7 +194,7 @@ mode="Global">
 			id="0a77e887-5b87-4e6a-8cb2-2b04b674e0fd"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//label[@innertext='Informaci&#243;n del veh&#237;culo']
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//label[@innertext='Información del vehículo']
 				</path>
 			</info>
 		</mouseitem>

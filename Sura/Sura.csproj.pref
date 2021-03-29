@@ -1,33 +1,12 @@
 ﻿<Properties>
   <Array name="active">
-<<<<<<< HEAD
-    <Element value="PC.rxtst" />
-  </Array>
-  <Array name="bookmarks" />
-  <Array name="files">
     <Element value="PC_GestionDocumental.rxtst" />
-    <Element value="PC.rxtst" />
-=======
-    <Element value="Emision\SelectCampania.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="BC.rxtst" />
     <Element value="PC.rxtst" />
-    <Element value="Emision\SelectCampania.rxrec" />
->>>>>>> 16b1547f6b862acf6a74fe91bc69cc2b5782b51b
+    <Element value="PC_GestionDocumental.rxtst" />
   </Array>
-  <Properties name="projectSavedData">
-    <Properties name="customTool">
-      <runOnBuild value="False" />
-    </Properties>
-<<<<<<< HEAD
-    <Array name="recentusercodeselections">
-      <Element value="Sura.GestionDocumental.VerFormulario_Cotizada.fileCheck()" />
-      <Element value="Sura.Emision.EmisionPoliza.guardarNumPoliza()" />
-      <Element value="Sura.Emision.CotizarPolizaMotor.guardarNumSolicitud()" />
-    </Array>
-=======
-    <Array name="recentusercodeselections" />
->>>>>>> 16b1547f6b862acf6a74fe91bc69cc2b5782b51b
-  </Properties>
+  <Properties name="projectSavedData" />
 </Properties>

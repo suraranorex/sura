@@ -522,7 +522,7 @@ mode="Global">
 		enabled="True"
 		optional="False">
 			<comment>
-				-------Informaci&#243;n Asegurado
+				-------Información Asegurado
 			</comment>
 			<bindings>
 			</bindings>
@@ -547,7 +547,7 @@ mode="Global">
 			id="ca837e87-2a93-4b85-b106-f15195a9bd9e"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Informaci&#243;n Asegurado']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Información Asegurado']
 				</path>
 			</info>
 		</mouseitem>
@@ -659,7 +659,7 @@ mode="Global">
 			id="f358b589-2a6c-4411-beeb-4df89d2207f0"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']///label/span[@innertext='N&#250;mero de Documento']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']///label/span[@innertext='Número de Documento']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -701,7 +701,7 @@ mode="Global">
 			id="db5c9725-3a1f-4c45-9074-677a32468686"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']///label/span[@innertext='N&#250;mero de Documento']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']///label/span[@innertext='Número de Documento']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -743,7 +743,7 @@ mode="Global">
 			id="db5c9725-3a1f-4c45-9074-677a32468686"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']///label/span[@innertext='N&#250;mero de Documento']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']///label/span[@innertext='Número de Documento']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -1457,7 +1457,7 @@ ooooAKKKKACiiigAooooAKKQkKMmhHDqCKAsJgetGB61EZcS+WI2bgEkYwP1qSgBcD1owPWkpuW3
 					<attribute
 					name="innertext"
 					type="System.String">
-						Exportar a hoja de c&#225;lculo
+						Exportar a hoja de cálculo
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1538,7 +1538,7 @@ rsHtan8z+8ran9je0kS8cBFAYkcsmTgMMc9apafpkM0DefG4ZHKhsMm8cYbB5HX9Knm0vBEkJ82R
 			id="e2b14a8a-d9cd-4dc0-b304-d88379cfee15"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'ExcelExportPopup:DownloadExcelFileButton']//span[@innertext='Descargar hoja de c&#225;lculo']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'ExcelExportPopup:DownloadExcelFileButton']//span[@innertext='Descargar hoja de cálculo']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -1597,7 +1597,7 @@ rsHtan8z+8ran9je0kS8cBFAYkcsmTgMMc9apafpkM0DefG4ZHKhsMm8cYbB5HX9Knm0vBEkJ82R
 					<attribute
 					name="innertext"
 					type="System.String">
-						Descargar hoja de c&#225;lculo
+						Descargar hoja de cálculo
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1623,7 +1623,7 @@ rsHtan8z+8ran9je0kS8cBFAYkcsmTgMMc9apafpkM0DefG4ZHKhsMm8cYbB5HX9Knm0vBEkJ82R
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'ExcelExportPopup:DownloadExcelFileButton']//span[@innertext='Descargar hoja de c&#225;lculo']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'ExcelExportPopup:DownloadExcelFileButton']//span[@innertext='Descargar hoja de cálculo']
 				</path>
 			</info>
 			<helperscreenshot
@@ -1842,7 +1842,7 @@ iigAooooA//Z
 		reportlevel="Info;20"
 		searchpropertyid="d2a95ba6-6b2a-43a9-a0fe-4498dbdf8277">
 			<comment>
-				El n&#250;mero de solicitud es:
+				El número de solicitud es:
 			</comment>
 			<bindings>
 				<binding

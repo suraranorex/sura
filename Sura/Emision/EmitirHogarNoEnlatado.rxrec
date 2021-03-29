@@ -53,7 +53,7 @@ mode="Global">
 			id="94f81f43-bad9-43ce-8008-652e98b9929e"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[4]//tr/td/div/table//span[@innertext~'Emitir P&#243;liza']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[4]//tr/td/div/table//span[@innertext~'Emitir Póliza']
 				</path>
 			</info>
 		</mouseitem>
@@ -200,7 +200,7 @@ cOSPYP7MX+81H9mL/eaiijnl3Dkj2D+zF/vNR/Zi/wB5qKKOeXcOSPY//9k=
 			id="9f4686af-35f2-4080-beb1-bce00008c586"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//table/tbody//span[@visible='True' and @innertext~'Solicitud de P&#243;liza Contratada']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//table/tbody//span[@visible='True' and @innertext~'Solicitud de Póliza Contratada']
 				</path>
 			</info>
 		</WaitForRecordItem>

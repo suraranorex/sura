@@ -529,7 +529,7 @@ mode="Global">
 		enabled="True"
 		optional="False">
 			<comment>
-				-------Informaci&#243;n Asegurado
+				-------Información Asegurado
 			</comment>
 			<bindings>
 			</bindings>
@@ -554,7 +554,7 @@ mode="Global">
 			id="4287d4fb-391e-4dff-9801-243f0fc91af8"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Informaci&#243;n Asegurado']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Información Asegurado']
 				</path>
 			</info>
 		</mouseitem>
@@ -666,7 +666,7 @@ mode="Global">
 			id="acbbccad-0b2d-4108-b572-6075e65777f4"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']///label/span[@innertext='N&#250;mero de Documento']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']///label/span[@innertext='Número de Documento']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -708,7 +708,7 @@ mode="Global">
 			id="c6ab7f0f-a8f5-4def-be4c-3ee71573cfb5"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']///label/span[@innertext='N&#250;mero de Documento']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']///label/span[@innertext='Número de Documento']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -1077,7 +1077,7 @@ mode="Global">
 			id="c6ab7f0f-a8f5-4def-be4c-3ee71573cfb5"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']///label/span[@innertext='N&#250;mero de Documento']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']///label/span[@innertext='Número de Documento']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>

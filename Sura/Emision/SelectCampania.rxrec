@@ -50,7 +50,7 @@ mode="Global">
 			id="ac44891a-1699-4fa3-a048-baf51820fdb2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a']/../..//input
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input
 				</path>
 			</info>
 		</mouseitem>
@@ -73,7 +73,7 @@ mode="Global">
 			id="ac44891a-1699-4fa3-a048-baf51820fdb2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a']/../..//input
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -92,7 +92,7 @@ mode="Global">
 			id="ac44891a-1699-4fa3-a048-baf51820fdb2"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a']/../..//input
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -116,7 +116,7 @@ mode="Global">
 			id="9db1789a-eed2-483d-bdd9-0bd4b10014c3"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']//label[@innertext='Campa&#241;a']
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']//label[@innertext='Campaña']
 				</path>
 			</info>
 		</mouseitem>
@@ -134,7 +134,7 @@ mode="Global">
 			id="63cc2831-0ac6-4b81-bdcf-bcd8707b2647"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'C&#243;digo de Campa&#241;a' and @data-tabindexsaved='True']
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña' and @data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
