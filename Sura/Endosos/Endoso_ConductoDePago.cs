@@ -113,8 +113,8 @@ namespace Sura.Endosos
             repo.SURA.PC.Emision.Generales.InformacionDePoliza.list_MetodoDePago.PressKeys(NuevoMetodoPago);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos.Generales.Pantalla_Endoso' at UpperRight.", repo.SURA.PC.Endosos.Generales.Pantalla_EndosoInfo, new RecordItemIndex(3));
-            repo.SURA.PC.Endosos.Generales.Pantalla_Endoso.Click(Location.UpperRight);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.txt_InformacionDePoliza' at UpperRight.", repo.SURA.txt_InformacionDePolizaInfo, new RecordItemIndex(3));
+            repo.SURA.txt_InformacionDePoliza.Click(Location.UpperRight);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_list_MetodoDePago'", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_list_MetodoDePagoInfo, new ActionTimeout(30000), new RecordItemIndex(4));

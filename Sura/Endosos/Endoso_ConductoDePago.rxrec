@@ -26,7 +26,7 @@ mode="Global">
 		<var
 		id="77033082-b955-469d-82d0-f91c7ede2705"
 		name="NuevoMetodoPago">
-			Cup&#243;n
+			Cupón
 		</var>
 	</variables>
 	<recorditems>
@@ -118,7 +118,7 @@ mode="Global">
 					<attribute
 					name="tagvalue"
 					type="System.String">
-						Cup&#243;n
+						Cupón
 					</attribute>
 					<attribute
 					name="autocomplete"
@@ -173,7 +173,7 @@ mode="Global">
 					<attribute
 					name="value"
 					type="System.String">
-						Cup&#243;n
+						Cupón
 					</attribute>
 					<attribute
 					name="width"
@@ -206,7 +206,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//table//span[@innertext~'M&#233;todo de Pago']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//table//span[@innertext~'Método de Pago']/../..//input
 				</path>
 			</info>
 		</keyitem>
@@ -307,7 +307,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='M&#233;todo de Pago']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Método de Pago']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -328,64 +328,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="bcd4a2b7-e16f-47c9-b6ab-340cf01c6c14"
+			id="8f98f8d9-d905-4173-abe7-5da5fba31e5a"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, divtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="divtag"
-				rect="167,189,599,575"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						x-container g-dv-column x-container-default x-table-layout-ct
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						dvcolumn-1249
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						g-dv-column x-container x-container-default x-table-layout-ct
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						div
-					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="style"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//div/table/tbody/tr[4]/td/?/?/table//div/table/?/?/tr/td[1]/div
+					/dom[@domain=$Ambiente]//div/table//span[@innertext='Información de póliza']
 				</path>
 			</info>
 		</mouseitem>
@@ -403,7 +349,7 @@ mode="Global">
 			id="f9ce8d2f-1f9a-47fc-af5f-0f48c9fee6b8"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='M&#233;todo de Pago']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext='Método de Pago']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>

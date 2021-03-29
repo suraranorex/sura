@@ -18596,7 +18596,7 @@
 		filename="DataSource - Emision Motor.xlsx"
 		id="9027bcb8-f348-4440-91bd-e34ee0858dc1"
 		includefile="Checked"
-		lastknownrowcount="504"
+		lastknownrowcount="1"
 		name="EmisionMotor"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"

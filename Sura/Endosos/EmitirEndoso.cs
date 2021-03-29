@@ -124,6 +124,18 @@ namespace Sura.Endosos
             
             Report.Log(ReportLevel.Info, "User", NumSolicitudEndoso, new RecordItemIndex(6));
             
+            // Validación del Tipo de Endoso realizado
+            Report.Log(ReportLevel.Info, "Section", "Validación del Tipo de Endoso realizado", new RecordItemIndex(7));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.btn_RevisarCambios' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.btn_RevisarCambiosInfo, new RecordItemIndex(8));
+            repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.btn_RevisarCambios.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos.Txt_Validacion.txt_Cotizacion'", repo.SURA.PC.Endosos.Txt_Validacion.txt_CotizacionInfo, new ActionTimeout(45000), new RecordItemIndex(9));
+            repo.SURA.PC.Endosos.Txt_Validacion.txt_CotizacionInfo.WaitForExists(45000);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(10));
+            
         }
 
 #region Image Feature Data

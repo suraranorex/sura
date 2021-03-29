@@ -1342,31 +1342,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<smartfoldernode
-			id="251cb6f1-7627-41c8-8ec4-38edcd600366"
-			name="TR_FIJA">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="DataConnector"
-								dataname="Producto"
-								id="8aabcb06-d09d-4a25-b3c0-8098a1f75f62">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="TR - Todo Riesgo Franquicia Fija">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
 			<testcase
 			errorbehavior="ContinueNextIteration"
 			id="253849ee-64d8-4147-a4b9-63870bffe04f"
@@ -1858,20 +1833,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<testmodule
-			id="366a9ffd-b1a4-4bb5-b82c-49372a6a0562"
-			name="TR_VARIABLE"
-			ref="4f0933b3-d143-49e9-9f80-604f703deca7"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</databinding>
-			</testmodule>
 			<setup
 			id="371b633b-bf4e-4cfe-a3e5-052c2ab34d0d"
 			name="setup">
@@ -1918,6 +1879,8 @@
 			datasource="EmisionMotor_VariosVeh_General"
 			errorbehavior="ContinueNextIteration"
 			id="38a4eba5-2439-47cd-b881-d65501836d7d"
+			maxrange="0"
+			minrange="0"
 			name="EmisiónMotor_VariosAutos">
 			</testcase>
 			<testmodule
@@ -4835,31 +4798,6 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
-			<smartfoldernode
-			id="92137b6f-cc2a-4c76-9db7-b54b22fe60ed"
-			name="TR_VARIABLE">
-				<conditiongroup
-				comparison="AND"
-				enabled="True">
-					<condition
-					comparison="IsEqual">
-						<leftvalue>
-							<datavaluesource>
-								<databinding
-								bindingtype="DataConnector"
-								dataname="Producto"
-								id="8aabcb06-d09d-4a25-b3c0-8098a1f75f62">
-								</databinding>
-							</datavaluesource>
-						</leftvalue>
-						<rightvalue>
-							<simplevaluesource
-							value="TR - Todo Riesgo Franquicia Variable">
-							</simplevaluesource>
-						</rightvalue>
-					</condition>
-				</conditiongroup>
-			</smartfoldernode>
 			<testmodule
 			id="922c76b8-1ee5-4fc2-bb88-17edd8a5a423"
 			name="Login"
@@ -5532,20 +5470,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<testmodule
-			id="b1125262-956c-4c7e-a110-8f56ad518e75"
-			name="TR_FIJA"
-			ref="4a387d35-8643-4106-b4fa-ff5dc012d2eb"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="213ba1be-f5b4-44d9-a491-524b455d4f4b"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</databinding>
-			</testmodule>
 			<smartfoldernode
 			id="b121d1c7-8152-4b4e-a5e5-66c5b658f39d"
 			name="TR_VARIABLE">
@@ -5576,6 +5500,9 @@
 			name="CargaVehiculos"
 			ref="6a1dc262-3de5-4b8d-9179-beb405045f72"
 			type="Recording">
+				<description>
+					<![CDATA[Incluye la llamada a TR Fija o Variable si corresponde]]>
+				</description>
 				<databinding>
 					<var
 					dataname="Ambiente"
@@ -8187,22 +8114,6 @@
 							id="d1d935ee-d262-43c3-888c-d56abd7906c1"
 							name="AgregarVehiculos">
 							</testmodule>
-							<smartfoldernode
-							id="251cb6f1-7627-41c8-8ec4-38edcd600366"
-							name="TR_FIJA">
-								<testmodule
-								id="b1125262-956c-4c7e-a110-8f56ad518e75"
-								name="TR_FIJA">
-								</testmodule>
-							</smartfoldernode>
-							<smartfoldernode
-							id="92137b6f-cc2a-4c76-9db7-b54b22fe60ed"
-							name="TR_VARIABLE">
-								<testmodule
-								id="366a9ffd-b1a4-4bb5-b82c-49372a6a0562"
-								name="TR_VARIABLE">
-								</testmodule>
-							</smartfoldernode>
 						</smartfoldernode>
 						<testmodule
 						id="926cdb12-3be4-4be1-9462-7321b2574f93"
@@ -8241,154 +8152,6 @@
 							</testmodule>
 							<testmodule
 							id="f2278376-f529-4f48-8720-d38350aac19f"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
-					</testcase>
-					<testcase
-					id="ca395c1a-99ab-4c4f-b7ec-d4cf946bc338"
-					name="Cotizar_PolizaMotor">
-						<setup
-						id="7874fb5d-386d-44f4-8832-1a5f1db814a5"
-						name="setup">
-							<testmodule
-							id="3198b60e-42b2-4282-a044-77cbb62e085e"
-							name="OpenBrowser_PC">
-							</testmodule>
-							<testmodule
-							id="9c191d87-aa4e-4bf5-aa21-ad690ff5969f"
-							name="Login">
-							</testmodule>
-						</setup>
-						<testmodule
-						id="5dd2662a-102a-4eb1-8175-112b004bc2e0"
-						name="MenuSuperior_CuentaPC">
-						</testmodule>
-						<testmodule
-						id="5451e1ca-b86a-4da2-8086-8b74417a6e51"
-						name="MenuLateral_CuentaPC">
-						</testmodule>
-						<testmodule
-						id="ee32fc05-ae20-43ec-bbfa-e7c1dad99bc8"
-						name="NuevaPolizaMotor">
-						</testmodule>
-						<testmodule
-						id="1e105624-eef3-40f0-9f0e-d22910c6f906"
-						name="InformacionDePoliza_Motor">
-						</testmodule>
-						<smartfoldernode
-						id="134cbb3a-399a-4ec8-90cc-3af0d92d138b"
-						name="Cuotas_No1">
-							<testmodule
-							id="0c1bf977-9ed0-4c15-b09f-d2a4dc71f8f2"
-							name="Cant_Cuotas">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="ffacfab4-5440-4874-a85f-3c08b5e5a2fe"
-						name="Coutas_Si1">
-							<testmodule
-							id="8934be52-eec2-4bd0-a3af-6153dd3bc0dc"
-							name="CantCuotasSi">
-							</testmodule>
-						</smartfoldernode>
-						<testmodule
-						id="19505119-d2ab-494b-8f37-e9f673c96501"
-						name="ContinueInformacionPoliza">
-						</testmodule>
-						<testmodule
-						id="e3033db2-e65a-4c22-b57a-0e40fe4c83dc"
-						name="Conductores">
-						</testmodule>
-						<testmodule
-						id="b2243f99-0292-4402-9d6f-838b5f5d3c8b"
-						name="Vehiculos">
-						</testmodule>
-						<smartfoldernode
-						id="999a0a0a-8857-4333-b8c2-03a9e4aad60b"
-						name="TR_FIJA">
-							<testmodule
-							id="eb75571f-8ad4-4b96-ac9c-5bfbb29abce4"
-							name="TR_FIJA">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="577c4920-d710-4ca7-b225-4818fb84babd"
-						name="TR_VARIABLE">
-							<testmodule
-							id="322f3283-0424-48d1-b3e2-5de1422b34a7"
-							name="TR_VARIABLE">
-							</testmodule>
-						</smartfoldernode>
-						<testmodule
-						id="74e8fb6e-8953-4e93-80ca-694dc307c285"
-						name="Comisiones">
-						</testmodule>
-						<testmodule
-						id="bae33c86-758c-461e-81e7-a90950654312"
-						name="CotizarPolizaMotor">
-						</testmodule>
-						<teardown
-						id="8b9a5d18-bf00-48f8-9e87-75ee97de06c7"
-						name="teardown">
-							<testmodule
-							id="8c9f7e36-c306-481e-bb0c-f3b4c08d3258"
-							name="Logout">
-							</testmodule>
-							<testmodule
-							id="6f5ba2b7-6a55-43cf-8c19-0a051e96a622"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
-					</testcase>
-					<testcase
-					id="253849ee-64d8-4147-a4b9-63870bffe04f"
-					name="REVISAR_Cotizar_FlotaMotor">
-						<setup
-						id="077b30ec-cfd8-412a-89f3-64005f7017be"
-						name="setup22">
-							<testmodule
-							id="ee79b6d5-1fe2-4dbb-89a8-03a2014f0453"
-							name="OpenBrowser_PC">
-							</testmodule>
-							<testmodule
-							id="0098bf6d-f145-432d-8e54-2afc72a74579"
-							name="Login">
-							</testmodule>
-						</setup>
-						<smartfoldernode
-						id="a50b4bc4-f0a0-441e-b385-0c8ba341845c"
-						name="ImportaExcelMOTOR">
-							<testmodule
-							id="9c347a6e-eef9-4459-90be-daeb437d2713"
-							name="MenuSuperior_BusquedaPoliza">
-							</testmodule>
-							<testmodule
-							id="eeae7876-d1dd-4949-aab3-f8ecb88a736c"
-							name="MenuLateral_Vehiculo">
-							</testmodule>
-							<testmodule
-							id="9c04b6b9-92e8-468b-9b14-189935726050"
-							name="VehiculosFlota_Parte2">
-							</testmodule>
-							<testmodule
-							id="1f97d081-637a-4957-8403-659e5bb15efc"
-							name="Comisiones">
-							</testmodule>
-							<testmodule
-							id="64d52b50-3f05-4b8b-81d9-9cb99d4607f8"
-							name="CotizarPolizaMotor">
-							</testmodule>
-						</smartfoldernode>
-						<teardown
-						id="042bb70e-75b9-4c8a-9627-03d813df848d"
-						name="teardown32">
-							<testmodule
-							id="dab1fe85-dca2-4727-8ba7-69c51b3671c4"
-							name="Logout">
-							</testmodule>
-							<testmodule
-							id="f63523e0-5d77-428f-956d-fa6524df18bb"
 							name="CloseBrowser">
 							</testmodule>
 						</teardown>
@@ -8509,6 +8272,102 @@
 							</testmodule>
 							<testmodule
 							id="9b84ce82-6aed-47e3-bf85-13a3b6387d5d"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
+					</testcase>
+					<testcase
+					id="ca395c1a-99ab-4c4f-b7ec-d4cf946bc338"
+					name="Cotizar_PolizaMotor">
+						<setup
+						id="7874fb5d-386d-44f4-8832-1a5f1db814a5"
+						name="setup">
+							<testmodule
+							id="3198b60e-42b2-4282-a044-77cbb62e085e"
+							name="OpenBrowser_PC">
+							</testmodule>
+							<testmodule
+							id="9c191d87-aa4e-4bf5-aa21-ad690ff5969f"
+							name="Login">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="5dd2662a-102a-4eb1-8175-112b004bc2e0"
+						name="MenuSuperior_CuentaPC">
+						</testmodule>
+						<testmodule
+						id="5451e1ca-b86a-4da2-8086-8b74417a6e51"
+						name="MenuLateral_CuentaPC">
+						</testmodule>
+						<testmodule
+						id="ee32fc05-ae20-43ec-bbfa-e7c1dad99bc8"
+						name="NuevaPolizaMotor">
+						</testmodule>
+						<testmodule
+						id="1e105624-eef3-40f0-9f0e-d22910c6f906"
+						name="InformacionDePoliza_Motor">
+						</testmodule>
+						<smartfoldernode
+						id="134cbb3a-399a-4ec8-90cc-3af0d92d138b"
+						name="Cuotas_No1">
+							<testmodule
+							id="0c1bf977-9ed0-4c15-b09f-d2a4dc71f8f2"
+							name="Cant_Cuotas">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="ffacfab4-5440-4874-a85f-3c08b5e5a2fe"
+						name="Coutas_Si1">
+							<testmodule
+							id="8934be52-eec2-4bd0-a3af-6153dd3bc0dc"
+							name="CantCuotasSi">
+							</testmodule>
+						</smartfoldernode>
+						<testmodule
+						id="19505119-d2ab-494b-8f37-e9f673c96501"
+						name="ContinueInformacionPoliza">
+						</testmodule>
+						<testmodule
+						id="e3033db2-e65a-4c22-b57a-0e40fe4c83dc"
+						name="Conductores">
+						</testmodule>
+						<testmodule
+						id="b2243f99-0292-4402-9d6f-838b5f5d3c8b"
+						name="Vehiculos">
+						</testmodule>
+						<smartfoldernode
+						id="999a0a0a-8857-4333-b8c2-03a9e4aad60b"
+						name="TR_FIJA">
+							<testmodule
+							id="eb75571f-8ad4-4b96-ac9c-5bfbb29abce4"
+							name="TR_FIJA">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="577c4920-d710-4ca7-b225-4818fb84babd"
+						name="TR_VARIABLE">
+							<testmodule
+							id="322f3283-0424-48d1-b3e2-5de1422b34a7"
+							name="TR_VARIABLE">
+							</testmodule>
+						</smartfoldernode>
+						<testmodule
+						id="74e8fb6e-8953-4e93-80ca-694dc307c285"
+						name="Comisiones">
+						</testmodule>
+						<testmodule
+						id="bae33c86-758c-461e-81e7-a90950654312"
+						name="CotizarPolizaMotor">
+						</testmodule>
+						<teardown
+						id="8b9a5d18-bf00-48f8-9e87-75ee97de06c7"
+						name="teardown">
+							<testmodule
+							id="8c9f7e36-c306-481e-bb0c-f3b4c08d3258"
+							name="Logout">
+							</testmodule>
+							<testmodule
+							id="6f5ba2b7-6a55-43cf-8c19-0a051e96a622"
 							name="CloseBrowser">
 							</testmodule>
 						</teardown>
@@ -9297,6 +9156,58 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="253849ee-64d8-4147-a4b9-63870bffe04f"
+					name="REVISAR_Cotizar_FlotaMotor">
+						<setup
+						id="077b30ec-cfd8-412a-89f3-64005f7017be"
+						name="setup22">
+							<testmodule
+							id="ee79b6d5-1fe2-4dbb-89a8-03a2014f0453"
+							name="OpenBrowser_PC">
+							</testmodule>
+							<testmodule
+							id="0098bf6d-f145-432d-8e54-2afc72a74579"
+							name="Login">
+							</testmodule>
+						</setup>
+						<smartfoldernode
+						id="a50b4bc4-f0a0-441e-b385-0c8ba341845c"
+						name="ImportaExcelMOTOR">
+							<testmodule
+							id="9c347a6e-eef9-4459-90be-daeb437d2713"
+							name="MenuSuperior_BusquedaPoliza">
+							</testmodule>
+							<testmodule
+							id="eeae7876-d1dd-4949-aab3-f8ecb88a736c"
+							name="MenuLateral_Vehiculo">
+							</testmodule>
+							<testmodule
+							id="9c04b6b9-92e8-468b-9b14-189935726050"
+							name="VehiculosFlota_Parte2">
+							</testmodule>
+							<testmodule
+							id="1f97d081-637a-4957-8403-659e5bb15efc"
+							name="Comisiones">
+							</testmodule>
+							<testmodule
+							id="64d52b50-3f05-4b8b-81d9-9cb99d4607f8"
+							name="CotizarPolizaMotor">
+							</testmodule>
+						</smartfoldernode>
+						<teardown
+						id="042bb70e-75b9-4c8a-9627-03d813df848d"
+						name="teardown32">
+							<testmodule
+							id="dab1fe85-dca2-4727-8ba7-69c51b3671c4"
+							name="Logout">
+							</testmodule>
+							<testmodule
+							id="f63523e0-5d77-428f-956d-fa6524df18bb"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -9986,7 +9897,7 @@
 		filename="Emisión Motor - Varios vehiculos - General.xlsx"
 		id="213ba1be-f5b4-44d9-a491-524b455d4f4b"
 		includefile="Checked"
-		lastknownrowcount="7"
+		lastknownrowcount="2"
 		name="EmisionMotor_VariosVeh_General"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -10060,7 +9971,7 @@
 		filename="Emisión Motor - Varios vehiculos - Vehiculos.xlsx"
 		id="8aabcb06-d09d-4a25-b3c0-8098a1f75f62"
 		includefile="Checked"
-		lastknownrowcount="21"
+		lastknownrowcount="2"
 		name="EmisionMotor_VariosVeh_Vehiculos"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -10531,19 +10442,22 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="12eb8546-acc7-4d79-be39-a390d55c040f">
+			id="0c77928c-05f6-4a19-ac79-2efbed448d09">
 			</testcontainer>
 			<testcontainer
-			id="13838ddd-3185-46ee-8310-5491947035f4">
+			id="1a3f0eee-9b4c-454f-8e67-ea948e496725">
 			</testcontainer>
 			<testcontainer
-			id="26124acf-0206-4a03-9e48-b6fc1ceb96a8">
+			id="38a4eba5-2439-47cd-b881-d65501836d7d">
 			</testcontainer>
 			<testcontainer
-			id="710c0423-7655-4e5c-ae4c-6d99880261a1">
+			id="3da6065f-8d1f-4c05-99c6-72c8418b6ac2">
 			</testcontainer>
 			<testcontainer
-			id="8487e29c-8ddd-468f-958a-069e17eb4820">
+			id="78b1ba01-094f-4fd0-8d8b-deb6c649d73d">
+			</testcontainer>
+			<testcontainer
+			id="c6e91aad-a398-49fe-b3ce-11a3a27734b7">
 			</testcontainer>
 			<testcontainer
 			id="d7c05272-23b6-40b0-82d1-68f500915bfb">

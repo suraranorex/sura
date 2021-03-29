@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<repository
+﻿<repository
 id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
 name="SuraRepository">
 	<codegen
@@ -1466,6 +1465,16 @@ name="SuraRepository">
 							refimgid="a97fed81-1114-4a73-b8be-a1355ade1f94"
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//span[@innertext='Proveedor']
+							</item>
+							<item
+							addcaps="unknown,webelement,divtag"
+							capname="divtag"
+							id="09471f4a-e14e-465c-8bf1-39008cf6c47f"
+							name="btn_RevisarCambios"
+							refimgid="fb7d1d3a-03bb-45bb-9156-51e9d41d4b83"
+							refpath="/dom[@domain='ssurgwsoadev4-oci.opc.oracleoutsourcing.com']//tbody[#'JobComplete-tbody']/tr[5]/td/div/table/tbody/tr[2]/td/div/div/div[@innertext='Revisar cambios']"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'JobComplete-tbody']//div[@innertext='Revisar cambios']
 							</item>
 							<basepath>
 								/dom[@domain=$Ambiente]

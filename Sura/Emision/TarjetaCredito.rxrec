@@ -41,7 +41,7 @@ mode="Global">
 		<var
 		id="bb058290-3eec-4522-b038-ada6851f8f3b"
 		name="TCTrue">
-			La tarjeta de cr&#233;dito que inteta registrar ya existe en la cuenta
+			La tarjeta de crédito que inteta registrar ya existe en la cuenta
 		</var>
 	</variables>
 	<recorditems>
@@ -95,7 +95,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Informaci&#243;n del Pago
+						Información del Pago
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -109,7 +109,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'westPanel-innerCt']/div[3]/div[3]/div[1]/?/?/div/table[9]//span[@innertext='Informaci&#243;n del Pago']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'westPanel-innerCt']/div[3]/div[3]/div[1]/?/?/div/table[9]//span[@innertext='Información del Pago']
 				</path>
 			</info>
 		</mouseitem>
@@ -825,7 +825,7 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 					<attribute
 					name="innertext"
 					type="System.String">
-						Nuevo M&#233;todo de Pago
+						Nuevo Método de Pago
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -839,7 +839,7 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Nuevo M&#233;todo de Pago']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Nuevo Método de Pago']
 				</path>
 			</info>
 		</mouseitem>
@@ -1026,7 +1026,7 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.&#186; de tarjeta de cr&#233;dito']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.º de tarjeta de crédito']/../..//input
 				</path>
 			</info>
 			<AttributeValue>
@@ -1184,7 +1184,7 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.&#186; de tarjeta de cr&#233;dito']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.º de tarjeta de crédito']/../..//input
 				</path>
 			</info>
 		</keysequenceitem>
@@ -1243,7 +1243,7 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 					<attribute
 					name="innertext"
 					type="System.String">
-						Nuevo M&#233;todo de Pago
+						Nuevo Método de Pago
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1257,7 +1257,7 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Nuevo M&#233;todo de Pago']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Nuevo Método de Pago']
 				</path>
 			</info>
 		</mouseitem>
@@ -1275,7 +1275,7 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 			id="e8b7f5ca-2946-42f7-bce2-64bb7c728f68"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.&#186; de tarjeta de cr&#233;dito']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.º de tarjeta de crédito']/../..//input[@data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -1651,7 +1651,7 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 					<attribute
 					name="innertext"
 					type="System.String">
-						Nuevo M&#233;todo de Pago
+						Nuevo Método de Pago
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1665,7 +1665,7 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Nuevo M&#233;todo de Pago']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Nuevo Método de Pago']
 				</path>
 			</info>
 		</mouseitem>
@@ -1737,7 +1737,7 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 					<attribute
 					name="innertext"
 					type="System.String">
-						Utilizar la informaci&#243;n del contratante?
+						Utilizar la información del contratante?
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -2151,7 +2151,7 @@ H9jW/wDfl/Mf4VoUVXPLuZ+yh2M/+xrf+/L+Y/wo/sa3/vy/mP8ACtCijnl3D2UOx//Z
 			id="2095e632-bb47-4036-a6a2-c4adeeb04fa0"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[@innertext='La tarjeta de cr&#233;dito que inteta registrar ya existe en la cuenta']
+					/dom[@domain=$Ambiente]//div[@innertext='La tarjeta de crédito que inteta registrar ya existe en la cuenta']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -2193,7 +2193,7 @@ H9jW/wDfl/Mf4VoUVXPLuZ+yh2M/+xrf+/L+Y/wo/sa3/vy/mP8ACtCijnl3D2UOx//Z
 			id="02bdda6f-e248-44ed-88c0-1d3a8c109b92"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//span[@innertext~'Informaci&#243;n del Pago']
+					/dom[@domain=$Ambiente]//span[@innertext~'Información del Pago']
 				</path>
 			</info>
 		</WaitForRecordItem>

@@ -8694,6 +8694,7 @@ namespace Sura
             RepoItemInfo _refacturacionInfo;
             RepoItemInfo _atag04104013502Info;
             RepoItemInfo _lbl_proveedorInfo;
+            RepoItemInfo _btn_revisarcambiosInfo;
 
             /// <summary>
             /// Creates a new CoberturasAdicionales  folder.
@@ -8715,6 +8716,7 @@ namespace Sura
                 _refacturacionInfo = new RepoItemInfo(this, "Refacturacion", ".//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Refacturación']", 30000, null, "65ee7220-00f3-4f08-9de2-c662beb07205");
                 _atag04104013502Info = new RepoItemInfo(this, "ATag04104013502", ".//tbody[#'PolicyFile_Summary-tbody']//a[@innertext='04104013502']", 30000, null, "c379855c-fbe4-4c83-b7fd-94348102bdfa");
                 _lbl_proveedorInfo = new RepoItemInfo(this, "lbl_Proveedor", ".//div[#'SubmissionWizard/VehicleList']//span[@innertext='Proveedor']", 30000, null, "9caa45bd-7834-49de-932d-58583087b85b");
+                _btn_revisarcambiosInfo = new RepoItemInfo(this, "btn_RevisarCambios", ".//tbody[#'JobComplete-tbody']//div[@innertext='Revisar cambios']", 30000, null, "09471f4a-e14e-465c-8bf1-39008cf6c47f");
             }
 
             /// <summary>
@@ -9074,6 +9076,30 @@ namespace Sura
                 get
                 {
                     return _lbl_proveedorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The btn_RevisarCambios item.
+            /// </summary>
+            [RepositoryItem("09471f4a-e14e-465c-8bf1-39008cf6c47f")]
+            public virtual Ranorex.DivTag btn_RevisarCambios
+            {
+                get
+                {
+                    return _btn_revisarcambiosInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The btn_RevisarCambios item info.
+            /// </summary>
+            [RepositoryItemInfo("09471f4a-e14e-465c-8bf1-39008cf6c47f")]
+            public virtual RepoItemInfo btn_RevisarCambiosInfo
+            {
+                get
+                {
+                    return _btn_revisarcambiosInfo;
                 }
             }
         }
