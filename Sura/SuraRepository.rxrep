@@ -1,4 +1,5 @@
-﻿<repository
+<?xml version="1.0" encoding="utf-8"?>
+<repository
 id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
 name="SuraRepository">
 	<codegen
@@ -152,12 +153,12 @@ name="SuraRepository">
 								</item>
 								<item
 								addcaps="unknown,webelement,spantag"
-								capname="spantag"
+								capname="unknown"
 								id="25f606e9-51bf-41f1-8530-363d7cfd5a2d"
 								name="bttn_Cotizar"
 								refimgid="300b2463-368f-4b6d-9799-2a6484dcdcd2"
 								searchtimeout="30000ms">
-									/dom[@domain=$Ambiente]//span[@innertext~'Cotiar']
+									/dom[@domain=$Ambiente]//*[@innertext~'Cotiar']
 								</item>
 								<item
 								addcaps="unknown,webelement,spantag"
@@ -297,12 +298,12 @@ name="SuraRepository">
 							</item>
 							<item
 							addcaps="unknown,webelement,spantag"
-							capname="inputtag"
+							capname="spantag"
 							id="f9ce8d2f-1f9a-47fc-af5f-0f48c9fee6b8"
 							name="Copy_of_list_MetodoDePago"
 							refimgid="c4e3c299-aae1-4ec2-be18-86afbf6a23e4"
 							searchtimeout="30000ms">
-								/dom[@domain=$Ambiente]//table//span[@innertext~'Método de Pago']/../..//input[@data-tabindexsaved='True']
+								/dom[@domain=$Ambiente]//table//span[@innertext~'Método de Pago' and @data-tabindexsaved='True']
 							</item>
 							<item
 							addcaps="unknown,webelement,spantag"
@@ -546,12 +547,12 @@ name="SuraRepository">
 							</item>
 							<item
 							addcaps="unknown,webelement,inputtag"
-							capname="inputtag"
+							capname="spantag"
 							id="63cc2831-0ac6-4b81-bdcf-bcd8707b2647"
 							name="Copy_of_list_Campania"
 							refimgid="1e517334-143d-4d66-acc3-4bb321381059"
 							searchtimeout="30000ms">
-								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input[@data-tabindexsaved='True']
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña' and @data-tabindexsaved='True']
 							</item>
 							<item
 							addcaps="unknown,webelement,inputtag"
@@ -779,6 +780,15 @@ name="SuraRepository">
 							refimgid="65412289-c686-44e2-93ec-8026ecb6d67d"
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]/body//ul/li[@enabled='True']
+							</item>
+							<item
+							addcaps="unknown,webelement,litag"
+							capname="litag"
+							id="244a64a9-1643-4ba6-92ef-b19c87751831"
+							name="Select_Campania"
+							refimgid="86ab6b5d-9b5d-49e1-9fb8-8d8a760fee1e"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]/body//li[@enabled='True' and @innertext~$Campania]
 							</item>
 						</folder>
 						<folder
@@ -1943,6 +1953,15 @@ name="SuraRepository">
 							refimgid="aea1d4d9-034d-4a2e-bc76-469acd9be251"
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[4]/td/div/div[2]/?/?/table/tbody/tr[2]/td/div/div[2]/?/?/table//div/table/tbody/tr[4]/td/div/div[1]/div[1]/div[2]/div/a//span[@innertext='Detalle']
+							</item>
+							<item
+							addcaps="unknown,webelement,divtag"
+							capname="divtag"
+							id="f8489305-3283-4e17-b066-792ddb66c32e"
+							name="Pantalla"
+							refimgid="9f067534-fa1f-4927-8529-1c84dc3cedea"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]//table/tbody/tr[2]/td/div
 							</item>
 						</folder>
 					</folder>
@@ -6126,6 +6145,11 @@ AAAASUVORK5CYII=
 		id="392d688b-a1f7-44af-a25f-a35cf553aadb"
 		name="Destino">
 			REMIS MULTIPLATAFORMA
+		</var>
+		<var
+		id="87d7f473-a0e4-48bd-bc62-03a29ee785a0"
+		name="Campania">
+			1.VUELVE CLIENTE
 		</var>
 	</variables>
 </repository>

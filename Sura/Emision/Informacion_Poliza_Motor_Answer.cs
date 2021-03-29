@@ -71,18 +71,6 @@ namespace Sura.Emision
             set { _CantVehiculos = value; }
         }
 
-        string _Campania;
-
-        /// <summary>
-        /// Gets or sets the value of variable Campania.
-        /// </summary>
-        [TestVariable("6323a735-4f93-4bf5-9d6b-bc1d48829b93")]
-        public string Campania
-        {
-            get { return _Campania; }
-            set { _Campania = value; }
-        }
-
         string _TipoPlazo;
 
         /// <summary>
@@ -123,6 +111,16 @@ namespace Sura.Emision
         {
             get { return repo.MetodoDePago; }
             set { repo.MetodoDePago = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable Campania.
+        /// </summary>
+        [TestVariable("6323a735-4f93-4bf5-9d6b-bc1d48829b93")]
+        public string Campania
+        {
+            get { return repo.Campania; }
+            set { repo.Campania = value; }
         }
 
         /// <summary>
