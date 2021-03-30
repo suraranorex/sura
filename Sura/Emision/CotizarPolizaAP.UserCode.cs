@@ -37,7 +37,7 @@ namespace Sura.Emision
         public void guardarNumSolicitud()
         {
            	verificarDirectorio();
-			string path = @"C:\TEMP\Solicitudes\solicitudesAP.csv";
+			string path = @"R:\TEMP\Solicitudes\solicitudesAP.csv";
 			bool exist = File.Exists(path);
 			
 			string cabecera = "NumSolicitud,NumCuenta" + System.Environment.NewLine;
@@ -68,10 +68,10 @@ namespace Sura.Emision
         public void verificarDirectorio(){
         	Report.Info("Info","Verificando la existencia del directorio destino");
 			
-        	if (!Directory.Exists(@"C:\TEMP\Solicitudes"))
+        	if (!Directory.Exists(@"R:\TEMP\Solicitudes"))
 			{
 				Report.Info("Info","No se encontro el directorio, comienza la creacion del directorio...");
-				Directory.CreateDirectory(@"C:\TEMP\Solicitudes");
+				Directory.CreateDirectory(@"R:\TEMP\Solicitudes");
 				Report.Info("Info","Creacion del directorio finalizada.");
 			}
 			Report.Info("Info","Verificacion finalizada");

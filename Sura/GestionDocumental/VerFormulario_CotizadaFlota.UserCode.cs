@@ -59,10 +59,10 @@ namespace Sura.GestionDocumental
         public void verificarDirectorio(){
         	Report.Info("Info","Verificando la existencia del directorio destino");
         	
-        	if (!Directory.Exists(@"C:\TEMP\"+ NumeroTransaccion.TrimStart()+ "\\Flota"))
+        	if (!Directory.Exists(@"R:\TEMP\Formularios\"+ NumeroTransaccion.TrimStart()+ "\\Flota"))
         	{
         		Report.Info("Info","No se encontro el directorio, comienza la creacion del directorio...");
-        		Directory.CreateDirectory(@"C:\TEMP\"+ NumeroTransaccion.TrimStart()+ "\\Flota");
+        		Directory.CreateDirectory(@"R:\TEMP\Formularios\"+ NumeroTransaccion.TrimStart()+ "\\Flota");
         		Report.Info("Info","Creacion del directorio finalizada.");
         	}
         	Report.Info("Info","Verificacion finalizada");
@@ -74,7 +74,7 @@ namespace Sura.GestionDocumental
         	string downloadFolder = Path.Combine(userRoot, @"Downloads\");
         	
         	string origen = downloadFolder + NombreArchivo.TrimStart();
-        	string destino = @"C:\TEMP\"+ NumeroTransaccion.TrimStart() + @"\Flota\" + NombreArchivo.TrimStart();
+        	string destino = @"R:\TEMP\Formularios\"+ NumeroTransaccion.TrimStart() + @"\Flota\" + NombreArchivo.TrimStart();
       
         	try {
 	        	File.Move(origen, destino);

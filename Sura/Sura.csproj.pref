@@ -1,6 +1,21 @@
 ﻿<Properties>
   <Array name="active" />
   <Array name="bookmarks" />
+<<<<<<< HEAD
   <Array name="files" />
   <Properties name="projectSavedData" />
+=======
+  <Array name="files">
+    <Element value="PC_GestionDocumental.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Sura.GestionDocumental.Ver_CertificadoPagosAlDia.fileCheck()" />
+      <Element value="Sura.GestionDocumental.VerFormulario_CotizadaFlota.fileCheck()" />
+    </Array>
+  </Properties>
+>>>>>>> 6323945bb016afa0616c035f66c33537efa0d84e
 </Properties>

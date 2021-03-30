@@ -989,6 +989,15 @@ name="SuraRepository">
 								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//label[@innertext='Información del vehículo']
 							</item>
 							<item
+							addcaps="unknown,webelement,tdtag"
+							capname="labeltag"
+							id="d861d4b5-bfbf-4e9e-bd5d-0ca55c2474d4"
+							name="lbl_InfoDelVehiculo2"
+							refimgid="22fdedaa-9450-44cc-9cd7-2f20724f0bc7"
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//label[@innertext='Información del vehículo']
+							</item>
+							<item
 							addcaps="unknown,webelement,spantag"
 							capname="inputtag"
 							id="42e51290-be0e-417d-949a-25ca503baac0"
