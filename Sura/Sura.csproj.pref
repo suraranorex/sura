@@ -1,12 +1,6 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="PC_GestionDocumental.rxtst" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="BC.rxtst" />
-    <Element value="PC.rxtst" />
-    <Element value="PC_GestionDocumental.rxtst" />
-  </Array>
+  <Array name="files" />
   <Properties name="projectSavedData" />
 </Properties>
