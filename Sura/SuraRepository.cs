@@ -7218,6 +7218,7 @@ namespace Sura
             SuraRepositoryFolders.CopiasFolder _copias;
             RepoItemInfo _txt_franquiciaInfo;
             RepoItemInfo _lbl_infodelvehiculoInfo;
+            RepoItemInfo _lbl_infodelvehiculo2Info;
             RepoItemInfo _txtbox_chasisInfo;
             RepoItemInfo _txtbox_motorInfo;
             RepoItemInfo _txtbox_patenteInfo;
@@ -7242,6 +7243,7 @@ namespace Sura
                 _copias = new SuraRepositoryFolders.CopiasFolder(this);
                 _txt_franquiciaInfo = new RepoItemInfo(this, "txt_Franquicia", ".//label/span[@innertext~'Franquicia']/../..//input", 30000, null, "0693399a-63d6-4ae2-a103-25c1a0f1c9b3");
                 _lbl_infodelvehiculoInfo = new RepoItemInfo(this, "lbl_InfoDelVehiculo", ".//div[#'SubmissionWizard/VehicleList']//label[@innertext='Información del vehículo']", 30000, null, "0a77e887-5b87-4e6a-8cb2-2b04b674e0fd");
+                _lbl_infodelvehiculo2Info = new RepoItemInfo(this, "lbl_InfoDelVehiculo2", ".//label[@innertext='Información del vehículo']", 30000, null, "d861d4b5-bfbf-4e9e-bd5d-0ca55c2474d4");
                 _txtbox_chasisInfo = new RepoItemInfo(this, "txtbox_Chasis", ".//label/span[@innertext~'Chasis']/../..//input", 30000, null, "42e51290-be0e-417d-949a-25ca503baac0");
                 _txtbox_motorInfo = new RepoItemInfo(this, "txtbox_Motor", ".//label/span[@innertext~'Motor']/../..//input", 30000, null, "f8e46b4c-c957-42b9-811a-cb14992b0b49");
                 _txtbox_patenteInfo = new RepoItemInfo(this, "txtbox_Patente", ".//label/span[@innertext~'Patente']/../..//input", 30000, null, "8e7a9c7c-c8e5-48a3-8635-e30d9877d816");
@@ -7315,6 +7317,30 @@ namespace Sura
                 get
                 {
                     return _lbl_infodelvehiculoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lbl_InfoDelVehiculo2 item.
+            /// </summary>
+            [RepositoryItem("d861d4b5-bfbf-4e9e-bd5d-0ca55c2474d4")]
+            public virtual Ranorex.LabelTag lbl_InfoDelVehiculo2
+            {
+                get
+                {
+                    return _lbl_infodelvehiculo2Info.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lbl_InfoDelVehiculo2 item info.
+            /// </summary>
+            [RepositoryItemInfo("d861d4b5-bfbf-4e9e-bd5d-0ca55c2474d4")]
+            public virtual RepoItemInfo lbl_InfoDelVehiculo2Info
+            {
+                get
+                {
+                    return _lbl_infodelvehiculo2Info;
                 }
             }
 

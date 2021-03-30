@@ -23,7 +23,6 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="00fb4af0-55ae-40f7-97f2-7bff630f6713"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -98,6 +97,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="01efa8ae-e511-4387-90fc-115749138100"
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
@@ -499,7 +499,6 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
-			enabled="False"
 			id="0cabfe76-61f7-48d2-b82d-7fcbe23e7f50"
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
@@ -834,7 +833,6 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
-			enabled="False"
 			id="142c14c0-e2d7-43f4-925a-ca510bb1bc5a"
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
@@ -849,7 +847,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="14b05057-7e67-4dc0-9409-8a5c215f50fa"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -976,7 +973,6 @@
 			name="setup1">
 			</setup>
 			<testmodule
-			enabled="False"
 			id="17b2b5ca-6d2e-4e4b-921e-5ee0d7378f8f"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -1118,7 +1114,6 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
-			enabled="False"
 			id="1dd24712-48ff-440a-9e64-241dc9e6a262"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -1257,7 +1252,6 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="20324dbd-a020-4322-b9d9-0ade08d63f15"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -1328,7 +1322,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="2515bda1-0465-4714-a4df-702d9fb750d2"
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
@@ -1345,7 +1338,7 @@
 			<testcase
 			errorbehavior="ContinueNextIteration"
 			id="253849ee-64d8-4147-a4b9-63870bffe04f"
-			name="REVISAR_Cotizar_FlotaMotor">
+			name="Cotizar_FlotaMotor">
 				<description>
 					<![CDATA[<p>Copia todo lo que hay en EmisiónMotorFlota_Parte2 hasta Comisiones y ahi agrega el recording correspondiente a Cotizar_Motor</p><p>Faltan los DataSource</p>]]>
 				</description>
@@ -1467,7 +1460,6 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
-			enabled="False"
 			id="28c5354d-93cb-4593-b013-ccec99d4c616"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -1779,7 +1771,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="355dd20a-e408-4b9e-b9cc-bfd5374b1f15"
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
@@ -1876,6 +1867,7 @@
 			name="teardown">
 			</teardown>
 			<testcase
+			datarangeactive="True"
 			datasource="EmisionMotor_VariosVeh_General"
 			errorbehavior="ContinueNextIteration"
 			id="38a4eba5-2439-47cd-b881-d65501836d7d"
@@ -1964,7 +1956,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="3b5d76c5-e1ba-4c08-ae96-80697c85cdcc"
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
@@ -2228,7 +2219,6 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="482cb350-d44b-4e5e-b3c5-6c24ce2a1873"
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
@@ -2336,7 +2326,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="4bcabd5a-e516-4231-8f28-573a4aea5424"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -2377,7 +2366,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="4c25be59-7487-40b3-9bac-c3cc631d4587"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -2417,7 +2405,6 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
-			enabled="False"
 			id="4c564b62-2486-4737-b124-1be1b749ec49"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -2768,7 +2755,6 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="57132095-a16d-4c6a-9d0b-2de05b7fb44e"
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
@@ -2996,7 +2982,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="5ddf0b72-6689-4ee2-891e-ade8b763ee2b"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -3548,7 +3533,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="69628275-561d-4f88-b03c-540e343d5959"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -3581,7 +3565,6 @@
 			name="EndosoMotor_ExclusionRiesgo">
 			</testcase>
 			<testmodule
-			enabled="False"
 			id="6af4a51a-ac5d-4098-b699-d4a082c2b7ae"
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
@@ -3714,7 +3697,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="6f5ba2b7-6a55-43cf-8c19-0a051e96a622"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -3729,7 +3711,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="6f7d619d-513f-4889-bca8-82cd1ac6e016"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -4057,7 +4038,6 @@
 			name="Coberturas">
 			</smartfoldernode>
 			<testmodule
-			enabled="False"
 			id="7e3dab9f-d550-408d-aadc-83508f4f7344"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -4098,7 +4078,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="819e9b32-505b-42b1-9fef-0ad2165beb8d"
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
@@ -4581,7 +4560,6 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="8c9f7e36-c306-481e-bb0c-f3b4c08d3258"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -4621,9 +4599,12 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testcase
+			datarangeactive="True"
 			datasource="CotizarHogar_NoEnlatado"
 			errorbehavior="ContinueNextIteration"
 			id="8d02da7e-9a4b-49a4-9ace-2384a8bf2e78"
+			maxrange="0"
+			minrange="0"
 			name="Cotizar_HogarNoEnlatado">
 			</testcase>
 			<testmodule
@@ -5007,6 +4988,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="9b730e83-2fdf-4de1-84bd-b5f3749e7cef"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -5099,7 +5081,6 @@
 			name="teardown">
 			</teardown>
 			<testmodule
-			enabled="False"
 			id="9f1ab562-954f-452a-aca5-3e1d15327f32"
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
@@ -5146,7 +5127,6 @@
 				</missingdatabinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="a02ad6f2-63ac-47b1-9598-a04283b622d1"
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
@@ -5215,6 +5195,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="a307eda1-f803-4ab5-9e3f-29eeb8ee5597"
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
@@ -6191,7 +6172,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="c67250e6-037b-4470-91b3-97f07b922d19"
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
@@ -6715,7 +6695,6 @@
 			name="teardown">
 			</teardown>
 			<testmodule
-			enabled="False"
 			id="da57c543-e923-4ef5-a045-84e529d114be"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -7294,7 +7273,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="f2278376-f529-4f48-8720-d38350aac19f"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -7349,7 +7327,6 @@
 			name="setup">
 			</setup>
 			<testmodule
-			enabled="False"
 			id="f456adcf-3527-4a89-a3a0-4be8b5a7ce02"
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
@@ -7364,6 +7341,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="f46a0cc1-6866-4bc8-97be-432c58d96d78"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -7450,7 +7428,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="fa9dcf04-006f-4275-aeb1-d78beda71875"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -7547,7 +7524,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="fd8767ee-1048-447a-ba75-3d95f4806bc2"
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
@@ -9158,7 +9134,7 @@
 					</testcase>
 					<testcase
 					id="253849ee-64d8-4147-a4b9-63870bffe04f"
-					name="REVISAR_Cotizar_FlotaMotor">
+					name="Cotizar_FlotaMotor">
 						<setup
 						id="077b30ec-cfd8-412a-89f3-64005f7017be"
 						name="setup22">
@@ -10085,7 +10061,7 @@
 		filename="DataSource - Endoso Exclusion de Riesgo Vehiculos.xlsx"
 		id="6cfd1f09-d093-4951-bc76-2fe8511a9402"
 		includefile="Checked"
-		lastknownrowcount="2"
+		lastknownrowcount="1"
 		name="Endoso_ExclusionRiesgo_Vehiculos"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -10134,7 +10110,7 @@
 		filename="DataSource - Endoso Inclusion de Riesgo - Vehiculos.xlsx"
 		id="5b2fff58-fb0d-4bbf-8db5-856672e2238a"
 		includefile="Checked"
-		lastknownrowcount="2"
+		lastknownrowcount="1"
 		name="Endoso_InclusionRiesgo_Vehiculos"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -10209,7 +10185,7 @@
 		<DataSource
 		id="fc136e6d-5dc4-420c-a71e-4b4db4497a38"
 		includefile="Unchecked"
-		lastknownrowcount="6"
+		lastknownrowcount="0"
 		name="flotaMotor_DS"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">
@@ -10441,27 +10417,6 @@
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
-			<testcontainer
-			id="0c77928c-05f6-4a19-ac79-2efbed448d09">
-			</testcontainer>
-			<testcontainer
-			id="1a3f0eee-9b4c-454f-8e67-ea948e496725">
-			</testcontainer>
-			<testcontainer
-			id="38a4eba5-2439-47cd-b881-d65501836d7d">
-			</testcontainer>
-			<testcontainer
-			id="3da6065f-8d1f-4c05-99c6-72c8418b6ac2">
-			</testcontainer>
-			<testcontainer
-			id="78b1ba01-094f-4fd0-8d8b-deb6c649d73d">
-			</testcontainer>
-			<testcontainer
-			id="c6e91aad-a398-49fe-b3ce-11a3a27734b7">
-			</testcontainer>
-			<testcontainer
-			id="d7c05272-23b6-40b0-82d1-68f500915bfb">
-			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
