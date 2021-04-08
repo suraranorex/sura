@@ -541,6 +541,18 @@
       <UserCode>true</UserCode>
       <id>d13eedf3-b531-46ea-8dc0-b8737d948058</id>
     </Compile>
+    <Compile Include="Emision\InformacionDePoliza_APNomina.cs">
+      <BoundTo>6966ab39-de53-42fa-b966-6023016e3964</BoundTo>
+      <DependentUpon>InformacionDePoliza_APNomina.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>96328471-2f3a-47cc-95b5-042d838a217e</id>
+    </Compile>
+    <Compile Include="Emision\InformacionDePoliza_APNomina.UserCode.cs">
+      <BoundTo>6966ab39-de53-42fa-b966-6023016e3964</BoundTo>
+      <DependentUpon>InformacionDePoliza_APNomina.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0c5f9439-abe0-41b1-bb92-bf4603ac7bb9</id>
+    </Compile>
     <Compile Include="Emision\InformacionDePoliza_MotorFlota1.cs">
       <BoundTo>e46e1f9c-65fe-482e-a06f-f06187ca3003</BoundTo>
       <DependentUpon>InformacionDePoliza_MotorFlota1.rxrec</DependentUpon>
@@ -2718,6 +2730,20 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>458ccf63-ca52-45af-bcc5-6a2b202459f4</id>
     </Content>
+    <Content Include="DataSource - CoberturasAdicionales.xlsx">
+      <Link>DataSource - CoberturasAdicionales.xlsx</Link>
+      <BoundTo>39fa15ad-4131-4223-a98f-ca1c53641d5e</BoundTo>
+      <DependentUpon>PC.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>715ee42e-bc7d-4d8b-9157-c8efaf32f926</id>
+    </Content>
+    <Content Include="DataSource - Emision Motor Flota Parte 1.xlsx">
+      <Link>DataSource - Emision Motor Flota Parte 1.xlsx</Link>
+      <BoundTo>39fa15ad-4131-4223-a98f-ca1c53641d5e</BoundTo>
+      <DependentUpon>PC.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>dcabced9-829b-49d2-b96e-a1bccaabe3dd</id>
+    </Content>
     <None Include="Emision\AccesorioConMovilidad.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>417b8e0c-ebf5-44f5-aa14-d299c600cb37</id>
@@ -2877,6 +2903,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>e1e3bf93-a90c-4dcc-8179-7555759c4a1e</id>
       <recordtableid>ef797584-212d-45c1-8a15-d4340c7bd976</recordtableid>
+    </None>
+    <None Include="Emision\InformacionDePoliza_APNomina.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>6966ab39-de53-42fa-b966-6023016e3964</id>
+      <recordtableid>dd15523a-4ab8-48e2-926f-2dbc22dc8ffa</recordtableid>
     </None>
     <None Include="Emision\InformacionDePoliza_MotorFlota1.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>

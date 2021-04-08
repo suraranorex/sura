@@ -104,8 +104,8 @@ namespace Sura.Emision
             repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.bttn_Elegir.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Emision.PolizaAP.AccidentesPersonales'", repo.SURA.PC.Emision.PolizaAP.AccidentesPersonalesInfo, new ActionTimeout(45000), new RecordItemIndex(1));
-            repo.SURA.PC.Emision.PolizaAP.AccidentesPersonalesInfo.WaitForExists(45000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'SURA.PC.Emision.PolizaAP.AccidentesPersonales'", repo.SURA.PC.Emision.PolizaAP.AccidentesPersonalesInfo, new ActionTimeout(60000), new RecordItemIndex(1));
+            repo.SURA.PC.Emision.PolizaAP.AccidentesPersonalesInfo.WaitForExists(60000);
             
         }
 

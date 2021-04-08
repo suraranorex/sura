@@ -59,7 +59,7 @@ mode="Global">
 		optional="False"
 		searchpropertyid="50a28d7c-99df-4549-a5d7-47f10a596db2"
 		waitaction="Exists"
-		waittimeout="45000ms">
+		waittimeout="60000ms">
 			<comment>
 			</comment>
 			<bindings>

@@ -59,21 +59,21 @@ namespace Sura.Emision
         public void verificarDirectorio(){
         	Report.Info("Info","Verificando la existencia del directorio destino");
 			
-        	if (!Directory.Exists(@"R:\TEMP\"))
+        	if (!Directory.Exists(@"C:\TEMP\"))
 			{
 				Report.Info("Info","No se encontro el directorio, comienza la creacion del directorio...");
-				Directory.CreateDirectory(@"R:\TEMP\");
+				Directory.CreateDirectory(@"C:\TEMP\");
 				Report.Info("Info","Creacion del directorio finalizada.");
 			}
 			Report.Info("Info","Verificacion finalizada");
         }
         
         public void guardarDatos(){
-        	string path = @"R:\TEMP\Nomina.csv";
+        	string path = @"C:\TEMP\Nomina.csv";
 			bool exist = File.Exists(path);
 			
 			string cabecera = "NROTRANSACCION,PATH,NOMBREARCHIVO" + System.Environment.NewLine;
-			string datos = NroTransaccion + @",R:\TEMP\," + NombreArchivo + System.Environment.NewLine;
+			string datos = NroTransaccion + @",C:\TEMP\," + NombreArchivo + System.Environment.NewLine;
 		
 			datos=datos.Replace(" ","");
 			
@@ -107,7 +107,7 @@ namespace Sura.Emision
             string downloadFolder = Path.Combine(userRoot, @"Downloads\");
             
             string origen = downloadFolder + NombreArchivo.TrimStart();
-        	string destino = @"R:\TEMP\" + NombreArchivo.TrimStart();
+        	string destino = @"C:\TEMP\" + NombreArchivo.TrimStart();
         	      
         	try {
 	        	File.Move(origen, destino);
