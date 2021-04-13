@@ -577,6 +577,18 @@
       <UserCode>true</UserCode>
       <id>cfc5f04e-7690-4400-9803-121c518dc069</id>
     </Compile>
+    <Compile Include="Emision\InformacionPoliza_ValidarMedioDePago.cs">
+      <BoundTo>087b0738-710b-4165-84b7-641471b8285a</BoundTo>
+      <DependentUpon>InformacionPoliza_ValidarMedioDePago.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>32455057-c1cc-40e0-b17b-9d46739140a6</id>
+    </Compile>
+    <Compile Include="Emision\InformacionPoliza_ValidarMedioDePago.UserCode.cs">
+      <BoundTo>087b0738-710b-4165-84b7-641471b8285a</BoundTo>
+      <DependentUpon>InformacionPoliza_ValidarMedioDePago.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c3c59eda-b371-4c61-882c-415c2cad0ef6</id>
+    </Compile>
     <Compile Include="Emision\Informacion_PolizaHogar_Retroactiva.cs">
       <BoundTo>4a1c2fa3-a034-4220-a631-d1fa0ca23888</BoundTo>
       <DependentUpon>Informacion_PolizaHogar_Retroactiva.rxrec</DependentUpon>
@@ -2919,6 +2931,11 @@
       <id>689b9063-adbb-41b7-8a4d-ae065a274e7c</id>
       <recordtableid>380e234e-cf02-482b-91be-20cf84f69547</recordtableid>
     </None>
+    <None Include="Emision\InformacionPoliza_ValidarMedioDePago.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>087b0738-710b-4165-84b7-641471b8285a</id>
+      <recordtableid>e79295b5-2848-4dcb-a12d-bdbe2ec095f0</recordtableid>
+    </None>
     <None Include="Emision\Informacion_PolizaHogar_Retroactiva.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>4a1c2fa3-a034-4220-a631-d1fa0ca23888</id>
@@ -3784,6 +3801,13 @@
       <id>255a35da-e85b-4283-b2b6-ac73d5ef7a77</id>
       <recordtableid>8cb5da30-e7c8-49f4-a58a-a86c7d6c264f</recordtableid>
     </None>
+    <Content Include="ValidarMedioDePago_Mensual.xlsx">
+      <Link>ValidarMedioDePago_Mensual.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>70ee6056-ce38-4943-bc5a-16dd59c1f4b0</id>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Sura.rxtmg">
