@@ -1,17 +1,31 @@
 ﻿<Properties>
   <Array name="active">
+<<<<<<< HEAD
     <Element value="PC.rxtst" />
+=======
+    <Element value="Validaciones\Validar_AnulacionRehabilitacion.rxrec" />
+>>>>>>> 58a132c026efc930c3b495715257df919e568184
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="PC.rxtst" />
+<<<<<<< HEAD
+=======
+    <Element value="PC_GestionDocumental.rxtst" />
+    <Element value="Validaciones\Validar_AnulacionRehabilitacion.rxrec" />
+>>>>>>> 58a132c026efc930c3b495715257df919e568184
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
+<<<<<<< HEAD
       <Element value="Sura.Emision.CargaVehiculos.seleccionaVehiculos2()" />
+=======
+      <Element value="Sura.Validaciones.Validar_AnulacionRehabilitacion.validar()" />
+      <Element value="Sura.Validaciones.Validar_AnulacionRehabilitacion.validar()" />
+>>>>>>> 58a132c026efc930c3b495715257df919e568184
     </Array>
   </Properties>
 </Properties>
