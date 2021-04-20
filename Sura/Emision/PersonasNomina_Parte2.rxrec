@@ -30,7 +30,7 @@ mode="Global">
 		<var
 		id="2bfc4af5-ee36-485d-9ab3-8447dac4f39b"
 		name="NombreArchivo">
-			Solicitud_de_P&#243;liza_0053204177_Personas_Aseguradas_20241017-1652.xlsx
+			Solicitud_de_Póliza_0053204177_Personas_Aseguradas_20241017-1652.xlsx
 		</var>
 	</variables>
 	<recorditems>
@@ -98,7 +98,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Informaci&#243;n Asegurado
+						Información Asegurado
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -124,8 +124,10 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Informaci&#243;n Asegurado']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Información Asegurado']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="dbfef994-6b04-418d-9c88-e32eb19a0669">
@@ -177,6 +179,8 @@ t+n+FOooAbsP99v0/wAKNh/vt+n+FOooAbsP99v0/wAKNh/vt+n+FOooAbsP99v0/wAKKdRQB//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext='Importar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -262,6 +266,8 @@ t+n+FOooAbsP99v0/wAKNh/vt+n+FOooAbsP99v0/wAKNh/vt+n+FOooAbsP99v0/wAKKdRQB//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext='Importar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="b199f609-9a50-40bd-9773-09e6fe213957">
@@ -320,6 +326,8 @@ YcqP/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'ExcelImportFilePopup:inputFile']//span[@innertext='Examinar...']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -357,17 +365,17 @@ YcqP/9k=
 					name="appicon"
 					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
 						iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAI6SURBVDhPY6AF4GNkZGyX4uK41Gyo87nZUPuz
-JCf7RaBYK1COF6IEN/CwEhd+dDfY/f/dILf/dwNd/9/1d/5/x8/x/x0fh/8WwoIPgWpcIUoxgfPl
-UM9/90I8/oMNAGkOcAEa4AQxwBdkiP3/S562/0BqIVoQgE9dUeLJFaAGsAFQ248Fuv01lhK+ryPC
-cweENYW4b4MwHxvLMaAehHeA/mvTbQj6s9vL+v9tf6AhSeH/7x48/n/V0c//Vxz5/P/+tWP/X23x
-//9pq83/73vs//8+YPcfqKcFqp2BgUWE55LiktT/KeX+/0952v6/d+j4/7hpX/779nz579P95X/0
-lC//n90/8f//OVcodv4vKcJ2HqqdgUE00fqz/OLk/xpzE/+viPX5vxJoK0yzVxcELz/8+f/f80FA
-zS7//591/j+9Uv0zVDsDg1CC1We5xUn/QTi6Jx5sALJmz06YAcFgzf/POqEawCzEfVF6YcJ/EJad
-nvgvMCLiNcjZMM2Rk778Dwj2fwmzHWQAiheAAdIstTD+PwhLArH+irz/G6+eB9sKwhsunv2/ea7r
-T5jm/2cdQYHYCNUOBrxsGuIPJRbE/Qdh8QWxYKy5PPO/5qL0/xM3BsBtBmm2NRR4ANID0YoALmLT
-Yv+JATWCsOj8mP8i86P/K8+N+v/2oOs/mOYvhx1ACckJogUTOLOqiT0Qnhf9H4ZnzrL/hWYzTs0w
-wAv0XxOTANcFKSeVVy25qh9BAQb1M8HMRCJgYAAAXJlnVQ5vlIcAAAAASUVORK5CYII=
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAI5SURBVDhPtZNLTBNRGIWnTaUQGVoo1gehTUMi
+ENKw0cREK7TTUQrFVtCg1oJFjXHD0q5c+A7KRi3uEBATqm4k0ZUmCioYk1pK1A0dCsaYCCuZJsYH
+c7x3HlYkxLjwJGcz83/n3P9mhvkfKtLpdJeKjXlTUWeVGHVWiua8NSny7AJ5xyojq6vBWWJ6L7Tu
+htCyC8JeHkKAQ3qPG2l/PWpM7ByZ4ZXRleJS+33SzL4GyAEUDnpJgEcJaKYhdZj0uSQ6qyA5FdnL
+LB/eEEAOUNvHAt6lylJTxmEqSFPb2Pxp6gKDfpwwuXXIfhdrTgd/PGrcjukACelsgzA6gbsvRMSf
+i8i8G8f8gwAWH+7Al8d1+P50JwhzXsUZRs/mTzluH8exaACvfC7MjE2g/UYWzT1Z+K9kEYpl8THz
+EnjNq+ZgZg1JFWcYy4Gton3oKKr6IoiH/bhDWjW48bLi4WcilpItBPYCCQ7dXRWiijOMuW2LaBvq
+BHWop0MO+B32dWsBrTKMhGd5gL7QmCobPALq8t6IxDc1LdBja/DBa1lwvOeT1k4Dlq1ALuTcpsEO
+UG8kro13YeRtUm6lvp9K4F6v+6sGI+Gml3hGxWWxBnvJ3IaBdlCvHwjLrh4+iepbJ3B1JPirmcK1
+mwtnKaOgOXmtsbBkJSD1uv7DKO0PoaLvEBae8JIGL47W0w/JoyArxRnKi2ctN0PQfD3m+vZH86qw
+Jpbsd1a/1jhp3WabPxVxfKYXpu7815/pH8UwPwHbd2ScrZFk3AAAAABJRU5ErkJggg==
 					</attribute>
 					<attribute
 					name="state"
@@ -483,6 +491,8 @@ wAv0XxOTANcFKSeVVy25qh9BAQb1M8HMRCJgYAAAXJlnVQ5vlIcAAAAASUVORK5CYII=
 				<path>
 					/form[@title='Open' or @title='Abrir']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<separatoritem
@@ -550,10 +560,12 @@ wAv0XxOTANcFKSeVVy25qh9BAQb1M8HMRCJgYAAAXJlnVQ5vlIcAAAAASUVORK5CYII=
 				<path>
 					/form[@title='Open' or @title='Abrir']/element[@class='WorkerW']/container[@controlid='40965']//toolbar[@controlid='1001']/button[@text='Escritorio']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="R:\TEMP\"
+		KeySequence="C:\TEMP\"
 		duration="20ms"
 		enabled="True"
 		optional="False"
@@ -707,6 +719,8 @@ wAv0XxOTANcFKSeVVy25qh9BAQb1M8HMRCJgYAAAXJlnVQ5vlIcAAAAASUVORK5CYII=
 				<path>
 					/form[@title='Open']/?/?/text[@controlid='1148']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -891,6 +905,8 @@ wAv0XxOTANcFKSeVVy25qh9BAQb1M8HMRCJgYAAAXJlnVQ5vlIcAAAAASUVORK5CYII=
 				<path>
 					/form[@title='Open']/button[@text='&amp;Open']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="86148996-b383-485a-ac25-1a6d407c79c1">
@@ -1040,6 +1056,8 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext='Importar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -1064,6 +1082,8 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext='Importar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -1115,7 +1135,7 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 					<attribute
 					name="innertext"
 					type="System.String">
-						Resumen de Importaci&#243;n:
+						Resumen de Importación:
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1139,8 +1159,10 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[1]/?/?/label[@innertext='Resumen de Importaci&#243;n:']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[1]/?/?/label[@innertext='Resumen de Importación:']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<loggingrecorditem
@@ -1178,6 +1200,8 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//table//div/table//div//span/span/span[@innertext~'Aceptar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -1245,6 +1269,8 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Personas' and @visible='true']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<WaitForRecordItem
@@ -1263,6 +1289,8 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'AccountNewDocumentsLinkedWorksheet-tbody']//div[@innertext&gt;'Coloque los archivos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -1285,8 +1313,10 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 			id="6e41b619-b342-4551-a91d-a385150595bd"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'AccountNewDocumentsLinkedWorksheet-tbody']//table/tbody//table//div[@innertext='Solicitud_de_P&#243;liza_0053204177_Personas_Aseguradas_20241017-1652']/../..//td[8]/div[@class='x-grid-cell-inner ']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'AccountNewDocumentsLinkedWorksheet-tbody']//table/tbody//table//div[@innertext='Solicitud_de_Póliza_0053204177_Personas_Aseguradas_20241017-1652']/../..//td[8]/div[@class='x-grid-cell-inner ']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -1311,6 +1341,8 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//ul/li[@enabled='True' and @innertext='ORDEN DE SEGURO NUEVO']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -1327,8 +1359,10 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 			id="79879ec4-f741-4bb0-809e-15a7fcd10001"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'AccountNewDocumentsLinkedWorksheet-tbody']//table/tbody//table//div[@innertext='Solicitud_de_P&#243;liza_0053204177_Personas_Aseguradas_20241017-1652']/../..//div[@innertext='ORDEN DE SEGURO NUEVO']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'AccountNewDocumentsLinkedWorksheet-tbody']//table/tbody//table//div[@innertext='Solicitud_de_Póliza_0053204177_Personas_Aseguradas_20241017-1652']/../..//div[@innertext='ORDEN DE SEGURO NUEVO']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<separatoritem
@@ -1362,6 +1396,8 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'AccountNewDocumentsLinkedWorksheet-tbody']//span[@innertext='Guardar y Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -1380,6 +1416,8 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'southPanel']//div[@id~'tabbar-[0-9]+-innerCt']//span[@innertext&gt;'Cargar documentos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<separatoritem
@@ -1422,6 +1460,8 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'AccountFile_WorkOrders-tbody']//span[@id~'gbutton-[0-9]+-btnIconEl' and @class~'page-last']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -1446,6 +1486,8 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'AccountFile_WorkOrders-tbody']//a[@innertext=$NroTransaccion]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -1470,6 +1512,8 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'AccountFile_WorkOrders-tbody']//a[@innertext=$NroTransaccion]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -1521,7 +1565,7 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 					<attribute
 					name="innertext"
 					type="System.String">
-						Informaci&#243;n de p&#243;liza
+						Información de póliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1535,8 +1579,10 @@ UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/2Q==
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div/table//span[@innertext='Informaci&#243;n de p&#243;liza']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div/table//span[@innertext='Información de póliza']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

@@ -57,17 +57,17 @@ namespace Sura.Emision
 			Report.Info("I/O","Inicia backup de Solicitudes de Poliza...");
 			
 			//PreCondiciones
-			verificaDirectorio(@"R:\TEMP\SolicitudesRealizadas");
+			verificaDirectorio(@"C:\TEMP\SolicitudesRealizadas");
 			
 			//Variables
-			bool existe = File.Exists(@"R:\TEMP\SolicitudesRealizadas\" + NOMBREARCHIVO);
+			bool existe = File.Exists(@"C:\TEMP\SolicitudesRealizadas\" + NOMBREARCHIVO);
 			
 			try {
 				if (existe)
 				{
-					File.Delete(@"R:\TEMP\" + NOMBREARCHIVO);
+					File.Delete(@"C:\TEMP\" + NOMBREARCHIVO);
 				} else {
-					File.Move(@"R:\TEMP\" + NOMBREARCHIVO,@"R:\TEMP\SolicitudesRealizadas\" + NOMBREARCHIVO);
+					File.Move(@"C:\TEMP\" + NOMBREARCHIVO,@"C:\TEMP\SolicitudesRealizadas\" + NOMBREARCHIVO);
 				}
 				Report.Success("I/O","Finaliza backup de Solicitudes de Poliza");
 			} catch (Exception e) {

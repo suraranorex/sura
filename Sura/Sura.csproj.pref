@@ -1,10 +1,17 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="PC_GestionDocumental.rxtst" />
+    <Element value="PC.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="PC_GestionDocumental.rxtst" />
+    <Element value="PC.rxtst" />
   </Array>
-  <Properties name="projectSavedData" />
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Sura.Emision.CargaVehiculos.seleccionaVehiculos2()" />
+    </Array>
+  </Properties>
 </Properties>

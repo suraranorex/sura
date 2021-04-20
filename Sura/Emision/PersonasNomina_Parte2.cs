@@ -151,8 +151,8 @@ namespace Sura.Emision
             repo.VentanaEmergente_Examinar.Escritorio.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'R:\\TEMP\\'.", new RecordItemIndex(8));
-            Keyboard.Press("R:\\TEMP\\");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\TEMP\\'.", new RecordItemIndex(8));
+            Keyboard.Press("C:\\TEMP\\");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(9));
