@@ -1,10 +1,20 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="PC_GestionDocumental.rxtst" />
+    <Element value="Validaciones\Validar_AnulacionRehabilitacion.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="PC.rxtst" />
     <Element value="PC_GestionDocumental.rxtst" />
+    <Element value="Validaciones\Validar_AnulacionRehabilitacion.rxrec" />
   </Array>
-  <Properties name="projectSavedData" />
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Sura.Validaciones.Validar_AnulacionRehabilitacion.validar()" />
+      <Element value="Sura.Validaciones.Validar_AnulacionRehabilitacion.validar()" />
+    </Array>
+  </Properties>
 </Properties>

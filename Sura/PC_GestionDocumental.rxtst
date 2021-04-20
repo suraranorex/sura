@@ -608,6 +608,10 @@
 			id="117508d6-5e30-4e65-8348-406411426d21"
 			name="setup1113">
 			</setup>
+			<teardown
+			id="118095b6-984a-422b-8033-73bf9f351e2b"
+			name="teardown1">
+			</teardown>
 			<testmodule
 			id="123e5766-a6fb-4933-91f0-72c5d8ba78bf"
 			name="InformacionDePoliza_Hogar"
@@ -1172,6 +1176,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<setup
+			id="229228c1-c73e-4db5-a4da-c4f2a994fe55"
+			name="setup1">
+			</setup>
 			<testmodule
 			id="23cf9aba-906d-41fc-a3fd-228f58aaea65"
 			name="PreEvaluacion"
@@ -1704,6 +1712,28 @@
 					variablename="FechaVencimiento">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="36b69be1-3f02-4e9c-86a8-23de0839c137"
+			name="OpenBrowser_PC"
+			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="50960a9e-bcc3-42f8-84d8-457ce42a09c6"
+					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
+					variablename="URL">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="URL"
+					datasourceid="55c61c06-fb76-484e-9918-017bbc56a84b"
+					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
+					variablename="URL">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<setup
 			id="371b633b-bf4e-4cfe-a3e5-052c2ab34d0d"
@@ -2618,6 +2648,11 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			datasource="DataSource_Validar_AnulacionRehabilitacion"
+			id="5b1a520c-926c-4d3b-a17f-971be2bf4dec"
+			name="Validar_AnulacionRehabilitacion">
+			</testcase>
 			<teardown
 			id="5b6f831f-4570-4cec-a999-0a46bb051e0e"
 			name="teardown">
@@ -3284,6 +3319,28 @@
 					variablename="TipoConstruccion">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="6f0fe7d2-a2f1-4761-a35f-cba86eea8634"
+			name="CloseBrowser"
+			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="50960a9e-bcc3-42f8-84d8-457ce42a09c6"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="55c61c06-fb76-484e-9918-017bbc56a84b"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="6f5ba2b7-6a55-43cf-8c19-0a051e96a622"
@@ -4326,6 +4383,52 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="93f76882-9d68-4015-b355-e5657bd4eebb"
+			name="Login"
+			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="50960a9e-bcc3-42f8-84d8-457ce42a09c6"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="50960a9e-bcc3-42f8-84d8-457ce42a09c6"
+					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="50960a9e-bcc3-42f8-84d8-457ce42a09c6"
+					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="55c61c06-fb76-484e-9918-017bbc56a84b"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="55c61c06-fb76-484e-9918-017bbc56a84b"
+					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="55c61c06-fb76-484e-9918-017bbc56a84b"
+					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
+					variablename="Contrasenia">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="94552363-d996-48da-9171-7530e9a6a3a6"
 			name="MenuLateral_Poliza"
 			ref="580f0ee5-bfb6-4935-aa16-2f9062ec3587"
@@ -4811,6 +4914,20 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="a7a18b0f-3c3a-4eb9-b8d7-40f2e31b8f16"
+			name="Validar_AnulacionRehabilitacion"
+			ref="1a2304cd-61a2-4772-960e-f11a25973346"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="50960a9e-bcc3-42f8-84d8-457ce42a09c6"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
 			<smartfoldernode
 			id="a7c37f84-8e01-4c39-b660-efd6cacddb9b"
 			name="Cuotas_Si8">
@@ -4860,6 +4977,26 @@
 			id="ab3ada3a-beff-4250-91fc-78add771bc7a"
 			name="Validar_Formularios_FlotaEmitida">
 			</testcase>
+			<testmodule
+			id="abe28b1b-8647-41d3-ac8d-ccf45ba4f8ff"
+			name="MenuSupBuscaPolizaNroPoliza"
+			ref="8b3e91b0-9ee3-4807-bbac-d005248babe6"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="50960a9e-bcc3-42f8-84d8-457ce42a09c6"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="NroPoliza"
+					datasourceid="50960a9e-bcc3-42f8-84d8-457ce42a09c6"
+					variableid="42428f7f-6975-4ad4-9ef7-76736c2aa29d"
+					variablename="NroPoliza">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="aca8a639-f06b-4d86-93dd-97ecdee0b97f"
 			name="Personas_Enlatada"
@@ -6008,6 +6145,28 @@
 					variablename="Contrasenia">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="d7b153d8-8d6d-4c1a-8e4b-0ebbe6881058"
+			name="Logout"
+			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="50960a9e-bcc3-42f8-84d8-457ce42a09c6"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="55c61c06-fb76-484e-9918-017bbc56a84b"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testcase
 			id="d7c05272-23b6-40b0-82d1-68f500915bfb"
@@ -8662,6 +8821,42 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="5b1a520c-926c-4d3b-a17f-971be2bf4dec"
+					name="Validar_AnulacionRehabilitacion">
+						<setup
+						id="229228c1-c73e-4db5-a4da-c4f2a994fe55"
+						name="setup1">
+							<testmodule
+							id="36b69be1-3f02-4e9c-86a8-23de0839c137"
+							name="OpenBrowser_PC">
+							</testmodule>
+							<testmodule
+							id="93f76882-9d68-4015-b355-e5657bd4eebb"
+							name="Login">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="abe28b1b-8647-41d3-ac8d-ccf45ba4f8ff"
+						name="MenuSupBuscaPolizaNroPoliza">
+						</testmodule>
+						<testmodule
+						id="a7a18b0f-3c3a-4eb9-b8d7-40f2e31b8f16"
+						name="Validar_AnulacionRehabilitacion">
+						</testmodule>
+						<teardown
+						id="118095b6-984a-422b-8033-73bf9f351e2b"
+						name="teardown1">
+							<testmodule
+							id="d7b153d8-8d6d-4c1a-8e4b-0ebbe6881058"
+							name="Logout">
+							</testmodule>
+							<testmodule
+							id="6f0fe7d2-a2f1-4761-a35f-cba86eea8634"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -9063,6 +9258,35 @@
 				</column>
 				<column>
 					Actividad
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
+		<DataSource
+		filename="DataSource - Validar Anulacion y Rehabilitacion.xlsx"
+		id="50960a9e-bcc3-42f8-84d8-457ce42a09c6"
+		includefile="Checked"
+		lastknownrowcount="1"
+		name="DataSource_Validar_AnulacionRehabilitacion"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Hoja1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					Ambiente
+				</column>
+				<column>
+					URL
+				</column>
+				<column>
+					Usuario
+				</column>
+				<column>
+					Contrasenia
+				</column>
+				<column>
+					NroPoliza
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -9924,7 +10148,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="Emision_Compl_Blank">
+	default="Iri">
 		<testconfiguration
 		name="Emision_Compl_Blank">
 			<testcontainer
@@ -10001,6 +10225,60 @@
 			</testcontainer>
 			<testcontainer
 			id="dc8253e8-ad34-4e99-a949-4353d60df64e">
+			</testcontainer>
+			<testcontainer
+			id="e25dfe99-ba27-4e05-868d-891cd033f2b6">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="Iri">
+			<testcontainer
+			id="03a1dee6-f00d-4eec-b745-bfca0e2377f1">
+			</testcontainer>
+			<testcontainer
+			id="12eb8546-acc7-4d79-be39-a390d55c040f">
+			</testcontainer>
+			<testcontainer
+			id="13838ddd-3185-46ee-8310-5491947035f4">
+			</testcontainer>
+			<testcontainer
+			id="1c65bc64-0e7c-45ad-ac5a-bb334c355db2">
+			</testcontainer>
+			<testcontainer
+			id="26124acf-0206-4a03-9e48-b6fc1ceb96a8">
+			</testcontainer>
+			<testcontainer
+			id="28631941-36d5-4799-bb6d-5a417f8f426c">
+			</testcontainer>
+			<testcontainer
+			id="4a3a215d-d680-4f70-b88c-0a8cd31df40d">
+			</testcontainer>
+			<testcontainer
+			id="4c304f69-e42e-44f9-8181-0b19e993e3e9">
+			</testcontainer>
+			<testcontainer
+			id="608c93b4-6ad0-408a-8dd6-370040900685">
+			</testcontainer>
+			<testcontainer
+			id="710c0423-7655-4e5c-ae4c-6d99880261a1">
+			</testcontainer>
+			<testcontainer
+			id="7d6fd47b-c9d6-469e-bc65-31253d95703e">
+			</testcontainer>
+			<testcontainer
+			id="7e083b46-d1bc-4228-8409-e5773ef3b69d">
+			</testcontainer>
+			<testcontainer
+			id="8487e29c-8ddd-468f-958a-069e17eb4820">
+			</testcontainer>
+			<testcontainer
+			id="8d02da7e-9a4b-49a4-9ace-2384a8bf2e78">
+			</testcontainer>
+			<testcontainer
+			id="95e389ac-6cea-4d09-985b-3ea8dcde76f7">
+			</testcontainer>
+			<testcontainer
+			id="d7c05272-23b6-40b0-82d1-68f500915bfb">
 			</testcontainer>
 			<testcontainer
 			id="e25dfe99-ba27-4e05-868d-891cd033f2b6">

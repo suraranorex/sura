@@ -1653,6 +1653,17 @@ name="SuraRepository">
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']//div[@innertext~'medios de pagos automáticos']
 							</item>
+							<item
+							addcaps="unknown,webelement,tdtag"
+							capname="tdtag"
+							id="0fb60a5f-73eb-4524-aa9f-2a9c4c361eb9"
+							name="XTableLayoutCell"
+							refimgid="31836003-b06a-4029-8711-f0c568601893"
+							refpath="/dom[@domain='ssurgwsoadev4-oci.opc.oracleoutsourcing.com']//tbody[#'PolicyFile_Summary-tbody']/tr[5]/td"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']/tr[5]/td
+							</item>
 							<basepath>
 								/dom[@domain=$Ambiente]
 							</basepath>
@@ -4468,6 +4479,69 @@ name="SuraRepository">
 				searchtimeout="30000ms">
 					/dom[@domain=$Ambiente]//div[@id~'Policy_Summary_Transactions']
 				</item>
+				<folder
+				capname="unknown"
+				id="74a9a9b0-433d-43b4-b655-b3cb32193bb6"
+				isrooted="False"
+				name="Validar_AnulacionRehabilitacion"
+				searchtimeout="0ms">
+					<item
+					capname="unknown"
+					id="2196a047-733d-4d0f-9f9c-4d66a2798b85"
+					name="fila_Rehabilitacion"
+					robustPath="/dom[@domain=$Ambiente]/element"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Rehabilitación'][1]/../../..
+					</item>
+					<item
+					capname="divtag"
+					id="b2cfab67-0db9-4a22-bdd5-c30b9535e285"
+					name="txt_RehabilitacionPrima"
+					robustPath="/dom[@domain=$Ambiente]/element"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Rehabilitaci&#243;n'][1]/../..//div[@innertext&gt;'$'][1]
+					</item>
+					<item
+					capname="divtag"
+					id="685eaf81-926a-4837-bd5b-acaf2ed04613"
+					name="txt_RehabilitacionPremio"
+					robustPath="/dom[@domain=$Ambiente]/element"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Rehabilitaci&#243;n'][1]/../..//div[@innertext&gt;'$'][2]
+					</item>
+					<item
+					capname="divtag"
+					id="94fdf20d-7fd8-4d07-be07-f5aa9b847335"
+					name="txt_AnulacionPrima"
+					robustPath="/dom[@domain=$Ambiente]/element"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Anulaci&#243;n'][1]/../..//div[@innertext&gt;'$'][1]
+					</item>
+					<item
+					capname="divtag"
+					id="fb83b486-7e71-4c70-a91e-b17fa57828d0"
+					name="txt_AnulacionPremio"
+					robustPath="/dom[@domain=$Ambiente]/element"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Anulaci&#243;n'][1]/../..//div[@innertext&gt;'$'][2]
+					</item>
+					<item
+					capname="divtag"
+					id="3d54f374-8f43-4d83-979b-eb060ddbeb7e"
+					name="txt_SolicitudPrima"
+					robustPath="/dom[@domain=$Ambiente]/element"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Solicitud de P&#243;liza'][1]/../..//div[@innertext&gt;'$'][1]
+					</item>
+					<item
+					capname="divtag"
+					id="5b646bdb-c3ef-4082-b2a6-230a59c30a9c"
+					name="txt_SolicitudPremio"
+					robustPath="/dom[@domain=$Ambiente]/element"
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Solicitud de P&#243;liza'][1]/../..//div[@innertext&gt;'$'][2]
+					</item>
+				</folder>
 			</folder>
 			<folder
 			capname="unknown"

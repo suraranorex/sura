@@ -2476,6 +2476,18 @@
       <UserCode>true</UserCode>
       <id>7a58709c-4bd5-4fa6-933c-b45040ad9309</id>
     </Compile>
+    <Compile Include="Validaciones\Validar_AnulacionRehabilitacion.cs">
+      <BoundTo>c3021866-82eb-4be9-a6d9-1b53590a2b82</BoundTo>
+      <DependentUpon>Validar_AnulacionRehabilitacion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8a537c8f-5bc8-47af-b3c2-3a4ab4552eae</id>
+    </Compile>
+    <Compile Include="Validaciones\Validar_AnulacionRehabilitacion.UserCode.cs">
+      <BoundTo>c3021866-82eb-4be9-a6d9-1b53590a2b82</BoundTo>
+      <DependentUpon>Validar_AnulacionRehabilitacion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8f0cad6c-c9ef-4659-b999-2a58ec7af717</id>
+    </Compile>
     <Compile Include="ValidacionMarcaModelo\ValidacionStatus.cs">
       <BoundTo>d2d52b0c-70c3-4134-bcce-b2488c7c165b</BoundTo>
       <DependentUpon>ValidacionStatus.rxrec</DependentUpon>
@@ -2755,6 +2767,13 @@
       <DependentUpon>PC.rxtst</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>dcabced9-829b-49d2-b96e-a1bccaabe3dd</id>
+    </Content>
+    <Content Include="DataSource - Validar Anulacion y Rehabilitacion.xlsx">
+      <Link>DataSource - Validar Anulacion y Rehabilitacion.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>6e05ecc5-280f-48b6-80e6-a696be0eb556</id>
     </Content>
     <None Include="Emision\AccesorioConMovilidad.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -3786,6 +3805,11 @@
       <id>497755e0-1b99-4411-bf64-8d9a9c2f8613</id>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Validaciones\Validar_AnulacionRehabilitacion.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>c3021866-82eb-4be9-a6d9-1b53590a2b82</id>
+      <recordtableid>1a2304cd-61a2-4772-960e-f11a25973346</recordtableid>
+    </None>
     <None Include="ValidacionMarcaModelo\ValidacionStatus.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>d2d52b0c-70c3-4134-bcce-b2488c7c165b</id>
@@ -3837,6 +3861,9 @@
     </Folder>
     <Folder Include="Generales">
       <id>811b0ba1-f496-460a-85e2-c928a0dc0a51</id>
+    </Folder>
+    <Folder Include="Validaciones">
+      <id>f789bd44-c9b4-482f-853a-628040c6f2f1</id>
     </Folder>
     <Folder Include="Refacturacion">
       <id>e804ffef-8099-46b3-bccd-c973429e3804</id>
