@@ -397,7 +397,7 @@ namespace Sura
             set { _Anio = value; }
         }
 
-        string _Ambiente = "ssurgwsoadev4-oci.opc.oracleoutsourcing.com";
+        string _Ambiente = "suragwqa2.segurossura.com.ar";
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -685,6 +685,18 @@ namespace Sura
             set { _Campania = value; }
         }
 
+        string _Fila = "1";
+
+        /// <summary>
+        /// Gets or sets the value of variable Fila.
+        /// </summary>
+        [TestVariable("391c7eea-3d13-4690-8b39-7e4e466444e8")]
+        public string Fila
+        {
+            get { return _Fila; }
+            set { _Fila = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -794,6 +806,7 @@ namespace Sura
             SuraRepositoryFolders.LogoutFolder _logout;
             SuraRepositoryFolders.PCFolder1 _pc;
             SuraRepositoryFolders.BCFolder _bc;
+            SuraRepositoryFolders.Validacion_ProgramaPagosFolder _validacion_programapagos;
             SuraRepositoryFolders.ProcesosFolder _procesos;
             RepoItemInfo _bttn_cuentaInfo;
             RepoItemInfo _siguienteInfo;
@@ -937,6 +950,7 @@ namespace Sura
                 _logout = new SuraRepositoryFolders.LogoutFolder(this);
                 _pc = new SuraRepositoryFolders.PCFolder1(this);
                 _bc = new SuraRepositoryFolders.BCFolder(this);
+                _validacion_programapagos = new SuraRepositoryFolders.Validacion_ProgramaPagosFolder(this);
                 _procesos = new SuraRepositoryFolders.ProcesosFolder(this);
                 _bttn_cuentaInfo = new RepoItemInfo(this, "bttn_Cuenta", ".//a[#'TabBar:AccountTab']/span[@id='TabBar:AccountTab-btnWrap']", "", 30000, null, "2cc64de3-6174-4d31-bdda-c881f9dbe240");
                 _siguienteInfo = new RepoItemInfo(this, "Siguiente", ".//a[#'PolicyChangeWizard:Next']//span[@innertext~'Siguiente >']", "", 30000, null, "2c77e7a7-c5be-43a4-91ce-8eef29684568");
@@ -4273,6 +4287,15 @@ namespace Sura
             public virtual SuraRepositoryFolders.BCFolder BC
             {
                 get { return _bc; }
+            }
+
+            /// <summary>
+            /// The Validacion_ProgramaPagos folder.
+            /// </summary>
+            [RepositoryFolder("77ba926a-987e-4b29-ab6a-71159520b8b7")]
+            public virtual SuraRepositoryFolders.Validacion_ProgramaPagosFolder Validacion_ProgramaPagos
+            {
+                get { return _validacion_programapagos; }
             }
 
             /// <summary>
@@ -8772,6 +8795,8 @@ namespace Sura
             RepoItemInfo _btn_revisarcambiosInfo;
             RepoItemInfo _txt_mensajemediospagoautomaticosInfo;
             RepoItemInfo _xtablelayoutcellInfo;
+            RepoItemInfo _xtablelayoutcell1Info;
+            RepoItemInfo _tabla_programapagosInfo;
 
             /// <summary>
             /// Creates a new CoberturasAdicionales  folder.
@@ -8796,6 +8821,8 @@ namespace Sura
                 _btn_revisarcambiosInfo = new RepoItemInfo(this, "btn_RevisarCambios", ".//tbody[#'JobComplete-tbody']//div[@innertext='Revisar cambios']", "", 30000, null, "09471f4a-e14e-465c-8bf1-39008cf6c47f");
                 _txt_mensajemediospagoautomaticosInfo = new RepoItemInfo(this, "txt_MensajeMediosPagoAutomaticos", ".//div[#'SubmissionWizard/PolicyInfo']//div[@innertext~'medios de pagos automáticos']", "", 30000, null, "dcd2d221-fdc8-4291-8d1e-60d1a0e1a4bd");
                 _xtablelayoutcellInfo = new RepoItemInfo(this, "XTableLayoutCell", ".//tbody[#'PolicyFile_Summary-tbody']/tr[5]/td", "", 30000, null, "0fb60a5f-73eb-4524-aa9f-2a9c4c361eb9");
+                _xtablelayoutcell1Info = new RepoItemInfo(this, "XTableLayoutCell1", ".//tbody[#'PolicyFile_Billing-tbody']/tr[5]/td", "", 30000, null, "ec4e16fe-24ac-4798-802a-6b766960ae3a");
+                _tabla_programapagosInfo = new RepoItemInfo(this, "tabla_ProgramaPagos", ".//tbody[#'PolicyFile_Billing-tbody']//div[@id='PolicyFile_Billing:Policy_BillingScreen:5_header']/..", "", 30000, null, "8cd77f48-fb7d-42fd-8973-460d5c078bc0");
             }
 
             /// <summary>
@@ -9227,6 +9254,54 @@ namespace Sura
                 get
                 {
                     return _xtablelayoutcellInfo;
+                }
+            }
+
+            /// <summary>
+            /// The XTableLayoutCell1 item.
+            /// </summary>
+            [RepositoryItem("ec4e16fe-24ac-4798-802a-6b766960ae3a")]
+            public virtual Ranorex.TdTag XTableLayoutCell1
+            {
+                get
+                {
+                    return _xtablelayoutcell1Info.CreateAdapter<Ranorex.TdTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The XTableLayoutCell1 item info.
+            /// </summary>
+            [RepositoryItemInfo("ec4e16fe-24ac-4798-802a-6b766960ae3a")]
+            public virtual RepoItemInfo XTableLayoutCell1Info
+            {
+                get
+                {
+                    return _xtablelayoutcell1Info;
+                }
+            }
+
+            /// <summary>
+            /// The tabla_ProgramaPagos item.
+            /// </summary>
+            [RepositoryItem("8cd77f48-fb7d-42fd-8973-460d5c078bc0")]
+            public virtual Ranorex.Unknown tabla_ProgramaPagos
+            {
+                get
+                {
+                    return _tabla_programapagosInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The tabla_ProgramaPagos item info.
+            /// </summary>
+            [RepositoryItemInfo("8cd77f48-fb7d-42fd-8973-460d5c078bc0")]
+            public virtual RepoItemInfo tabla_ProgramaPagosInfo
+            {
+                get
+                {
+                    return _tabla_programapagosInfo;
                 }
             }
         }
@@ -15707,6 +15782,7 @@ namespace Sura
             RepoItemInfo _optionmenu_vehiculosInfo;
             RepoItemInfo _menu_informaciondelpagoInfo;
             RepoItemInfo _menunuevoInfo;
+            RepoItemInfo _menulateral_facturacionInfo;
 
             /// <summary>
             /// Creates a new Menu  folder.
@@ -15719,6 +15795,7 @@ namespace Sura
                 _optionmenu_vehiculosInfo = new RepoItemInfo(this, "optionMenu_Vehiculos", ".//div[#'westPanel-innerCt']//div//span[@innertext='Vehículos']", "", 30000, null, "75584707-3f48-45bb-bde7-2fef4250ff71");
                 _menu_informaciondelpagoInfo = new RepoItemInfo(this, "menu_InformacionDelPago", ".//div[#'westPanel-innerCt']//span[@innertext='Información del Pago']", "", 30000, null, "52cf72cb-5474-43f3-b8e7-6bcae0d5c961");
                 _menunuevoInfo = new RepoItemInfo(this, "MenuNuevo", ".//span[#'Desktop:DesktopMenuActions-btnInnerEl']", "", 30000, null, "b84206ee-e01c-4031-ade5-c01bbd1ffb8c");
+                _menulateral_facturacionInfo = new RepoItemInfo(this, "menuLateral_Facturacion", ".//div[#'PolicyFile:MenuLinks-body']//span[@innertext='Facturación']", "", 30000, null, "d59f367c-f08f-46f1-84fa-93b38cc256a4");
             }
 
             /// <summary>
@@ -15802,6 +15879,30 @@ namespace Sura
                 get
                 {
                     return _menunuevoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The menuLateral_Facturacion item.
+            /// </summary>
+            [RepositoryItem("d59f367c-f08f-46f1-84fa-93b38cc256a4")]
+            public virtual Ranorex.SpanTag menuLateral_Facturacion
+            {
+                get
+                {
+                    return _menulateral_facturacionInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The menuLateral_Facturacion item info.
+            /// </summary>
+            [RepositoryItemInfo("d59f367c-f08f-46f1-84fa-93b38cc256a4")]
+            public virtual RepoItemInfo menuLateral_FacturacionInfo
+            {
+                get
+                {
+                    return _menulateral_facturacionInfo;
                 }
             }
 
@@ -17909,6 +18010,112 @@ namespace Sura
                 get
                 {
                     return _bttn_revertirInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The Validacion_ProgramaPagosFolder folder.
+        /// </summary>
+        [RepositoryFolder("77ba926a-987e-4b29-ab6a-71159520b8b7")]
+        public partial class Validacion_ProgramaPagosFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _fila_cuotaInfo;
+            RepoItemInfo _txt_plandepagos_cantcuotasInfo;
+            RepoItemInfo _txt_facturacionInfo;
+
+            /// <summary>
+            /// Creates a new Validacion_ProgramaPagos  folder.
+            /// </summary>
+            public Validacion_ProgramaPagosFolder(RepoGenBaseFolder parentFolder) :
+                    base("Validacion_ProgramaPagos", "", parentFolder, 0, null, false, "77ba926a-987e-4b29-ab6a-71159520b8b7", "")
+            {
+                _fila_cuotaInfo = new RepoItemInfo(this, "fila_Cuota", ".//tbody[#'PolicyFile_Billing-tbody']//span[@innertext='Programa de pagos']/../../../../../..//table[$Fila]", "", 30000, null, "c2ca7096-01fb-4d68-a037-ea16f5080998");
+                _txt_plandepagos_cantcuotasInfo = new RepoItemInfo(this, "txt_PlanDePagos_CantCuotas", ".//tbody[#'PolicyFile_Billing-tbody']//span[@innertext='Plan de pagos']/../..//div[@innertext~'Cuotas']", "", 30000, null, "b70a0705-b806-4a1e-92e4-7a06faef1fe7");
+                _txt_facturacionInfo = new RepoItemInfo(this, "txt_Facturacion", ".//tbody[#'PolicyFile_Billing-tbody']//span[@innertext='Facturación']", "", 30000, null, "7b033bc1-c901-4bd3-aa54-ca21d8428b62");
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("77ba926a-987e-4b29-ab6a-71159520b8b7")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The fila_Cuota item.
+            /// </summary>
+            [RepositoryItem("c2ca7096-01fb-4d68-a037-ea16f5080998")]
+            public virtual Ranorex.Table fila_Cuota
+            {
+                get
+                {
+                    return _fila_cuotaInfo.CreateAdapter<Ranorex.Table>(true);
+                }
+            }
+
+            /// <summary>
+            /// The fila_Cuota item info.
+            /// </summary>
+            [RepositoryItemInfo("c2ca7096-01fb-4d68-a037-ea16f5080998")]
+            public virtual RepoItemInfo fila_CuotaInfo
+            {
+                get
+                {
+                    return _fila_cuotaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_PlanDePagos_CantCuotas item.
+            /// </summary>
+            [RepositoryItem("b70a0705-b806-4a1e-92e4-7a06faef1fe7")]
+            public virtual Ranorex.DivTag txt_PlanDePagos_CantCuotas
+            {
+                get
+                {
+                    return _txt_plandepagos_cantcuotasInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_PlanDePagos_CantCuotas item info.
+            /// </summary>
+            [RepositoryItemInfo("b70a0705-b806-4a1e-92e4-7a06faef1fe7")]
+            public virtual RepoItemInfo txt_PlanDePagos_CantCuotasInfo
+            {
+                get
+                {
+                    return _txt_plandepagos_cantcuotasInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_Facturacion item.
+            /// </summary>
+            [RepositoryItem("7b033bc1-c901-4bd3-aa54-ca21d8428b62")]
+            public virtual Ranorex.SpanTag txt_Facturacion
+            {
+                get
+                {
+                    return _txt_facturacionInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_Facturacion item info.
+            /// </summary>
+            [RepositoryItemInfo("7b033bc1-c901-4bd3-aa54-ca21d8428b62")]
+            public virtual RepoItemInfo txt_FacturacionInfo
+            {
+                get
+                {
+                    return _txt_facturacionInfo;
                 }
             }
         }

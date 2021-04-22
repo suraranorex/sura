@@ -2257,6 +2257,18 @@
       <UserCode>true</UserCode>
       <id>d32c5d2f-282e-4714-9ae7-689e554e569b</id>
     </Compile>
+    <Compile Include="Menu\MenuLateral_Facturacion.cs">
+      <BoundTo>fbb7bb94-6a92-4e6a-ac8d-bdc548009974</BoundTo>
+      <DependentUpon>MenuLateral_Facturacion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>35de1000-7e1e-4f70-b457-06305f090376</id>
+    </Compile>
+    <Compile Include="Menu\MenuLateral_Facturacion.UserCode.cs">
+      <BoundTo>fbb7bb94-6a92-4e6a-ac8d-bdc548009974</BoundTo>
+      <DependentUpon>MenuLateral_Facturacion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c79deb3e-57f6-4354-a1b4-a74c948168f4</id>
+    </Compile>
     <Compile Include="Menu\MenuLateral_Pagos.cs">
       <DependentUpon>MenuLateral_Pagos.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -2487,6 +2499,18 @@
       <DependentUpon>Validar_AnulacionRehabilitacion.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>8f0cad6c-c9ef-4659-b999-2a58ec7af717</id>
+    </Compile>
+    <Compile Include="Validaciones\Validar_PorgramaDePagos.cs">
+      <BoundTo>136d569f-b0a3-4ca4-895b-adcb63610cbd</BoundTo>
+      <DependentUpon>Validar_PorgramaDePagos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2d832af2-d719-4502-b24e-4a7786bd8aa4</id>
+    </Compile>
+    <Compile Include="Validaciones\Validar_PorgramaDePagos.UserCode.cs">
+      <BoundTo>136d569f-b0a3-4ca4-895b-adcb63610cbd</BoundTo>
+      <DependentUpon>Validar_PorgramaDePagos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eba7a197-feb6-46e0-afa6-4627657d0296</id>
     </Compile>
     <Compile Include="ValidacionMarcaModelo\ValidacionStatus.cs">
       <BoundTo>d2d52b0c-70c3-4134-bcce-b2488c7c165b</BoundTo>
@@ -2774,6 +2798,13 @@
       <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>6e05ecc5-280f-48b6-80e6-a696be0eb556</id>
+    </Content>
+    <Content Include="DataSource - Validar Programa de Pagos.xlsx">
+      <Link>DataSource - Validar Programa de Pagos.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>f26b4a80-5505-4118-951c-63dd6490c536</id>
     </Content>
     <None Include="Emision\AccesorioConMovilidad.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -3690,6 +3721,11 @@
       <id>575954a3-7e94-4caf-a678-5f145357cd66</id>
       <recordtableid>085b53f1-04fc-476c-90be-36dae7a01cb1</recordtableid>
     </None>
+    <None Include="Menu\MenuLateral_Facturacion.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>fbb7bb94-6a92-4e6a-ac8d-bdc548009974</id>
+      <recordtableid>94d1817b-361c-491a-9ea8-09dd3b608616</recordtableid>
+    </None>
     <None Include="Menu\MenuLateral_Pagos.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>9d0d639b-8eb5-4149-b374-6b7c23d2d4cb</id>
@@ -3809,6 +3845,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>c3021866-82eb-4be9-a6d9-1b53590a2b82</id>
       <recordtableid>1a2304cd-61a2-4772-960e-f11a25973346</recordtableid>
+    </None>
+    <None Include="Validaciones\Validar_PorgramaDePagos.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>136d569f-b0a3-4ca4-895b-adcb63610cbd</id>
+      <recordtableid>fe8a943d-afb2-4b5f-bb5c-a644e2475e2f</recordtableid>
     </None>
     <None Include="ValidacionMarcaModelo\ValidacionStatus.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>

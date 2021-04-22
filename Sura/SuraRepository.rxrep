@@ -1664,6 +1664,27 @@ name="SuraRepository">
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']/tr[5]/td
 							</item>
+							<item
+							addcaps="unknown,webelement,tdtag"
+							capname="tdtag"
+							id="ec4e16fe-24ac-4798-802a-6b766960ae3a"
+							name="XTableLayoutCell1"
+							refimgid="478452c3-a935-46bf-a661-d17ecc0b8008"
+							refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'PolicyFile_Billing-tbody']/tr[5]/td"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Billing-tbody']/tr[5]/td
+							</item>
+							<item
+							addcaps="unknown,webelement,tdtag"
+							capname="unknown"
+							id="8cd77f48-fb7d-42fd-8973-460d5c078bc0"
+							name="tabla_ProgramaPagos"
+							refimgid="478452c3-a935-46bf-a661-d17ecc0b8008"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Billing-tbody']//div[@id='PolicyFile_Billing:Policy_BillingScreen:5_header']/..
+							</item>
 							<basepath>
 								/dom[@domain=$Ambiente]
 							</basepath>
@@ -4162,6 +4183,16 @@ name="SuraRepository">
 					searchtimeout="30000ms">
 						/dom[@domain=$Ambiente]//span[#'Desktop:DesktopMenuActions-btnInnerEl']
 					</item>
+					<item
+					addcaps="unknown,webelement,spantag"
+					capname="spantag"
+					id="d59f367c-f08f-46f1-84fa-93b38cc256a4"
+					name="menuLateral_Facturacion"
+					refimgid="5be77a98-39b1-4c2e-8a5b-a91e25315854"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//div[#'PolicyFile:MenuLinks-body']//span[@innertext='Facturación']
+					</item>
 				</folder>
 				<folder
 				capname="unknown"
@@ -6105,6 +6136,43 @@ name="SuraRepository">
 			</item>
 			<folder
 			capname="unknown"
+			id="77ba926a-987e-4b29-ab6a-71159520b8b7"
+			isrooted="False"
+			name="Validacion_ProgramaPagos"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="table"
+				id="c2ca7096-01fb-4d68-a037-ea16f5080998"
+				name="fila_Cuota"
+				refimgid="b018015b-fc27-48a3-a0c4-6ccf729923a1"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Billing-tbody']//span[@innertext='Programa de pagos']/../../../../../..//table[$Fila]
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="divtag"
+				id="b70a0705-b806-4a1e-92e4-7a06faef1fe7"
+				name="txt_PlanDePagos_CantCuotas"
+				refimgid="47ffef48-2244-47e5-b6c9-0363f8d5d261"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Billing-tbody']//span[@innertext='Plan de pagos']/../..//div[@innertext~'Cuotas']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="7b033bc1-c901-4bd3-aa54-ca21d8428b62"
+				name="txt_Facturacion"
+				refimgid="a2f35f54-a3db-4a54-8a15-4fba3d4056b2"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Billing-tbody']//span[@innertext='Facturación']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
 			id="a53e6e37-0ca7-4b5e-9cbe-29f98daff27a"
 			isrooted="False"
 			name="Procesos"
@@ -6731,7 +6799,7 @@ AAAASUVORK5CYII=
 		<var
 		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
 		name="Ambiente">
-			ssurgwsoadev4-oci.opc.oracleoutsourcing.com
+			suragwqa2.segurossura.com.ar
 		</var>
 		<var
 		id="fbc3c0ec-d362-401d-acc7-5e95815b84a3"
@@ -6841,6 +6909,11 @@ AAAASUVORK5CYII=
 		id="87d7f473-a0e4-48bd-bc62-03a29ee785a0"
 		name="Campania">
 			1.VUELVE CLIENTE
+		</var>
+		<var
+		id="391c7eea-3d13-4690-8b39-7e4e466444e8"
+		name="Fila">
+			1
 		</var>
 	</variables>
 </repository>
