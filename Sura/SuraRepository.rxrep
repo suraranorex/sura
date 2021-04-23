@@ -1685,6 +1685,16 @@ name="SuraRepository">
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Billing-tbody']//div[@id='PolicyFile_Billing:Policy_BillingScreen:5_header']/..
 							</item>
+							<item
+							addcaps="container,webdocument"
+							capname="webdocument"
+							id="d4c8f016-4317-49d6-bec6-a80532a0174e"
+							name="WebDocumentModoDEV903157Guidew"
+							refpath="/dom[@domain='suragwqa2.segurossura.com.ar']"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]
+							</item>
 							<basepath>
 								/dom[@domain=$Ambiente]
 							</basepath>
@@ -4840,6 +4850,89 @@ name="SuraRepository">
 				searchtimeout="30000ms">
 					/dom[@domain=$Ambiente]//tbody[#'AccountSummary-tbody']/tr[7]//table/?/?/tr/td[2]/?/?/table//div/table/?/?/tr/td[1]/?/?/table/?/?/tr/td/div/div/div[2]/?/?/canvas
 				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="e8ae9719-d519-4c4a-84ca-02ccc455ff6e"
+				name="bttn_PolizaBC"
+				refimgid="294f5e2d-1998-457c-9a88-7d70789f0d25"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//span[#'TabBar:PoliciesTab-btnWrap']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="1e8fb904-c249-4b56-b010-7aea03bbd08d"
+				name="input_BusquedaPolizaBC"
+				refimgid="3c42575b-07d0-4815-83f2-1d71f744894e"
+				refpath="/dom[@domain='suragwqa2.segurossura.com.ar']/body/div[14]/div/div[2]/div/div[1]/div/div/div[1]/input[@name='TabBar:PoliciesTab:PolicyNumberSearchItem']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//input[@name='TabBar:PoliciesTab:PolicyNumberSearchItem']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="0b8e47e7-ed14-43cc-bac4-55e1db4ad391"
+				name="txt_ResumenDePoliza"
+				refimgid="1287fd73-40b3-4cab-9a12-2bb38e1c3e57"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//span[@innertext~'Resumen']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="divtag"
+				id="9b187666-1969-492e-8d03-add1676bedf4"
+				name="txt_CantCuotasBC"
+				refimgid="f6159d20-c7f0-4c88-aa24-cfbef5ff22be"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'PolicySummary-tbody']//span[@innertext='Plan de pagos']/../..//div[@innertext~'Cuotas']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="debb15c5-4267-4457-ad6f-e1ba41e1df10"
+				name="txt_Facturas"
+				refimgid="1e53d741-c9c8-4cd7-824e-599bea3aab57"
+				refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[1]/td/div/div/div/div/div/span[@innertext='Facturas']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Facturas']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="521b252d-d248-4d9a-9649-f84a6ad883f9"
+				name="menuLateral_Facturas"
+				refimgid="b5dfc6ee-d877-4ddd-bfaf-ccc076feb40d"
+				refpath="/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'PolicyGroup:MenuLinks-body']/div[1]/div/table[8]/tbody/tr/td/div/span[@innertext='Facturas']"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//div[#'PolicyGroup:MenuLinks-body']//span[@innertext='Facturas']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="f19be42e-cae5-4490-be36-2b51a0bc06db"
+				name="Copy_of_filaCuota_BC"
+				refimgid="5f2edf2d-685a-4c26-be29-1958298bcad9"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@safeclass='x-grid-item-container'][1]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="table"
+				id="41fddecf-a7d9-4f7b-8233-c1e606d938cb"
+				name="filaCuota_BC"
+				refimgid="5f2edf2d-685a-4c26-be29-1958298bcad9"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@safeclass='x-grid-item-container'][1]//table[$Fila]
+				</item>
 			</folder>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -6898,7 +6991,7 @@ AAAASUVORK5CYII=
 		<var
 		id="7f21a146-b56c-4b8b-84a6-3fad8d4c0caa"
 		name="NroPoliza">
-			04104013800
+			12112002274
 		</var>
 		<var
 		id="392d688b-a1f7-44af-a25f-a35cf553aadb"

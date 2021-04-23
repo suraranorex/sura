@@ -24,49 +24,34 @@ namespace Sura.Validaciones
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Validar_PorgramaDePagos recording.
+    ///The Validar_ProgramaDePagos_BC recording.
     /// </summary>
-    [TestModule("fe8a943d-afb2-4b5f-bb5c-a644e2475e2f", ModuleType.Recording, 1)]
-    public partial class Validar_PorgramaDePagos : ITestModule
+    [TestModule("ef6f6c7c-f49b-4f60-aab0-e5db8b1c2ea7", ModuleType.Recording, 1)]
+    public partial class Validar_ProgramaDePagos_BC : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
         public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static Validar_PorgramaDePagos instance = new Validar_PorgramaDePagos();
+        static Validar_ProgramaDePagos_BC instance = new Validar_ProgramaDePagos_BC();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Validar_PorgramaDePagos()
+        public Validar_ProgramaDePagos_BC()
         {
-            CantCuotas = "";
-            Fila = "1";
-            Ambiente = "suragwqa2.segurossura.com.ar";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Validar_PorgramaDePagos Instance
+        public static Validar_ProgramaDePagos_BC Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        string _CantCuotas;
-
-        /// <summary>
-        /// Gets or sets the value of variable CantCuotas.
-        /// </summary>
-        [TestVariable("0244a9e5-2c7a-4090-8635-3bdf5362b9eb")]
-        public string CantCuotas
-        {
-            get { return _CantCuotas; }
-            set { _CantCuotas = value; }
-        }
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -114,20 +99,10 @@ namespace Sura.Validaciones
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.Validacion_ProgramaPagos.txt_PlanDePagos_CantCuotas' and assigning the part of its value captured by '[0-9]+' to variable 'CantCuotas'.", repo.SURA.Validacion_ProgramaPagos.txt_PlanDePagos_CantCuotasInfo, new RecordItemIndex(0));
-            CantCuotas = repo.SURA.Validacion_ProgramaPagos.txt_PlanDePagos_CantCuotas.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "User", CantCuotas, new RecordItemIndex(1));
-            
             validarCantidadCuotas();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -500 units.", new RecordItemIndex(3));
-            Mouse.ScrollWheel(-500);
-            Delay.Milliseconds(300);
-            
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.tabla_ProgramaPagos, false, new RecordItemIndex(4));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(1));
             
         }
 

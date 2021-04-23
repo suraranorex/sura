@@ -8,7 +8,6 @@
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <string>{9F6470D6-24A8-4006-AA8A-74B35DD73A26}</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
-      <string>2fa0cd5e-540b-40b9-b36a-99f05d563079</string>
       <string>18014d35-0102-415f-91a3-a6f8cdba02f8</string>
       <string>3767acfb-e438-4103-9a60-a73c329f95ab</string>
       <string>3d1e6e1c-1004-4d03-82af-945f37b04c83</string>
@@ -20,8 +19,6 @@
       <string>9abaff35-b8f0-4c43-9f16-50f60f0aabf5</string>
       <string>9a36562a-b40b-4cf6-a5a3-1548074730eb</string>
       <string>24876d59-96f0-4479-bcd4-be8a352f494a</string>
-      <string>6d2fba6e-4ad7-4514-83d3-9a6fbb8b3152</string>
-      <string>c9f6acbd-b162-43b9-9ee5-4c8b001c6475</string>
       <string>e7a34f90-362d-4b10-8cd5-546b393d193e</string>
       <string>e804ffef-8099-46b3-bccd-c973429e3804</string>
       <string>f789bd44-c9b4-482f-853a-628040c6f2f1</string>
@@ -30,6 +27,6 @@
       <string>8cb5da30-e7c8-49f4-a58a-a86c7d6c264f</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution Sura[Sura[Reports[]PC_GestionDocumental.rxtst[]]]]&#xD;&#xA;Solution Sura\Sura\PC_GestionDocumental.rxtst&#xD;&#xA;Solution Sura\Sura\Generales" />
+  <ProjectBrowserState value="[Solution Sura[Sura[BC.rxtst[]PC_GestionDocumental.rxtst[]]]]&#xD;&#xA;Solution Sura\Sura\PC_GestionDocumental.rxtst&#xD;&#xA;Solution Sura\Sura\Refacturacion" />
   <StartupProject value="{9F6470D6-24A8-4006-AA8A-74B35DD73A26}" />
 </Properties>

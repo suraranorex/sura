@@ -91,6 +91,17 @@ mode="Global">
 			id="be4d70d1-9e4d-4512-8d82-158e7546524c">
 			</arguments>
 		</userrecorditem>
+		<mousewheelitem
+		delta="-500"
+		duration="300ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
 		<loggingrecorditem
 		action="Screenshot"
 		category="User"

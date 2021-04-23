@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="8b3e91b0-9ee3-4807-bbac-d005248babe6"
+id="daff16e6-616e-47ec-aa57-52f5e0bffb7a"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,20 +19,10 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="MenuSupBuscaPolizaNroPoliza"
+	classname="MenuLateral_FacturaBC"
 	namespace="Sura.Menu">
 	</codegen>
 	<variables>
-		<var
-		id="27918312-f9f6-4869-a02d-22aad7214881"
-		name="NroTransaccion">
-			0010490216
-		</var>
-		<var
-		id="42428f7f-6975-4ad4-9ef7-76736c2aa29d"
-		name="NroPoliza">
-			04104012918
-		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -40,19 +30,19 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="CenterRight"
+		loc="37;4"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="a1ba32e9-495b-4690-8077-f6306531ffe3"
-		sx="398"
-		sy="81"
+		searchpropertyid="ce9e4c75-a169-4802-ac4b-53a428a85057"
+		sx="67"
+		sy="538"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="226d1622-cef6-425c-8220-d3fe923dbe31"
+			id="521b252d-d248-4d9a-9649-f84a6ad883f9"
 			sourcename="Recorder">
 				<element
 				capabilities="webelement, spantag"
@@ -60,9 +50,9 @@ mode="Global">
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
-				index="1"
+				index="2"
 				prefcap="spantag"
-				rect="378,76,34,12"
+				rect="30,534,55,18"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -70,7 +60,7 @@ mode="Global">
 					<attribute
 					name="class"
 					type="System.String">
-						x-btn-inner x-btn-inner-gw-top-menu-toolbar-small
+						x-tree-node-text&#32;
 					</attribute>
 					<attribute
 					name="draggable"
@@ -83,49 +73,32 @@ mode="Global">
 						False
 					</attribute>
 					<attribute
-					name="id"
-					type="System.String">
-						TabBar:PolicyTab-btnInnerEl
-					</attribute>
-					<attribute
 					name="innertext"
 					type="System.String">
-						óliza
+						Facturas
 					</attribute>
 					<attribute
 					name="safeclass"
 					type="System.String">
-						x-btn-inner x-btn-inner-gw-top-menu-toolbar-small
+						x-tree-node-text
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
 						span
 					</attribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="data-ref"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
-					<dynamicattribute
-					description="Dynamic HTML attribute."
-					name="unselectable"
-					readonly="False"
-					type="System.String">
-					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'TabBar:PolicyTab']//span[@innertext='óliza']
+					/dom[@domain=$Ambiente]//div[#'PolicyGroup:MenuLinks-body']//span[@innertext='Facturas']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 			<helperscreenshot
-			guid="8e8d453f-4adf-425d-9c9c-d728aba57e2d">
+			guid="6c6c4aa4-fa71-499c-b9c5-bde87c21f8e2">
 				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAsAFcDASIA
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA0AJYDASIA
 AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
 AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
 ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
@@ -133,79 +106,37 @@ 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
-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
+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
 			</helperscreenshot>
 		</mouseitem>
-		<keysequenceitem
-		KeySequence="yourtext"
-		duration="20ms"
-		enabled="True"
-		optional="False"
-		presstime="20ms"
-		searchpropertyid="965b302e-2e8f-4b9e-9f87-5296a1d0e944">
-			<comment>
-			</comment>
-			<bindings>
-				<binding
-				target="KeySequence"
-				variable="NroPoliza">
-				</binding>
-			</bindings>
-			<info
-			id="b19a8fa1-391f-406a-92af-97d8ce43d216"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain=$Ambiente]//div[@class~'x-menu']//span[@innertext='N.° de póliza']/../..//input
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</keysequenceitem>
-		<keysequenceitem
-		KeySequence="{Return}"
-		duration="20ms"
-		enabled="True"
-		optional="False"
-		presstime="20ms"
-		searchpropertyid="767c887e-7061-4e8c-9b15-53b87760c95d">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="b19a8fa1-391f-406a-92af-97d8ce43d216"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain=$Ambiente]//div[@class~'x-menu']//span[@innertext='N.° de póliza']/../..//input
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</keysequenceitem>
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"
-		searchpropertyid="23af5e5c-45fa-4b19-b8bf-d490742049d0"
+		searchpropertyid="47c19b85-981b-4499-b32d-3ee987c07aa4"
 		waitaction="Exists"
-		waittimeout="30000ms">
+		waittimeout="20000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="8f98f8d9-d905-4173-abe7-5da5fba31e5a"
+			id="debb15c5-4267-4457-ad6f-e1ba41e1df10"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, spantag"
@@ -215,7 +146,7 @@ zy7k8kexzNol7ZymSO1kJK7fmjP+e1FdNRSbvuUklsf/2Q==
 				hasfocus="False"
 				index="0"
 				prefcap="spantag"
-				rect="264,143,170,17"
+				rect="219,209,91,22"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -238,12 +169,12 @@ zy7k8kexzNol7ZymSO1kJK7fmjP+e1FdNRSbvuUklsf/2Q==
 					<attribute
 					name="id"
 					type="System.String">
-						SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:ttlBar
+						PolicyDetailInvoices:AccountDetailInvoicesScreen:ttlBar
 					</attribute>
 					<attribute
 					name="innertext"
 					type="System.String">
-						Información de póliza
+						Facturas
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -257,7 +188,7 @@ zy7k8kexzNol7ZymSO1kJK7fmjP+e1FdNRSbvuUklsf/2Q==
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div/table//span[@innertext='Información de póliza']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Facturas']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -279,7 +210,7 @@ zy7k8kexzNol7ZymSO1kJK7fmjP+e1FdNRSbvuUklsf/2Q==
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		MenuSupBuscaPolizaNroPoliza.UserCode.cs
+		MenuLateral_FacturaBC.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

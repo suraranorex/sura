@@ -145,6 +145,18 @@
       <id>e33c6acb-eab5-41c0-9a33-ccaba2374e0b</id>
       <BoundTo>2ee57791-49e9-4a14-9f74-a367507e0df7</BoundTo>
     </Compile>
+    <Compile Include="BC\ObtenerCantidadCuotas.cs">
+      <BoundTo>ed92dedc-bd22-44aa-b9c9-23ae7e5dce99</BoundTo>
+      <DependentUpon>ObtenerCantidadCuotas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c8d70876-9d29-414b-8965-fcba45366e28</id>
+    </Compile>
+    <Compile Include="BC\ObtenerCantidadCuotas.UserCode.cs">
+      <BoundTo>ed92dedc-bd22-44aa-b9c9-23ae7e5dce99</BoundTo>
+      <DependentUpon>ObtenerCantidadCuotas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8b341da0-0136-4645-912e-52354575ec87</id>
+    </Compile>
     <Compile Include="BC\Pago.cs">
       <DependentUpon>Pago.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -2269,6 +2281,18 @@
       <UserCode>true</UserCode>
       <id>c79deb3e-57f6-4354-a1b4-a74c948168f4</id>
     </Compile>
+    <Compile Include="Menu\MenuLateral_FacturaBC.cs">
+      <BoundTo>6a7fd681-ce02-4dc4-8fbe-20d93b61eda9</BoundTo>
+      <DependentUpon>MenuLateral_FacturaBC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>31eb7aa7-0060-440e-a628-3e934288aa32</id>
+    </Compile>
+    <Compile Include="Menu\MenuLateral_FacturaBC.UserCode.cs">
+      <BoundTo>6a7fd681-ce02-4dc4-8fbe-20d93b61eda9</BoundTo>
+      <DependentUpon>MenuLateral_FacturaBC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3ad454d2-679f-4dc0-9130-992714d19f0c</id>
+    </Compile>
     <Compile Include="Menu\MenuLateral_Pagos.cs">
       <DependentUpon>MenuLateral_Pagos.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -2376,6 +2400,18 @@
       <UserCode>true</UserCode>
       <id>cc718cb8-0bf6-4cbf-8422-36d1c4a3e16c</id>
       <BoundTo>756f7913-2ce6-4878-908a-5fbc93eaf872</BoundTo>
+    </Compile>
+    <Compile Include="Menu\MenuSuperior_PolizaBC.cs">
+      <BoundTo>d8835785-493b-40b4-b4d0-09b03fe024f4</BoundTo>
+      <DependentUpon>MenuSuperior_PolizaBC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>69ce681f-30ef-4b5b-96f6-a9a50adf34fd</id>
+    </Compile>
+    <Compile Include="Menu\MenuSuperior_PolizaBC.UserCode.cs">
+      <BoundTo>d8835785-493b-40b4-b4d0-09b03fe024f4</BoundTo>
+      <DependentUpon>MenuSuperior_PolizaBC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>aca626ad-af61-42c7-a037-9143a20196fc</id>
     </Compile>
     <Compile Include="Menu\MenuSuperior_SolicitudPoliza.cs">
       <BoundTo>d3f5d578-20ea-49d7-8535-cb80247e4f2f</BoundTo>
@@ -2512,6 +2548,18 @@
       <UserCode>true</UserCode>
       <id>eba7a197-feb6-46e0-afa6-4627657d0296</id>
     </Compile>
+    <Compile Include="Validaciones\Validar_ProgramaDePagos_BC.cs">
+      <BoundTo>9c95c338-473d-46cd-807f-2c8ac9857d78</BoundTo>
+      <DependentUpon>Validar_ProgramaDePagos_BC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4ce0c8fe-30af-47d7-a992-cb336f247cf7</id>
+    </Compile>
+    <Compile Include="Validaciones\Validar_ProgramaDePagos_BC.UserCode.cs">
+      <BoundTo>9c95c338-473d-46cd-807f-2c8ac9857d78</BoundTo>
+      <DependentUpon>Validar_ProgramaDePagos_BC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e600a55a-575f-4d21-a0f6-d1d993c0b3cb</id>
+    </Compile>
     <Compile Include="ValidacionMarcaModelo\ValidacionStatus.cs">
       <BoundTo>d2d52b0c-70c3-4134-bcce-b2488c7c165b</BoundTo>
       <DependentUpon>ValidacionStatus.rxrec</DependentUpon>
@@ -2562,6 +2610,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>2ee57791-49e9-4a14-9f74-a367507e0df7</id>
       <recordtableid>41e7100e-351d-4a49-8600-17c304561bfb</recordtableid>
+    </None>
+    <None Include="BC\ObtenerCantidadCuotas.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>ed92dedc-bd22-44aa-b9c9-23ae7e5dce99</id>
+      <recordtableid>728ae478-eb8c-4c5f-a653-0aaaae7a0585</recordtableid>
     </None>
     <None Include="BC\Pago.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -2805,6 +2858,13 @@
       <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>f26b4a80-5505-4118-951c-63dd6490c536</id>
+    </Content>
+    <Content Include="DataSource - Validar Programa de Pagos BC.xlsx">
+      <Link>DataSource - Validar Programa de Pagos BC.xlsx</Link>
+      <BoundTo>6f1feb10-990f-4014-b79b-c6c486ab1763</BoundTo>
+      <DependentUpon>BC.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>02063060-ec20-4baa-ac96-451157027be7</id>
     </Content>
     <None Include="Emision\AccesorioConMovilidad.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -3726,6 +3786,11 @@
       <id>fbb7bb94-6a92-4e6a-ac8d-bdc548009974</id>
       <recordtableid>94d1817b-361c-491a-9ea8-09dd3b608616</recordtableid>
     </None>
+    <None Include="Menu\MenuLateral_FacturaBC.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>6a7fd681-ce02-4dc4-8fbe-20d93b61eda9</id>
+      <recordtableid>daff16e6-616e-47ec-aa57-52f5e0bffb7a</recordtableid>
+    </None>
     <None Include="Menu\MenuLateral_Pagos.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>9d0d639b-8eb5-4149-b374-6b7c23d2d4cb</id>
@@ -3770,6 +3835,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>756f7913-2ce6-4878-908a-5fbc93eaf872</id>
       <recordtableid>8c3cc7b2-dae0-4f18-97b1-6b9eaf4b957a</recordtableid>
+    </None>
+    <None Include="Menu\MenuSuperior_PolizaBC.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>d8835785-493b-40b4-b4d0-09b03fe024f4</id>
+      <recordtableid>756e4f17-f3bf-40aa-9387-498ace36db34</recordtableid>
     </None>
     <None Include="Menu\MenuSuperior_SolicitudPoliza.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -3850,6 +3920,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>136d569f-b0a3-4ca4-895b-adcb63610cbd</id>
       <recordtableid>fe8a943d-afb2-4b5f-bb5c-a644e2475e2f</recordtableid>
+    </None>
+    <None Include="Validaciones\Validar_ProgramaDePagos_BC.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>9c95c338-473d-46cd-807f-2c8ac9857d78</id>
+      <recordtableid>ef6f6c7c-f49b-4f60-aab0-e5db8b1c2ea7</recordtableid>
     </None>
     <None Include="ValidacionMarcaModelo\ValidacionStatus.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>

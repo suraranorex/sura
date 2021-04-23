@@ -4,7 +4,7 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="PC.rxtst" />
+    <Element value="BC.rxtst" />
     <Element value="PC_GestionDocumental.rxtst" />
   </Array>
   <Properties name="projectSavedData">
@@ -12,7 +12,8 @@
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="Sura.Validaciones.Validar_PorgramaDePagos.validarCantidadCuotas()" />
+      <Element value="Sura.Validaciones.Validar_ProgramaDePagos_BC.validarCantidadCuotas()" />
+      <Element value="Sura.Validaciones.Validar_ProgramaDePagos_BC.validarCantidadCuotas()" />
       <Element value="Sura.Validaciones.Validar_PorgramaDePagos.validarCantidadCuotas()" />
       <Element value="Sura.Validaciones.Validar_AnulacionRehabilitacion.validar()" />
     </Array>

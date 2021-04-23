@@ -20,53 +20,38 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Sura.Validaciones
+namespace Sura.Menu
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Validar_PorgramaDePagos recording.
+    ///The MenuLateral_FacturaBC recording.
     /// </summary>
-    [TestModule("fe8a943d-afb2-4b5f-bb5c-a644e2475e2f", ModuleType.Recording, 1)]
-    public partial class Validar_PorgramaDePagos : ITestModule
+    [TestModule("daff16e6-616e-47ec-aa57-52f5e0bffb7a", ModuleType.Recording, 1)]
+    public partial class MenuLateral_FacturaBC : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
         public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static Validar_PorgramaDePagos instance = new Validar_PorgramaDePagos();
+        static MenuLateral_FacturaBC instance = new MenuLateral_FacturaBC();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Validar_PorgramaDePagos()
+        public MenuLateral_FacturaBC()
         {
-            CantCuotas = "";
-            Fila = "1";
-            Ambiente = "suragwqa2.segurossura.com.ar";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Validar_PorgramaDePagos Instance
+        public static MenuLateral_FacturaBC Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        string _CantCuotas;
-
-        /// <summary>
-        /// Gets or sets the value of variable CantCuotas.
-        /// </summary>
-        [TestVariable("0244a9e5-2c7a-4090-8635-3bdf5362b9eb")]
-        public string CantCuotas
-        {
-            get { return _CantCuotas; }
-            set { _CantCuotas = value; }
-        }
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -76,16 +61,6 @@ namespace Sura.Validaciones
         {
             get { return repo.Ambiente; }
             set { repo.Ambiente = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable Fila.
-        /// </summary>
-        [TestVariable("391c7eea-3d13-4690-8b39-7e4e466444e8")]
-        public string Fila
-        {
-            get { return repo.Fila; }
-            set { repo.Fila = value; }
         }
 
 #endregion
@@ -114,20 +89,12 @@ namespace Sura.Validaciones
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.Validacion_ProgramaPagos.txt_PlanDePagos_CantCuotas' and assigning the part of its value captured by '[0-9]+' to variable 'CantCuotas'.", repo.SURA.Validacion_ProgramaPagos.txt_PlanDePagos_CantCuotasInfo, new RecordItemIndex(0));
-            CantCuotas = repo.SURA.Validacion_ProgramaPagos.txt_PlanDePagos_CantCuotas.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BC.menuLateral_Facturas' at 37;4.", repo.SURA.BC.menuLateral_FacturasInfo, new RecordItemIndex(0));
+            repo.SURA.BC.menuLateral_Facturas.Click("37;4");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", CantCuotas, new RecordItemIndex(1));
-            
-            validarCantidadCuotas();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse scroll Vertical by -500 units.", new RecordItemIndex(3));
-            Mouse.ScrollWheel(-500);
-            Delay.Milliseconds(300);
-            
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.tabla_ProgramaPagos, false, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SURA.BC.txt_Facturas'", repo.SURA.BC.txt_FacturasInfo, new ActionTimeout(20000), new RecordItemIndex(1));
+            repo.SURA.BC.txt_FacturasInfo.WaitForExists(20000);
             
         }
 
