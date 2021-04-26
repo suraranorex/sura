@@ -1,22 +1,13 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="PC_GestionDocumental.rxtst" />
+    <Element value="BC.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="BC.rxtst" />
-    <Element value="PC_GestionDocumental.rxtst" />
     <Element value="PC.rxtst" />
+    <Element value="Validaciones\Validar_PorgramaDePagos.rxrec" />
+    <Element value="PC_GestionDocumental.rxtst" />
   </Array>
-  <Properties name="projectSavedData">
-    <Properties name="customTool">
-      <runOnBuild value="False" />
-    </Properties>
-    <Array name="recentusercodeselections">
-      <Element value="Sura.Validaciones.Validar_ProgramaDePagos_BC.validarCantidadCuotas()" />
-      <Element value="Sura.Validaciones.Validar_ProgramaDePagos_BC.validarCantidadCuotas()" />
-      <Element value="Sura.Validaciones.Validar_PorgramaDePagos.validarCantidadCuotas()" />
-      <Element value="Sura.Validaciones.Validar_AnulacionRehabilitacion.validar()" />
-    </Array>
-  </Properties>
+  <Properties name="projectSavedData" />
 </Properties>

@@ -4992,16 +4992,21 @@
 			VideoFps="15"
 			VideoRecordingMode="KeepAllTests"
 			VideoSource="Auto"
+			createsinglereportpdfchecked="False"
 			enabletracingscreenshots="True"
 			id="5aa7fe0b-c480-4a82-8591-fbc0cafd2d37"
+			includeimageschecked="False"
+			includerecordingschecked="False"
 			junitreport="False"
 			name="PC"
+			overwritefilechecked="False"
 			reportcompress="False"
 			reportdirectoryname="Reports"
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
 			reporttemplatefolder=""
-			reportwriteinterval="30000ms">
+			reportwriteinterval="30000ms"
+			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
 			<testmodule
 			id="5b4852ef-958b-49fb-9620-0baa3590b59a"
@@ -19106,9 +19111,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Emision AP - Nomina Parte 2.xlsx"
+		filename="DataSource - Emision AP - Nomina Parte 2.xlsx"
 		id="6b97bd58-30ab-4374-be3d-709ae11f1b06"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="1"
 		name="EmisionNomina_Parte2"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -19971,7 +19976,7 @@
 		<DataSource
 		id="d592eeb7-16dc-4949-9c7d-53acbfa8bb2b"
 		includefile="Unchecked"
-		lastknownrowcount="9"
+		lastknownrowcount="1"
 		name="flotaNomina_DS"
 		type="Ranorex.Core.Data.CsvDataConnector"
 		withheaders="True">
@@ -19989,7 +19994,7 @@
 			<maskedcolumns>
 			</maskedcolumns>
 			<file>
-				R:\TEMP\Nomina.csv
+				C:\TEMP\Nomina.csv
 			</file>
 		</DataSource>
 		<DataSource
@@ -20152,6 +20157,9 @@
 			id="1763fda0-9142-451e-922c-07d0fbb76199">
 			</testcontainer>
 			<testcontainer
+			id="17a64f92-15c9-4247-bc28-454674cebebe">
+			</testcontainer>
+			<testcontainer
 			id="1c0c987c-120e-4c81-9877-d784e1b38787">
 			</testcontainer>
 			<testcontainer
@@ -20239,6 +20247,9 @@
 			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b">
 			</testcontainer>
 			<testcontainer
+			id="6cbcb160-da52-4e44-b304-38fe19aff4c3">
+			</testcontainer>
+			<testcontainer
 			id="6d8919d7-4e56-4c75-91b5-ad61b240bbcb">
 			</testcontainer>
 			<testcontainer
@@ -20249,6 +20260,9 @@
 			</testcontainer>
 			<testcontainer
 			id="747136f3-3c19-4631-9c96-69b3ca60021b">
+			</testcontainer>
+			<testcontainer
+			id="75646c42-08f2-4518-a444-e79150adf684">
 			</testcontainer>
 			<testcontainer
 			id="76cbcbd7-d869-4841-83f0-224663ede966">
