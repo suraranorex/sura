@@ -47,6 +47,8 @@ mode="Global">
 				<path>
 					/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']//div[@innertext='Refacturaciones']/../..//a[@innertext='Ejecutar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -67,6 +69,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<WaitForRecordItem
@@ -118,7 +122,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Informaci&#243;n de proceso por lotes
+						Información de proceso por lotes
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -134,6 +138,8 @@ mode="Global">
 				<path>
 					/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']//span[@innertext&gt;'Informaci&#243;n de proceso por']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<validationitem
@@ -151,6 +157,8 @@ mode="Global">
 				<path>
 					/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']//div[@innertext='Refacturaciones']/../..//a[@innertext='Ejecutar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<matchname>
 				(Choose)

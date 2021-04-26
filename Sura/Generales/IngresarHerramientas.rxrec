@@ -46,6 +46,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keyitem>
 		<WaitForRecordItem
@@ -113,6 +115,8 @@ mode="Global">
 				<path>
 					/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'centerPanel-tbody']//span[@innertext&gt;'Informaci&#243;n de proceso por']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>
