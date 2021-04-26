@@ -2998,7 +2998,7 @@
 			<testcase
 			datasource="Validar_ProgramaDePagos"
 			id="61fb8483-0a72-46e5-89c4-ad3c1a796098"
-			name="Validar_ProgramaDePagos">
+			name="Validar_ProgramaDePagos_PC">
 			</testcase>
 			<testmodule
 			id="636afa65-ebba-4c46-8418-b4a9fb0733c0"
@@ -9046,7 +9046,7 @@
 					</testcase>
 					<testcase
 					id="61fb8483-0a72-46e5-89c4-ad3c1a796098"
-					name="Validar_ProgramaDePagos">
+					name="Validar_ProgramaDePagos_PC">
 						<setup
 						id="691efeca-77a2-48c5-9e2e-c2a5237b9957"
 						name="setup1">

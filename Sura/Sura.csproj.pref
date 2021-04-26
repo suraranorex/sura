@@ -6,6 +6,7 @@
   <Array name="files">
     <Element value="BC.rxtst" />
     <Element value="PC_GestionDocumental.rxtst" />
+    <Element value="PC.rxtst" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
