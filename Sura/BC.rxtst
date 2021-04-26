@@ -22,6 +22,28 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="0fc73506-e3ed-4c0f-976f-14aae2adea52"
+			name="Logout"
+			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a143fc92-6d75-4564-b87e-b989c9a63e01"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e5f0ca5-0637-42e4-ac1e-bea3f37722a7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="1047925d-13ca-4e34-80e4-de8ed4364663"
 			name="Pago"
 			ref="164dfc0b-43a0-4883-8ccb-ee5d690ad794"
@@ -87,10 +109,89 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="21d40c09-e5c9-422f-8602-4d98a13d6e99"
+			name="Login"
+			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a143fc92-6d75-4564-b87e-b989c9a63e01"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="a143fc92-6d75-4564-b87e-b989c9a63e01"
+					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="a143fc92-6d75-4564-b87e-b989c9a63e01"
+					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Usuario"
+					datasourceid="1e5f0ca5-0637-42e4-ac1e-bea3f37722a7"
+					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="1e5f0ca5-0637-42e4-ac1e-bea3f37722a7"
+					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
+					variablename="Contrasenia">
+					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e5f0ca5-0637-42e4-ac1e-bea3f37722a7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<teardown
 			id="2a8c1256-e6fa-4c0c-859a-efaf8b76c8bd"
 			name="teardown11112">
 			</teardown>
+			<testcase
+			datasource="BC_Validar_ProgramaDePagos"
+			id="39a57631-8d4d-4902-b551-ce37c2f9a7ff"
+			name="BC/Validar_ProgramaDePagos">
+				<parameters>
+					<param
+					name="param_CantCuotas"
+					value="">
+					</param>
+				</parameters>
+			</testcase>
+			<testmodule
+			id="3a518b4e-73f3-4f30-ba42-a00851300a79"
+			name="OpenBrowser_BC"
+			ref="51f2220e-f2ef-4b03-87a3-208a63fbe569"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="a143fc92-6d75-4564-b87e-b989c9a63e01"
+					variableid="d2b427b2-b4e4-4466-8f01-dd2293ff0aa6"
+					variablename="URL">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="URL"
+					datasourceid="1e5f0ca5-0637-42e4-ac1e-bea3f37722a7"
+					variableid="d2b427b2-b4e4-4466-8f01-dd2293ff0aa6"
+					variablename="URL">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -99,16 +200,21 @@
 			VideoFps="15"
 			VideoRecordingMode="Off"
 			VideoSource="Auto"
+			createsinglereportpdfchecked="False"
 			enabletracingscreenshots="True"
 			id="6e897736-9f14-4712-b8b7-1265449daaf9"
+			includeimageschecked="False"
+			includerecordingschecked="False"
 			junitreport="False"
 			name="BC"
+			overwritefilechecked="False"
 			reportcompress="False"
 			reportdirectoryname="Reports"
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
 			reporttemplatefolder=""
-			reportwriteinterval="30000ms">
+			reportwriteinterval="30000ms"
+			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
 			<testmodule
 			id="6ed83f25-a05a-458b-b39c-9a56effc8495"
@@ -169,6 +275,28 @@
 					variablename="URL">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="84454fe2-c6e7-4402-8c6e-ee97bec0faa1"
+			name="CloseBrowser"
+			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a143fc92-6d75-4564-b87e-b989c9a63e01"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e5f0ca5-0637-42e4-ac1e-bea3f37722a7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="94eab9ca-141f-47f9-b88b-abb8ac3f34d6"
@@ -237,6 +365,28 @@
 			name="BC/Pago_de_Poliza">
 			</testcase>
 			<testmodule
+			id="b908ca85-a56b-48b3-b430-7614a67dc257"
+			name="MenuLateral_FacturaBC"
+			ref="daff16e6-616e-47ec-aa57-52f5e0bffb7a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a143fc92-6d75-4564-b87e-b989c9a63e01"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e5f0ca5-0637-42e4-ac1e-bea3f37722a7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="bbc58725-dd0a-4268-96ab-08a9abfb4771"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -249,6 +399,44 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
+			</testmodule>
+			<teardown
+			id="bd2ed9a0-5701-4de6-ad17-d8bbfd46f34c"
+			name="teardown11112">
+			</teardown>
+			<testmodule
+			id="c1b4f63f-b30f-428c-a113-9513ffd24b44"
+			name="MenuSuperior_PolizaBC"
+			ref="756e4f17-f3bf-40aa-9387-498ace36db34"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a143fc92-6d75-4564-b87e-b989c9a63e01"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="NroPoliza"
+					datasourceid="a143fc92-6d75-4564-b87e-b989c9a63e01"
+					variableid="4a75ea4b-f65f-496b-82a8-b8bc13f349ab"
+					variablename="NroPoliza">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e5f0ca5-0637-42e4-ac1e-bea3f37722a7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="NroPoliza"
+					datasourceid="1e5f0ca5-0637-42e4-ac1e-bea3f37722a7"
+					variableid="4a75ea4b-f65f-496b-82a8-b8bc13f349ab"
+					variablename="NroPoliza">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="cc35839c-e65e-43f0-8d7d-e10ea5fe9ab6"
@@ -279,6 +467,34 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="d8e1c6be-8484-4f88-9725-049e1da24b45"
+			name="ObtenerCantidadCuotas"
+			ref="728ae478-eb8c-4c5f-a653-0aaaae7a0585"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="param_CantCuotas"
+					datasourceid="39a57631-8d4d-4902-b551-ce37c2f9a7ff"
+					variableid="c4243655-78d0-40c8-ae26-a4900a4c139c"
+					variablename="CantCuotas">
+					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="a143fc92-6d75-4564-b87e-b989c9a63e01"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e5f0ca5-0637-42e4-ac1e-bea3f37722a7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="d9b0154c-fecf-4739-a7c8-17408b365558"
 			name="MenuSuperior_CuentaBC"
 			ref="6d1d317b-8a6b-4f68-99bc-c85df6b7708d"
@@ -297,6 +513,28 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="da376820-ad32-4766-97fb-e75e063c8889"
+			name="Validar_ProgramaDePagos_BC"
+			ref="ef6f6c7c-f49b-4f60-aab0-e5db8b1c2ea7"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="a143fc92-6d75-4564-b87e-b989c9a63e01"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e5f0ca5-0637-42e4-ac1e-bea3f37722a7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="e03e6fb5-fc42-4c6a-b15e-e1e9d07be0ae"
@@ -328,6 +566,10 @@
 			id="e1dd39da-10fd-494e-afb6-aeb1ce9795ea"
 			name="teardown1111">
 			</teardown>
+			<setup
+			id="eb603881-c1ce-49ed-a466-3ce2c4c34ba9"
+			name="setup11112">
+			</setup>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -416,6 +658,50 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="39a57631-8d4d-4902-b551-ce37c2f9a7ff"
+					name="BC/Validar_ProgramaDePagos">
+						<setup
+						id="eb603881-c1ce-49ed-a466-3ce2c4c34ba9"
+						name="setup11112">
+							<testmodule
+							id="3a518b4e-73f3-4f30-ba42-a00851300a79"
+							name="OpenBrowser_BC">
+							</testmodule>
+							<testmodule
+							id="21d40c09-e5c9-422f-8602-4d98a13d6e99"
+							name="Login">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="c1b4f63f-b30f-428c-a113-9513ffd24b44"
+						name="MenuSuperior_PolizaBC">
+						</testmodule>
+						<testmodule
+						id="d8e1c6be-8484-4f88-9725-049e1da24b45"
+						name="ObtenerCantidadCuotas">
+						</testmodule>
+						<testmodule
+						id="b908ca85-a56b-48b3-b430-7614a67dc257"
+						name="MenuLateral_FacturaBC">
+						</testmodule>
+						<testmodule
+						id="da376820-ad32-4766-97fb-e75e063c8889"
+						name="Validar_ProgramaDePagos_BC">
+						</testmodule>
+						<teardown
+						id="bd2ed9a0-5701-4de6-ad17-d8bbfd46f34c"
+						name="teardown11112">
+							<testmodule
+							id="0fc73506-e3ed-4c0f-976f-14aae2adea52"
+							name="Logout">
+							</testmodule>
+							<testmodule
+							id="84454fe2-c6e7-4402-8c6e-ee97bec0faa1"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -425,7 +711,7 @@
 		filename="DataSource - Pago.xlsx"
 		id="46355cdd-6d91-437d-af37-776dd8580d97"
 		includefile="Checked"
-		lastknownrowcount="52"
+		lastknownrowcount="15"
 		name="BC_Pago"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -497,6 +783,35 @@
 			<maskedcolumns>
 			</maskedcolumns>
 		</DataSource>
+		<DataSource
+		filename="DataSource - Validar Programa de Pagos BC.xlsx"
+		id="a143fc92-6d75-4564-b87e-b989c9a63e01"
+		includefile="Checked"
+		lastknownrowcount="3"
+		name="BC_Validar_ProgramaDePagos"
+		type="Ranorex.Core.Data.ExcelDataConnector"
+		worksheetname="Hoja1"
+		worksheetrange="Auto-Range">
+			<lastknowncolumns>
+				<column>
+					Ambiente
+				</column>
+				<column>
+					URL
+				</column>
+				<column>
+					Usuario
+				</column>
+				<column>
+					Contrasenia
+				</column>
+				<column>
+					NroPoliza
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+		</DataSource>
 	</datasources>
 	<testconfigurations
 	default="PagoPolizas">
@@ -512,10 +827,10 @@
 	</testconfigurations>
 	<references>
 		<reference>
-			C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll
+			C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll
 		</reference>
 		<reference>
-			C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Office.Tools.Excel\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.Office.Tools.Excel.dll
+			C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Office.Tools.Excel\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.Office.Tools.Excel.dll
 		</reference>
 	</references>
 </testsuitedoc>

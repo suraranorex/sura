@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="b2d9ab47-676f-409a-af92-80c11cb4a69d"
+id="94d1817b-361c-491a-9ea8-09dd3b608616"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="MenuLateral_Personas"
+	classname="MenuLateral_Facturacion"
 	namespace="Sura.Menu">
 	</codegen>
 	<variables>
@@ -33,16 +33,16 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="92607960-6779-4db0-9d89-063e4695952e"
-		sx="118"
-		sy="265"
+		searchpropertyid="e7b9bdba-3a71-4994-a133-d778f7c692a8"
+		sx="67"
+		sy="631"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="ecae8ed2-eb90-4802-aae9-1fb584412ee7"
+			id="d59f367c-f08f-46f1-84fa-93b38cc256a4"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, spantag"
@@ -50,9 +50,9 @@ mode="Global">
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
-				index="3"
+				index="2"
 				prefcap="spantag"
-				rect="42,350,48,14"
+				rect="30,622,74,18"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -75,7 +75,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Personas
+						Facturación
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -89,7 +89,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'westPanel-innerCt']//span[@innertext='Personas']
+					/dom[@domain='suragwqa2.segurossura.com.ar']//div[#'PolicyFile:MenuLinks-body']//span[@innertext='Facturación']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -98,15 +98,15 @@ mode="Global">
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"
-		searchpropertyid="c7dcc51b-d253-430d-ad2b-4d87b1bcd2de"
+		searchpropertyid="92a505b2-dda7-4ecc-9e3e-a1db1cfca2b4"
 		waitaction="Exists"
-		waittimeout="30000ms">
+		waittimeout="20000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="399812c2-a554-4a83-9a6d-3d7d75716708"
+			id="7b033bc1-c901-4bd3-aa54-ca21d8428b62"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, spantag"
@@ -116,7 +116,7 @@ mode="Global">
 				hasfocus="False"
 				index="0"
 				prefcap="spantag"
-				rect="204,181,78,16"
+				rect="219,209,124,22"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -139,12 +139,12 @@ mode="Global">
 					<attribute
 					name="id"
 					type="System.String">
-						SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:AandHPartyExtScreen:ttlBar
+						PolicyFile_Billing:Policy_BillingScreen:ttlBar
 					</attribute>
 					<attribute
 					name="innertext"
 					type="System.String">
-						Personas
+						Facturación
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -158,7 +158,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Personas' and @visible='true']
+					/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'PolicyFile_Billing-tbody']//span[@innertext='Facturación']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -180,7 +180,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		MenuLateral_Personas.UserCode.cs
+		MenuLateral_Facturacion.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

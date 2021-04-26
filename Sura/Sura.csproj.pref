@@ -1,4 +1,5 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <Array name="active" />
   <Array name="bookmarks" />
   <Array name="files" />
@@ -10,4 +11,17 @@
       <Element value="Sura.Emision.CargaVehiculos.seleccionaVehiculos2()" />
     </Array>
   </Properties>
+=======
+  <Array name="active">
+    <Element value="BC.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="BC.rxtst" />
+    <Element value="PC.rxtst" />
+    <Element value="Validaciones\Validar_PorgramaDePagos.rxrec" />
+    <Element value="PC_GestionDocumental.rxtst" />
+  </Array>
+  <Properties name="projectSavedData" />
+>>>>>>> 3ecaf0ce79690e8ebc10205e368c53a185717f34
 </Properties>
