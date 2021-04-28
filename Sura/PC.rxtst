@@ -333,12 +333,12 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datarangeset="6,7"
+			datarangeactive="True"
 			datasource="EmisionMotor_Inspeccion"
 			errorbehavior="ContinueNextIteration"
 			id="0570b480-9d56-4c17-870e-4b2782417848"
-			maxrange="6"
-			minrange="5"
+			maxrange="15"
+			minrange="14"
 			name="Emisión_Motor_Inspección">
 			</testcase>
 			<smartfoldernode
@@ -12027,6 +12027,26 @@
 			name="setup1111111">
 			</setup>
 			<testmodule
+			id="d68451c4-c991-4822-88b1-0c0bcb5551e4"
+			name="Loguear_InfoInspeccion"
+			ref="e95e9f23-700e-4f35-bffd-9e096406b9f7"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="NumEsquema"
+					datasourceid="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
+					variableid="3dcc018d-1f81-46d5-a5fd-0d3b9c37de76"
+					variablename="NumEsquema">
+					</var>
+					<var
+					dataname="NombreEsquema"
+					datasourceid="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
+					variableid="97e58d79-1f9c-4061-86f7-af10a43bdc65"
+					variablename="NombreEsquema">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="d687515e-b49f-4f51-8ddb-d4e5acb576fa"
 			name="MenuLateral_CuentaPC"
 			ref="5bb086e1-d816-4abc-b088-2dff0422adbb"
@@ -14848,6 +14868,10 @@
 							name="EmisionPoliza">
 							</testmodule>
 						</smartfoldernode>
+						<testmodule
+						id="d68451c4-c991-4822-88b1-0c0bcb5551e4"
+						name="Loguear_InfoInspeccion">
+						</testmodule>
 						<teardown
 						id="1db3404b-2c49-431e-baf5-d7eacedaca79"
 						name="teardown2">
@@ -18722,7 +18746,7 @@
 		filename="DataSource - Emision Motor - Inspeccion.xlsx"
 		id="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
 		includefile="Checked"
-		lastknownrowcount="2"
+		lastknownrowcount="16"
 		name="EmisionMotor_Inspeccion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -18751,6 +18775,12 @@
 				</column>
 				<column>
 					NUM_GRUPO
+				</column>
+				<column>
+					NumEsquema
+				</column>
+				<column>
+					NombreEsquema
 				</column>
 				<column>
 					TIPOPOLIZA
@@ -20991,10 +21021,10 @@
 	</testconfigurations>
 	<references>
 		<reference>
-			C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll
+			C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll
 		</reference>
 		<reference>
-			C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Office.Tools.Excel\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.Office.Tools.Excel.dll
+			C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Office.Tools.Excel\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.Office.Tools.Excel.dll
 		</reference>
 	</references>
 </testsuitedoc>
