@@ -10404,7 +10404,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="Iri">
+	default="Emision_Compl_Blank">
 		<testconfiguration
 		name="Emision_Compl_Blank">
 			<testcontainer
