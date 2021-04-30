@@ -1,12 +1,17 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="PC.rxtst" />
+    <Element value="PC_GestionDocumental.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="PC.rxtst" />
+    <Element value="GestionDocumental\Descargar_TarjCirc.rxrec" />
+    <Element value="PC_GestionDocumental.rxtst" />
+    <Element value="Validaciones\ValidarFormulario_TarjCirc.rxrec" />
   </Array>
   <Properties name="projectSavedData">
-    <Array name="recentusercodeselections" />
+    <Array name="recentusercodeselections">
+      <Element value="Sura.GestionDocumental.VerFormulario_Emitida.fileCheck()" />
+      <Element value="Sura.Validaciones.ValidarFormulario_TarjCirc.validarConductor()" />
+    </Array>
   </Properties>
 </Properties>

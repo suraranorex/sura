@@ -39,6 +39,9 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\..\Downloads\Sura\iTextSharp\iTextSharp\DLLs\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Office.Interop.Excel">
     </Reference>
     <Reference Include="Microsoft.Office.Tools.Excel">
@@ -2149,6 +2152,21 @@
     <Compile Include="Generales\UCM_setStatus.cs">
       <id>cae467de-50d5-4760-948a-352069efb7e3</id>
     </Compile>
+    <Compile Include="Generales\UC_Generales.cs">
+      <id>fc6b66d1-6973-4408-9ce7-f30585199e35</id>
+    </Compile>
+    <Compile Include="GestionDocumental\Descargar_TarjCirc.cs">
+      <BoundTo>c7c8b9c0-5917-4739-b024-d18bad79211e</BoundTo>
+      <DependentUpon>Descargar_TarjCirc.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7fcb2894-679b-4ff1-9790-4be1c418cefb</id>
+    </Compile>
+    <Compile Include="GestionDocumental\Descargar_TarjCirc.UserCode.cs">
+      <BoundTo>c7c8b9c0-5917-4739-b024-d18bad79211e</BoundTo>
+      <DependentUpon>Descargar_TarjCirc.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>58fe5eae-7220-4b5c-966a-4b0c2414fab6</id>
+    </Compile>
     <Compile Include="GestionDocumental\VerFormulario_Cotizada.cs">
       <BoundTo>d6428693-b642-40aa-9827-5a9be7a41ff7</BoundTo>
       <DependentUpon>VerFormulario_Cotizada.rxrec</DependentUpon>
@@ -2535,6 +2553,30 @@
       <DependentUpon>TestCSV.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>7a58709c-4bd5-4fa6-933c-b45040ad9309</id>
+    </Compile>
+    <Compile Include="Validaciones\BuscarNombreConductor.cs">
+      <BoundTo>d97a34db-05e5-41c3-91cb-000e6202a24a</BoundTo>
+      <DependentUpon>BuscarNombreConductor.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>906ec737-8d66-4635-98a0-359ad88d7173</id>
+    </Compile>
+    <Compile Include="Validaciones\BuscarNombreConductor.UserCode.cs">
+      <BoundTo>d97a34db-05e5-41c3-91cb-000e6202a24a</BoundTo>
+      <DependentUpon>BuscarNombreConductor.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1e129d66-ee8f-448a-9a68-3e537bbdcb35</id>
+    </Compile>
+    <Compile Include="Validaciones\ValidarFormulario_TarjCirc.cs">
+      <BoundTo>c354298e-6c7a-4474-86f6-38a578363ac6</BoundTo>
+      <DependentUpon>ValidarFormulario_TarjCirc.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>02a7e1c1-7ad9-4e21-acc5-a55dbb94a3c9</id>
+    </Compile>
+    <Compile Include="Validaciones\ValidarFormulario_TarjCirc.UserCode.cs">
+      <BoundTo>c354298e-6c7a-4474-86f6-38a578363ac6</BoundTo>
+      <DependentUpon>ValidarFormulario_TarjCirc.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0bdc082b-03dd-496f-a9b9-a6091fdad2fd</id>
     </Compile>
     <Compile Include="Validaciones\Validar_AnulacionRehabilitacion.cs">
       <BoundTo>c3021866-82eb-4be9-a6d9-1b53590a2b82</BoundTo>
@@ -3750,6 +3792,11 @@
       <id>ee5d56d6-4c1b-4436-8d7d-19fd0c7c3f80</id>
       <recordtableid>40f2ee22-6d43-40a8-8f40-05b7a81ee02d</recordtableid>
     </None>
+    <None Include="GestionDocumental\Descargar_TarjCirc.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>c7c8b9c0-5917-4739-b024-d18bad79211e</id>
+      <recordtableid>771069b3-0321-40ba-8c60-6ffdeb714dcd</recordtableid>
+    </None>
     <None Include="GestionDocumental\VerFormulario_Cotizada.rxrec">
       <id>d6428693-b642-40aa-9827-5a9be7a41ff7</id>
       <recordtableid>03d5cad4-1f32-4da2-bf41-95bfcb2c3067</recordtableid>
@@ -3935,6 +3982,16 @@
       <id>497755e0-1b99-4411-bf64-8d9a9c2f8613</id>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Validaciones\BuscarNombreConductor.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>d97a34db-05e5-41c3-91cb-000e6202a24a</id>
+      <recordtableid>b7ea5ae3-a326-4c2d-ae9e-3cd8e37bcbee</recordtableid>
+    </None>
+    <None Include="Validaciones\ValidarFormulario_TarjCirc.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>c354298e-6c7a-4474-86f6-38a578363ac6</id>
+      <recordtableid>69e06594-a5b8-4aad-af23-2dd12abd3685</recordtableid>
+    </None>
     <None Include="Validaciones\Validar_AnulacionRehabilitacion.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>c3021866-82eb-4be9-a6d9-1b53590a2b82</id>
@@ -3971,6 +4028,13 @@
       <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>70ee6056-ce38-4943-bc5a-16dd59c1f4b0</id>
+    </Content>
+    <Content Include="ValidarConductor_TarjCirc.xlsx">
+      <Link>ValidarConductor_TarjCirc.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>f6ed2588-d35f-479a-bd02-77e287d5d0fa</id>
     </Content>
   </ItemGroup>
   <ItemGroup>

@@ -1234,6 +1234,16 @@ name="SuraRepository">
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//span[@innertext='Kilómetros']
 							</item>
+							<item
+							addcaps="unknown,webelement,spantag"
+							capname="divtag"
+							id="e985d173-9350-49ca-96ae-0f643c857be0"
+							name="input_Conductor"
+							refimgid="8e895b03-36fc-4a18-9006-9429777d6942"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//span[@innertext='Conductor']/../..//div[@id~'PassengerDriver-inputEl']
+							</item>
 						</folder>
 						<folder
 						capname="unknown"
@@ -4293,6 +4303,16 @@ name="SuraRepository">
 					<item
 					addcaps="unknown,webelement,divtag"
 					capname="imgtag"
+					id="25f20f0b-098f-4e88-8c6a-2acfb18ffa2e"
+					name="bttn_Descargar_TarjMercosur"
+					refimgid="507b1f8b-5b65-42ea-b41c-a861d5333cda"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Tarj. Circ. Tercero Mercosur']/..//..//img[@title='Descargar documento']
+					</item>
+					<item
+					addcaps="unknown,webelement,divtag"
+					capname="imgtag"
 					id="822af560-51fb-4090-bd4a-d6c4f31131a3"
 					name="bttn_Ver_CopiaProductor"
 					refimgid="507b1f8b-5b65-42ea-b41c-a861d5333cda"
@@ -6892,7 +6912,7 @@ AAAASUVORK5CYII=
 		<var
 		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
 		name="Ambiente">
-			suragwqa2.segurossura.com.ar
+			ssurgwsoadev4-oci.opc.oracleoutsourcing.com
 		</var>
 		<var
 		id="fbc3c0ec-d362-401d-acc7-5e95815b84a3"

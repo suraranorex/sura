@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="fe5792fc-075e-46de-9b3d-759b86e5cb7f"
+id="b7ea5ae3-a326-4c2d-ae9e-3cd8e37bcbee"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,10 +19,14 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="MenuLateral_Formularios"
-	namespace="Sura.GestionDocumental">
+	classname="BuscarNombreConductor"
+	namespace="Sura.Validaciones">
 	</codegen>
 	<variables>
+		<var
+		id="fcb0ec05-2a7a-43c0-ad42-1ca24e7704cd"
+		name="Conductor">
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -33,68 +37,19 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="f38e38d9-174a-49d2-a435-87f484f5b95d"
-		sx="59"
-		sy="469"
+		searchpropertyid="aa34f9e4-2ab0-4065-9624-818ea0c1c519"
+		sx="0"
+		sy="0"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="691df541-0ff6-41c0-85b0-075dc1ac089f"
+			id="786b78c3-23cd-48a7-80e9-5f606ebecd54"
 			sourcename="RepositoryEditor">
-				<element
-				capabilities="webelement, spantag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="2"
-				prefcap="spantag"
-				rect="30,459,146,18"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						x-tree-node-text&#32;
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						ext-element-191
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						Formularios / Cláusulas
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						x-tree-node-text
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						span
-					</attribute>
-				</element>
 				<path>
-					/dom[@domain=$Ambiente]//div[#'PolicyFile:PolicyFileAcceleratedMenuActions']//span[@innertext~'Formularios']
+					/dom[@domain=$Ambiente]//div[#'westPanel-innerCt']//span[@innertext='Vehículos']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -103,25 +58,45 @@ mode="Global">
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"
-		searchpropertyid="2c1da83d-484a-44a2-809a-63a99fb68d93"
+		searchpropertyid="8e65d9fb-f2c6-451a-9d5f-f1c56788c968"
 		waitaction="Exists"
-		waittimeout="5000ms">
+		waittimeout="20000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="85db4913-8050-4b2a-9322-39383f647ab9"
+			id="9e5660a1-d808-428c-a99e-cbc3af1b83ce"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody//span[@innertext='Vehículos' and @visible='true']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="91d9d23e-c168-4ee3-8b34-90ff7ed825b9"
+		varname="Conductor">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e985d173-9350-49ca-96ae-0f643c857be0"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, spantag"
+				capabilities="webelement, divtag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
 				index="0"
-				prefcap="spantag"
-				rect="219,201,250,22"
+				prefcap="divtag"
+				rect="877,507,128,25"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -129,7 +104,7 @@ mode="Global">
 					<attribute
 					name="class"
 					type="System.String">
-						g-title
+						x-form-display-field x-form-display-field-default
 					</attribute>
 					<attribute
 					name="draggable"
@@ -144,31 +119,37 @@ mode="Global">
 					<attribute
 					name="id"
 					type="System.String">
-						PolicyFile_Forms_CA7:PolicyFile_PolicyLine_FormsScreen:0
+						PolicyFile_CA7VehicleList:PolicyFile_VehiclesScreen:CA7VehicleLDP:CA7VehicleCV:CA7BasicVehicleInfoDV:PassengerDriver-inputEl
 					</attribute>
 					<attribute
 					name="innertext"
 					type="System.String">
-						Formularios / Cláusulas
+						CONDUCTOR NUEVO
 					</attribute>
 					<attribute
 					name="safeclass"
 					type="System.String">
-						g-title
+						x-form-display-field x-form-display-field-default
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
-						span
+						div
 					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain=$Ambiente]//div[@id='centerPanel']//span[@innertext~'Formularios']
+					/dom[@domain=$Ambiente]//span[@innertext='Conductor']/../..//div[@id~'PassengerDriver-inputEl']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
-		</WaitForRecordItem>
+		</getvaluerecorditem>
 	</recorditems>
 	<repository
 	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
@@ -185,7 +166,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		MenuLateral_Formularios.UserCode.cs
+		BuscarNombreConductor.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

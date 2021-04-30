@@ -397,7 +397,7 @@ namespace Sura
             set { _Anio = value; }
         }
 
-        string _Ambiente = "suragwqa2.segurossura.com.ar";
+        string _Ambiente = "ssurgwsoadev4-oci.opc.oracleoutsourcing.com";
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -7267,6 +7267,7 @@ namespace Sura
             RepoItemInfo _item_cboanioInfo;
             RepoItemInfo _input_kilometrosInfo;
             RepoItemInfo _txt_kilometrosInfo;
+            RepoItemInfo _input_conductorInfo;
 
             /// <summary>
             /// Creates a new Vehiculoss  folder.
@@ -7292,6 +7293,7 @@ namespace Sura
                 _item_cboanioInfo = new RepoItemInfo(this, "item_cboAnio", "body//ul/li[@innertext=$Anio]", "", 30000, null, "b29f8b31-a001-4db2-836f-84c6e9de6a80");
                 _input_kilometrosInfo = new RepoItemInfo(this, "input_Kilometros", ".//span[@innertext='Kilómetros']/../..//input", "", 30000, null, "4a7f267b-3744-495b-a607-9d8ae176e530");
                 _txt_kilometrosInfo = new RepoItemInfo(this, "txt_Kilometros", ".//span[@innertext='Kilómetros']", "", 30000, null, "6b85dcae-f6f5-4491-b9e8-8e33535d4248");
+                _input_conductorInfo = new RepoItemInfo(this, "input_Conductor", ".//span[@innertext='Conductor']/../..//div[@id~'PassengerDriver-inputEl']", "", 30000, null, "e985d173-9350-49ca-96ae-0f643c857be0");
             }
 
             /// <summary>
@@ -7711,6 +7713,30 @@ namespace Sura
                 get
                 {
                     return _txt_kilometrosInfo;
+                }
+            }
+
+            /// <summary>
+            /// The input_Conductor item.
+            /// </summary>
+            [RepositoryItem("e985d173-9350-49ca-96ae-0f643c857be0")]
+            public virtual Ranorex.DivTag input_Conductor
+            {
+                get
+                {
+                    return _input_conductorInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The input_Conductor item info.
+            /// </summary>
+            [RepositoryItemInfo("e985d173-9350-49ca-96ae-0f643c857be0")]
+            public virtual RepoItemInfo input_ConductorInfo
+            {
+                get
+                {
+                    return _input_conductorInfo;
                 }
             }
 
@@ -16334,6 +16360,7 @@ namespace Sura
             RepoItemInfo _bttn_ver_cotizacionproductorInfo;
             RepoItemInfo _bttn_ver_facturaInfo;
             RepoItemInfo _bttn_ver_tarjmercosurInfo;
+            RepoItemInfo _bttn_descargar_tarjmercosurInfo;
             RepoItemInfo _bttn_ver_copiaproductorInfo;
             RepoItemInfo _bttn_ver_copiaorganizadorInfo;
             RepoItemInfo _bttn_ver_copiapolizaaseguradoInfo;
@@ -16358,6 +16385,7 @@ namespace Sura
                 _bttn_ver_cotizacionproductorInfo = new RepoItemInfo(this, "bttn_Ver_CotizacionProductor", ".//tbody[#'centerPanel-tbody']//div[@innertext='Cotización Productor']/..//..//img[@title='Ver documento']", "", 30000, null, "466e78e7-09e4-491e-857b-683899991d68");
                 _bttn_ver_facturaInfo = new RepoItemInfo(this, "bttn_Ver_Factura", ".//tbody[#'centerPanel-tbody']//div[@innertext='Factura']/..//..//img[@title='Ver documento']", "", 30000, null, "bcb758ed-f529-4df8-9030-ff0d967b09df");
                 _bttn_ver_tarjmercosurInfo = new RepoItemInfo(this, "bttn_Ver_TarjMercosur", ".//tbody[#'centerPanel-tbody']//div[@innertext='Tarj. Circ. Tercero Mercosur']/..//..//img[@title='Ver documento']", "", 30000, null, "8e65c935-733b-4882-bdfc-683a7e7748a0");
+                _bttn_descargar_tarjmercosurInfo = new RepoItemInfo(this, "bttn_Descargar_TarjMercosur", ".//tbody[#'centerPanel-tbody']//div[@innertext='Tarj. Circ. Tercero Mercosur']/..//..//img[@title='Descargar documento']", "", 30000, null, "25f20f0b-098f-4e88-8c6a-2acfb18ffa2e");
                 _bttn_ver_copiaproductorInfo = new RepoItemInfo(this, "bttn_Ver_CopiaProductor", ".//tbody[#'centerPanel-tbody']//div[@innertext='Copia Productor']/..//..//img[@title='Ver documento']", "", 30000, null, "822af560-51fb-4090-bd4a-d6c4f31131a3");
                 _bttn_ver_copiaorganizadorInfo = new RepoItemInfo(this, "bttn_Ver_CopiaOrganizador", ".//tbody[#'centerPanel-tbody']//div[@innertext='Copia Organizador']/..//..//img[@title='Ver documento']", "", 30000, null, "151e253f-cccf-466e-9a54-790f77642904");
                 _bttn_ver_copiapolizaaseguradoInfo = new RepoItemInfo(this, "bttn_Ver_CopiaPolizaAsegurado", ".//tbody[#'centerPanel-tbody']//div[@innertext='Copia de Póliza Asegurado']/..//..//img[@title='Ver documento']", "", 30000, null, "44341e00-b88c-440c-84c5-e3429fd5ea99");
@@ -16569,6 +16597,30 @@ namespace Sura
                 get
                 {
                     return _bttn_ver_tarjmercosurInfo;
+                }
+            }
+
+            /// <summary>
+            /// The bttn_Descargar_TarjMercosur item.
+            /// </summary>
+            [RepositoryItem("25f20f0b-098f-4e88-8c6a-2acfb18ffa2e")]
+            public virtual Ranorex.ImgTag bttn_Descargar_TarjMercosur
+            {
+                get
+                {
+                    return _bttn_descargar_tarjmercosurInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The bttn_Descargar_TarjMercosur item info.
+            /// </summary>
+            [RepositoryItemInfo("25f20f0b-098f-4e88-8c6a-2acfb18ffa2e")]
+            public virtual RepoItemInfo bttn_Descargar_TarjMercosurInfo
+            {
+                get
+                {
+                    return _bttn_descargar_tarjmercosurInfo;
                 }
             }
 

@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="771069b3-0321-40ba-8c60-6ffdeb714dcd"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Descargar_TarjCirc"
+	namespace="Sura.GestionDocumental">
+	</codegen>
+	<variables>
+		<var
+		id="0bb38124-d526-40c7-a884-05ab1a84437e"
+		name="NombreArchivo">
+		</var>
+		<var
+		id="4c427e4c-3624-4b5a-b7b7-c3aca9db860c"
+		name="NumeroPoliza">
+		</var>
+	</variables>
+	<recorditems>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				----- Tarj. Circ. Tercero Mercosur
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="bb708217-f06f-4643-8075-fdccc3c96552"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="25f20f0b-098f-4e88-8c6a-2acfb18ffa2e"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Tarj. Circ. Tercero Mercosur']/..//..//img[@title='Descargar documento']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="1f593120-8498-4e3f-865b-d1b3095a6106"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f681f83a-04c1-4718-82d4-c2d77ff686f3"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="4,672,233,56"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&#32;Constancia Cobertura Auto211227102124659.pdf
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						pulsar
+					</attribute>
+					<attribute
+					name="accessibledescription"
+					type="System.String">
+						Constancia Cobertura Auto211227102124659.pdf
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						&#32;Constancia Cobertura Auto211227102124659.pdf
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<userrecorditem
+		classname="Descargar_TarjCirc"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="fileCheck"
+		namespace="Sura.GestionDocumental"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="9c53ea04-f734-4c57-834c-3c1982b11b11">
+			</arguments>
+		</userrecorditem>
+		<getvaluerecorditem
+		attrname="Text"
+		enabled="True"
+		optional="False"
+		searchpropertyid="9b67041a-e1c6-4b40-8d9b-287b999f54bb"
+		varname="NombreArchivo">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f681f83a-04c1-4718-82d4-c2d77ff686f3"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="4,672,233,56"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&#32;Constancia Cobertura Auto211227102124659.pdf
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						pulsar
+					</attribute>
+					<attribute
+					name="accessibledescription"
+					type="System.String">
+						Constancia Cobertura Auto211227102124659.pdf
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						&#32;Constancia Cobertura Auto211227102124659.pdf
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</getvaluerecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="c6cab03f-e082-4ddb-b3e1-22c5beecdff6">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="NombreArchivo">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="17;15"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="691b7a09-dab0-43de-a1bd-d268f0562620"
+		sx="1353"
+		sy="703"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c452f4fd-df65-49a3-ba71-e7d1c99dd5fe"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="3"
+				prefcap="button"
+				rect="1336,688,24,22"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Cerrar
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						pulsar
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Cerrar
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'(1) WhatsApp - Google Chr']//container[@accessiblename='Barra de descargas']/button[@accessiblename='Cerrar']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="2d4808bb-660f-4dc1-b3e8-14f025ce3e33">
+				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
+/nlB/wB8n/GiseigD//Z
+			</helperscreenshot>
+		</mouseitem>
+		<userrecorditem
+		classname="Descargar_TarjCirc"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="manejarFormulario"
+		namespace="Sura.GestionDocumental"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="d0d3aa25-daa3-4d63-9b43-66ff75d6db64">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
+	name="SuraRepository"
+	relativepath="..\SuraRepository.rxrep">
+		<codegen
+		classname="SuraRepository"
+		namespace="Sura">
+		</codegen>
+		<rootfolder
+		id="52dfe65a-d533-49a3-8ebf-7c87ce8c645a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Descargar_TarjCirc.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
