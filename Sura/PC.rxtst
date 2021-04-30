@@ -10452,6 +10452,12 @@
 					variableid="2376a5f1-7f55-4b42-9551-fb734e478122"
 					variablename="TipoPlazo">
 					</var>
+					<var
+					dataname="FechaInicio"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="78512ccc-9533-4e79-a9fd-499a3a813f37"
+					variablename="FechaInicio">
+					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
