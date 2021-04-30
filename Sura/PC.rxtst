@@ -6770,6 +6770,24 @@
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
+					<var
+					dataname="TipoTarjeta"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="c0724723-8849-4422-bc10-5f4ba5e835c3"
+					variablename="TipoTarjeta">
+					</var>
+					<var
+					dataname="NumTarjetaCred"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="5dea6bb3-16ee-43e6-8622-1f2cfa38a7f9"
+					variablename="NumTarjetaCred">
+					</var>
+					<var
+					dataname="FechaVencimiento"
+					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
+					variableid="c8f191f9-2bc5-42bd-a1a3-eff8a4975324"
+					variablename="FechaVencimiento">
+					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
@@ -18967,13 +18985,13 @@
 					CantCuotas
 				</column>
 				<column>
-					Column15
+					TipoTarjeta
 				</column>
 				<column>
-					Column16
+					NumTarjetaCred
 				</column>
 				<column>
-					Column17
+					FechaVencimiento
 				</column>
 				<column>
 					FechaInicio
