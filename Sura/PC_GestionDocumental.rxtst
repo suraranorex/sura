@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
@@ -10735,7 +10735,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="Iri">
+	default="Emision_Compl_Blank">
 		<testconfiguration
 		name="Emision_Compl_Blank">
 			<testcontainer

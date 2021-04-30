@@ -1,5 +1,6 @@
 ﻿<Properties>
   <Array name="active">
+<<<<<<< HEAD
     <Element value="PC_GestionDocumental.rxtst" />
   </Array>
   <Array name="bookmarks" />
@@ -12,6 +13,21 @@
     <Array name="recentusercodeselections">
       <Element value="Sura.GestionDocumental.VerFormulario_Emitida.fileCheck()" />
       <Element value="Sura.Validaciones.ValidarFormulario_TarjCirc.validarConductor()" />
+=======
+    <Element value="PC.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="PC.rxtst" />
+    <Element value="PC_GestionDocumental.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Sura.Emision.CargaVehiculos.seleccionaVehiculos2()" />
+>>>>>>> c14f6c030e1e0fd0df4f97f21445e5cc6b9803a6
     </Array>
   </Properties>
 </Properties>
