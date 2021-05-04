@@ -10104,7 +10104,7 @@
 		filename="Emisión Motor - Varios vehiculos - General.xlsx"
 		id="213ba1be-f5b4-44d9-a491-524b455d4f4b"
 		includefile="Checked"
-		lastknownrowcount="2"
+		lastknownrowcount="4"
 		name="EmisionMotor_VariosVeh_General"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
