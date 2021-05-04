@@ -118,6 +118,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[1]/div[1]/div[2]/div/a[4]//span[@innertext='Accesorios']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="be49045d-8ad8-43dc-8c64-685ca51755d3">
@@ -169,6 +171,8 @@ AH2/OgC75af3F/KiqXmP/fb86KAP/9k=
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table//div/table/tbody/tr[1]/td/?/?/legend/div[@innertext=$Accesorio]/..//input[@type='button']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<explicitdelayitem
@@ -250,6 +254,8 @@ AH2/OgC75af3F/KiqXmP/fb86KAP/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table//div/table/tbody/tr[1]/?/?/fieldset/div/div/div/div/div/div/div[2]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="ecd85dc2-af94-4ba2-b4c2-2b437c82da4a">
@@ -428,6 +434,8 @@ JqegBnlR/wDPNP8AvkUeVH/zzT/vkU+igBnlR/8APNP++RR5Uf8AzzT/AL5FPooA/9k=
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/div/table//div/table//div/table/tbody/tr[1]//div/div/div/div/div/div/div[1]/input[@name='SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:Accessories:CA7SpecialAdditionalCoveragesDV:0:CA7CoverageInputSet:CovPatternInputGroup:0:CovTermInputSet:OptionTermInput']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -578,6 +586,8 @@ JqegBnlR/wDPNP8AvkUeVH/zzT/vkU+igBnlR/8APNP++RR5Uf8AzzT/AL5FPooA/9k=
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/div/table//div/table//div/table/tbody/tr[1]//div/div/div/div/div/div/div[1]/input[@name='SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:Accessories:CA7SpecialAdditionalCoveragesDV:0:CA7CoverageInputSet:CovPatternInputGroup:0:CovTermInputSet:OptionTermInput']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -686,6 +696,8 @@ JqegBnlR/wDPNP8AvkUeVH/zzT/vkU+igBnlR/8APNP++RR5Uf8AzzT/AL5FPooA/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[11]/?/?/ul/li[@innertext='Hasta $20.000']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="346d47d9-be1a-4618-a9bc-f63a4eec48ec">

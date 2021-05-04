@@ -115,6 +115,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<mouseitem
@@ -200,6 +202,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/ViewQuote']/table/tbody/tr[2]/td/div/div/div/a[4]//span[@innertext='Emitir Póliza']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="ba85cbdf-1b05-49dc-b141-b71b63e0340f">
@@ -258,6 +262,8 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//span[@innertext~'Aceptar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<userrecorditem
@@ -291,6 +297,8 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'JobComplete-tbody']/tr[1]/td/div//span[@innertext&gt;'Solicitud de P&#243;liza Contr']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -376,6 +384,8 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'UWBlockProgressIssuesPopup-tbody']/tr[2]/td/div//span[@innertext='Detalles']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -400,6 +410,8 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/RiskAnalysis']/table/tbody/tr[6]//table/tbody/tr[2]/td/div/div[2]/?/?/table//div/div[3]/div[1]/div/table[2]/tbody/tr/td[5]/?/?/a[@innertext='Aprobación especial']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -424,6 +436,8 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 				<path>
 					/dom[@domain=$Ambiente]/body//span[@innertext~'Aceptar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -448,6 +462,8 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 				<path>
 					/dom[@domain=$Ambiente]/body//table//div/table//div//span/span/span[@innertext~'Aceptar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -533,6 +549,8 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/ViewQuote']/table/tbody/tr[2]/td/div/div/div/a[4]//span[@innertext='Emitir Póliza']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="ba85cbdf-1b05-49dc-b141-b71b63e0340f">
@@ -591,6 +609,8 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//span[@innertext~'Aceptar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -609,6 +629,8 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'JobComplete-tbody']/tr[1]/td/div//span[@innertext&gt;'Solicitud de P&#243;liza Contr']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<separatoritem
@@ -638,6 +660,8 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<getvaluerecorditem
@@ -657,6 +681,8 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'JobComplete-tbody']/tr[5]//table/tbody/tr[2]/td/div/div[1]/div[@innertext&gt;'Ver su p&#243;liza (N.&#176; 124200']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<getvaluerecorditem
@@ -675,6 +701,8 @@ Q/Y7X/n2h/74FH2O1/59of8AvgVNRRZBzy7hRRRTJCiiigAooooA/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'infoBar-targetEl']//span[@innertext~'cuenta']/..//span[@innertext~'[0-9]+']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<loggingrecorditem
