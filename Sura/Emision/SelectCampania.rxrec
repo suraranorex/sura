@@ -52,6 +52,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -75,6 +77,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
@@ -94,6 +98,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -118,6 +124,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']//label[@innertext='Campaña']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -136,6 +144,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Código de Campaña' and @data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<separatoritem
@@ -229,6 +239,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<explicitdelayitem
@@ -262,6 +274,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[#'SubmissionWizard:Next-btnInnerEl']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -347,6 +361,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[#'SubmissionWizard:Next-btnInnerEl']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="eb1e1138-3012-40eb-b330-a9ca3b597753">
@@ -394,6 +410,8 @@ YGuYlHySKyhsejAkc+9LDFcT3aXFyixJGD5cQbJBPBJI46duetMzLtFFFABRRRQAUUUUAf/Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[1]//span[@innertext~'Conductores / Propietario']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

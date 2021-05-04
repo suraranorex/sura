@@ -108,6 +108,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[1]/div[1]/div[2]/div/a[4]//span[@innertext='Accesorios']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="be49045d-8ad8-43dc-8c64-685ca51755d3">
@@ -159,6 +161,8 @@ AH2/OgC75af3F/KiqXmP/fb86KAP/9k=
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table//div/table/tbody/tr[1]/td/?/?/legend/div[@innertext=$Accesorio]/..//input[@type='button']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<explicitdelayitem

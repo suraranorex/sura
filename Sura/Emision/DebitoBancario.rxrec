@@ -101,6 +101,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'westPanel-innerCt']/div[3]/div[3]/div[1]/?/?/div/table[9]//span[@innertext='Información del Pago']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -180,6 +182,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Agregar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -265,6 +269,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Agregar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="28ea204e-9b6c-4fc0-af28-1776d9a0a386">
@@ -441,6 +447,8 @@ L5if31/OikooA//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'Conducto de Pago']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -514,6 +522,8 @@ L5if31/OikooA//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[1]//span[@innertext='Nuevo Método de Pago']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -532,6 +542,8 @@ L5if31/OikooA//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'Conducto de Pago']/../..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<keysequenceitem
@@ -703,6 +715,8 @@ L5if31/OikooA//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'CBU']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -776,6 +790,8 @@ L5if31/OikooA//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']/tr/td/div/table/tbody/tr[1]//span[@innertext='Nuevo Método de Pago']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -794,6 +810,8 @@ L5if31/OikooA//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext~'CBU']/../..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -945,6 +963,8 @@ L5if31/OikooA//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext&gt;'Utilizar la informaci&#243;n del']/../..//label[@innertext='S&#237;']/../input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<explicitdelayitem
@@ -1038,6 +1058,8 @@ L5if31/OikooA//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<mouseitem
@@ -1123,6 +1145,8 @@ L5if31/OikooA//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Actualizar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="0d7d5f52-9740-4e5a-9a49-cb144fb13072">
@@ -1174,6 +1198,8 @@ MfKatUULTYU7z+LUz/7Gt/78v5j/AAo/sa3/AL8v5j/CtCiq55dzP2UOxn/2Nb/35fzH+FH9jW/9
 				<path>
 					/dom[@domain=$Ambiente]//div[@innertext='La tarjeta de crédito que inteta registrar ya existe en la cuenta']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -1198,6 +1224,8 @@ MfKatUULTYU7z+LUz/7Gt/78v5j/AAo/sa3/AL8v5j/CtCiq55dzP2UOxn/2Nb/35fzH+FH9jW/9
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext='Cancelar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -1216,6 +1244,8 @@ MfKatUULTYU7z+LUz/7Gt/78v5j/AAo/sa3/AL8v5j/CtCiq55dzP2UOxn/2Nb/35fzH+FH9jW/9
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext~'Información del Pago']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>
