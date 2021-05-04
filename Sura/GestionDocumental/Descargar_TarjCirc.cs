@@ -125,7 +125,7 @@ namespace Sura.GestionDocumental
             Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'Chrome.bttn_FormularioPDF'", repo.Chrome.bttn_FormularioPDFInfo, new ActionTimeout(10000), new RecordItemIndex(2));
             repo.Chrome.bttn_FormularioPDFInfo.WaitForExists(10000);
             
-            fileCheck();
+            Generales.UC_Generales.fileCheck();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Text' from item 'Chrome.bttn_FormularioPDF' and assigning its value to variable 'NombreArchivo'.", repo.Chrome.bttn_FormularioPDFInfo, new RecordItemIndex(4));
@@ -138,7 +138,7 @@ namespace Sura.GestionDocumental
             repo.Chrome.Cerrar.Click("17;15");
             Delay.Milliseconds(0);
             
-            manejarFormulario();
+            Generales.UC_Generales.manejarFormulario("R:\\TEMP\\Formularios\\TarjCirc\\", NombreArchivo, NumeroPoliza);
             Delay.Milliseconds(0);
             
         }

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
@@ -10178,7 +10178,7 @@
 		filename="Emisión Motor - Varios vehiculos - Vehiculos.xlsx"
 		id="8aabcb06-d09d-4a25-b3c0-8098a1f75f62"
 		includefile="Checked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="EmisionMotor_VariosVeh_Vehiculos"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"

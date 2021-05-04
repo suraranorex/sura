@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
@@ -18193,7 +18193,7 @@
 		filename="DataSource - Emision AP Enlatada.xlsx"
 		id="571c1e5d-6172-4ec6-b38e-e4a548db59a5"
 		includefile="Checked"
-		lastknownrowcount="1"
+		lastknownrowcount="2"
 		name="EmisionAP_Enlatada"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -18681,7 +18681,7 @@
 		filename="DataSource - Emision Motor_Answer.xlsx"
 		id="572b7b41-9d12-444f-9775-c358c54bee8c"
 		includefile="Checked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="EmisionMotor_Answer"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"

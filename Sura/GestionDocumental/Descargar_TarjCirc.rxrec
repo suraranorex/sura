@@ -142,11 +142,11 @@ mode="Global">
 			</info>
 		</WaitForRecordItem>
 		<userrecorditem
-		classname="Descargar_TarjCirc"
+		classname="UC_Generales"
 		enabled="True"
-		isexternaltestmethod="False"
+		isexternaltestmethod="True"
 		methodname="fileCheck"
-		namespace="Sura.GestionDocumental"
+		namespace="Sura.Generales"
 		optional="False">
 			<comment>
 			</comment>
@@ -351,18 +351,48 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 			</helperscreenshot>
 		</mouseitem>
 		<userrecorditem
-		classname="Descargar_TarjCirc"
+		classname="UC_Generales"
 		enabled="True"
-		isexternaltestmethod="False"
+		isexternaltestmethod="True"
 		methodname="manejarFormulario"
-		namespace="Sura.GestionDocumental"
+		namespace="Sura.Generales"
 		optional="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<arguments
-			id="d0d3aa25-daa3-4d63-9b43-66ff75d6db64">
+			id="21143826-ab23-45cd-a2e0-87ca7b7f3f73">
+				<argument
+				argname="directorio"
+				id="448ce3d1-b0cd-47da-9e43-f0acbc7254e1">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						R:\TEMP\Formularios\TarjCirc\
+					</argvalue>
+				</argument>
+				<argument
+				argname="nombreArchivo"
+				id="ddf1de32-1086-45d5-a700-84b4568c9fea"
+				variable="NombreArchivo">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="numeroPoliza"
+				id="5eb01673-6d8b-4e27-ad1e-69bac0aadb40"
+				variable="NumeroPoliza">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
 			</arguments>
 		</userrecorditem>
 	</recorditems>

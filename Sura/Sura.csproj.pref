@@ -1,33 +1,26 @@
 ﻿<Properties>
   <Array name="active">
-<<<<<<< HEAD
     <Element value="PC_GestionDocumental.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="Generales\UC_Generales.cs" />
+    <Element value="PC_GestionDocumental.rxtst" />
+    <Element value="GestionDocumental\Descargar_TarjCirc.UserCode.cs" />
     <Element value="GestionDocumental\Descargar_TarjCirc.rxrec" />
-    <Element value="PC_GestionDocumental.rxtst" />
-    <Element value="Validaciones\ValidarFormulario_TarjCirc.rxrec" />
-  </Array>
-  <Properties name="projectSavedData">
-    <Array name="recentusercodeselections">
-      <Element value="Sura.GestionDocumental.VerFormulario_Emitida.fileCheck()" />
-      <Element value="Sura.Validaciones.ValidarFormulario_TarjCirc.validarConductor()" />
-=======
     <Element value="PC.rxtst" />
-  </Array>
-  <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="PC.rxtst" />
-    <Element value="PC_GestionDocumental.rxtst" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
     <Array name="recentusercodeselections">
-      <Element value="Sura.Emision.CargaVehiculos.seleccionaVehiculos2()" />
->>>>>>> c14f6c030e1e0fd0df4f97f21445e5cc6b9803a6
+      <Element value="Sura.Generales.UC_Generales.manejarFormulario(String directorio, String nombreArchivo, String numeroPoliza)" />
+      <Element value="Sura.GestionDocumental.Descargar_TarjCirc.manejarFormulario()" />
+      <Element value="Sura.Generales.UC_Generales.fileCheck()" />
+      <Element value="Sura.Generales.UC_Generales.verificarDirectorio(String directorio, String numeroPoliza)" />
+      <Element value="Sura.Generales.UC_Generales.moverArchivo(String directorio, String nombreArchivo)" />
+      <Element value="Sura.Validaciones.ValidarFormulario_TarjCirc.validarConductor()" />
     </Array>
   </Properties>
 </Properties>

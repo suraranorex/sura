@@ -18,6 +18,7 @@ using WinForms = System.Windows.Forms;
 
 using Ranorex;
 using Ranorex.Core;
+using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
 using iTextSharp.text.pdf;
@@ -25,6 +26,7 @@ using iTextSharp.text.pdf.parser;
 
 namespace Sura.Generales
 {
+	//private static Sura.SuraRepository repo = Sura.SuraRepository.Instance;
     /// <summary>
     /// Creates a Ranorex user code collection. A collection is used to publish user code methods to the user code library.
     /// </summary>
@@ -33,7 +35,6 @@ namespace Sura.Generales
     {
         // You can use the "Insert New User Code Method" functionality from the context menu,
         // to add a new method with the attribute [UserCodeMethod].
-        
         
         
         /// <summary>
@@ -46,9 +47,9 @@ namespace Sura.Generales
         {
         	Report.Info("Info","Esperando la descarga del archivo");
         	
-        	while (repo.Chrome.bttn_FormularioPDFInfo.Exists(1000))
+        	while (Sura.SuraRepository.Instance.Chrome.bttn_FormularioPDFInfo.Exists(1000))
         	{
-        		if (repo.Chrome.bttn_FormularioPDF.Element.GetAttributeValueText("Text").Contains("KB"))
+        		if (Sura.SuraRepository.Instance.Chrome.bttn_FormularioPDF.Element.GetAttributeValueText("Text").Contains("KB"))
         			Delay.Milliseconds(500);
         		else
         			break;
@@ -57,12 +58,58 @@ namespace Sura.Generales
         	Report.Info("Info","Descarga finalizada");
         }
         
-        
+        /// <summary>
+        /// Agrupa verificar la existencia del directorio y mover el archivo desde Descargas hacia allá
+        /// </summary>
+        [UserCodeMethod]
+        public static void manejarFormulario(string directorio, string nombreArchivo, string numeroPoliza)
+        {
+        	verificarDirectorio(directorio, numeroPoliza);
+        	moverArchivo(directorio, nombreArchivo);
+        }
+            
+        /// <summary>
+        /// Verifica si existe en el directorio indicado la carpeta de la póliza y sino la crea
+        /// </summary>
+        [UserCodeMethod]
+        public static void verificarDirectorio(string directorio, string numeroPoliza)
+        {
+        	Report.Info("Info","Verificando la existencia del directorio destino");
+        	
+        	if (!Directory.Exists(directorio))
+        	{
+        		Report.Info("Info","No se encontro el directorio, comienza la creacion del directorio...");
+        		Directory.CreateDirectory(directorio + numeroPoliza.TrimStart());
+        		Report.Info("Info","Creacion del directorio finalizada.");
+        	}
+        	Report.Info("Info","Verificacion finalizada");
+        }
         
         /// <summary>
-        /// This is a placeholder text. Please describe the purpose of the
-        /// user code method here. The method is published to the user code library
-        /// within a user code collection.
+        /// Mueve un archivo desde la carpeta Descargas al directorio indicado
+        /// </summary>
+        [UserCodeMethod]
+        public static void moverArchivo(string directorio, string nombreArchivo)
+        {
+        	string userRoot = System.Environment.GetEnvironmentVariable("USERPROFILE");
+        	string downloadFolder = userRoot + @"\Downloads\";
+        	
+        	string origen = downloadFolder + nombreArchivo.TrimStart();
+        	string destino = directorio + nombreArchivo.TrimStart();
+      
+        	try {
+	        	File.Move(origen, destino);
+	        	Report.Success("Info", "El archivo se ha movido correctamente");
+	        } catch (Exception e) {
+	        	Report.Failure("Fail", "Error al mover el archivo\r\nError: " + e);
+	        	throw;
+	        }	
+        }
+               
+        
+        /// <summary>
+        /// Busca el contenido de la variable en el archivo PDF ubicado en la carpeta indicada. 
+        /// La búsqueda se realiza en la PRIMER hoja del archivo
         /// </summary>
         [UserCodeMethod]
         
