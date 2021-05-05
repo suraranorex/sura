@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<repository
+﻿<repository
 id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
 name="SuraRepository">
 	<codegen
@@ -1601,6 +1600,27 @@ name="SuraRepository">
 							robustPath=""
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Billing-tbody']//div[@id='PolicyFile_Billing:Policy_BillingScreen:5_header']/..
+							</item>
+							<item
+							addcaps="unknown,webelement,tdtag"
+							capname="divtag"
+							id="e70243e8-5a74-4739-85c4-35fa286e9ff6"
+							name="tag_NumVehiculo"
+							refimgid="5cde7a2b-67fa-469d-88a3-b1e15cda836a"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//div[@id='SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleListLV-body']//div[@innertext='1']
+							</item>
+							<item
+							addcaps="unknown,webelement,spantag"
+							capname="spantag"
+							id="30f5d965-fa95-4258-92c1-45d7bbd1ef81"
+							name="Detalles"
+							refimgid="0c3ef107-01ad-4c2f-a1a0-9ec7d54f6b40"
+							refpath="/dom[@domain='ssurgwsoadev4-oci.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]/td/div/table/tbody/tr[3]/td/div/div[1]/div[1]/div[2]/div/a[1]/span/span/span[@innertext='Detalles']"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//span[@innertext='Detalles']
 							</item>
 							<basepath>
 								/dom[@domain=$Ambiente]
@@ -4125,6 +4145,16 @@ name="SuraRepository">
 					robustPath=""
 					searchtimeout="30000ms">
 						/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Constancia Cobertura Auto']/..//..//img[@title='Ver documento']
+					</item>
+					<item
+					addcaps="unknown,webelement,divtag"
+					capname="imgtag"
+					id="4f888d5b-d060-4bcd-8a8b-76347409e9a1"
+					name="bttn_VerFormulario"
+					refimgid="507b1f8b-5b65-42ea-b41c-a861d5333cda"
+					robustPath=""
+					searchtimeout="30000ms">
+						/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext=$Formulario]/..//..//img[@title='Ver documento']
 					</item>
 					<item
 					addcaps="unknown,webelement,divtag"

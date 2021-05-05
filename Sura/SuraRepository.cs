@@ -8348,6 +8348,8 @@ namespace Sura
             RepoItemInfo _txt_mensajemediospagoautomaticosInfo;
             RepoItemInfo _xtablelayoutcellInfo;
             RepoItemInfo _tabla_programapagosInfo;
+            RepoItemInfo _tag_numvehiculoInfo;
+            RepoItemInfo _detallesInfo;
 
             /// <summary>
             /// Creates a new CoberturasAdicionales  folder.
@@ -8367,6 +8369,8 @@ namespace Sura
                 _txt_mensajemediospagoautomaticosInfo = new RepoItemInfo(this, "txt_MensajeMediosPagoAutomaticos", ".//div[#'SubmissionWizard/PolicyInfo']//div[@innertext~'medios de pagos automáticos']", "", 30000, null, "dcd2d221-fdc8-4291-8d1e-60d1a0e1a4bd");
                 _xtablelayoutcellInfo = new RepoItemInfo(this, "XTableLayoutCell", ".//tbody[#'PolicyFile_Summary-tbody']/tr[5]/td", "", 30000, null, "0fb60a5f-73eb-4524-aa9f-2a9c4c361eb9");
                 _tabla_programapagosInfo = new RepoItemInfo(this, "tabla_ProgramaPagos", ".//tbody[#'PolicyFile_Billing-tbody']//div[@id='PolicyFile_Billing:Policy_BillingScreen:5_header']/..", "", 30000, null, "8cd77f48-fb7d-42fd-8973-460d5c078bc0");
+                _tag_numvehiculoInfo = new RepoItemInfo(this, "tag_NumVehiculo", ".//div[#'SubmissionWizard/VehicleList']//div[@id='SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleListLV-body']//div[@innertext='1']", "", 30000, null, "e70243e8-5a74-4739-85c4-35fa286e9ff6");
+                _detallesInfo = new RepoItemInfo(this, "Detalles", ".//div[#'SubmissionWizard/VehicleList']//span[@innertext='Detalles']", "", 30000, null, "30f5d965-fa95-4258-92c1-45d7bbd1ef81");
             }
 
             /// <summary>
@@ -8678,6 +8682,54 @@ namespace Sura
                 get
                 {
                     return _tabla_programapagosInfo;
+                }
+            }
+
+            /// <summary>
+            /// The tag_NumVehiculo item.
+            /// </summary>
+            [RepositoryItem("e70243e8-5a74-4739-85c4-35fa286e9ff6")]
+            public virtual Ranorex.DivTag tag_NumVehiculo
+            {
+                get
+                {
+                    return _tag_numvehiculoInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The tag_NumVehiculo item info.
+            /// </summary>
+            [RepositoryItemInfo("e70243e8-5a74-4739-85c4-35fa286e9ff6")]
+            public virtual RepoItemInfo tag_NumVehiculoInfo
+            {
+                get
+                {
+                    return _tag_numvehiculoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Detalles item.
+            /// </summary>
+            [RepositoryItem("30f5d965-fa95-4258-92c1-45d7bbd1ef81")]
+            public virtual Ranorex.SpanTag Detalles
+            {
+                get
+                {
+                    return _detallesInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Detalles item info.
+            /// </summary>
+            [RepositoryItemInfo("30f5d965-fa95-4258-92c1-45d7bbd1ef81")]
+            public virtual RepoItemInfo DetallesInfo
+            {
+                get
+                {
+                    return _detallesInfo;
                 }
             }
         }
@@ -15653,6 +15705,7 @@ namespace Sura
             RepoItemInfo _optionmenu_formulariosInfo;
             RepoItemInfo _title_formularios_clausulasInfo;
             RepoItemInfo _bttn_ver_constanciacoberturaautoInfo;
+            RepoItemInfo _bttn_verformularioInfo;
             RepoItemInfo _bttn_ver_cotizacionclienteInfo;
             RepoItemInfo _bttn_ver_cotizacionproductorInfo;
             RepoItemInfo _bttn_ver_facturaInfo;
@@ -15676,6 +15729,7 @@ namespace Sura
                 _optionmenu_formulariosInfo = new RepoItemInfo(this, "optionMenu_Formularios", ".//span[@innertext~'Formularios / Cláusulas']", "", 30000, null, "691df541-0ff6-41c0-85b0-075dc1ac089f");
                 _title_formularios_clausulasInfo = new RepoItemInfo(this, "title_Formularios_Clausulas", ".//div[@id='centerPanel']//span[@innertext~'Formularios']", "", 30000, null, "85db4913-8050-4b2a-9322-39383f647ab9");
                 _bttn_ver_constanciacoberturaautoInfo = new RepoItemInfo(this, "bttn_Ver_ConstanciaCoberturaAuto", ".//tbody[#'centerPanel-tbody']//div[@innertext='Constancia Cobertura Auto']/..//..//img[@title='Ver documento']", "", 30000, null, "917486a9-92d3-4a21-8c7d-8d86c23bc976");
+                _bttn_verformularioInfo = new RepoItemInfo(this, "bttn_VerFormulario", ".//tbody[#'centerPanel-tbody']//div[@innertext=$Formulario]/..//..//img[@title='Ver documento']", "", 30000, null, "4f888d5b-d060-4bcd-8a8b-76347409e9a1");
                 _bttn_ver_cotizacionclienteInfo = new RepoItemInfo(this, "bttn_Ver_CotizacionCliente", ".//tbody[#'centerPanel-tbody']//div[@innertext='Cotización Cliente']/..//..//img[@title='Ver documento']", "", 30000, null, "0859fbc5-2a3a-4015-aec9-340ad14805fa");
                 _bttn_ver_cotizacionproductorInfo = new RepoItemInfo(this, "bttn_Ver_CotizacionProductor", ".//tbody[#'centerPanel-tbody']//div[@innertext='Cotización Productor']/..//..//img[@title='Ver documento']", "", 30000, null, "466e78e7-09e4-491e-857b-683899991d68");
                 _bttn_ver_facturaInfo = new RepoItemInfo(this, "bttn_Ver_Factura", ".//tbody[#'centerPanel-tbody']//div[@innertext='Factura']/..//..//img[@title='Ver documento']", "", 30000, null, "bcb758ed-f529-4df8-9030-ff0d967b09df");
@@ -15771,6 +15825,30 @@ namespace Sura
                 get
                 {
                     return _bttn_ver_constanciacoberturaautoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The bttn_VerFormulario item.
+            /// </summary>
+            [RepositoryItem("4f888d5b-d060-4bcd-8a8b-76347409e9a1")]
+            public virtual Ranorex.ImgTag bttn_VerFormulario
+            {
+                get
+                {
+                    return _bttn_verformularioInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The bttn_VerFormulario item info.
+            /// </summary>
+            [RepositoryItemInfo("4f888d5b-d060-4bcd-8a8b-76347409e9a1")]
+            public virtual RepoItemInfo bttn_VerFormularioInfo
+            {
+                get
+                {
+                    return _bttn_verformularioInfo;
                 }
             }
 

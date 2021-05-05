@@ -51,6 +51,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<separatoritem
@@ -84,6 +86,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Cotización Cliente']/..//..//img[@title='Ver documento']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -184,6 +188,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]/?/?/embed
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="1e31cd77-a0dd-4f32-b9b8-0a8556f8b9fe">
@@ -514,6 +520,8 @@ vG349K0aKKp7iQUUUUgCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 				<path>
 					/form[@title='']//menuitem[@accessiblename='Guardar como… Ctrl + S']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="3009dac7-1b84-4cd5-b55e-a11567f2ebb7">
@@ -943,6 +951,8 @@ AI1B+1OcHBRRn8TUlFFABVW+/wCWP+/Vqqt9/wAsf9+gC0OgooHQUUAFFFFABRRRQB//2Q==
 				<path>
 					/form[@title='Guardar como']/button[@text='&amp;Guardar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="5a030600-0085-4ae3-88e1-2e25b02bc6a6">
@@ -1116,6 +1126,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<userrecorditem
@@ -1202,6 +1214,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<loggingrecorditem
@@ -1271,6 +1285,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<getvaluerecorditem
@@ -1289,6 +1305,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/dom[@domain=$Ambiente]//div[#'infoBar-targetEl']//span[@innertext='N° de póliza']/..//span[@innertext~'[0-9]']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<mouseitem
@@ -1361,6 +1379,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title&gt;'(1) WhatsApp - Google Chr']//container[@accessiblename='Barra de descargas']/button[@accessiblename='Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="2d4808bb-660f-4dc1-b3e8-14f025ce3e33">
@@ -1530,6 +1550,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Cotización Productor']/..//..//img[@title='Ver documento']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -1630,6 +1652,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]/?/?/embed
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="1e31cd77-a0dd-4f32-b9b8-0a8556f8b9fe">
@@ -1960,6 +1984,8 @@ vG349K0aKKp7iQUUUUgCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 				<path>
 					/form[@title='']//menuitem[@accessiblename='Guardar como… Ctrl + S']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="3009dac7-1b84-4cd5-b55e-a11567f2ebb7">
@@ -2389,6 +2415,8 @@ AI1B+1OcHBRRn8TUlFFABVW+/wCWP+/Vqqt9/wAsf9+gC0OgooHQUUAFFFFABRRRQB//2Q==
 				<path>
 					/form[@title='Guardar como']/button[@text='&amp;Guardar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="5a030600-0085-4ae3-88e1-2e25b02bc6a6">
@@ -2562,6 +2590,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<userrecorditem
@@ -2648,6 +2678,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<loggingrecorditem
@@ -2717,6 +2749,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -2789,6 +2823,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title&gt;'(1) WhatsApp - Google Chr']//container[@accessiblename='Barra de descargas']/button[@accessiblename='Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="2d4808bb-660f-4dc1-b3e8-14f025ce3e33">
@@ -2958,6 +2994,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Constancia Cobertura Auto']/..//..//img[@title='Ver documento']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -3058,6 +3096,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]/?/?/embed
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="1e31cd77-a0dd-4f32-b9b8-0a8556f8b9fe">
@@ -3388,6 +3428,8 @@ vG349K0aKKp7iQUUUUgCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 				<path>
 					/form[@title='']//menuitem[@accessiblename='Guardar como… Ctrl + S']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="3009dac7-1b84-4cd5-b55e-a11567f2ebb7">
@@ -3817,6 +3859,8 @@ AI1B+1OcHBRRn8TUlFFABVW+/wCWP+/Vqqt9/wAsf9+gC0OgooHQUUAFFFFABRRRQB//2Q==
 				<path>
 					/form[@title='Guardar como']/button[@text='&amp;Guardar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="5a030600-0085-4ae3-88e1-2e25b02bc6a6">
@@ -3990,6 +4034,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<userrecorditem
@@ -4076,6 +4122,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<loggingrecorditem
@@ -4110,6 +4158,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/dom[@domain=$Ambiente]//div[#'infoBar-targetEl']//span[@innertext='N° de póliza']/..//span[@innertext~'[0-9]']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<mouseitem
@@ -4182,6 +4232,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title&gt;'(1) WhatsApp - Google Chr']//container[@accessiblename='Barra de descargas']/button[@accessiblename='Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="2d4808bb-660f-4dc1-b3e8-14f025ce3e33">
@@ -4281,6 +4333,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<separatoritem
@@ -4404,6 +4458,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Factura']/..//..//img[@title='Ver documento']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -4504,6 +4560,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]/?/?/embed
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="1e31cd77-a0dd-4f32-b9b8-0a8556f8b9fe">
@@ -4834,6 +4892,8 @@ vG349K0aKKp7iQUUUUgCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 				<path>
 					/form[@title='']//menuitem[@accessiblename='Guardar como… Ctrl + S']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="3009dac7-1b84-4cd5-b55e-a11567f2ebb7">
@@ -5263,6 +5323,8 @@ AI1B+1OcHBRRn8TUlFFABVW+/wCWP+/Vqqt9/wAsf9+gC0OgooHQUUAFFFFABRRRQB//2Q==
 				<path>
 					/form[@title='Guardar como']/button[@text='&amp;Guardar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="5a030600-0085-4ae3-88e1-2e25b02bc6a6">
@@ -5436,6 +5498,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<userrecorditem
@@ -5522,6 +5586,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<loggingrecorditem
@@ -5610,6 +5676,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title&gt;'(1) WhatsApp - Google Chr']//container[@accessiblename='Barra de descargas']/button[@accessiblename='Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="2d4808bb-660f-4dc1-b3e8-14f025ce3e33">
@@ -5709,6 +5777,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<separatoritem
@@ -5832,6 +5902,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Tarj. Circ. Tercero Mercosur']/..//..//img[@title='Ver documento']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -5932,6 +6004,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]/?/?/embed
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="1e31cd77-a0dd-4f32-b9b8-0a8556f8b9fe">
@@ -6262,6 +6336,8 @@ vG349K0aKKp7iQUUUUgCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 				<path>
 					/form[@title='']//menuitem[@accessiblename='Guardar como… Ctrl + S']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="3009dac7-1b84-4cd5-b55e-a11567f2ebb7">
@@ -6691,6 +6767,8 @@ AI1B+1OcHBRRn8TUlFFABVW+/wCWP+/Vqqt9/wAsf9+gC0OgooHQUUAFFFFABRRRQB//2Q==
 				<path>
 					/form[@title='Guardar como']/button[@text='&amp;Guardar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="5a030600-0085-4ae3-88e1-2e25b02bc6a6">
@@ -6864,6 +6942,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<userrecorditem
@@ -6950,6 +7030,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<loggingrecorditem
@@ -7038,6 +7120,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title&gt;'(1) WhatsApp - Google Chr']//container[@accessiblename='Barra de descargas']/button[@accessiblename='Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="2d4808bb-660f-4dc1-b3e8-14f025ce3e33">
@@ -7137,6 +7221,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<separatoritem
@@ -7170,6 +7256,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Copia Productor']/..//..//img[@title='Ver documento']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -7270,6 +7358,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]/?/?/embed
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="1e31cd77-a0dd-4f32-b9b8-0a8556f8b9fe">
@@ -7600,6 +7690,8 @@ vG349K0aKKp7iQUUUUgCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 				<path>
 					/form[@title='']//menuitem[@accessiblename='Guardar como… Ctrl + S']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="3009dac7-1b84-4cd5-b55e-a11567f2ebb7">
@@ -8029,6 +8121,8 @@ AI1B+1OcHBRRn8TUlFFABVW+/wCWP+/Vqqt9/wAsf9+gC0OgooHQUUAFFFFABRRRQB//2Q==
 				<path>
 					/form[@title='Guardar como']/button[@text='&amp;Guardar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="5a030600-0085-4ae3-88e1-2e25b02bc6a6">
@@ -8202,6 +8296,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<userrecorditem
@@ -8288,6 +8384,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<loggingrecorditem
@@ -8376,6 +8474,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title&gt;'(1) WhatsApp - Google Chr']//container[@accessiblename='Barra de descargas']/button[@accessiblename='Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="2d4808bb-660f-4dc1-b3e8-14f025ce3e33">
@@ -8475,6 +8575,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<separatoritem
@@ -8598,6 +8700,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Copia Organizador']/..//..//img[@title='Ver documento']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -8698,6 +8802,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]/?/?/embed
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="1e31cd77-a0dd-4f32-b9b8-0a8556f8b9fe">
@@ -9028,6 +9134,8 @@ vG349K0aKKp7iQUUUUgCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 				<path>
 					/form[@title='']//menuitem[@accessiblename='Guardar como… Ctrl + S']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="3009dac7-1b84-4cd5-b55e-a11567f2ebb7">
@@ -9457,6 +9565,8 @@ AI1B+1OcHBRRn8TUlFFABVW+/wCWP+/Vqqt9/wAsf9+gC0OgooHQUUAFFFFABRRRQB//2Q==
 				<path>
 					/form[@title='Guardar como']/button[@text='&amp;Guardar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="5a030600-0085-4ae3-88e1-2e25b02bc6a6">
@@ -9630,6 +9740,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<userrecorditem
@@ -9716,6 +9828,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<loggingrecorditem
@@ -9804,6 +9918,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title&gt;'(1) WhatsApp - Google Chr']//container[@accessiblename='Barra de descargas']/button[@accessiblename='Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="2d4808bb-660f-4dc1-b3e8-14f025ce3e33">
@@ -9903,6 +10019,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<separatoritem
@@ -9936,6 +10054,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Copia de Póliza Asegurado']/..//..//img[@title='Ver documento']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -10036,6 +10156,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]/?/?/embed
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="1e31cd77-a0dd-4f32-b9b8-0a8556f8b9fe">
@@ -10366,6 +10488,8 @@ vG349K0aKKp7iQUUUUgCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 				<path>
 					/form[@title='']//menuitem[@accessiblename='Guardar como… Ctrl + S']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="3009dac7-1b84-4cd5-b55e-a11567f2ebb7">
@@ -10795,6 +10919,8 @@ AI1B+1OcHBRRn8TUlFFABVW+/wCWP+/Vqqt9/wAsf9+gC0OgooHQUUAFFFFABRRRQB//2Q==
 				<path>
 					/form[@title='Guardar como']/button[@text='&amp;Guardar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="5a030600-0085-4ae3-88e1-2e25b02bc6a6">
@@ -10968,6 +11094,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<userrecorditem
@@ -11054,6 +11182,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<loggingrecorditem
@@ -11142,6 +11272,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title&gt;'(1) WhatsApp - Google Chr']//container[@accessiblename='Barra de descargas']/button[@accessiblename='Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="2d4808bb-660f-4dc1-b3e8-14f025ce3e33">
@@ -11241,6 +11373,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<separatoritem
@@ -11274,6 +11408,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Cuponera']/..//..//img[@title='Ver documento']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -11374,6 +11510,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					/dom[@domain=$Ambiente]/?/?/embed
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="1e31cd77-a0dd-4f32-b9b8-0a8556f8b9fe">
@@ -11704,6 +11842,8 @@ vG349K0aKKp7iQUUUUgCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 				<path>
 					/form[@title='']//menuitem[@accessiblename='Guardar como… Ctrl + S']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="3009dac7-1b84-4cd5-b55e-a11567f2ebb7">
@@ -12133,6 +12273,8 @@ AI1B+1OcHBRRn8TUlFFABVW+/wCWP+/Vqqt9/wAsf9+gC0OgooHQUUAFFFFABRRRQB//2Q==
 				<path>
 					/form[@title='Guardar como']/button[@text='&amp;Guardar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="5a030600-0085-4ae3-88e1-2e25b02bc6a6">
@@ -12306,6 +12448,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<userrecorditem
@@ -12392,6 +12536,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title~'Guidewire']//button[@accessiblename~'.pdf']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<loggingrecorditem
@@ -12480,6 +12626,8 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				<path>
 					/form[@title&gt;'(1) WhatsApp - Google Chr']//container[@accessiblename='Barra de descargas']/button[@accessiblename='Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="2d4808bb-660f-4dc1-b3e8-14f025ce3e33">
@@ -12579,6 +12727,8 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				<path>
 					//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 	</recorditems>

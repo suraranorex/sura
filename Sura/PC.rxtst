@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
@@ -17882,7 +17882,7 @@
 		filename="DataSource - Accesorios.xlsx"
 		id="46fc9f29-1d86-4902-b881-335cafe1c218"
 		includefile="Checked"
-		lastknownrowcount="0"
+		lastknownrowcount="1"
 		name="Accesorios"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"

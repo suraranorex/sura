@@ -2638,6 +2638,26 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="53cc888e-99ff-4d85-bb49-23fed4185826"
+			name="VerFormularios"
+			ref="3d37484e-31ea-4500-8681-c7f06ea0e4b3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Formulario"
+					datasourceid="cfa564fb-0916-4f7a-8b4f-e6bcd5e6ff11"
+					variableid="ae0cf604-99d8-4ced-a2eb-344dcca1526a"
+					variablename="Formulario">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="5451e1ca-b86a-4da2-8086-8b74417a6e51"
 			name="MenuLateral_CuentaPC"
 			ref="5bb086e1-d816-4abc-b088-2dff0422adbb"
@@ -2651,6 +2671,16 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			datasource="FormulariosEmitida"
+			id="55a302ef-aeea-4037-99dc-1be86f44f800"
+			name="Formularios_Emitida">
+				<description>
+					<![CDATA[<p>No están incluidos en el DS los formularios <font color="#000000" face="Calibri" size="3">Copia Productor y <font color="#000000" face="Times New Roman" size="3"><font color="#000000" face="Calibri" size="3">Copia Organizador ya que no siempre aparecen</font></font></font></p><p class="MsoNormal"><font color="#000000" face="Times New Roman" size="3">
+
+<br></font></p>]]>
+				</description>
+			</smartfoldernode>
 			<testmodule
 			id="5623a982-f0c4-4fa6-b462-7ef04e364b82"
 			name="AltaEndoso"
@@ -5408,6 +5438,18 @@
 					variableid="386c47bd-07c3-4bd4-8818-267fc14d8ab4"
 					variablename="idEjecucionTC">
 					</var>
+					<var
+					dataname="NombreAccesorio"
+					datasourceid="8aabcb06-d09d-4a25-b3c0-8098a1f75f62"
+					variableid="b8470f93-6746-445c-867e-6dbb2f412fc8"
+					variablename="NombreAccesorio">
+					</var>
+					<var
+					dataname="SumaAseguradaAcce"
+					datasourceid="8aabcb06-d09d-4a25-b3c0-8098a1f75f62"
+					variableid="5d05f23c-4ca7-4bbd-8942-09d320e417ef"
+					variablename="SumaAseguradaAcce">
+					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
@@ -7681,6 +7723,14 @@
 						id="ce300f01-ad82-427a-8bcb-281b9f3fe4d9"
 						name="VerFormulario_Emitida">
 						</testmodule>
+						<smartfoldernode
+						id="55a302ef-aeea-4037-99dc-1be86f44f800"
+						name="Formularios_Emitida">
+							<testmodule
+							id="53cc888e-99ff-4d85-bb49-23fed4185826"
+							name="VerFormularios">
+							</testmodule>
+						</smartfoldernode>
 						<smartfoldernode
 						id="159ea2cb-1990-46d8-90d4-0818587ab953"
 						name="Ver_CertificadoPagosAlDia">
@@ -10104,7 +10154,7 @@
 		filename="Emisión Motor - Varios vehiculos - General.xlsx"
 		id="213ba1be-f5b4-44d9-a491-524b455d4f4b"
 		includefile="Checked"
-		lastknownrowcount="4"
+		lastknownrowcount="1"
 		name="EmisionMotor_VariosVeh_General"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -10178,7 +10228,7 @@
 		filename="Emisión Motor - Varios vehiculos - Vehiculos.xlsx"
 		id="8aabcb06-d09d-4a25-b3c0-8098a1f75f62"
 		includefile="Checked"
-		lastknownrowcount="3"
+		lastknownrowcount="2"
 		name="EmisionMotor_VariosVeh_Vehiculos"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -10216,6 +10266,12 @@
 				</column>
 				<column>
 					Actividad
+				</column>
+				<column>
+					NombreAccesorio
+				</column>
+				<column>
+					SumaAseguradaAcce
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -10436,6 +10492,61 @@
 			<file>
 				R:\TEMP\Flota.csv
 			</file>
+		</DataSource>
+		<DataSource
+		id="cfa564fb-0916-4f7a-8b4f-e6bcd5e6ff11"
+		lastknownrowcount="7"
+		name="FormulariosEmitida"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					Formulario
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						Formulario
+					</th>
+				</tr>
+				<tr>
+					<td>
+						Cotización Cliente
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Cotización Productor
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Constancia Cobertura Auto
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Factura
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Tarj. Circ. Tercero Mercosur
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Copia de Póliza Asegurado
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Cuponera
+					</td>
+				</tr>
+			</table>
 		</DataSource>
 		<DataSource
 		filename="DataSource - Refacturacion.xlsx"
@@ -10735,7 +10846,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="Emision_Compl_Blank">
+	default="Iri">
 		<testconfiguration
 		name="Emision_Compl_Blank">
 			<testcontainer
@@ -10823,10 +10934,19 @@
 			id="03a1dee6-f00d-4eec-b745-bfca0e2377f1">
 			</testcontainer>
 			<testcontainer
+			id="0c77928c-05f6-4a19-ac79-2efbed448d09">
+			</testcontainer>
+			<testcontainer
 			id="12eb8546-acc7-4d79-be39-a390d55c040f">
 			</testcontainer>
 			<testcontainer
 			id="13838ddd-3185-46ee-8310-5491947035f4">
+			</testcontainer>
+			<testcontainer
+			id="159ea2cb-1990-46d8-90d4-0818587ab953">
+			</testcontainer>
+			<testcontainer
+			id="1a3f0eee-9b4c-454f-8e67-ea948e496725">
 			</testcontainer>
 			<testcontainer
 			id="1c65bc64-0e7c-45ad-ac5a-bb334c355db2">
@@ -10838,10 +10958,22 @@
 			id="28631941-36d5-4799-bb6d-5a417f8f426c">
 			</testcontainer>
 			<testcontainer
+			id="2c74a88e-ffb0-4e85-8e2a-d9dc93a42b0b">
+			</testcontainer>
+			<testcontainer
+			id="38a4eba5-2439-47cd-b881-d65501836d7d">
+			</testcontainer>
+			<testcontainer
+			id="3da6065f-8d1f-4c05-99c6-72c8418b6ac2">
+			</testcontainer>
+			<testcontainer
 			id="4a3a215d-d680-4f70-b88c-0a8cd31df40d">
 			</testcontainer>
 			<testcontainer
 			id="4c304f69-e42e-44f9-8181-0b19e993e3e9">
+			</testcontainer>
+			<testcontainer
+			id="55a302ef-aeea-4037-99dc-1be86f44f800">
 			</testcontainer>
 			<testcontainer
 			id="608c93b4-6ad0-408a-8dd6-370040900685">
@@ -10854,6 +10986,9 @@
 			</testcontainer>
 			<testcontainer
 			id="710c0423-7655-4e5c-ae4c-6d99880261a1">
+			</testcontainer>
+			<testcontainer
+			id="78b1ba01-094f-4fd0-8d8b-deb6c649d73d">
 			</testcontainer>
 			<testcontainer
 			id="7d6fd47b-c9d6-469e-bc65-31253d95703e">
@@ -10869,6 +11004,9 @@
 			</testcontainer>
 			<testcontainer
 			id="95e389ac-6cea-4d09-985b-3ea8dcde76f7">
+			</testcontainer>
+			<testcontainer
+			id="c6e91aad-a398-49fe-b3ce-11a3a27734b7">
 			</testcontainer>
 			<testcontainer
 			id="d7c05272-23b6-40b0-82d1-68f500915bfb">

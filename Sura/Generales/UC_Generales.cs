@@ -72,7 +72,7 @@ namespace Sura.Generales
         /// Verifica si existe en el directorio indicado la carpeta de la póliza y sino la crea
         /// </summary>
         [UserCodeMethod]
-        public static void verificarDirectorio(string directorio, string numeroPoliza)
+        private static void verificarDirectorio(string directorio, string numeroPoliza)
         {
         	Report.Info("Info","Verificando la existencia del directorio destino");
         	
@@ -89,7 +89,7 @@ namespace Sura.Generales
         /// Mueve un archivo desde la carpeta Descargas al directorio indicado
         /// </summary>
         [UserCodeMethod]
-        public static void moverArchivo(string directorio, string nombreArchivo)
+        private static void moverArchivo(string directorio, string nombreArchivo)
         {
         	string userRoot = System.Environment.GetEnvironmentVariable("USERPROFILE");
         	string downloadFolder = userRoot + @"\Downloads\";
