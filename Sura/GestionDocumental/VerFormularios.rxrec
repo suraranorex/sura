@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="58da8c4c-9a1e-4ab8-b8b0-b7874ab44425"
+id="3d37484e-31ea-4500-8681-c7f06ea0e4b3"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,29 +19,42 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Ver_CertificadoPagosAlDia"
+	classname="VerFormularios"
 	namespace="Sura.GestionDocumental">
 	</codegen>
 	<variables>
 		<var
-		id="6cb81f3c-1ed2-45f4-b89b-8dd7a218bb3e"
+		id="747f7f23-0f2b-4588-8d9e-d4551bc9b4d9"
 		name="NombreArchivo">
 		</var>
 		<var
-		id="c0824659-335e-4696-8b30-76600ce24e74"
+		id="f8927286-a244-44dc-83ca-9e989c965d3f"
 		name="NumeroPoliza">
 		</var>
 	</variables>
 	<recorditems>
-		<separatoritem
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
 		enabled="True"
-		optional="False">
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="ae07cd3e-9c90-492b-ac43-04d876076917">
 			<comment>
-				----- Certificado de Pagos al Día
 			</comment>
 			<bindings>
 			</bindings>
-		</separatoritem>
+			<info
+			id="274374ff-1b04-439f-be6e-ac31568dd9d0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -50,7 +63,7 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="03fe571a-6d16-427c-acee-06c06f22323b"
+		searchpropertyid="23cd7f21-3985-440f-aaa3-d8231a3d452c"
 		sx="0"
 		sy="0"
 		warnoutofbounds="False">
@@ -59,10 +72,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="e96ada75-c497-42ba-9e1a-795998988b97"
+			id="4f888d5b-d060-4bcd-8a8b-76347409e9a1"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Certificado de Pagos al Día']/..//..//img[@title='Ver documento']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext=$Formulario]/..//..//img[@title='Ver documento']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -1407,16 +1420,17 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 			id="d0d3aa25-daa3-4d63-9b43-66ff75d6db64">
 				<argument
 				argname="directorio"
-				id="2f19ea12-7080-429a-9148-447625863a56">
+				id="dcb2c9c3-f12f-490d-8e5b-dca97749d878">
 					<argvaluetype>
 						System.String
 					</argvaluetype>
 					<argvalue>
+						R:\TEMP\Formularios\
 					</argvalue>
 				</argument>
 				<argument
 				argname="nombreArchivo"
-				id="062e5bde-418f-4ef6-aed5-666b97bf6074"
+				id="f1510066-3a10-40aa-89d5-4d89f13976df"
 				variable="NombreArchivo">
 					<argvaluetype>
 						System.String
@@ -1426,7 +1440,7 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 				</argument>
 				<argument
 				argname="numeroPoliza"
-				id="7467b39e-e16e-4a69-a823-f31bed0f7349"
+				id="6c6abdab-00ca-44c7-8017-1bb5fb746072"
 				variable="NumeroPoliza">
 					<argvaluetype>
 						System.String
@@ -1452,7 +1466,7 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Ver_CertificadoPagosAlDia.UserCode.cs
+		VerFormularios.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

@@ -54,6 +54,8 @@ namespace Sura.Emision
             Motor = "";
             SumaAsegurada = "";
             Producto = "";
+            NombreAccesorio = "";
+            SumaAseguradaAcce = "";
         }
 
         /// <summary>
@@ -148,6 +150,30 @@ namespace Sura.Emision
         {
             get { return _Motor; }
             set { _Motor = value; }
+        }
+
+        string _NombreAccesorio;
+
+        /// <summary>
+        /// Gets or sets the value of variable NombreAccesorio.
+        /// </summary>
+        [TestVariable("b8470f93-6746-445c-867e-6dbb2f412fc8")]
+        public string NombreAccesorio
+        {
+            get { return _NombreAccesorio; }
+            set { _NombreAccesorio = value; }
+        }
+
+        string _SumaAseguradaAcce;
+
+        /// <summary>
+        /// Gets or sets the value of variable SumaAseguradaAcce.
+        /// </summary>
+        [TestVariable("5d05f23c-4ca7-4bbd-8942-09d320e417ef")]
+        public string SumaAseguradaAcce
+        {
+            get { return _SumaAseguradaAcce; }
+            set { _SumaAseguradaAcce = value; }
         }
 
         /// <summary>

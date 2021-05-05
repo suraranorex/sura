@@ -75,6 +75,14 @@ mode="Global">
 		id="cf437050-2366-4da8-933f-5d79163a31a8"
 		name="Producto">
 		</var>
+		<var
+		id="b8470f93-6746-445c-867e-6dbb2f412fc8"
+		name="NombreAccesorio">
+		</var>
+		<var
+		id="5d05f23c-4ca7-4bbd-8942-09d320e417ef"
+		name="SumaAseguradaAcce">
+		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem

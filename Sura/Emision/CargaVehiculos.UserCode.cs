@@ -243,7 +243,7 @@ namespace Sura.Emision
 				Report.Screenshot(ReportLevel.Info, "User", "", null, false, new RecordItemIndex(50));
 				
 				// --------------------------------Cambio a Siguiente Pantalla
-				Report.Log(ReportLevel.Info, "Section", "--------------------------------Cambio a Siguiente Pantalla", new RecordItemIndex(51));
+				//Report.Log(ReportLevel.Info, "Section", "--------------------------------Cambio a Siguiente Pantalla", new RecordItemIndex(51));
 
 				if(Producto=="TR - Todo Riesgo Franquicia Fija"){
 					TR_FIJA.Instance.Ambiente=Ambiente;
@@ -255,11 +255,29 @@ namespace Sura.Emision
 					TR_VARIABLE.Start();
 				}
 				
+				
+				if(NombreAccesorio=="Movilidad"){
+					AccesorioConMovilidad.Instance.Ambiente=Ambiente;
+					AccesorioConMovilidad.Instance.NombreAccesorios=NombreAccesorio;
+					AccesorioConMovilidad.Instance.MontoMovilidad=SumaAseguradaAcce;
+					AccesorioConMovilidad.Start();
+					
+					Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.Detalles' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.DetallesInfo, new RecordItemIndex(50));
+					repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.Detalles.Click();
+					Delay.Milliseconds(0);
+					
+					Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_Anio'", repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_AnioInfo, new ActionTimeout(30000), new RecordItemIndex(51));
+					repo.SURA.PC.Emision.PolizaMotor.Vehiculoss.txtbox_AnioInfo.WaitForExists(30000);
+					
+					//Report.Log(ReportLevel.Info, "Delay", "Waiting for 3000ms.", new RecordItemIndex(51));
+					//Delay.Duration(3000, false);
+				}
+				
 			}
 			
 			else{
 				Report.Info("Info","No coinciden los ids");
-			}		
+			}
 			
 		}
 
