@@ -16156,6 +16156,7 @@ namespace Sura
         [RepositoryFolder("4dce51d8-32e0-4468-b231-e7450fad16df")]
         public partial class FlotaFolder2 : RepoGenBaseFolder
         {
+            RepoItemInfo _bttn_ver_formulario_flotaInfo;
             RepoItemInfo _bttn_ver_cotizacioncliente_flotaInfo;
             RepoItemInfo _bttn_ver_cotizacionproductor_flotaInfo;
             RepoItemInfo _bttn_ver_certificadopagos_flotaInfo;
@@ -16174,6 +16175,7 @@ namespace Sura
             public FlotaFolder2(RepoGenBaseFolder parentFolder) :
                     base("Flota", "", parentFolder, 0, null, false, "4dce51d8-32e0-4468-b231-e7450fad16df", "")
             {
+                _bttn_ver_formulario_flotaInfo = new RepoItemInfo(this, "bttn_Ver_Formulario_Flota", ".//tbody[#'centerPanel-tbody']//div[@innertext=$Formulario]/..//..//td[2]//img[@id~'Link']", "", 30000, null, "eafa894c-accb-4190-9427-431ca6706186");
                 _bttn_ver_cotizacioncliente_flotaInfo = new RepoItemInfo(this, "bttn_Ver_CotizacionCliente_Flota", ".//tbody[#'centerPanel-tbody']//div[@innertext='Cotización Cliente']/..//..//td[2]//img[@id~'Link']", "", 30000, null, "b71e434d-8c32-4d8d-aa01-73755aed81e2");
                 _bttn_ver_cotizacionproductor_flotaInfo = new RepoItemInfo(this, "bttn_Ver_CotizacionProductor_Flota", ".//tbody[#'centerPanel-tbody']//div[@innertext='Cotización Productor']/..//..//td[2]//img[@id~'Link']", "", 30000, null, "56f7b84c-97be-47ac-b7ac-5618fde38ffc");
                 _bttn_ver_certificadopagos_flotaInfo = new RepoItemInfo(this, "bttn_Ver_CertificadoPagos_Flota", ".//tbody[#'centerPanel-tbody']//div[@innertext='Certificado de Pagos al Día']/..//..//td[2]//img[@id~'Link']", "", 30000, null, "2195f74a-0048-4095-977a-e490983d8025");
@@ -16196,6 +16198,30 @@ namespace Sura
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The bttn_Ver_Formulario_Flota item.
+            /// </summary>
+            [RepositoryItem("eafa894c-accb-4190-9427-431ca6706186")]
+            public virtual Ranorex.ImgTag bttn_Ver_Formulario_Flota
+            {
+                get
+                {
+                    return _bttn_ver_formulario_flotaInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The bttn_Ver_Formulario_Flota item info.
+            /// </summary>
+            [RepositoryItemInfo("eafa894c-accb-4190-9427-431ca6706186")]
+            public virtual RepoItemInfo bttn_Ver_Formulario_FlotaInfo
+            {
+                get
+                {
+                    return _bttn_ver_formulario_flotaInfo;
                 }
             }
 

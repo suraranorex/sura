@@ -4286,6 +4286,16 @@ name="SuraRepository">
 						<item
 						addcaps="unknown,webelement,tdtag"
 						capname="imgtag"
+						id="eafa894c-accb-4190-9427-431ca6706186"
+						name="bttn_Ver_Formulario_Flota"
+						refimgid="b17a5467-39b1-4cad-900a-6f9a55145b72"
+						robustPath=""
+						searchtimeout="30000ms">
+							/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext=$Formulario]/..//..//td[2]//img[@id~'Link']
+						</item>
+						<item
+						addcaps="unknown,webelement,tdtag"
+						capname="imgtag"
 						id="b71e434d-8c32-4d8d-aa01-73755aed81e2"
 						name="bttn_Ver_CotizacionCliente_Flota"
 						refimgid="b17a5467-39b1-4cad-900a-6f9a55145b72"

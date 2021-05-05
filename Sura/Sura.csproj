@@ -2179,6 +2179,18 @@
       <UserCode>true</UserCode>
       <id>b843e52d-e2ff-4688-9d39-3be0231c22b9</id>
     </Compile>
+    <Compile Include="GestionDocumental\VerFormularios_Flota.cs">
+      <BoundTo>7c6e6ddf-194f-4692-a3f7-280288806c4c</BoundTo>
+      <DependentUpon>VerFormularios_Flota.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>73ea35af-14d1-4194-915c-cee990fb86f6</id>
+    </Compile>
+    <Compile Include="GestionDocumental\VerFormularios_Flota.UserCode.cs">
+      <BoundTo>7c6e6ddf-194f-4692-a3f7-280288806c4c</BoundTo>
+      <DependentUpon>VerFormularios_Flota.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b1970bf6-97de-45a5-9acd-7d0022ffbf3d</id>
+    </Compile>
     <Compile Include="GestionDocumental\VerFormulario_Cotizada.cs">
       <BoundTo>d6428693-b642-40aa-9827-5a9be7a41ff7</BoundTo>
       <DependentUpon>VerFormulario_Cotizada.rxrec</DependentUpon>
@@ -3813,6 +3825,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>0a8d0bfa-f63d-425d-89a7-67dc6db8598a</id>
       <recordtableid>3d37484e-31ea-4500-8681-c7f06ea0e4b3</recordtableid>
+    </None>
+    <None Include="GestionDocumental\VerFormularios_Flota.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>7c6e6ddf-194f-4692-a3f7-280288806c4c</id>
+      <recordtableid>490299ac-a4ec-46f7-b183-49c34d1ebbc2</recordtableid>
     </None>
     <None Include="GestionDocumental\VerFormulario_Cotizada.rxrec">
       <id>d6428693-b642-40aa-9827-5a9be7a41ff7</id>

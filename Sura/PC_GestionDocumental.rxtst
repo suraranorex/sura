@@ -525,6 +525,11 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			datasource="Formulario_Cotizada"
+			id="0d499519-f24a-4ac2-abd1-d03262dfdcd2"
+			name="Formularios_Cotizada">
+			</smartfoldernode>
 			<testmodule
 			id="0e49a2a0-55ba-4a4f-a43a-c4065bd1266a"
 			name="Login"
@@ -689,20 +694,6 @@
 			id="12d15ef5-9f6c-4691-aa7a-eef4ef185b0a"
 			name="setup">
 			</setup>
-			<testmodule
-			id="12d47b2a-da19-4f3f-9028-6ea1e50764e8"
-			name="VerFormulario_CotizadaFlota"
-			ref="3688e53d-6185-4b7c-8ef3-200a2c49667b"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="f034bff3-6b80-497d-82e6-e7c503b54a9f"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</databinding>
-			</testmodule>
 			<smartfoldernode
 			id="12eb8546-acc7-4d79-be39-a390d55c040f"
 			name="Cuotas_No1">
@@ -816,6 +807,40 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="14e2ef25-44a3-4b24-b193-3de95953100f"
+			name="VerFormularios"
+			ref="3d37484e-31ea-4500-8681-c7f06ea0e4b3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Formulario"
+					datasourceid="f9d8e869-14f7-4c13-9d3c-c06c4d56d9a3"
+					variableid="ae0cf604-99d8-4ced-a2eb-344dcca1526a"
+					variablename="Formulario">
+					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="f034bff3-6b80-497d-82e6-e7c503b54a9f"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="83737164-0d86-4a83-a5bc-62e1ea2320d5"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Formulario"
+					datasourceid="cfa564fb-0916-4f7a-8b4f-e6bcd5e6ff11"
+					variableid="ae0cf604-99d8-4ced-a2eb-344dcca1526a"
+					variablename="Formulario">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="155ced6f-d68d-4d77-b59a-567b5f4a84f1"
@@ -970,20 +995,6 @@
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
-			<testmodule
-			id="1b5e9d07-a0c3-4408-af85-8b8b9d6f69a6"
-			name="VerFormulario_EmitidaFlota"
-			ref="d00d64ad-928c-44e5-b63a-faa7b34743f6"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</databinding>
-			</testmodule>
 			<testmodule
 			id="1c48c7ca-39d4-49ed-8ad4-37afa5bf008e"
 			name="Ejecutar_Refacturacion"
@@ -2994,20 +3005,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			id="5f7ffa26-d16e-4428-9b2e-e515b2dc6df3"
-			name="VerFormulario_Cotizada"
-			ref="03d5cad4-1f32-4da2-bf41-95bfcb2c3067"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="83737164-0d86-4a83-a5bc-62e1ea2320d5"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
 			id="5fb28d5f-7723-429d-8980-e193b032bf63"
 			name="MenuLateral_CuentaPC"
 			ref="5bb086e1-d816-4abc-b088-2dff0422adbb"
@@ -3657,6 +3654,26 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="72b20140-fa09-450e-b718-c997c64efaae"
+			name="VerFormularios_Flota"
+			ref="490299ac-a4ec-46f7-b183-49c34d1ebbc2"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="f034bff3-6b80-497d-82e6-e7c503b54a9f"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Formulario"
+					datasourceid="f9d8e869-14f7-4c13-9d3c-c06c4d56d9a3"
+					variableid="ae0cf604-99d8-4ced-a2eb-344dcca1526a"
+					variablename="Formulario">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="72ca6d35-42ae-4d47-9cfa-6bb8a776c1c8"
 			name="Comisiones"
 			ref="cd462a8e-6a4e-4b79-b3c4-395f67857a8a"
@@ -4222,6 +4239,34 @@
 			name="setup">
 			</setup>
 			<testmodule
+			id="86f5ca02-6d4b-4424-bd4c-a8bd49dcc72d"
+			name="VerFormularios"
+			ref="3d37484e-31ea-4500-8681-c7f06ea0e4b3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Formulario"
+					datasourceid="cfa564fb-0916-4f7a-8b4f-e6bcd5e6ff11"
+					variableid="ae0cf604-99d8-4ced-a2eb-344dcca1526a"
+					variablename="Formulario">
+					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="87473161-3ce3-42c1-9506-3495cb4a9792"
 			name="MenuLateral_CuentaPC"
 			ref="5bb086e1-d816-4abc-b088-2dff0422adbb"
@@ -4355,6 +4400,40 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="8b667151-bef8-4d41-8e52-49b2ac78df55"
+			name="VerFormularios"
+			ref="3d37484e-31ea-4500-8681-c7f06ea0e4b3"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="83737164-0d86-4a83-a5bc-62e1ea2320d5"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Formulario"
+					datasourceid="f9d8e869-14f7-4c13-9d3c-c06c4d56d9a3"
+					variableid="ae0cf604-99d8-4ced-a2eb-344dcca1526a"
+					variablename="Formulario">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="0b3457b0-c1dc-4393-97cd-af92ddbae930"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Formulario"
+					datasourceid="cfa564fb-0916-4f7a-8b4f-e6bcd5e6ff11"
+					variableid="ae0cf604-99d8-4ced-a2eb-344dcca1526a"
+					variablename="Formulario">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="8b6dfab7-28e5-4e98-aaa5-9060df382291"
@@ -5257,6 +5336,26 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
+			id="a7ecda53-6fa0-41c8-b0b1-3072effea54d"
+			name="VerFormularios_Flota"
+			ref="490299ac-a4ec-46f7-b183-49c34d1ebbc2"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Formulario"
+					datasourceid="cfa564fb-0916-4f7a-8b4f-e6bcd5e6ff11"
+					variableid="ae0cf604-99d8-4ced-a2eb-344dcca1526a"
+					variablename="Formulario">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="aa8c1e4a-8631-4815-af4a-cc93c80ea01d"
 			name="PreEvaluacion"
 			ref="f8e90e00-b1de-471b-a1b0-ebac93782d5f"
@@ -5844,20 +5943,6 @@
 			id="c098ba23-f55f-4429-85bc-c60ac14a5bc2"
 			name="teardown">
 			</teardown>
-			<testmodule
-			id="c09f6d21-2b04-4cd9-a409-c615d13964d2"
-			name="VerFormulario_Emitida"
-			ref="a814c36b-ccce-4dfa-9a3d-a8c835bd9cbb"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="dd23aedd-5ea7-441f-b535-d4829a5a12f2"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</databinding>
-			</testmodule>
 			<setup
 			id="c0c324b7-2619-42d8-af87-1eea647889a1"
 			name="setup">
@@ -6521,6 +6606,11 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			datasource="Formulario_Cotizada"
+			id="d746240f-7e61-4255-82b5-c4521ec739d8"
+			name="Formularios_Cotizada">
+			</smartfoldernode>
 			<testmodule
 			id="d7b153d8-8d6d-4c1a-8e4b-0ebbe6881058"
 			name="Logout"
@@ -6847,6 +6937,16 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
+			<smartfoldernode
+			datasource="FormulariosEmitida"
+			id="e3eb05a2-4639-4cde-b2ba-24059e0a6a13"
+			name="Formularios_Emitida">
+				<description>
+					<![CDATA[<p>No están incluidos en el DS los formularios <font color="#000000" face="Calibri" size="3">Copia Productor y <font color="#000000" face="Times New Roman" size="3"><font color="#000000" face="Calibri" size="3">Copia Organizador ya que no siempre aparecen</font></font></font></p><p class="MsoNormal"><font color="#000000" face="Times New Roman" size="3">
+
+<br></font></p>]]>
+				</description>
+			</smartfoldernode>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -7405,20 +7505,6 @@
 					</var>
 				</missingdatabinding>
 			</testmodule>
-			<testmodule
-			id="f60df820-18ed-427c-a07a-090040a273c9"
-			name="VerFormulario_Cotizada"
-			ref="03d5cad4-1f32-4da2-bf41-95bfcb2c3067"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="f034bff3-6b80-497d-82e6-e7c503b54a9f"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</databinding>
-			</testmodule>
 			<setup
 			id="f610699f-7d73-4f23-81b0-6e380c9eefb9"
 			name="setup">
@@ -7775,10 +7861,14 @@
 						id="5a5b5646-1a10-4968-958b-b08a418d105c"
 						name="MenuLateral_Formularios">
 						</testmodule>
-						<testmodule
-						id="5f7ffa26-d16e-4428-9b2e-e515b2dc6df3"
-						name="VerFormulario_Cotizada">
-						</testmodule>
+						<smartfoldernode
+						id="0d499519-f24a-4ac2-abd1-d03262dfdcd2"
+						name="Formularios_Cotizada">
+							<testmodule
+							id="8b667151-bef8-4d41-8e52-49b2ac78df55"
+							name="VerFormularios">
+							</testmodule>
+						</smartfoldernode>
 						<teardown
 						id="c098ba23-f55f-4429-85bc-c60ac14a5bc2"
 						name="teardown">
@@ -7815,14 +7905,18 @@
 						id="da6efb68-1d6c-4f11-a2ab-03a01693d34b"
 						name="MenuLateral_Formularios">
 						</testmodule>
-						<testmodule
-						id="f60df820-18ed-427c-a07a-090040a273c9"
-						name="VerFormulario_Cotizada">
-						</testmodule>
-						<testmodule
-						id="12d47b2a-da19-4f3f-9028-6ea1e50764e8"
-						name="VerFormulario_CotizadaFlota">
-						</testmodule>
+						<smartfoldernode
+						id="d746240f-7e61-4255-82b5-c4521ec739d8"
+						name="Formularios_Cotizada">
+							<testmodule
+							id="14e2ef25-44a3-4b24-b193-3de95953100f"
+							name="VerFormularios">
+							</testmodule>
+							<testmodule
+							id="72b20140-fa09-450e-b718-c997c64efaae"
+							name="VerFormularios_Flota">
+							</testmodule>
+						</smartfoldernode>
 						<teardown
 						id="901fead2-388f-4a8c-8f25-230dbfb9929a"
 						name="teardown">
@@ -7859,14 +7953,18 @@
 						id="026cb64b-a244-4a44-a2ec-02aeab37ec85"
 						name="MenuLateral_Formularios">
 						</testmodule>
-						<testmodule
-						id="c09f6d21-2b04-4cd9-a409-c615d13964d2"
-						name="VerFormulario_Emitida">
-						</testmodule>
-						<testmodule
-						id="1b5e9d07-a0c3-4408-af85-8b8b9d6f69a6"
-						name="VerFormulario_EmitidaFlota">
-						</testmodule>
+						<smartfoldernode
+						id="e3eb05a2-4639-4cde-b2ba-24059e0a6a13"
+						name="Formularios_Emitida">
+							<testmodule
+							id="86f5ca02-6d4b-4424-bd4c-a8bd49dcc72d"
+							name="VerFormularios">
+							</testmodule>
+							<testmodule
+							id="a7ecda53-6fa0-41c8-b0b1-3072effea54d"
+							name="VerFormularios_Flota">
+							</testmodule>
+						</smartfoldernode>
 						<teardown
 						id="31e2f1d8-2ed9-4dc4-a830-ddd3d38baeeb"
 						name="teardown">
@@ -10494,6 +10592,41 @@
 			</file>
 		</DataSource>
 		<DataSource
+		id="f9d8e869-14f7-4c13-9d3c-c06c4d56d9a3"
+		lastknownrowcount="3"
+		name="Formulario_Cotizada"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					Formulario
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						Formulario
+					</th>
+				</tr>
+				<tr>
+					<td>
+						Cotización Cliente
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Cotización Productor
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Certificado de Pagos al Día
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+		<DataSource
 		id="cfa564fb-0916-4f7a-8b4f-e6bcd5e6ff11"
 		lastknownrowcount="7"
 		name="FormulariosEmitida"
@@ -10937,6 +11070,9 @@
 			id="0c77928c-05f6-4a19-ac79-2efbed448d09">
 			</testcontainer>
 			<testcontainer
+			id="0d499519-f24a-4ac2-abd1-d03262dfdcd2">
+			</testcontainer>
+			<testcontainer
 			id="12eb8546-acc7-4d79-be39-a390d55c040f">
 			</testcontainer>
 			<testcontainer
@@ -11006,13 +11142,28 @@
 			id="95e389ac-6cea-4d09-985b-3ea8dcde76f7">
 			</testcontainer>
 			<testcontainer
+			id="ab3ada3a-beff-4250-91fc-78add771bc7a">
+			</testcontainer>
+			<testcontainer
 			id="c6e91aad-a398-49fe-b3ce-11a3a27734b7">
+			</testcontainer>
+			<testcontainer
+			id="d16f7492-c4a5-4839-b7ab-047f224c4ddc">
+			</testcontainer>
+			<testcontainer
+			id="d746240f-7e61-4255-82b5-c4521ec739d8">
 			</testcontainer>
 			<testcontainer
 			id="d7c05272-23b6-40b0-82d1-68f500915bfb">
 			</testcontainer>
 			<testcontainer
 			id="e25dfe99-ba27-4e05-868d-891cd033f2b6">
+			</testcontainer>
+			<testcontainer
+			id="e3eb05a2-4639-4cde-b2ba-24059e0a6a13">
+			</testcontainer>
+			<testcontainer
+			id="ebca8e2d-9d6c-4d16-a454-e37b2c1c93dc">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
