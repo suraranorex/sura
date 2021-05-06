@@ -1649,7 +1649,6 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datarangeactive="True"
 			datasource="EmisionAP_Enlatada"
 			errorbehavior="ContinueNextIteration"
 			id="1ceb8aa2-4f3e-46b0-b627-15ae80920378"
