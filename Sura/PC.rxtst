@@ -337,8 +337,8 @@
 			datasource="EmisionMotor_Inspeccion"
 			errorbehavior="ContinueNextIteration"
 			id="0570b480-9d56-4c17-870e-4b2782417848"
-			maxrange="15"
-			minrange="14"
+			maxrange="16"
+			minrange="16"
 			name="Emisión_Motor_Inspección">
 			</testcase>
 			<smartfoldernode
@@ -18774,7 +18774,7 @@
 		filename="DataSource - Emision Motor - Inspeccion.xlsx"
 		id="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
 		includefile="Checked"
-		lastknownrowcount="16"
+		lastknownrowcount="17"
 		name="EmisionMotor_Inspeccion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"

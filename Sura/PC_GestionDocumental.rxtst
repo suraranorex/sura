@@ -116,6 +116,32 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="02182c6d-49b8-49c4-9d34-bece71df69d4"
+			name="Login"
+			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="65a0e616-2a98-4f47-816f-2220d533cd26"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="65a0e616-2a98-4f47-816f-2220d533cd26"
+					variableid="b3a49cd3-e669-442e-b17d-0fe0e31486a0"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="65a0e616-2a98-4f47-816f-2220d533cd26"
+					variableid="1a6fc457-6eaa-4392-bf26-1c49b108d9f0"
+					variablename="Contrasenia">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="0218ac2d-5d6a-495f-81b4-1edf136ae10d"
 			name="Conductores"
 			ref="4b1ec105-fb6d-4004-b918-d3e4b6d19f31"
@@ -2891,6 +2917,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="5db8b2b8-fae8-4cdd-9b02-aa992d6f9e15"
+			name="Logout"
+			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="65a0e616-2a98-4f47-816f-2220d533cd26"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="5dd2662a-102a-4eb1-8175-112b004bc2e0"
 			name="MenuSuperior_CuentaPC"
 			ref="bf174612-568c-4bc4-9383-74a62c199f00"
@@ -2975,6 +3015,20 @@
 					variablename="FechaVencimiento">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="5f148c64-b204-44b4-a865-7cf307d3444a"
+			name="CloseBrowser"
+			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="65a0e616-2a98-4f47-816f-2220d533cd26"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="5f516855-e19b-4dce-9ddd-1e686323ac82"
@@ -3985,6 +4039,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<setup
+			id="8055f562-22b7-4325-adef-420a2663f143"
+			name="setup1">
+			</setup>
 			<testmodule
 			id="819e9b32-505b-42b1-9fef-0ad2165beb8d"
 			name="Login"
@@ -5619,6 +5677,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			id="b22debd1-73e7-4751-b0c8-6cad322a1853"
+			name="Validar_AnulacionPorReemplazo">
+			</testcase>
 			<testmodule
 			id="b6b254dd-51e7-42ff-b5c8-b01463dd0401"
 			name="ContinueInformacionPolizaHogar"
@@ -5724,6 +5786,20 @@
 					variablename="CantVehiculos">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="bab0ac97-61b5-4555-93b1-590d49bdfaa2"
+			name="OpenBrowser_PC"
+			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="URL"
+					datasourceid="65a0e616-2a98-4f47-816f-2220d533cd26"
+					variableid="8f5057a4-a492-4878-a2aa-f3dd6306dc6f"
+					variablename="URL">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="bae2efba-345e-4c9a-b469-669d7c5dd7cc"
@@ -6195,6 +6271,10 @@
 			<teardown
 			id="c741ea04-a426-40cb-a1e2-ef1dc63f7e66"
 			name="teardown">
+			</teardown>
+			<teardown
+			id="c7b69176-45d8-472c-842a-0ce6d7442ad3"
+			name="teardown1">
 			</teardown>
 			<testmodule
 			id="c999e49f-ed41-4881-bb2b-2872fa68a2ac"
@@ -9534,6 +9614,34 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="b22debd1-73e7-4751-b0c8-6cad322a1853"
+					name="Validar_AnulacionPorReemplazo">
+						<setup
+						id="8055f562-22b7-4325-adef-420a2663f143"
+						name="setup1">
+							<testmodule
+							id="bab0ac97-61b5-4555-93b1-590d49bdfaa2"
+							name="OpenBrowser_PC">
+							</testmodule>
+							<testmodule
+							id="02182c6d-49b8-49c4-9d34-bece71df69d4"
+							name="Login">
+							</testmodule>
+						</setup>
+						<teardown
+						id="c7b69176-45d8-472c-842a-0ce6d7442ad3"
+						name="teardown1">
+							<testmodule
+							id="5db8b2b8-fae8-4cdd-9b02-aa992d6f9e15"
+							name="Logout">
+							</testmodule>
+							<testmodule
+							id="5f148c64-b204-44b4-a865-7cf307d3444a"
+							name="CloseBrowser">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -11143,6 +11251,9 @@
 			</testcontainer>
 			<testcontainer
 			id="ab3ada3a-beff-4250-91fc-78add771bc7a">
+			</testcontainer>
+			<testcontainer
+			id="b22debd1-73e7-4751-b0c8-6cad322a1853">
 			</testcontainer>
 			<testcontainer
 			id="c6e91aad-a398-49fe-b3ce-11a3a27734b7">

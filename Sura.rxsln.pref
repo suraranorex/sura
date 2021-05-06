@@ -15,6 +15,6 @@
       <string>f789bd44-c9b4-482f-853a-628040c6f2f1</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution Sura[Sura[Emision[CargaVehiculos.rxrec[]]PC.rxtst[]PC_GestionDocumental.rxtst[]]]]&#xD;&#xA;Solution Sura\Sura\PC_GestionDocumental.rxtst&#xD;&#xA;Solution Sura\Sura\PC.rxtst\DataSource - Emision AP No Enlatada.xlsx" />
+  <ProjectBrowserState value="[Solution Sura[Sura[GestionDocumental[]BC.rxtst[]PC_GestionDocumental.rxtst[]]]]&#xD;&#xA;Solution Sura\Sura\PC_GestionDocumental.rxtst&#xD;&#xA;Solution Sura\Sura\GestionDocumental\VerFormulario_Emitida.rxrec" />
   <StartupProject value="{9F6470D6-24A8-4006-AA8A-74B35DD73A26}" />
 </Properties>
