@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
@@ -1649,7 +1649,6 @@
 				</databinding>
 			</testmodule>
 			<testcase
-			datarangeactive="True"
 			datasource="EmisionAP_Enlatada"
 			errorbehavior="ContinueNextIteration"
 			id="1ceb8aa2-4f3e-46b0-b627-15ae80920378"
@@ -1728,6 +1727,52 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="1e5c74ff-1154-4866-9807-414f8e7a213b"
+			name="BuscarGrupos"
+			ref="ccb0676d-cbbf-4ccf-866a-4c5daaaf449f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
+					variableid="82173b09-8bbf-4e2e-8375-40886c9c86be"
+					variablename="CodigoAgente">
+					</var>
+					<var
+					dataname="NUM_GRUPO"
+					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
+					variableid="83067c29-0671-4e04-b81a-f3a234251e38"
+					variablename="NUM_GRUPO">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
+					variableid="82173b09-8bbf-4e2e-8375-40886c9c86be"
+					variablename="CodigoAgente">
+					</var>
+					<var
+					dataname="NUM_GRUPO"
+					datasourceid="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
+					variableid="83067c29-0671-4e04-b81a-f3a234251e38"
+					variablename="NUM_GRUPO">
+					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="1ebfd75f-760c-45cc-9de8-58480d878866"
@@ -3783,7 +3828,7 @@
 			datasource="EmisionAP_NoEnlatada"
 			errorbehavior="ContinueNextIteration"
 			id="471a79c3-2161-46f8-ba52-53c51e7848aa"
-			maxrange="0"
+			maxrange="1"
 			minrange="0"
 			name="Emisión_AP_NoEnlatada">
 			</testcase>
@@ -5863,8 +5908,8 @@
 			datasource="EmisionMotor"
 			errorbehavior="ContinueNextIteration"
 			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b"
-			maxrange="15"
-			minrange="10"
+			maxrange="3"
+			minrange="0"
 			name="Emisión_Motor">
 			</testcase>
 			<testmodule
@@ -7265,6 +7310,28 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="8652f61b-354e-4563-8013-200015eeeda4"
+			name="SolicitudPoliza_BuscarGrupo"
+			ref="29d3ce62-0a4b-4b17-b28c-f81e165623c5"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="86d3f8a9-dd65-4fc1-ae15-edae02aa381f"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -7493,6 +7560,12 @@
 					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
 					variableid="3c2b5907-735e-42e1-87ab-42197132c013"
 					variablename="TIPOPOLIZA">
+					</var>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
+					variableid="6f7f07ec-644a-478e-b7a7-f7ea973f5459"
+					variablename="CodigoAgente">
 					</var>
 				</databinding>
 			</testmodule>
@@ -7778,8 +7851,8 @@
 			datasource="EmisionMotor_Answer"
 			errorbehavior="ContinueNextIteration"
 			id="8f91e82d-ede3-4907-8e6d-512158b39c77"
-			maxrange="0"
-			minrange="0"
+			maxrange="1"
+			minrange="1"
 			name="Emison_Motor_Answer">
 			</testcase>
 			<testmodule
@@ -12019,8 +12092,8 @@
 			datasource="EmisionMotorAcceMovilidad"
 			errorbehavior="ContinueNextIteration"
 			id="d5fb8d1f-5e48-4cc3-800e-c13e254ef027"
-			maxrange="3"
-			minrange="0"
+			maxrange="32"
+			minrange="31"
 			name="EmisionMotorConAccesorioMovilidad">
 			</testcase>
 			<testmodule
@@ -14655,6 +14728,14 @@
 						<testmodule
 						id="d687515e-b49f-4f51-8ddb-d4e5acb576fa"
 						name="MenuLateral_CuentaPC">
+						</testmodule>
+						<testmodule
+						id="8652f61b-354e-4563-8013-200015eeeda4"
+						name="SolicitudPoliza_BuscarGrupo">
+						</testmodule>
+						<testmodule
+						id="1e5c74ff-1154-4866-9807-414f8e7a213b"
+						name="BuscarGrupos">
 						</testmodule>
 						<testmodule
 						id="8ade0c83-cbe2-4812-aef1-00063b51e4d2"
@@ -18609,6 +18690,12 @@
 					NroCuenta
 				</column>
 				<column>
+					CodigoAgente
+				</column>
+				<column>
+					NUM_GRUPO
+				</column>
+				<column>
 					TIPOPOLIZA
 				</column>
 				<column>
@@ -18976,7 +19063,7 @@
 		filename="DataSource - Emision Motor Accesorio Movilidad.xlsx"
 		id="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
 		includefile="Checked"
-		lastknownrowcount="32"
+		lastknownrowcount="33"
 		name="EmisionMotorAcceMovilidad"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -21121,10 +21208,10 @@
 	</testconfigurations>
 	<references>
 		<reference>
-			C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll
+			C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll
 		</reference>
 		<reference>
-			C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Office.Tools.Excel\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.Office.Tools.Excel.dll
+			C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Office.Tools.Excel\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.Office.Tools.Excel.dll
 		</reference>
 		<reference>
 			itextsharp.dll
