@@ -1729,6 +1729,40 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="1e5c74ff-1154-4866-9807-414f8e7a213b"
+			name="BuscarGrupos"
+			ref="ccb0676d-cbbf-4ccf-866a-4c5daaaf449f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
+					variableid="82173b09-8bbf-4e2e-8375-40886c9c86be"
+					variablename="CodigoAgente">
+					</var>
+					<var
+					dataname="NUM_GRUPO"
+					datasourceid="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
+					variableid="83067c29-0671-4e04-b81a-f3a234251e38"
+					variablename="NUM_GRUPO">
+					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="1ebfd75f-760c-45cc-9de8-58480d878866"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -3782,7 +3816,7 @@
 			datasource="EmisionAP_NoEnlatada"
 			errorbehavior="ContinueNextIteration"
 			id="471a79c3-2161-46f8-ba52-53c51e7848aa"
-			maxrange="0"
+			maxrange="1"
 			minrange="0"
 			name="Emisión_AP_NoEnlatada">
 			</testcase>
@@ -5862,7 +5896,7 @@
 			datasource="EmisionMotor"
 			errorbehavior="ContinueNextIteration"
 			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b"
-			maxrange="2"
+			maxrange="3"
 			minrange="0"
 			name="Emisión_Motor">
 			</testcase>
@@ -7262,6 +7296,28 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="8652f61b-354e-4563-8013-200015eeeda4"
+			name="SolicitudPoliza_BuscarGrupo"
+			ref="29d3ce62-0a4b-4b17-b28c-f81e165623c5"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<testmodule
 			id="86d3f8a9-dd65-4fc1-ae15-edae02aa381f"
@@ -14656,6 +14712,14 @@
 						name="MenuLateral_CuentaPC">
 						</testmodule>
 						<testmodule
+						id="8652f61b-354e-4563-8013-200015eeeda4"
+						name="SolicitudPoliza_BuscarGrupo">
+						</testmodule>
+						<testmodule
+						id="1e5c74ff-1154-4866-9807-414f8e7a213b"
+						name="BuscarGrupos">
+						</testmodule>
+						<testmodule
 						id="8ade0c83-cbe2-4812-aef1-00063b51e4d2"
 						name="NuevaPolizaMotor">
 						</testmodule>
@@ -18606,6 +18670,12 @@
 				</column>
 				<column>
 					NroCuenta
+				</column>
+				<column>
+					CodigoAgente
+				</column>
+				<column>
+					NUM_GRUPO
 				</column>
 				<column>
 					TIPOPOLIZA
