@@ -1740,6 +1740,18 @@
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
+					variableid="82173b09-8bbf-4e2e-8375-40886c9c86be"
+					variablename="CodigoAgente">
+					</var>
+					<var
+					dataname="NUM_GRUPO"
+					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
+					variableid="83067c29-0671-4e04-b81a-f3a234251e38"
+					variablename="NUM_GRUPO">
+					</var>
 				</databinding>
 				<missingdatabinding>
 					<var
@@ -7548,6 +7560,12 @@
 					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
 					variableid="3c2b5907-735e-42e1-87ab-42197132c013"
 					variablename="TIPOPOLIZA">
+					</var>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
+					variableid="6f7f07ec-644a-478e-b7a7-f7ea973f5459"
+					variablename="CodigoAgente">
 					</var>
 				</databinding>
 			</testmodule>
