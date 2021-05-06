@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
@@ -338,7 +338,7 @@
 			errorbehavior="ContinueNextIteration"
 			id="0570b480-9d56-4c17-870e-4b2782417848"
 			maxrange="15"
-			minrange="14"
+			minrange="2"
 			name="Emisión_Motor_Inspección">
 			</testcase>
 			<smartfoldernode
@@ -5863,8 +5863,8 @@
 			datasource="EmisionMotor"
 			errorbehavior="ContinueNextIteration"
 			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b"
-			maxrange="15"
-			minrange="10"
+			maxrange="2"
+			minrange="0"
 			name="Emisión_Motor">
 			</testcase>
 			<testmodule
@@ -7778,8 +7778,8 @@
 			datasource="EmisionMotor_Answer"
 			errorbehavior="ContinueNextIteration"
 			id="8f91e82d-ede3-4907-8e6d-512158b39c77"
-			maxrange="0"
-			minrange="0"
+			maxrange="1"
+			minrange="1"
 			name="Emison_Motor_Answer">
 			</testcase>
 			<testmodule
@@ -12019,8 +12019,8 @@
 			datasource="EmisionMotorAcceMovilidad"
 			errorbehavior="ContinueNextIteration"
 			id="d5fb8d1f-5e48-4cc3-800e-c13e254ef027"
-			maxrange="3"
-			minrange="0"
+			maxrange="32"
+			minrange="31"
 			name="EmisionMotorConAccesorioMovilidad">
 			</testcase>
 			<testmodule
@@ -18976,7 +18976,7 @@
 		filename="DataSource - Emision Motor Accesorio Movilidad.xlsx"
 		id="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
 		includefile="Checked"
-		lastknownrowcount="32"
+		lastknownrowcount="33"
 		name="EmisionMotorAcceMovilidad"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
