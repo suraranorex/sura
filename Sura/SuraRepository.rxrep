@@ -111,6 +111,45 @@ name="SuraRepository">
 			</folder>
 			<folder
 			capname="unknown"
+			id="74a9a9b0-433d-43b4-b655-b3cb32193bb6"
+			isrooted="False"
+			name="Validar_AnulacionRehabilitacion"
+			searchtimeout="0ms">
+				<item
+				capname="divtag"
+				id="b2cfab67-0db9-4a22-bdd5-c30b9535e285"
+				name="txt_RehabilitacionPrima"
+				robustPath="/dom[@domain=$Ambiente]/element"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Rehabilitaci&#243;n'][1]/../..//div[@innertext&gt;'$'][1]
+				</item>
+				<item
+				capname="divtag"
+				id="685eaf81-926a-4837-bd5b-acaf2ed04613"
+				name="txt_RehabilitacionPremio"
+				robustPath="/dom[@domain=$Ambiente]/element"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Rehabilitaci&#243;n'][1]/../..//div[@innertext&gt;'$'][2]
+				</item>
+				<item
+				capname="divtag"
+				id="3d54f374-8f43-4d83-979b-eb060ddbeb7e"
+				name="txt_SolicitudPrima"
+				robustPath="/dom[@domain=$Ambiente]/element"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Solicitud de P&#243;liza'][1]/../..//div[@innertext&gt;'$'][1]
+				</item>
+				<item
+				capname="divtag"
+				id="5b646bdb-c3ef-4082-b2a6-230a59c30a9c"
+				name="txt_SolicitudPremio"
+				robustPath="/dom[@domain=$Ambiente]/element"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Solicitud de P&#243;liza'][1]/../..//div[@innertext&gt;'$'][2]
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
 			id="0004a308-b5bd-4712-b2a4-a5db0526ff6d"
 			isrooted="False"
 			name="PC"
@@ -1548,6 +1587,16 @@ name="SuraRepository">
 							robustPath=""
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//div[#'infoBar-targetEl']//span[@innertext='N° de póliza']/..//span[@innertext~'[0-9]']
+							</item>
+							<item
+							addcaps="unknown,webelement,spantag"
+							capname="spantag"
+							id="505611b0-b3ca-4430-8da6-3bde5c9a8d91"
+							name="txt_NumPoliza_o_NumTransaccion"
+							refimgid="d7d14959-ee9d-4983-be8a-bad8b095e039"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'infoBar-targetEl']//span[@innertext&gt;'Solicitud de P&#243;liza|N&#176; de p&#243;liza']/..//span[@innertext~'[0-9]']
 							</item>
 							<item
 							addcaps="unknown,webelement,spantag"
@@ -4425,45 +4474,6 @@ name="SuraRepository">
 				searchtimeout="30000ms">
 					/dom[@domain=$Ambiente]//div[@id~'Policy_Summary_Transactions']
 				</item>
-				<folder
-				capname="unknown"
-				id="74a9a9b0-433d-43b4-b655-b3cb32193bb6"
-				isrooted="False"
-				name="Validar_AnulacionRehabilitacion"
-				searchtimeout="0ms">
-					<item
-					capname="divtag"
-					id="b2cfab67-0db9-4a22-bdd5-c30b9535e285"
-					name="txt_RehabilitacionPrima"
-					robustPath="/dom[@domain=$Ambiente]/element"
-					searchtimeout="30000ms">
-						/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Rehabilitaci&#243;n'][1]/../..//div[@innertext&gt;'$'][1]
-					</item>
-					<item
-					capname="divtag"
-					id="685eaf81-926a-4837-bd5b-acaf2ed04613"
-					name="txt_RehabilitacionPremio"
-					robustPath="/dom[@domain=$Ambiente]/element"
-					searchtimeout="30000ms">
-						/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Rehabilitaci&#243;n'][1]/../..//div[@innertext&gt;'$'][2]
-					</item>
-					<item
-					capname="divtag"
-					id="3d54f374-8f43-4d83-979b-eb060ddbeb7e"
-					name="txt_SolicitudPrima"
-					robustPath="/dom[@domain=$Ambiente]/element"
-					searchtimeout="30000ms">
-						/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Solicitud de P&#243;liza'][1]/../..//div[@innertext&gt;'$'][1]
-					</item>
-					<item
-					capname="divtag"
-					id="5b646bdb-c3ef-4082-b2a6-230a59c30a9c"
-					name="txt_SolicitudPremio"
-					robustPath="/dom[@domain=$Ambiente]/element"
-					searchtimeout="30000ms">
-						/dom[@domain=$Ambiente]//tbody[#'PolicyFile_Summary-tbody']//div[@innertext='Solicitud de P&#243;liza'][1]/../..//div[@innertext&gt;'$'][2]
-					</item>
-				</folder>
 			</folder>
 			<folder
 			capname="unknown"
@@ -6262,6 +6272,129 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			searchtimeout="0ms">
 				/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//img[@src='https://ssurgwsoadev4-oci.opc.oracleoutsourcing.com/pc/resources/themes/theme-9/resources/images/app/calendar_close.png']
 			</item>
+			<folder
+			capname="unknown"
+			id="4ce269c8-9817-4331-ad11-44d4758c38ac"
+			isrooted="False"
+			name="Validacion_AnulacionPorReemplazo"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="b56a1280-d1d9-4960-9391-f0cf9f39e1ae"
+				name="txt_Origen"
+				refimgid="e8f67ef5-5a3c-400b-a48f-bbf280d09314"
+				robustPath=""
+				searchtimeout="0ms">
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']//span[@innertext='Origen']/../..//div[@innertext~'Guidewire']
+				</item>
+				<item
+				capname="spantag"
+				id="3baedc12-7163-4f19-9394-e025a5c9fb4f"
+				name="txt_SumaAsegurada"
+				robustPath="/dom[@domain=$Ambiente]/element"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//label/span[@innertext~'Suma Asegurada']
+				</item>
+				<item
+				capname="inputtag"
+				id="493e35dc-86a3-4ee2-a988-5a98f08d0db9"
+				name="input_SumaAsegurada"
+				robustPath="/dom[@domain=$Ambiente]/element"
+				searchtimeout="30000ms">
+					/dom[@domain=$Ambiente]//label/span[@innertext~'Suma Asegurada']/../..//input
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="inputtag"
+				id="f0d73aa0-6f11-4920-8ebb-cae29fbbd1f2"
+				name="validation_txtbox_Marca"
+				refimgid="06880e11-590f-4e31-8a27-a2ebb8947a92"
+				robustPath=""
+				searchtimeout="0ms">
+					/dom[@domain=$Ambiente]//label/span[@innertext~'Marca']/../..//input
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="inputtag"
+				id="7502b98f-e431-4736-904e-0f34bdab46af"
+				name="validation_txtbox_Modelo"
+				refimgid="0c7c41e3-39b7-439e-980d-fd6e899996a3"
+				robustPath=""
+				searchtimeout="0ms">
+					/dom[@domain=$Ambiente]//label/span[@innertext~'Modelo']/../..//input
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="inputtag"
+				id="d11e7674-73dc-41df-875f-804b9fe2d1b7"
+				name="validation_txtbox_Anio"
+				refimgid="c7abeb68-adae-4f99-bb06-67dad6e6ee8f"
+				robustPath=""
+				searchtimeout="0ms">
+					/dom[@domain=$Ambiente]//label/span[@innertext~'Año']/../..//input
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="inputtag"
+				id="8b098a61-f0b1-448d-934b-528e0e8ddec2"
+				name="validation_txtbox_Motor"
+				refimgid="14deae8f-b0e5-41cd-82c5-88e16e961f10"
+				robustPath=""
+				searchtimeout="0ms">
+					/dom[@domain=$Ambiente]//label/span[@innertext~'Motor']/../..//input
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="inputtag"
+				id="1eca6239-7f91-44ac-aba1-16bbc7ea78e5"
+				name="validation_txtbox_Patente"
+				refimgid="14deae8f-b0e5-41cd-82c5-88e16e961f10"
+				robustPath=""
+				searchtimeout="0ms">
+					/dom[@domain=$Ambiente]//label/span[@innertext~'Patente']/../..//input
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="inputtag"
+				id="c66f4650-53a0-4a5c-bfdc-cb8eed274c8f"
+				name="validation_txtbox_SumaAsegurada"
+				refimgid="224de57c-828b-462d-b12f-7da2c9cfc0f3"
+				robustPath=""
+				searchtimeout="0ms">
+					/dom[@domain=$Ambiente]//label/span[@innertext~'Suma Asegurada']/../..//input
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="b4fdc838-77bc-4f3d-8dc4-2a1ed5960434"
+				name="validation_txt_ProveedorAsistMecanicaVisible"
+				refimgid="f57165a2-e68f-462a-89a0-3d981b121917"
+				robustPath=""
+				searchtimeout="0ms">
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input[@class~'x-form-field x-form-text x-form-text-default']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="eeb78b02-4a4f-49db-a47e-bd33b0cff993"
+				name="validation_txt_Fecha_Inicio"
+				refimgid="449b0104-b52d-408d-a6f6-c5d5ddd9c2cd"
+				robustPath=""
+				searchtimeout="0ms">
+					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Inicio de vigencia']/../..//input
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="inputtag"
+				id="a8e0384e-d09c-4450-a0b4-c06c02d3011e"
+				name="validation_txtbox_Chasis"
+				refimgid="14deae8f-b0e5-41cd-82c5-88e16e961f10"
+				robustPath=""
+				searchtimeout="0ms">
+					/dom[@domain=$Ambiente]//label/span[@innertext~'Chasis']/../..//input
+				</item>
+			</folder>
 			<basepath>
 				/dom[@domain=$Ambiente]
 			</basepath>

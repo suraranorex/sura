@@ -158,7 +158,7 @@ namespace Sura.GestionDocumental
             repo.Chrome.Cerrar.Click("17;15");
             Delay.Milliseconds(0);
             
-            Generales.UC_Generales.manejarFormulario("", NombreArchivo, NumeroPoliza);
+            Generales.UC_Generales.manejarFormulario("R:\\TEMP\\Formularios\\", NombreArchivo, NumeroPoliza);
             Delay.Milliseconds(0);
             
         }

@@ -167,28 +167,28 @@ namespace Sura.Validaciones
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.PC.Validar_AnulacionRehabilitacion.txt_RehabilitacionPrima' and assigning the part of its value captured by '[0-9]+' to variable 'Rehabilitacion_Prima'.", repo.SURA.PC.Validar_AnulacionRehabilitacion.txt_RehabilitacionPrimaInfo, new RecordItemIndex(0));
-            Rehabilitacion_Prima = repo.SURA.PC.Validar_AnulacionRehabilitacion.txt_RehabilitacionPrima.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.Validar_AnulacionRehabilitacion.txt_RehabilitacionPrima' and assigning the part of its value captured by '[0-9]+' to variable 'Rehabilitacion_Prima'.", repo.SURA.Validar_AnulacionRehabilitacion.txt_RehabilitacionPrimaInfo, new RecordItemIndex(0));
+            Rehabilitacion_Prima = repo.SURA.Validar_AnulacionRehabilitacion.txt_RehabilitacionPrima.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.PC.Validar_AnulacionRehabilitacion.txt_RehabilitacionPremio' and assigning the part of its value captured by '[0-9]+' to variable 'Rehabilitacion_Premio'.", repo.SURA.PC.Validar_AnulacionRehabilitacion.txt_RehabilitacionPremioInfo, new RecordItemIndex(1));
-            Rehabilitacion_Premio = repo.SURA.PC.Validar_AnulacionRehabilitacion.txt_RehabilitacionPremio.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.Validar_AnulacionRehabilitacion.txt_RehabilitacionPremio' and assigning the part of its value captured by '[0-9]+' to variable 'Rehabilitacion_Premio'.", repo.SURA.Validar_AnulacionRehabilitacion.txt_RehabilitacionPremioInfo, new RecordItemIndex(1));
+            Rehabilitacion_Premio = repo.SURA.Validar_AnulacionRehabilitacion.txt_RehabilitacionPremio.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.PC.Validar_AnulacionRehabilitacion.txt_RehabilitacionPrima' and assigning the part of its value captured by '[0-9]+' to variable 'Anulacion_Prima'.", repo.SURA.PC.Validar_AnulacionRehabilitacion.txt_RehabilitacionPrimaInfo, new RecordItemIndex(2));
-            Anulacion_Prima = repo.SURA.PC.Validar_AnulacionRehabilitacion.txt_RehabilitacionPrima.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.Validar_AnulacionRehabilitacion.txt_RehabilitacionPrima' and assigning the part of its value captured by '[0-9]+' to variable 'Anulacion_Prima'.", repo.SURA.Validar_AnulacionRehabilitacion.txt_RehabilitacionPrimaInfo, new RecordItemIndex(2));
+            Anulacion_Prima = repo.SURA.Validar_AnulacionRehabilitacion.txt_RehabilitacionPrima.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.PC.Validar_AnulacionRehabilitacion.txt_RehabilitacionPremio' and assigning the part of its value captured by '[0-9]+' to variable 'Anulacion_Premio'.", repo.SURA.PC.Validar_AnulacionRehabilitacion.txt_RehabilitacionPremioInfo, new RecordItemIndex(3));
-            Anulacion_Premio = repo.SURA.PC.Validar_AnulacionRehabilitacion.txt_RehabilitacionPremio.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.Validar_AnulacionRehabilitacion.txt_RehabilitacionPremio' and assigning the part of its value captured by '[0-9]+' to variable 'Anulacion_Premio'.", repo.SURA.Validar_AnulacionRehabilitacion.txt_RehabilitacionPremioInfo, new RecordItemIndex(3));
+            Anulacion_Premio = repo.SURA.Validar_AnulacionRehabilitacion.txt_RehabilitacionPremio.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.PC.Validar_AnulacionRehabilitacion.txt_SolicitudPrima' and assigning the part of its value captured by '[0-9]+' to variable 'Solicitud_Prima'.", repo.SURA.PC.Validar_AnulacionRehabilitacion.txt_SolicitudPrimaInfo, new RecordItemIndex(4));
-            Solicitud_Prima = repo.SURA.PC.Validar_AnulacionRehabilitacion.txt_SolicitudPrima.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.Validar_AnulacionRehabilitacion.txt_SolicitudPrima' and assigning the part of its value captured by '[0-9]+' to variable 'Solicitud_Prima'.", repo.SURA.Validar_AnulacionRehabilitacion.txt_SolicitudPrimaInfo, new RecordItemIndex(4));
+            Solicitud_Prima = repo.SURA.Validar_AnulacionRehabilitacion.txt_SolicitudPrima.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.PC.Validar_AnulacionRehabilitacion.txt_SolicitudPremio' and assigning the part of its value captured by '[0-9]+' to variable 'Solicitud_Premio'.", repo.SURA.PC.Validar_AnulacionRehabilitacion.txt_SolicitudPremioInfo, new RecordItemIndex(5));
-            Solicitud_Premio = repo.SURA.PC.Validar_AnulacionRehabilitacion.txt_SolicitudPremio.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.Validar_AnulacionRehabilitacion.txt_SolicitudPremio' and assigning the part of its value captured by '[0-9]+' to variable 'Solicitud_Premio'.", repo.SURA.Validar_AnulacionRehabilitacion.txt_SolicitudPremioInfo, new RecordItemIndex(5));
+            Solicitud_Premio = repo.SURA.Validar_AnulacionRehabilitacion.txt_SolicitudPremio.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
             Delay.Milliseconds(0);
             
             validar();

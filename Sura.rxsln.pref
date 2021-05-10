@@ -5,12 +5,14 @@
   <Array name="bookmarks" />
   <Array name="files" />
   <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{9F6470D6-24A8-4006-AA8A-74B35DD73A26}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>c9f6acbd-b162-43b9-9ee5-4c8b001c6475</string>
+      <string>e7a34f90-362d-4b10-8cd5-546b393d193e</string>
+      <string>f789bd44-c9b4-482f-853a-628040c6f2f1</string>
+    </ArrayOfString>
   </SerializedValue>
-<<<<<<< HEAD
-  <ProjectBrowserState value="[Solution Sura[Sura[GestionDocumental[]BC.rxtst[]PC_GestionDocumental.rxtst[]]]]&#xD;&#xA;Solution Sura\Sura\PC_GestionDocumental.rxtst&#xD;&#xA;Solution Sura\Sura\GestionDocumental\VerFormulario_Emitida.rxrec" />
-=======
-  <ProjectBrowserState value="[Solution Sura[Sura[]]]&#xD;&#xA;Solution Sura\Sura\PC_GestionDocumental.rxtst&#xD;&#xA;Solution Sura\Sura\References" />
->>>>>>> e14c30e82a1031b4ec5f1c9047239cd6953ec8e4
+  <ProjectBrowserState value="[Solution Sura[Sura[GestionDocumental[]PC_GestionDocumental.rxtst[]]]]&#xD;&#xA;Solution Sura\Sura\PC_GestionDocumental.rxtst&#xD;&#xA;Solution Sura\Sura\GestionDocumental\VerFormulario_CotizadaFlota.rxrec" />
   <StartupProject value="{9F6470D6-24A8-4006-AA8A-74B35DD73A26}" />
 </Properties>

@@ -8,6 +8,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -35,9 +36,38 @@ namespace Sura.GestionDocumental
 
         public void manejarFormulario()
         {
-            //verificarDirectorio();
-      		//moverArchivo();
+            verificarDirectorio();
+      		moverArchivo();
             //throw new NotImplementedException();
+        }
+        
+        public void verificarDirectorio(){
+        	Report.Info("Info","Verificando la existencia del directorio destino");
+        	
+        	if (!Directory.Exists(@"R:\TEMP\Formularios\"+ NumeroPoliza.TrimStart()))
+        	{
+        		Report.Info("Info","No se encontro el directorio, comienza la creacion del directorio...");
+        		Directory.CreateDirectory(@"R:\TEMP\Formularios\" + NumeroPoliza.TrimStart());
+        		Report.Info("Info","Creacion del directorio finalizada.");
+        	}
+        	Report.Info("Info","Verificacion finalizada");
+        }
+        
+        public void moverArchivo(){
+        	
+        	string userRoot = System.Environment.GetEnvironmentVariable("USERPROFILE");
+        	string downloadFolder = Path.Combine(userRoot, @"Downloads\");
+        	
+        	string origen = downloadFolder + NombreArchivo.TrimStart();
+        	string destino = @"R:\TEMP\Formularios\" + NumeroPoliza.TrimStart() +"\\" + NombreArchivo.TrimStart();
+      
+        	try {
+	        	File.Move(origen, destino);
+	        	Report.Success("Info", "El archivo se ha movido correctamente");
+	        } catch (Exception e) {
+	        	Report.Failure("Fail", "Error al mover el archivo\r\nError: " + e);
+	        	throw;
+	        }
         }
 
         public void fileCheck()
