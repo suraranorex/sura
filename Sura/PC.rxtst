@@ -20453,7 +20453,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="Emisiones">
+	default="Endosos_Motor">
 		<testconfiguration
 		name="Emisiones">
 			<testcontainer
