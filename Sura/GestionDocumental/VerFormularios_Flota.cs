@@ -24,22 +24,22 @@ namespace Sura.GestionDocumental
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The VerFormularios recording.
+    ///The VerFormularios_Flota recording.
     /// </summary>
-    [TestModule("3d37484e-31ea-4500-8681-c7f06ea0e4b3", ModuleType.Recording, 1)]
-    public partial class VerFormularios : ITestModule
+    [TestModule("490299ac-a4ec-46f7-b183-49c34d1ebbc2", ModuleType.Recording, 1)]
+    public partial class VerFormularios_Flota : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
         public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static VerFormularios instance = new VerFormularios();
+        static VerFormularios_Flota instance = new VerFormularios_Flota();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public VerFormularios()
+        public VerFormularios_Flota()
         {
             NombreArchivo = "";
             NumeroPoliza = "";
@@ -48,7 +48,7 @@ namespace Sura.GestionDocumental
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static VerFormularios Instance
+        public static VerFormularios_Flota Instance
         {
             get { return instance; }
         }
@@ -60,7 +60,7 @@ namespace Sura.GestionDocumental
         /// <summary>
         /// Gets or sets the value of variable NombreArchivo.
         /// </summary>
-        [TestVariable("747f7f23-0f2b-4588-8d9e-d4551bc9b4d9")]
+        [TestVariable("5fca5390-1cda-4bfa-9a09-8d01cd665d85")]
         public string NombreArchivo
         {
             get { return _NombreArchivo; }
@@ -72,7 +72,7 @@ namespace Sura.GestionDocumental
         /// <summary>
         /// Gets or sets the value of variable NumeroPoliza.
         /// </summary>
-        [TestVariable("f8927286-a244-44dc-83ca-9e989c965d3f")]
+        [TestVariable("691fd920-4d51-48bd-9440-e7860c8b0397")]
         public string NumeroPoliza
         {
             get { return _NumeroPoliza; }
@@ -127,8 +127,8 @@ namespace Sura.GestionDocumental
 
             Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(0));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.GestionDocumental.bttn_VerFormulario' at Center.", repo.SURA.PC.GestionDocumental.bttn_VerFormularioInfo, new RecordItemIndex(1));
-            repo.SURA.PC.GestionDocumental.bttn_VerFormulario.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.GestionDocumental.Flota.bttn_Ver_Formulario_Flota' at Center.", repo.SURA.PC.GestionDocumental.Flota.bttn_Ver_Formulario_FlotaInfo, new RecordItemIndex(1));
+            repo.SURA.PC.GestionDocumental.Flota.bttn_Ver_Formulario_Flota.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SURA.PC.GestionDocumental.formularioPDF' at Center.", repo.SURA.PC.GestionDocumental.formularioPDFInfo, new RecordItemIndex(2));
@@ -163,11 +163,11 @@ namespace Sura.GestionDocumental
             NumeroPoliza = repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.txt_NumPoliza.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
-            manejarFormulario();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Cerrar' at 17;15.", repo.Chrome.CerrarInfo, new RecordItemIndex(11));
+            repo.Chrome.Cerrar.Click("17;15");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Cerrar' at 17;15.", repo.Chrome.CerrarInfo, new RecordItemIndex(12));
-            repo.Chrome.Cerrar.Click("17;15");
+            Generales.UC_Generales.manejarFormulario("R:\\TEMP\\Formularios\\Flota", NombreArchivo, NumeroPoliza);
             Delay.Milliseconds(0);
             
         }

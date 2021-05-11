@@ -43,7 +43,6 @@ namespace Sura.GestionDocumental
         {
             NombreArchivo = "";
             NumeroTransaccion = "";
-            NumeroPoliza = "";
         }
 
         /// <summary>
@@ -80,18 +79,6 @@ namespace Sura.GestionDocumental
             set { _NumeroTransaccion = value; }
         }
 
-        string _NumeroPoliza;
-
-        /// <summary>
-        /// Gets or sets the value of variable NumeroPoliza.
-        /// </summary>
-        [TestVariable("d1f3a94d-929f-4f08-9cde-32dfac6073be")]
-        public string NumeroPoliza
-        {
-            get { return _NumeroPoliza; }
-            set { _NumeroPoliza = value; }
-        }
-
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
         /// </summary>
@@ -100,6 +87,16 @@ namespace Sura.GestionDocumental
         {
             get { return repo.Ambiente; }
             set { repo.Ambiente = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable Formulario.
+        /// </summary>
+        [TestVariable("ae0cf604-99d8-4ced-a2eb-344dcca1526a")]
+        public string Formulario
+        {
+            get { return repo.Formulario; }
+            set { repo.Formulario = value; }
         }
 
 #endregion
@@ -128,133 +125,46 @@ namespace Sura.GestionDocumental
 
             Init();
 
-            // ----- Cotización Cliente - Flota
-            //Report.Log(ReportLevel.Info, "Section", "----- Cotización Cliente - Flota", new RecordItemIndex(0));
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.GestionDocumental.Flota.bttn_Ver_CotizacionCliente_Flota' at Center.", repo.SURA.PC.GestionDocumental.Flota.bttn_Ver_CotizacionCliente_FlotaInfo, new RecordItemIndex(1));
-            repo.SURA.PC.GestionDocumental.Flota.bttn_Ver_CotizacionCliente_Flota.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.GestionDocumental.Flota.bttn_Ver_Formulario_Flota' at Center.", repo.SURA.PC.GestionDocumental.Flota.bttn_Ver_Formulario_FlotaInfo, new RecordItemIndex(0));
+            repo.SURA.PC.GestionDocumental.Flota.bttn_Ver_Formulario_Flota.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SURA.PC.GestionDocumental.formularioPDF' at Center.", repo.SURA.PC.GestionDocumental.formularioPDFInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SURA.PC.GestionDocumental.formularioPDF' at Center.", repo.SURA.PC.GestionDocumental.formularioPDFInfo, new RecordItemIndex(1));
             repo.SURA.PC.GestionDocumental.formularioPDF.Click(System.Windows.Forms.MouseButtons.Right);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.option_GuardarComo' at Center.", repo.Chrome.option_GuardarComoInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.option_GuardarComo' at Center.", repo.Chrome.option_GuardarComoInfo, new RecordItemIndex(2));
             repo.Chrome.option_GuardarComo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GuardarComo.ButtonGuardar' at Center.", repo.GuardarComo.ButtonGuardarInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GuardarComo.ButtonGuardar' at Center.", repo.GuardarComo.ButtonGuardarInfo, new RecordItemIndex(3));
             repo.GuardarComo.ButtonGuardar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'Chrome.bttn_FormularioPDF'", repo.Chrome.bttn_FormularioPDFInfo, new ActionTimeout(10000), new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'Chrome.bttn_FormularioPDF'", repo.Chrome.bttn_FormularioPDFInfo, new ActionTimeout(10000), new RecordItemIndex(4));
             repo.Chrome.bttn_FormularioPDFInfo.WaitForExists(10000);
             
-            fileCheck();
+            Generales.UC_Generales.fileCheck();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Text' from item 'Chrome.bttn_FormularioPDF' and assigning its value to variable 'NombreArchivo'.", repo.Chrome.bttn_FormularioPDFInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Text' from item 'Chrome.bttn_FormularioPDF' and assigning its value to variable 'NombreArchivo'.", repo.Chrome.bttn_FormularioPDFInfo, new RecordItemIndex(6));
             NombreArchivo = repo.Chrome.bttn_FormularioPDF.Element.GetAttributeValueText("Text");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "User", NombreArchivo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "User", NombreArchivo, new RecordItemIndex(7));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.txt_SolicitudPoliza' and assigning the part of its value captured by '[0-9]+' to variable 'NumeroTransaccion'.", repo.SURA.txt_SolicitudPolizaInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.txt_SolicitudPoliza' and assigning the part of its value captured by '[0-9]+' to variable 'NumeroTransaccion'.", repo.SURA.txt_SolicitudPolizaInfo, new RecordItemIndex(8));
             NumeroTransaccion = repo.SURA.txt_SolicitudPoliza.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
             Delay.Milliseconds(0);
             
             manejarFormularioFlota();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Cerrar' at 17;15.", repo.Chrome.CerrarInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Cerrar' at 17;15.", repo.Chrome.CerrarInfo, new RecordItemIndex(10));
             repo.Chrome.Cerrar.Click("17;15");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'bttn_CerrarPestaniaFormulario' at Center.", repo.bttn_CerrarPestaniaFormularioInfo, new RecordItemIndex(12));
-            repo.bttn_CerrarPestaniaFormulario.Click();
-            Delay.Milliseconds(0);
-            
-            // ----- Cotización Productor - Flota
-            Report.Log(ReportLevel.Info, "Section", "----- Cotización Productor - Flota", new RecordItemIndex(13));
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.GestionDocumental.Flota.bttn_Ver_CotizacionProductor_Flota' at Center.", repo.SURA.PC.GestionDocumental.Flota.bttn_Ver_CotizacionProductor_FlotaInfo, new RecordItemIndex(14));
-            repo.SURA.PC.GestionDocumental.Flota.bttn_Ver_CotizacionProductor_Flota.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SURA.PC.GestionDocumental.formularioPDF' at Center.", repo.SURA.PC.GestionDocumental.formularioPDFInfo, new RecordItemIndex(15));
-            repo.SURA.PC.GestionDocumental.formularioPDF.Click(System.Windows.Forms.MouseButtons.Right);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.option_GuardarComo' at Center.", repo.Chrome.option_GuardarComoInfo, new RecordItemIndex(16));
-            repo.Chrome.option_GuardarComo.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GuardarComo.ButtonGuardar' at Center.", repo.GuardarComo.ButtonGuardarInfo, new RecordItemIndex(17));
-            repo.GuardarComo.ButtonGuardar.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'Chrome.bttn_FormularioPDF'", repo.Chrome.bttn_FormularioPDFInfo, new ActionTimeout(10000), new RecordItemIndex(18));
-            repo.Chrome.bttn_FormularioPDFInfo.WaitForExists(10000);
-            
-            fileCheck();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Text' from item 'Chrome.bttn_FormularioPDF' and assigning its value to variable 'NombreArchivo'.", repo.Chrome.bttn_FormularioPDFInfo, new RecordItemIndex(20));
-            NombreArchivo = repo.Chrome.bttn_FormularioPDF.Element.GetAttributeValueText("Text");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "User", NombreArchivo, new RecordItemIndex(21));
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Cerrar' at 17;15.", repo.Chrome.CerrarInfo, new RecordItemIndex(22));
-            repo.Chrome.Cerrar.Click("17;15");
-            Delay.Milliseconds(0);
-            
-            manejarFormularioFlota();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'bttn_CerrarPestaniaFormulario' at Center.", repo.bttn_CerrarPestaniaFormularioInfo, new RecordItemIndex(24));
-            repo.bttn_CerrarPestaniaFormulario.Click();
-            Delay.Milliseconds(0);
-            
-            // ----- Certificado de Pagos al Día
-            Report.Log(ReportLevel.Info, "Section", "----- Certificado de Pagos al Día", new RecordItemIndex(25));
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.GestionDocumental.Flota.bttn_Ver_CertificadoPagos_Flota' at Center.", repo.SURA.PC.GestionDocumental.Flota.bttn_Ver_CertificadoPagos_FlotaInfo, new RecordItemIndex(26));
-            repo.SURA.PC.GestionDocumental.Flota.bttn_Ver_CertificadoPagos_Flota.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Right Click item 'SURA.PC.GestionDocumental.formularioPDF' at Center.", repo.SURA.PC.GestionDocumental.formularioPDFInfo, new RecordItemIndex(27));
-            repo.SURA.PC.GestionDocumental.formularioPDF.Click(System.Windows.Forms.MouseButtons.Right);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.option_GuardarComo' at Center.", repo.Chrome.option_GuardarComoInfo, new RecordItemIndex(28));
-            repo.Chrome.option_GuardarComo.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GuardarComo.ButtonGuardar' at Center.", repo.GuardarComo.ButtonGuardarInfo, new RecordItemIndex(29));
-            repo.GuardarComo.ButtonGuardar.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'Chrome.bttn_FormularioPDF'", repo.Chrome.bttn_FormularioPDFInfo, new ActionTimeout(10000), new RecordItemIndex(30));
-            repo.Chrome.bttn_FormularioPDFInfo.WaitForExists(10000);
-            
-            fileCheck();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Text' from item 'Chrome.bttn_FormularioPDF' and assigning its value to variable 'NombreArchivo'.", repo.Chrome.bttn_FormularioPDFInfo, new RecordItemIndex(32));
-            NombreArchivo = repo.Chrome.bttn_FormularioPDF.Element.GetAttributeValueText("Text");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "User", NombreArchivo, new RecordItemIndex(33));
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Cerrar' at 17;15.", repo.Chrome.CerrarInfo, new RecordItemIndex(34));
-            repo.Chrome.Cerrar.Click("17;15");
-            Delay.Milliseconds(0);
-            
-            manejarFormularioFlota();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'bttn_CerrarPestaniaFormulario' at Center.", repo.bttn_CerrarPestaniaFormularioInfo, new RecordItemIndex(36));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'bttn_CerrarPestaniaFormulario' at Center.", repo.bttn_CerrarPestaniaFormularioInfo, new RecordItemIndex(11));
             repo.bttn_CerrarPestaniaFormulario.Click();
             Delay.Milliseconds(0);
             

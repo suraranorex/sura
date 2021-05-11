@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="03d5cad4-1f32-4da2-bf41-95bfcb2c3067"
+id="490299ac-a4ec-46f7-b183-49c34d1ebbc2"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,17 +19,17 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="VerFormulario_Cotizada"
+	classname="VerFormularios_Flota"
 	namespace="Sura.GestionDocumental">
 	</codegen>
 	<variables>
 		<var
-		id="0112f02f-cf20-454d-9b1e-22c2bdc480d2"
+		id="5fca5390-1cda-4bfa-9a09-8d01cd665d85"
 		name="NombreArchivo">
 		</var>
 		<var
-		id="98fe957e-8da3-46e6-9fdf-35b14b56ab4a"
-		name="NumeroTransaccion">
+		id="691fd920-4d51-48bd-9440-e7860c8b0397"
+		name="NumeroPoliza">
 		</var>
 	</variables>
 	<recorditems>
@@ -40,7 +40,7 @@ mode="Global">
 		message=""
 		optional="False"
 		reportlevel="Info;20"
-		searchpropertyid="8fe36a0b-f01d-4fed-a90b-d273868ab783">
+		searchpropertyid="ae07cd3e-9c90-492b-ac43-04d876076917">
 			<comment>
 			</comment>
 			<bindings>
@@ -72,10 +72,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="4f888d5b-d060-4bcd-8a8b-76347409e9a1"
+			id="eafa894c-accb-4190-9427-431ca6706186"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext=$Formulario]/..//..//img[@title='Ver documento']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext=$Formulario]/..//..//td[2]//img[@id~'Link']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -1282,40 +1282,24 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 		</mouseitem>
 		<getvaluerecorditem
 		attrname="InnerText"
-		captureregex="[0-9]+"
 		enabled="True"
 		optional="False"
 		searchpropertyid="3ed06dd9-baa1-4aee-a9ad-02b39138891b"
-		varname="NumeroTransaccion">
+		varname="NumeroPoliza">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="5fde796f-8da2-4e2a-bffd-5d93a0b90475"
+			id="17f779fb-c76a-46f6-8f04-71ce8564f8cf"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//div[#'westPanel-innerCt']//div[@innertext&gt;'Solicitud de P&#243;liza']
+					/dom[@domain=$Ambiente]//div[#'infoBar-targetEl']//span[@innertext='N° de póliza']/..//span[@innertext~'[0-9]']
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 		</getvaluerecorditem>
-		<userrecorditem
-		classname="VerFormulario_Cotizada"
-		enabled="True"
-		isexternaltestmethod="False"
-		methodname="manejarFormulario"
-		namespace="Sura.GestionDocumental"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<arguments
-			id="d0d3aa25-daa3-4d63-9b43-66ff75d6db64">
-			</arguments>
-		</userrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -1421,6 +1405,51 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 /nlB/wB8n/GiseigD//Z
 			</helperscreenshot>
 		</mouseitem>
+		<userrecorditem
+		classname="UC_Generales"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="manejarFormulario"
+		namespace="Sura.Generales"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="d0d3aa25-daa3-4d63-9b43-66ff75d6db64">
+				<argument
+				argname="directorio"
+				id="dcb2c9c3-f12f-490d-8e5b-dca97749d878">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						R:\TEMP\Formularios\Flota
+					</argvalue>
+				</argument>
+				<argument
+				argname="nombreArchivo"
+				id="f1510066-3a10-40aa-89d5-4d89f13976df"
+				variable="NombreArchivo">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="numeroPoliza"
+				id="6c6abdab-00ca-44c7-8017-1bb5fb746072"
+				variable="NumeroPoliza">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
@@ -1437,7 +1466,7 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		VerFormulario_Cotizada.UserCode.cs
+		VerFormularios_Flota.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

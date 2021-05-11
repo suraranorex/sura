@@ -75,11 +75,11 @@ namespace Sura.Generales
         private static void verificarDirectorio(string directorio, string numeroPoliza)
         {
         	Report.Info("Info","Verificando la existencia del directorio destino");
-        	
+          	
         	if (!Directory.Exists(directorio))
         	{
         		Report.Info("Info","No se encontro el directorio, comienza la creacion del directorio...");
-        		Directory.CreateDirectory(directorio + numeroPoliza.TrimStart());
+        		Directory.CreateDirectory(directorio);
         		Report.Info("Info","Creacion del directorio finalizada.");
         	}
         	Report.Info("Info","Verificacion finalizada");

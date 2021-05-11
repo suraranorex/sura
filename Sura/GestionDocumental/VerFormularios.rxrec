@@ -1300,6 +1300,21 @@ FABRRRQAUUUUAFFFFABRRRQB/9k=
 				</robustPath>
 			</info>
 		</getvaluerecorditem>
+		<userrecorditem
+		classname="VerFormularios"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="manejarFormulario"
+		namespace="Sura.GestionDocumental"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="d0d3aa25-daa3-4d63-9b43-66ff75d6db64">
+			</arguments>
+		</userrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -1405,51 +1420,6 @@ ADzg/wC+T/jWPRQBsf8ACSXn/PKD/vk/406PxFeNIqmODBIH3T/jWLUkP+vj/wB4fzoA1P8AhJLz
 /nlB/wB8n/GiseigD//Z
 			</helperscreenshot>
 		</mouseitem>
-		<userrecorditem
-		classname="UC_Generales"
-		enabled="True"
-		isexternaltestmethod="True"
-		methodname="manejarFormulario"
-		namespace="Sura.Generales"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<arguments
-			id="d0d3aa25-daa3-4d63-9b43-66ff75d6db64">
-				<argument
-				argname="directorio"
-				id="dcb2c9c3-f12f-490d-8e5b-dca97749d878">
-					<argvaluetype>
-						System.String
-					</argvaluetype>
-					<argvalue>
-						R:\TEMP\Formularios\
-					</argvalue>
-				</argument>
-				<argument
-				argname="nombreArchivo"
-				id="f1510066-3a10-40aa-89d5-4d89f13976df"
-				variable="NombreArchivo">
-					<argvaluetype>
-						System.String
-					</argvaluetype>
-					<argvalue>
-					</argvalue>
-				</argument>
-				<argument
-				argname="numeroPoliza"
-				id="6c6abdab-00ca-44c7-8017-1bb5fb746072"
-				variable="NumeroPoliza">
-					<argvaluetype>
-						System.String
-					</argvaluetype>
-					<argvalue>
-					</argvalue>
-				</argument>
-			</arguments>
-		</userrecorditem>
 	</recorditems>
 	<repository
 	id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"

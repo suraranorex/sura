@@ -4,15 +4,7 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="Emision\CantCuotasSi.rxrec" />
-    <Element value="Emision\Cant_Cuotas.rxrec" />
-    <Element value="Emision\InformacionDePoliza_AP.rxrec" />
-    <Element value="Emision\ContinueInformacionPolizasAP.rxrec" />
     <Element value="PC.rxtst" />
-    <Element value="PC_GestionDocumental.rxtst" />
-    <Element value="Emision\Vehiculos_Complementaria.rxrec" />
-    <Element value="Emision\Vehiculos_0km.rxrec" />
-    <Element value="Emision\Vehiculos.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

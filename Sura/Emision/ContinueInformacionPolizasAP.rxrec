@@ -107,6 +107,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<mouseitem
@@ -192,6 +194,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[#'SubmissionWizard:Next-btnInnerEl']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="eb1e1138-3012-40eb-b330-a9ca3b597753">
@@ -245,6 +249,8 @@ YGuYlHySKyhsejAkc+9LDFcT3aXFyixJGD5cQbJBPBJI46duetMzLtFFFABRRRQAUUUUAf/Z
 				<path>
 					/dom[@domain=$Ambiente]//span[#'SubmissionWizard:Next-btnInnerEl']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -263,6 +269,8 @@ YGuYlHySKyhsejAkc+9LDFcT3aXFyixJGD5cQbJBPBJI46duetMzLtFFFABRRRQAUUUUAf/Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/ProductSura']//span[@innertext='Producto']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>
