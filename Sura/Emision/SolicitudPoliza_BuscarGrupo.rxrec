@@ -100,6 +100,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewSubmission-tbody']//table//span[@innertext~'Grupo Comercial']/../..//a[@id~'GroupMenuIcon']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -185,6 +187,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[11]/div/div[2]//span[@innertext='Buscar grupo...']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="d69794f8-8429-4af0-8279-62d68d47426b">
@@ -237,6 +241,8 @@ EjB9DVuigCoY5tgyJDwdoD4KnPGeeeMetWQzdChPvx6U6igCOTJVDjBz09KkHSkbt9aWgD//2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']//span[@innertext~'Buscar grupos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

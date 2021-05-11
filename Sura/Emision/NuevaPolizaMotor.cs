@@ -140,7 +140,18 @@ namespace Sura.Emision
             repo.SURA.PC.Emision.PolizaMotor.SolicitudDePolizaNueva.bttn_Elegir.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_Motor'", repo.SURA.PC.Txt_Validacion.txt_MotorInfo, new ActionTimeout(30000), new RecordItemIndex(8));
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 10s to exist. Associated repository item: 'SURA_ContinueOnFail.lbl_ClienteConPolizasDeotroGrupoComercialCOF'", repo.SURA_ContinueOnFail.lbl_ClienteConPolizasDeotroGrupoComercialCOFInfo, new ActionTimeout(10000), new RecordItemIndex(8));
+                repo.SURA_ContinueOnFail.lbl_ClienteConPolizasDeotroGrupoComercialCOFInfo.WaitForExists(10000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(8)); }
+            
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'SURA_ContinueOnFail.Copy_of_bttn_ElegirCOF' at Center.", repo.SURA_ContinueOnFail.Copy_of_bttn_ElegirCOFInfo, new RecordItemIndex(9));
+                repo.SURA_ContinueOnFail.Copy_of_bttn_ElegirCOF.Click();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(9)); }
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_Motor'", repo.SURA.PC.Txt_Validacion.txt_MotorInfo, new ActionTimeout(30000), new RecordItemIndex(10));
             repo.SURA.PC.Txt_Validacion.txt_MotorInfo.WaitForExists(30000);
             
         }

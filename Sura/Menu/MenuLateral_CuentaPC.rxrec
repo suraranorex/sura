@@ -128,6 +128,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'AccountFile:AccountFileMenuActions']/span
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="a93c561a-ff32-43b8-a9cb-d1037b1a061c">
@@ -206,6 +208,8 @@ X8qQ7Fuiqn2p/Rfyo+1P6L+VAH//2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div/div/div/div/div/?/?/span[@innertext='Nueva Solicitud']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<separatoritem
@@ -239,6 +243,8 @@ X8qQ7Fuiqn2p/Rfyo+1P6L+VAH//2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//span[@innertext~'Aceptar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -257,6 +263,8 @@ X8qQ7Fuiqn2p/Rfyo+1P6L+VAH//2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewSubmission-tbody']//span[@innertext~'Solicitudes de Póliza nue']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

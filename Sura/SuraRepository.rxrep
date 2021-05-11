@@ -1,4 +1,5 @@
-﻿<repository
+<?xml version="1.0" encoding="utf-8"?>
+<repository
 id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
 name="SuraRepository">
 	<codegen
@@ -361,13 +362,13 @@ name="SuraRepository">
 							</item>
 							<item
 							addcaps="unknown,webelement,spantag"
-							capname="spantag"
+							capname="inputtag"
 							id="f9ce8d2f-1f9a-47fc-af5f-0f48c9fee6b8"
 							name="Copy_of_list_MetodoDePago"
 							refimgid="c4e3c299-aae1-4ec2-be18-86afbf6a23e4"
 							robustPath=""
 							searchtimeout="30000ms">
-								/dom[@domain=$Ambiente]//table//span[@innertext~'Método de Pago' and @data-tabindexsaved='True']
+								/dom[@domain=$Ambiente]//table//span[@innertext~'Método de Pago']/../..//input[@data-tabindexsaved='True']
 							</item>
 							<item
 							addcaps="unknown,webelement,spantag"
@@ -6395,6 +6396,27 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 					/dom[@domain=$Ambiente]//label/span[@innertext~'Chasis']/../..//input
 				</item>
 			</folder>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="7891d515-2917-4e9d-8ce2-9a644b292767"
+			name="lbl_ClienteConPolizasDeotroGrupoComercialCOF"
+			refimgid="06acbddd-8b85-4b32-8a92-2ba4fe54fdf7"
+			refpath="/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'NewSubmission-tbody']/tr[2]/td/div/div[@innertext='El cliente posee póliza/s vigentes con un productor de otro grupo comercial.']"
+			robustPath=""
+			searchtimeout="0ms">
+				/dom[@domain=$Ambiente]//tbody[#'NewSubmission-tbody']//div[@innertext&gt;'El cliente posee p&#243;liza/s']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="atag"
+			id="9a5475d8-9c52-476e-b0ad-ef87b98efa08"
+			name="Copy_of_bttn_ElegirCOF"
+			refimgid="e51c167d-d125-443c-983a-8a2a1f04bbfe"
+			robustPath=""
+			searchtimeout="0ms">
+				/dom[@domain=$Ambiente]//tbody[#'NewSubmission-tbody']//div[@innertext=$TIPOPOLIZA]/../..//a[@innertext='Elegir']
+			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
 			</basepath>
@@ -6613,7 +6635,7 @@ AAAASUVORK5CYII=
 		<var
 		id="83067c29-0671-4e04-b81a-f3a234251e38"
 		name="NUM_GRUPO">
-			Campoli
+			Corporativos Directo
 		</var>
 		<var
 		id="66fe018d-0ba3-401c-91ac-e1ba1b545f18"
@@ -6741,7 +6763,7 @@ AAAASUVORK5CYII=
 		<var
 		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
 		name="Ambiente">
-			ssurgwsoadev4-oci.opc.oracleoutsourcing.com
+			i-preproducciongestion.segurossura.com.ar
 		</var>
 		<var
 		id="fbc3c0ec-d362-401d-acc7-5e95815b84a3"
@@ -6809,6 +6831,7 @@ AAAASUVORK5CYII=
 		<var
 		id="08b0fb99-8007-42d4-94f6-8e1a6ff40968"
 		name="CodigoAgente">
+			6965
 		</var>
 		<var
 		id="d8ed3c76-9dca-4386-96c3-80018452fb87"

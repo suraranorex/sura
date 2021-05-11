@@ -26,12 +26,17 @@ mode="Global">
 		<var
 		id="82173b09-8bbf-4e2e-8375-40886c9c86be"
 		name="CodigoAgente">
-			2302
+			6965
 		</var>
 		<var
 		id="83067c29-0671-4e04-b81a-f3a234251e38"
 		name="NUM_GRUPO">
-			Baioni
+			Corporativos Directo
+		</var>
+		<var
+		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
+		name="Ambiente">
+			i-preproducciongestion.segurossura.com.ar
 		</var>
 	</variables>
 	<recorditems>
@@ -194,6 +199,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']/tr[3]//table//span[@innertext='Unidad de Negocio']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keyitem
@@ -354,6 +361,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']/tr[3]//table//span[@innertext='Unidad de Negocio']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keyitem>
 		<keysequenceitem
@@ -510,6 +519,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']/tr[3]//table//span[@innertext='Unidad de Negocio']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<keyitem
@@ -674,8 +685,10 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'C&#243;digo de agente']/../..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Código de agente']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keyitem>
 		<keysequenceitem
@@ -841,6 +854,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext&gt;'C&#243;digo de agente disponib']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<WaitForRecordItem
@@ -857,8 +872,10 @@ mode="Global">
 			id="67b2401a-bbb4-4741-8202-910b4bd6a53e"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'C&#243;digo de agente']/../..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Código de agente']/../..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -937,6 +954,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']/tr[3]//table/tbody/tr[5]/td/div/div[1]/?/?/table/?/?/tr/td[1]/a[@innertext='Bucar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="240357fb-99c2-4409-a21e-ea68c7d33374">
@@ -1079,6 +1098,8 @@ iigA3GjcaKKADcaKKKAP/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']//table//div[@innertext=$NUM_GRUPO]/../..//a[@innertext='Seleccionar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -1095,8 +1116,10 @@ iigA3GjcaKKADcaKKKAP/9k=
 			id="3f4902ad-4f05-4e15-8954-2de25ff6eb29"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewSubmission-tbody']//span[@innertext~'Solicitudes de P&#243;liza nue']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewSubmission-tbody']//span[@innertext~'Solicitudes de Póliza nue']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>
