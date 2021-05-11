@@ -25,6 +25,15 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -174,6 +183,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']//span[@innertext='Pago en Cuotas?']/../..//label[@innertext='No']/..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -198,6 +209,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/div/table/tbody/tr[4]/?/?/label[@innertext='Detalles de la póliza']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -205,7 +218,7 @@ mode="Global">
 		optional="False"
 		searchpropertyid="a998bf2a-a14b-4332-9300-3ceb7e91b866"
 		waitaction="Exists"
-		waittimeout="50000ms">
+		waittimeout="60000ms">
 			<comment>
 			</comment>
 			<bindings>
@@ -353,6 +366,28 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[14]/td/div/div[1]/div/div[1]/input[@name='SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:SubmissionWizard_PolicyInfoDV:PolicyInfoInputSet:paymentPlans']
 				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="645fff9f-6ca4-4f98-9c5e-70f37969eda5"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="78146f5d-d1e3-4075-b04f-eed8c8ee8cb6"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext~'Pago en Cuotas']/../..//label[@innertext~$OPCION_PAGOCUOTAS]/../..//input[@data-tabindexsaved='True']
+				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -436,6 +471,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/PolicyInfo']/table/tbody/tr[4]//table//div/table/?/?/tr/td[2]/div/table/tbody/tr[4]/?/?/label[@innertext='Detalles de la póliza']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 	</recorditems>

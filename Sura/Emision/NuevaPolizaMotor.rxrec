@@ -318,6 +318,52 @@ mode="Global">
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
+		optional="True"
+		searchpropertyid="451a23d0-5b36-4cbf-9634-e84bf486f82b"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7891d515-2917-4e9d-8ce2-9a644b292767"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'NewSubmission-tbody']//div[@innertext&gt;'El cliente posee p&#243;liza/s']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="cb20acc1-6f06-4fa9-a9a0-ae943fb92ff0"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9a5475d8-9c52-476e-b0ad-ef87b98efa08"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'NewSubmission-tbody']//div[@innertext=$TIPOPOLIZA]/../..//a[@innertext='Elegir']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
 		optional="False"
 		searchpropertyid="eed1b9f2-669c-4202-97f6-a6d2d1832e55"
 		waitaction="Exists"

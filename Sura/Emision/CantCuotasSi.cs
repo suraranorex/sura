@@ -119,19 +119,22 @@ namespace Sura.Emision
             Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'SURA.PC.Emision.Generales.InformacionDePoliza.option_Pago'", repo.SURA.PC.Emision.Generales.InformacionDePoliza.option_PagoInfo, new ActionTimeout(40000), new RecordItemIndex(1));
             repo.SURA.PC.Emision.Generales.InformacionDePoliza.option_PagoInfo.WaitForExists(40000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.listCantCuotas' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.listCantCuotasInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_option_PagoCuotas'", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_option_PagoCuotasInfo, new ActionTimeout(30000), new RecordItemIndex(2));
+            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_option_PagoCuotasInfo.WaitForNotExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.listCantCuotas' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.listCantCuotasInfo, new RecordItemIndex(3));
             repo.SURA.PC.Emision.Generales.InformacionDePoliza.listCantCuotas.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CantCuotas' with focus on 'SURA.PC.Emision.Generales.InformacionDePoliza.listCantCuotas'.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.listCantCuotasInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CantCuotas' with focus on 'SURA.PC.Emision.Generales.InformacionDePoliza.listCantCuotas'.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.listCantCuotasInfo, new RecordItemIndex(4));
             repo.SURA.PC.Emision.Generales.InformacionDePoliza.listCantCuotas.PressKeys(CantCuotas);
             Delay.Milliseconds(20);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Lbl_DetallesDeLaPoliza' at UpperRight.", repo.SURA.Lbl_DetallesDeLaPolizaInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Lbl_DetallesDeLaPoliza' at UpperRight.", repo.SURA.Lbl_DetallesDeLaPolizaInfo, new RecordItemIndex(5));
             repo.SURA.Lbl_DetallesDeLaPoliza.Click(Location.UpperRight);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to not exist. Associated repository item: 'SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_listCantCuotas'", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_listCantCuotasInfo, new ActionTimeout(5000), new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to not exist. Associated repository item: 'SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_listCantCuotas'", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_listCantCuotasInfo, new ActionTimeout(5000), new RecordItemIndex(6));
             repo.SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_listCantCuotasInfo.WaitForNotExists(5000);
             
         }

@@ -24,29 +24,30 @@ namespace Sura.Emision
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Cant_Cuotas recording.
+    ///The Selecciona_CodigoAgente recording.
     /// </summary>
-    [TestModule("b72675f6-1250-4843-966e-038436ac00a4", ModuleType.Recording, 1)]
-    public partial class Cant_Cuotas : ITestModule
+    [TestModule("eab3bf49-07df-416c-aab5-78498dfaff11", ModuleType.Recording, 1)]
+    public partial class Selecciona_CodigoAgente : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
         public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static Cant_Cuotas instance = new Cant_Cuotas();
+        static Selecciona_CodigoAgente instance = new Selecciona_CodigoAgente();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Cant_Cuotas()
+        public Selecciona_CodigoAgente()
         {
+            CodigoAgente = "6965";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Cant_Cuotas Instance
+        public static Selecciona_CodigoAgente Instance
         {
             get { return instance; }
         }
@@ -64,13 +65,13 @@ namespace Sura.Emision
         }
 
         /// <summary>
-        /// Gets or sets the value of variable OPCION_PAGOCUOTAS.
+        /// Gets or sets the value of variable CodigoAgente.
         /// </summary>
-        [TestVariable("b047dcae-a43e-4341-b82d-66d844bb7960")]
-        public string OPCION_PAGOCUOTAS
+        [TestVariable("aebcd64e-3c0f-4b11-b734-5adf5a1aaa12")]
+        public string CodigoAgente
         {
-            get { return repo.OPCION_PAGOCUOTAS; }
-            set { repo.OPCION_PAGOCUOTAS = value; }
+            get { return repo.CodigoAgente; }
+            set { repo.CodigoAgente = value; }
         }
 
 #endregion
@@ -99,25 +100,24 @@ namespace Sura.Emision
 
             Init();
 
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(0));
-            //Delay.Duration(3000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.rb_PagoCuotas' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.rb_PagoCuotasInfo, new RecordItemIndex(1));
-            repo.SURA.PC.Emision.Generales.InformacionDePoliza.rb_PagoCuotas.Click();
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}' with focus on 'SURA.PC.Emision.Enlatados.txtbox_CodigoAgente'.", repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgenteInfo, new RecordItemIndex(0));
+            repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgente.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Lbl_DetallesDeLaPoliza' at Center.", repo.SURA.Lbl_DetallesDeLaPolizaInfo, new RecordItemIndex(2));
-            repo.SURA.Lbl_DetallesDeLaPoliza.Click();
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Enter' Press with focus on 'SURA.PC.Emision.Enlatados.txtbox_CodigoAgente'.", repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgenteInfo, new RecordItemIndex(1));
+            Keyboard.PrepareFocus(repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgente);
+            Keyboard.Press(System.Windows.Forms.Keys.Return, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'SURA.PC.Emision.Generales.InformacionDePoliza.option_Pago'", repo.SURA.PC.Emision.Generales.InformacionDePoliza.option_PagoInfo, new ActionTimeout(60000), new RecordItemIndex(3));
-            repo.SURA.PC.Emision.Generales.InformacionDePoliza.option_PagoInfo.WaitForExists(60000);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CodigoAgente' with focus on 'SURA.PC.Emision.Enlatados.txtbox_CodigoAgente'.", repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgenteInfo, new RecordItemIndex(2));
+            repo.SURA.PC.Emision.Enlatados.txtbox_CodigoAgente.PressKeys(CodigoAgente);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_option_PagoCuotas'", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_option_PagoCuotasInfo, new ActionTimeout(30000), new RecordItemIndex(4));
-            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Copy_of_option_PagoCuotasInfo.WaitForNotExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to not exist. Associated repository item: 'SURA.PC.Emision.Enlatados.Copy_of_txtbox_CodigoAgente'", repo.SURA.PC.Emision.Enlatados.Copy_of_txtbox_CodigoAgenteInfo, new ActionTimeout(20000), new RecordItemIndex(3));
+            repo.SURA.PC.Emision.Enlatados.Copy_of_txtbox_CodigoAgenteInfo.WaitForNotExists(20000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Lbl_DetallesDeLaPoliza' at UpperRight.", repo.SURA.Lbl_DetallesDeLaPolizaInfo, new RecordItemIndex(5));
-            repo.SURA.Lbl_DetallesDeLaPoliza.Click(Location.UpperRight);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Enter' Press.", new RecordItemIndex(4));
+            Keyboard.Press(System.Windows.Forms.Keys.Return, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
         }

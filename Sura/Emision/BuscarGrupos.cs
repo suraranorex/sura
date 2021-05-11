@@ -41,8 +41,9 @@ namespace Sura.Emision
         /// </summary>
         public BuscarGrupos()
         {
-            CodigoAgente = "2302";
-            NUM_GRUPO = "Baioni";
+            CodigoAgente = "6965";
+            NUM_GRUPO = "Corporativos Directo";
+            Ambiente = "i-preproducciongestion.segurossura.com.ar";
         }
 
         /// <summary>

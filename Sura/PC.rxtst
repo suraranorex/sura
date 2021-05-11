@@ -399,6 +399,29 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
+			id="061a3d1c-ff83-4d68-bd37-7eef28db4086"
+			name="SolicitudPoliza_BuscarGrupo"
+			ref="29d3ce62-0a4b-4b17-b28c-f81e165623c5"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="062f6697-1767-4a92-a178-aba7a4c664b7"
 			name="Vehiculos_0km"
 			ref="1f20520d-a1fc-470e-ad44-de1143cf9207"
@@ -655,6 +678,34 @@
 			name="conductoresEndosoABM"
 			ref="e4d2721e-28f5-49b7-aed7-4c22f821538c"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="08d1263f-9ac2-400f-85a0-dc87b0656ed8"
+			name="Selecciona_CodigoAgente"
+			ref="eab3bf49-07df-416c-aab5-78498dfaff11"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="7c19982c-1d1b-4ec3-971d-522b48f23e49"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
+					variableid="aebcd64e-3c0f-4b11-b734-5adf5a1aaa12"
+					variablename="CodigoAgente">
+					</var>
+				</missingdatabinding>
 			</testmodule>
 			<smartfoldernode
 			datasource="flotaMotor_DS"
@@ -2180,6 +2231,40 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="249cd55e-d4ae-4217-ac74-330ea2a4dd20"
+			name="Selecciona_CodigoAgente"
+			ref="eab3bf49-07df-416c-aab5-78498dfaff11"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
+					variableid="aebcd64e-3c0f-4b11-b734-5adf5a1aaa12"
+					variablename="CodigoAgente">
+					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
+					variableid="aebcd64e-3c0f-4b11-b734-5adf5a1aaa12"
+					variablename="CodigoAgente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
 			id="249d1d12-feed-4fa6-9b91-6b75a9e311f4"
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
@@ -2645,6 +2730,53 @@
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
+			<testmodule
+			enabled="False"
+			id="314bab84-9418-45b0-81f4-7ad87eee30ec"
+			name="BuscarGrupos"
+			ref="ccb0676d-cbbf-4ccf-866a-4c5daaaf449f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="NUM_GRUPO"
+					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
+					variableid="83067c29-0671-4e04-b81a-f3a234251e38"
+					variablename="NUM_GRUPO">
+					</var>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
+					variableid="82173b09-8bbf-4e2e-8375-40886c9c86be"
+					variablename="CodigoAgente">
+					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
+					variableid="82173b09-8bbf-4e2e-8375-40886c9c86be"
+					variablename="CodigoAgente">
+					</var>
+					<var
+					dataname="NUM_GRUPO"
+					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
+					variableid="83067c29-0671-4e04-b81a-f3a234251e38"
+					variablename="NUM_GRUPO">
+					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<teardown
 			id="31755ef1-a8fc-4b00-82f9-ba874ce8afdf"
 			name="teardown111">
@@ -3829,7 +3961,7 @@
 			errorbehavior="ContinueNextIteration"
 			id="471a79c3-2161-46f8-ba52-53c51e7848aa"
 			maxrange="1"
-			minrange="0"
+			minrange="1"
 			name="Emisión_AP_NoEnlatada">
 			</testcase>
 			<testmodule
@@ -4154,6 +4286,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="4c7dfd8a-b3f1-403e-a791-1cbde83c1ea9"
 			name="NuevaPolizaAP"
 			ref="b5cf3409-0458-4fe8-816b-76a8218e1813"
@@ -5045,6 +5178,7 @@
 			junitreport="False"
 			name="PC"
 			overwritefilechecked="False"
+			progressdialog="False"
 			reportcompress="False"
 			reportdirectoryname="Reports"
 			reportenabled="True"
@@ -5764,7 +5898,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="6a89d5c0-6d41-42b7-bb13-41a15372ca03"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -5909,7 +6042,7 @@
 			errorbehavior="ContinueNextIteration"
 			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b"
 			maxrange="3"
-			minrange="0"
+			minrange="3"
 			name="Emisión_Motor">
 			</testcase>
 			<testmodule
@@ -6057,7 +6190,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="6eb6aa42-e6f9-419e-ab74-6a76bdead0ab"
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
@@ -6442,6 +6574,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="74cdeecf-0f14-4259-b890-48a0f3f583a9"
 			name="MenuLateral_CuentaPC"
 			ref="5bb086e1-d816-4abc-b088-2dff0422adbb"
@@ -7910,6 +8043,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="90c00c7d-bd8a-469a-8231-4f4184087751"
 			name="MenuSuperior_CuentaPC"
 			ref="bf174612-568c-4bc4-9383-74a62c199f00"
@@ -11140,7 +11274,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="c4b7bd84-2d68-4fd2-abc3-976b8ed7014c"
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
@@ -11430,6 +11563,27 @@
 					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			enabled="False"
+			id="ca302116-1807-4f42-a7e3-bf2cf28808e4"
+			name="Selecciona_CodigoAgente"
+			ref="eab3bf49-07df-416c-aab5-78498dfaff11"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="CodigoAgente"
+					datasourceid="3fbfea09-8dd8-4c80-af2f-f15dddccf6b7"
+					variableid="aebcd64e-3c0f-4b11-b734-5adf5a1aaa12"
+					variablename="CodigoAgente">
 					</var>
 				</databinding>
 			</testmodule>
@@ -11958,6 +12112,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="d26e5da0-9421-4238-a053-20492b801e65"
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
@@ -12282,6 +12437,7 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
+			enabled="False"
 			id="d8191412-cacf-42e0-9288-92ffdb3713f1"
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
@@ -12576,7 +12732,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="dcb6a0a7-c634-4f85-8fe3-ebbd6bc3395e"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -14738,6 +14893,10 @@
 						name="BuscarGrupos">
 						</testmodule>
 						<testmodule
+						id="249cd55e-d4ae-4217-ac74-330ea2a4dd20"
+						name="Selecciona_CodigoAgente">
+						</testmodule>
+						<testmodule
 						id="8ade0c83-cbe2-4812-aef1-00063b51e4d2"
 						name="NuevaPolizaMotor">
 						</testmodule>
@@ -15782,6 +15941,18 @@
 						name="MenuLateral_CuentaPC">
 						</testmodule>
 						<testmodule
+						id="061a3d1c-ff83-4d68-bd37-7eef28db4086"
+						name="SolicitudPoliza_BuscarGrupo">
+						</testmodule>
+						<testmodule
+						id="314bab84-9418-45b0-81f4-7ad87eee30ec"
+						name="BuscarGrupos">
+						</testmodule>
+						<testmodule
+						id="ca302116-1807-4f42-a7e3-bf2cf28808e4"
+						name="Selecciona_CodigoAgente">
+						</testmodule>
+						<testmodule
 						id="4c7dfd8a-b3f1-403e-a791-1cbde83c1ea9"
 						name="NuevaPolizaAP">
 						</testmodule>
@@ -16816,6 +16987,10 @@
 						<testmodule
 						id="2505af8c-6293-4de7-a37b-fb754ba35351"
 						name="BuscarGrupos">
+						</testmodule>
+						<testmodule
+						id="08d1263f-9ac2-400f-85a0-dc87b0656ed8"
+						name="Selecciona_CodigoAgente">
 						</testmodule>
 						<testmodule
 						id="bfbfa129-1fb8-4e0c-9f67-343daf554b9c"
@@ -20296,6 +20471,9 @@
 			id="0570b480-9d56-4c17-870e-4b2782417848">
 			</testcontainer>
 			<testcontainer
+			id="08f924a5-23fa-4ff9-8fa5-98c2403b0985">
+			</testcontainer>
+			<testcontainer
 			id="0a7360c9-5f5e-42d0-82cc-4a7a6617d15c">
 			</testcontainer>
 			<testcontainer
@@ -20312,6 +20490,9 @@
 			</testcontainer>
 			<testcontainer
 			id="1763fda0-9142-451e-922c-07d0fbb76199">
+			</testcontainer>
+			<testcontainer
+			id="17a64f92-15c9-4247-bc28-454674cebebe">
 			</testcontainer>
 			<testcontainer
 			id="1c0c987c-120e-4c81-9877-d784e1b38787">
@@ -20383,6 +20564,9 @@
 			id="58677d49-0e24-40c7-b5fe-309cc34a26d4">
 			</testcontainer>
 			<testcontainer
+			id="59a492f3-bdc2-4754-90ed-19bc0b04c3af">
+			</testcontainer>
+			<testcontainer
 			id="5c7b1279-38e4-4893-a3b8-18e476d94bf7">
 			</testcontainer>
 			<testcontainer
@@ -20402,6 +20586,9 @@
 			</testcontainer>
 			<testcontainer
 			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b">
+			</testcontainer>
+			<testcontainer
+			id="6cbcb160-da52-4e44-b304-38fe19aff4c3">
 			</testcontainer>
 			<testcontainer
 			id="6d8919d7-4e56-4c75-91b5-ad61b240bbcb">

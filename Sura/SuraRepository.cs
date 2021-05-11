@@ -85,7 +85,7 @@ namespace Sura
             set { _OPCION_PAGOCUOTAS = value; }
         }
 
-        string _NUM_GRUPO = "Campoli";
+        string _NUM_GRUPO = "Corporativos Directo";
 
         /// <summary>
         /// Gets or sets the value of variable NUM_GRUPO.
@@ -397,7 +397,7 @@ namespace Sura
             set { _Anio = value; }
         }
 
-        string _Ambiente = "ssurgwsoadev4-oci.opc.oracleoutsourcing.com";
+        string _Ambiente = "i-preproducciongestion.segurossura.com.ar";
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -565,7 +565,7 @@ namespace Sura
             set { _NombreCobertura = value; }
         }
 
-        string _CodigoAgente = "";
+        string _CodigoAgente = "6965";
 
         /// <summary>
         /// Gets or sets the value of variable CodigoAgente.
@@ -4556,7 +4556,7 @@ namespace Sura
                 _copy_of_listcantcuotasInfo = new RepoItemInfo(this, "Copy_of_listCantCuotas", ".//div[#'SubmissionWizard/PolicyInfo']/table//span[@innertext~'Cantidad de cuotas']/../..//input[@data-tabindexsaved='True']", "", 30000, null, "9da199dc-9615-44b1-ba08-b5bb21ff1300");
                 _rb_pagocuotasInfo = new RepoItemInfo(this, "rb_PagoCuotas", ".//span[@innertext~'Pago en Cuotas']/../..//label[@innertext~$OPCION_PAGOCUOTAS]/../..//input", "", 30000, null, "9d1173a0-fbab-4ce1-9af7-a4f9afc14c55");
                 _copy_of_option_pagocuotasInfo = new RepoItemInfo(this, "Copy_of_option_PagoCuotas", ".//span[@innertext~'Pago en Cuotas']/../..//label[@innertext~$OPCION_PAGOCUOTAS]/../..//input[@data-tabindexsaved='True']", "", 30000, null, "78146f5d-d1e3-4075-b04f-eed8c8ee8cb6");
-                _copy_of_list_metododepagoInfo = new RepoItemInfo(this, "Copy_of_list_MetodoDePago", ".//table//span[@innertext~'Método de Pago' and @data-tabindexsaved='True']", "", 30000, null, "f9ce8d2f-1f9a-47fc-af5f-0f48c9fee6b8");
+                _copy_of_list_metododepagoInfo = new RepoItemInfo(this, "Copy_of_list_MetodoDePago", ".//table//span[@innertext~'Método de Pago']/../..//input[@data-tabindexsaved='True']", "", 30000, null, "f9ce8d2f-1f9a-47fc-af5f-0f48c9fee6b8");
                 _list_metododepagoInfo = new RepoItemInfo(this, "list_MetodoDePago", ".//table//span[@innertext~'Método de Pago']/../..//input", "", 30000, null, "dbb47d0b-2799-44a1-a217-e847d6d55bc9");
                 _lbl_nrodevehiculoInfo = new RepoItemInfo(this, "lbl_NroDeVehiculo", ".//div[#'SubmissionWizard/VehicleList']/table/tbody//span[@innertext='Nro de Vehículo' and @visible='True']", "", 30000, null, "bf2dd0e6-253d-4b95-bc18-9c38cbbbb096");
                 _btn_guardarborradorInfo = new RepoItemInfo(this, "btn_GuardarBorrador", ".//div[#'SubmissionWizard/VehicleList']/table/tbody//span[@innertext='Guardar borrador' and @visible='True']", "", 30000, null, "e0caf11d-1a0f-49ec-877c-2184a8490f18");
@@ -4770,11 +4770,11 @@ namespace Sura
             /// The Copy_of_list_MetodoDePago item.
             /// </summary>
             [RepositoryItem("f9ce8d2f-1f9a-47fc-af5f-0f48c9fee6b8")]
-            public virtual Ranorex.SpanTag Copy_of_list_MetodoDePago
+            public virtual Ranorex.InputTag Copy_of_list_MetodoDePago
             {
                 get
                 {
-                    return _copy_of_list_metododepagoInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                    return _copy_of_list_metododepagoInfo.CreateAdapter<Ranorex.InputTag>(true);
                 }
             }
 
@@ -17957,6 +17957,8 @@ namespace Sura
             RepoItemInfo _montopagarInfo;
             RepoItemInfo _bttn_ejecutarInfo;
             RepoItemInfo _btn_xInfo;
+            RepoItemInfo _lbl_clienteconpolizasdeotrogrupocomercialcofInfo;
+            RepoItemInfo _copy_of_bttn_elegircofInfo;
 
             /// <summary>
             /// Creates a new SURA_ContinueOnFail  folder.
@@ -17975,6 +17977,8 @@ namespace Sura
                 _montopagarInfo = new RepoItemInfo(this, "montoPagar", ".//div[#'NewDirectBillPayment/distributionCard']/table//table[@class~'summary']//a[@innertext~'[0-9]']", "", 0, null, "efc51669-a4ea-4aef-b994-dc621e129b47");
                 _bttn_ejecutarInfo = new RepoItemInfo(this, "bttn_Ejecutar", ".//div[#'NewDirectBillPayment/distributionCard']/table//span[@innertext~'Ejectar']", "", 0, null, "7fed52b1-4ec0-4ee1-afd5-82e76fa75a82");
                 _btn_xInfo = new RepoItemInfo(this, "btn_x", ".//div[#'SubmissionWizard/VehicleList']//img[@src='https://ssurgwsoadev4-oci.opc.oracleoutsourcing.com/pc/resources/themes/theme-9/resources/images/app/calendar_close.png']", "", 0, null, "99fa2ae0-928f-4a4f-8705-c87e2e5758bd");
+                _lbl_clienteconpolizasdeotrogrupocomercialcofInfo = new RepoItemInfo(this, "lbl_ClienteConPolizasDeotroGrupoComercialCOF", ".//tbody[#'NewSubmission-tbody']//div[@innertext>'El cliente posee póliza/s']", "", 0, null, "7891d515-2917-4e9d-8ce2-9a644b292767");
+                _copy_of_bttn_elegircofInfo = new RepoItemInfo(this, "Copy_of_bttn_ElegirCOF", ".//tbody[#'NewSubmission-tbody']//div[@innertext=$TIPOPOLIZA]/../..//a[@innertext='Elegir']", "", 0, null, "9a5475d8-9c52-476e-b0ad-ef87b98efa08");
             }
 
             /// <summary>
@@ -18262,6 +18266,54 @@ namespace Sura
                 get
                 {
                     return _btn_xInfo;
+                }
+            }
+
+            /// <summary>
+            /// The lbl_ClienteConPolizasDeotroGrupoComercialCOF item.
+            /// </summary>
+            [RepositoryItem("7891d515-2917-4e9d-8ce2-9a644b292767")]
+            public virtual Ranorex.DivTag lbl_ClienteConPolizasDeotroGrupoComercialCOF
+            {
+                get
+                {
+                    return _lbl_clienteconpolizasdeotrogrupocomercialcofInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The lbl_ClienteConPolizasDeotroGrupoComercialCOF item info.
+            /// </summary>
+            [RepositoryItemInfo("7891d515-2917-4e9d-8ce2-9a644b292767")]
+            public virtual RepoItemInfo lbl_ClienteConPolizasDeotroGrupoComercialCOFInfo
+            {
+                get
+                {
+                    return _lbl_clienteconpolizasdeotrogrupocomercialcofInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_bttn_ElegirCOF item.
+            /// </summary>
+            [RepositoryItem("9a5475d8-9c52-476e-b0ad-ef87b98efa08")]
+            public virtual Ranorex.ATag Copy_of_bttn_ElegirCOF
+            {
+                get
+                {
+                    return _copy_of_bttn_elegircofInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Copy_of_bttn_ElegirCOF item info.
+            /// </summary>
+            [RepositoryItemInfo("9a5475d8-9c52-476e-b0ad-ef87b98efa08")]
+            public virtual RepoItemInfo Copy_of_bttn_ElegirCOFInfo
+            {
+                get
+                {
+                    return _copy_of_bttn_elegircofInfo;
                 }
             }
         }
