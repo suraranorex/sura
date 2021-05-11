@@ -399,7 +399,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="061a3d1c-ff83-4d68-bd37-7eef28db4086"
 			name="SolicitudPoliza_BuscarGrupo"
 			ref="29d3ce62-0a4b-4b17-b28c-f81e165623c5"
@@ -2731,7 +2730,6 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
-			enabled="False"
 			id="314bab84-9418-45b0-81f4-7ad87eee30ec"
 			name="BuscarGrupos"
 			ref="ccb0676d-cbbf-4ccf-866a-4c5daaaf449f"
@@ -4286,7 +4284,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="4c7dfd8a-b3f1-403e-a791-1cbde83c1ea9"
 			name="NuevaPolizaAP"
 			ref="b5cf3409-0458-4fe8-816b-76a8218e1813"
@@ -6574,7 +6571,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="74cdeecf-0f14-4259-b890-48a0f3f583a9"
 			name="MenuLateral_CuentaPC"
 			ref="5bb086e1-d816-4abc-b088-2dff0422adbb"
@@ -8043,7 +8039,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="90c00c7d-bd8a-469a-8231-4f4184087751"
 			name="MenuSuperior_CuentaPC"
 			ref="bf174612-568c-4bc4-9383-74a62c199f00"
@@ -11567,7 +11562,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="ca302116-1807-4f42-a7e3-bf2cf28808e4"
 			name="Selecciona_CodigoAgente"
 			ref="eab3bf49-07df-416c-aab5-78498dfaff11"
@@ -12112,7 +12106,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="d26e5da0-9421-4238-a053-20492b801e65"
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
@@ -12437,7 +12430,6 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
-			enabled="False"
 			id="d8191412-cacf-42e0-9288-92ffdb3713f1"
 			name="Login"
 			ref="acd97189-4d27-4333-b80e-4298b8446c8c"
