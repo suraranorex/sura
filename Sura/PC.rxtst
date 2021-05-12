@@ -5175,7 +5175,6 @@
 			junitreport="False"
 			name="PC"
 			overwritefilechecked="False"
-			progressdialog="False"
 			reportcompress="False"
 			reportdirectoryname="Reports"
 			reportenabled="True"
@@ -19028,7 +19027,7 @@
 		filename="DataSource - Emision Motor - Inspeccion.xlsx"
 		id="57de8235-dafd-439c-8aec-d9dbd80dc2fc"
 		includefile="Checked"
-		lastknownrowcount="16"
+		lastknownrowcount="17"
 		name="EmisionMotor_Inspeccion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -19642,9 +19641,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - ABM_Accesorios.xlsx"
+		filename="DataSource - Endoso - ABM_Accesorios.xlsx"
 		id="d4070bed-204a-4d53-8204-140c04b71ec1"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="1"
 		name="Endoso_ABM_Accesorio"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -19680,9 +19679,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\Endoso_ABM_Conductor_Propietario.xlsx"
+		filename="Endoso_ABM_Conductor_Propietario.xlsx"
 		id="67532d8f-891a-47ca-b6f9-d5cc605068f6"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="2"
 		name="Endoso_ABM_Conductor_Propietario"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -19721,9 +19720,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\Endoso_ABMAsistencia.xlsx"
+		filename="Endoso_ABMAsistencia.xlsx"
 		id="e0e8b194-bf7b-4981-9d6c-5b3aee32c591"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="2"
 		name="Endoso_ABMAsistencia"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -19756,10 +19755,10 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - Cambio Conducto de Pago.xlsx"
+		filename="DataSource - Endoso - Cambio Conducto de Pago.xlsx"
 		id="818c7ee4-63e3-42ce-8154-1edc880a381a"
-		includefile="Unchecked"
-		lastknownrowcount="4"
+		includefile="Checked"
+		lastknownrowcount="3"
 		name="Endoso_ConductoPago"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -19791,9 +19790,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - Modificacion de Datos.xlsx"
+		filename="DataSource - Endoso - Modificacion de Datos.xlsx"
 		id="cb58867e-8b51-4b67-970f-23ca6b6f925c"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="Endoso_Datos"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -19917,9 +19916,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - ABM_Ajuste.xlsx"
+		filename="DataSource - Endoso - ABM_Ajuste.xlsx"
 		id="c87f87a2-404a-441d-9017-c16f879ed46c"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="2"
 		name="Endoso_M_ABM_Ajuste"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -19952,9 +19951,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - Adicional.xlsx"
+		filename="DataSource - Endoso - Adicional.xlsx"
 		id="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="2"
 		name="Endoso_M_Adicional"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -19987,7 +19986,7 @@
 		filename="Endoso_Modificacion_De_Coberturas.xlsx"
 		id="866ad346-f76c-434d-b308-7f2ff0c1e4c7"
 		includefile="Checked"
-		lastknownrowcount="6"
+		lastknownrowcount="3"
 		name="Endoso_ModificacionDeCoberturas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -20022,9 +20021,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - Devolucion.xlsx"
+		filename="DataSource - Endoso - Devolucion.xlsx"
 		id="ad241491-a58d-4c38-9742-a890887c218f"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="2"
 		name="Endoso_Motor_Devolucion"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -20054,9 +20053,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - Cambio Plan de Pagos.xlsx"
+		filename="DataSource - Endoso - Cambio Plan de Pagos.xlsx"
 		id="e4385810-4193-4f35-aa0d-58d151e3b945"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="2"
 		name="Endoso_PlanPagos"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -20092,10 +20091,10 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - Modificacion de Suma Asegurada.xlsx"
+		filename="DataSource - Endoso - Modificacion de Suma Asegurada.xlsx"
 		id="fdd643d7-b2e7-4f9a-aba1-d6374544a108"
-		includefile="Unchecked"
-		lastknownrowcount="6"
+		includefile="Checked"
+		lastknownrowcount="5"
 		name="Endoso_SumaAsegurada"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -20239,10 +20238,10 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Endoso - Carta de Danios.xlsx"
+		filename="DataSource - Endoso - Carta de Danios.xlsx"
 		id="2d13861a-4919-438c-8ade-ce4bcf1cc753"
-		includefile="Unchecked"
-		lastknownrowcount="5"
+		includefile="Checked"
+		lastknownrowcount="3"
 		name="EndosoM_CartaDanios"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -20453,7 +20452,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="Emisiones">
+	default="Endosos_Motor">
 		<testconfiguration
 		name="Emisiones">
 			<testcontainer
