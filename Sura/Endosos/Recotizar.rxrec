@@ -43,6 +43,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<mouseitem
@@ -128,6 +130,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Cotiar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="e5d1a009-5082-4a03-a7ab-6cbaa0f18679">
@@ -166,6 +170,22 @@ ftI9yeioPtX+x+tH2r/Y/WjkkP2ke5PUJD7YynZeRn6Ui3OWA2dT60i3G1QNnQY60ckhe0j3FQTg
 BSWAx1JBpyebuXdux3zim/av9j9aPtX+x+tPll2Fzx7k9FQfav8AY/Wj7V/sfrS5JFe0j3P/2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<userrecorditem
+		autogenmethod="True"
+		classname="Recotizar"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="AprobacionBloqueo"
+		namespace="Sura.Emision"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="bb45dccb-1bd2-44ec-a48d-c1005cd0c0cb">
+			</arguments>
+		</userrecorditem>
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"
@@ -182,6 +202,8 @@ BSWAx1JBpyebuXdux3zim/av9j9aPtX+x+tPll2Fzx7k9FQfav8AY/Wj7V/sfrS5JFe0j3P/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext='Cotización']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

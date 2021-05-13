@@ -20321,9 +20321,9 @@
 			</file>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - TarjetaCred.xlsx"
+		filename="DataSource - TarjetaCred.xlsx"
 		id="9bd508f3-8c74-4fa5-b8ee-06df720b1a27"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="TarjetaCred"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -20344,9 +20344,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - TarjetaDeb.xlsx"
+		filename="DataSource - TarjetaDeb.xlsx"
 		id="0e8b139d-f9d8-4e11-aa3e-7755b02c7c33"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="1"
 		name="TarjetaDeb"
 		type="Ranorex.Core.Data.ExcelDataConnector"

@@ -112,6 +112,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext~'Emitir Endoso' or @innertext~'Emtir Endoso']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -197,6 +199,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//span[@innertext~'Aceptar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="12b8acd6-8550-4515-ad26-4baf2b773f27">
@@ -229,6 +233,22 @@ HTPU/wD6q2qiubeO6i8uQHrlWHBU9iD61XX+00jKkWsjDgOWZc+5AH9aG7jSsBihl1KYSKh2wxgZ
 W+y2v9yP8hRVmii7DlXYKKKKRQUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 			</helperscreenshot>
 		</mouseitem>
+		<userrecorditem
+		autogenmethod="True"
+		classname="EmitirEndoso"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="AprobacionBloqueo"
+		namespace="Sura.Emision"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="bb45dccb-1bd2-44ec-a48d-c1005cd0c0cb">
+			</arguments>
+		</userrecorditem>
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"
@@ -245,6 +265,8 @@ W+y2v9yP8hRVmii7DlXYKKKKRQUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'JobComplete-tbody']//span[@innertext&gt;'Solicitud de Endoso Emiti']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<loggingrecorditem
@@ -265,6 +287,8 @@ W+y2v9yP8hRVmii7DlXYKKKKRQUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<getvaluerecorditem
@@ -337,6 +361,8 @@ W+y2v9yP8hRVmii7DlXYKKKKRQUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'JobComplete-tbody']//label[@innertext&gt;'Se contrat&#243; Solicitud de Endoso']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<separatoritem
@@ -450,6 +476,8 @@ W+y2v9yP8hRVmii7DlXYKKKKRQUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'JobComplete-tbody']//div[@innertext='Revisar cambios']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -468,6 +496,8 @@ W+y2v9yP8hRVmii7DlXYKKKKRQUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Cotización']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<loggingrecorditem
@@ -552,6 +582,8 @@ W+y2v9yP8hRVmii7DlXYKKKKRQUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 				<path>
 					/dom[@domain=$Ambiente]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 	</recorditems>

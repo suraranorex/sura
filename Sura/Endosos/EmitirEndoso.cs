@@ -110,31 +110,34 @@ namespace Sura.Endosos
             repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar.Click("11;4");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos.Txt_Validacion.txt_SolicitudDeEndosoEmitida'", repo.SURA.PC.Endosos.Txt_Validacion.txt_SolicitudDeEndosoEmitidaInfo, new ActionTimeout(45000), new RecordItemIndex(2));
+            AprobacionBloqueo();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos.Txt_Validacion.txt_SolicitudDeEndosoEmitida'", repo.SURA.PC.Endosos.Txt_Validacion.txt_SolicitudDeEndosoEmitidaInfo, new ActionTimeout(45000), new RecordItemIndex(3));
             repo.SURA.PC.Endosos.Txt_Validacion.txt_SolicitudDeEndosoEmitidaInfo.WaitForExists(45000);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(3));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(4));
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.PC.Endosos.Txt_Validacion.txt_NumeroSolicitudEndoso' and assigning the part of its value captured by '[0-9]{10}' to variable 'NumSolicitudEndoso'.", repo.SURA.PC.Endosos.Txt_Validacion.txt_NumeroSolicitudEndosoInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.PC.Endosos.Txt_Validacion.txt_NumeroSolicitudEndoso' and assigning the part of its value captured by '[0-9]{10}' to variable 'NumSolicitudEndoso'.", repo.SURA.PC.Endosos.Txt_Validacion.txt_NumeroSolicitudEndosoInfo, new RecordItemIndex(5));
             NumSolicitudEndoso = repo.SURA.PC.Endosos.Txt_Validacion.txt_NumeroSolicitudEndoso.Element.GetAttributeValueText("InnerText", new Regex("[0-9]{10}"));
             Delay.Milliseconds(0);
             
             // El número de endoso emitido es:
-            Report.Log(ReportLevel.Info, "Section", "El número de endoso emitido es:", new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Section", "El número de endoso emitido es:", new RecordItemIndex(6));
             
-            Report.Log(ReportLevel.Info, "User", NumSolicitudEndoso, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "User", NumSolicitudEndoso, new RecordItemIndex(7));
             
             // Validación del Tipo de Endoso realizado
-            Report.Log(ReportLevel.Info, "Section", "Validación del Tipo de Endoso realizado", new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Section", "Validación del Tipo de Endoso realizado", new RecordItemIndex(8));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.btn_RevisarCambios' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.btn_RevisarCambiosInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.btn_RevisarCambios' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.btn_RevisarCambiosInfo, new RecordItemIndex(9));
             repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.btn_RevisarCambios.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos.Txt_Validacion.txt_Cotizacion'", repo.SURA.PC.Endosos.Txt_Validacion.txt_CotizacionInfo, new ActionTimeout(45000), new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos.Txt_Validacion.txt_Cotizacion'", repo.SURA.PC.Endosos.Txt_Validacion.txt_CotizacionInfo, new ActionTimeout(45000), new RecordItemIndex(10));
             repo.SURA.PC.Endosos.Txt_Validacion.txt_CotizacionInfo.WaitForExists(45000);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(10));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(11));
             
         }
 
