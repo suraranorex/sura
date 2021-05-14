@@ -107,6 +107,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<explicitdelayitem
@@ -201,6 +203,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span/span/span[@innertext~'Siguiente &gt;']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -286,6 +290,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span/span/span[@innertext~'Siguiente &gt;']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -304,6 +310,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span/span/span[@innertext~'Siguiente &gt;']/../..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<WaitForRecordItem
@@ -347,6 +355,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[4]/td/div/div[2]/div/div/div[1]/div/span/?/?/span[@innertext='Descuento']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

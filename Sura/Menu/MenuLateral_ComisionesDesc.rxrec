@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="8c5cb056-0cce-46b3-abf2-22c402bebba6"
+id="fc789ccc-67c3-4565-a4db-036a4a54ce3f"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="MenuLateral_Vehiculo"
+	classname="MenuLateral_ComisionesDesc"
 	namespace="Sura.Menu">
 	</codegen>
 	<variables>
@@ -33,19 +33,19 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="92607960-6779-4db0-9d89-063e4695952e"
-		sx="118"
-		sy="265"
+		searchpropertyid="b90099d4-0c82-4f20-8223-f67e05807209"
+		sx="0"
+		sy="0"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="a039f5bb-e003-448e-89c7-4ca17791e8d2"
+			id="a09d60c3-f650-42d1-9ad4-41b59a4f0faf"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'westPanel-innerCt']//span[@innertext='Vehículos']
+					/dom[@domain=$Ambiente]//span[@innertext~'Comisiones / Descuentos' and @visible='true']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -54,7 +54,7 @@ mode="Global">
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"
-		searchpropertyid="c7dcc51b-d253-430d-ad2b-4d87b1bcd2de"
+		searchpropertyid="342b007b-8096-4b87-8e71-36dd9f6a29de"
 		waitaction="Exists"
 		waittimeout="30000ms">
 			<comment>
@@ -62,10 +62,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="beaf2548-e92d-46d3-93b0-5ba32a1df2c2"
+			id="b71b8bbc-8e19-4684-b41c-f342c2aa2a01"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Vehículos']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext~'Comisiones / Descuentos']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -87,7 +87,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		MenuLateral_Vehiculo.UserCode.cs
+		MenuLateral_ComisionesDesc.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

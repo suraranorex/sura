@@ -50,8 +50,10 @@ mode="Global">
 			id="0a77bbd8-eb21-4697-a985-4008914924eb"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//tbody//span[@innertext='Veh&#237;culos']
+					/dom[@domain=$Ambiente]//tbody//span[@innertext='Vehículos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<explicitdelayitem
@@ -146,6 +148,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[5]//table/tbody/tr[3]/td/div/div[1]/div[1]/div[2]/div/a[3]//span[@innertext='Coberturas Adicionales']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="0b403116-a4b9-4a79-a8bc-d488e42c6249">
@@ -260,6 +264,8 @@ Mf8Ad/WigD//2Q==
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[5]//table/tbody/tr[3]/td/div/div[2]/?/?/table/tbody/tr/td/div/table/?/?/tr//div[@innertext~'$']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="3c43a0e9-2aa7-4482-8631-526d3ed53ae8">
@@ -446,6 +452,8 @@ Q/woAfRTNjf89X/If4UbG/56v+Q/woAfRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[5]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table//div/table//fieldset/div/div/div/div/div/div/div[1]/input[@name='PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:AddCovs:CA7SpecialAdditionalCoveragesDV:8:CA7CoverageInputSet:CovPatternInputGroup:0:CovTermInputSet:OptionTermInput']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -484,6 +492,8 @@ Q/woAfRTNjf89X/If4UbG/56v+Q/woAfRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input[@id='PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:AddCovs:CA7SpecialAdditionalCoveragesDV:11:CA7CoverageInputSet:CovPatternInputGroup:0:CovTermInputSet:OptionTermInput-inputEl']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
@@ -644,6 +654,8 @@ Q/woAfRTNjf89X/If4UbG/56v+Q/woAfRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[5]//table/tbody/tr[3]/td/div/div[2]/?/?/table//div/table//div/table//fieldset/div/div/div/div/div/div/div[1]/input[@name='PolicyChangeWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:AddCovs:CA7SpecialAdditionalCoveragesDV:8:CA7CoverageInputSet:CovPatternInputGroup:0:CovTermInputSet:OptionTermInput']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -666,8 +678,10 @@ Q/woAfRTNjf89X/If4UbG/56v+Q/woAfRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
 			id="0a77bbd8-eb21-4697-a985-4008914924eb"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//tbody//span[@innertext='Veh&#237;culos']
+					/dom[@domain=$Ambiente]//tbody//span[@innertext='Vehículos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -692,6 +706,8 @@ Q/woAfRTNjf89X/If4UbG/56v+Q/woAfRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
 				<path>
 					/dom[@domain=$Ambiente]//table//span[@innertext~'Re-Cotiar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -777,6 +793,8 @@ Q/woAfRTNjf89X/If4UbG/56v+Q/woAfRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
 				<path>
 					/dom[@domain=$Ambiente]//table//span[@innertext~'Re-Cotiar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="a737b714-8d42-489e-b9e0-835137b69ba2">
@@ -832,8 +850,10 @@ qBUlFFAm29wooooEFFFFAH//2Q==
 			id="6b482fab-0202-45af-8df3-5be92077ea7d"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Cotizaci&#243;n']
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Cotización']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

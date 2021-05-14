@@ -60,6 +60,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext~'Emitir Endoso' or @innertext~'Emtir Endoso']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -145,6 +147,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//span[@innertext~'Aceptar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="12b8acd6-8550-4515-ad26-4baf2b773f27">
@@ -191,8 +195,10 @@ W+y2v9yP8hRVmii7DlXYKKKKRQUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 			id="d665fff0-01bf-4dd4-bc7c-b454429f172c"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Cotizaci&#243;n']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Cotización']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<loggingrecorditem
@@ -213,6 +219,8 @@ W+y2v9yP8hRVmii7DlXYKKKKRQUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<getvaluerecorditem
@@ -265,7 +273,7 @@ W+y2v9yP8hRVmii7DlXYKKKKRQUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 					<attribute
 					name="innertext"
 					type="System.String">
-						Se contrat&#243; Solicitud de Endoso (n.&#176; 0060482063), con el N.&#186; de endoso 1.
+						Se contrató Solicitud de Endoso (n.° 0060482063), con el N.º de endoso 1.
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -285,13 +293,15 @@ W+y2v9yP8hRVmii7DlXYKKKKRQUUUUAFFFFABRRRQAUUUUAFFFFAH//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'JobComplete-tbody']//label[@innertext&gt;'Se contrat&#243; Solicitud de Endoso']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<separatoritem
 		enabled="True"
 		optional="False">
 			<comment>
-				El n&#250;mero de endoso emitido es:
+				El número de endoso emitido es:
 			</comment>
 			<bindings>
 			</bindings>

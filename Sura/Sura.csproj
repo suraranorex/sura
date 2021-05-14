@@ -1573,6 +1573,18 @@
       <UserCode>true</UserCode>
       <id>240b411f-f8bc-43b6-8a97-1dd72b1093ee</id>
     </Compile>
+    <Compile Include="Endosos\EndosoAdicionalAccesorioMov.cs">
+      <BoundTo>5d1cb178-26ef-4046-9872-c90aac989a71</BoundTo>
+      <DependentUpon>EndosoAdicionalAccesorioMov.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>85b532f7-0597-41e1-a492-db2844a8dd44</id>
+    </Compile>
+    <Compile Include="Endosos\EndosoAdicionalAccesorioMov.UserCode.cs">
+      <BoundTo>5d1cb178-26ef-4046-9872-c90aac989a71</BoundTo>
+      <DependentUpon>EndosoAdicionalAccesorioMov.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8d6561d1-d5bf-45fe-ad99-c0d3f5eae9d8</id>
+    </Compile>
     <Compile Include="Endosos\EndosoBlanket_KM.cs">
       <BoundTo>5706a60b-3966-4a32-9941-f228f79c548f</BoundTo>
       <DependentUpon>EndosoBlanket_KM.rxrec</DependentUpon>
@@ -1596,6 +1608,18 @@
       <DependentUpon>EndosoComplementaria_Destino.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>359d7be9-03de-4144-8ea6-70256bfc40fd</id>
+    </Compile>
+    <Compile Include="Endosos\Endoso_Adicional.cs">
+      <BoundTo>4feddac0-7546-4ce5-873e-0d1884e502d8</BoundTo>
+      <DependentUpon>Endoso_Adicional.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d1f2eb69-2791-4dd8-b5aa-06c82d76a525</id>
+    </Compile>
+    <Compile Include="Endosos\Endoso_Adicional.UserCode.cs">
+      <BoundTo>4feddac0-7546-4ce5-873e-0d1884e502d8</BoundTo>
+      <DependentUpon>Endoso_Adicional.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>394a90bf-41e4-4421-a783-a20ee1d71afc</id>
     </Compile>
     <Compile Include="Endosos\SeleccionarVehiculos.cs">
       <BoundTo>23b71a94-9671-411a-a3aa-72648f7bcf3d</BoundTo>
@@ -1705,15 +1729,15 @@
       <id>ebe3e3a6-86e3-4745-91d3-75af5798f3c9</id>
       <BoundTo>fe0d8737-0648-48b8-97fe-5eb8ef8006e9</BoundTo>
     </Compile>
-    <Compile Include="Endosos\Endoso_Adicional.cs">
+    <Compile Include="Endosos\Endoso_Adicional_ant.cs">
       <BoundTo>b3a85b62-d628-4687-bc79-fa031bb0738d</BoundTo>
-      <DependentUpon>Endoso_Adicional.rxrec</DependentUpon>
+      <DependentUpon>Endoso_Adicional_ant.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>34c4d6ab-c31b-4b81-a864-71f8ebda84c1</id>
     </Compile>
-    <Compile Include="Endosos\Endoso_Adicional.UserCode.cs">
+    <Compile Include="Endosos\Endoso_Adicional_ant.UserCode.cs">
       <BoundTo>b3a85b62-d628-4687-bc79-fa031bb0738d</BoundTo>
-      <DependentUpon>Endoso_Adicional.rxrec</DependentUpon>
+      <DependentUpon>Endoso_Adicional_ant.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>b446e1b5-595c-40c1-b513-c31b0b868ba5</id>
     </Compile>
@@ -2298,6 +2322,18 @@
       <DependentUpon>Ver_CertificadoPagosAlDia.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>cd6d4ec9-ee90-4f43-a043-67c992670ade</id>
+    </Compile>
+    <Compile Include="Menu\MenuLateral_ComisionesDesc.cs">
+      <BoundTo>e9c8cd6d-0fbe-4957-a145-b6c92193de61</BoundTo>
+      <DependentUpon>MenuLateral_ComisionesDesc.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7fa3d5e6-a11d-4331-b312-fdfc929cb3f0</id>
+    </Compile>
+    <Compile Include="Menu\MenuLateral_ComisionesDesc.UserCode.cs">
+      <BoundTo>e9c8cd6d-0fbe-4957-a145-b6c92193de61</BoundTo>
+      <DependentUpon>MenuLateral_ComisionesDesc.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>115acb75-63f4-4210-81e5-32695f4d5349</id>
     </Compile>
     <Compile Include="Menu\MenuLateral_CuentaBC.cs">
       <DependentUpon>MenuLateral_CuentaBC.rxrec</DependentUpon>
@@ -3689,6 +3725,11 @@
       <id>15b51250-a93c-4be6-b0df-2749b4bd17d4</id>
       <recordtableid>0c5da5c9-1955-472d-b029-44e8e8ca2ca5</recordtableid>
     </None>
+    <None Include="Endosos\EndosoAdicionalAccesorioMov.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>5d1cb178-26ef-4046-9872-c90aac989a71</id>
+      <recordtableid>62d87fbd-b73b-4826-ab61-a4ab39229874</recordtableid>
+    </None>
     <None Include="Endosos\EndosoBlanket_KM.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>5706a60b-3966-4a32-9941-f228f79c548f</id>
@@ -3698,6 +3739,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>10507784-2a8f-4014-9efc-e3f960a208e5</id>
       <recordtableid>b0f1dc45-9887-440d-9137-524ff49589e5</recordtableid>
+    </None>
+    <None Include="Endosos\Endoso_Adicional.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>4feddac0-7546-4ce5-873e-0d1884e502d8</id>
+      <recordtableid>84ab8c1c-1423-4954-90bd-c113a34252eb</recordtableid>
     </None>
     <None Include="Endosos\SeleccionarVehiculos.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -3744,7 +3790,7 @@
       <id>fe0d8737-0648-48b8-97fe-5eb8ef8006e9</id>
       <recordtableid>784aa57b-4ed0-413a-b2a6-43210f76ff7e</recordtableid>
     </None>
-    <None Include="Endosos\Endoso_Adicional.rxrec">
+    <None Include="Endosos\Endoso_Adicional_ant.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>b3a85b62-d628-4687-bc79-fa031bb0738d</id>
       <recordtableid>b4ea2874-0be6-4be0-b1e7-a4f7d629c87d</recordtableid>
@@ -4017,6 +4063,11 @@
     <None Include="iTextSharp.xml">
       <id>6b0d3a58-62bf-4c28-9e36-f9b3049d4801</id>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Menu\MenuLateral_ComisionesDesc.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>e9c8cd6d-0fbe-4957-a145-b6c92193de61</id>
+      <recordtableid>fc789ccc-67c3-4565-a4db-036a4a54ce3f</recordtableid>
     </None>
     <None Include="Menu\MenuLateral_CuentaBC.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>

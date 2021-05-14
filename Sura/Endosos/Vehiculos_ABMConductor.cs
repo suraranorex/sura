@@ -163,44 +163,59 @@ namespace Sura.Endosos
             repo.SURA.PC.Endosos2.PolicyChangeWizardLOBWizardStepGroupLi1.Apellido.PressKeys(Apellido);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.PC.Emision.Bttn_Generales.bttn_Aceptar' at Center.", repo.SURA.PC.Endosos2.PC.Emision.Bttn_Generales.bttn_AceptarInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos.Motor.txt_FechaNacConductor' at Center.", repo.SURA.PC.Endosos.Motor.txt_FechaNacConductorInfo, new RecordItemIndex(10));
+            repo.SURA.PC.Endosos.Motor.txt_FechaNacConductor.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '13/12/1980' with focus on 'SURA.PC.Endosos.Motor.txt_FechaNacConductor'.", repo.SURA.PC.Endosos.Motor.txt_FechaNacConductorInfo, new RecordItemIndex(11));
+            repo.SURA.PC.Endosos.Motor.txt_FechaNacConductor.PressKeys("13/12/1980");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.InformacionDelConductor' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.InformacionDelConductorInfo, new RecordItemIndex(12));
+            repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.InformacionDelConductor.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Endosos.Motor.Copy_of_txt_FechaNacConductor'", repo.SURA.PC.Endosos.Motor.Copy_of_txt_FechaNacConductorInfo, new ActionTimeout(30000), new RecordItemIndex(13));
+            repo.SURA.PC.Endosos.Motor.Copy_of_txt_FechaNacConductorInfo.WaitForNotExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.PC.Emision.Bttn_Generales.bttn_Aceptar' at Center.", repo.SURA.PC.Endosos2.PC.Emision.Bttn_Generales.bttn_AceptarInfo, new RecordItemIndex(14));
             repo.SURA.PC.Endosos2.PC.Emision.Bttn_Generales.bttn_Aceptar.Click();
             Delay.Milliseconds(0);
             
             // Fin escritura apellido y nombre
-            Report.Log(ReportLevel.Info, "Section", "Fin escritura apellido y nombre", new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Section", "Fin escritura apellido y nombre", new RecordItemIndex(15));
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_Vehiculos1'", repo.SURA.PC.Txt_Validacion.txt_Vehiculos1Info, new ActionTimeout(45000), new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_Vehiculos1'", repo.SURA.PC.Txt_Validacion.txt_Vehiculos1Info, new ActionTimeout(45000), new RecordItemIndex(16));
             repo.SURA.PC.Txt_Validacion.txt_Vehiculos1Info.WaitForExists(45000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.btn_Conductor' at Center.", repo.SURA.PC.Endosos2.btn_ConductorInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.btn_Conductor' at Center.", repo.SURA.PC.Endosos2.btn_ConductorInfo, new RecordItemIndex(17));
             repo.SURA.PC.Endosos2.btn_Conductor.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA'.", repo.SURA.SelfInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA'.", repo.SURA.SelfInfo, new RecordItemIndex(18));
             Keyboard.PrepareFocus(repo.SURA.Self);
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, 30, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NombreApellido' with focus on 'SURA'.", repo.SURA.SelfInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NombreApellido' with focus on 'SURA'.", repo.SURA.SelfInfo, new RecordItemIndex(19));
             repo.SURA.Self.EnsureVisible();
             Keyboard.Press(NombreApellido);
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgo' at Center.", repo.SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgoInfo, new RecordItemIndex(16));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgo' at Center.", repo.SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgoInfo, new RecordItemIndex(20));
             //repo.SURA.PC.Endosos2.Copy_of_cbo_UbicacionRiesgo.Click();
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(17));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(21));
             Delay.Duration(2000, false);
             
-            Report.Screenshot(ReportLevel.Info, "User", "Modificación generada por el endoso", repo.SURA.Self, false, new RecordItemIndex(18));
+            Report.Screenshot(ReportLevel.Info, "User", "Modificación generada por el endoso", repo.SURA.Self, false, new RecordItemIndex(22));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.Siguiente' at 29;8.", repo.SURA.PC.Endosos2.SiguienteInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.Siguiente' at 29;8.", repo.SURA.PC.Endosos2.SiguienteInfo, new RecordItemIndex(23));
             repo.SURA.PC.Endosos2.Siguiente.Click("29;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos2.title_Comisiones_Descuentos'", repo.SURA.PC.Endosos2.title_Comisiones_DescuentosInfo, new ActionTimeout(45000), new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos2.title_Comisiones_Descuentos'", repo.SURA.PC.Endosos2.title_Comisiones_DescuentosInfo, new ActionTimeout(45000), new RecordItemIndex(24));
             repo.SURA.PC.Endosos2.title_Comisiones_DescuentosInfo.WaitForExists(45000);
             
         }

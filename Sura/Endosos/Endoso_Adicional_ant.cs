@@ -24,29 +24,30 @@ namespace Sura.Endosos
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The InformacionDelPago_Endosos recording.
+    ///The Endoso_Adicional_ant recording.
     /// </summary>
-    [TestModule("2e8264c9-f361-4a19-9b09-9c2fe49d315b", ModuleType.Recording, 1)]
-    public partial class InformacionDelPago_Endosos : ITestModule
+    [TestModule("b4ea2874-0be6-4be0-b1e7-a4f7d629c87d", ModuleType.Recording, 1)]
+    public partial class Endoso_Adicional_ant : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
         public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static InformacionDelPago_Endosos instance = new InformacionDelPago_Endosos();
+        static Endoso_Adicional_ant instance = new Endoso_Adicional_ant();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public InformacionDelPago_Endosos()
+        public Endoso_Adicional_ant()
         {
+            Ambiente = "preproducciongestion.segurossura.com.ar";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static InformacionDelPago_Endosos Instance
+        public static Endoso_Adicional_ant Instance
         {
             get { return instance; }
         }
@@ -89,26 +90,35 @@ namespace Sura.Endosos
 
             Init();
 
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(0));
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1.5s.", new RecordItemIndex(1));
-            Delay.Duration(1500, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos.Generales.bttn_EmitirEndoso' at Center.", repo.SURA.PC.Endosos.Generales.bttn_EmitirEndosoInfo, new RecordItemIndex(2));
-            repo.SURA.PC.Endosos.Generales.bttn_EmitirEndoso.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.txt_ComisionesDescuentos' at Center.", repo.SURA.txt_ComisionesDescuentosInfo, new RecordItemIndex(0));
+            repo.SURA.txt_ComisionesDescuentos.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(3));
-            Delay.Duration(500, false);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'SURA.PC.Endosos.lbl_Descuento'", repo.SURA.PC.Endosos.lbl_DescuentoInfo, new ActionTimeout(40000), new RecordItemIndex(1));
+            repo.SURA.PC.Endosos.lbl_DescuentoInfo.WaitForExists(40000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA_ContinueOnFail.Copy_of_bttn_Aceptar_COF' at Center.", repo.SURA_ContinueOnFail.Copy_of_bttn_Aceptar_COFInfo, new RecordItemIndex(4));
-            repo.SURA_ContinueOnFail.Copy_of_bttn_Aceptar_COF.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.GestionDocumental.bttn_Ver_ConstanciaCoberturaAuto' at Center.", repo.SURA.PC.GestionDocumental.bttn_Ver_ConstanciaCoberturaAutoInfo, new RecordItemIndex(2));
+            repo.SURA.PC.GestionDocumental.bttn_Ver_ConstanciaCoberturaAuto.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos2.ModifCoberturas.title_SolicituddeEndosoEmitida'", repo.SURA.PC.Endosos2.ModifCoberturas.title_SolicituddeEndosoEmitidaInfo, new ActionTimeout(45000), new RecordItemIndex(5));
-            repo.SURA.PC.Endosos2.ModifCoberturas.title_SolicituddeEndosoEmitidaInfo.WaitForExists(45000);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '100' with focus on 'SURA.PC.GestionDocumental.bttn_Ver_ConstanciaCoberturaAuto'.", repo.SURA.PC.GestionDocumental.bttn_Ver_ConstanciaCoberturaAutoInfo, new RecordItemIndex(3));
+            repo.SURA.PC.GestionDocumental.bttn_Ver_ConstanciaCoberturaAuto.PressKeys("100");
+            Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Info, "User", "Endoso emitido", repo.SURA.Self, false, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos.lbl_Descuento' at Center.", repo.SURA.PC.Endosos.lbl_DescuentoInfo, new RecordItemIndex(4));
+            repo.SURA.PC.Endosos.lbl_Descuento.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.bttn_ReCotizar_ModifRiesgo' at Center.", repo.SURA.bttn_ReCotizar_ModifRiesgoInfo, new RecordItemIndex(5));
+            repo.SURA.bttn_ReCotizar_ModifRiesgo.MoveTo();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.bttn_ReCotizar_ModifRiesgo' at 28;5.", repo.SURA.bttn_ReCotizar_ModifRiesgoInfo, new RecordItemIndex(6));
+            repo.SURA.bttn_ReCotizar_ModifRiesgo.Click("28;5");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.txt_Cotizacion'", repo.SURA.txt_CotizacionInfo, new ActionTimeout(30000), new RecordItemIndex(7));
+            repo.SURA.txt_CotizacionInfo.WaitForExists(30000);
             
         }
 

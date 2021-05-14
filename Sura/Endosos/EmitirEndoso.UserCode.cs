@@ -65,10 +65,7 @@ namespace Sura.Endosos
 	            
 	            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA_ContinueOnFail.bttn_Aceptar4' at Center.", repo.SURA_ContinueOnFail.bttn_Aceptar4Info, new RecordItemIndex(7));
 	            //repo.SURA_ContinueOnFail.bttn_Aceptar4.Click();
-	           
-	            
-	            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPolizaInfo, new RecordItemIndex(8));
-	            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza.Click();
+	          
 	            
 	            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos.Generales.bttn_EmitirEndoso' at Center.", repo.SURA.PC.Endosos.Generales.bttn_EmitirEndosoInfo, new RecordItemIndex(8));
 	            repo.SURA.PC.Endosos.Generales.bttn_EmitirEndoso.Click();
