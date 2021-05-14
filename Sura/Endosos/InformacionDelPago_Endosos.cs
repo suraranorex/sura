@@ -101,8 +101,8 @@ namespace Sura.Endosos
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(3));
             Delay.Duration(500, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Endosos2.ModifCoberturas.bttn_Aceptar' at Center.", repo.SURA.PC.Endosos2.ModifCoberturas.bttn_AceptarInfo, new RecordItemIndex(4));
-            repo.SURA.PC.Endosos2.ModifCoberturas.bttn_Aceptar.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA_ContinueOnFail.Copy_of_bttn_Aceptar_COF' at Center.", repo.SURA_ContinueOnFail.Copy_of_bttn_Aceptar_COFInfo, new RecordItemIndex(4));
+            repo.SURA_ContinueOnFail.Copy_of_bttn_Aceptar_COF.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Endosos2.ModifCoberturas.title_SolicituddeEndosoEmitida'", repo.SURA.PC.Endosos2.ModifCoberturas.title_SolicituddeEndosoEmitidaInfo, new ActionTimeout(45000), new RecordItemIndex(5));

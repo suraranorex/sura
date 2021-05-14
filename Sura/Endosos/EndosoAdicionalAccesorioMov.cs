@@ -24,29 +24,29 @@ namespace Sura.Endosos
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Endoso_Adicional recording.
+    ///The EndosoAdicionalAccesorioMov recording.
     /// </summary>
-    [TestModule("84ab8c1c-1423-4954-90bd-c113a34252eb", ModuleType.Recording, 1)]
-    public partial class Endoso_Adicional : ITestModule
+    [TestModule("62d87fbd-b73b-4826-ab61-a4ab39229874", ModuleType.Recording, 1)]
+    public partial class EndosoAdicionalAccesorioMov : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
         public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static Endoso_Adicional instance = new Endoso_Adicional();
+        static EndosoAdicionalAccesorioMov instance = new EndosoAdicionalAccesorioMov();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Endoso_Adicional()
+        public EndosoAdicionalAccesorioMov()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Endoso_Adicional Instance
+        public static EndosoAdicionalAccesorioMov Instance
         {
             get { return instance; }
         }
@@ -89,9 +89,12 @@ namespace Sura.Endosos
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.SolapaCoberturasAdicionales' at Center.", repo.SURA.SolapaCoberturasAdicionalesInfo, new RecordItemIndex(0));
-            repo.SURA.SolapaCoberturasAdicionales.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.Accesorios.Accesorios' at Center.", repo.SURA.PC.Emision.PolizaMotor.Accesorios.AccesoriosInfo, new RecordItemIndex(0));
+            repo.SURA.PC.Emision.PolizaMotor.Accesorios.Accesorios.Click();
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Accesorios.lbl_Movilidad'", repo.SURA.PC.Emision.PolizaMotor.Accesorios.lbl_MovilidadInfo, new ActionTimeout(30000), new RecordItemIndex(1));
+            repo.SURA.PC.Emision.PolizaMotor.Accesorios.lbl_MovilidadInfo.WaitForExists(30000);
             
         }
 

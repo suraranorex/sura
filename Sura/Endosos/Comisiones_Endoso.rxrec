@@ -43,6 +43,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<mouseitem
@@ -128,6 +130,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'PolicyChangeWizard:Next']//span[@innertext='Siguiente &gt;']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="49868087-260b-444f-8a87-36e368b5c3ce">
@@ -182,8 +186,10 @@ F/KiigBqouW+UdfT2FO2J/cX8qKKADYn9xfyo2J/cX8qKKADYn9xfyooooA//9k=
 			id="b8a25ae3-5621-421e-bea1-28046e1a9489"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='An&#225;lisis de riesgo']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Análisis de riesgo']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

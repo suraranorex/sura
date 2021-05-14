@@ -868,13 +868,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
-			id="0b1e981e-f4b8-4340-8b15-38ced0b3e556"
-			name="Conductores_EndosoDevolucion"
-			ref="af4feeb3-b78e-4575-958e-f1525612f20c"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="0b61de8b-8053-4f27-b9c4-49064b891e0b"
 			name="MenuLateral_Vehiculo"
 			ref="8c5cb056-0cce-46b3-abf2-22c402bebba6"
@@ -1590,6 +1583,12 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="1b7f6d9e-e16a-466b-b261-2189c96d3c2c"
+			name="EndosoAdicionalAccesorioMov"
+			ref="62d87fbd-b73b-4826-ab61-a4ab39229874"
+			type="Recording">
 			</testmodule>
 			<testmodule
 			id="1b8e4bb9-c984-452c-b295-361ba8ff1df0"
@@ -2644,6 +2643,20 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="2f460d8b-91e1-47c7-bbf7-87014fb34372"
+			name="MenuLateral_ComisionesDesc"
+			ref="fc789ccc-67c3-4565-a4db-036a4a54ce3f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="ad241491-a58d-4c38-9742-a890887c218f"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
@@ -3771,21 +3784,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<testmodule
-			enabled="False"
-			id="4469225a-c723-4967-b8ab-995eabf0df3d"
-			name="conductoresEndosoAdicional"
-			ref="0f5ce01b-a4f3-4090-acd8-d33d37ce15e1"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</databinding>
-			</testmodule>
 			<teardown
 			id="44ca0c7c-d00a-44a3-bfad-b64a2282ce18"
 			name="teardown12">
@@ -4307,6 +4305,20 @@
 			id="4cd74419-7209-4567-ad7d-6dd39f02af64"
 			name="setup">
 			</setup>
+			<testmodule
+			id="4d58caef-b302-473b-8951-ccba9b0544c7"
+			name="Endoso_Adicional"
+			ref="84ab8c1c-1423-4954-90bd-c113a34252eb"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="4dd04f0a-fba6-49f9-8a64-da59f95b94ae"
 			name="Login"
@@ -5866,20 +5878,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			id="68dfda70-75dd-4399-b16f-b22486ed820b"
-			name="InformacionPoliza_EndosoAdicional"
-			ref="4ddbeb21-44a1-4969-a10b-e77157b885ac"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
 			id="69bc1634-3530-441f-b1a7-b1554dc159ac"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -6037,8 +6035,8 @@
 			datasource="EmisionMotor"
 			errorbehavior="ContinueNextIteration"
 			id="6c78ba4e-5834-4e12-b6f1-d0b73cc51e5b"
-			maxrange="3"
-			minrange="3"
+			maxrange="0"
+			minrange="0"
 			name="Emisión_Motor">
 			</testcase>
 			<testmodule
@@ -10706,12 +10704,6 @@
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
-			<testmodule
-			id="bf05564b-c9b3-453c-9796-b7e22a701da0"
-			name="InformacionPolizaEndosoDevolucion"
-			ref="31469c42-b44b-4d00-b86b-33d566bbcefb"
-			type="Recording">
-			</testmodule>
 			<smartfoldernode
 			id="bf1d1823-428d-4d43-a6d6-3d39c43afeb8"
 			name="SumaAseg_H">
@@ -12091,6 +12083,20 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
+			id="d237544e-091b-49fd-8d52-5d9c7bc6525c"
+			name="MenuLateral_Vehiculo"
+			ref="8c5cb056-0cce-46b3-abf2-22c402bebba6"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="d257b644-6fac-482d-9751-5cc6dcbbecc0"
 			name="OpenBrowser_PC"
 			ref="40f2ee22-6d43-40a8-8f40-05b7a81ee02d"
@@ -12691,20 +12697,6 @@
 					datasourceid="9027bcb8-f348-4440-91bd-e34ee0858dc1"
 					variableid="b047dcae-a43e-4341-b82d-66d844bb7960"
 					variablename="OPCION_PAGOCUOTAS">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
-			id="dc75be4e-2e93-4182-b0ba-27d1bcc2f00c"
-			name="Endoso_Adicional"
-			ref="b4ea2874-0be6-4be0-b1e7-a4f7d629c87d"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="6240d082-61b9-4d26-b66b-42b86ad9fd2d"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
 					</var>
 				</databinding>
 			</testmodule>
@@ -17308,20 +17300,20 @@
 						name="AltaEndoso">
 						</testmodule>
 						<testmodule
-						id="68dfda70-75dd-4399-b16f-b22486ed820b"
-						name="InformacionPoliza_EndosoAdicional">
+						id="d237544e-091b-49fd-8d52-5d9c7bc6525c"
+						name="MenuLateral_Vehiculo">
 						</testmodule>
 						<testmodule
-						id="4469225a-c723-4967-b8ab-995eabf0df3d"
-						name="conductoresEndosoAdicional">
-						</testmodule>
-						<testmodule
-						id="dc75be4e-2e93-4182-b0ba-27d1bcc2f00c"
+						id="4d58caef-b302-473b-8951-ccba9b0544c7"
 						name="Endoso_Adicional">
 						</testmodule>
 						<testmodule
 						id="c96ce4b5-4ba8-4c58-a6b3-b075bb4686bd"
 						name="EmitirEndoso">
+						</testmodule>
+						<testmodule
+						id="1b7f6d9e-e16a-466b-b261-2189c96d3c2c"
+						name="EndosoAdicionalAccesorioMov">
 						</testmodule>
 						<teardown
 						id="11e4b58e-1e76-4ced-989f-581a9727f4cd"
@@ -17364,12 +17356,8 @@
 						name="AltaEndoso">
 						</testmodule>
 						<testmodule
-						id="bf05564b-c9b3-453c-9796-b7e22a701da0"
-						name="InformacionPolizaEndosoDevolucion">
-						</testmodule>
-						<testmodule
-						id="0b1e981e-f4b8-4340-8b15-38ced0b3e556"
-						name="Conductores_EndosoDevolucion">
+						id="2f460d8b-91e1-47c7-bbf7-87014fb34372"
+						name="MenuLateral_ComisionesDesc">
 						</testmodule>
 						<testmodule
 						id="8ca902d4-586e-4911-aa2e-055848658c25"
@@ -19758,7 +19746,7 @@
 		filename="DataSource - Endoso - Cambio Conducto de Pago.xlsx"
 		id="818c7ee4-63e3-42ce-8154-1edc880a381a"
 		includefile="Checked"
-		lastknownrowcount="3"
+		lastknownrowcount="4"
 		name="Endoso_ConductoPago"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -19986,7 +19974,7 @@
 		filename="Endoso_Modificacion_De_Coberturas.xlsx"
 		id="866ad346-f76c-434d-b308-7f2ff0c1e4c7"
 		includefile="Checked"
-		lastknownrowcount="3"
+		lastknownrowcount="6"
 		name="Endoso_ModificacionDeCoberturas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -20094,7 +20082,7 @@
 		filename="DataSource - Endoso - Modificacion de Suma Asegurada.xlsx"
 		id="fdd643d7-b2e7-4f9a-aba1-d6374544a108"
 		includefile="Checked"
-		lastknownrowcount="5"
+		lastknownrowcount="6"
 		name="Endoso_SumaAsegurada"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -20241,7 +20229,7 @@
 		filename="DataSource - Endoso - Carta de Danios.xlsx"
 		id="2d13861a-4919-438c-8ade-ce4bcf1cc753"
 		includefile="Checked"
-		lastknownrowcount="3"
+		lastknownrowcount="5"
 		name="EndosoM_CartaDanios"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -20321,9 +20309,9 @@
 			</file>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - TarjetaCred.xlsx"
+		filename="DataSource - TarjetaCred.xlsx"
 		id="9bd508f3-8c74-4fa5-b8ee-06df720b1a27"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="TarjetaCred"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -20344,9 +20332,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="C:\Users\maruiz\Documents\Ranorex\RanorexStudio Projects\Sura\DataSource\DataSource - TarjetaDeb.xlsx"
+		filename="DataSource - TarjetaDeb.xlsx"
 		id="0e8b139d-f9d8-4e11-aa3e-7755b02c7c33"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="1"
 		name="TarjetaDeb"
 		type="Ranorex.Core.Data.ExcelDataConnector"

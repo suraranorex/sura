@@ -52,6 +52,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<invokeactionrecorditem
@@ -67,8 +69,10 @@ mode="Global">
 			id="461743ca-bcba-4272-bbc2-78bdb131069a"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext='Es P&#243;liza Digital?']/../..//label[@innertext~$POLIZADIGITAL]/..//input
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext='Es Póliza Digital?']/../..//label[@innertext~$POLIZADIGITAL]/..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<arguments
 			id="d4b230de-fdda-4b5d-a4e8-257917c7c3b1">
@@ -88,8 +92,10 @@ mode="Global">
 			id="25c234cd-6ebc-4083-a7a1-89102ac8a1fa"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext='Es P&#243;liza Digital?']/../..//label[@innertext~$POLIZADIGITAL]/..//input[@data-tabindexsaved='True']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//label/span[@innertext='Es Póliza Digital?']/../..//label[@innertext~$POLIZADIGITAL]/..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<keyitem
@@ -113,6 +119,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//label/span[@innertext~'Email Principal']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keyitem>
 		<keysequenceitem
@@ -136,6 +144,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//label/span[@innertext~'Email Principal']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<WaitForRecordItem
@@ -154,6 +164,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//label/span[@innertext~'Email Principal']/../..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<explicitdelayitem
@@ -183,6 +195,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 	</recorditems>

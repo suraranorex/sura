@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="88ff0f6c-b1f6-498e-a779-4abed15c14d8"
+id="b4ea2874-0be6-4be0-b1e7-a4f7d629c87d"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,10 +19,15 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Endoso_Devolucion"
+	classname="Endoso_Adicional_ant"
 	namespace="Sura.Endosos">
 	</codegen>
 	<variables>
+		<var
+		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
+		name="Ambiente">
+			preproducciongestion.segurossura.com.ar
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -33,26 +38,46 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="f4fcc82b-b6b4-44ba-b087-0f70fd743777"
-		sx="585"
-		sy="325"
+		searchpropertyid="5ac31470-f9b8-45f3-bc4c-94e88b7e8022"
+		sx="0"
+		sy="0"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="a6416078-b27c-49a3-9ebd-4ee5aac5667d"
+			id="a51d2394-20ca-4fd9-928a-9bfbdfd0c5a3"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext~'Comisiones / Descuentos' and @visible='true']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="5c69e8b6-22cf-4def-be5a-512f470d3f3e"
+		waitaction="Exists"
+		waittimeout="40000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0180a955-b600-4f58-bd2a-ffffa7bdeb18"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, divtag"
+				capabilities="webelement, spantag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
 				hasfocus="False"
 				index="0"
-				prefcap="divtag"
-				rect="526,313,118,24"
+				prefcap="spantag"
+				rect="216,280,223,16"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -60,7 +85,7 @@ mode="Global">
 					<attribute
 					name="class"
 					type="System.String">
-						x-grid-cell-inner&#32;
+						x-column-header-text
 					</attribute>
 					<attribute
 					name="draggable"
@@ -73,46 +98,78 @@ mode="Global">
 						False
 					</attribute>
 					<attribute
+					name="id"
+					type="System.String">
+						gridcolumn-2349-textEl
+					</attribute>
+					<attribute
 					name="innertext"
 					type="System.String">
+						Descuento
 					</attribute>
 					<attribute
 					name="safeclass"
 					type="System.String">
-						x-grid-cell-inner
+						x-column-header-text
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
-						div
+						span
 					</attribute>
 					<dynamicattribute
 					description="Dynamic HTML attribute."
-					name="style"
+					name="data-ref"
 					readonly="False"
 					type="System.String">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]/td/div/div[3]/div[1]/div/table[1]/tbody/tr/td[2]/div
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr/td/?/?/table/tbody/tr[4]/td/div/div[2]/div/div/div[1]/div/span/?/?/span[@innertext='Descuento']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="2d241996-1013-4be4-b040-359bbd941ebe"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="917486a9-92d3-4a21-8c7d-8d86c23bc976"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]/td/div/div[3]/div[1]/div[1]/table[1]/?/?/tr/td[2]/div
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="30"
+		KeySequence="100"
 		duration="20ms"
 		enabled="True"
 		optional="False"
 		presstime="20ms"
-		searchpropertyid="73bb722a-1213-472b-b85a-b9e31e0bcf99">
+		searchpropertyid="6d73b6ef-25d9-4ddc-a43b-bc8824eab855">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="a6416078-b27c-49a3-9ebd-4ee5aac5667d"
+			id="917486a9-92d3-4a21-8c7d-8d86c23bc976"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, divtag"
@@ -122,7 +179,7 @@ mode="Global">
 				hasfocus="False"
 				index="0"
 				prefcap="divtag"
-				rect="526,313,118,24"
+				rect="447,305,118,24"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -141,6 +198,11 @@ mode="Global">
 					name="hidden"
 					type="System.String">
 						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						ext-element-1126
 					</attribute>
 					<attribute
 					name="innertext"
@@ -164,7 +226,7 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]/td/div/div[3]/div[1]/div/table[1]/tbody/tr/td[2]/div
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr[4]/td/div/div[3]/div[1]/div[1]/table[1]/?/?/tr/td[2]/div
 				</path>
 				<robustPath>
 				</robustPath>
@@ -461,7 +523,7 @@ bMjjghibdHFGhxjKqBUlFFANt7hRRRQIKKKKAP/Z
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Endoso_Devolucion.UserCode.cs
+		Endoso_Adicional_ant.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

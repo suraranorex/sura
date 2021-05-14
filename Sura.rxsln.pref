@@ -5,8 +5,18 @@
   <Array name="bookmarks" />
   <Array name="files" />
   <SerializedValue name="ModuleBrowserState">
+<<<<<<< HEAD
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
   </SerializedValue>
   <ProjectBrowserState value="[Solution Sura[Sura[]]]&#xD;&#xA;Solution Sura\Sura\PC_GestionDocumental.rxtst&#xD;&#xA;Solution Sura\Sura\References" />
+=======
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{9F6470D6-24A8-4006-AA8A-74B35DD73A26}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Sura[Sura[BC.rxtst[]PC.rxtst[]PC_GestionDocumental.rxtst[]]]]&#xD;&#xA;Solution Sura\Sura\Endosos&#xD;&#xA;Solution Sura\Sura\Endosos" />
+>>>>>>> e460e24b716f3a114e0e622af843e8e0930a235d
   <StartupProject value="{9F6470D6-24A8-4006-AA8A-74B35DD73A26}" />
 </Properties>

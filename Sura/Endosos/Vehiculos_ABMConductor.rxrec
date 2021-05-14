@@ -58,6 +58,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<mouseitem
@@ -82,6 +84,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Conductor']/../..//a[@href='javascript:void(0)']/img[@src='https://ssurgwsoadev4-oci.opc.oracleoutsourcing.com/pc/resources/themes/theme-9/resources/images/app/drop_button.png']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -100,6 +104,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//div//div//a/span[@innertext~'Nuevo Conductor' and @enabled='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -185,6 +191,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[11]/div/div[2]//span[@innertext='Nuevo Conductor']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="55ee4f96-8e7b-404e-b903-6cc5f8bf1b12">
@@ -243,6 +251,8 @@ ACiiigAooooAKKKKACov+WxoooAlooooA//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//span[@innertext~'Detalles del conductor']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<separatoritem
@@ -408,6 +418,8 @@ ACiiigAooooAKKKKACov+WxoooAlooooA//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[2]/td/div/div//input[@name='CA7DriverPopup:CA7DriverScreen:CA7DriversDV:FirstName']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="f1ba0ab6-1b83-4568-8705-053989e0942e">
@@ -694,6 +706,8 @@ UUAFFFFABRRRQAUUUUAI33T9KkoopgFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[2]/td/div/div//input[@name='CA7DriverPopup:CA7DriverScreen:CA7DriversDV:FirstName']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="e180deba-f81b-49c6-89e0-775210b4cec1">
@@ -976,6 +990,8 @@ KKACiiigAqMd/qaKKAFooopAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAI33T
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[3]/td/div/div//input[@name='CA7DriverPopup:CA7DriverScreen:CA7DriversDV:LastName']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="9740b513-1dae-447a-b75c-69c3f627846d">
@@ -1262,6 +1278,8 @@ UUAFFFFABRRRQAUUUUAFFFFABRRRQB//2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/tbody/tr[3]/td/div/div//input[@name='CA7DriverPopup:CA7DriverScreen:CA7DriversDV:LastName']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="b8d8a401-7a34-4381-95bd-87038e8aec3b">
@@ -1395,6 +1413,296 @@ AKKKKACiiigAqMd/qaKKAFooopAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAI
 		loc="Center"
 		movetime="300ms"
 		optional="False"
+		searchpropertyid="5fb15c0b-017e-423a-8fb4-1e564891874c"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="49b5e0ec-cc7e-4b78-ac8d-7165ab048f63"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input[@id='CA7DriverPopup:CA7DriverScreen:CA7DriversDV:DateOfBirth-inputEl']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="13/12/1980"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="b474eb7f-6597-4880-b46e-87bbaea1257f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="49b5e0ec-cc7e-4b78-ac8d-7165ab048f63"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="375,425,151,24"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-field x-form-empty-field x-form-empty-field-default x-form-text x-form-text-default  x-form-invalid-field x-form-invalid-field-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						CA7DriverPopup:CA7DriverScreen:CA7DriversDV:DateOfBirth-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-empty-field x-form-empty-field-default x-form-field x-form-invalid-field x-form-invalid-field-default x-form-text x-form-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						CA7DriverPopup:CA7DriverScreen:CA7DriversDV:DateOfBirth
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						dd/MM/yyyy
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-errorqtip"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input[@id='CA7DriverPopup:CA7DriverScreen:CA7DriversDV:DateOfBirth-inputEl']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="76ab8b88-deaf-4d04-9a89-70f0f07f4cab"
+		sx="305"
+		sy="329"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="053c3bb8-14d5-430c-b5e4-eae9d48b9eb1"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="labeltag"
+				rect="219,320,173,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-component x-component-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						CA7DriverPopup:CA7DriverScreen:CA7DriversDV:0
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Información del conductor
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-component x-component-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//label[@innertext='Información del conductor']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="6f27ed67-ad4f-4cec-b88e-c07461cdb5c2"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c258d785-18fd-4500-8bda-a5b01279eed1"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input[@id='CA7DriverPopup:CA7DriverScreen:CA7DriversDV:DateOfBirth-inputEl' and @data-tabindexsaved='True']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
 		searchpropertyid="1239473a-4aa3-4002-94e6-c26699e1df32"
 		sx="237"
 		sy="258"
@@ -1470,6 +1778,8 @@ AKKKKACiiigAqMd/qaKKAFooopAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAI
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//span[@innertext~'Aceptar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="66319eba-91a4-4368-a745-828a1f0f7647">
@@ -1528,8 +1838,10 @@ QuPYZ5qWiigCK1uEurdZowwVs4DdeDipaKKGB//Z
 			id="0a77bbd8-eb21-4697-a985-4008914924eb"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Veh&#237;culos']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Vehículos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -1554,6 +1866,8 @@ QuPYZ5qWiigCK1uEurdZowwVs4DdeDipaKKGB//Z
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Conductor']/../../div/div/div[2]/div/div[@safeclass='x-form-arrow-trigger x-form-arrow-trigger-default x-form-trigger x-form-trigger-default']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keyitem
@@ -1641,6 +1955,8 @@ QuPYZ5qWiigCK1uEurdZowwVs4DdeDipaKKGB//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keyitem>
 		<keysequenceitem
@@ -1729,6 +2045,8 @@ QuPYZ5qWiigCK1uEurdZowwVs4DdeDipaKKGB//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="33d27c82-57c7-4579-84cf-b4073da28d49">
@@ -2104,6 +2422,8 @@ AKKKKACiiigAooooAKKKKAP/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//li[@enabled='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="5e0b8dc6-b418-4e52-8c27-f4edbea6b5c3">
@@ -2270,6 +2590,8 @@ f1+JJctlhh1W5jWNVZlVwVUDA6EfnRRRR0Bn/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<mouseitem
@@ -2355,6 +2677,8 @@ f1+JJctlhh1W5jWNVZlVwVUDA6EfnRRRR0Bn/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'PolicyChangeWizard:Next']//span[@innertext~'Siguiente &gt;']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="f941f5aa-34fe-481b-a480-523d9ffee53a">
@@ -2412,6 +2736,8 @@ RRQAfbf+mf8A49R9t/6Z/wDj1FFAB9t/6Z/+PUfbf+mf/j1FFAB9t/6Z/wDj1H23/pn/AOPUUUAH
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext~'Comisiones / Descuentos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

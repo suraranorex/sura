@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Sura.Endosos
+namespace Sura.Menu
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Endoso_Adicional recording.
+    ///The MenuLateral_ComisionesDesc recording.
     /// </summary>
-    [TestModule("84ab8c1c-1423-4954-90bd-c113a34252eb", ModuleType.Recording, 1)]
-    public partial class Endoso_Adicional : ITestModule
+    [TestModule("fc789ccc-67c3-4565-a4db-036a4a54ce3f", ModuleType.Recording, 1)]
+    public partial class MenuLateral_ComisionesDesc : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
         public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static Endoso_Adicional instance = new Endoso_Adicional();
+        static MenuLateral_ComisionesDesc instance = new MenuLateral_ComisionesDesc();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Endoso_Adicional()
+        public MenuLateral_ComisionesDesc()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Endoso_Adicional Instance
+        public static MenuLateral_ComisionesDesc Instance
         {
             get { return instance; }
         }
@@ -89,9 +89,12 @@ namespace Sura.Endosos
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.SolapaCoberturasAdicionales' at Center.", repo.SURA.SolapaCoberturasAdicionalesInfo, new RecordItemIndex(0));
-            repo.SURA.SolapaCoberturasAdicionales.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.MenuLat_ComisionesDescuentos' at Center.", repo.SURA.MenuLat_ComisionesDescuentosInfo, new RecordItemIndex(0));
+            repo.SURA.MenuLat_ComisionesDescuentos.Click();
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Endosos2.title_Comisiones_Descuentos'", repo.SURA.PC.Endosos2.title_Comisiones_DescuentosInfo, new ActionTimeout(30000), new RecordItemIndex(1));
+            repo.SURA.PC.Endosos2.title_Comisiones_DescuentosInfo.WaitForExists(30000);
             
         }
 
