@@ -3107,6 +3107,13 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>497ad97c-b3ea-47f0-8c4b-9b50231e8edb</id>
     </Content>
+    <Content Include="DataSource - Emision Motor_Answer_CtaAnonima.xlsx">
+      <Link>DataSource - Emision Motor_Answer_CtaAnonima.xlsx</Link>
+      <BoundTo>39fa15ad-4131-4223-a98f-ca1c53641d5e</BoundTo>
+      <DependentUpon>PC.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>c6cd5d53-a7a1-4b17-a945-d00f2bde53d7</id>
+    </Content>
     <None Include="Emision\AccesorioConMovilidad.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>417b8e0c-ebf5-44f5-aa14-d299c600cb37</id>
