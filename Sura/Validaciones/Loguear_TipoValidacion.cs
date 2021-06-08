@@ -24,35 +24,60 @@ namespace Sura.Validaciones
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Validar_ProgramaDePagos_BC recording.
+    ///The Loguear_TipoValidacion recording.
     /// </summary>
-    [TestModule("ef6f6c7c-f49b-4f60-aab0-e5db8b1c2ea7", ModuleType.Recording, 1)]
-    public partial class Validar_ProgramaDePagos_BC : ITestModule
+    [TestModule("094c3649-7d8e-411a-a41f-920919fbcae9", ModuleType.Recording, 1)]
+    public partial class Loguear_TipoValidacion : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
         public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static Validar_ProgramaDePagos_BC instance = new Validar_ProgramaDePagos_BC();
+        static Loguear_TipoValidacion instance = new Loguear_TipoValidacion();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Validar_ProgramaDePagos_BC()
+        public Loguear_TipoValidacion()
         {
-            Fila = "1";
+            TipoValidacion = "";
+            NumSolicitud = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Validar_ProgramaDePagos_BC Instance
+        public static Loguear_TipoValidacion Instance
         {
             get { return instance; }
         }
 
 #region Variables
+
+        string _TipoValidacion;
+
+        /// <summary>
+        /// Gets or sets the value of variable TipoValidacion.
+        /// </summary>
+        [TestVariable("1c1ca6df-83ba-4913-8db0-a84f9aab9389")]
+        public string TipoValidacion
+        {
+            get { return _TipoValidacion; }
+            set { _TipoValidacion = value; }
+        }
+
+        string _NumSolicitud;
+
+        /// <summary>
+        /// Gets or sets the value of variable NumSolicitud.
+        /// </summary>
+        [TestVariable("eb13ffb2-6005-4f21-9ab7-a6dccdc39838")]
+        public string NumSolicitud
+        {
+            get { return _NumSolicitud; }
+            set { _NumSolicitud = value; }
+        }
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -62,16 +87,6 @@ namespace Sura.Validaciones
         {
             get { return repo.Ambiente; }
             set { repo.Ambiente = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable Fila.
-        /// </summary>
-        [TestVariable("c6974aa4-5b23-45e6-95f8-667d7cfe7949")]
-        public string Fila
-        {
-            get { return repo.Fila; }
-            set { repo.Fila = value; }
         }
 
 #endregion
@@ -100,10 +115,19 @@ namespace Sura.Validaciones
 
             Init();
 
-            validarCantidadCuotas();
+            Report.Log(ReportLevel.Info, "User", "El tipo de localizador es:", new RecordItemIndex(0));
+            
+            Report.Log(ReportLevel.Info, "User", TipoValidacion, new RecordItemIndex(1));
+            
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.txt_SolicitudPoliza' and assigning the part of its value captured by '[0-9]+' to variable 'NumSolicitud'.", repo.SURA.txt_SolicitudPolizaInfo, new RecordItemIndex(2));
+            NumSolicitud = repo.SURA.txt_SolicitudPoliza.Element.GetAttributeValueText("InnerText", new Regex("[0-9]+"));
             Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "User", "El número de solicitud es:", new RecordItemIndex(3));
+            
+            Report.Log(ReportLevel.Info, "User", NumSolicitud, new RecordItemIndex(4));
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(5));
             
         }
 

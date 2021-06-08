@@ -50,6 +50,8 @@ mode="Global">
 				<path>
 					/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'SystemClock-tbody']//label[@class='x-component g-msg-info x-component-default']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<keysequenceitem
@@ -73,6 +75,8 @@ mode="Global">
 				<path>
 					/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'SystemClock-tbody']//span[@innertext='Fecha']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
@@ -92,6 +96,8 @@ mode="Global">
 				<path>
 					/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'SystemClock-tbody']//span[@innertext='Fecha']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -177,6 +183,8 @@ mode="Global">
 				<path>
 					/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'SystemClock-tbody']//span[@innertext='Cambiar fecha']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -201,6 +209,8 @@ mode="Global">
 				<path>
 					/dom[@domain='suragwqa2.segurossura.com.ar']//tbody[#'SystemClock-tbody']//label[@class='x-component g-msg-info x-component-default']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<loggingrecorditem
@@ -221,6 +231,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 	</recorditems>

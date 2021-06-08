@@ -23,6 +23,11 @@ mode="Global">
 	namespace="Sura.Validaciones">
 	</codegen>
 	<variables>
+		<var
+		id="c6974aa4-5b23-45e6-95f8-667d7cfe7949"
+		name="Fila">
+			1
+		</var>
 	</variables>
 	<recorditems>
 		<userrecorditem

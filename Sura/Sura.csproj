@@ -2638,6 +2638,42 @@
       <UserCode>true</UserCode>
       <id>1e129d66-ee8f-448a-9a68-3e537bbdcb35</id>
     </Compile>
+    <Compile Include="Validaciones\Loguear_TipoValidacion.cs">
+      <BoundTo>c6b4f1da-753a-4943-b72f-fe0bc1767e9b</BoundTo>
+      <DependentUpon>Loguear_TipoValidacion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>35fb61aa-8795-46ab-90d7-08df8ae10ceb</id>
+    </Compile>
+    <Compile Include="Validaciones\Loguear_TipoValidacion.UserCode.cs">
+      <BoundTo>c6b4f1da-753a-4943-b72f-fe0bc1767e9b</BoundTo>
+      <DependentUpon>Loguear_TipoValidacion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fc7f55cb-0ec0-4209-9c87-f0da4d330362</id>
+    </Compile>
+    <Compile Include="Validaciones\Validacion_Localizador.cs">
+      <BoundTo>d515b945-f467-40e0-9140-2167a5626176</BoundTo>
+      <DependentUpon>Validacion_Localizador.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bac1d69a-f7e2-4a71-9d44-e2657880fb1d</id>
+    </Compile>
+    <Compile Include="Validaciones\Validacion_Localizador.UserCode.cs">
+      <BoundTo>d515b945-f467-40e0-9140-2167a5626176</BoundTo>
+      <DependentUpon>Validacion_Localizador.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f76a51e3-65f3-4e55-9193-89d6fb379401</id>
+    </Compile>
+    <Compile Include="Validaciones\Validacion_NoLocalizador.cs">
+      <BoundTo>a040ed71-a8ba-42cb-8d58-853b221aa7fe</BoundTo>
+      <DependentUpon>Validacion_NoLocalizador.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b06cb4a3-20e3-43d3-b5e5-ddeb31992070</id>
+    </Compile>
+    <Compile Include="Validaciones\Validacion_NoLocalizador.UserCode.cs">
+      <BoundTo>a040ed71-a8ba-42cb-8d58-853b221aa7fe</BoundTo>
+      <DependentUpon>Validacion_NoLocalizador.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b896c738-a54f-442d-a2f0-2caf3f9607cc</id>
+    </Compile>
     <Compile Include="Validaciones\ValidarFormulario_TarjCirc.cs">
       <BoundTo>c354298e-6c7a-4474-86f6-38a578363ac6</BoundTo>
       <DependentUpon>ValidarFormulario_TarjCirc.rxrec</DependentUpon>
@@ -4219,6 +4255,21 @@
       <id>d97a34db-05e5-41c3-91cb-000e6202a24a</id>
       <recordtableid>b7ea5ae3-a326-4c2d-ae9e-3cd8e37bcbee</recordtableid>
     </None>
+    <None Include="Validaciones\Loguear_TipoValidacion.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>c6b4f1da-753a-4943-b72f-fe0bc1767e9b</id>
+      <recordtableid>094c3649-7d8e-411a-a41f-920919fbcae9</recordtableid>
+    </None>
+    <None Include="Validaciones\Validacion_Localizador.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>d515b945-f467-40e0-9140-2167a5626176</id>
+      <recordtableid>25c70a80-29d9-4ebc-807a-7f4701496489</recordtableid>
+    </None>
+    <None Include="Validaciones\Validacion_NoLocalizador.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>a040ed71-a8ba-42cb-8d58-853b221aa7fe</id>
+      <recordtableid>ae6630aa-405f-4cbd-bed2-b7b9a8f3b655</recordtableid>
+    </None>
     <None Include="Validaciones\ValidarFormulario_TarjCirc.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>c354298e-6c7a-4474-86f6-38a578363ac6</id>
@@ -4277,6 +4328,20 @@
       <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>f6ed2588-d35f-479a-bd02-77e287d5d0fa</id>
+    </Content>
+    <Content Include="Validación de Localizador - Emisión.xlsx">
+      <Link>Validación de Localizador - Emisión.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>885fd254-6c46-48b4-8e09-90c457c7996a</id>
+    </Content>
+    <Content Include="Validación de Suma Asegurada - Emisión.xlsx">
+      <Link>Validación de Suma Asegurada - Emisión.xlsx</Link>
+      <BoundTo>35d3314d-2112-4af9-8f4e-597276adf246</BoundTo>
+      <DependentUpon>PC_GestionDocumental.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7e5447f7-e55f-4390-a3d7-314b418a3ec5</id>
     </Content>
   </ItemGroup>
   <ItemGroup>

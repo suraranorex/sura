@@ -52,6 +52,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/WithoutVehicle']//span[@innertext='Kilómetros']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -71,6 +73,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/WithoutVehicle']//span[@innertext='Kilómetros']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
@@ -94,6 +98,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/WithoutVehicle']//span[@innertext='Kilómetros']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<WaitForRecordItem
@@ -112,6 +118,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/WithoutVehicle']//span[@innertext='Kilómetros']/../..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<loggingrecorditem
@@ -196,6 +204,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<mouseitem
@@ -220,6 +230,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span[#'SubmissionWizard:Next-btnInnerEl']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -238,6 +250,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[@id='centerPanel']//span[@innertext~'Comisiones / Descuentos' and @visible='true']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

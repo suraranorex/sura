@@ -24,35 +24,47 @@ namespace Sura.Validaciones
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Validar_ProgramaDePagos_BC recording.
+    ///The Validacion_NoLocalizador recording.
     /// </summary>
-    [TestModule("ef6f6c7c-f49b-4f60-aab0-e5db8b1c2ea7", ModuleType.Recording, 1)]
-    public partial class Validar_ProgramaDePagos_BC : ITestModule
+    [TestModule("ae6630aa-405f-4cbd-bed2-b7b9a8f3b655", ModuleType.Recording, 1)]
+    public partial class Validacion_NoLocalizador : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
         public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static Validar_ProgramaDePagos_BC instance = new Validar_ProgramaDePagos_BC();
+        static Validacion_NoLocalizador instance = new Validacion_NoLocalizador();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Validar_ProgramaDePagos_BC()
+        public Validacion_NoLocalizador()
         {
-            Fila = "1";
+            NumSolicitud = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Validar_ProgramaDePagos_BC Instance
+        public static Validacion_NoLocalizador Instance
         {
             get { return instance; }
         }
 
 #region Variables
+
+        string _NumSolicitud;
+
+        /// <summary>
+        /// Gets or sets the value of variable NumSolicitud.
+        /// </summary>
+        [TestVariable("78c3797a-9ea6-4d65-98fe-3fe1f1d2fa7b")]
+        public string NumSolicitud
+        {
+            get { return _NumSolicitud; }
+            set { _NumSolicitud = value; }
+        }
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -62,16 +74,6 @@ namespace Sura.Validaciones
         {
             get { return repo.Ambiente; }
             set { repo.Ambiente = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable Fila.
-        /// </summary>
-        [TestVariable("c6974aa4-5b23-45e6-95f8-667d7cfe7949")]
-        public string Fila
-        {
-            get { return repo.Fila; }
-            set { repo.Fila = value; }
         }
 
 #endregion
@@ -100,10 +102,20 @@ namespace Sura.Validaciones
 
             Init();
 
-            validarCantidadCuotas();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza' at 20;10.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPolizaInfo, new RecordItemIndex(0));
+            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza.Click("20;10");
             Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar' at 35;11.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_AceptarInfo, new RecordItemIndex(1));
+            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar.Click("35;11");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(2));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionLocalizador'.", repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionLocalizadorInfo, new RecordItemIndex(3));
+            Validate.NotExists(repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionLocalizadorInfo);
+            Delay.Milliseconds(0);
             
         }
 

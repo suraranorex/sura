@@ -19746,7 +19746,7 @@
 		filename="DataSource - Endoso - Cambio Conducto de Pago.xlsx"
 		id="818c7ee4-63e3-42ce-8154-1edc880a381a"
 		includefile="Checked"
-		lastknownrowcount="4"
+		lastknownrowcount="1"
 		name="Endoso_ConductoPago"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -19772,6 +19772,21 @@
 				</column>
 				<column>
 					NuevoMetodoPago
+				</column>
+				<column>
+					ConductoPago
+				</column>
+				<column>
+					NumCBU
+				</column>
+				<column>
+					TipoTarjeta
+				</column>
+				<column>
+					NumTarjetaCred
+				</column>
+				<column>
+					FechaVencimiento
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -20044,7 +20059,7 @@
 		filename="DataSource - Endoso - Cambio Plan de Pagos.xlsx"
 		id="e4385810-4193-4f35-aa0d-58d151e3b945"
 		includefile="Checked"
-		lastknownrowcount="2"
+		lastknownrowcount="1"
 		name="Endoso_PlanPagos"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -21374,10 +21389,10 @@
 	</testconfigurations>
 	<references>
 		<reference>
-			C:\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll
+			C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll
 		</reference>
 		<reference>
-			C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Office.Tools.Excel\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.Office.Tools.Excel.dll
+			C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Office.Tools.Excel\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.Office.Tools.Excel.dll
 		</reference>
 		<reference>
 			itextsharp.dll

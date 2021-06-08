@@ -47,6 +47,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'westPanel-innerCt']//span[@innertext='Vehículos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -65,6 +67,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody//span[@innertext='Vehículos' and @visible='true']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -89,6 +93,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//label/span[@innertext~'Destino']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -113,6 +119,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]/body//li[@innertext=$Destino and @enabled='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -131,6 +139,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//label/span[@innertext~'Destino']/../..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<loggingrecorditem
@@ -151,6 +161,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<mouseitem
@@ -175,6 +187,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext~'Cotiar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -193,6 +207,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext~'Cotización']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

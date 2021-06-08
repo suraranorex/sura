@@ -108,6 +108,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext~'Elimina']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="f008f583-bb02-4845-acb6-8dc3793ef387">
@@ -187,6 +189,8 @@ UmNDtif3F/KiiikM/9k=
 				<path>
 					/dom[@domain=$Ambiente]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 	</recorditems>

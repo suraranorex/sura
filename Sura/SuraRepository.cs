@@ -33,6 +33,7 @@ namespace Sura
         SuraRepositoryFolders.VentanaEmergente_ExaminarAppFolder _ventanaemergente_examinar;
         SuraRepositoryFolders.ChromeAppFolder _chrome;
         SuraRepositoryFolders.GuardarComoAppFolder _guardarcomo;
+        SuraRepositoryFolders.GuidewirePolicyCenterAppFolder _guidewirepolicycenter;
         RepoItemInfo _bttn_cerrarpestaniaformularioInfo;
 
         /// <summary>
@@ -56,6 +57,7 @@ namespace Sura
             _ventanaemergente_examinar = new SuraRepositoryFolders.VentanaEmergente_ExaminarAppFolder(this);
             _chrome = new SuraRepositoryFolders.ChromeAppFolder(this);
             _guardarcomo = new SuraRepositoryFolders.GuardarComoAppFolder(this);
+            _guidewirepolicycenter = new SuraRepositoryFolders.GuidewirePolicyCenterAppFolder(this);
             _bttn_cerrarpestaniaformularioInfo = new RepoItemInfo(this, "bttn_CerrarPestaniaFormulario", "//tabpage[@accessiblename='PolicyCenter.do']/button[@accessiblename~'Cerrar']", 30000, null, "ff3cf5f3-c817-4733-806b-e7bad703d27c");
         }
 
@@ -397,7 +399,7 @@ namespace Sura
             set { _Anio = value; }
         }
 
-        string _Ambiente = "i-preproducciongestion.segurossura.com.ar";
+        string _Ambiente = "preproducciongestion.segurossura.com.ar";
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -787,6 +789,15 @@ namespace Sura
         public virtual SuraRepositoryFolders.GuardarComoAppFolder GuardarComo
         {
             get { return _guardarcomo; }
+        }
+
+        /// <summary>
+        /// The GuidewirePolicyCenter folder.
+        /// </summary>
+        [RepositoryFolder("094f21d9-5cd0-46da-8717-9b80761c8014")]
+        public virtual SuraRepositoryFolders.GuidewirePolicyCenterAppFolder GuidewirePolicyCenter
+        {
+            get { return _guidewirepolicycenter; }
         }
     }
 
@@ -5907,6 +5918,7 @@ namespace Sura
             SuraRepositoryFolders.CoberturasAdicionalesFolder _coberturasadicionales;
             SuraRepositoryFolders.ValidacionMarcaModeloFolder _validacionmarcamodelo;
             SuraRepositoryFolders.PrendarioFolder _prendario;
+            SuraRepositoryFolders.ValidacionesFolder _validaciones;
             RepoItemInfo _txt_proveedorasistmecanicavisibleInfo;
 
             /// <summary>
@@ -5924,6 +5936,7 @@ namespace Sura
                 _coberturasadicionales = new SuraRepositoryFolders.CoberturasAdicionalesFolder(this);
                 _validacionmarcamodelo = new SuraRepositoryFolders.ValidacionMarcaModeloFolder(this);
                 _prendario = new SuraRepositoryFolders.PrendarioFolder(this);
+                _validaciones = new SuraRepositoryFolders.ValidacionesFolder(this);
                 _txt_proveedorasistmecanicavisibleInfo = new RepoItemInfo(this, "txt_ProveedorAsistMecanicaVisible", ".//tbody[#'centerPanel-tbody']//input[@class~'x-form-field x-form-text x-form-text-default' and @visible='True']", "", 30000, null, "41bc76db-ae39-403f-bb96-402fffbf2524");
             }
 
@@ -6042,6 +6055,15 @@ namespace Sura
             public virtual SuraRepositoryFolders.PrendarioFolder Prendario
             {
                 get { return _prendario; }
+            }
+
+            /// <summary>
+            /// The Validaciones folder.
+            /// </summary>
+            [RepositoryFolder("ec40ed95-9d1e-4580-96a5-48da80f42c54")]
+            public virtual SuraRepositoryFolders.ValidacionesFolder Validaciones
+            {
+                get { return _validaciones; }
             }
         }
 
@@ -9464,6 +9486,86 @@ namespace Sura
                 get
                 {
                     return _copy_of_input_cantcuotasprendarioInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ValidacionesFolder folder.
+        /// </summary>
+        [RepositoryFolder("ec40ed95-9d1e-4580-96a5-48da80f42c54")]
+        public partial class ValidacionesFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _txt_bloqueoemisionInfo;
+            RepoItemInfo _txt_validacionlocalizadorInfo;
+
+            /// <summary>
+            /// Creates a new Validaciones  folder.
+            /// </summary>
+            public ValidacionesFolder(RepoGenBaseFolder parentFolder) :
+                    base("Validaciones", "", parentFolder, 0, null, false, "ec40ed95-9d1e-4580-96a5-48da80f42c54", "")
+            {
+                _txt_bloqueoemisionInfo = new RepoItemInfo(this, "txt_BloqueoEmision", ".//span[@innertext~'Asuntos que bloquean la emisi|Resultados de validación']", "", 30000, null, "48ebfede-aba1-474c-a6fb-af85f9e910ab");
+                _txt_validacionlocalizadorInfo = new RepoItemInfo(this, "txt_ValidacionLocalizador", ".//div[@innertext~'El vehículo requiere instalación de localizador']", "", 30000, null, "15405abe-195f-4768-9af5-5bf300112fbd");
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("ec40ed95-9d1e-4580-96a5-48da80f42c54")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_BloqueoEmision item.
+            /// </summary>
+            [RepositoryItem("48ebfede-aba1-474c-a6fb-af85f9e910ab")]
+            public virtual Ranorex.SpanTag txt_BloqueoEmision
+            {
+                get
+                {
+                    return _txt_bloqueoemisionInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_BloqueoEmision item info.
+            /// </summary>
+            [RepositoryItemInfo("48ebfede-aba1-474c-a6fb-af85f9e910ab")]
+            public virtual RepoItemInfo txt_BloqueoEmisionInfo
+            {
+                get
+                {
+                    return _txt_bloqueoemisionInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_ValidacionLocalizador item.
+            /// </summary>
+            [RepositoryItem("15405abe-195f-4768-9af5-5bf300112fbd")]
+            public virtual Ranorex.DivTag txt_ValidacionLocalizador
+            {
+                get
+                {
+                    return _txt_validacionlocalizadorInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_ValidacionLocalizador item info.
+            /// </summary>
+            [RepositoryItemInfo("15405abe-195f-4768-9af5-5bf300112fbd")]
+            public virtual RepoItemInfo txt_ValidacionLocalizadorInfo
+            {
+                get
+                {
+                    return _txt_validacionlocalizadorInfo;
                 }
             }
         }
@@ -19293,6 +19395,46 @@ namespace Sura
                 get
                 {
                     return _buttonguardarInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The GuidewirePolicyCenterAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("094f21d9-5cd0-46da-8717-9b80761c8014")]
+        public partial class GuidewirePolicyCenterAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new GuidewirePolicyCenter  folder.
+            /// </summary>
+            public GuidewirePolicyCenterAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("GuidewirePolicyCenter", "/dom[@domain='preproducciongestion.segurossura.com.ar']", parentFolder, 30000, null, false, "094f21d9-5cd0-46da-8717-9b80761c8014", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("094f21d9-5cd0-46da-8717-9b80761c8014")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("094f21d9-5cd0-46da-8717-9b80761c8014")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
                 }
             }
         }
