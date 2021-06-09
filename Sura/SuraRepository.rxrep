@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<repository
+﻿<repository
 id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
 name="SuraRepository">
 	<codegen
@@ -1980,6 +1979,26 @@ name="SuraRepository">
 							robustPath=""
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//div[@innertext~'La Solicitud deberá ser Aprobada por la Compañía' and @innertext~'Suma Asegurada supera']
+							</item>
+							<item
+							addcaps="unknown,webelement,divtag"
+							capname="spantag"
+							id="eccca5ba-e27e-485a-944a-811c87f0dae8"
+							name="txt_VehiculosPantalla"
+							refimgid="b74c61a6-708b-4e43-9cbb-fc356c44a342"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//span[@innertext='Vehículos']
+							</item>
+							<item
+							addcaps="unknown,webelement,divtag"
+							capname="spantag"
+							id="44518825-c48f-4179-9eed-77202dd9e5f9"
+							name="txt_CotizacionPantalla"
+							refimgid="4f123ed8-f413-4d12-b292-e6e5b8ad5005"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//span[@innertext='Cotización']
 							</item>
 						</folder>
 					</folder>
