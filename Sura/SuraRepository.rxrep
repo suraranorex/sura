@@ -1,4 +1,5 @@
-﻿<repository
+<?xml version="1.0" encoding="utf-8"?>
+<repository
 id="1b2cd69a-246f-4743-a1cd-cbd82e6fd1d2"
 name="SuraRepository">
 	<codegen
@@ -1703,6 +1704,39 @@ name="SuraRepository">
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//input[@type='button']
 							</item>
+							<item
+							addcaps="unknown,webelement,labeltag"
+							capname="labeltag"
+							id="04b65d7d-e9f4-403d-ac30-73fdaef3b562"
+							name="lbl_Identificacion"
+							refimgid="80e7f90f-c9c5-420d-96b9-b9d2e4e9af5b"
+							refpath="/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'EditAccountPopup-tbody']/tr[4]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/label[@innertext='Identificación']"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']//label[@innertext='Identificación']
+							</item>
+							<item
+							addcaps="unknown,webelement,atag"
+							capname="atag"
+							id="151e0bbb-7995-4fda-8462-3433b4720594"
+							name="Lnk_Seleccionar"
+							refimgid="1cfe17ee-2b27-4257-9028-5d6c2e5934a5"
+							refpath="/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'VerifiedAddressSelectionPopup-tbody']/tr[3]/td/div/div[3]/div[1]/div/table[1]/tbody/tr/td[1]/div/a[@innertext='Seleccionar']"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'VerifiedAddressSelectionPopup-tbody']//a[@innertext='Seleccionar']
+							</item>
+							<item
+							addcaps="unknown,webelement,spantag"
+							capname="spantag"
+							id="bb9ca7e5-a476-4552-83d5-4cb77c2883ca"
+							name="lbl_EditarCuenta"
+							refimgid="c6aee1e8-deeb-48bc-9bb6-521ac919a8a9"
+							refpath="/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'EditAccountPopup-tbody']/tr[1]/td/div/div/div/div/div/span[@innertext='Editar cuenta']"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']//span[@innertext='Editar cuenta']
+							</item>
 							<basepath>
 								/dom[@domain=$Ambiente]
 							</basepath>
@@ -2285,6 +2319,26 @@ name="SuraRepository">
 							robustPath=""
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']/tr//table/tbody/tr[4]//table/tbody/tr[2]/td/div
+							</item>
+							<item
+							addcaps="unknown,webelement,divtag"
+							capname="divtag"
+							id="16f68309-d9ba-4568-99b1-bd87fee8e1da"
+							name="txt_nroDocumentoCtaAnonimaAnswer"
+							refimgid="9f067534-fa1f-4927-8529-1c84dc3cedea"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']//div[@innertext='11111111']
+							</item>
+							<item
+							addcaps="unknown,webelement,divtag"
+							capname="divtag"
+							id="dbc63610-6f6d-436e-b283-246a8c7bf5ad"
+							name="Copy_of_txt_nroDocumentoCtaAnonimaAnswer"
+							refimgid="9f067534-fa1f-4927-8529-1c84dc3cedea"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']//div[@innertext=$NroDocumento and @data-tabindexsaved='True']
 							</item>
 						</folder>
 					</folder>
@@ -5597,6 +5651,16 @@ name="SuraRepository">
 				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr/td[4]/div[@safeclass='x-grid-cell-inner']
 			</item>
 			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="e04384b0-899e-4c82-8635-3f4f14bf8c84"
+			name="Copy_of_txt_FechaNacConductor"
+			refimgid="507b1f8b-5b65-42ea-b41c-a861d5333cda"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//table/tbody/tr/td[4]/div[@safeclass='x-grid-cell-inner' and @data-tabindexsaved='True']
+			</item>
+			<item
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
 			id="ca837e87-2a93-4b85-b106-f15195a9bd9e"
@@ -5658,13 +5722,13 @@ name="SuraRepository">
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
-			capname="spantag"
+			capname="unknown"
 			id="d1758d64-3830-46ea-8f48-591cfb5688fa"
 			name="bttn_ValidarDocumento"
 			refimgid="a1470abb-e419-42ed-a12a-a8c5efb5e207"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//span[@innertext='Validar Documento']
+				/dom[@domain=$Ambiente]//*[@innertext='Validar Documento']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -6265,6 +6329,26 @@ name="SuraRepository">
 					/dom[@domain=$Ambiente]//tbody[#'centerPanel-tbody']//div[@innertext='Refacturaciones']/../..//a[@innertext='Ejecutar']
 				</item>
 			</folder>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="f9d727d9-bee8-45a1-a046-51795fab90b3"
+			name="lbl_DireccionVerificada"
+			refimgid="5f333322-fbde-4b47-b514-3ca8320c16ea"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']//div[@innertext='Verificada']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="56aad799-7d5e-4d53-a72c-fe9ed507eeb6"
+			name="Btn_ActualizarDireccion"
+			refimgid="2e77e4fb-30d4-4537-baca-666ae7688705"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']//span[@innertext='Actualizar']
+			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
 			</basepath>
@@ -6554,6 +6638,49 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			robustPath=""
 			searchtimeout="0ms">
 				/dom[@domain=$Ambiente]/body//span[@innertext~'Aceptar']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="e772029a-005e-4226-8679-a5afb8d137eb"
+			name="lbl_VerifiedAddress_COF"
+			refimgid="28f8dd26-9bbb-4e12-afd2-e060e25ecc6a"
+			refpath="/dom[@domain='i-preproducciongestion.segurossura.com.ar']//span[#'VerifiedAddressSelectionPopup:ttlBar']"
+			robustPath=""
+			searchtimeout="5000ms">
+				/dom[@domain=$Ambiente]//span[#'VerifiedAddressSelectionPopup:ttlBar']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="26dd29d7-5203-46e0-81b8-1efc9e51e042"
+			name="Lnk_Seleccionar_COF"
+			refimgid="1cfe17ee-2b27-4257-9028-5d6c2e5934a5"
+			refpath="/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'VerifiedAddressSelectionPopup-tbody']/tr[3]/td/div/div[3]/div[1]/div/table[1]/tbody/tr/td[1]/div/a[@innertext='Seleccionar']"
+			robustPath=""
+			searchtimeout="0ms">
+				/dom[@domain=$Ambiente]//tbody[#'VerifiedAddressSelectionPopup-tbody']//a[@innertext='Seleccionar']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="ef6ccd0e-5ef6-43e9-b74f-992527400b45"
+			name="Btn_ActualizarDireccion_COF"
+			refimgid="2e77e4fb-30d4-4537-baca-666ae7688705"
+			robustPath=""
+			searchtimeout="0ms">
+				/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']//span[@innertext='Actualizar']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="14f40e1d-639d-4557-ab7b-aa4e7b47df2e"
+			name="lbl_ExisteCtaAnonimaConMismoDNI_COF"
+			refimgid="f0a98b18-01ba-4219-89cb-78324a10505f"
+			refpath="/dom[@domain='ssurgwsoadev4-oci.opc.oracleoutsourcing.com']//tbody[#'EditAccountPopup-tbody']/tr[3]/td/div/div[@innertext='Existe una cuenta anónima con el mismo tipo y número de documento ingresado, si continúa, el resto de cuentas serán eliminadas. Por favor revisar. Cuentas: (1177213890).']"
+			robustPath=""
+			searchtimeout="0ms">
+				/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']//div[@innertext&gt;'Existe una cuenta an&#243;nima']
 			</item>
 			<basepath>
 				/dom[@domain=$Ambiente]
@@ -7046,6 +7173,11 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		id="391c7eea-3d13-4690-8b39-7e4e466444e8"
 		name="Fila">
 			1
+		</var>
+		<var
+		id="485b264c-c82e-4345-afd0-00f49af8c471"
+		name="NroDocumento">
+			32145234
 		</var>
 	</variables>
 </repository>

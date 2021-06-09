@@ -23,8 +23,194 @@ mode="Global">
 	namespace="Sura.Emision">
 	</codegen>
 	<variables>
+		<var
+		id="91eac8d1-e373-4259-9cd3-009bae16119c"
+		name="NroDocumento">
+			32145234
+		</var>
+		<var
+		id="9082dd69-ec83-4e76-acc1-cfe822433dd9"
+		name="TextoSeleccionar">
+		</var>
 	</variables>
 	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="53686c9f-ba73-46fd-a349-e1584902c158"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="16f68309-d9ba-4568-99b1-bd87fee8e1da"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']//div[@innertext='11111111']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{LControlKey down}{Akey}{LControlKey up}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="5538eeb5-8b01-4ef8-84ed-e56d719e030d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="16f68309-d9ba-4568-99b1-bd87fee8e1da"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']//div[@innertext='11111111']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="717c3716-1ab1-4bca-9894-465c54cd05fc">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="NroDocumento">
+				</binding>
+			</bindings>
+			<info
+			id="16f68309-d9ba-4568-99b1-bd87fee8e1da"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']//div[@innertext='11111111']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="b5df851a-f639-456d-92d3-897152bc80a3"
+		sx="263"
+		sy="290"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="04b65d7d-e9f4-403d-ac30-73fdaef3b562"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="labeltag"
+				rect="219,281,89,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-component x-component-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						EditAccountPopup:EditAccountScreen:ContactNameInputSet:0
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Identificación
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-component x-component-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']//label[@innertext='Identificación']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="f6f9b74b-5647-4854-82de-3fbbb22346b5"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dbc63610-6f6d-436e-b283-246a8c7bf5ad"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']//div[@innertext='11111111' and @data-tabindexsaved='True']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -47,13 +233,104 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext='Validar Documento']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="True"
+		searchpropertyid="713a7ab6-36ea-4312-98e7-abfbb306394b"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e772029a-005e-4226-8679-a5afb8d137eb"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="219,201,440,22"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						VerifiedAddressSelectionPopup:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Resultados de verificación de direcciones
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain=$Ambiente]//span[#'VerifiedAddressSelectionPopup:ttlBar']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="True"
+		searchpropertyid="7d8927b5-7962-4fbe-a529-c702c56ecfaf"
+		varname="TextoSeleccionar">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="26dd29d7-5203-46e0-81b8-1efc9e51e042"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//tbody[#'VerifiedAddressSelectionPopup-tbody']//a[@innertext='Seleccionar']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</getvaluerecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
+		enabled="False"
 		loc="Center"
 		movetime="300ms"
 		optional="False"
@@ -71,10 +348,12 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'EditAccountPopup-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[3]/td/div/div/div/div[2]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="abd0898a-f3a2-4b65-9fbe-379fc679612b"
 		waitaction="Exists"
@@ -89,6 +368,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]/body//ul/li[@enabled='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

@@ -108,6 +108,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//span[#'Desktop:DesktopMenuActions-btnInnerEl']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="b0acf51d-a508-4fbc-8afe-870e70017787">
@@ -201,7 +203,7 @@ txI0knmzSNud9uM+g+g/xqxRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//9k=
 					<attribute
 					name="innertext"
 					type="System.String">
-						Nueva Solicitud An&#243;nima
+						Nueva Solicitud Anónima
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -229,6 +231,8 @@ txI0knmzSNud9uM+g+g/xqxRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//9k=
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext~'Nueva Solicitud']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="e206ab44-64db-45d7-a65e-7de1485ed5d9">
@@ -317,8 +321,10 @@ lVUKigAggSEc+uQOe/FFFAFiKEJCiNglVANP8tfSiihgHlr6UBB6UUUABQelFFFAH//Z
 			id="5b282357-00ba-4472-b91c-792ccec4ec25"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//span[@innertext='Compa&#241;ia']
+					/dom[@domain=$Ambiente]//span[@innertext='Compañia']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -343,6 +349,8 @@ lVUKigAggSEc+uQOe/FFFAFiKEJCiNglVANP8tfSiihgHlr6UBB6UUUABQelFFFAH//Z
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext='Persona']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -428,6 +436,8 @@ lVUKigAggSEc+uQOe/FFFAFiKEJCiNglVANP8tfSiihgHlr6UBB6UUUABQelFFFAH//Z
 				<path>
 					/dom[@domain=$Ambiente]/body/div[13]/div/div[2]//span[@innertext='Persona']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="baf9a02a-255c-4f84-a61a-515b5de7f345">
@@ -494,6 +504,8 @@ NAENwCUXAJ+dTx9RUL7/ADW/1vmbhsxnbt4/D161booA/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body//span[@innertext~'Aceptar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -510,8 +522,10 @@ NAENwCUXAJ+dTx9RUL7/ADW/1vmbhsxnbt4/D161booA/9k=
 			id="3f4902ad-4f05-4e15-8954-2de25ff6eb29"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewSubmission-tbody']//span[@innertext~'Solicitudes de P&#243;liza nue']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewSubmission-tbody']//span[@innertext~'Solicitudes de Póliza nue']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

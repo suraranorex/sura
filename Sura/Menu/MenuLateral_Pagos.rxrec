@@ -96,6 +96,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'AccountGroup:MenuLinks-body']/div[1]/div/div/table[5]//span[@innertext='Pagos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="e6a0b306-f69c-485d-9092-fa6d9671d1cd">
@@ -142,6 +144,8 @@ R/YP/Tz/AOQ//r1s0Ue0l3D2UOxjf2D/ANPP/kP/AOvR/YP/AE8/+Q//AK9bNFHtJdw9lDsf/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'AccountPayments/PaymentDetails']//span[@innertext='Pagos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -166,6 +170,8 @@ R/YP/Tz/AOQ//r1s0Ue0l3D2UOxjf2D/ANPP/kP/AOvR/YP/AE8/+Q//AK9bNFHtJdw9lDsf/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//a[@innertext~'12420005073']/../../..//a[@innertext='Acciones']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -190,6 +196,8 @@ R/YP/Tz/AOQ//r1s0Ue0l3D2UOxjf2D/ANPP/kP/AOvR/YP/AE8/+Q//AK9bNFHtJdw9lDsf/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'centerPanel-tbody']//table/tbody/tr[4]//table/?/?/tr/td[1]/?/?/a[@innertext='Acciones']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -230,8 +238,10 @@ R/YP/Tz/AOQ//r1s0Ue0l3D2UOxjf2D/ANPP/kP/AOvR/YP/AE8/+Q//AK9bNFHtJdw9lDsf/9k=
 			id="dc8ffd07-2c8a-404d-a66a-c55a83428245"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'reversi&#243;n de pago']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'reversión de pago']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

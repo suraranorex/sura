@@ -24,29 +24,29 @@ namespace Sura.Emision
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The ConductoresCtaAnonima recording.
+    ///The ComisionesCtaAnonima recording.
     /// </summary>
-    [TestModule("d3a04e60-d586-46ce-8289-61e96b7f350a", ModuleType.Recording, 1)]
-    public partial class ConductoresCtaAnonima : ITestModule
+    [TestModule("20a5b012-4bf7-4dce-8c52-9802ff939248", ModuleType.Recording, 1)]
+    public partial class ComisionesCtaAnonima : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
         public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static ConductoresCtaAnonima instance = new ConductoresCtaAnonima();
+        static ComisionesCtaAnonima instance = new ComisionesCtaAnonima();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public ConductoresCtaAnonima()
+        public ComisionesCtaAnonima()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static ConductoresCtaAnonima Instance
+        public static ComisionesCtaAnonima Instance
         {
             get { return instance; }
         }
@@ -89,29 +89,35 @@ namespace Sura.Emision
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.txt_FechaNacConductor' at Center.", repo.SURA.txt_FechaNacConductorInfo, new RecordItemIndex(0));
-            repo.SURA.txt_FechaNacConductor.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_SiguienteInfo, new RecordItemIndex(0));
+            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '13/12/1980' with focus on 'SURA.txt_FechaNacConductor'.", repo.SURA.txt_FechaNacConductorInfo, new RecordItemIndex(1));
-            repo.SURA.txt_FechaNacConductor.PressKeys("13/12/1980");
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_ComisionesDescuentos'", repo.SURA.PC.Txt_Validacion.txt_ComisionesDescuentosInfo, new ActionTimeout(45000), new RecordItemIndex(1));
+            repo.SURA.PC.Txt_Validacion.txt_ComisionesDescuentosInfo.WaitForExists(45000);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(2));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Cotizar' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_CotizarInfo, new RecordItemIndex(3));
+            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Cotizar.MoveTo();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Txt_Validacion.txt_ConductoresPropietarios' at Center.", repo.SURA.PC.Txt_Validacion.txt_ConductoresPropietariosInfo, new RecordItemIndex(2));
-            repo.SURA.PC.Txt_Validacion.txt_ConductoresPropietarios.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Cotizar' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_CotizarInfo, new RecordItemIndex(4));
+            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Cotizar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.Copy_of_txt_FechaNacConductor'", repo.SURA.Copy_of_txt_FechaNacConductorInfo, new ActionTimeout(30000), new RecordItemIndex(3));
-            repo.SURA.Copy_of_txt_FechaNacConductorInfo.WaitForNotExists(30000);
-            
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(4));
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2Info, new RecordItemIndex(5));
-            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2.Click();
+            AprobacionBloqueo();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_Vehiculos'", repo.SURA.PC.Txt_Validacion.txt_VehiculosInfo, new ActionTimeout(20000), new RecordItemIndex(6));
-            repo.SURA.PC.Txt_Validacion.txt_VehiculosInfo.WaitForExists(20000);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(6));
+            Delay.Duration(300, false);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 45s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_Cotizacion'", repo.SURA.PC.Txt_Validacion.txt_CotizacionInfo, new ActionTimeout(45000), new RecordItemIndex(7));
+            repo.SURA.PC.Txt_Validacion.txt_CotizacionInfo.WaitForExists(45000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPolizaInfo, new RecordItemIndex(8));
+            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza.Click();
+            Delay.Milliseconds(0);
             
         }
 

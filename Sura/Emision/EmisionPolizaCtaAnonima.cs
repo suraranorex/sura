@@ -24,29 +24,29 @@ namespace Sura.Emision
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The ConductoresCtaAnonima recording.
+    ///The EmisionPolizaCtaAnonima recording.
     /// </summary>
-    [TestModule("d3a04e60-d586-46ce-8289-61e96b7f350a", ModuleType.Recording, 1)]
-    public partial class ConductoresCtaAnonima : ITestModule
+    [TestModule("89675adb-00c0-4227-a2e9-dd6690ed39f5", ModuleType.Recording, 1)]
+    public partial class EmisionPolizaCtaAnonima : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
         public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static ConductoresCtaAnonima instance = new ConductoresCtaAnonima();
+        static EmisionPolizaCtaAnonima instance = new EmisionPolizaCtaAnonima();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public ConductoresCtaAnonima()
+        public EmisionPolizaCtaAnonima()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static ConductoresCtaAnonima Instance
+        public static EmisionPolizaCtaAnonima Instance
         {
             get { return instance; }
         }
@@ -89,29 +89,14 @@ namespace Sura.Emision
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.txt_FechaNacConductor' at Center.", repo.SURA.txt_FechaNacConductorInfo, new RecordItemIndex(0));
-            repo.SURA.txt_FechaNacConductor.Click();
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(0));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPolizaInfo, new RecordItemIndex(1));
+            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '13/12/1980' with focus on 'SURA.txt_FechaNacConductor'.", repo.SURA.txt_FechaNacConductorInfo, new RecordItemIndex(1));
-            repo.SURA.txt_FechaNacConductor.PressKeys("13/12/1980");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Txt_Validacion.txt_ConductoresPropietarios' at Center.", repo.SURA.PC.Txt_Validacion.txt_ConductoresPropietariosInfo, new RecordItemIndex(2));
-            repo.SURA.PC.Txt_Validacion.txt_ConductoresPropietarios.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.Copy_of_txt_FechaNacConductor'", repo.SURA.Copy_of_txt_FechaNacConductorInfo, new ActionTimeout(30000), new RecordItemIndex(3));
-            repo.SURA.Copy_of_txt_FechaNacConductorInfo.WaitForNotExists(30000);
-            
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(4));
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2Info, new RecordItemIndex(5));
-            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Siguiente2.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SURA.PC.Txt_Validacion.txt_Vehiculos'", repo.SURA.PC.Txt_Validacion.txt_VehiculosInfo, new ActionTimeout(20000), new RecordItemIndex(6));
-            repo.SURA.PC.Txt_Validacion.txt_VehiculosInfo.WaitForExists(20000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_EditarCuenta'", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_EditarCuentaInfo, new ActionTimeout(30000), new RecordItemIndex(2));
+            repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_EditarCuentaInfo.WaitForExists(30000);
             
         }
 
