@@ -24,30 +24,29 @@ namespace Sura.Validaciones
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Validacion_Localizador recording.
+    ///The ValidacionEmision_SumaAsegurada recording.
     /// </summary>
-    [TestModule("25c70a80-29d9-4ebc-807a-7f4701496489", ModuleType.Recording, 1)]
-    public partial class Validacion_Localizador : ITestModule
+    [TestModule("ab7040af-f26b-4070-a914-f80d4d51d9a3", ModuleType.Recording, 1)]
+    public partial class ValidacionEmision_SumaAsegurada : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
         public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static Validacion_Localizador instance = new Validacion_Localizador();
+        static ValidacionEmision_SumaAsegurada instance = new ValidacionEmision_SumaAsegurada();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Validacion_Localizador()
+        public ValidacionEmision_SumaAsegurada()
         {
-            Ambiente = "preproducciongestion.segurossura.com.ar";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Validacion_Localizador Instance
+        public static ValidacionEmision_SumaAsegurada Instance
         {
             get { return instance; }
         }
@@ -101,8 +100,8 @@ namespace Sura.Validaciones
             Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoEmision'", repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoEmisionInfo, new ActionTimeout(30000), new RecordItemIndex(2));
             repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoEmisionInfo.WaitForExists(30000);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionLocalizador'.", repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionLocalizadorInfo, new RecordItemIndex(3));
-            Validate.Exists(repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionLocalizadorInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionEmision_SumaAsegurada'.", repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionEmision_SumaAseguradaInfo, new RecordItemIndex(3));
+            Validate.Exists(repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionEmision_SumaAseguradaInfo);
             Delay.Milliseconds(0);
             
         }

@@ -357,6 +357,28 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="043c043f-ed69-400a-b335-ed17aa4098a6"
+			name="Comisiones"
+			ref="cd462a8e-6a4e-4b79-b3c4-395f67857a8a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="e8b252dd-459e-4148-8657-a53938e7b67a"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+				<missingdatabinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="fae5b043-1b22-48e5-be3a-cb176a0f88cd"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</missingdatabinding>
+			</testmodule>
 			<smartfoldernode
 			id="043ccc8b-22e0-43fc-ac9c-2777b382d712"
 			maxrange="1"
@@ -2194,8 +2216,11 @@
 				</databinding>
 			</testmodule>
 			<testcase
+			datarangeactive="True"
 			datasource="Validacion_SumaAsegurada"
 			id="3543d28e-da62-4cc1-842f-e9a41b8a6e7f"
+			maxrange="5"
+			minrange="4"
 			name="Validacion_SumaAsegurada">
 			</testcase>
 			<testmodule
@@ -2616,6 +2641,12 @@
 			id="3f33328c-9276-427d-8188-de88244efbe4"
 			name="setup">
 			</setup>
+			<testmodule
+			id="3fa281c6-a170-4c80-a4f2-a1c8f2f75988"
+			name="ValidacionEmision_SumaAsegurada"
+			ref="ab7040af-f26b-4070-a914-f80d4d51d9a3"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="403d1f60-e4bd-429d-a09e-8d147bc225aa"
 			name="Logout"
@@ -4512,6 +4543,12 @@
 					variablename="Ambiente">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="7772bf38-b4c0-4dd6-a79c-2974e2a0ab7b"
+			name="ValidacionCotizacion_SumaAsegurada"
+			ref="8364685b-3af6-441d-8a50-2118c974df1f"
+			type="Recording">
 			</testmodule>
 			<setup
 			id="7874fb5d-386d-44f4-8832-1a5f1db814a5"
@@ -11584,26 +11621,38 @@
 							name="TR_VARIABLE">
 							</testmodule>
 						</smartfoldernode>
-						<testmodule
-						id="2a2425cf-5506-4c13-bb9f-1e16f100e46a"
-						name="Comisiones">
-						</testmodule>
-						<testmodule
-						id="016dfb0a-3062-4370-9691-0b2ad67797b0"
-						name="Loguear_TipoValidacion">
-						</testmodule>
 						<smartfoldernode
 						id="13823506-a31d-4737-a982-6303fbb0f120"
 						name="SumaAsegurada_Cotizacion">
+							<testmodule
+							id="7772bf38-b4c0-4dd6-a79c-2974e2a0ab7b"
+							name="ValidacionCotizacion_SumaAsegurada">
+							</testmodule>
 						</smartfoldernode>
 						<smartfoldernode
 						id="eee77994-03f4-44ff-b611-10f2631a155f"
 						name="SumaAsegurada_Emision">
+							<testmodule
+							id="2a2425cf-5506-4c13-bb9f-1e16f100e46a"
+							name="Comisiones">
+							</testmodule>
+							<testmodule
+							id="3fa281c6-a170-4c80-a4f2-a1c8f2f75988"
+							name="ValidacionEmision_SumaAsegurada">
+							</testmodule>
 						</smartfoldernode>
 						<smartfoldernode
 						id="c866e5fd-5635-4a5d-b123-d5f149ef88a0"
 						name="SumaAsegurada_SinValidacion">
+							<testmodule
+							id="043c043f-ed69-400a-b335-ed17aa4098a6"
+							name="Comisiones">
+							</testmodule>
 						</smartfoldernode>
+						<testmodule
+						id="016dfb0a-3062-4370-9691-0b2ad67797b0"
+						name="Loguear_TipoValidacion">
+						</testmodule>
 						<teardown
 						id="48433752-530b-405b-84f9-08f4b341d2fc"
 						name="teardown">
@@ -12874,7 +12923,7 @@
 		filename="Validación de Suma Asegurada - Emisión.xlsx"
 		id="e8b252dd-459e-4148-8657-a53938e7b67a"
 		includefile="Checked"
-		lastknownrowcount="4"
+		lastknownrowcount="6"
 		name="Validacion_SumaAsegurada"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"

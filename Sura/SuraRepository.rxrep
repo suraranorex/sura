@@ -1908,6 +1908,16 @@ name="SuraRepository">
 								/dom[@domain=$Ambiente]//span[@innertext~'Asuntos que bloquean la emisi|Resultados de validación']
 							</item>
 							<item
+							addcaps="unknown,webelement,spantag"
+							capname="spantag"
+							id="50d6d089-fa95-4341-afe4-122cbd5ea178"
+							name="txt_BloqueoCotizacion"
+							refimgid="300ac9f7-e1d6-483f-8147-d0bb25c2f0d0"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//span[@innertext~'Asuntos previos a la oferta']
+							</item>
+							<item
 							addcaps="unknown,webelement,divtag"
 							capname="divtag"
 							id="15405abe-195f-4768-9af5-5bf300112fbd"
@@ -1916,6 +1926,26 @@ name="SuraRepository">
 							robustPath=""
 							searchtimeout="30000ms">
 								/dom[@domain=$Ambiente]//div[@innertext~'El vehículo requiere instalación de localizador']
+							</item>
+							<item
+							addcaps="unknown,webelement,divtag"
+							capname="divtag"
+							id="681fccd8-2e96-49be-8b7a-4206fa9edd02"
+							name="txt_ValidacionCotizacion_SumaAsegurada"
+							refimgid="1df5b93e-bd97-44f2-9e9d-693b91f19069"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[@innertext~'La Cotización deberá ser Aprobada por la Compañía' and @innertext~'Suma Asegurada supera']
+							</item>
+							<item
+							addcaps="unknown,webelement,divtag"
+							capname="divtag"
+							id="c1a5fad3-7d8f-4d21-8b97-8e73ea9bd38e"
+							name="txt_ValidacionEmision_SumaAsegurada"
+							refimgid="1df5b93e-bd97-44f2-9e9d-693b91f19069"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain=$Ambiente]//div[@innertext~'La Solicitud deberá ser Aprobada por la Compañía' and @innertext~'Suma Asegurada supera']
 							</item>
 						</folder>
 					</folder>
@@ -6899,7 +6929,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		<var
 		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
 		name="Ambiente">
-			preproducciongestion.segurossura.com.ar
+			ssurgwsoadev4-oci.opc.oracleoutsourcing.com
 		</var>
 		<var
 		id="fbc3c0ec-d362-401d-acc7-5e95815b84a3"

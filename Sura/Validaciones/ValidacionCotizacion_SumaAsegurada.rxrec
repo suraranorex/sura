@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="25c70a80-29d9-4ebc-807a-7f4701496489"
+id="8364685b-3af6-441d-8a50-2118c974df1f"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,14 +19,14 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Validacion_Localizador"
+	classname="ValidacionCotizacion_SumaAsegurada"
 	namespace="Sura.Validaciones">
 	</codegen>
 	<variables>
 		<var
 		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
 		name="Ambiente">
-			preproducciongestion.segurossura.com.ar
+			ssurgwsoadev4-oci.opc.oracleoutsourcing.com
 		</var>
 	</variables>
 	<recorditems>
@@ -38,45 +38,80 @@ mode="Global">
 		loc="Center"
 		movetime="300ms"
 		optional="False"
-		searchpropertyid="663cb626-beaa-4f8a-8591-70a3916a25ac"
-		sx="750"
-		sy="254"
+		searchpropertyid="00be7b03-13d4-4c40-bf9f-b17972ffa097"
+		sx="0"
+		sy="0"
 		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="1d480b2d-134d-4b5c-96b0-46a365c5a829"
+			id="25f606e9-51bf-41f1-8530-363d7cfd5a2d"
 			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="456,208,36,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:JobWizardToolbarButtonSet:QuoteOrReview-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Cotiar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
 				<path>
-					/dom[@domain=$Ambiente]//div//span[@innertext~'Emitir Póliza']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="d0764f7e-db5e-4e0f-8340-37672b8403f9"
-		sx="650"
-		sy="451"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="a82638ae-274b-4817-9cad-a1d43bce9e34"
-			sourcename="RepositoryEditor">
-				<path>
-					/dom[@domain=$Ambiente]/body//span[@innertext~'Aceptar']
+					/dom[@domain=$Ambiente]//span[@innertext~'Cotiar']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -85,7 +120,7 @@ mode="Global">
 		<WaitForRecordItem
 		enabled="True"
 		optional="False"
-		searchpropertyid="1cd63ebf-8ae8-47db-b0fb-5373ec7eb2f8"
+		searchpropertyid="350b594d-ea4d-4432-b83e-72bf775269df"
 		waitaction="Exists"
 		waittimeout="30000ms">
 			<comment>
@@ -93,7 +128,7 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="48ebfede-aba1-474c-a6fb-af85f9e910ab"
+			id="50d6d089-fa95-4341-afe4-122cbd5ea178"
 			sourcename="RepositoryEditor">
 				<element
 				capabilities="webelement, spantag"
@@ -103,7 +138,7 @@ mode="Global">
 				hasfocus="False"
 				index="0"
 				prefcap="spantag"
-				rect="219,201,350,22"
+				rect="219,201,284,22"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -131,7 +166,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Asuntos que bloquean la emisión
+						Asuntos previos a la oferta
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -145,7 +180,7 @@ mode="Global">
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='preproducciongestion.segurossura.com.ar']//tbody[#'UWBlockProgressIssuesPopup-tbody']//span[@innertext&gt;'Asuntos que bloquean la e']
+					/dom[@domain=$Ambiente]//span[@innertext~'Asuntos previos a la oferta']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -155,16 +190,16 @@ mode="Global">
 		action="Exists"
 		enabled="True"
 		optional="False"
-		searchpropertyid="d4f5d86e-ff87-4e73-980d-6d3f33a2d049">
+		searchpropertyid="7cbb0677-91d2-4976-9fbc-e42952fe2543">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="15405abe-195f-4768-9af5-5bf300112fbd"
+			id="681fccd8-2e96-49be-8b7a-4206fa9edd02"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'UWBlockProgressIssuesPopup-tbody']//div[@innertext&gt;'1: CHEVROLET AGILE 2021: El']
+					/dom[@domain=$Ambiente]//div[@innertext~'La Cotización deberá ser Aprobada por la Compañía']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -192,7 +227,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Validacion_Localizador.UserCode.cs
+		ValidacionCotizacion_SumaAsegurada.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

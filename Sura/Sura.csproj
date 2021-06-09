@@ -2650,6 +2650,30 @@
       <UserCode>true</UserCode>
       <id>fc7f55cb-0ec0-4209-9c87-f0da4d330362</id>
     </Compile>
+    <Compile Include="Validaciones\ValidacionCotizacion_SumaAsegurada.cs">
+      <BoundTo>b27333ec-3e69-440c-9d5d-95e0f300c5eb</BoundTo>
+      <DependentUpon>ValidacionCotizacion_SumaAsegurada.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2c27c2f6-6b26-4ae7-acc9-b289032203ee</id>
+    </Compile>
+    <Compile Include="Validaciones\ValidacionCotizacion_SumaAsegurada.UserCode.cs">
+      <BoundTo>b27333ec-3e69-440c-9d5d-95e0f300c5eb</BoundTo>
+      <DependentUpon>ValidacionCotizacion_SumaAsegurada.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>afdb7ff0-a4ac-431c-9b12-5a9f1567e9ff</id>
+    </Compile>
+    <Compile Include="Validaciones\ValidacionEmision_SumaAsegurada.cs">
+      <BoundTo>5d013e43-a3d7-4fa8-bd6d-e7bce409f16a</BoundTo>
+      <DependentUpon>ValidacionEmision_SumaAsegurada.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2274956d-25ff-4d90-a8c5-c3e1206c5693</id>
+    </Compile>
+    <Compile Include="Validaciones\ValidacionEmision_SumaAsegurada.UserCode.cs">
+      <BoundTo>5d013e43-a3d7-4fa8-bd6d-e7bce409f16a</BoundTo>
+      <DependentUpon>ValidacionEmision_SumaAsegurada.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>94890725-5fdd-4a32-ab12-c482f22b81c7</id>
+    </Compile>
     <Compile Include="Validaciones\Validacion_Localizador.cs">
       <BoundTo>d515b945-f467-40e0-9140-2167a5626176</BoundTo>
       <DependentUpon>Validacion_Localizador.rxrec</DependentUpon>
@@ -4259,6 +4283,16 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>c6b4f1da-753a-4943-b72f-fe0bc1767e9b</id>
       <recordtableid>094c3649-7d8e-411a-a41f-920919fbcae9</recordtableid>
+    </None>
+    <None Include="Validaciones\ValidacionCotizacion_SumaAsegurada.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>b27333ec-3e69-440c-9d5d-95e0f300c5eb</id>
+      <recordtableid>8364685b-3af6-441d-8a50-2118c974df1f</recordtableid>
+    </None>
+    <None Include="Validaciones\ValidacionEmision_SumaAsegurada.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>5d013e43-a3d7-4fa8-bd6d-e7bce409f16a</id>
+      <recordtableid>ab7040af-f26b-4070-a914-f80d4d51d9a3</recordtableid>
     </None>
     <None Include="Validaciones\Validacion_Localizador.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>

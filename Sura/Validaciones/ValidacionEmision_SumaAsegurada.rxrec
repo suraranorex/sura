@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="25c70a80-29d9-4ebc-807a-7f4701496489"
+id="ab7040af-f26b-4070-a914-f80d4d51d9a3"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,15 +19,10 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Validacion_Localizador"
+	classname="ValidacionEmision_SumaAsegurada"
 	namespace="Sura.Validaciones">
 	</codegen>
 	<variables>
-		<var
-		id="e249a1a2-b157-42ff-9826-60bc615aa12c"
-		name="Ambiente">
-			preproducciongestion.segurossura.com.ar
-		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -155,16 +150,71 @@ mode="Global">
 		action="Exists"
 		enabled="True"
 		optional="False"
-		searchpropertyid="d4f5d86e-ff87-4e73-980d-6d3f33a2d049">
+		searchpropertyid="dbd5de94-1400-48ec-9729-0ed8fe402c74">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="15405abe-195f-4768-9af5-5bf300112fbd"
+			id="c1a5fad3-7d8f-4d21-8b97-8e73ea9bd38e"
 			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="374,297,985,34"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-form-display-field x-form-display-field-default
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						UWBlockProgressIssuesPopup:IssuesScreen:ApproveDV:0:ShortDescriptionAndSize-inputEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						La Solicitud deberá ser Aprobada por la Compañía. Para el Vehículo 1: CHEVROLET AGILE 2022, la Suma Asegurada supera o iguala el máximo permitido 6.000.001,00
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-form-display-field x-form-display-field-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
 				<path>
-					/dom[@domain=$Ambiente]//tbody[#'UWBlockProgressIssuesPopup-tbody']//div[@innertext&gt;'1: CHEVROLET AGILE 2021: El']
+					/dom[@domain=$Ambiente]//div[@innertext~'La Solicitud deberá ser Aprobada por la Compañía']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -192,7 +242,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Validacion_Localizador.UserCode.cs
+		ValidacionEmision_SumaAsegurada.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

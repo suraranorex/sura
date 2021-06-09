@@ -24,30 +24,30 @@ namespace Sura.Validaciones
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Validacion_Localizador recording.
+    ///The ValidacionCotizacion_SumaAsegurada recording.
     /// </summary>
-    [TestModule("25c70a80-29d9-4ebc-807a-7f4701496489", ModuleType.Recording, 1)]
-    public partial class Validacion_Localizador : ITestModule
+    [TestModule("8364685b-3af6-441d-8a50-2118c974df1f", ModuleType.Recording, 1)]
+    public partial class ValidacionCotizacion_SumaAsegurada : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::Sura.SuraRepository repository.
         /// </summary>
         public static global::Sura.SuraRepository repo = global::Sura.SuraRepository.Instance;
 
-        static Validacion_Localizador instance = new Validacion_Localizador();
+        static ValidacionCotizacion_SumaAsegurada instance = new ValidacionCotizacion_SumaAsegurada();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Validacion_Localizador()
+        public ValidacionCotizacion_SumaAsegurada()
         {
-            Ambiente = "preproducciongestion.segurossura.com.ar";
+            Ambiente = "ssurgwsoadev4-oci.opc.oracleoutsourcing.com";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Validacion_Localizador Instance
+        public static ValidacionCotizacion_SumaAsegurada Instance
         {
             get { return instance; }
         }
@@ -90,19 +90,15 @@ namespace Sura.Validaciones
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPolizaInfo, new RecordItemIndex(0));
-            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Cotizar' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_CotizarInfo, new RecordItemIndex(0));
+            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Cotizar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_AceptarInfo, new RecordItemIndex(1));
-            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar.Click();
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoCotizacion'", repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoCotizacionInfo, new ActionTimeout(30000), new RecordItemIndex(1));
+            repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoCotizacionInfo.WaitForExists(30000);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoEmision'", repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoEmisionInfo, new ActionTimeout(30000), new RecordItemIndex(2));
-            repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoEmisionInfo.WaitForExists(30000);
-            
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionLocalizador'.", repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionLocalizadorInfo, new RecordItemIndex(3));
-            Validate.Exists(repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionLocalizadorInfo);
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionCotizacion_SumaAsegurada'.", repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionCotizacion_SumaAseguradaInfo, new RecordItemIndex(2));
+            Validate.Exists(repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionCotizacion_SumaAseguradaInfo);
             Delay.Milliseconds(0);
             
         }

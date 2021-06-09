@@ -399,7 +399,7 @@ namespace Sura
             set { _Anio = value; }
         }
 
-        string _Ambiente = "preproducciongestion.segurossura.com.ar";
+        string _Ambiente = "ssurgwsoadev4-oci.opc.oracleoutsourcing.com";
 
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
@@ -9497,7 +9497,10 @@ namespace Sura
         public partial class ValidacionesFolder : RepoGenBaseFolder
         {
             RepoItemInfo _txt_bloqueoemisionInfo;
+            RepoItemInfo _txt_bloqueocotizacionInfo;
             RepoItemInfo _txt_validacionlocalizadorInfo;
+            RepoItemInfo _txt_validacioncotizacion_sumaaseguradaInfo;
+            RepoItemInfo _txt_validacionemision_sumaaseguradaInfo;
 
             /// <summary>
             /// Creates a new Validaciones  folder.
@@ -9506,7 +9509,10 @@ namespace Sura
                     base("Validaciones", "", parentFolder, 0, null, false, "ec40ed95-9d1e-4580-96a5-48da80f42c54", "")
             {
                 _txt_bloqueoemisionInfo = new RepoItemInfo(this, "txt_BloqueoEmision", ".//span[@innertext~'Asuntos que bloquean la emisi|Resultados de validación']", "", 30000, null, "48ebfede-aba1-474c-a6fb-af85f9e910ab");
+                _txt_bloqueocotizacionInfo = new RepoItemInfo(this, "txt_BloqueoCotizacion", ".//span[@innertext~'Asuntos previos a la oferta']", "", 30000, null, "50d6d089-fa95-4341-afe4-122cbd5ea178");
                 _txt_validacionlocalizadorInfo = new RepoItemInfo(this, "txt_ValidacionLocalizador", ".//div[@innertext~'El vehículo requiere instalación de localizador']", "", 30000, null, "15405abe-195f-4768-9af5-5bf300112fbd");
+                _txt_validacioncotizacion_sumaaseguradaInfo = new RepoItemInfo(this, "txt_ValidacionCotizacion_SumaAsegurada", ".//div[@innertext~'La Cotización deberá ser Aprobada por la Compañía' and @innertext~'Suma Asegurada supera']", "", 30000, null, "681fccd8-2e96-49be-8b7a-4206fa9edd02");
+                _txt_validacionemision_sumaaseguradaInfo = new RepoItemInfo(this, "txt_ValidacionEmision_SumaAsegurada", ".//div[@innertext~'La Solicitud deberá ser Aprobada por la Compañía' and @innertext~'Suma Asegurada supera']", "", 30000, null, "c1a5fad3-7d8f-4d21-8b97-8e73ea9bd38e");
             }
 
             /// <summary>
@@ -9546,6 +9552,30 @@ namespace Sura
             }
 
             /// <summary>
+            /// The txt_BloqueoCotizacion item.
+            /// </summary>
+            [RepositoryItem("50d6d089-fa95-4341-afe4-122cbd5ea178")]
+            public virtual Ranorex.SpanTag txt_BloqueoCotizacion
+            {
+                get
+                {
+                    return _txt_bloqueocotizacionInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_BloqueoCotizacion item info.
+            /// </summary>
+            [RepositoryItemInfo("50d6d089-fa95-4341-afe4-122cbd5ea178")]
+            public virtual RepoItemInfo txt_BloqueoCotizacionInfo
+            {
+                get
+                {
+                    return _txt_bloqueocotizacionInfo;
+                }
+            }
+
+            /// <summary>
             /// The txt_ValidacionLocalizador item.
             /// </summary>
             [RepositoryItem("15405abe-195f-4768-9af5-5bf300112fbd")]
@@ -9566,6 +9596,54 @@ namespace Sura
                 get
                 {
                     return _txt_validacionlocalizadorInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_ValidacionCotizacion_SumaAsegurada item.
+            /// </summary>
+            [RepositoryItem("681fccd8-2e96-49be-8b7a-4206fa9edd02")]
+            public virtual Ranorex.DivTag txt_ValidacionCotizacion_SumaAsegurada
+            {
+                get
+                {
+                    return _txt_validacioncotizacion_sumaaseguradaInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_ValidacionCotizacion_SumaAsegurada item info.
+            /// </summary>
+            [RepositoryItemInfo("681fccd8-2e96-49be-8b7a-4206fa9edd02")]
+            public virtual RepoItemInfo txt_ValidacionCotizacion_SumaAseguradaInfo
+            {
+                get
+                {
+                    return _txt_validacioncotizacion_sumaaseguradaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_ValidacionEmision_SumaAsegurada item.
+            /// </summary>
+            [RepositoryItem("c1a5fad3-7d8f-4d21-8b97-8e73ea9bd38e")]
+            public virtual Ranorex.DivTag txt_ValidacionEmision_SumaAsegurada
+            {
+                get
+                {
+                    return _txt_validacionemision_sumaaseguradaInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_ValidacionEmision_SumaAsegurada item info.
+            /// </summary>
+            [RepositoryItemInfo("c1a5fad3-7d8f-4d21-8b97-8e73ea9bd38e")]
+            public virtual RepoItemInfo txt_ValidacionEmision_SumaAseguradaInfo
+            {
+                get
+                {
+                    return _txt_validacionemision_sumaaseguradaInfo;
                 }
             }
         }
