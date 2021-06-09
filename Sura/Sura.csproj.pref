@@ -4,7 +4,6 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="PC.rxtst" />
     <Element value="PC_GestionDocumental.rxtst" />
   </Array>
   <Properties name="projectSavedData">

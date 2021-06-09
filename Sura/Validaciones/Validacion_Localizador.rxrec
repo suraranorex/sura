@@ -35,7 +35,7 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="20;10"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="663cb626-beaa-4f8a-8591-70a3916a25ac"
@@ -61,7 +61,7 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="35;11"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="d0764f7e-db5e-4e0f-8340-37672b8403f9"
@@ -82,12 +82,21 @@ mode="Global">
 				</robustPath>
 			</info>
 		</mouseitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
-		loc="20;10"
+		enabled="False"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="663cb626-beaa-4f8a-8591-70a3916a25ac"
@@ -112,8 +121,8 @@ mode="Global">
 		action="Click"
 		button="Left"
 		duration="300ms"
-		enabled="True"
-		loc="35;11"
+		enabled="False"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="d0764f7e-db5e-4e0f-8340-37672b8403f9"
@@ -139,7 +148,7 @@ mode="Global">
 		optional="False"
 		searchpropertyid="1cd63ebf-8ae8-47db-b0fb-5373ec7eb2f8"
 		waitaction="Exists"
-		waittimeout="20000ms">
+		waittimeout="30000ms">
 			<comment>
 			</comment>
 			<bindings>

@@ -90,26 +90,29 @@ namespace Sura.Validaciones
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza' at 20;10.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPolizaInfo, new RecordItemIndex(0));
-            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza.Click("20;10");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPolizaInfo, new RecordItemIndex(0));
+            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar' at 35;11.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_AceptarInfo, new RecordItemIndex(1));
-            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar.Click("35;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_AceptarInfo, new RecordItemIndex(1));
+            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza' at 20;10.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPolizaInfo, new RecordItemIndex(2));
-            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza.Click("20;10");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(2));
+            //Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar' at 35;11.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_AceptarInfo, new RecordItemIndex(3));
-            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar.Click("35;11");
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPolizaInfo, new RecordItemIndex(3));
+            //repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoEmision'", repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoEmisionInfo, new ActionTimeout(20000), new RecordItemIndex(4));
-            repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoEmisionInfo.WaitForExists(20000);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_AceptarInfo, new RecordItemIndex(4));
+            //repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_Aceptar.Click();
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionLocalizador'.", repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionLocalizadorInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoEmision'", repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoEmisionInfo, new ActionTimeout(30000), new RecordItemIndex(5));
+            repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_BloqueoEmisionInfo.WaitForExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionLocalizador'.", repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionLocalizadorInfo, new RecordItemIndex(6));
             Validate.Exists(repo.SURA.PC.Emision.PolizaMotor.Validaciones.txt_ValidacionLocalizadorInfo);
             Delay.Milliseconds(0);
             
