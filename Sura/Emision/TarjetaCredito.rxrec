@@ -111,6 +111,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'westPanel-innerCt']/div[3]/div[3]/div[1]/?/?/div/table[9]//span[@innertext='Información del Pago']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -190,6 +192,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Agregar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -275,6 +279,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/BillingInfo']/table/tbody/tr[5]//table/tbody/tr[8]//table/?/?/tr/td[2]/div/div[1]/div/div/a[1]//span[@innertext='Agregar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="f7910cee-c17a-4565-a505-508d807e314d">
@@ -462,6 +468,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext~'Tipo de tarjeta']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -618,6 +626,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext~'Tipo de tarjeta']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
@@ -768,6 +778,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Tipo de tarjeta']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -841,6 +853,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Nuevo Método de Pago']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -859,6 +873,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Tipo de tarjeta']/../..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<setvaluerecorditem
@@ -1028,6 +1044,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.º de tarjeta de crédito']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<AttributeValue>
 				**4123
@@ -1186,6 +1204,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.º de tarjeta de crédito']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -1259,6 +1279,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Nuevo Método de Pago']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -1277,6 +1299,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'N.º de tarjeta de crédito']/../..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -1355,6 +1379,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext~'Fecha de vencimiento']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -1428,6 +1454,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext~'Fecha de vencimiento']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
@@ -1594,6 +1622,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Fecha de vencimiento']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -1667,6 +1697,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody//span[@innertext='Nuevo Método de Pago']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -1685,6 +1717,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext~'Fecha de vencimiento']/../..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -1759,6 +1793,8 @@ mJ/fX86PMT++v50lFAC+Yn99fzopKKAP/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[4]//table/tbody/tr[6]//label/span[@innertext&gt;'Utilizar la informaci&#243;n del']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="def83e34-fcf1-499c-a38b-f3d7e9f7c3a8">
@@ -2018,6 +2054,8 @@ tMJJOTyapESt0OsooorlPRP/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<mouseitem
@@ -2103,6 +2141,8 @@ tMJJOTyapESt0OsooorlPRP/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'SubmissionWizard/NewPaymentInstrument']/table/tbody/tr[2]/td/div/div/div/a[1]//span[@innertext='Actualizar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="a261f319-4169-4573-a73e-498ebc891e03">
@@ -2153,6 +2193,8 @@ H9jW/wDfl/Mf4VoUVXPLuZ+yh2M/+xrf+/L+Y/wo/sa3/vy/mP8ACtCijnl3D2UOx//Z
 				<path>
 					/dom[@domain=$Ambiente]//div[@innertext='La tarjeta de crédito que inteta registrar ya existe en la cuenta']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -2177,6 +2219,8 @@ H9jW/wDfl/Mf4VoUVXPLuZ+yh2M/+xrf+/L+Y/wo/sa3/vy/mP8ACtCijnl3D2UOx//Z
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext='Cancelar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -2195,6 +2239,8 @@ H9jW/wDfl/Mf4VoUVXPLuZ+yh2M/+xrf+/L+Y/wo/sa3/vy/mP8ACtCijnl3D2UOx//Z
 				<path>
 					/dom[@domain=$Ambiente]//span[@innertext~'Información del Pago']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>

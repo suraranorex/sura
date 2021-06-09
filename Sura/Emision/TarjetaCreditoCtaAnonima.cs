@@ -253,6 +253,10 @@ namespace Sura.Emision
             Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'SURA.PC.Endosos2.ModifCoberturas.title_InformacionDelPago'", repo.SURA.PC.Endosos2.ModifCoberturas.title_InformacionDelPagoInfo, new ActionTimeout(5000), new RecordItemIndex(32));
             repo.SURA.PC.Endosos2.ModifCoberturas.title_InformacionDelPagoInfo.WaitForExists(5000);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza' at Center.", repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPolizaInfo, new RecordItemIndex(33));
+            repo.SURA.PC.Emision.Generales.InformacionDePoliza.Botones.bttn_EmitirPoliza.Click();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

@@ -1,12 +1,14 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="BC.rxtst" />
+    <Element value="PC.rxtst" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="BC.rxtst" />
-    <Element value="Menu\MenuLateral_Pagos.rxrec" />
-    <Element value="Emision\EmisionPoliza.rxrec" />
+    <Element value="PC.rxtst" />
+    <Element value="Emision\EditarCuenta_CtaAnonima.rxrec" />
+    <Element value="Emision\SeleccionaDireccion.rxrec" />
+    <Element value="Emision\CompletaDireccion.rxrec" />
+    <Element value="Emision\EmisionPolizaCtaAnonima.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

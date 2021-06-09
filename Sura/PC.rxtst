@@ -2360,20 +2360,6 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<testmodule
-			id="26bb9ed0-5772-4c88-b5a2-0385c53f840b"
-			name="Conductores"
-			ref="4b1ec105-fb6d-4004-b918-d3e4b6d19f31"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</databinding>
-			</testmodule>
 			<teardown
 			id="270ec152-a065-4c02-8c68-66013b3c661a"
 			name="teardown11">
@@ -2630,20 +2616,6 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="572b7b41-9d12-444f-9775-c358c54bee8c"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
-			id="2f00ddf0-48c2-4f6b-932f-260a95046c36"
-			name="Comisiones"
-			ref="cd462a8e-6a4e-4b79-b3c4-395f67857a8a"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
@@ -3079,6 +3051,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="3784256a-ffb4-4791-b2ca-627c7c555f62"
+			name="ComisionesCtaAnonima"
+			ref="20a5b012-4bf7-4dce-8c52-9802ff939248"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="37946105-d894-49b4-abe6-542255de2cea"
 			name="MenuLateral_CuentaPC"
 			ref="5bb086e1-d816-4abc-b088-2dff0422adbb"
@@ -3218,6 +3204,32 @@
 			name="TarjetaCreditoCtaAnonima"
 			ref="9b616537-b30e-4f5a-bc28-2e55d5000374"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="TipoTarjeta"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="30a3b09c-92f3-4578-afd5-eaa2b7e7c391"
+					variablename="TipoTarjeta">
+					</var>
+					<var
+					dataname="NumTarjetaCred"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="5838a06f-80d8-483d-8697-b7725f36562b"
+					variablename="NumTarjetaCred">
+					</var>
+					<var
+					dataname="FechaVencimiento"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="ed6ed91d-59a1-473e-af32-5eec5d1be3ef"
+					variablename="FechaVencimiento">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="3a99b926-01b1-4b20-8332-7f1e6218593e"
@@ -5139,6 +5151,20 @@
 				</parameters>
 			</testcase>
 			<testmodule
+			id="59b51b77-0cb7-48b4-8531-2ec91b1002f1"
+			name="EmisionPoliza"
+			ref="a8de89a9-efd1-4c3f-9834-4c598c1caf57"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="59c38c3a-57e5-47f9-acb8-44ce6558207f"
 			name="AltaEndoso_Hogar_Exclusion_de_Riesgo"
 			ref="fd96025a-5b41-4e20-944b-4b1a7dd49c2f"
@@ -5339,7 +5365,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="5ec22455-4532-421e-9030-114eb88c9e25"
 			name="CloseBrowser"
 			ref="b5884f88-adf0-4880-8ec9-29aa0e9b3095"
@@ -5834,6 +5859,20 @@
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
+			id="6687faec-ed93-4763-b09d-a55c34530858"
+			name="ActualizaDireccion"
+			ref="f2b82dd8-0806-4ba0-87ea-b1fd961e164a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="668cee78-a7dc-4df5-9f35-7bf087dc7efa"
 			name="Cotizar_Endoso_Hogar_Exclusion_Inclusion_de_Riesgo"
 			ref="968281dc-e99a-4a16-ac6f-1387a35d00fc"
@@ -5960,6 +5999,12 @@
 			maxrange="0"
 			minrange="0"
 			name="Emision_Motor_AnswerCuentaAnonima">
+				<parameters>
+					<param
+					name="TextoSeleccionar"
+					value="">
+					</param>
+				</parameters>
 			</testcase>
 			<testmodule
 			id="6b901442-3076-48ce-83b6-2fb21abdab07"
@@ -6553,20 +6598,6 @@
 					datasourceid="d592eeb7-16dc-4949-9c7d-53acbfa8bb2b"
 					variableid="cee5455c-8e3c-448d-971f-a39f50d1d5e1"
 					variablename="NOMBREARCHIVO">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
-			id="74c41a3b-d642-43dc-8af7-8bcc046e2981"
-			name="EmisionPoliza"
-			ref="a8de89a9-efd1-4c3f-9834-4c598c1caf57"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="Ambiente"
-					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
-					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
-					variablename="Ambiente">
 					</var>
 				</databinding>
 			</testmodule>
@@ -7790,6 +7821,14 @@
 			name="ConductoresCtaAnonima"
 			ref="d3a04e60-d586-46ce-8289-61e96b7f350a"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="8c711dba-2190-4b03-be7b-331fbb2e3477"
@@ -8640,6 +8679,31 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="98e3fd31-2ee9-4eab-9409-b259875d6dcd"
+			name="SeleccionaDireccion">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="Parameter"
+								dataname="TextoSeleccionar"
+								id="6b8502a4-24f0-4568-99ab-e0831c833984">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="Seleccionar">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
 			<testmodule
 			id="98f41a73-e53e-45d8-9c55-599a8c3e87e7"
 			name="MenuLateral_Poliza"
@@ -10431,6 +10495,31 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="ba4ebe12-b556-4987-b457-1470f61bae82"
+			name="SeleccionaDireccionDefault">
+				<conditiongroup
+				comparison="AND"
+				enabled="True">
+					<condition
+					comparison="IsEqual">
+						<leftvalue>
+							<datavaluesource>
+								<databinding
+								bindingtype="Parameter"
+								dataname="TextoSeleccionar"
+								id="6b8502a4-24f0-4568-99ab-e0831c833984">
+								</databinding>
+							</datavaluesource>
+						</leftvalue>
+						<rightvalue>
+							<simplevaluesource
+							value="">
+							</simplevaluesource>
+						</rightvalue>
+					</condition>
+				</conditiongroup>
+			</smartfoldernode>
 			<testmodule
 			id="ba8e2b55-5c9d-4d5e-b7ae-81eb051b8cf0"
 			name="Cobertura_Endoso_Hogar_Inclusion_de_Riesgo"
@@ -10662,6 +10751,20 @@
 					datasourceid="d0f5913a-31e0-4bb1-81eb-e2a8b6c4c2a4"
 					variableid="78512ccc-9533-4e79-a9fd-499a3a813f37"
 					variablename="FechaInicio">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="be403dfa-ea42-4577-b36c-f1212174fae4"
+			name="SeleccionaDireccion"
+			ref="b578dea9-0a16-49a5-97cf-ab2054d90ba8"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
 					</var>
 				</databinding>
 			</testmodule>
@@ -11912,7 +12015,6 @@
 			name="teardown">
 			</teardown>
 			<testmodule
-			enabled="False"
 			id="cefcf9ce-e08d-408a-9c18-2839473636d5"
 			name="Logout"
 			ref="68c8632a-235c-4edc-9f8a-e1402221543e"
@@ -12159,6 +12261,26 @@
 			name="EditarCuenta_CtaAnonima"
 			ref="3531d5c5-faa0-4ec8-b3ff-a7f1c9bafa9f"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="TextoSeleccionar"
+					datasourceid="6b8502a4-24f0-4568-99ab-e0831c833984"
+					variableid="9082dd69-ec83-4e76-acc1-cfe822433dd9"
+					variablename="TextoSeleccionar">
+					</var>
+					<var
+					dataname="NroDocumento"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
+					variableid="91eac8d1-e373-4259-9cd3-009bae16119c"
+					variablename="NroDocumento">
+					</var>
+				</databinding>
 			</testmodule>
 			<smartfoldernode
 			id="d394d76c-744e-4cd6-bb9f-720ad0e1836d"
@@ -13466,6 +13588,20 @@
 					<var
 					dataname="Ambiente"
 					datasourceid="03cc04f0-efc2-402c-81d5-cad953c654d7"
+					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="ec338a14-56c6-46ae-8603-e9d003ba9324"
+			name="EmisionPolizaCtaAnonima"
+			ref="89675adb-00c0-4227-a2e9-dd6690ed39f5"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
 					variableid="e249a1a2-b157-42ff-9826-60bc615aa12c"
 					variablename="Ambiente">
 					</var>
@@ -17892,10 +18028,6 @@
 						name="ContinueInformacionPolizaAnswer">
 						</testmodule>
 						<testmodule
-						id="26bb9ed0-5772-4c88-b5a2-0385c53f840b"
-						name="Conductores">
-						</testmodule>
-						<testmodule
 						id="8c6ab109-7806-4ab2-be9e-3bf771fa1c91"
 						name="ConductoresCtaAnonima">
 						</testmodule>
@@ -17920,8 +18052,8 @@
 							</testmodule>
 						</smartfoldernode>
 						<testmodule
-						id="2f00ddf0-48c2-4f6b-932f-260a95046c36"
-						name="Comisiones">
+						id="3784256a-ffb4-4791-b2ca-627c7c555f62"
+						name="ComisionesCtaAnonima">
 						</testmodule>
 						<smartfoldernode
 						id="bc011a1b-6092-49fe-b676-6efd3fc11bd9"
@@ -17940,12 +18072,32 @@
 							</testmodule>
 						</smartfoldernode>
 						<testmodule
-						id="74c41a3b-d642-43dc-8af7-8bcc046e2981"
-						name="EmisionPoliza">
+						id="ec338a14-56c6-46ae-8603-e9d003ba9324"
+						name="EmisionPolizaCtaAnonima">
 						</testmodule>
 						<testmodule
 						id="d34e2217-359f-418d-a7a4-0033168a271d"
 						name="EditarCuenta_CtaAnonima">
+						</testmodule>
+						<smartfoldernode
+						id="98e3fd31-2ee9-4eab-9409-b259875d6dcd"
+						name="SeleccionaDireccion">
+							<testmodule
+							id="be403dfa-ea42-4577-b36c-f1212174fae4"
+							name="SeleccionaDireccion">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="ba4ebe12-b556-4987-b457-1470f61bae82"
+						name="SeleccionaDireccionDefault">
+							<testmodule
+							id="6687faec-ed93-4763-b09d-a55c34530858"
+							name="ActualizaDireccion">
+							</testmodule>
+						</smartfoldernode>
+						<testmodule
+						id="59b51b77-0cb7-48b4-8531-2ec91b1002f1"
+						name="EmisionPoliza">
 						</testmodule>
 						<teardown
 						id="17ca3b88-c957-4d3a-abd8-748ec4e686af"
@@ -19322,9 +19474,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\Sura\DataSource\DataSource - Emision Motor_Answer_CtaAnonima.xlsx"
+		filename="DataSource - Emision Motor_Answer_CtaAnonima.xlsx"
 		id="6d5d42bb-34b7-4a11-bd21-2bee325862cf"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="10"
 		name="EmisionMotorAnswerCtaAnonima"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -19420,6 +19572,12 @@
 				</column>
 				<column>
 					Actividad
+				</column>
+				<column>
+					NroDocumento
+				</column>
+				<column>
+					Column32
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
@@ -19858,7 +20016,7 @@
 		filename="R:\Sura\DataSource\Endoso_Hogar_Inclusion_de_Riesgo.xlsx"
 		id="9b924234-3935-41a6-b46a-3156911ba026"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="Endoso_Hogar_Inclusion_de_Riesgo"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -20121,7 +20279,7 @@
 		filename="R:\Sura\DataSource\DataSource - Endoso AP - Modificacion de Coberturas.xlsx"
 		id="5e487ecb-c8f4-426f-9cf3-0320d52fb576"
 		includefile="Unchecked"
-		lastknownrowcount="2"
+		lastknownrowcount="3"
 		name="EndosoAP_Coberturas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -20233,7 +20391,7 @@
 		filename="DataSource - Endoso - Carta de Danios.xlsx"
 		id="2d13861a-4919-438c-8ade-ce4bcf1cc753"
 		includefile="Checked"
-		lastknownrowcount="3"
+		lastknownrowcount="5"
 		name="EndosoM_CartaDanios"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -20444,7 +20602,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="RegresionSeleccionada">
+	default="EmisionMotorAnswerCtaAnonima">
 		<testconfiguration
 		name="Emisiones">
 			<testcontainer
@@ -20735,38 +20893,38 @@
 		</testconfiguration>
 		<testconfiguration
 		name="EmisionMotorAnswer">
+		</testconfiguration>
+		<testconfiguration
+		name="EmisionMotorAnswerCtaAnonima">
 			<testcontainer
-			id="169887d7-21a4-4604-b511-48dcebd5d05d">
+			id="6b8502a4-24f0-4568-99ab-e0831c833984">
 			</testcontainer>
 			<testcontainer
-			id="1fc98506-d7c4-42b3-ad44-82cc6f15c3e1">
+			id="73155ded-5fc8-476c-860d-65199ea567bb">
 			</testcontainer>
 			<testcontainer
-			id="1ff4a919-10dc-4f97-a4cd-5e4a0e40c32b">
+			id="792f2b83-4ebf-4708-93ca-1ece347d14c5">
 			</testcontainer>
 			<testcontainer
-			id="55fe0d59-4a2e-4421-a861-9259fda365df">
+			id="8eddead0-f58d-419c-a5f0-ba1c3823d2d5">
 			</testcontainer>
 			<testcontainer
-			id="73833851-5008-4a41-995f-b3944a9aa217">
-			</testcontainer>
-			<testcontainer
-			id="8f91e82d-ede3-4907-8e6d-512158b39c77">
-			</testcontainer>
-			<testcontainer
-			id="9d911d90-7567-4cf3-b3f2-f553250c703c">
-			</testcontainer>
-			<testcontainer
-			id="a6ec0e22-30d2-4398-95fd-13a83a69b049">
+			id="98e3fd31-2ee9-4eab-9409-b259875d6dcd">
 			</testcontainer>
 			<testcontainer
 			id="ad1ffc8e-61d9-4b1f-96f0-6c90d1f10304">
 			</testcontainer>
 			<testcontainer
-			id="b89afea8-9a8a-450e-a00b-388c9e7ed69b">
+			id="ba4ebe12-b556-4987-b457-1470f61bae82">
 			</testcontainer>
 			<testcontainer
-			id="d3cb208e-ea2c-478e-b20a-d1904bcbb384">
+			id="bc011a1b-6092-49fe-b676-6efd3fc11bd9">
+			</testcontainer>
+			<testcontainer
+			id="ec3d6afb-fd84-400d-9ead-1515e0f47a25">
+			</testcontainer>
+			<testcontainer
+			id="ec7e62c6-7b5d-4c8c-abcd-befef089d444">
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration

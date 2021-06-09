@@ -292,6 +292,30 @@
       <UserCode>true</UserCode>
       <id>9f871665-d130-41b6-a7c9-33f2df8089c0</id>
     </Compile>
+    <Compile Include="Emision\ComisionesCtaAnonima.cs">
+      <BoundTo>1f910585-d9f2-456b-bd36-f874dd4553d4</BoundTo>
+      <DependentUpon>ComisionesCtaAnonima.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>748f6fc3-30ac-445e-b426-d65da8caca38</id>
+    </Compile>
+    <Compile Include="Emision\ComisionesCtaAnonima.UserCode.cs">
+      <BoundTo>1f910585-d9f2-456b-bd36-f874dd4553d4</BoundTo>
+      <DependentUpon>ComisionesCtaAnonima.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4ab56780-0b29-44bc-a3e9-b8e19dfadc65</id>
+    </Compile>
+    <Compile Include="Emision\ActualizaDireccion.cs">
+      <BoundTo>bb8664e3-6746-4bda-ba3d-b19ad1960e68</BoundTo>
+      <DependentUpon>ActualizaDireccion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>001cafa0-b26f-44a8-ab0e-7ec233c9eb84</id>
+    </Compile>
+    <Compile Include="Emision\ActualizaDireccion.UserCode.cs">
+      <BoundTo>bb8664e3-6746-4bda-ba3d-b19ad1960e68</BoundTo>
+      <DependentUpon>ActualizaDireccion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6e98049a-3598-4518-9ac1-bde72ff21094</id>
+    </Compile>
     <Compile Include="Emision\ConductoresCtaAnonima.cs">
       <BoundTo>c59a3c3a-91ba-4e37-95a9-52fa0760d1bc</BoundTo>
       <DependentUpon>ConductoresCtaAnonima.rxrec</DependentUpon>
@@ -459,6 +483,18 @@
       <DependentUpon>EmisionPolizaAP_Retroactiva.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>65c45f18-3000-4ec3-9cd9-69994a81d262</id>
+    </Compile>
+    <Compile Include="Emision\EmisionPolizaCtaAnonima.cs">
+      <BoundTo>b896b22a-5739-4346-8e18-516805cf9b60</BoundTo>
+      <DependentUpon>EmisionPolizaCtaAnonima.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6c0cade0-4d26-4374-ae53-c491cdab7b6d</id>
+    </Compile>
+    <Compile Include="Emision\EmisionPolizaCtaAnonima.UserCode.cs">
+      <BoundTo>b896b22a-5739-4346-8e18-516805cf9b60</BoundTo>
+      <DependentUpon>EmisionPolizaCtaAnonima.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c3774186-2d9b-4b07-ba5b-38a47db35601</id>
     </Compile>
     <Compile Include="Emision\EmitirHogar_Retroactiva.cs">
       <BoundTo>b86145d0-4c1b-40fd-86e0-9ab8ca99d65d</BoundTo>
@@ -711,6 +747,18 @@
       <DependentUpon>PolizasVigentesOtroGrupoComercial.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>5d46ed39-2f10-49b3-ac82-ee49087b0abc</id>
+    </Compile>
+    <Compile Include="Emision\SeleccionaDireccion.cs">
+      <BoundTo>43a09845-b9cd-4f9d-86f7-5f20090e4cce</BoundTo>
+      <DependentUpon>SeleccionaDireccion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bbbcce78-7988-4bcc-ada6-8bda8e36666e</id>
+    </Compile>
+    <Compile Include="Emision\SeleccionaDireccion.UserCode.cs">
+      <BoundTo>43a09845-b9cd-4f9d-86f7-5f20090e4cce</BoundTo>
+      <DependentUpon>SeleccionaDireccion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eaa9dfcb-c6af-42d2-9398-0b33ba7a544d</id>
     </Compile>
     <Compile Include="Emision\Selecciona_CodigoAgente.cs">
       <BoundTo>5f98815b-b102-4162-873b-5c4a99d36321</BoundTo>
@@ -3112,7 +3160,7 @@
       <BoundTo>39fa15ad-4131-4223-a98f-ca1c53641d5e</BoundTo>
       <DependentUpon>PC.rxtst</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>c6cd5d53-a7a1-4b17-a945-d00f2bde53d7</id>
+      <id>de02c89d-466b-402b-ba09-89481e19768a</id>
     </Content>
     <None Include="Emision\AccesorioConMovilidad.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -3163,6 +3211,16 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>361d3ece-6cc0-4562-b93a-ea8c971834a5</id>
       <recordtableid>3767acfb-e438-4103-9a60-a73c329f95ab</recordtableid>
+    </None>
+    <None Include="Emision\ComisionesCtaAnonima.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>1f910585-d9f2-456b-bd36-f874dd4553d4</id>
+      <recordtableid>20a5b012-4bf7-4dce-8c52-9802ff939248</recordtableid>
+    </None>
+    <None Include="Emision\ActualizaDireccion.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>bb8664e3-6746-4bda-ba3d-b19ad1960e68</id>
+      <recordtableid>f2b82dd8-0806-4ba0-87ea-b1fd961e164a</recordtableid>
     </None>
     <None Include="Emision\ConductoresCtaAnonima.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -3233,6 +3291,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>25cb4115-5d1b-47b4-96be-22cf1e6aa2b6</id>
       <recordtableid>8478a237-b0bb-4409-b5e0-0ea65be74dee</recordtableid>
+    </None>
+    <None Include="Emision\EmisionPolizaCtaAnonima.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>b896b22a-5739-4346-8e18-516805cf9b60</id>
+      <recordtableid>89675adb-00c0-4227-a2e9-dd6690ed39f5</recordtableid>
     </None>
     <None Include="Emision\EmitirHogar_Retroactiva.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
@@ -3338,6 +3401,11 @@
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
       <id>35424f94-f43f-48a8-8cac-bb2b9b3c179d</id>
       <recordtableid>5d8a2599-76d6-425c-8163-6424fe941388</recordtableid>
+    </None>
+    <None Include="Emision\SeleccionaDireccion.rxrec">
+      <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>
+      <id>43a09845-b9cd-4f9d-86f7-5f20090e4cce</id>
+      <recordtableid>b578dea9-0a16-49a5-97cf-ab2054d90ba8</recordtableid>
     </None>
     <None Include="Emision\Selecciona_CodigoAgente.rxrec">
       <BoundTo>3d744e8f-7137-4408-b8c3-ace15b107b6b</BoundTo>

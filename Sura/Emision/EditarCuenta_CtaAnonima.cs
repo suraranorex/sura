@@ -41,6 +41,8 @@ namespace Sura.Emision
         /// </summary>
         public EditarCuenta_CtaAnonima()
         {
+            NroDocumento = "32145234";
+            TextoSeleccionar = "";
         }
 
         /// <summary>
@@ -53,6 +55,18 @@ namespace Sura.Emision
 
 #region Variables
 
+        string _TextoSeleccionar;
+
+        /// <summary>
+        /// Gets or sets the value of variable TextoSeleccionar.
+        /// </summary>
+        [TestVariable("9082dd69-ec83-4e76-acc1-cfe822433dd9")]
+        public string TextoSeleccionar
+        {
+            get { return _TextoSeleccionar; }
+            set { _TextoSeleccionar = value; }
+        }
+
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
         /// </summary>
@@ -61,6 +75,16 @@ namespace Sura.Emision
         {
             get { return repo.Ambiente; }
             set { repo.Ambiente = value; }
+        }
+
+        /// <summary>
+        /// Gets or sets the value of variable NroDocumento.
+        /// </summary>
+        [TestVariable("91eac8d1-e373-4259-9cd3-009bae16119c")]
+        public string NroDocumento
+        {
+            get { return repo.NroDocumento; }
+            set { repo.NroDocumento = value; }
         }
 
 #endregion
@@ -89,16 +113,46 @@ namespace Sura.Emision
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.bttn_ValidarDocumento' at Center.", repo.SURA.bttn_ValidarDocumentoInfo, new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaAP.Personas.txt_nroDocumentoCtaAnonimaAnswer' at Center.", repo.SURA.PC.Emision.PolizaAP.Personas.txt_nroDocumentoCtaAnonimaAnswerInfo, new RecordItemIndex(0));
+            repo.SURA.PC.Emision.PolizaAP.Personas.txt_nroDocumentoCtaAnonimaAnswer.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}' with focus on 'SURA.PC.Emision.PolizaAP.Personas.txt_nroDocumentoCtaAnonimaAnswer'.", repo.SURA.PC.Emision.PolizaAP.Personas.txt_nroDocumentoCtaAnonimaAnswerInfo, new RecordItemIndex(1));
+            repo.SURA.PC.Emision.PolizaAP.Personas.txt_nroDocumentoCtaAnonimaAnswer.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NroDocumento' with focus on 'SURA.PC.Emision.PolizaAP.Personas.txt_nroDocumentoCtaAnonimaAnswer'.", repo.SURA.PC.Emision.PolizaAP.Personas.txt_nroDocumentoCtaAnonimaAnswerInfo, new RecordItemIndex(2));
+            repo.SURA.PC.Emision.PolizaAP.Personas.txt_nroDocumentoCtaAnonimaAnswer.PressKeys(NroDocumento);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_Identificacion' at Center.", repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_IdentificacionInfo, new RecordItemIndex(3));
+            repo.SURA.PC.Emision.PolizaMotor.CoberturasAdicionales.lbl_Identificacion.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.PC.Emision.PolizaAP.Personas.Copy_of_txt_nroDocumentoCtaAnonimaAnswer'", repo.SURA.PC.Emision.PolizaAP.Personas.Copy_of_txt_nroDocumentoCtaAnonimaAnswerInfo, new ActionTimeout(30000), new RecordItemIndex(4));
+            repo.SURA.PC.Emision.PolizaAP.Personas.Copy_of_txt_nroDocumentoCtaAnonimaAnswerInfo.WaitForNotExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.bttn_ValidarDocumento' at Center.", repo.SURA.bttn_ValidarDocumentoInfo, new RecordItemIndex(5));
             repo.SURA.bttn_ValidarDocumento.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Arrow_Select_ProvinciaCtaAnonima' at Center.", repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Arrow_Select_ProvinciaCtaAnonimaInfo, new RecordItemIndex(1));
-            repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Arrow_Select_ProvinciaCtaAnonima.Click();
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Wait", "(Optional Action)\r\nWaiting 10s to exist. Associated repository item: 'SURA_ContinueOnFail.lbl_VerifiedAddress_COF'", repo.SURA_ContinueOnFail.lbl_VerifiedAddress_COFInfo, new ActionTimeout(10000), new RecordItemIndex(6));
+                repo.SURA_ContinueOnFail.lbl_VerifiedAddress_COFInfo.WaitForExists(10000);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(6)); }
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txt_ProvinciaCtaAnonima'", repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txt_ProvinciaCtaAnonimaInfo, new ActionTimeout(30000), new RecordItemIndex(2));
-            repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txt_ProvinciaCtaAnonimaInfo.WaitForExists(30000);
+            try {
+                Report.Log(ReportLevel.Info, "Get Value", "(Optional Action)\r\nGetting attribute 'InnerText' from item 'SURA_ContinueOnFail.Lnk_Seleccionar_COF' and assigning its value to variable 'TextoSeleccionar'.", repo.SURA_ContinueOnFail.Lnk_Seleccionar_COFInfo, new RecordItemIndex(7));
+                TextoSeleccionar = repo.SURA_ContinueOnFail.Lnk_Seleccionar_COF.Element.GetAttributeValueText("InnerText");
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Arrow_Select_ProvinciaCtaAnonima' at Center.", repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Arrow_Select_ProvinciaCtaAnonimaInfo, new RecordItemIndex(8));
+            //repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.Arrow_Select_ProvinciaCtaAnonima.Click();
+            //Delay.Milliseconds(0);
+            
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txt_ProvinciaCtaAnonima'", repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txt_ProvinciaCtaAnonimaInfo, new ActionTimeout(30000), new RecordItemIndex(9));
+            //repo.SURA.PC.Emision.PolizaMotor.InformacionDePoliza.txt_ProvinciaCtaAnonimaInfo.WaitForExists(30000);
             
         }
 
