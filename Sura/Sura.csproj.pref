@@ -1,40 +1,16 @@
 ﻿<Properties>
   <Array name="active">
-<<<<<<< HEAD
-    <Element value="PC_GestionDocumental.rxtst" />
+    <Element value="Validaciones\Validar_PorgramaDePagos.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="PC_GestionDocumental.rxtst" />
-=======
-    <Element value="PC.rxtst" />
-  </Array>
-  <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="PC.rxtst" />
-    <Element value="Emision\EditarCuenta_CtaAnonima.rxrec" />
-    <Element value="Emision\SeleccionaDireccion.rxrec" />
-    <Element value="Emision\CompletaDireccion.rxrec" />
-    <Element value="Emision\EmisionPolizaCtaAnonima.rxrec" />
->>>>>>> bf742f5d9634e9111a638408e409c86f09e5120f
+    <Element value="Validaciones\Validar_PorgramaDePagos.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
-    <Array name="recentusercodeselections">
-<<<<<<< HEAD
-      <Element value="Sura.GestionDocumental.VerFormularios.manejarFormulario()" />
-=======
-      <Element value="Sura.Emision.EmisionPoliza.AprobacionBloqueo()" />
-      <Element value="Sura.Emision.Accesorios_VariosAutos.restarCantAutos()" />
-      <Element value="Sura.Generales.UC_Generales.manejarFormulario(String directorio, String nombreArchivo, String numeroPoliza)" />
->>>>>>> bf742f5d9634e9111a638408e409c86f09e5120f
-      <Element value="Sura.Generales.UC_Generales.fileCheck()" />
-      <Element value="Sura.Generales.UC_Generales.manejarFormulario(String directorio, String nombreArchivo, String numeroPoliza)" />
-      <Element value="Sura.Emision.Accesorios_VariosAutos.restarCantAutos()" />
-      <Element value="Sura.GestionDocumental.Descargar_TarjCirc.manejarFormulario()" />
-      <Element value="Sura.Generales.UC_Generales.verificarDirectorio(String directorio, String numeroPoliza)" />
-    </Array>
+    <Array name="recentusercodeselections" />
   </Properties>
 </Properties>
