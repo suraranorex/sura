@@ -4,16 +4,15 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="Emision\VehiculosFlota_Parte2.rxrec" />
     <Element value="PC_GestionDocumental.rxtst" />
     <Element value="BC.rxtst" />
     <Element value="PC.rxtst" />
-    <Element value="Emision\EditarCuenta_CtaAnonima.rxrec" />
-    <Element value="Emision\Cant_Cuotas.rxrec" />
     <Element value="Emision\EmisionPolizaCtaAnonima.rxrec" />
-    <Element value="Emision\NuevaPolizaMotor.rxrec" />
-    <Element value="Emision\EmisionPoliza.rxrec" />
-    <Element value="Emision\SeleccionaDireccion.rxrec" />
-    <Element value="Emision\ComisionesCtaAnonima.rxrec" />
+    <Element value="Emision\EditarCuenta_CtaAnonima.rxrec" />
+    <Element value="Menu\MenuSuperior_BusquedaPoliza.rxrec" />
   </Array>
-  <Properties name="projectSavedData" />
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
 </Properties>
