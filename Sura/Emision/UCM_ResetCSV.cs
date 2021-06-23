@@ -70,10 +70,10 @@ namespace Sura.Emision
             	switch (ejec)
             	{
             		case "EmisiónAP_Nomina/Parte2":
-            			resetFileCSV(@"R:\TEMP\Nomina.csv", cabecera);
+            			resetFileCSV(@"C:\TEMP\Nomina.csv", cabecera);
             			break;
             		case "EmisiónMotor_Flota/Parte2":
-            			resetFileCSV(@"R:\TEMP\Flota.csv", cabecera);
+            			resetFileCSV(@"C:\TEMP\Flota.csv", cabecera);
             			break;
             	}
             }

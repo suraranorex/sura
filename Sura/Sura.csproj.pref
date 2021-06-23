@@ -1,5 +1,6 @@
 ﻿<Properties>
   <Array name="active">
+<<<<<<< HEAD
     <Element value="Validaciones\Validar_PorgramaDePagos.rxrec" />
   </Array>
   <Array name="bookmarks" />
@@ -11,6 +12,21 @@
     <Properties name="customTool">
       <runOnBuild value="False" />
     </Properties>
+=======
+    <Element value="PC.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Emision\VehiculosFlota_Parte2.rxrec" />
+    <Element value="PC_GestionDocumental.rxtst" />
+    <Element value="BC.rxtst" />
+    <Element value="PC.rxtst" />
+    <Element value="Emision\EmisionPolizaCtaAnonima.rxrec" />
+    <Element value="Emision\EditarCuenta_CtaAnonima.rxrec" />
+    <Element value="Menu\MenuSuperior_BusquedaPoliza.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+>>>>>>> 67a7dfd0d3f54430f15bef8fcd11d87383c148e7
     <Array name="recentusercodeselections" />
   </Properties>
 </Properties>

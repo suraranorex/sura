@@ -26,7 +26,7 @@ mode="Global">
 		<var
 		id="d912ff45-ad6d-4995-aedf-650a986d83ae"
 		name="Franquicia">
-			$ 10.000
+			$ 15.000
 		</var>
 	</variables>
 	<recorditems>
@@ -129,6 +129,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']/table/tbody/tr[4]//table/tbody/tr[3]/td/div/div[2]/div/table//td/?/?/table/tbody/tr[3]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[4]/td/div/div/div/div[1]/input[@name='SubmissionWizard:LOBWizardStepGroup:LineWizardStepSet:CA7VehicleListScreen:CA7VehiclePanelSet:CA7VehicleLDP:CA7VehicleCV:CA7BasicVehicleInfoDV:Franquicia']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<getvaluerecorditem
@@ -147,6 +149,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//label/span[@innertext~'Franquicia']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<loggingrecorditem
@@ -196,6 +200,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//div[#'SubmissionWizard/VehicleList']//label[@innertext='Información del vehículo']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<explicitdelayitem
@@ -223,6 +229,8 @@ mode="Global">
 				<path>
 					/dom[@domain=$Ambiente]//label/span[@innertext='Franquicia']/../..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 	</recorditems>
